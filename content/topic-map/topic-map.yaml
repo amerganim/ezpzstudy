@@ -1,0 +1,179 @@
+# EZPZ Study -- HSC topic map (Phase 0 draft)
+#
+# STATUS: DRAFT. The topic *categories* below reflect the well-known, structurally
+# stable HSC English 1st & 2nd Paper pattern. The `weight` numbers are ILLUSTRATIVE
+# PLACEHOLDERS ONLY -- they must be replaced with the actual current-year board
+# question-pattern / marks-distribution document, confirmed by the recruited teachers,
+# before this feeds Phase 2's "Predicted Board Score." Do not treat weights as
+# authoritative until a teacher has signed off (see docs/master-plan.md Phase 0).
+#
+# `remedial` lists SSC-level prerequisite topics that feed an HSC topic. In the app
+# these are only ever surfaced as "Focus Area: <topic>", never labeled by class level
+# (product philosophy: weak students must never see remediation as lower-class content).
+
+schema_version: "1.0.0-draft"
+
+paper_1st:
+  section: reading
+  topics:
+    - id: seen_comprehension
+      label_en: Seen comprehension (MCQ / short question / summary / title)
+      weight: 20          # PLACEHOLDER -- confirm against current board pattern
+    - id: cloze_with_clues
+      label_en: Cloze test with clues
+      weight: 5           # PLACEHOLDER
+      remedial: [ssc_vocabulary_basics]
+    - id: cloze_without_clues
+      label_en: Cloze test without clues
+      weight: 5           # PLACEHOLDER
+      remedial: [ssc_vocabulary_basics]
+    - id: rearranging_sentences
+      label_en: Rearranging sentences into a paragraph
+      weight: 5           # PLACEHOLDER
+      remedial: [ssc_paragraph_order_basics]
+    - id: matching
+      label_en: Matching (halves of sentences)
+      weight: 5           # PLACEHOLDER
+    - id: gap_filling_clues
+      label_en: Gap filling with clues
+      weight: 5           # PLACEHOLDER
+      remedial: [ssc_vocabulary_basics]
+    - id: summarizing
+      label_en: Summarizing a passage
+      weight: 10          # PLACEHOLDER
+    - id: graph_chart_description
+      label_en: Graph / chart description
+      weight: 10          # PLACEHOLDER
+    - id: flow_chart_completion
+      label_en: Flow chart / form completion
+      weight: 5           # PLACEHOLDER
+
+paper_1st_writing:
+  section: guided_writing
+  topics:
+    - id: paragraph_writing_1p
+      label_en: Paragraph writing (1st Paper style, source-based)
+      weight: 10          # PLACEHOLDER
+    - id: composition_completion
+      label_en: Composition / passage completion
+      weight: 10          # PLACEHOLDER
+
+paper_2nd_grammar:
+  section: grammar
+  note: >
+    Highest marks-per-effort, 100% auto-gradable -- Phase 4 content priority #1.
+  topics:
+    - id: tense
+      label_en: Tense
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_tense_basics]
+    - id: right_form_of_verb
+      label_en: Right form of verbs
+      weight: 5           # PLACEHOLDER
+      remedial: [ssc_verb_forms]
+    - id: subject_verb_agreement
+      label_en: Subject-verb agreement
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_sva_basics]
+    - id: voice
+      label_en: Voice (active/passive)
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_voice_basics]
+    - id: narration
+      label_en: Narration (direct/indirect speech)
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_narration_basics]
+    - id: preposition
+      label_en: Preposition
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_preposition_basics]
+    - id: connectors
+      label_en: Connectors / linking words
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_connector_basics]
+    - id: tag_questions
+      label_en: Tag questions
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_tag_question_basics]
+    - id: sentence_transformation
+      label_en: Transformation of sentences
+      weight: 5           # PLACEHOLDER
+      remedial: [ssc_sentence_basics]
+    - id: punctuation
+      label_en: Punctuation
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_punctuation_basics]
+    - id: articles
+      label_en: Articles
+      weight: 4           # PLACEHOLDER
+      remedial: [ssc_article_basics]
+      note: "Added beyond the master plan's explicit grammar list because it's commonly tested -- flag for teacher confirmation on relevance/weight."
+
+paper_2nd_writing:
+  section: writing
+  topics:
+    - id: paragraph_writing_2p
+      label_en: Paragraph writing (2nd Paper style)
+      weight: 10          # PLACEHOLDER
+    - id: essay_writing
+      label_en: Essay writing
+      weight: 10          # PLACEHOLDER
+    - id: application_letter
+      label_en: Application / letter
+      weight: 10          # PLACEHOLDER
+    - id: formal_letter
+      label_en: Formal letter
+      weight: 5           # PLACEHOLDER
+    - id: informal_letter
+      label_en: Informal letter
+      weight: 5           # PLACEHOLDER
+    - id: email_writing
+      label_en: Email writing
+      weight: 5           # PLACEHOLDER
+    - id: cv_writing
+      label_en: CV writing
+      weight: 5           # PLACEHOLDER
+    - id: dialogue_writing
+      label_en: Dialogue writing
+      weight: 5           # PLACEHOLDER
+    - id: report_writing
+      label_en: Report writing
+      weight: 5           # PLACEHOLDER
+
+cross_cutting:
+  section: vocabulary
+  topics:
+    - id: vocabulary_hsc_words
+      label_en: High-frequency HSC vocabulary
+      weight: 0           # Not board-marks-weighted directly; feeds flashcards/SRS, not a Predicted Score input
+      paper: both
+
+# SSC-level remedial prerequisite topics referenced above by id.
+# Surfaced in-app only as "Focus Area: <topic>" -- never labeled by class level.
+remedial_topics:
+  - id: ssc_tense_basics
+    label_en: Basics of tense forms
+  - id: ssc_verb_forms
+    label_en: Basic verb forms (V1-V5)
+  - id: ssc_sva_basics
+    label_en: Basic subject-verb agreement rules
+  - id: ssc_voice_basics
+    label_en: Basic active/passive voice rules
+  - id: ssc_narration_basics
+    label_en: Basic direct/indirect speech rules
+  - id: ssc_preposition_basics
+    label_en: Common preposition usage
+  - id: ssc_connector_basics
+    label_en: Basic linking words
+  - id: ssc_tag_question_basics
+    label_en: Basic tag question rules
+  - id: ssc_sentence_basics
+    label_en: Basic sentence types and structure
+  - id: ssc_punctuation_basics
+    label_en: Basic punctuation rules
+  - id: ssc_article_basics
+    label_en: Basic article usage (a/an/the)
+  - id: ssc_vocabulary_basics
+    label_en: Core vocabulary and word meanings
+  - id: ssc_paragraph_order_basics
+    label_en: Basic paragraph/sentence ordering logic

@@ -1,0 +1,39 @@
+{
+  "$id": "https://ezpzstudy.local/schema/content-pack-schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EZPZ Study Content Pack",
+  "description": "Schema for content_pack_v{N}.json (root, an array of questions) and manifest_v{N}.json (via $defs/manifest).",
+  "type": "array",
+  "minItems": 1,
+  "items": { "$ref": "question-schema.json#" },
+  "$defs": {
+    "manifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pack_version", "schema_version", "generated_at", "source_file",
+        "source_sha256", "pack_sha256", "counts", "errors", "warnings"
+      ],
+      "properties": {
+        "pack_version": { "type": "integer", "minimum": 1 },
+        "schema_version": { "type": "string" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "source_file": { "type": "string" },
+        "source_sha256": { "type": "string" },
+        "pack_sha256": { "type": "string" },
+        "counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["total", "by_type", "by_paper"],
+          "properties": {
+            "total": { "type": "integer", "minimum": 0 },
+            "by_type": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+            "by_paper": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+          }
+        },
+        "errors": { "type": "integer", "minimum": 0 },
+        "warnings": { "type": "integer", "minimum": 0 }
+      }
+    }
+  }
+}

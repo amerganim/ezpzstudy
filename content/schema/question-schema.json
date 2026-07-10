@@ -1,0 +1,286 @@
+{
+  "$id": "https://ezpzstudy.local/schema/question-schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EZPZ Study Question",
+  "description": "Envelope + per-type data for a single question in the EZPZ Study content pack.",
+  "type": "object",
+  "required": [
+    "id", "type", "paper", "topic", "difficulty", "marks_weight",
+    "instruction_bn", "explanation_bn", "review_status", "author", "data"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+\\.[a-z_]+\\.[a-z0-9_-]+$",
+      "description": "Global id, namespaced as {paper_code}.{type}.{teacher_id}, e.g. p2.mcq.tense-01"
+    },
+    "type": {
+      "enum": [
+        "flashcard", "mcq", "fill_in_word_bank", "fill_in_open",
+        "matching", "rearranging", "grammar_transformation",
+        "comprehension_set", "writing_prompt"
+      ]
+    },
+    "paper": { "enum": ["1st", "2nd"] },
+    "topic": { "type": "string", "minLength": 1 },
+    "subtopic": { "type": "string" },
+    "difficulty": { "enum": ["easy", "medium", "hard"] },
+    "marks_weight": { "type": "number", "exclusiveMinimum": 0 },
+    "tags": { "type": "array", "items": { "type": "string" }, "default": [] },
+    "instruction_bn": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short Bangla instruction shown before the question. UI stays Bangla-first; data stays English."
+    },
+    "explanation_bn": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One-line Bangla rule explanation shown on a wrong answer. Never just \"Wrong\" -- product philosophy requirement."
+    },
+    "review_status": {
+      "enum": ["draft", "reviewed", "published"],
+      "default": "draft",
+      "description": "Lightweight QA gate. The build script can filter to published-only without needing a CMS."
+    },
+    "author": { "type": "string", "minLength": 1 },
+    "data": {
+      "description": "Type-specific fields. Shape is constrained per `type` by the allOf/if/then rules below."
+    }
+  },
+  "allOf": [
+    { "if": { "properties": { "type": { "const": "flashcard" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataFlashcard" } } } },
+    { "if": { "properties": { "type": { "const": "mcq" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataMcq" } } } },
+    { "if": { "properties": { "type": { "const": "fill_in_word_bank" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataFillInWordBank" } } } },
+    { "if": { "properties": { "type": { "const": "fill_in_open" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataFillInOpen" } } } },
+    { "if": { "properties": { "type": { "const": "matching" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataMatching" } } } },
+    { "if": { "properties": { "type": { "const": "rearranging" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataRearranging" } } } },
+    { "if": { "properties": { "type": { "const": "grammar_transformation" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataGrammarTransformation" } } } },
+    { "if": { "properties": { "type": { "const": "comprehension_set" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataComprehensionSet" } } } },
+    { "if": { "properties": { "type": { "const": "writing_prompt" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataWritingPrompt" } } } }
+  ],
+  "$defs": {
+    "dataFlashcard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["front_en", "back_bn"],
+      "properties": {
+        "front_en": { "type": "string", "minLength": 1 },
+        "back_bn": { "type": "string", "minLength": 1 },
+        "example_sentence_en": { "type": "string" },
+        "part_of_speech": {
+          "enum": ["noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "interjection"]
+        },
+        "synonym": { "type": "string" },
+        "antonym": { "type": "string" }
+      }
+    },
+    "dataMcq": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question_en", "options", "correct_option"],
+      "properties": {
+        "question_en": { "type": "string", "minLength": 1 },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["key", "text_en"],
+            "properties": {
+              "key": { "type": "string", "pattern": "^[A-Z]$" },
+              "text_en": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "correct_option": { "type": "string", "pattern": "^[A-Z]$" }
+      }
+    },
+    "dataFillInWordBank": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sentence_en", "word_bank", "blanks"],
+      "properties": {
+        "sentence_en": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Contains {{1}}, {{2}}, ... markers for each blank."
+        },
+        "word_bank": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "blanks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["blank_id", "correct_answer"],
+            "properties": {
+              "blank_id": { "type": "string" },
+              "correct_answer": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "dataFillInOpen": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sentence_en", "accepted_answers"],
+      "properties": {
+        "sentence_en": { "type": "string", "minLength": 1 },
+        "accepted_answers": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "fuzzy_tolerance": {
+          "type": "integer", "minimum": 0, "maximum": 3, "default": 1,
+          "description": "Max Levenshtein distance still counted correct. Resolved at build time so Dart never needs a second config source."
+        },
+        "case_sensitive": { "type": "boolean", "default": false }
+      }
+    },
+    "dataMatching": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["left_items", "right_items", "correct_pairs"],
+      "properties": {
+        "left_items": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["id", "text_en"],
+            "properties": { "id": { "type": "string" }, "text_en": { "type": "string", "minLength": 1 } }
+          }
+        },
+        "right_items": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["id", "text_en"],
+            "properties": { "id": { "type": "string" }, "text_en": { "type": "string", "minLength": 1 } }
+          }
+        },
+        "correct_pairs": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["left_id", "right_id"],
+            "properties": { "left_id": { "type": "string" }, "right_id": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "dataRearranging": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit_type", "units", "correct_order"],
+      "properties": {
+        "unit_type": { "enum": ["word", "sentence"] },
+        "units": {
+          "type": "array", "minItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["id", "text_en"],
+            "properties": { "id": { "type": "string" }, "text_en": { "type": "string", "minLength": 1 } }
+          }
+        },
+        "correct_order": {
+          "type": "array", "minItems": 2,
+          "items": { "type": "string" },
+          "description": "App scrambles display order at render time; this is the answer key only."
+        }
+      }
+    },
+    "dataGrammarTransformation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["transformation_type", "original_sentence_en", "accepted_answers"],
+      "properties": {
+        "transformation_type": {
+          "enum": [
+            "voice", "narration", "tag_question", "connector", "preposition",
+            "punctuation", "degree", "sentence_combination", "other"
+          ]
+        },
+        "original_sentence_en": { "type": "string", "minLength": 1 },
+        "accepted_answers": {
+          "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 },
+          "description": "2-3 valid transformed forms are common for voice/narration."
+        },
+        "fuzzy_tolerance": { "type": "integer", "minimum": 0, "maximum": 3, "default": 2 },
+        "case_sensitive": { "type": "boolean", "default": false }
+      }
+    },
+    "dataComprehensionSet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passage_en", "passage_source", "sub_questions"],
+      "properties": {
+        "passage_en": { "type": "string", "minLength": 1 },
+        "passage_source": {
+          "enum": ["original", "adapted"],
+          "description": "Never copy board papers verbatim -- original or adapted-in-same-style only."
+        },
+        "sub_questions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/subQuestion" }
+        }
+      }
+    },
+    "subQuestion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "type", "data"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["mcq", "fill_in_word_bank", "fill_in_open", "matching"] },
+        "topic": { "type": "string", "description": "Overrides parent topic if set; otherwise inherits it." },
+        "subtopic": { "type": "string" },
+        "instruction_bn": { "type": "string" },
+        "explanation_bn": { "type": "string" },
+        "data": {}
+      },
+      "allOf": [
+        { "if": { "properties": { "type": { "const": "mcq" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataMcq" } } } },
+        { "if": { "properties": { "type": { "const": "fill_in_word_bank" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataFillInWordBank" } } } },
+        { "if": { "properties": { "type": { "const": "fill_in_open" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataFillInOpen" } } } },
+        { "if": { "properties": { "type": { "const": "matching" } } }, "then": { "properties": { "data": { "$ref": "#/$defs/dataMatching" } } } }
+      ]
+    },
+    "dataWritingPrompt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["writing_type", "prompt_en", "model_answer_en", "rubric_checklist"],
+      "properties": {
+        "writing_type": {
+          "enum": [
+            "paragraph", "essay", "application", "letter_formal", "letter_informal",
+            "email", "cv", "dialogue", "report"
+          ]
+        },
+        "prompt_en": { "type": "string", "minLength": 1 },
+        "word_limit": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "min": { "type": "integer", "minimum": 0 },
+            "max": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "model_answer_en": { "type": "string", "minLength": 1 },
+        "rubric_checklist": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "criterion_bn"],
+            "properties": {
+              "id": { "type": "string" },
+              "criterion_bn": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

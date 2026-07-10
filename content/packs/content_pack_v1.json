@@ -1,0 +1,754 @@
+[
+  {
+    "id": "p1.comprehension_set.passage-village-fair",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "seen_comprehension",
+    "difficulty": "medium",
+    "marks_weight": 6,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে নিচের প্রশ্নগুলোর উত্তর দাও",
+    "explanation_bn": "প্রতিটি উপ-প্রশ্নের নিজস্ব ব্যাখ্যা নিচে দেওয়া আছে।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "passage_en": "Once a year, a big fair is held in Bishpur village. Villagers from nearby areas gather there to buy and sell various things. Toys, sweets, and handicrafts are sold at the fair. Folk singers perform songs, and children enjoy merry-go-rounds. The fair usually starts in the morning and continues till late evening. It brings joy and a sense of togetherness to the whole village.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "q1",
+          "type": "mcq",
+          "data": {
+            "question_en": "Where is the fair held?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "Bishpur village"
+              },
+              {
+                "key": "B",
+                "text_en": "Dhaka city"
+              },
+              {
+                "key": "C",
+                "text_en": "Chittagong"
+              },
+              {
+                "key": "D",
+                "text_en": "Sylhet"
+              }
+            ],
+            "correct_option": "A"
+          },
+          "instruction_bn": "সঠিক উত্তর বেছে নাও",
+          "explanation_bn": "অনুচ্ছেদের প্রথম বাক্যে গ্রামের নাম উল্লেখ আছে।"
+        },
+        {
+          "id": "q2",
+          "type": "fill_in_open",
+          "data": {
+            "sentence_en": "What do folk singers do at the fair?",
+            "accepted_answers": [
+              "perform songs",
+              "sing songs",
+              "sing"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          },
+          "instruction_bn": "এক কথায় উত্তর লেখো",
+          "explanation_bn": "অনুচ্ছেদে বলা হয়েছে, folk singers গান পরিবেশন করেন।"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.rearr-01",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "rearranging_sentences",
+    "difficulty": "medium",
+    "marks_weight": 2,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলোকে সঠিক ক্রমে সাজাও",
+    "explanation_bn": "একটি অনুচ্ছেদের বাক্যগুলো সময়ের ক্রম (order of events) অনুসারে সাজাতে হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "Yesterday it rained heavily in Dhaka."
+        },
+        {
+          "id": "U2",
+          "text_en": "The streets were flooded with water."
+        },
+        {
+          "id": "U3",
+          "text_en": "Many people faced difficulty going to work."
+        },
+        {
+          "id": "U4",
+          "text_en": "By evening, the rain finally stopped."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4"
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_open.rfv-01",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "right_form_of_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর ক্রিয়াপদের সঠিক রূপ লেখো",
+    "explanation_bn": "শর্তসাপেক্ষ (conditional) বাক্যে 'if' এর পর কাল্পনিক অবস্থা বোঝাতে 'were' ব্যবহার হয়, 'was' নয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "If I ___ (be) you, I would study harder.",
+      "accepted_answers": [
+        "were"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.rfv-02",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "right_form_of_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর ক্রিয়াপদের সঠিক রূপ লেখো",
+    "explanation_bn": "Present Perfect Tense-এ verb-এর V3 (past participle) রূপ ব্যবহার হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "She has ___ (finish) her assignment already.",
+      "accepted_answers": [
+        "finished"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.rfv-03",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "right_form_of_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর ক্রিয়াপদের সঠিক রূপ লেখো",
+    "explanation_bn": "Passive Voice-এ Past Simple বোঝাতে 'was/were + V3' ব্যবহার হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "The Padma Bridge ___ (build) in 2022.",
+      "accepted_answers": [
+        "was built"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.prep-fiwb-01",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক preposition বেছে খালি ঘর পূরণ করো",
+    "explanation_bn": "'Good at' একটি fixed preposition phrase, দক্ষতা বোঝাতে ব্যবহৃত হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "He is good {{1}} mathematics.",
+      "word_bank": [
+        "at",
+        "in",
+        "on",
+        "of"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "at"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.prep-fiwb-02",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক preposition বেছে খালি ঘর পূরণ করো",
+    "explanation_bn": "'Famous for' একটি fixed preposition phrase, কোনো কিছুর জন্য পরিচিতি বোঝাতে ব্যবহৃত হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "Dhaka is famous {{1}} its rich culture.",
+      "word_bank": [
+        "for",
+        "of",
+        "with",
+        "about"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "for"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.tense-fiwb-01",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ বেছে খালি ঘর পূরণ করো",
+    "explanation_bn": "নিয়মিত/অভ্যাসগত কাজ বোঝাতে Present Indefinite Tense (verb + s/es) ব্যবহার হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "She {{1}} to school every day.",
+      "word_bank": [
+        "goes",
+        "go",
+        "going",
+        "gone"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "goes"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.tense-fiwb-02",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ বেছে খালি ঘর পূরণ করো",
+    "explanation_bn": "অতীতে চলমান একটি কাজ বোঝাতে Past Continuous Tense (was/were + V-ing) ব্যবহার হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "sentence_en": "They {{1}} football when it started to rain.",
+      "word_bank": [
+        "played",
+        "were playing",
+        "play",
+        "plays"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "were playing"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.flashcard.vocab-01",
+    "type": "flashcard",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ ও ব্যবহার শেখো",
+    "explanation_bn": "Abundant একটি বিশেষণ (adjective), অর্থ 'প্রচুর'।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "front_en": "Abundant",
+      "back_bn": "প্রচুর",
+      "example_sentence_en": "Bangladesh has abundant water resources.",
+      "part_of_speech": "adjective",
+      "synonym": "plentiful",
+      "antonym": "scarce"
+    }
+  },
+  {
+    "id": "p2.flashcard.vocab-02",
+    "type": "flashcard",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ ও ব্যবহার শেখো",
+    "explanation_bn": "Diligent একটি বিশেষণ, অর্থ 'পরিশ্রমী'।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "front_en": "Diligent",
+      "back_bn": "পরিশ্রমী",
+      "example_sentence_en": "A diligent student never wastes time.",
+      "part_of_speech": "adjective",
+      "synonym": "hardworking",
+      "antonym": "lazy"
+    }
+  },
+  {
+    "id": "p2.flashcard.vocab-03",
+    "type": "flashcard",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ ও ব্যবহার শেখো",
+    "explanation_bn": "Reluctant একটি বিশেষণ, অর্থ 'অনিচ্ছুক'।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "front_en": "Reluctant",
+      "back_bn": "অনিচ্ছুক",
+      "example_sentence_en": "He was reluctant to answer the question.",
+      "part_of_speech": "adjective",
+      "synonym": "unwilling",
+      "antonym": "eager"
+    }
+  },
+  {
+    "id": "p2.flashcard.vocab-04",
+    "type": "flashcard",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ ও ব্যবহার শেখো",
+    "explanation_bn": "Generous একটি বিশেষণ, অর্থ 'উদার'।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "front_en": "Generous",
+      "back_bn": "উদার",
+      "example_sentence_en": "She is generous to the poor.",
+      "part_of_speech": "adjective",
+      "synonym": "kind",
+      "antonym": "selfish"
+    }
+  },
+  {
+    "id": "p2.flashcard.vocab-05",
+    "type": "flashcard",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ ও ব্যবহার শেখো",
+    "explanation_bn": "Benevolent একটি বিশেষণ, অর্থ 'দয়ালু'।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "front_en": "Benevolent",
+      "back_bn": "দয়ালু",
+      "example_sentence_en": "The benevolent king helped his people.",
+      "part_of_speech": "adjective",
+      "synonym": "kind",
+      "antonym": "cruel"
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.narr-01",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "narration",
+    "difficulty": "hard",
+    "marks_weight": 2,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Narration-এ পরিণত করো",
+    "explanation_bn": "Direct-কে Indirect করতে reporting verb ও tense পরিবর্তন করতে হয়; 'am' হয়ে যায় 'was'।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said, \"I am reading a book.\"",
+      "accepted_answers": [
+        "He said that he was reading a book."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.voice-01",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "voice",
+    "difficulty": "medium",
+    "marks_weight": 2,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Passive Voice-এ পরিণত করো",
+    "explanation_bn": "Active-কে Passive করতে object-কে subject করে 'be + V3 + by + subject' গঠন ব্যবহার করতে হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "transformation_type": "voice",
+      "original_sentence_en": "The teacher teaches the students.",
+      "accepted_answers": [
+        "The students are taught by the teacher."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.matching.match-01",
+    "type": "matching",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "easy",
+    "marks_weight": 2,
+    "tags": [],
+    "instruction_bn": "বাম পাশের শব্দের সাথে ডান পাশের সঠিক ব্যাখ্যা মেলাও",
+    "explanation_bn": "প্রতিটি ব্যাকরণ পরিভাষার একটি নির্দিষ্ট সংজ্ঞা আছে।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "left_items": [
+        {
+          "id": "L1",
+          "text_en": "Tense"
+        },
+        {
+          "id": "L2",
+          "text_en": "Voice"
+        },
+        {
+          "id": "L3",
+          "text_en": "Narration"
+        },
+        {
+          "id": "L4",
+          "text_en": "Preposition"
+        }
+      ],
+      "right_items": [
+        {
+          "id": "R1",
+          "text_en": "Grammar of time"
+        },
+        {
+          "id": "R2",
+          "text_en": "Active or passive form of a verb"
+        },
+        {
+          "id": "R3",
+          "text_en": "Reporting someone's words"
+        },
+        {
+          "id": "R4",
+          "text_en": "Shows relation between words"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L4",
+          "right_id": "R4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.mcq.prep-01",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [
+      "exam-common"
+    ],
+    "instruction_bn": "সঠিক preposition বেছে নাও",
+    "explanation_bn": "'Fond of' একটি নির্দিষ্ট (fixed) preposition phrase।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "question_en": "She is fond ___ music.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "of"
+        },
+        {
+          "key": "B",
+          "text_en": "with"
+        },
+        {
+          "key": "C",
+          "text_en": "in"
+        },
+        {
+          "key": "D",
+          "text_en": "at"
+        }
+      ],
+      "correct_option": "A"
+    }
+  },
+  {
+    "id": "p2.mcq.prep-02",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক preposition বেছে নাও",
+    "explanation_bn": "'On time' মানে নির্ধারিত সময়ে, যা একটি fixed phrase।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "question_en": "The train arrived ___ time.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "in"
+        },
+        {
+          "key": "B",
+          "text_en": "on"
+        },
+        {
+          "key": "C",
+          "text_en": "at"
+        },
+        {
+          "key": "D",
+          "text_en": "by"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.tense-01",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [
+      "exam-common"
+    ],
+    "instruction_bn": "সঠিক কাল (tense) বেছে নাও",
+    "explanation_bn": "একটি past action-এর আগে ঘটা আরেকটি past action বোঝাতে Past Perfect (had + V3) ব্যবহার হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "question_en": "By the time she reached the station, the train ___ (leave).",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "leaves"
+        },
+        {
+          "key": "B",
+          "text_en": "left"
+        },
+        {
+          "key": "C",
+          "text_en": "had left"
+        },
+        {
+          "key": "D",
+          "text_en": "has left"
+        }
+      ],
+      "correct_option": "C"
+    }
+  },
+  {
+    "id": "p2.mcq.tense-02",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [
+      "exam-common"
+    ],
+    "instruction_bn": "সঠিক কাল (tense) বেছে নাও",
+    "explanation_bn": "অতীতে শুরু হয়ে এখনও চলছে এমন কাজ বোঝাতে Present Perfect Continuous (have/has been + V-ing) ব্যবহার হয়।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "question_en": "I ___ English for five years.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "learn"
+        },
+        {
+          "key": "B",
+          "text_en": "learnt"
+        },
+        {
+          "key": "C",
+          "text_en": "have learnt"
+        },
+        {
+          "key": "D",
+          "text_en": "have been learning"
+        }
+      ],
+      "correct_option": "D"
+    }
+  },
+  {
+    "id": "p2.mcq.vocab-mcq-01",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "'Abundant' শব্দটির সমার্থক শব্দ (synonym) বেছে নাও",
+    "explanation_bn": "Abundant = Plentiful (প্রচুর); Scarce ও Rare এর অর্থ উল্টো।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "question_en": "Choose the synonym of 'Abundant'.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Scarce"
+        },
+        {
+          "key": "B",
+          "text_en": "Plentiful"
+        },
+        {
+          "key": "C",
+          "text_en": "Rare"
+        },
+        {
+          "key": "D",
+          "text_en": "Limited"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.vocab-mcq-02",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "'Diligent' শব্দটির বিপরীত শব্দ (antonym) বেছে নাও",
+    "explanation_bn": "Diligent = পরিশ্রমী; এর বিপরীত হলো Lazy (অলস)।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "question_en": "Choose the antonym of 'Diligent'.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "Hardworking"
+        },
+        {
+          "key": "B",
+          "text_en": "Active"
+        },
+        {
+          "key": "C",
+          "text_en": "Lazy"
+        },
+        {
+          "key": "D",
+          "text_en": "Sincere"
+        }
+      ],
+      "correct_option": "C"
+    }
+  },
+  {
+    "id": "p2.writing_prompt.app-letter-01",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "application_letter",
+    "difficulty": "medium",
+    "marks_weight": 10,
+    "tags": [],
+    "instruction_bn": "নমুনা অনুযায়ী আবেদনপত্রটি লেখো, তারপর নিজে যাচাই করো",
+    "explanation_bn": "মডেল উত্তর ও রুব্রিক চেকলিস্ট দেখে নিজের লেখা যাচাই করো।",
+    "review_status": "published",
+    "author": "dev-sample",
+    "data": {
+      "writing_type": "application",
+      "prompt_en": "Write an application to your Headteacher requesting the establishment of a school library.",
+      "model_answer_en": "To\nThe Headteacher\n[School Name]\n[Address]\n\nDate: [Date]\n\nSubject: Application for establishing a school library\n\nDear Sir,\n\nI am writing on behalf of the students of this school to request the establishment of a library. We currently have no dedicated space to read books beyond our textbooks, which limits our access to general knowledge and literature. A library would greatly help us develop good reading habits and improve our results.\n\nI therefore hope you will kindly consider setting up a library for us.\n\nYours obediently,\n[Your Name]\nClass [X], Roll [Y]",
+      "rubric_checklist": [
+        {
+          "id": "r1",
+          "criterion_bn": "সঠিক ফরম্যাট (প্রেরক/প্রাপক/তারিখ) ব্যবহার করা হয়েছে"
+        },
+        {
+          "id": "r2",
+          "criterion_bn": "Subject লাইন স্পষ্টভাবে লেখা হয়েছে"
+        },
+        {
+          "id": "r3",
+          "criterion_bn": "আবেদনের কারণ যুক্তিসঙ্গতভাবে ব্যাখ্যা করা হয়েছে"
+        },
+        {
+          "id": "r4",
+          "criterion_bn": "ভদ্র ও আনুষ্ঠানিক ভাষা ব্যবহার করা হয়েছে"
+        }
+      ],
+      "word_limit": {
+        "min": 100,
+        "max": 150
+      }
+    }
+  }
+]

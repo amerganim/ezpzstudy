@@ -1,0 +1,20 @@
+{
+  "name": "ezpzstudy-content-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Converts the teacher-facing content authoring spreadsheet into a validated EZPZ Study content pack.",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "exceljs": "^4.4.0",
+    "js-yaml": "^4.1.0"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}
