@@ -1,0 +1,36 @@
+name: ezpzstudy
+description: "EZPZ Study - offline HSC English practice"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Local SQLite store (offline-first, entire question bank + progress live here).
+  drift: ^2.20.0
+  drift_flutter: ^0.2.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Drift code generation.
+  drift_dev: ^2.20.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Core content pack shipped inside the APK -- the student never pays data to
+    # download questions. Regenerate from content/packs via the pipeline, then
+    # copy into assets/content/ (see tools/content-pipeline).
+    - assets/content/content_pack_v1.json
+    - assets/content/manifest_v1.json
