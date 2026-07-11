@@ -1,0 +1,18 @@
+{
+  "topic": "p2_completing_sentences",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (সহজ)।",
+  "items": [
+    { "type": "fill_in_open", "q": "If you run fast, you ___.", "a": ["will win", "can win", "will catch the bus"], "fuzzy": 3, "rule_bn": "If + present, main clause-এ will/can।" },
+    { "type": "fill_in_open", "q": "He was tired, so ___.", "a": ["he went to bed", "he took rest", "he stopped working"], "fuzzy": 3, "rule_bn": "'so'-এর পরে ফল-clause বসে।" },
+    { "type": "fill_in_open", "q": "We eat ___.", "a": ["to live", "rice every day", "good food"], "fuzzy": 3, "rule_bn": "উদ্দেশ্য/object দিয়ে বাক্য সম্পূর্ণ করো।" },
+    { "type": "fill_in_open", "q": "She is happy because ___.", "a": ["she has passed", "she got a gift", "she won the prize"], "fuzzy": 3, "rule_bn": "'because'-এর পরে কারণ-clause।" },
+    { "type": "fill_in_open", "q": "I like the boy who ___.", "a": ["works hard", "is honest", "helps others"], "fuzzy": 3, "rule_bn": "'who'-এর পরে relative clause।" },
+    { "type": "fill_in_open", "q": "He cannot walk because ___.", "a": ["he is ill", "he is weak", "his leg is broken"], "fuzzy": 3, "rule_bn": "'because'-এর পরে কারণ।" },
+    { "type": "fill_in_open", "q": "When it rains, ___.", "a": ["we stay at home", "the roads get wet", "we use umbrellas"], "fuzzy": 3, "rule_bn": "'When'-এর পরে main clause।" },
+    { "type": "fill_in_open", "q": "The place where I live ___.", "a": ["is very nice", "is a village", "is quiet"], "fuzzy": 3, "rule_bn": "'where I live' relative clause; পরে verb-সহ শেষ করো।" }
+  ]
+}

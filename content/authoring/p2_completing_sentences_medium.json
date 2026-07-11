@@ -1,0 +1,18 @@
+{
+  "topic": "p2_completing_sentences",
+  "paper": "2nd",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (মাঝারি)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He worked hard so that ___.", "a": ["he could pass", "he might succeed"], "fuzzy": 3, "rule_bn": "'so that' (উদ্দেশ্য): could/might সহ clause।" },
+    { "type": "fill_in_open", "q": "It is so hot that ___.", "a": ["we cannot go out", "everyone is sweating"], "fuzzy": 3, "rule_bn": "'so ... that'-এর ফল-clause।" },
+    { "type": "fill_in_open", "q": "Though he is rich, ___.", "a": ["he is not happy", "he is humble"], "fuzzy": 2, "rule_bn": "'Though'-এর পরে বিপরীত main clause।" },
+    { "type": "fill_in_open", "q": "As soon as the teacher came, ___.", "a": ["the students stood up", "the class began"], "fuzzy": 3, "rule_bn": "'As soon as'-এর পরের ঘটনা past simple-এ।" },
+    { "type": "fill_in_open", "q": "Unless you hurry, ___.", "a": ["you will miss the train", "you cannot catch the bus"], "fuzzy": 3, "rule_bn": "'Unless' (যদি না) + present; main clause-এ will।" },
+    { "type": "fill_in_open", "q": "He is such a kind man that ___.", "a": ["everyone respects him", "all love him"], "fuzzy": 3, "rule_bn": "'such ... that'-এর ফল-clause।" },
+    { "type": "fill_in_open", "q": "Wait here until ___.", "a": ["I return", "the rain stops"], "fuzzy": 3, "rule_bn": "'until'-এর পরে present clause।" },
+    { "type": "fill_in_open", "q": "If it had not rained, ___.", "a": ["we would have gone out", "the match would have started"], "fuzzy": 3, "rule_bn": "Past unreal: If + had + V3, ... would have + V3।" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "p2_narration",
+  "paper": "2nd",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (মাঝারি)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "He said to me, \"You are right.\"", "a": ["He told me that I was right."], "transform": "narration", "fuzzy": 2, "rule_bn": "said to→told, you→I, are→was।" },
+    { "type": "grammar_transformation", "original": "She said, \"I will go home tomorrow.\"", "a": ["She said that she would go home the next day.", "She said that she would go home the following day."], "transform": "narration", "fuzzy": 3, "rule_bn": "will→would, tomorrow→the next day।" },
+    { "type": "grammar_transformation", "original": "The boy said, \"I have done my work.\"", "a": ["The boy said that he had done his work."], "transform": "narration", "fuzzy": 2, "rule_bn": "have done→had done, I→he, my→his।" },
+    { "type": "grammar_transformation", "original": "He said to her, \"What are you doing?\"", "a": ["He asked her what she was doing."], "transform": "narration", "fuzzy": 3, "rule_bn": "Wh-প্রশ্ন: asked + Wh; are you doing→she was doing।" },
+    { "type": "grammar_transformation", "original": "Mother said to me, \"Do not go out.\"", "a": ["Mother forbade me to go out.", "Mother told me not to go out."], "transform": "narration", "fuzzy": 3, "rule_bn": "নিষেধ: forbade to / told not to।" },
+    { "type": "grammar_transformation", "original": "He said, \"I can help you now.\"", "a": ["He said that he could help me then."], "transform": "narration", "fuzzy": 3, "rule_bn": "can→could, you→me, now→then।" },
+    { "type": "grammar_transformation", "original": "She said to him, \"Please wait here.\"", "a": ["She requested him to wait there."], "transform": "narration", "fuzzy": 3, "rule_bn": "অনুরোধ: requested + to; here→there।" },
+    { "type": "grammar_transformation", "original": "He said, \"I must leave now.\"", "a": ["He said that he had to leave then."], "transform": "narration", "fuzzy": 3, "rule_bn": "must→had to, now→then।" }
+  ]
+}

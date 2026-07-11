@@ -1,0 +1,18 @@
+{
+  "topic": "basics_prepositions",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "He walked ___ the room quietly.", "a": ["into"], "fuzzy": 1, "rule_bn": "বাইরে থেকে ভেতরে: 'into'।" },
+    { "type": "fill_in_open", "q": "The bridge is ___ the river.", "a": ["over", "across"], "fuzzy": 0, "rule_bn": "উপর দিয়ে/এপার-ওপার: over/across।" },
+    { "type": "fill_in_open", "q": "She sat ___ her two friends.", "a": ["between"], "rule_bn": "দুইয়ের মাঝে: 'between'।" },
+    { "type": "fill_in_open", "q": "The ball rolled ___ the table.", "a": ["under"], "rule_bn": "নিচে: 'under'।" },
+    { "type": "fill_in_open", "q": "We walked ___ the park.", "a": ["through"], "rule_bn": "ভেতর দিয়ে অতিক্রম: 'through'।" },
+    { "type": "fill_in_open", "q": "He has been waiting ___ two hours.", "a": ["for"], "rule_bn": "সময়ের ব্যাপ্তি: 'for'।" },
+    { "type": "fill_in_open", "q": "The picture hangs ___ the wall.", "a": ["on"], "rule_bn": "দেয়ালে স্পর্শ করে: 'on'।" },
+    { "type": "fill_in_open", "q": "He divided the sweets ___ the two boys.", "a": ["between"], "rule_bn": "দুইজনের মধ্যে ভাগ: 'between'।" }
+  ]
+}

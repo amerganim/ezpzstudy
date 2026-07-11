@@ -1,0 +1,18 @@
+{
+  "topic": "basics_parts_of_speech",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নির্দেশিত শব্দটি কোন parts of speech তা বেছে নাও।",
+  "items": [
+    { "type": "mcq", "q": "In 'He runs fast', what part of speech is 'fast'?", "opts": ["noun", "adjective", "adverb", "verb"], "correct": 2, "rule_bn": "verb (runs)-কে বর্ণনা করছে, তাই adverb।" },
+    { "type": "mcq", "q": "In 'The water is cold', what part of speech is 'water'?", "opts": ["verb", "noun", "adjective", "adverb"], "correct": 1, "rule_bn": "'water' একটি নাম (বস্তু), তাই noun।" },
+    { "type": "mcq", "q": "In 'She is very kind', what part of speech is 'very'?", "opts": ["adjective", "adverb", "noun", "pronoun"], "correct": 1, "rule_bn": "adjective (kind)-কে বর্ধিত করছে, তাই adverb।" },
+    { "type": "mcq", "q": "In 'He and I are friends', what part of speech is 'and'?", "opts": ["preposition", "conjunction", "adverb", "pronoun"], "correct": 1, "rule_bn": "দুটি শব্দ যুক্ত করছে, তাই conjunction।" },
+    { "type": "mcq", "q": "In 'Wow, what a goal!', what part of speech is 'Wow'?", "opts": ["noun", "verb", "interjection", "adverb"], "correct": 2, "rule_bn": "আবেগ প্রকাশ করছে, তাই interjection।" },
+    { "type": "mcq", "q": "In 'This is my book', what part of speech is 'my'?", "opts": ["pronoun", "noun", "verb", "adverb"], "correct": 0, "rule_bn": "possessive pronoun (মালিকানা বোঝায়)।" },
+    { "type": "mcq", "q": "In 'The bird sits on the branch', what part of speech is 'on'?", "opts": ["conjunction", "preposition", "adverb", "adjective"], "correct": 1, "rule_bn": "noun-এর সাথে সম্পর্ক বোঝাচ্ছে, তাই preposition।" },
+    { "type": "mcq", "q": "In 'He works hard', what part of speech is 'works'?", "opts": ["noun", "verb", "adjective", "adverb"], "correct": 1, "rule_bn": "'works' একটি কাজ, তাই verb।" }
+  ]
+}

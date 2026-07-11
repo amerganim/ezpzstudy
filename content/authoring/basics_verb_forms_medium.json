@@ -1,0 +1,18 @@
+{
+  "topic": "basics_verb_forms",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা মেলাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "Past participle of 'speak' is ___.", "a": ["spoken"], "rule_bn": "Speak – spoke – spoken।" },
+    { "type": "fill_in_open", "q": "Past participle of 'go' is ___.", "a": ["gone"], "rule_bn": "Go – went – gone।" },
+    { "type": "fill_in_open", "q": "Past form of 'begin' is ___.", "a": ["began"], "rule_bn": "Begin – began – begun।" },
+    { "type": "fill_in_open", "q": "Past participle of 'choose' is ___.", "a": ["chosen"], "rule_bn": "Choose – chose – chosen।" },
+    { "type": "matching", "left": ["drink", "sing", "swim", "ring"], "right": ["drank", "sang", "swam", "rang"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "past form মেলাও: drink-drank, sing-sang, swim-swam, ring-rang।" },
+    { "type": "fill_in_open", "q": "Present participle of 'run' is ___.", "a": ["running"], "rule_bn": "Run-এর সাথে 'n' দ্বিগুণ + ing: running।" },
+    { "type": "fill_in_open", "q": "Past participle of 'know' is ___.", "a": ["known"], "rule_bn": "Know – knew – known।" },
+    { "type": "matching", "left": ["catch", "teach", "bring", "think"], "right": ["caught", "taught", "brought", "thought"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "past form মেলাও: catch-caught, teach-taught, bring-brought, think-thought।" }
+  ]
+}

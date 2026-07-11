@@ -1,0 +1,18 @@
+{
+  "topic": "p2_modifier",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক modifier বসাও (কঠিন)।",
+  "items": [
+    { "type": "fill_in_open", "q": "___ by the noise, the baby woke up. (Disturb)", "a": ["Disturbed"], "rule_bn": "শুরুতে past participle modifier: Disturbed by the noise, ...।" },
+    { "type": "fill_in_open", "q": "The soldiers, ___ with courage, fought bravely. (fill)", "a": ["filled"], "rule_bn": "Noun-এর পরে past participle: filled with courage।" },
+    { "type": "fill_in_open", "q": "___ having finished the work, he left. (After)", "a": ["After"], "rule_bn": "Perfect participle phrase-এর আগে 'After'।" },
+    { "type": "fill_in_word_bank", "q": "He is {{1}} honest a man to tell a lie.", "bank": ["too", "very", "so", "much"], "ans": ["too"], "rule_bn": "'too ... to' গঠনে 'too' বসে।" },
+    { "type": "fill_in_open", "q": "The hunter, ___ his gun, aimed at the tiger. (raise)", "a": ["raising"], "rule_bn": "Noun-এর পরে present participle: raising his gun।" },
+    { "type": "fill_in_open", "q": "___ in rags, the beggar shivered in cold. (Dress)", "a": ["Dressed"], "rule_bn": "শুরুতে past participle: Dressed in rags, ...।" },
+    { "type": "fill_in_word_bank", "q": "He worked {{1}} to finish in time.", "bank": ["hard enough", "enough hard", "too hard", "very hard"], "ans": ["hard enough"], "rule_bn": "'enough' adverb-এর পরে বসে: hard enough।" },
+    { "type": "fill_in_open", "q": "The sun ___, the birds began to sing. (rise)", "a": ["rising", "having risen"], "fuzzy": 2, "rule_bn": "Nominative absolute: The sun rising/having risen, ...।" }
+  ]
+}

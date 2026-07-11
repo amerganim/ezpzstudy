@@ -1,0 +1,18 @@
+{
+  "topic": "basics_punctuation",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যটি সঠিক বড় হাতের অক্ষর ও যতিচিহ্ন দিয়ে আবার লেখো।",
+  "items": [
+    { "type": "grammar_transformation", "original": "my friend rahim lives in khulna", "a": ["My friend Rahim lives in Khulna."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "বাক্য, নাম ও স্থান capital; full stop।" },
+    { "type": "grammar_transformation", "original": "how are you today", "a": ["How are you today?"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "প্রশ্নে (?)।" },
+    { "type": "grammar_transformation", "original": "she has a cat a dog and a bird", "a": ["She has a cat, a dog and a bird."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "তালিকায় কমা।" },
+    { "type": "grammar_transformation", "original": "wow we won the game", "a": ["Wow! We won the game.", "Wow, we won the game!"], "transform": "punctuation", "fuzzy": 2, "rule_bn": "আবেগে (!)।" },
+    { "type": "grammar_transformation", "original": "the childrens toys are here", "a": ["The children's toys are here."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "মালিকানায় apostrophe: children's।" },
+    { "type": "grammar_transformation", "original": "i read english bangla and math", "a": ["I read English, Bangla and Math."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "'I' ও বিষয়ের নাম capital; তালিকায় কমা।" },
+    { "type": "grammar_transformation", "original": "please sit down and be quiet", "a": ["Please sit down and be quiet."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "বাক্য capital; শেষে full stop।" },
+    { "type": "grammar_transformation", "original": "its raining take an umbrella", "a": ["It's raining. Take an umbrella.", "It's raining, take an umbrella."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "সংকোচনে apostrophe (It's); দুই বাক্য আলাদা করো।" }
+  ]
+}

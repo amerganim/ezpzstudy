@@ -1,0 +1,18 @@
+{
+  "topic": "basics_wh_questions",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক Wh-প্রশ্ন তৈরি করো বা বেছে নাও।",
+  "items": [
+    { "type": "mcq", "q": "Make a question: 'He goes to school by bus.' (asking how)", "opts": ["Where does he go?", "How does he go to school?", "When does he go?", "Why does he go?"], "correct": 1, "rule_bn": "উপায় জানতে 'How' + does + subject + base verb।" },
+    { "type": "mcq", "q": "Make a question: 'She has two brothers.' (asking how many)", "opts": ["How many brothers has she?", "How much brothers has she?", "Who has brothers?", "Where are her brothers?"], "correct": 0, "rule_bn": "সংখ্যা জানতে 'How many' + countable noun।" },
+    { "type": "fill_in_open", "q": "___ books do you need? (asking quantity, countable)", "a": ["How many"], "fuzzy": 1, "rule_bn": "গণনাযোগ্য জিনিসের সংখ্যা: 'How many'।" },
+    { "type": "fill_in_open", "q": "___ water do you want? (asking quantity, uncountable)", "a": ["How much"], "fuzzy": 1, "rule_bn": "অগণনাযোগ্য জিনিসের পরিমাণ: 'How much'।" },
+    { "type": "mcq", "q": "Make a question: 'This book is Rahim's.' (asking whose)", "opts": ["Who is this book?", "Whose book is this?", "Which book is this?", "What book is this?"], "correct": 1, "rule_bn": "মালিকানা জানতে 'Whose'।" },
+    { "type": "mcq", "q": "Make a question: 'He came yesterday.' (asking when)", "opts": ["Where did he come?", "Why did he come?", "When did he come?", "How did he come?"], "correct": 2, "rule_bn": "সময় জানতে 'When' + did + subject + base verb।" },
+    { "type": "fill_in_open", "q": "___ of these two pens do you want? (choosing between two)", "a": ["Which"], "rule_bn": "নির্দিষ্ট কয়েকটির মধ্যে বেছে নিতে 'Which'।" },
+    { "type": "mcq", "q": "Which is the correct question form?", "opts": ["Why you are sad?", "Why are you sad?", "Why sad you are?", "You are why sad?"], "correct": 1, "rule_bn": "Wh + auxiliary (are) + subject + ...।" }
+  ]
+}

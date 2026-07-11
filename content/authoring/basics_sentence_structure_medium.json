@@ -1,0 +1,18 @@
+{
+  "topic": "basics_sentence_structure",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক উত্তরটি বেছে নাও বা বাক্য সাজাও।",
+  "items": [
+    { "type": "mcq", "q": "Which is a compound sentence?", "opts": ["He is poor but honest.", "He is a poor boy.", "Because he is poor, he works.", "The poor boy."], "correct": 0, "rule_bn": "দুটি স্বাধীন clause 'but/and/or' দিয়ে যুক্ত হলে compound sentence।" },
+    { "type": "mcq", "q": "Which is a complex sentence?", "opts": ["I know the man.", "I know the man who came.", "I know and see him.", "The man is honest."], "correct": 1, "rule_bn": "একটি প্রধান ও একটি অধীন clause থাকলে complex sentence।" },
+    { "type": "mcq", "q": "'Sit down.' — this sentence is ___.", "opts": ["assertive", "interrogative", "imperative", "exclamatory"], "correct": 2, "rule_bn": "আদেশ/অনুরোধ বোঝালে Imperative sentence।" },
+    { "type": "rearranging", "answer": "The sun rises in the east", "rule_bn": "Subject + Verb + বাকি অংশ।" },
+    { "type": "rearranging", "answer": "We should not waste our time", "rule_bn": "Subject + modal + verb + object।" },
+    { "type": "mcq", "q": "Change to negative: 'He is honest.'", "opts": ["He is not honest.", "He is dishonest.", "Is he honest?", "He honest is not."], "correct": 0, "rule_bn": "Affirmative → Negative: verb-এর পরে 'not' বসে।" },
+    { "type": "mcq", "q": "Which sentence has an object?", "opts": ["He sleeps.", "She reads a book.", "They run fast.", "It is cold."], "correct": 1, "rule_bn": "'a book' হলো object (verb 'reads'-এর কাজের লক্ষ্য)।" },
+    { "type": "rearranging", "answer": "Honesty is the best policy", "rule_bn": "Subject + Verb + complement।" }
+  ]
+}

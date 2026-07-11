@@ -1,0 +1,18 @@
+{
+  "topic": "p2_special_use",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (সহজ)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He ___ in 2005. (birth)", "a": ["was born"], "fuzzy": 1, "rule_bn": "জন্ম বোঝাতে 'was born' বসে।" },
+    { "type": "fill_in_open", "q": "You ___ go to school. (obligation)", "a": ["have to"], "fuzzy": 1, "rule_bn": "বাধ্যবাধকতায় 'have to' বসে।" },
+    { "type": "fill_in_open", "q": "___ is a book on the table. (existence)", "a": ["There"], "rule_bn": "অস্তিত্বে introductory 'There' বসে।" },
+    { "type": "fill_in_open", "q": "___ is raining now. (weather)", "a": ["It"], "rule_bn": "আবহাওয়ায় introductory 'It' বসে।" },
+    { "type": "fill_in_open", "q": "She ___ study hard. (obligation)", "a": ["has to"], "fuzzy": 1, "rule_bn": "She-এর সাথে 'has to' বসে।" },
+    { "type": "fill_in_open", "q": "___ as he came, we started. (immediately after)", "a": ["As soon"], "fuzzy": 1, "rule_bn": "'As soon as' — পরপরই।" },
+    { "type": "fill_in_open", "q": "___ are many stars in the sky. (existence)", "a": ["There"], "rule_bn": "There + are (plural)।" },
+    { "type": "fill_in_open", "q": "You ___ take rest. (advice)", "a": ["had better", "should"], "fuzzy": 1, "rule_bn": "উপদেশে 'had better/should' বসে।" }
+  ]
+}

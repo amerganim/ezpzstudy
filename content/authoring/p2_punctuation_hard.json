@@ -1,0 +1,18 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter দিয়ে বাক্যটি আবার লেখো (কঠিন)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "the teacher said to the boys why are you making a noise", "a": ["The teacher said to the boys, \"Why are you making a noise?\""], "transform": "punctuation", "fuzzy": 3, "rule_bn": "উক্তির আগে কমা, inverted comma, ভেতরে প্রশ্নবোধক (?)।" },
+    { "type": "grammar_transformation", "original": "nazrul our national poet wrote the poem bidrohi", "a": ["Nazrul, our national poet, wrote the poem 'Bidrohi'."], "transform": "punctuation", "fuzzy": 3, "rule_bn": "Apposition কমা দিয়ে; কবিতার নাম inverted comma-তে; নাম capital।" },
+    { "type": "grammar_transformation", "original": "alas the poor man has lost everything he had", "a": ["Alas! The poor man has lost everything he had."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "'Alas'-এর পরে (!); নতুন বাক্য capital।" },
+    { "type": "grammar_transformation", "original": "he asked me whether i had read the book he had given me", "a": ["He asked me whether I had read the book he had given me."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "পরোক্ষ প্রশ্ন, তাই full stop; 'I' capital।" },
+    { "type": "grammar_transformation", "original": "my brothers friend mr rahman is a lawyer", "a": ["My brother's friend, Mr. Rahman, is a lawyer.", "My brother's friend Mr Rahman is a lawyer."], "transform": "punctuation", "fuzzy": 3, "rule_bn": "মালিকানায় apostrophe; নাম/সংক্ষিপ্তরূপ capital; apposition কমা।" },
+    { "type": "grammar_transformation", "original": "hurry up otherwise you will be late he said", "a": ["\"Hurry up, otherwise you will be late,\" he said."], "transform": "punctuation", "fuzzy": 3, "rule_bn": "উক্তি আগে থাকলে inverted comma-র ভেতরে কমা দিয়ে শেষ, তারপর he said।" },
+    { "type": "grammar_transformation", "original": "we visited dhaka chittagong and sylhet last year", "a": ["We visited Dhaka, Chittagong and Sylhet last year."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "শহরের নাম capital; তালিকায় কমা।" },
+    { "type": "grammar_transformation", "original": "what an idea it is lets try it", "a": ["What an idea it is! Let's try it."], "transform": "punctuation", "fuzzy": 3, "rule_bn": "বিস্ময়ে (!); সংকোচনে apostrophe (Let's)।" }
+  ]
+}
