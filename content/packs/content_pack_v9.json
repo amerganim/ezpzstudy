@@ -6543,6 +6543,161 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_info_transfer-b001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_info_transfer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Rice is the main food of Bangladesh. Growing rice needs several steps. First, the farmer ploughs the land well. Then he sows the seeds in a seedbed to make seedlings. After that, he plants the seedlings in the muddy field. The plants need water, sunlight and fertiliser to grow. When the crop becomes golden and ripe, the farmer harvests it. Finally, the grains are separated, dried in the sun and stored.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'the farmer ploughs the land well'।",
+          "data": {
+            "sentence_en": "Step 1: The farmer ___ the land well.",
+            "accepted_answers": [
+              "ploughs"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'he sows the seeds in a seedbed'।",
+          "data": {
+            "sentence_en": "Step 2: He ___ the seeds in a seedbed.",
+            "accepted_answers": [
+              "sows"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'he plants the seedlings'।",
+          "data": {
+            "sentence_en": "Step 3: He ___ the seedlings in the muddy field.",
+            "accepted_answers": [
+              "plants"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'the farmer harvests it'।",
+          "data": {
+            "sentence_en": "Step 4: The farmer ___ the ripe crop.",
+            "accepted_answers": [
+              "harvests"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'dried in the sun and stored'।",
+          "data": {
+            "sentence_en": "Step 5: The grains are dried and ___.",
+            "accepted_answers": [
+              "stored"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_info_transfer-b002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_info_transfer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "A butterfly passes through four stages in its life. At first, the mother butterfly lays tiny eggs on a leaf. From each egg comes out a small worm called a caterpillar. The caterpillar eats leaves and grows bigger. After some time, it turns into a pupa and stays still inside a cover. At last, a beautiful butterfly comes out of the pupa and flies away.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'lays tiny eggs on a leaf'।",
+          "data": {
+            "sentence_en": "Stage 1: The butterfly lays ___ on a leaf.",
+            "accepted_answers": [
+              "eggs"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'a small worm called a caterpillar'।",
+          "data": {
+            "sentence_en": "Stage 2: A small worm called a ___ comes out.",
+            "accepted_answers": [
+              "caterpillar"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'it turns into a pupa'।",
+          "data": {
+            "sentence_en": "Stage 3: It turns into a ___.",
+            "accepted_answers": [
+              "pupa"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'a beautiful butterfly comes out of the pupa'।",
+          "data": {
+            "sentence_en": "Stage 4: A beautiful ___ comes out.",
+            "accepted_answers": [
+              "butterfly"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.comprehension_set.p1_mcq-001",
     "type": "comprehension_set",
     "paper": "1st",
@@ -7082,6 +7237,245 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_mcq-d001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Trees are our best friends. They give us oxygen which we need to breathe, and they take in carbon dioxide which is harmful for us. Trees also give us food, wood, medicine and shade. They are the home of birds and many animals. The roots of trees hold the soil tightly and prevent erosion. Trees cause rainfall and keep the balance of nature. Without trees, the earth would become a desert. Yet, people cut down trees carelessly for wood and land. This is very harmful. We should plant more trees to save our environment.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'They give us oxygen which we need to breathe'।",
+          "data": {
+            "question_en": "What do trees give us to breathe?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "carbon dioxide"
+              },
+              {
+                "key": "B",
+                "text_en": "oxygen"
+              },
+              {
+                "key": "C",
+                "text_en": "smoke"
+              },
+              {
+                "key": "D",
+                "text_en": "water"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'The roots ... prevent erosion'।",
+          "data": {
+            "question_en": "What do the roots of trees prevent?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "rainfall"
+              },
+              {
+                "key": "B",
+                "text_en": "erosion"
+              },
+              {
+                "key": "C",
+                "text_en": "food"
+              },
+              {
+                "key": "D",
+                "text_en": "shade"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'the home of birds and many animals'।",
+          "data": {
+            "sentence_en": "Trees are the home of birds and many ___.",
+            "accepted_answers": [
+              "animals"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'the earth would become a desert'।",
+          "data": {
+            "question_en": "Without trees, the earth would become a ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "forest"
+              },
+              {
+                "key": "B",
+                "text_en": "garden"
+              },
+              {
+                "key": "C",
+                "text_en": "desert"
+              },
+              {
+                "key": "D",
+                "text_en": "river"
+              }
+            ],
+            "correct_option": "C"
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'We should plant more trees'।",
+          "data": {
+            "sentence_en": "What should we plant more to save the environment?",
+            "accepted_answers": [
+              "trees"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-d002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Mobile phones have become a part of our daily life. A mobile phone is a small device that helps us to talk to people far away. Today we can also send messages, take photos, browse the internet and do many other things with it. Students use it to collect information for their studies. Businessmen use it to run their business. However, the mobile phone has some bad sides too. Some students spend too much time playing games or using social media instead of studying. Too much use of the phone can also harm our eyes and health. So, we should use the mobile phone carefully and only when necessary.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'a small device that helps us to talk to people far away'।",
+          "data": {
+            "question_en": "What is a mobile phone?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "a big machine"
+              },
+              {
+                "key": "B",
+                "text_en": "a small device to talk to people far away"
+              },
+              {
+                "key": "C",
+                "text_en": "a computer"
+              },
+              {
+                "key": "D",
+                "text_en": "a television"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'to collect information for their studies'।",
+          "data": {
+            "sentence_en": "Students use the mobile phone to collect ___ for their studies.",
+            "accepted_answers": [
+              "information"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'can also harm our eyes and health'।",
+          "data": {
+            "question_en": "Too much use of the phone can harm our ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "books"
+              },
+              {
+                "key": "B",
+                "text_en": "eyes and health"
+              },
+              {
+                "key": "C",
+                "text_en": "friends"
+              },
+              {
+                "key": "D",
+                "text_en": "money"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'we should use the mobile phone carefully and only when necessary'।",
+          "data": {
+            "question_en": "How should we use the mobile phone?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "all day"
+              },
+              {
+                "key": "B",
+                "text_en": "carefully and when necessary"
+              },
+              {
+                "key": "C",
+                "text_en": "for games only"
+              },
+              {
+                "key": "D",
+                "text_en": "never"
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.comprehension_set.p1_short_answer-001",
     "type": "comprehension_set",
     "paper": "1st",
@@ -7403,6 +7797,221 @@
               }
             ],
             "correct_option": "C"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-c001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Water is another name for life. We cannot live without water. We use water for drinking, cooking, washing and bathing. Farmers need water to grow crops. Water is found in rivers, ponds, canals and under the ground. But pure water is becoming scarce day by day. We pollute water by throwing waste and dirty things into rivers and ponds. Polluted water causes many diseases such as diarrhoea and cholera. So, we should keep our water sources clean and should not waste water.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "প্রথম বাক্য: Water is another name for life।",
+          "data": {
+            "sentence_en": "What is another name for life?",
+            "accepted_answers": [
+              "water"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'Farmers need water to grow crops'।",
+          "data": {
+            "question_en": "Who needs water to grow crops?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "students"
+              },
+              {
+                "key": "B",
+                "text_en": "farmers"
+              },
+              {
+                "key": "C",
+                "text_en": "doctors"
+              },
+              {
+                "key": "D",
+                "text_en": "drivers"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'by throwing waste and dirty things into rivers and ponds'।",
+          "data": {
+            "sentence_en": "How do we pollute water?",
+            "accepted_answers": [
+              "by throwing waste into rivers",
+              "by throwing dirty things",
+              "by throwing waste"
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'Polluted water causes many diseases'।",
+          "data": {
+            "question_en": "Polluted water causes ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "good health"
+              },
+              {
+                "key": "B",
+                "text_en": "diseases"
+              },
+              {
+                "key": "C",
+                "text_en": "rainfall"
+              },
+              {
+                "key": "D",
+                "text_en": "crops"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'we should keep our water sources clean'।",
+          "data": {
+            "sentence_en": "What should we keep clean?",
+            "accepted_answers": [
+              "water sources",
+              "our water sources"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-c002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Early rising is a good habit. A man who gets up early in the morning can enjoy the fresh air and the beauty of nature. The morning air is free from dust and smoke. An early riser can start his work early and finish it in time. He also gets time for a morning walk, which is good for health. Most successful people are early risers. On the other hand, those who get up late cannot finish their work properly and often remain unhealthy. So, we should all form the habit of early rising.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'Early rising is a good habit'।",
+          "data": {
+            "question_en": "What kind of habit is early rising?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "a bad habit"
+              },
+              {
+                "key": "B",
+                "text_en": "a good habit"
+              },
+              {
+                "key": "C",
+                "text_en": "a strange habit"
+              },
+              {
+                "key": "D",
+                "text_en": "a costly habit"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'free from dust and smoke'।",
+          "data": {
+            "sentence_en": "The morning air is free from dust and ___.",
+            "accepted_answers": [
+              "smoke"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'a morning walk, which is good for health'।",
+          "data": {
+            "sentence_en": "What is good for health in the morning?",
+            "accepted_answers": [
+              "a morning walk",
+              "morning walk"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'Most successful people are early risers'।",
+          "data": {
+            "question_en": "Most successful people are ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "late risers"
+              },
+              {
+                "key": "B",
+                "text_en": "early risers"
+              },
+              {
+                "key": "C",
+                "text_en": "lazy"
+              },
+              {
+                "key": "D",
+                "text_en": "unhealthy"
+              }
+            ],
+            "correct_option": "B"
           }
         }
       ]
@@ -7745,6 +8354,176 @@
       "sentence_en": "He is not only wise ___ also kind.",
       "accepted_answers": [
         "but"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c001",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "passive অর্থে 'respected by'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Honesty is a great virtue. An honest man is respected ___ everybody.",
+      "accepted_answers": [
+        "by"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c002",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'take care of'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should take care ___ our health.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c003",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রসঙ্গ: সময় নষ্ট করে না।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A good student never wastes his ___.",
+      "accepted_answers": [
+        "time"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c004",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রবাদ: Books are our best friends।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Books are our best ___.",
+      "accepted_answers": [
+        "friends"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c005",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রসঙ্গ: স্বাস্থ্য ছাড়া জীবন দুর্বিষহ।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Health is wealth. Without health, life becomes ___.",
+      "accepted_answers": [
+        "miserable",
+        "dull",
+        "unhappy"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c006",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'kind to'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should be kind ___ the poor.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c007",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রবাদ: Practice makes a man perfect।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Practice makes a man ___.",
+      "accepted_answers": [
+        "perfect"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-c008",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রবাদ: The early bird catches the worm।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The early bird ___ the worm.",
+      "accepted_answers": [
+        "catches"
       ],
       "fuzzy_tolerance": 0,
       "case_sensitive": false
@@ -8425,6 +9204,186 @@
     }
   },
   {
+    "id": "p1.rearranging.p1_rearranging-c001",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "গল্পের কার্যকারণ ক্রম অনুসরণ করো।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "A crow was sitting on a tree with a piece of meat."
+        },
+        {
+          "id": "U2",
+          "text_en": "A fox saw the crow and wanted the meat."
+        },
+        {
+          "id": "U3",
+          "text_en": "The fox praised the crow's voice and asked it to sing."
+        },
+        {
+          "id": "U4",
+          "text_en": "The foolish crow opened its beak to sing."
+        },
+        {
+          "id": "U5",
+          "text_en": "The meat fell down and the fox ran away with it."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-c002",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "লোভী কুকুরের গল্পের ক্রম।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "Once there was a greedy dog."
+        },
+        {
+          "id": "U2",
+          "text_en": "One day it got a piece of meat."
+        },
+        {
+          "id": "U3",
+          "text_en": "While crossing a bridge, it saw its shadow in the water."
+        },
+        {
+          "id": "U4",
+          "text_en": "It thought the shadow was another dog with meat."
+        },
+        {
+          "id": "U5",
+          "text_en": "It barked to get that meat and lost its own."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-c003",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "সাধারণ বক্তব্য → ব্যাখ্যা → ফল → করণীয়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "Punctuality is a great virtue."
+        },
+        {
+          "id": "U2",
+          "text_en": "A punctual man does everything in time."
+        },
+        {
+          "id": "U3",
+          "text_en": "He never wastes a single moment."
+        },
+        {
+          "id": "U4",
+          "text_en": "People trust and respect him."
+        },
+        {
+          "id": "U5",
+          "text_en": "So, we should all be punctual."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-c004",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "সময়ের ধারাবাহিকতা অনুসরণ করো।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "The cock crowed early in the morning."
+        },
+        {
+          "id": "U2",
+          "text_en": "The farmer got up from his bed."
+        },
+        {
+          "id": "U3",
+          "text_en": "He took his plough and went to the field."
+        },
+        {
+          "id": "U4",
+          "text_en": "He worked hard the whole day."
+        },
+        {
+          "id": "U5",
+          "text_en": "In the evening, he returned home happily."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
     "id": "p1.writing_prompt.p1_graph_chart-001",
     "type": "writing_prompt",
     "paper": "1st",
@@ -8500,6 +9459,50 @@
         {
           "id": "R3",
           "criterion_bn": "largest/smallest তুলনা করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি সারাংশ দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_graph_chart-c001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_graph_chart",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "গ্রাফটি বর্ণনা করে লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "graph_description",
+      "prompt_en": "The bar graph shows the pass rate (%) of a school in the HSC exam over five years: 2020 – 70%, 2021 – 75%, 2022 – 68%, 2023 – 82%, 2024 – 90%. Describe the graph.",
+      "word_limit": {
+        "min": 120,
+        "max": 170
+      },
+      "model_answer_en": "The bar graph shows the pass rate of a school in the HSC examination over five years, from 2020 to 2024.\n\nIn 2020, the pass rate was 70 percent. It rose to 75 percent in 2021. However, in 2022 the rate fell to 68 percent, which was the lowest during this period. After that, the pass rate increased sharply to 82 percent in 2023 and reached 90 percent in 2024, the highest of all the years.\n\nFrom the graph, it is clear that, except for a fall in 2022, the pass rate of the school improved steadily. This shows that the standard of education in the school has been rising in recent years.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "শুরুতে graph কী দেখায় তা বলেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "প্রতিটি বছরের মান (%) উল্লেখ করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "highest/lowest ও rise/fall তুলনা করেছি"
         },
         {
           "id": "R4",
@@ -8689,6 +9692,94 @@
     }
   },
   {
+    "id": "p1.writing_prompt.p1_informal_letter-c001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_informal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "letter_informal",
+      "prompt_en": "Write a letter to your younger brother advising him to be attentive to his studies.",
+      "word_limit": {
+        "min": 110,
+        "max": 160
+      },
+      "model_answer_en": "Rajshahi\n5 April 2025\n\nDear Rana,\n\nI hope you are well. I am writing to advise you about your studies, as our mother told me that you have become careless about them.\n\nYou know that this is the most important time of your life. If you waste it now, you will suffer in future. So, make a routine and study regularly. Do not spend too much time on the mobile phone or television. Prepare your lessons every day and take part in games to keep fit. Always show respect to your teachers and parents.\n\nI am sure that if you follow my advice, you will do well in the examination. Take care of yourself.\n\nYour affectionate brother,\nSagar",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "স্থান ও তারিখ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear ...' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "পড়াশোনার উপদেশ কয়েকটি পয়েন্টে দিয়েছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your affectionate brother,' সহ নাম দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_informal_letter-c002",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_informal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "letter_informal",
+      "prompt_en": "Write a letter to your friend describing a book fair you have visited.",
+      "word_limit": {
+        "min": 110,
+        "max": 160
+      },
+      "model_answer_en": "Barisal\n12 February 2025\n\nDear Nadia,\n\nHow are you? Today I want to tell you about the book fair I visited last week.\n\nThe fair was held on the school playground. There were many stalls decorated beautifully. Books of all kinds — stories, novels, poems and science books — were displayed there. A huge crowd of people, especially students, gathered to buy books. I bought some story books and a dictionary. There was also a cultural programme in the evening, which I enjoyed very much.\n\nThe fair was really wonderful. I wish you had been with me. Please write to me about your school.\n\nYour loving friend,\nRimi",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "স্থান ও তারিখ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear ...' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "মেলার বর্ণনা (স্টল/বই/ভিড়) দিয়েছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.writing_prompt.p1_story_writing-001",
     "type": "writing_prompt",
     "paper": "1st",
@@ -8821,6 +9912,94 @@
     }
   },
   {
+    "id": "p1.writing_prompt.p1_story_writing-c001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_story_writing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের সূত্র থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "story",
+      "prompt_en": "Write a story using the outline: a thirsty crow — no water anywhere — finds a jar with little water — cannot reach it — drops pebbles one by one — water rises — drinks and flies away. Moral: where there is a will, there is a way.",
+      "word_limit": {
+        "min": 120,
+        "max": 170
+      },
+      "model_answer_en": "Where There is a Will, There is a Way\n\nOnce there was a crow. One hot summer day, it became very thirsty. It flew here and there in search of water but found none. At last it saw a jar in a garden. There was a little water at the bottom of the jar. The crow tried to drink but its beak could not reach the water.\n\nThe crow did not lose heart. It looked around and saw some small pebbles. Then it began to drop the pebbles into the jar one by one. Slowly the water rose up. At last the water came near the top. The crow drank the water happily and flew away.\n\nMoral: Where there is a will, there is a way.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি উপযুক্ত title দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "outline-এর ধাপগুলো ক্রমানুসারে এসেছে"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "past tense-এ ধারাবাহিকভাবে লিখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "শেষে একটি moral দিয়েছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_story_writing-c002",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_story_writing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের সূত্র থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "story",
+      "prompt_en": "Write a story about 'A Liar Shepherd Boy' using the outline: a boy tends sheep near a village — cries 'Wolf! Wolf!' for fun — villagers come but find no wolf — this happens twice — one day a real wolf comes — the boy cries but nobody believes — wolf kills the sheep. Moral: nobody believes a liar.",
+      "word_limit": {
+        "min": 120,
+        "max": 170
+      },
+      "model_answer_en": "Nobody Believes a Liar\n\nOnce there was a shepherd boy. He tended his sheep near a village. He was a mischievous boy. One day, to have some fun, he cried out, 'Wolf! Wolf!' The villagers ran to help him. But they found no wolf and went back angrily.\n\nThe boy enjoyed it and did the same thing again the next day. Again the villagers came and again they were fooled. They became very annoyed with him.\n\nA few days later, a real wolf came and attacked the sheep. The boy cried out, 'Wolf! Wolf!' with all his might. But this time nobody believed him. No one came to help. The wolf killed many sheep and went away.\n\nMoral: Nobody believes a liar, even when he tells the truth.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি উপযুক্ত title দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "outline-এর ধাপগুলো ক্রমানুসারে এসেছে"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "past tense-এ লিখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "শেষে একটি moral দিয়েছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.writing_prompt.p1_summary-001",
     "type": "writing_prompt",
     "paper": "1st",
@@ -8856,6 +10035,94 @@
         {
           "id": "R4",
           "criterion_bn": "একটি অনুচ্ছেদে (paragraph) লিখেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_summary-b001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_summary",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে নিজের ভাষায় সংক্ষিপ্তসার (summary) লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "summary",
+      "prompt_en": "Summarise the following passage in about one-third of its length:\n\n'Physical exercise is very important for good health. It keeps our body fit and free from diseases. There are many kinds of exercise such as walking, running and swimming. Walking is the easiest and suits people of all ages. Exercise should be taken regularly, in the open air and in the morning. A person who takes regular exercise can work hard and enjoy a sound mind in a sound body.'",
+      "word_limit": {
+        "min": 40,
+        "max": 60
+      },
+      "model_answer_en": "Physical exercise is essential for good health as it keeps the body fit and free from diseases. There are various kinds of exercise, and walking is the easiest for people of all ages. Exercise should be taken regularly in the fresh morning air. Regular exercise gives us a sound body and a sound mind.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "মূল ভাব ঠিক রেখেছি, উদাহরণ/বিস্তারিত বাদ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "নিজের ভাষায় লিখেছি (হুবহু বাক্য তুলিনি)"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "মূল অনুচ্ছেদের প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি অনুচ্ছেদে ধারাবাহিকভাবে লিখেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_summary-b002",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_summary",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে নিজের ভাষায় সংক্ষিপ্তসার (summary) লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "summary",
+      "prompt_en": "Summarise the following passage in about one-third of its length:\n\n'A newspaper is a storehouse of knowledge. It brings us the news of home and abroad. By reading a newspaper, we learn about politics, sports, business and culture. It helps us to form our opinion on different matters and to become good citizens. A student who reads newspapers regularly improves his knowledge and language. So, everyone should develop the habit of reading newspapers.'",
+      "word_limit": {
+        "min": 40,
+        "max": 60
+      },
+      "model_answer_en": "A newspaper is a great source of knowledge that gives us news from home and abroad. By reading it, we learn about many matters and can form our own opinions. It also helps students improve their knowledge and language. Therefore, everyone should form the habit of reading newspapers regularly.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "মূল ভাব ঠিক রেখেছি, উদাহরণ বাদ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "নিজের ভাষায় লিখেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি অনুচ্ছেদে লিখেছি"
         },
         {
           "id": "R5",

@@ -1,29 +1,29 @@
 {
-  "pack_version": 8,
+  "pack_version": 9,
   "schema_version": "1.0.0",
-  "generated_at": "2026-07-11T16:49:34.579Z",
+  "generated_at": "2026-07-11T17:07:06.695Z",
   "source_file": "authoring",
   "source_sha256": "authoring-json",
-  "pack_sha256": "bea1671732d078fe494bc60a09eff5323d4c8de89f444a4fa00852644f927773",
+  "pack_sha256": "ee4e44c53cb00d3ad6b28795e4a451a7d0f9cdbe8ef6e452c270136320ffdaa4",
   "counts": {
-    "total": 645,
+    "total": 670,
     "by_type": {
-      "fill_in_open": 319,
+      "fill_in_open": 327,
       "flashcard": 48,
       "grammar_transformation": 77,
       "matching": 8,
       "mcq": 87,
-      "rearranging": 16,
-      "comprehension_set": 10,
+      "rearranging": 20,
+      "comprehension_set": 16,
       "fill_in_word_bank": 59,
-      "writing_prompt": 21
+      "writing_prompt": 28
     },
     "by_paper": {
       "both": 254,
-      "1st": 53,
+      "1st": 78,
       "2nd": 338
     }
   },
   "errors": 0,
-  "warnings": 53
+  "warnings": 55
 }

@@ -1,0 +1,33 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Trees are our best friends. They give us oxygen which we need to breathe, and they take in carbon dioxide which is harmful for us. Trees also give us food, wood, medicine and shade. They are the home of birds and many animals. The roots of trees hold the soil tightly and prevent erosion. Trees cause rainfall and keep the balance of nature. Without trees, the earth would become a desert. Yet, people cut down trees carelessly for wood and land. This is very harmful. We should plant more trees to save our environment.",
+      "subs": [
+        { "type": "mcq", "q": "What do trees give us to breathe?", "opts": ["carbon dioxide", "oxygen", "smoke", "water"], "correct": 1, "rule_bn": "'They give us oxygen which we need to breathe'।" },
+        { "type": "mcq", "q": "What do the roots of trees prevent?", "opts": ["rainfall", "erosion", "food", "shade"], "correct": 1, "rule_bn": "'The roots ... prevent erosion'।" },
+        { "type": "fill_in_open", "q": "Trees are the home of birds and many ___.", "a": ["animals"], "rule_bn": "'the home of birds and many animals'।" },
+        { "type": "mcq", "q": "Without trees, the earth would become a ___.", "opts": ["forest", "garden", "desert", "river"], "correct": 2, "rule_bn": "'the earth would become a desert'।" },
+        { "type": "fill_in_open", "q": "What should we plant more to save the environment?", "a": ["trees"], "rule_bn": "'We should plant more trees'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Mobile phones have become a part of our daily life. A mobile phone is a small device that helps us to talk to people far away. Today we can also send messages, take photos, browse the internet and do many other things with it. Students use it to collect information for their studies. Businessmen use it to run their business. However, the mobile phone has some bad sides too. Some students spend too much time playing games or using social media instead of studying. Too much use of the phone can also harm our eyes and health. So, we should use the mobile phone carefully and only when necessary.",
+      "subs": [
+        { "type": "mcq", "q": "What is a mobile phone?", "opts": ["a big machine", "a small device to talk to people far away", "a computer", "a television"], "correct": 1, "rule_bn": "'a small device that helps us to talk to people far away'।" },
+        { "type": "fill_in_open", "q": "Students use the mobile phone to collect ___ for their studies.", "a": ["information"], "rule_bn": "'to collect information for their studies'।" },
+        { "type": "mcq", "q": "Too much use of the phone can harm our ___.", "opts": ["books", "eyes and health", "friends", "money"], "correct": 1, "rule_bn": "'can also harm our eyes and health'।" },
+        { "type": "mcq", "q": "How should we use the mobile phone?", "opts": ["all day", "carefully and when necessary", "for games only", "never"], "correct": 1, "rule_bn": "'we should use the mobile phone carefully and only when necessary'।" }
+      ]
+    }
+  ]
+}

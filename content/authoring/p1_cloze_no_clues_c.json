@@ -1,0 +1,18 @@
+{
+  "topic": "p1_cloze_no_clues",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Honesty is a great virtue. An honest man is respected ___ everybody.", "a": ["by"], "rule_bn": "passive অর্থে 'respected by'।" },
+    { "type": "fill_in_open", "q": "We should take care ___ our health.", "a": ["of"], "rule_bn": "'take care of'।" },
+    { "type": "fill_in_open", "q": "A good student never wastes his ___.", "a": ["time"], "rule_bn": "প্রসঙ্গ: সময় নষ্ট করে না।" },
+    { "type": "fill_in_open", "q": "Books are our best ___.", "a": ["friends"], "rule_bn": "প্রবাদ: Books are our best friends।" },
+    { "type": "fill_in_open", "q": "Health is wealth. Without health, life becomes ___.", "a": ["miserable", "dull", "unhappy"], "fuzzy": 1, "rule_bn": "প্রসঙ্গ: স্বাস্থ্য ছাড়া জীবন দুর্বিষহ।" },
+    { "type": "fill_in_open", "q": "We should be kind ___ the poor.", "a": ["to"], "rule_bn": "'kind to'।" },
+    { "type": "fill_in_open", "q": "Practice makes a man ___.", "a": ["perfect"], "rule_bn": "প্রবাদ: Practice makes a man perfect।" },
+    { "type": "fill_in_open", "q": "The early bird ___ the worm.", "a": ["catches"], "rule_bn": "প্রবাদ: The early bird catches the worm।" }
+  ]
+}

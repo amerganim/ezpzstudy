@@ -1,0 +1,33 @@
+{
+  "topic": "p1_info_transfer",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Rice is the main food of Bangladesh. Growing rice needs several steps. First, the farmer ploughs the land well. Then he sows the seeds in a seedbed to make seedlings. After that, he plants the seedlings in the muddy field. The plants need water, sunlight and fertiliser to grow. When the crop becomes golden and ripe, the farmer harvests it. Finally, the grains are separated, dried in the sun and stored.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Step 1: The farmer ___ the land well.", "a": ["ploughs"], "fuzzy": 1, "rule_bn": "'the farmer ploughs the land well'।" },
+        { "type": "fill_in_open", "q": "Step 2: He ___ the seeds in a seedbed.", "a": ["sows"], "fuzzy": 1, "rule_bn": "'he sows the seeds in a seedbed'।" },
+        { "type": "fill_in_open", "q": "Step 3: He ___ the seedlings in the muddy field.", "a": ["plants"], "fuzzy": 1, "rule_bn": "'he plants the seedlings'।" },
+        { "type": "fill_in_open", "q": "Step 4: The farmer ___ the ripe crop.", "a": ["harvests"], "fuzzy": 1, "rule_bn": "'the farmer harvests it'।" },
+        { "type": "fill_in_open", "q": "Step 5: The grains are dried and ___.", "a": ["stored"], "rule_bn": "'dried in the sun and stored'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "A butterfly passes through four stages in its life. At first, the mother butterfly lays tiny eggs on a leaf. From each egg comes out a small worm called a caterpillar. The caterpillar eats leaves and grows bigger. After some time, it turns into a pupa and stays still inside a cover. At last, a beautiful butterfly comes out of the pupa and flies away.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Stage 1: The butterfly lays ___ on a leaf.", "a": ["eggs"], "rule_bn": "'lays tiny eggs on a leaf'।" },
+        { "type": "fill_in_open", "q": "Stage 2: A small worm called a ___ comes out.", "a": ["caterpillar"], "rule_bn": "'a small worm called a caterpillar'।" },
+        { "type": "fill_in_open", "q": "Stage 3: It turns into a ___.", "a": ["pupa"], "rule_bn": "'it turns into a pupa'।" },
+        { "type": "fill_in_open", "q": "Stage 4: A beautiful ___ comes out.", "a": ["butterfly"], "rule_bn": "'a beautiful butterfly comes out of the pupa'।" }
+      ]
+    }
+  ]
+}

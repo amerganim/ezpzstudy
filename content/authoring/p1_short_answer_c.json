@@ -1,0 +1,33 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Water is another name for life. We cannot live without water. We use water for drinking, cooking, washing and bathing. Farmers need water to grow crops. Water is found in rivers, ponds, canals and under the ground. But pure water is becoming scarce day by day. We pollute water by throwing waste and dirty things into rivers and ponds. Polluted water causes many diseases such as diarrhoea and cholera. So, we should keep our water sources clean and should not waste water.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What is another name for life?", "a": ["water"], "rule_bn": "প্রথম বাক্য: Water is another name for life।" },
+        { "type": "mcq", "q": "Who needs water to grow crops?", "opts": ["students", "farmers", "doctors", "drivers"], "correct": 1, "rule_bn": "'Farmers need water to grow crops'।" },
+        { "type": "fill_in_open", "q": "How do we pollute water?", "a": ["by throwing waste into rivers", "by throwing dirty things", "by throwing waste"], "fuzzy": 3, "rule_bn": "'by throwing waste and dirty things into rivers and ponds'।" },
+        { "type": "mcq", "q": "Polluted water causes ___.", "opts": ["good health", "diseases", "rainfall", "crops"], "correct": 1, "rule_bn": "'Polluted water causes many diseases'।" },
+        { "type": "fill_in_open", "q": "What should we keep clean?", "a": ["water sources", "our water sources"], "fuzzy": 2, "rule_bn": "'we should keep our water sources clean'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Early rising is a good habit. A man who gets up early in the morning can enjoy the fresh air and the beauty of nature. The morning air is free from dust and smoke. An early riser can start his work early and finish it in time. He also gets time for a morning walk, which is good for health. Most successful people are early risers. On the other hand, those who get up late cannot finish their work properly and often remain unhealthy. So, we should all form the habit of early rising.",
+      "subs": [
+        { "type": "mcq", "q": "What kind of habit is early rising?", "opts": ["a bad habit", "a good habit", "a strange habit", "a costly habit"], "correct": 1, "rule_bn": "'Early rising is a good habit'।" },
+        { "type": "fill_in_open", "q": "The morning air is free from dust and ___.", "a": ["smoke"], "rule_bn": "'free from dust and smoke'।" },
+        { "type": "fill_in_open", "q": "What is good for health in the morning?", "a": ["a morning walk", "morning walk"], "fuzzy": 2, "rule_bn": "'a morning walk, which is good for health'।" },
+        { "type": "mcq", "q": "Most successful people are ___.", "opts": ["late risers", "early risers", "lazy", "unhealthy"], "correct": 1, "rule_bn": "'Most successful people are early risers'।" }
+      ]
+    }
+  ]
+}

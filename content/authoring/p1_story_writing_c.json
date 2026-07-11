@@ -1,0 +1,38 @@
+{
+  "topic": "p1_story_writing",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের সূত্র থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "story",
+      "prompt": "Write a story using the outline: a thirsty crow — no water anywhere — finds a jar with little water — cannot reach it — drops pebbles one by one — water rises — drinks and flies away. Moral: where there is a will, there is a way.",
+      "words": [120, 170],
+      "model": "Where There is a Will, There is a Way\n\nOnce there was a crow. One hot summer day, it became very thirsty. It flew here and there in search of water but found none. At last it saw a jar in a garden. There was a little water at the bottom of the jar. The crow tried to drink but its beak could not reach the water.\n\nThe crow did not lose heart. It looked around and saw some small pebbles. Then it began to drop the pebbles into the jar one by one. Slowly the water rose up. At last the water came near the top. The crow drank the water happily and flew away.\n\nMoral: Where there is a will, there is a way.",
+      "rubric": [
+        "একটি উপযুক্ত title দিয়েছি",
+        "outline-এর ধাপগুলো ক্রমানুসারে এসেছে",
+        "past tense-এ ধারাবাহিকভাবে লিখেছি",
+        "শেষে একটি moral দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "story",
+      "prompt": "Write a story about 'A Liar Shepherd Boy' using the outline: a boy tends sheep near a village — cries 'Wolf! Wolf!' for fun — villagers come but find no wolf — this happens twice — one day a real wolf comes — the boy cries but nobody believes — wolf kills the sheep. Moral: nobody believes a liar.",
+      "words": [120, 170],
+      "model": "Nobody Believes a Liar\n\nOnce there was a shepherd boy. He tended his sheep near a village. He was a mischievous boy. One day, to have some fun, he cried out, 'Wolf! Wolf!' The villagers ran to help him. But they found no wolf and went back angrily.\n\nThe boy enjoyed it and did the same thing again the next day. Again the villagers came and again they were fooled. They became very annoyed with him.\n\nA few days later, a real wolf came and attacked the sheep. The boy cried out, 'Wolf! Wolf!' with all his might. But this time nobody believed him. No one came to help. The wolf killed many sheep and went away.\n\nMoral: Nobody believes a liar, even when he tells the truth.",
+      "rubric": [
+        "একটি উপযুক্ত title দিয়েছি",
+        "outline-এর ধাপগুলো ক্রমানুসারে এসেছে",
+        "past tense-এ লিখেছি",
+        "শেষে একটি moral দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

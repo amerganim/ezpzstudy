@@ -1,0 +1,38 @@
+{
+  "topic": "p1_informal_letter",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your younger brother advising him to be attentive to his studies.",
+      "words": [110, 160],
+      "model": "Rajshahi\n5 April 2025\n\nDear Rana,\n\nI hope you are well. I am writing to advise you about your studies, as our mother told me that you have become careless about them.\n\nYou know that this is the most important time of your life. If you waste it now, you will suffer in future. So, make a routine and study regularly. Do not spend too much time on the mobile phone or television. Prepare your lessons every day and take part in games to keep fit. Always show respect to your teachers and parents.\n\nI am sure that if you follow my advice, you will do well in the examination. Take care of yourself.\n\nYour affectionate brother,\nSagar",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "পড়াশোনার উপদেশ কয়েকটি পয়েন্টে দিয়েছি",
+        "'Your affectionate brother,' সহ নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your friend describing a book fair you have visited.",
+      "words": [110, 160],
+      "model": "Barisal\n12 February 2025\n\nDear Nadia,\n\nHow are you? Today I want to tell you about the book fair I visited last week.\n\nThe fair was held on the school playground. There were many stalls decorated beautifully. Books of all kinds — stories, novels, poems and science books — were displayed there. A huge crowd of people, especially students, gathered to buy books. I bought some story books and a dictionary. There was also a cultural programme in the evening, which I enjoyed very much.\n\nThe fair was really wonderful. I wish you had been with me. Please write to me about your school.\n\nYour loving friend,\nRimi",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "মেলার বর্ণনা (স্টল/বই/ভিড়) দিয়েছি",
+        "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

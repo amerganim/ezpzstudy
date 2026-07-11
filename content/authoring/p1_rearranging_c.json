@@ -1,0 +1,14 @@
+{
+  "topic": "p1_rearranging",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+  "items": [
+    { "type": "rearranging", "sentences": ["A crow was sitting on a tree with a piece of meat.", "A fox saw the crow and wanted the meat.", "The fox praised the crow's voice and asked it to sing.", "The foolish crow opened its beak to sing.", "The meat fell down and the fox ran away with it."], "rule_bn": "গল্পের কার্যকারণ ক্রম অনুসরণ করো।" },
+    { "type": "rearranging", "sentences": ["Once there was a greedy dog.", "One day it got a piece of meat.", "While crossing a bridge, it saw its shadow in the water.", "It thought the shadow was another dog with meat.", "It barked to get that meat and lost its own."], "rule_bn": "লোভী কুকুরের গল্পের ক্রম।" },
+    { "type": "rearranging", "sentences": ["Punctuality is a great virtue.", "A punctual man does everything in time.", "He never wastes a single moment.", "People trust and respect him.", "So, we should all be punctual."], "rule_bn": "সাধারণ বক্তব্য → ব্যাখ্যা → ফল → করণীয়।" },
+    { "type": "rearranging", "sentences": ["The cock crowed early in the morning.", "The farmer got up from his bed.", "He took his plough and went to the field.", "He worked hard the whole day.", "In the evening, he returned home happily."], "rule_bn": "সময়ের ধারাবাহিকতা অনুসরণ করো।" }
+  ]
+}

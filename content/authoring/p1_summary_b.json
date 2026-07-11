@@ -1,0 +1,38 @@
+{
+  "topic": "p1_summary",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে নিজের ভাষায় সংক্ষিপ্তসার (summary) লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "summary",
+      "prompt": "Summarise the following passage in about one-third of its length:\n\n'Physical exercise is very important for good health. It keeps our body fit and free from diseases. There are many kinds of exercise such as walking, running and swimming. Walking is the easiest and suits people of all ages. Exercise should be taken regularly, in the open air and in the morning. A person who takes regular exercise can work hard and enjoy a sound mind in a sound body.'",
+      "words": [40, 60],
+      "model": "Physical exercise is essential for good health as it keeps the body fit and free from diseases. There are various kinds of exercise, and walking is the easiest for people of all ages. Exercise should be taken regularly in the fresh morning air. Regular exercise gives us a sound body and a sound mind.",
+      "rubric": [
+        "মূল ভাব ঠিক রেখেছি, উদাহরণ/বিস্তারিত বাদ দিয়েছি",
+        "নিজের ভাষায় লিখেছি (হুবহু বাক্য তুলিনি)",
+        "মূল অনুচ্ছেদের প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি",
+        "একটি অনুচ্ছেদে ধারাবাহিকভাবে লিখেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "summary",
+      "prompt": "Summarise the following passage in about one-third of its length:\n\n'A newspaper is a storehouse of knowledge. It brings us the news of home and abroad. By reading a newspaper, we learn about politics, sports, business and culture. It helps us to form our opinion on different matters and to become good citizens. A student who reads newspapers regularly improves his knowledge and language. So, everyone should develop the habit of reading newspapers.'",
+      "words": [40, 60],
+      "model": "A newspaper is a great source of knowledge that gives us news from home and abroad. By reading it, we learn about many matters and can form our own opinions. It also helps students improve their knowledge and language. Therefore, everyone should form the habit of reading newspapers regularly.",
+      "rubric": [
+        "মূল ভাব ঠিক রেখেছি, উদাহরণ বাদ দিয়েছি",
+        "নিজের ভাষায় লিখেছি",
+        "প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি",
+        "একটি অনুচ্ছেদে লিখেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}
