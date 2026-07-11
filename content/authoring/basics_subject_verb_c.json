@@ -1,0 +1,18 @@
+{
+  "topic": "basics_subject_verb",
+  "paper": "both",
+  "batch": "c",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "The dog ___ at night. (bark)", "a": ["barks"], "rule_bn": "Singular subject + verb-এ s: barks।" },
+    { "type": "fill_in_open", "q": "The children ___ in the park. (play)", "a": ["play"], "rule_bn": "Plural subject: play (s ছাড়া)।" },
+    { "type": "fill_in_open", "q": "She ___ to music every day. (listen)", "a": ["listens"], "rule_bn": "She + s: listens।" },
+    { "type": "fill_in_open", "q": "We ___ students. (be)", "a": ["are"], "rule_bn": "We-এর সাথে 'are'।" },
+    { "type": "fill_in_open", "q": "It ___ raining outside. (be)", "a": ["is"], "rule_bn": "It-এর সাথে 'is'।" },
+    { "type": "fill_in_open", "q": "My parents ___ at home. (be)", "a": ["are"], "rule_bn": "Plural subject: are।" },
+    { "type": "fill_in_open", "q": "The boy and the girl ___ friends. (be)", "a": ["are"], "rule_bn": "and দিয়ে যুক্ত, plural: are।" },
+    { "type": "fill_in_open", "q": "He ___ his homework now. (do)", "a": ["is doing"], "fuzzy": 1, "rule_bn": "'now' + He: is doing।" }
+  ]
+}

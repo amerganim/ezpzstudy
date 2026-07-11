@@ -1,0 +1,16 @@
+{
+  "topic": "p1_cloze_clues",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "Early rising is a good {{1}}. It is good for our {{2}}.", "bank": ["habit", "health", "time", "money"], "ans": ["habit", "health"], "rule_bn": "সকালে ওঠা ভালো habit এবং স্বাস্থ্যের (health) জন্য ভালো।" },
+    { "type": "fill_in_word_bank", "q": "The farmer works {{1}} in the field. He grows {{2}} for us.", "bank": ["hard", "food", "little", "money"], "ans": ["hard", "food"], "rule_bn": "কৃষক কঠোর (hard) পরিশ্রম করে এবং খাদ্য (food) উৎপাদন করে।" },
+    { "type": "fill_in_word_bank", "q": "We should {{1}} our parents and {{2}} our teachers.", "bank": ["obey", "respect", "hate", "ignore"], "ans": ["obey", "respect"], "rule_bn": "বাবা-মাকে মান্য (obey) ও শিক্ষকদের সম্মান (respect) করা উচিত।" },
+    { "type": "fill_in_word_bank", "q": "The sun gives us {{1}} and {{2}}.", "bank": ["light", "heat", "rain", "cold"], "ans": ["light", "heat"], "rule_bn": "সূর্য আলো (light) ও তাপ (heat) দেয়।" },
+    { "type": "fill_in_word_bank", "q": "A good citizen loves his {{1}} and obeys the {{2}}.", "bank": ["country", "law", "enemy", "money"], "ans": ["country", "law"], "rule_bn": "ভালো নাগরিক দেশকে (country) ভালোবাসে ও আইন (law) মানে।" },
+    { "type": "fill_in_word_bank", "q": "We should keep our {{1}} clean to stay {{2}}.", "bank": ["surroundings", "healthy", "dirty", "sick"], "ans": ["surroundings", "healthy"], "rule_bn": "পরিবেশ (surroundings) পরিষ্কার রাখলে সুস্থ (healthy) থাকা যায়।" }
+  ]
+}

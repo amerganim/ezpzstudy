@@ -1,0 +1,18 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter দিয়ে বাক্যটি আবার লেখো (Board: punctuation, 0.5×14)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "karim said i shall go to school", "a": ["Karim said, \"I shall go to school.\""], "transform": "punctuation", "fuzzy": 3, "rule_bn": "উক্তির আগে কমা, inverted comma, ভেতরে capital ও full stop।" },
+    { "type": "grammar_transformation", "original": "hurrah we have won the game", "a": ["Hurrah! We have won the game."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "আনন্দে (!); নতুন বাক্য capital।" },
+    { "type": "grammar_transformation", "original": "she reads in class nine and her brother in class six", "a": ["She reads in class nine, and her brother in class six."], "transform": "punctuation", "fuzzy": 3, "rule_bn": "দুটি clause যুক্ত করতে কমা + and।" },
+    { "type": "grammar_transformation", "original": "have you done your homework", "a": ["Have you done your homework?"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "প্রশ্নের শেষে (?)।" },
+    { "type": "grammar_transformation", "original": "the boys books are new", "a": ["The boy's books are new.", "The boys' books are new."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "মালিকানায় apostrophe (boy's/boys')।" },
+    { "type": "grammar_transformation", "original": "we should read write and speak english", "a": ["We should read, write and speak English."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "তালিকায় কমা; English capital।" },
+    { "type": "grammar_transformation", "original": "oh what a pity", "a": ["Oh! What a pity.", "Oh, what a pity!"], "transform": "punctuation", "fuzzy": 2, "rule_bn": "Interjection ও আবেগে (!)।" },
+    { "type": "grammar_transformation", "original": "eid is a great festival of the muslims", "a": ["Eid is a great festival of the Muslims."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "উৎসব ও জাতির নাম capital।" }
+  ]
+}

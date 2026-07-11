@@ -1,0 +1,18 @@
+{
+  "topic": "p2_connectors",
+  "paper": "2nd",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "He was tired. {{1}}, he finished the work.", "bank": ["Still", "So", "Because", "Therefore"], "ans": ["Still"], "rule_bn": "তবুও বোঝাতে 'Still'।" },
+    { "type": "fill_in_word_bank", "q": "First boil the water. {{1}}, add the tea leaves.", "bank": ["However", "Then", "But", "Because"], "ans": ["Then"], "rule_bn": "ধাপ বোঝাতে 'Then'।" },
+    { "type": "fill_in_word_bank", "q": "He is poor. {{1}}, he is content.", "bank": ["So", "Even so", "Because", "Therefore"], "ans": ["Even so"], "rule_bn": "তা সত্ত্বেও: 'Even so'।" },
+    { "type": "fill_in_word_bank", "q": "We must save water. {{1}}, we will suffer.", "bank": ["And", "Otherwise", "So", "Because"], "ans": ["Otherwise"], "rule_bn": "নাহলে: 'Otherwise'।" },
+    { "type": "fill_in_word_bank", "q": "She is intelligent {{1}} hardworking.", "bank": ["but", "as well as", "so", "because"], "ans": ["as well as"], "rule_bn": "যোগ করতে 'as well as'।" },
+    { "type": "fill_in_word_bank", "q": "{{1}} he was late, he missed the bus.", "bank": ["So", "As", "But", "Although"], "ans": ["As"], "rule_bn": "কারণ বোঝাতে 'As'।" },
+    { "type": "fill_in_word_bank", "q": "He is honest {{1}} intelligent.", "bank": ["but", "and", "so", "because"], "ans": ["and"], "rule_bn": "সাদৃশ্য যোগ করতে 'and'।" },
+    { "type": "fill_in_word_bank", "q": "Work hard {{1}} you may succeed.", "bank": ["but", "so that", "because", "otherwise"], "ans": ["so that"], "rule_bn": "উদ্দেশ্য বোঝাতে 'so that'।" }
+  ]
+}

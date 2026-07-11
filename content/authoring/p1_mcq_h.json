@@ -1,0 +1,32 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "h",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Female education is very important for a nation. Women make up almost half of our population. If they remain uneducated, half of the nation stays backward. An educated mother can bring up her children in a better way. She can teach them good manners and help them in their studies. Educated women can also earn money and support their families. In the past, many people did not send their daughters to school. But now the situation is changing. The government has taken many steps to encourage female education. We should all help girls to get an education.",
+      "subs": [
+        { "type": "mcq", "q": "How much of our population do women make up?", "opts": ["one-fourth", "almost half", "one-third", "all"], "correct": 1, "rule_bn": "'Women make up almost half of our population'।" },
+        { "type": "fill_in_open", "q": "An educated mother can bring up her children in a better ___.", "a": ["way"], "rule_bn": "'bring up her children in a better way'।" },
+        { "type": "mcq", "q": "What can educated women do besides raising children?", "opts": ["nothing", "earn money and support families", "waste time", "stay backward"], "correct": 1, "rule_bn": "'Educated women can also earn money and support their families'।" },
+        { "type": "fill_in_open", "q": "Who has taken steps to encourage female education?", "a": ["the government", "government"], "fuzzy": 1, "rule_bn": "'The government has taken many steps'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "The liberation war of 1971 is a glorious chapter in our history. Under the leadership of Bangabandhu Sheikh Mujibur Rahman, the people of this country fought against the Pakistani army. The war continued for nine long months. Millions of people sacrificed their lives for the freedom of the country. Our brave freedom fighters fought bravely against the enemy. At last, on 16 December 1971, we won our victory and Bangladesh became an independent country. We should always remember the martyrs who died for us.",
+      "subs": [
+        { "type": "fill_in_open", "q": "In which year was the liberation war?", "a": ["1971"], "rule_bn": "'The liberation war of 1971'।" },
+        { "type": "mcq", "q": "Under whose leadership did the people fight?", "opts": ["a foreign leader", "Bangabandhu Sheikh Mujibur Rahman", "the army", "no one"], "correct": 1, "rule_bn": "'Under the leadership of Bangabandhu Sheikh Mujibur Rahman'।" },
+        { "type": "fill_in_open", "q": "How many months did the war continue?", "a": ["nine", "9", "nine months"], "fuzzy": 2, "rule_bn": "'The war continued for nine long months'।" },
+        { "type": "mcq", "q": "On which date did we win victory?", "opts": ["26 March 1971", "16 December 1971", "21 February 1952", "1 January 1972"], "correct": 1, "rule_bn": "'on 16 December 1971, we won our victory'।" }
+      ]
+    }
+  ]
+}

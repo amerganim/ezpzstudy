@@ -1,0 +1,14 @@
+{
+  "topic": "p1_rearranging",
+  "paper": "1st",
+  "batch": "e",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+  "items": [
+    { "type": "rearranging", "sentences": ["A lion was sleeping in a forest.", "A little mouse ran over its body.", "The lion woke up and caught the mouse.", "The mouse begged for mercy and the lion let it go.", "Later the mouse cut the net and freed the lion."], "rule_bn": "সিংহ ও ইঁদুরের গল্পের ক্রম।" },
+    { "type": "rearranging", "sentences": ["Trees are very useful to us.", "They give us oxygen and shade.", "They also give us wood and fruits.", "But people are cutting down trees.", "We should plant more trees to save nature."], "rule_bn": "গুরুত্ব → সমস্যা → করণীয় ক্রমে।" },
+    { "type": "rearranging", "sentences": ["It was a holiday.", "We decided to go on a picnic.", "We reached the spot early in the morning.", "We cooked, played and enjoyed the whole day.", "In the evening we returned home happily."], "rule_bn": "সময়ের ধারাবাহিকতা অনুসরণ করো।" },
+    { "type": "rearranging", "sentences": ["Ishwar Chandra Vidyasagar was a great scholar.", "He was born in a poor family.", "He worked hard and became highly educated.", "He devoted his life to the service of others.", "He is remembered for his kindness and learning."], "rule_bn": "জীবনী: পরিচয় → জন্ম → শিক্ষা → কাজ → স্মরণ।" }
+  ]
+}
