@@ -1,0 +1,26 @@
+# Local Postgres for running the backend against a real database during
+# development. Tests do NOT need this — they use an in-memory pg-mem database.
+#
+#   docker compose up -d
+#   cp .env.example .env   # then adjust if needed
+#   npm run migrate
+#   npm start
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ezpz
+      POSTGRES_PASSWORD: ezpz
+      POSTGRES_DB: ezpzstudy
+    ports:
+      - "5432:5432"
+    volumes:
+      - ezpz_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ezpz -d ezpzstudy"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  ezpz_pgdata:

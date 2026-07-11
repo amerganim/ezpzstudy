@@ -1,0 +1,23 @@
+{
+  "name": "ezpzstudy-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EZPZ Study minimal backend: auth, progress sync, content versioning (Phase 3).",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev:mem": "node src/dev-mem.js",
+    "migrate": "node src/db/migrate.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "fastify": "^5.1.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "pg-mem": "^3.0.5"
+  }
+}
