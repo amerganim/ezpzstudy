@@ -1,0 +1,22 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "The liberation war of Bangladesh took place in 1971. It was a war for our freedom from the rule of Pakistan. On the night of 25 March 1971, the Pakistani army attacked the unarmed people of this land. Bangabandhu Sheikh Mujibur Rahman declared the independence of Bangladesh. Then a nine-month-long war began. Millions of people took shelter in India. About three million people gave their lives and many women lost their honour. At last, on 16 December 1971, our freedom fighters won the victory. Bangladesh became an independent country.",
+      "subs": [
+        { "type": "fill_in_open", "q": "In which year did the liberation war take place?", "a": ["1971"], "rule_bn": "'The liberation war of Bangladesh took place in 1971'।" },
+        { "type": "fill_in_open", "q": "Who declared the independence of Bangladesh?", "a": ["Bangabandhu Sheikh Mujibur Rahman", "Sheikh Mujibur Rahman", "Bangabandhu"], "fuzzy": 2, "rule_bn": "'Bangabandhu Sheikh Mujibur Rahman declared the independence'।" },
+        { "type": "mcq", "q": "How long did the war last?", "opts": ["six months", "nine months", "one year", "three months"], "correct": 1, "rule_bn": "'a nine-month-long war began'।" },
+        { "type": "fill_in_open", "q": "On which date did we win the victory?", "a": ["16 December 1971", "16 December"], "fuzzy": 2, "rule_bn": "'on 16 December 1971, our freedom fighters won the victory'।" },
+        { "type": "mcq", "q": "About how many people gave their lives?", "opts": ["one million", "two million", "three million", "five million"], "correct": 2, "rule_bn": "'About three million people gave their lives'।" }
+      ]
+    }
+  ]
+}

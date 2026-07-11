@@ -1,0 +1,38 @@
+{
+  "topic": "p2_formal_letter",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে একটি formal letter/application লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "application",
+      "prompt": "Write an application to the Headmaster of your school for a seat in the school hostel.",
+      "words": [120, 180],
+      "model": "The Headmaster\n[Name of School]\n[Place]\n\nSubject: Prayer for a seat in the school hostel.\n\nSir,\nWith due respect, I beg to state that I am a student of class XII in your school. My house is far away from the school and there is no good communication system. As a result, I cannot attend my classes in time. My studies are being hampered.\n\nSo, I need a seat in the school hostel. I assure you that I shall abide by all the rules of the hostel.\n\nI therefore pray and hope that you would be kind enough to grant me a seat in the hostel and oblige thereby.\n\nYour most obedient student,\nRimon Ahmed\nClass XII, Roll No. 05",
+      "rubric": [
+        "receiver ও subject line সঠিকভাবে দিয়েছি",
+        "'Sir,' দিয়ে শুরু ও বিনয়ী ভাষা ব্যবহার করেছি",
+        "সমস্যা (দূরত্ব/যাতায়াত) স্পষ্টভাবে বলেছি",
+        "'Your most obedient student' সহ নাম, class ও roll দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "email",
+      "prompt": "Write an email to the manager of a bookshop ordering some books for your library.",
+      "words": [100, 150],
+      "model": "To: sales@bookhouse.com\nSubject: Order for books\n\nDear Sir,\n\nI am writing on behalf of the Green Model School library. We want to buy some books for our students. Please supply us the following books at your earliest convenience:\n\n1. English Grammar and Composition — 20 copies\n2. A Dictionary of English — 10 copies\n3. Selected Short Stories — 15 copies\n\nPlease send the books by courier and inform us of the total price. We shall pay the bill on receipt of the books.\n\nWe hope to receive the books within a week.\n\nYours faithfully,\nLibrarian, Green Model School",
+      "rubric": [
+        "To ও Subject line দিয়েছি",
+        "'Dear Sir,' দিয়ে শুরু করেছি",
+        "বইয়ের তালিকা ও সংখ্যা স্পষ্টভাবে দিয়েছি",
+        "'Yours faithfully,' সহ পরিচয় দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

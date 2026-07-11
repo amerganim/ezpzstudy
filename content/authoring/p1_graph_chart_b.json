@@ -1,0 +1,24 @@
+{
+  "topic": "p1_graph_chart",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "চার্টটি বর্ণনা করে লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "graph_description",
+      "prompt": "The pie chart shows how a student spends his 24 hours a day: Sleep – 8 hours, Study – 6 hours, School – 5 hours, Play – 2 hours, Others – 3 hours. Describe the chart.",
+      "words": [120, 170],
+      "model": "The pie chart shows how a student spends his time in a day of 24 hours. It is divided into five parts: sleep, study, school, play and others.\n\nAccording to the chart, the student spends the largest part of his time, that is 8 hours, on sleep. The second largest part, 6 hours, is spent on study at home. He passes 5 hours at school. He gives 2 hours to play, which is the smallest part. The remaining 3 hours are spent on other activities such as eating, bathing and talking.\n\nFrom the chart, it is clear that the student gives most of his time to sleep and study. This shows that he is serious about his lessons but also takes proper rest. On the whole, he maintains a balanced daily routine.",
+      "rubric": [
+        "শুরুতে chart কী দেখায় তা বলেছি",
+        "প্রতিটি অংশের সময় (hours) উল্লেখ করেছি",
+        "largest/smallest তুলনা করেছি",
+        "একটি সারাংশ দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

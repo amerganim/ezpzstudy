@@ -1,0 +1,18 @@
+{
+  "topic": "basics_prepositions",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "The picture hangs ___ the wall.", "a": ["on"], "rule_bn": "দেয়ালের গায়ে বোঝাতে 'on' বসে।" },
+    { "type": "fill_in_open", "q": "The sun sets ___ the west.", "a": ["in"], "rule_bn": "দিক বোঝাতে 'in the west' বসে।" },
+    { "type": "fill_in_open", "q": "He came ___ Sunday.", "a": ["on"], "rule_bn": "দিনের নামের আগে 'on' বসে।" },
+    { "type": "fill_in_open", "q": "We reached there ___ night.", "a": ["at"], "rule_bn": "'at night' একটি নির্দিষ্ট প্রকাশ।" },
+    { "type": "fill_in_open", "q": "She sat ___ two friends.", "a": ["between"], "rule_bn": "দুইয়ের মাঝে বোঝাতে 'between' বসে।" },
+    { "type": "fill_in_open", "q": "The ball rolled ___ the table.", "a": ["under"], "fuzzy": 1, "rule_bn": "নিচে বোঝাতে 'under' বসে।" },
+    { "type": "fill_in_open", "q": "He walked ___ the room.", "a": ["across", "into"], "fuzzy": 0, "rule_bn": "এপার-ওপার/ভেতরে বোঝাতে 'across/into' বসে।" },
+    { "type": "fill_in_open", "q": "I have known him ___ a long time.", "a": ["for"], "rule_bn": "সময়ের ব্যাপ্তি বোঝাতে 'for' বসে।" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "basics_verb_forms",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "Past form of 'begin' is ___.", "a": ["began"], "rule_bn": "Begin – began – begun।" },
+    { "type": "fill_in_open", "q": "Past participle of 'speak' is ___.", "a": ["spoken"], "rule_bn": "Speak – spoke – spoken।" },
+    { "type": "fill_in_open", "q": "Past form of 'catch' is ___.", "a": ["caught"], "rule_bn": "Catch – caught – caught।" },
+    { "type": "fill_in_open", "q": "Past form of 'teach' is ___.", "a": ["taught"], "rule_bn": "Teach – taught – taught।" },
+    { "type": "fill_in_open", "q": "Past participle of 'know' is ___.", "a": ["known"], "rule_bn": "Know – knew – known।" },
+    { "type": "matching", "left": ["fall", "sing", "drink", "swim"], "right": ["fell", "sang", "drank", "swam"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "সঠিক past form মেলাও: fall-fell, sing-sang, drink-drank, swim-swam।" },
+    { "type": "fill_in_open", "q": "Past form of 'bring' is ___.", "a": ["brought"], "rule_bn": "Bring – brought – brought।" },
+    { "type": "mcq", "q": "Which is the correct past participle of 'go'?", "opts": ["went", "gone", "going", "goed"], "correct": 1, "rule_bn": "Go – went – gone; past participle 'gone'।" }
+  ]
+}

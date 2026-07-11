@@ -1,0 +1,24 @@
+{
+  "topic": "p1_story_writing",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের সূত্র থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "story",
+      "prompt": "Write a story about the moral 'Honesty is the best policy' using the outline: a poor woodcutter — loses his axe in a river — a fairy appears — offers a golden and a silver axe — the man refuses — tells the truth — gets all three axes.",
+      "words": [130, 180],
+      "model": "Honesty is the Best Policy\n\nOnce there lived a poor woodcutter. He earned his living by cutting wood. One day he was cutting a tree beside a river. Suddenly his axe slipped from his hand and fell into the water. He could not swim, so he sat on the bank and began to weep.\n\nAt that time a fairy appeared before him. She dived into the river and brought up a golden axe. But the woodcutter said it was not his. Then she brought up a silver axe. Again he refused it honestly. At last she brought up his own iron axe. The woodcutter became very happy and said, 'Yes, this is my axe.'\n\nThe fairy was pleased with his honesty. She gave him all three axes as a reward. The woodcutter returned home a happy man.\n\nMoral: Honesty is the best policy.",
+      "rubric": [
+        "একটি উপযুক্ত title দিয়েছি",
+        "outline-এর ধাপগুলো ক্রমানুসারে এসেছে",
+        "past tense-এ ধারাবাহিকভাবে লিখেছি",
+        "শেষে একটি moral দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

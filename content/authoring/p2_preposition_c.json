@@ -1,0 +1,20 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He was born ___ a rich family.", "a": ["in", "into", "to"], "fuzzy": 0, "rule_bn": "পরিবারে জন্ম বোঝাতে 'in/to' বসে।" },
+    { "type": "fill_in_open", "q": "She is devoted ___ her children.", "a": ["to"], "rule_bn": "'devoted to' — নিবেদিত বোঝায়।" },
+    { "type": "fill_in_open", "q": "I am aware ___ the danger.", "a": ["of"], "rule_bn": "'aware of' — সচেতন বোঝায়।" },
+    { "type": "fill_in_open", "q": "He is fit ___ the post.", "a": ["for"], "rule_bn": "'fit for' — উপযুক্ত বোঝায়।" },
+    { "type": "fill_in_open", "q": "The teacher was satisfied ___ my work.", "a": ["with"], "rule_bn": "'satisfied with' — সন্তুষ্ট বোঝায়।" },
+    { "type": "fill_in_open", "q": "We should abide ___ the rules.", "a": ["by"], "rule_bn": "'abide by' — মেনে চলা বোঝায়।" },
+    { "type": "fill_in_open", "q": "He is addicted ___ smoking.", "a": ["to"], "rule_bn": "'addicted to' — আসক্ত বোঝায় (এর পরে verb+ing)।" },
+    { "type": "fill_in_open", "q": "The bird flew ___ the tree.", "a": ["over", "above"], "fuzzy": 0, "rule_bn": "উপর দিয়ে বোঝাতে 'over/above' বসে।" },
+    { "type": "fill_in_open", "q": "He jumped ___ the wall.", "a": ["over"], "rule_bn": "ডিঙিয়ে যাওয়া বোঝাতে 'over' বসে।" },
+    { "type": "fill_in_open", "q": "She is junior ___ me.", "a": ["to"], "rule_bn": "'junior to' — এর পরে 'to' বসে।" }
+  ]
+}

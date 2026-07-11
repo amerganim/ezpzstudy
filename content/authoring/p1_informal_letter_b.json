@@ -1,0 +1,38 @@
+{
+  "topic": "p1_informal_letter",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your friend congratulating him on his brilliant success in the HSC examination.",
+      "words": [100, 150],
+      "model": "Cumilla\n20 February 2025\n\nDear Sabbir,\n\nI have just received the happy news that you have got GPA-5 in the HSC examination. I cannot express how glad I am. Please accept my heartiest congratulations.\n\nI knew that you would shine because you always studied hard and never wasted your time. Your success is the reward of your labour. I hope you will get a chance to study in a good university.\n\nConvey my regards to your parents. Write to me soon.\n\nYour loving friend,\nTanvir",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "অভিনন্দন ও প্রশংসা স্পষ্টভাবে প্রকাশ করেছি",
+        "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your friend about the importance of reading newspapers.",
+      "words": [110, 160],
+      "model": "Sylhet\n8 March 2025\n\nDear Hasib,\n\nHow are you? Today I want to write to you about the importance of reading newspapers, as I have seen that you do not read them.\n\nA newspaper is a storehouse of knowledge. It brings us the news of home and abroad. By reading it, we come to know about politics, sports, business and many other things. It helps us to form our own opinion and become good citizens. A student who reads newspapers regularly can improve his English and general knowledge.\n\nSo, I request you to read a newspaper every day. I am sure it will help you a lot.\n\nYour loving friend,\nMizan",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "পত্রিকা পড়ার উপকারিতা কয়েকটি পয়েন্টে দিয়েছি",
+        "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

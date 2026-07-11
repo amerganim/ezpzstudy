@@ -1,0 +1,32 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Begum Rokeya was a great social reformer and educationist. She was born in 1880 in the village of Pairaband in Rangpur. In those days, girls were not allowed to go to school. But Rokeya learnt English and Bengali secretly with the help of her elder brother. She realised that education was the key to the freedom of women. So she opened a school for girls in Kolkata. She also wrote many books and articles to awaken the women of this country. For her great work, she is called the pioneer of women's education in Bengal. She died in 1932.",
+      "subs": [
+        { "type": "fill_in_open", "q": "When was Begum Rokeya born?", "a": ["1880", "in 1880"], "fuzzy": 1, "rule_bn": "'She was born in 1880'।" },
+        { "type": "mcq", "q": "With whose help did she learn English secretly?", "opts": ["her father", "her elder brother", "her teacher", "her friend"], "correct": 1, "rule_bn": "'with the help of her elder brother'।" },
+        { "type": "mcq", "q": "What did she consider the key to women's freedom?", "opts": ["money", "education", "marriage", "work"], "correct": 1, "rule_bn": "'education was the key to the freedom of women'।" },
+        { "type": "fill_in_open", "q": "She is called the pioneer of women's ___ in Bengal.", "a": ["education"], "rule_bn": "'the pioneer of women's education in Bengal'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Deforestation is a serious threat to our environment. It means cutting down trees on a large scale without planting new ones. People cut trees to build houses, to make furniture and to get firewood. They also clear forests to make new farmlands. But deforestation has many bad effects. It reduces the amount of oxygen and increases carbon dioxide in the air. As a result, the temperature of the earth rises, which is known as global warming. Deforestation also causes floods, droughts and soil erosion. Many wild animals lose their homes and become extinct. To save our environment, we should stop cutting trees and plant more trees every year.",
+      "subs": [
+        { "type": "mcq", "q": "What does deforestation mean?", "opts": ["planting trees", "cutting down trees on a large scale", "watering trees", "growing crops"], "correct": 1, "rule_bn": "'cutting down trees on a large scale without planting new ones'।" },
+        { "type": "fill_in_open", "q": "The rise of the earth's temperature is known as global ___.", "a": ["warming"], "rule_bn": "'the temperature of the earth rises, which is known as global warming'।" },
+        { "type": "mcq", "q": "Which of these is NOT mentioned as an effect of deforestation?", "opts": ["floods", "droughts", "earthquakes", "soil erosion"], "correct": 2, "rule_bn": "অনুচ্ছেদে floods, droughts, soil erosion আছে; earthquake নেই।" },
+        { "type": "fill_in_open", "q": "To save the environment, we should plant more ___ every year.", "a": ["trees"], "rule_bn": "'plant more trees every year'।" }
+      ]
+    }
+  ]
+}

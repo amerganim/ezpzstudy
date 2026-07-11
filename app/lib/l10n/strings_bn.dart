@@ -22,6 +22,11 @@ class Bn {
   static const chooseTopic = 'একটি বিষয় বেছে নাও';
   static const questionsAvailable = 'টি প্রশ্ন আছে';
   static const scoreLabel = 'তোমার স্কোর';
+  static const basicsSectionTitle = 'মূল ভিত্তি (Basics)';
+  static const basicsSectionSub =
+      'ইংরেজির ভিত্তি — দুর্বল হলে এখান থেকে শুরু করো';
+  static const hscSectionTitle = 'HSC অনুশীলন';
+  static const hscSectionSub = '1st ও 2nd Paper সিলেবাস অনুযায়ী';
 
   // Session
   static const questionOf = 'প্রশ্ন'; // "প্রশ্ন ৩ / ১০"

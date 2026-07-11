@@ -1,0 +1,38 @@
+{
+  "topic": "p2_paragraph_listing",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে একটি paragraph লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph on 'The Importance of Learning English'.",
+      "words": [150, 200],
+      "model": "English is an international language. It is spoken and understood almost all over the world. So, learning English has become very important for us. First of all, English is the language of higher education. Most of the books on science, medicine and technology are written in English. Secondly, English is needed to get a good job at home and abroad. Those who know English well can easily find jobs in multinational companies. Thirdly, English helps us to communicate with foreigners and to travel to different countries. In the age of the internet, we also need English to use computers and to collect information. Moreover, English opens the door to global knowledge and culture. Without English, we will lag behind in the competitive world. Therefore, every student should learn English seriously from an early age. We should practise reading, writing, listening and speaking in English every day. Thus, we can build a bright future for ourselves and for our country.",
+      "rubric": [
+        "একটি topic sentence দিয়ে শুরু করেছি",
+        "listing শব্দ (First, Secondly, Moreover) ব্যবহার করেছি",
+        "কমপক্ষে ৩টি আলাদা কারণ দিয়েছি",
+        "একটি concluding sentence দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph on 'A Winter Morning'.",
+      "words": [150, 200],
+      "model": "A winter morning is cold and foggy. It is the coldest part of the winter season. In the early morning, thick fog covers the whole area. Nothing can be seen even at a short distance. Dewdrops fall on grass and leaves at night and shine like pearls in the morning. The sun rises late and its light seems very pleasant. Poor people suffer a lot on a winter morning because they do not have warm clothes. They gather straw and dry leaves to make fire and warm themselves. Village people sit in the sun to enjoy its warmth. Many people like to eat date juice and different kinds of cakes on a winter morning. Farmers go to the fields a little late. As the day advances, the fog disappears and the sun shines brightly. A winter morning has a beauty of its own, though it brings hardship to the poor.",
+      "rubric": [
+        "একটি topic sentence দিয়ে শুরু করেছি",
+        "কুয়াশা/শিশির/সূর্য বর্ণনা করেছি",
+        "মানুষের অবস্থা (গরিব/গ্রামের মানুষ) দিয়েছি",
+        "একটি concluding sentence দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

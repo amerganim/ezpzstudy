@@ -2,6 +2,8 @@
 class TopicInfo {
   final String id;
   final String labelEn;
+  final String labelBn;
+  final String track; // "basics" (Pass-first foundations) | "hsc"
   final String paper; // "1st" | "2nd" | "both"
   final num weight; // board-marks weight; 0 for non-scoring (e.g. vocabulary)
   final List<String> remedial; // SSC prerequisite topic ids
@@ -9,14 +11,20 @@ class TopicInfo {
   const TopicInfo({
     required this.id,
     required this.labelEn,
+    this.labelBn = '',
+    this.track = 'hsc',
     required this.paper,
     required this.weight,
     required this.remedial,
   });
 
+  bool get isBasics => track == 'basics';
+
   factory TopicInfo.fromJson(Map<String, dynamic> json) => TopicInfo(
         id: json['id'] as String,
         labelEn: json['label_en'] as String,
+        labelBn: (json['label_bn'] as String?) ?? json['label_en'] as String,
+        track: (json['track'] as String?) ?? 'hsc',
         paper: json['paper'] as String,
         weight: json['weight'] as num,
         remedial: (json['remedial'] as List<dynamic>? ?? const [])

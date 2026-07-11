@@ -547,6 +547,175 @@
     }
   },
   {
+    "id": "b.fill_in_open.basics_prepositions-b001",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "দেয়ালের গায়ে বোঝাতে 'on' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The picture hangs ___ the wall.",
+      "accepted_answers": [
+        "on"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b002",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "দিক বোঝাতে 'in the west' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The sun sets ___ the west.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b003",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "দিনের নামের আগে 'on' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He came ___ Sunday.",
+      "accepted_answers": [
+        "on"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b004",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "'at night' একটি নির্দিষ্ট প্রকাশ।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We reached there ___ night.",
+      "accepted_answers": [
+        "at"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b005",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "দুইয়ের মাঝে বোঝাতে 'between' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She sat ___ two friends.",
+      "accepted_answers": [
+        "between"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b006",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "নিচে বোঝাতে 'under' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The ball rolled ___ the table.",
+      "accepted_answers": [
+        "under"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b007",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "এপার-ওপার/ভেতরে বোঝাতে 'across/into' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He walked ___ the room.",
+      "accepted_answers": [
+        "across",
+        "into"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_prepositions-b008",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_prepositions",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+    "explanation_bn": "সময়ের ব্যাপ্তি বোঝাতে 'for' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I have known him ___ a long time.",
+      "accepted_answers": [
+        "for"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "b.fill_in_open.basics_subject_verb-001",
     "type": "fill_in_open",
     "paper": "both",
@@ -1006,6 +1175,132 @@
       "sentence_en": "Past form of 'give' is ___.",
       "accepted_answers": [
         "gave"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_verb_forms-b001",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Begin – began – begun।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Past form of 'begin' is ___.",
+      "accepted_answers": [
+        "began"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_verb_forms-b002",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Speak – spoke – spoken।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Past participle of 'speak' is ___.",
+      "accepted_answers": [
+        "spoken"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_verb_forms-b003",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Catch – caught – caught।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Past form of 'catch' is ___.",
+      "accepted_answers": [
+        "caught"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_verb_forms-b004",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Teach – taught – taught।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Past form of 'teach' is ___.",
+      "accepted_answers": [
+        "taught"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_verb_forms-b005",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Know – knew – known।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Past participle of 'know' is ___.",
+      "accepted_answers": [
+        "known"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_verb_forms-b007",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Bring – brought – brought।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Past form of 'bring' is ___.",
+      "accepted_answers": [
+        "brought"
       ],
       "fuzzy_tolerance": 0,
       "case_sensitive": false
@@ -2688,6 +2983,75 @@
     }
   },
   {
+    "id": "b.matching.basics_verb_forms-b006",
+    "type": "matching",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "সঠিক past form মেলাও: fall-fell, sing-sang, drink-drank, swim-swam।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "left_items": [
+        {
+          "id": "L1",
+          "text_en": "fall"
+        },
+        {
+          "id": "L2",
+          "text_en": "sing"
+        },
+        {
+          "id": "L3",
+          "text_en": "drink"
+        },
+        {
+          "id": "L4",
+          "text_en": "swim"
+        }
+      ],
+      "right_items": [
+        {
+          "id": "R1",
+          "text_en": "fell"
+        },
+        {
+          "id": "R2",
+          "text_en": "sang"
+        },
+        {
+          "id": "R3",
+          "text_en": "drank"
+        },
+        {
+          "id": "R4",
+          "text_en": "swam"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L4",
+          "right_id": "R4"
+        }
+      ]
+    }
+  },
+  {
     "id": "b.mcq.basics_articles-009",
     "type": "mcq",
     "paper": "both",
@@ -3528,6 +3892,41 @@
     }
   },
   {
+    "id": "b.mcq.basics_verb_forms-b008",
+    "type": "mcq",
+    "paper": "both",
+    "topic": "basics_verb_forms",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+    "explanation_bn": "Go – went – gone; past participle 'gone'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Which is the correct past participle of 'go'?",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "went"
+        },
+        {
+          "key": "B",
+          "text_en": "gone"
+        },
+        {
+          "key": "C",
+          "text_en": "going"
+        },
+        {
+          "key": "D",
+          "text_en": "goed"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
     "id": "b.mcq.basics_wh_questions-007",
     "type": "mcq",
     "paper": "both",
@@ -4352,6 +4751,205 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_mcq-c001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Begum Rokeya was a great social reformer and educationist. She was born in 1880 in the village of Pairaband in Rangpur. In those days, girls were not allowed to go to school. But Rokeya learnt English and Bengali secretly with the help of her elder brother. She realised that education was the key to the freedom of women. So she opened a school for girls in Kolkata. She also wrote many books and articles to awaken the women of this country. For her great work, she is called the pioneer of women's education in Bengal. She died in 1932.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'She was born in 1880'।",
+          "data": {
+            "sentence_en": "When was Begum Rokeya born?",
+            "accepted_answers": [
+              "1880",
+              "in 1880"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'with the help of her elder brother'।",
+          "data": {
+            "question_en": "With whose help did she learn English secretly?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "her father"
+              },
+              {
+                "key": "B",
+                "text_en": "her elder brother"
+              },
+              {
+                "key": "C",
+                "text_en": "her teacher"
+              },
+              {
+                "key": "D",
+                "text_en": "her friend"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'education was the key to the freedom of women'।",
+          "data": {
+            "question_en": "What did she consider the key to women's freedom?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "money"
+              },
+              {
+                "key": "B",
+                "text_en": "education"
+              },
+              {
+                "key": "C",
+                "text_en": "marriage"
+              },
+              {
+                "key": "D",
+                "text_en": "work"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'the pioneer of women's education in Bengal'।",
+          "data": {
+            "sentence_en": "She is called the pioneer of women's ___ in Bengal.",
+            "accepted_answers": [
+              "education"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-c002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Deforestation is a serious threat to our environment. It means cutting down trees on a large scale without planting new ones. People cut trees to build houses, to make furniture and to get firewood. They also clear forests to make new farmlands. But deforestation has many bad effects. It reduces the amount of oxygen and increases carbon dioxide in the air. As a result, the temperature of the earth rises, which is known as global warming. Deforestation also causes floods, droughts and soil erosion. Many wild animals lose their homes and become extinct. To save our environment, we should stop cutting trees and plant more trees every year.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'cutting down trees on a large scale without planting new ones'।",
+          "data": {
+            "question_en": "What does deforestation mean?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "planting trees"
+              },
+              {
+                "key": "B",
+                "text_en": "cutting down trees on a large scale"
+              },
+              {
+                "key": "C",
+                "text_en": "watering trees"
+              },
+              {
+                "key": "D",
+                "text_en": "growing crops"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'the temperature of the earth rises, which is known as global warming'।",
+          "data": {
+            "sentence_en": "The rise of the earth's temperature is known as global ___.",
+            "accepted_answers": [
+              "warming"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "অনুচ্ছেদে floods, droughts, soil erosion আছে; earthquake নেই।",
+          "data": {
+            "question_en": "Which of these is NOT mentioned as an effect of deforestation?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "floods"
+              },
+              {
+                "key": "B",
+                "text_en": "droughts"
+              },
+              {
+                "key": "C",
+                "text_en": "earthquakes"
+              },
+              {
+                "key": "D",
+                "text_en": "soil erosion"
+              }
+            ],
+            "correct_option": "C"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'plant more trees every year'।",
+          "data": {
+            "sentence_en": "To save the environment, we should plant more ___ every year.",
+            "accepted_answers": [
+              "trees"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.comprehension_set.p1_short_answer-001",
     "type": "comprehension_set",
     "paper": "1st",
@@ -4558,6 +5156,121 @@
             ],
             "fuzzy_tolerance": 0,
             "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-b001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "The liberation war of Bangladesh took place in 1971. It was a war for our freedom from the rule of Pakistan. On the night of 25 March 1971, the Pakistani army attacked the unarmed people of this land. Bangabandhu Sheikh Mujibur Rahman declared the independence of Bangladesh. Then a nine-month-long war began. Millions of people took shelter in India. About three million people gave their lives and many women lost their honour. At last, on 16 December 1971, our freedom fighters won the victory. Bangladesh became an independent country.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'The liberation war of Bangladesh took place in 1971'।",
+          "data": {
+            "sentence_en": "In which year did the liberation war take place?",
+            "accepted_answers": [
+              "1971"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'Bangabandhu Sheikh Mujibur Rahman declared the independence'।",
+          "data": {
+            "sentence_en": "Who declared the independence of Bangladesh?",
+            "accepted_answers": [
+              "Bangabandhu Sheikh Mujibur Rahman",
+              "Sheikh Mujibur Rahman",
+              "Bangabandhu"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'a nine-month-long war began'।",
+          "data": {
+            "question_en": "How long did the war last?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "six months"
+              },
+              {
+                "key": "B",
+                "text_en": "nine months"
+              },
+              {
+                "key": "C",
+                "text_en": "one year"
+              },
+              {
+                "key": "D",
+                "text_en": "three months"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'on 16 December 1971, our freedom fighters won the victory'।",
+          "data": {
+            "sentence_en": "On which date did we win the victory?",
+            "accepted_answers": [
+              "16 December 1971",
+              "16 December"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "mcq",
+          "explanation_bn": "'About three million people gave their lives'।",
+          "data": {
+            "question_en": "About how many people gave their lives?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "one million"
+              },
+              {
+                "key": "B",
+                "text_en": "two million"
+              },
+              {
+                "key": "C",
+                "text_en": "three million"
+              },
+              {
+                "key": "D",
+                "text_en": "five million"
+              }
+            ],
+            "correct_option": "C"
           }
         }
       ]
@@ -5624,6 +6337,50 @@
     }
   },
   {
+    "id": "p1.writing_prompt.p1_graph_chart-b001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_graph_chart",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "চার্টটি বর্ণনা করে লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "graph_description",
+      "prompt_en": "The pie chart shows how a student spends his 24 hours a day: Sleep – 8 hours, Study – 6 hours, School – 5 hours, Play – 2 hours, Others – 3 hours. Describe the chart.",
+      "word_limit": {
+        "min": 120,
+        "max": 170
+      },
+      "model_answer_en": "The pie chart shows how a student spends his time in a day of 24 hours. It is divided into five parts: sleep, study, school, play and others.\n\nAccording to the chart, the student spends the largest part of his time, that is 8 hours, on sleep. The second largest part, 6 hours, is spent on study at home. He passes 5 hours at school. He gives 2 hours to play, which is the smallest part. The remaining 3 hours are spent on other activities such as eating, bathing and talking.\n\nFrom the chart, it is clear that the student gives most of his time to sleep and study. This shows that he is serious about his lessons but also takes proper rest. On the whole, he maintains a balanced daily routine.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "শুরুতে chart কী দেখায় তা বলেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "প্রতিটি অংশের সময় (hours) উল্লেখ করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "largest/smallest তুলনা করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি সারাংশ দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.writing_prompt.p1_informal_letter-001",
     "type": "writing_prompt",
     "paper": "1st",
@@ -5699,6 +6456,94 @@
         {
           "id": "R3",
           "criterion_bn": "স্থানটি ও অভিজ্ঞতা বর্ণনা করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_informal_letter-b001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_informal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "letter_informal",
+      "prompt_en": "Write a letter to your friend congratulating him on his brilliant success in the HSC examination.",
+      "word_limit": {
+        "min": 100,
+        "max": 150
+      },
+      "model_answer_en": "Cumilla\n20 February 2025\n\nDear Sabbir,\n\nI have just received the happy news that you have got GPA-5 in the HSC examination. I cannot express how glad I am. Please accept my heartiest congratulations.\n\nI knew that you would shine because you always studied hard and never wasted your time. Your success is the reward of your labour. I hope you will get a chance to study in a good university.\n\nConvey my regards to your parents. Write to me soon.\n\nYour loving friend,\nTanvir",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "স্থান ও তারিখ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear ...' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "অভিনন্দন ও প্রশংসা স্পষ্টভাবে প্রকাশ করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_informal_letter-b002",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_informal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "letter_informal",
+      "prompt_en": "Write a letter to your friend about the importance of reading newspapers.",
+      "word_limit": {
+        "min": 110,
+        "max": 160
+      },
+      "model_answer_en": "Sylhet\n8 March 2025\n\nDear Hasib,\n\nHow are you? Today I want to write to you about the importance of reading newspapers, as I have seen that you do not read them.\n\nA newspaper is a storehouse of knowledge. It brings us the news of home and abroad. By reading it, we come to know about politics, sports, business and many other things. It helps us to form our own opinion and become good citizens. A student who reads newspapers regularly can improve his English and general knowledge.\n\nSo, I request you to read a newspaper every day. I am sure it will help you a lot.\n\nYour loving friend,\nMizan",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "স্থান ও তারিখ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear ...' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "পত্রিকা পড়ার উপকারিতা কয়েকটি পয়েন্টে দিয়েছি"
         },
         {
           "id": "R4",
@@ -5791,6 +6636,50 @@
         {
           "id": "R4",
           "criterion_bn": "শেষে moral দিয়েছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_story_writing-b001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_story_writing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের সূত্র থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "story",
+      "prompt_en": "Write a story about the moral 'Honesty is the best policy' using the outline: a poor woodcutter — loses his axe in a river — a fairy appears — offers a golden and a silver axe — the man refuses — tells the truth — gets all three axes.",
+      "word_limit": {
+        "min": 130,
+        "max": 180
+      },
+      "model_answer_en": "Honesty is the Best Policy\n\nOnce there lived a poor woodcutter. He earned his living by cutting wood. One day he was cutting a tree beside a river. Suddenly his axe slipped from his hand and fell into the water. He could not swim, so he sat on the bank and began to weep.\n\nAt that time a fairy appeared before him. She dived into the river and brought up a golden axe. But the woodcutter said it was not his. Then she brought up a silver axe. Again he refused it honestly. At last she brought up his own iron axe. The woodcutter became very happy and said, 'Yes, this is my axe.'\n\nThe fairy was pleased with his honesty. She gave him all three axes as a reward. The woodcutter returned home a happy man.\n\nMoral: Honesty is the best policy.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি উপযুক্ত title দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "outline-এর ধাপগুলো ক্রমানুসারে এসেছে"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "past tense-এ ধারাবাহিকভাবে লিখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "শেষে একটি moral দিয়েছি"
         },
         {
           "id": "R5",
@@ -6899,6 +7788,219 @@
     "author": "ezpz-content",
     "data": {
       "sentence_en": "He is indifferent ___ his studies.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "পরিবারে জন্ম বোঝাতে 'in/to' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He was born ___ a rich family.",
+      "accepted_answers": [
+        "in",
+        "into",
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'devoted to' — নিবেদিত বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She is devoted ___ her children.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'aware of' — সচেতন বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I am aware ___ the danger.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'fit for' — উপযুক্ত বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is fit ___ the post.",
+      "accepted_answers": [
+        "for"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'satisfied with' — সন্তুষ্ট বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The teacher was satisfied ___ my work.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'abide by' — মেনে চলা বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should abide ___ the rules.",
+      "accepted_answers": [
+        "by"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'addicted to' — আসক্ত বোঝায় (এর পরে verb+ing)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is addicted ___ smoking.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "উপর দিয়ে বোঝাতে 'over/above' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The bird flew ___ the tree.",
+      "accepted_answers": [
+        "over",
+        "above"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "ডিঙিয়ে যাওয়া বোঝাতে 'over' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He jumped ___ the wall.",
+      "accepted_answers": [
+        "over"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-c010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'junior to' — এর পরে 'to' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She is junior ___ me.",
       "accepted_answers": [
         "to"
       ],
@@ -10383,6 +11485,94 @@
     }
   },
   {
+    "id": "p2.writing_prompt.p2_formal_letter-b001",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_formal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি formal letter/application লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "application",
+      "prompt_en": "Write an application to the Headmaster of your school for a seat in the school hostel.",
+      "word_limit": {
+        "min": 120,
+        "max": 180
+      },
+      "model_answer_en": "The Headmaster\n[Name of School]\n[Place]\n\nSubject: Prayer for a seat in the school hostel.\n\nSir,\nWith due respect, I beg to state that I am a student of class XII in your school. My house is far away from the school and there is no good communication system. As a result, I cannot attend my classes in time. My studies are being hampered.\n\nSo, I need a seat in the school hostel. I assure you that I shall abide by all the rules of the hostel.\n\nI therefore pray and hope that you would be kind enough to grant me a seat in the hostel and oblige thereby.\n\nYour most obedient student,\nRimon Ahmed\nClass XII, Roll No. 05",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "receiver ও subject line সঠিকভাবে দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Sir,' দিয়ে শুরু ও বিনয়ী ভাষা ব্যবহার করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "সমস্যা (দূরত্ব/যাতায়াত) স্পষ্টভাবে বলেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your most obedient student' সহ নাম, class ও roll দিয়েছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.writing_prompt.p2_formal_letter-b002",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_formal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি formal letter/application লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "email",
+      "prompt_en": "Write an email to the manager of a bookshop ordering some books for your library.",
+      "word_limit": {
+        "min": 100,
+        "max": 150
+      },
+      "model_answer_en": "To: sales@bookhouse.com\nSubject: Order for books\n\nDear Sir,\n\nI am writing on behalf of the Green Model School library. We want to buy some books for our students. Please supply us the following books at your earliest convenience:\n\n1. English Grammar and Composition — 20 copies\n2. A Dictionary of English — 10 copies\n3. Selected Short Stories — 15 copies\n\nPlease send the books by courier and inform us of the total price. We shall pay the bill on receipt of the books.\n\nWe hope to receive the books within a week.\n\nYours faithfully,\nLibrarian, Green Model School",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "To ও Subject line দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear Sir,' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "বইয়ের তালিকা ও সংখ্যা স্পষ্টভাবে দিয়েছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Yours faithfully,' সহ পরিচয় দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
     "id": "p2.writing_prompt.p2_paragraph_compare-001",
     "type": "writing_prompt",
     "paper": "2nd",
@@ -10471,6 +11661,50 @@
     }
   },
   {
+    "id": "p2.writing_prompt.p2_paragraph_compare-b001",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_paragraph_compare",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে comparison/cause-effect paragraph লেখো। নিজে লেখার পর নমুনা দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "paragraph",
+      "prompt_en": "Write a paragraph on 'Causes and Effects of Load-shedding' (cause and effect).",
+      "word_limit": {
+        "min": 150,
+        "max": 200
+      },
+      "model_answer_en": "Load-shedding is a common problem in our country. It means the temporary cut of electricity supply. There are several causes of load-shedding. The main cause is that our production of electricity is much less than our demand. Moreover, the wastage of electricity, illegal connections and the system loss also cause load-shedding. As a result of load-shedding, our daily life is greatly hampered. Students cannot study properly at night. Mills and factories cannot run smoothly, so the production falls. Patients in hospitals suffer a lot. Because of frequent load-shedding, valuable electrical goods are often damaged. In the hot summer, load-shedding makes our life miserable. It also affects the economy of the country badly. To reduce load-shedding, we should build more power plants and use electricity carefully. We must not waste electricity and should turn off unnecessary lights and fans. Only then can we get relief from this serious problem.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "topic sentence দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "কারণগুলো (causes) স্পষ্টভাবে দিয়েছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "ফলাফল বোঝাতে as a result, because of ব্যবহার করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি করণীয়/concluding বাক্য দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
     "id": "p2.writing_prompt.p2_paragraph_listing-001",
     "type": "writing_prompt",
     "paper": "2nd",
@@ -10546,6 +11780,94 @@
         {
           "id": "R3",
           "criterion_bn": "ভালো ও খারাপ দুই দিক দিয়েছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি concluding sentence দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.writing_prompt.p2_paragraph_listing-b001",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_paragraph_listing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে একটি paragraph লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "paragraph",
+      "prompt_en": "Write a paragraph on 'The Importance of Learning English'.",
+      "word_limit": {
+        "min": 150,
+        "max": 200
+      },
+      "model_answer_en": "English is an international language. It is spoken and understood almost all over the world. So, learning English has become very important for us. First of all, English is the language of higher education. Most of the books on science, medicine and technology are written in English. Secondly, English is needed to get a good job at home and abroad. Those who know English well can easily find jobs in multinational companies. Thirdly, English helps us to communicate with foreigners and to travel to different countries. In the age of the internet, we also need English to use computers and to collect information. Moreover, English opens the door to global knowledge and culture. Without English, we will lag behind in the competitive world. Therefore, every student should learn English seriously from an early age. We should practise reading, writing, listening and speaking in English every day. Thus, we can build a bright future for ourselves and for our country.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি topic sentence দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "listing শব্দ (First, Secondly, Moreover) ব্যবহার করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "কমপক্ষে ৩টি আলাদা কারণ দিয়েছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি concluding sentence দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.writing_prompt.p2_paragraph_listing-b002",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_paragraph_listing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে একটি paragraph লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "paragraph",
+      "prompt_en": "Write a paragraph on 'A Winter Morning'.",
+      "word_limit": {
+        "min": 150,
+        "max": 200
+      },
+      "model_answer_en": "A winter morning is cold and foggy. It is the coldest part of the winter season. In the early morning, thick fog covers the whole area. Nothing can be seen even at a short distance. Dewdrops fall on grass and leaves at night and shine like pearls in the morning. The sun rises late and its light seems very pleasant. Poor people suffer a lot on a winter morning because they do not have warm clothes. They gather straw and dry leaves to make fire and warm themselves. Village people sit in the sun to enjoy its warmth. Many people like to eat date juice and different kinds of cakes on a winter morning. Farmers go to the fields a little late. As the day advances, the fog disappears and the sun shines brightly. A winter morning has a beauty of its own, though it brings hardship to the poor.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি topic sentence দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "কুয়াশা/শিশির/সূর্য বর্ণনা করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "মানুষের অবস্থা (গরিব/গ্রামের মানুষ) দিয়েছি"
         },
         {
           "id": "R4",
