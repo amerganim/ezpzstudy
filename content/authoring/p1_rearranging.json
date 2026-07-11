@@ -1,0 +1,14 @@
+{
+  "topic": "p1_rearranging",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+  "items": [
+    { "type": "rearranging", "sentences": ["Once a thirsty crow was flying in search of water.", "At last it found a pitcher with a little water in it.", "But the water was too low to reach.", "The crow dropped some pebbles into the pitcher.", "Soon the water rose up and the crow drank it."], "rule_bn": "গল্পের যুক্তিসঙ্গত ক্রম: সমস্যা → খোঁজ → সমাধান → ফল।" },
+    { "type": "rearranging", "sentences": ["A farmer had a goose.", "The goose laid a golden egg every day.", "The greedy farmer wanted all the eggs at once.", "So he killed the goose to get them.", "But he found nothing and lost everything."], "rule_bn": "কারণ ও ফলের ক্রম অনুসরণ করো।" },
+    { "type": "rearranging", "sentences": ["Kazi Nazrul Islam was born in 1899.", "He is our national poet.", "He wrote many poems and songs.", "His writings inspired people to fight against injustice.", "He is called the rebel poet."], "rule_bn": "জীবনী সাধারণত জন্ম → পরিচয় → কাজ → প্রভাব ক্রমে সাজে।" },
+    { "type": "rearranging", "sentences": ["Water is essential for life.", "We get water from rivers, rain and wells.", "Without water no living being can survive.", "So we should not waste water.", "We must keep our water sources clean."], "rule_bn": "সাধারণ বক্তব্য → উৎস → গুরুত্ব → করণীয় ক্রমে সাজাও।" },
+    { "type": "rearranging", "sentences": ["The sun was setting in the west.", "The birds were returning to their nests.", "The farmers were coming back home from the fields.", "Soon darkness covered the whole village.", "The village became calm and quiet."], "rule_bn": "সময়ের ধারাবাহিকতা (সন্ধ্যা নামা) অনুসরণ করো।" }
+  ]
+}

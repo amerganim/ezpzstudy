@@ -1,0 +1,19 @@
+{
+  "topic": "basics_subject_verb",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "He ___ a good student. (be)", "a": ["is"], "rule_bn": "He/She/It-এর সাথে 'is' বসে।" },
+    { "type": "fill_in_open", "q": "They ___ playing in the field. (be)", "a": ["are"], "rule_bn": "They/We/You (plural)-এর সাথে 'are' বসে।" },
+    { "type": "fill_in_open", "q": "The boy ___ every morning. (walk)", "a": ["walks"], "rule_bn": "Singular subject (The boy)-এর সাথে verb-এ 's' যোগ হয়: walks।" },
+    { "type": "fill_in_open", "q": "The boys ___ every morning. (walk)", "a": ["walk"], "rule_bn": "Plural subject (The boys)-এর সাথে verb-এ 's' যোগ হয় না: walk।" },
+    { "type": "mcq", "q": "Choose the correct sentence:", "opts": ["My brother go to college.", "My brother goes to college.", "My brother going college.", "My brother gone college."], "correct": 1, "rule_bn": "Singular subject-এর সাথে goes।" },
+    { "type": "fill_in_open", "q": "Rina and Mina ___ friends. (be)", "a": ["are"], "rule_bn": "'and' দিয়ে যুক্ত দুটি subject মিলে plural হয়, তাই 'are'।" },
+    { "type": "fill_in_open", "q": "Each of the students ___ a book. (have)", "a": ["has"], "rule_bn": "Each of + plural noun হলেও verb singular হয়: has।" },
+    { "type": "fill_in_open", "q": "The news ___ true. (be)", "a": ["is"], "rule_bn": "News দেখতে plural হলেও অর্থে singular, তাই 'is'।" },
+    { "type": "mcq", "q": "Choose the correct one:", "opts": ["Ten miles are a long way.", "Ten miles is a long way.", "Ten mile is a long way.", "Ten miles were long way."], "correct": 1, "rule_bn": "দূরত্ব/পরিমাণ একক ধরা হয়, তাই singular verb 'is'।" },
+    { "type": "fill_in_open", "q": "Neither he nor his friends ___ present. (be)", "a": ["are", "were"], "fuzzy": 0, "rule_bn": "Neither...nor-এ verb কাছের subject (his friends=plural) অনুযায়ী হয়: are।" }
+  ]
+}

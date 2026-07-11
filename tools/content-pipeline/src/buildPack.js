@@ -147,9 +147,21 @@ function buildManifest({ packVersion, generatedAt, sourceFile, sourceSha256, pac
   };
 }
 
-async function buildCommand({ inputPath, topicMapPath, outPath, packVersion }) {
-  const { ajv, allEntries, errors, warnings, sourceSha256 } = await processWorkbook({ inputPath, topicMapPath });
+/** Validates already-mapped entries (schema + semantics) against the topic map. */
+function validateEntries(allEntries, topicMap) {
+  const ajv = buildAjv();
+  const schemaErrors = [];
+  for (const { question, source } of allEntries) {
+    for (const e of validateQuestion(ajv, question)) {
+      schemaErrors.push({ sheet: source.sheet, row: source.row, column: e.instancePath, message: e.message });
+    }
+  }
+  const { errors: semanticErrors, warnings } = validateSemantics(allEntries, topicMap);
+  return { ajv, errors: [...schemaErrors, ...semanticErrors], warnings };
+}
 
+/** Validates entries, then writes pack + manifest + report (shared xlsx/json). */
+function assembleAndWrite({ ajv, allEntries, errors, warnings, sourceFile, sourceSha256, outPath, packVersion }) {
   const report = [
     ...errors.map((e) => formatIssue("✖ error", e)),
     ...warnings.map((w) => formatIssue("⚠ warning", w)),
@@ -166,7 +178,7 @@ async function buildCommand({ inputPath, topicMapPath, outPath, packVersion }) {
   const manifest = buildManifest({
     packVersion,
     generatedAt: new Date().toISOString(),
-    sourceFile: path.basename(inputPath),
+    sourceFile,
     sourceSha256,
     packSha256,
     questions,
@@ -192,6 +204,38 @@ async function buildCommand({ inputPath, topicMapPath, outPath, packVersion }) {
   return { ok: true, manifest, outPath, manifestPath, reportPath, report, warnings };
 }
 
+async function buildCommand({ inputPath, topicMapPath, outPath, packVersion }) {
+  const { ajv, allEntries, errors, warnings, sourceSha256 } = await processWorkbook({ inputPath, topicMapPath });
+  return assembleAndWrite({
+    ajv,
+    allEntries,
+    errors,
+    warnings,
+    sourceFile: path.basename(inputPath),
+    sourceSha256,
+    outPath,
+    packVersion,
+  });
+}
+
+/** Builds a pack from a directory of compact JSON authoring files. */
+function buildJsonCommand({ authoringDir, topicMapPath, outPath, packVersion }) {
+  const { expandDir } = require("./authoring");
+  const topicMap = loadTopicMap(topicMapPath);
+  const { entries, errors: expandErrors } = expandDir(authoringDir);
+  const { ajv, errors: validationErrors, warnings } = validateEntries(entries, topicMap);
+  return assembleAndWrite({
+    ajv,
+    allEntries: entries,
+    errors: [...expandErrors, ...validationErrors],
+    warnings,
+    sourceFile: path.basename(authoringDir),
+    sourceSha256: "authoring-json",
+    outPath,
+    packVersion,
+  });
+}
+
 async function validateCommand({ inputPath, topicMapPath }) {
   const { errors, warnings } = await processWorkbook({ inputPath, topicMapPath });
   const report = [
@@ -201,4 +245,12 @@ async function validateCommand({ inputPath, topicMapPath }) {
   return { ok: errors.length === 0, errors, warnings, report };
 }
 
-module.exports = { processWorkbook, buildCommand, validateCommand, formatIssue };
+module.exports = {
+  processWorkbook,
+  buildCommand,
+  buildJsonCommand,
+  validateCommand,
+  validateEntries,
+  assembleAndWrite,
+  formatIssue,
+};

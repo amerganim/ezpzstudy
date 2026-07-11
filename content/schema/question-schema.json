@@ -22,7 +22,7 @@
         "comprehension_set", "writing_prompt"
       ]
     },
-    "paper": { "enum": ["1st", "2nd"] },
+    "paper": { "enum": ["1st", "2nd", "both"] },
     "topic": { "type": "string", "minLength": 1 },
     "subtopic": { "type": "string" },
     "difficulty": { "enum": ["easy", "medium", "hard"] },

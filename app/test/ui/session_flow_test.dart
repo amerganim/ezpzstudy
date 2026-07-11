@@ -15,7 +15,7 @@ import 'package:ezpzstudy/ui/session/session_screen.dart';
 
 Future<void> _loadPack(AppDatabase db) async {
   final pack = json.decode(
-          await File('assets/content/content_pack_v1.json').readAsString())
+          await File('assets/content/content_pack_v2.json').readAsString())
       as List<dynamic>;
   await db.batch((batch) {
     for (final entry in pack) {
@@ -75,8 +75,8 @@ void main() {
 
   testWidgets('answering an MCQ correctly shows the correct feedback',
       (tester) async {
-    // The tense MCQ p2.mcq.tense-01 has correct option C.
-    final q = await services.questions.byId('p2.mcq.tense-01');
+    // This MCQ has correct option B.
+    final q = await services.questions.byId('b.mcq.basics_sentence_structure-001');
     expect(q, isNotNull);
     await pumpSession(tester, [q!]);
 
@@ -84,8 +84,8 @@ void main() {
     final checkButton = find.widgetWithText(FilledButton, Bn.checkAnswer);
     expect(tester.widget<FilledButton>(checkButton).onPressed, isNull);
 
-    // Select the correct option (C) and check.
-    await tester.tap(find.text('C'));
+    // Select the correct option (B) and check.
+    await tester.tap(find.text('B'));
     await tester.pumpAndSettle();
     await tester.tap(checkButton);
     await tester.pumpAndSettle();
@@ -98,7 +98,7 @@ void main() {
 
   testWidgets('answering an MCQ wrongly reveals the answer and rule',
       (tester) async {
-    final q = await services.questions.byId('p2.mcq.tense-01');
+    final q = await services.questions.byId('b.mcq.basics_sentence_structure-001');
     await pumpSession(tester, [q!]);
 
     await tester.tap(find.text('A'));
@@ -113,15 +113,15 @@ void main() {
 
   testWidgets('a correct answer records a topic-progress attempt',
       (tester) async {
-    final q = await services.questions.byId('p2.mcq.tense-01');
+    final q = await services.questions.byId('b.mcq.basics_sentence_structure-001');
     await pumpSession(tester, [q!]);
-    await tester.tap(find.text('C'));
+    await tester.tap(find.text('B'));
     await tester.pumpAndSettle();
     await tester.tap(find.widgetWithText(FilledButton, Bn.checkAnswer));
     await tester.pumpAndSettle();
 
     final progress = await services.db.allProgress();
-    final tense = progress.firstWhere((p) => p.topic == 'tense');
+    final tense = progress.firstWhere((p) => p.topic == 'basics_sentence_structure');
     expect(tense.attempts, 1);
     expect(tense.correct, 1);
   });

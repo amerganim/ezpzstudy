@@ -1,0 +1,25 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "abandon", "back_bn": "পরিত্যাগ করা", "example": "They had to abandon their home during the flood.", "pos": "verb", "syn": "desert", "ant": "keep" },
+    { "type": "flashcard", "front": "abolish", "back_bn": "বিলুপ্ত করা", "example": "The government decided to abolish the old law.", "pos": "verb", "syn": "cancel", "ant": "establish" },
+    { "type": "flashcard", "front": "adequate", "back_bn": "পর্যাপ্ত", "example": "We have adequate food for the journey.", "pos": "adjective", "syn": "sufficient", "ant": "inadequate" },
+    { "type": "flashcard", "front": "benevolent", "back_bn": "দয়ালু, পরোপকারী", "example": "The benevolent man helped the poor.", "pos": "adjective", "syn": "kind", "ant": "cruel" },
+    { "type": "flashcard", "front": "conscious", "back_bn": "সচেতন", "example": "We must be conscious of our health.", "pos": "adjective", "syn": "aware", "ant": "unconscious" },
+    { "type": "flashcard", "front": "diligent", "back_bn": "পরিশ্রমী", "example": "A diligent student always prospers.", "pos": "adjective", "syn": "hardworking", "ant": "lazy" },
+    { "type": "flashcard", "front": "eminent", "back_bn": "বিশিষ্ট, বিখ্যাত", "example": "He is an eminent scientist.", "pos": "adjective", "syn": "distinguished", "ant": "unknown" },
+    { "type": "flashcard", "front": "feeble", "back_bn": "দুর্বল", "example": "The patient was too feeble to walk.", "pos": "adjective", "syn": "weak", "ant": "strong" },
+    { "type": "flashcard", "front": "generous", "back_bn": "উদার", "example": "She is generous to the needy.", "pos": "adjective", "syn": "liberal", "ant": "stingy" },
+    { "type": "flashcard", "front": "hazard", "back_bn": "বিপদ, ঝুঁকি", "example": "Smoking is a hazard to health.", "pos": "noun", "syn": "danger", "ant": "safety" },
+    { "type": "flashcard", "front": "inevitable", "back_bn": "অনিবার্য", "example": "Death is inevitable.", "pos": "adjective", "syn": "unavoidable", "ant": "avoidable" },
+    { "type": "flashcard", "front": "notorious", "back_bn": "কুখ্যাত", "example": "He is a notorious criminal.", "pos": "adjective", "syn": "infamous", "ant": "famous" },
+    { "type": "flashcard", "front": "prosper", "back_bn": "উন্নতি করা", "example": "Work hard and you will prosper.", "pos": "verb", "syn": "thrive", "ant": "fail" },
+    { "type": "flashcard", "front": "reluctant", "back_bn": "অনিচ্ছুক", "example": "He was reluctant to leave.", "pos": "adjective", "syn": "unwilling", "ant": "willing" },
+    { "type": "flashcard", "front": "vigorous", "back_bn": "প্রবল, তেজী", "example": "He made a vigorous effort to win.", "pos": "adjective", "syn": "energetic", "ant": "weak" },
+    { "type": "flashcard", "front": "abundant", "back_bn": "প্রচুর", "example": "Our country has abundant natural resources.", "pos": "adjective", "syn": "plentiful", "ant": "scarce" }
+  ]
+}

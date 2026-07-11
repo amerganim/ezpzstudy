@@ -1,0 +1,19 @@
+{
+  "topic": "p2_special_use",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Board: special uses gap filling, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He ___ in Dhaka in 1990. (birth)", "a": ["was born"], "fuzzy": 1, "rule_bn": "জন্ম বোঝাতে 'was/were born' বসে।" },
+    { "type": "fill_in_open", "q": "You ___ submit the form by Monday. (obligation)", "a": ["have to"], "fuzzy": 1, "rule_bn": "বাধ্যবাধকতা বোঝাতে 'have to/has to' বসে।" },
+    { "type": "fill_in_open", "q": "I ___ die than beg. (preference)", "a": ["would rather"], "fuzzy": 1, "rule_bn": "একটির বদলে অন্যটি পছন্দ বোঝাতে 'would rather' বসে (এর পরে base verb)।" },
+    { "type": "fill_in_open", "q": "You ___ consult a doctor. (advice)", "a": ["had better"], "fuzzy": 1, "rule_bn": "জোরালো উপদেশ বোঝাতে 'had better' বসে (এর পরে base verb)।" },
+    { "type": "fill_in_open", "q": "___ the bell rang, the students ran out. (immediately after)", "a": ["As soon as"], "fuzzy": 1, "rule_bn": "একটি কাজের পরপরই আরেকটি বোঝাতে 'as soon as' বসে।" },
+    { "type": "fill_in_open", "q": "He cannot read a word, ___ write a sentence. (not even)", "a": ["let alone"], "fuzzy": 1, "rule_bn": "'let alone' মানে 'দূরের কথা/তো দূরে থাক'।" },
+    { "type": "fill_in_open", "q": "___ is a big tree in front of our house. (existence)", "a": ["There"], "rule_bn": "অস্তিত্ব বোঝাতে introductory 'There' বসে (There is/are)।" },
+    { "type": "fill_in_open", "q": "___ is very hot today. (weather)", "a": ["It"], "rule_bn": "আবহাওয়া/সময়/দূরত্ব বোঝাতে introductory 'It' বসে।" },
+    { "type": "fill_in_open", "q": "What ___ the sky ___ now? (appearance)", "a": ["does look like", "does the sky look like"], "fuzzy": 2, "rule_bn": "চেহারা/অবস্থা জানতে 'what does ... look like' গঠন ব্যবহার হয়।" },
+    { "type": "fill_in_open", "q": "What is the weather ___ today? (state)", "a": ["like"], "rule_bn": "অবস্থা জানতে 'what is ... like' গঠন ব্যবহার হয়।" }
+  ]
+}

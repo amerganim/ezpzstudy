@@ -1,0 +1,19 @@
+{
+  "topic": "basics_articles",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক article (a / an / the) বসাও। প্রয়োজন না হলে 'x' লেখো।",
+  "items": [
+    { "type": "fill_in_open", "q": "I saw ___ elephant in the zoo.", "a": ["an"], "rule_bn": "স্বরধ্বনি (a,e,i,o,u উচ্চারণ) দিয়ে শুরু হলে 'an' বসে: an elephant।" },
+    { "type": "fill_in_open", "q": "He is ___ university student.", "a": ["a"], "rule_bn": "University-এর উচ্চারণ 'ইউ' (ব্যঞ্জনধ্বনি) দিয়ে শুরু, তাই 'a' বসে।" },
+    { "type": "fill_in_open", "q": "She is ___ honest woman.", "a": ["an"], "rule_bn": "Honest-এ 'h' নীরব, উচ্চারণ স্বরধ্বনি দিয়ে শুরু, তাই 'an'।" },
+    { "type": "fill_in_open", "q": "___ sun rises in the east.", "a": ["The"], "rule_bn": "পৃথিবীতে একটিই আছে এমন জিনিসের আগে 'the' বসে: the sun।" },
+    { "type": "fill_in_open", "q": "I bought ___ book. ___ book is interesting.", "a": ["a"], "rule_bn": "প্রথমবার উল্লেখে 'a', দ্বিতীয়বার নির্দিষ্ট হলে 'the' বসে।" },
+    { "type": "fill_in_open", "q": "He is ___ best boy in the class.", "a": ["the"], "rule_bn": "Superlative degree (best)-এর আগে সবসময় 'the' বসে।" },
+    { "type": "fill_in_open", "q": "Dhaka is ___ capital of Bangladesh.", "a": ["the"], "rule_bn": "নির্দিষ্ট, একক জিনিসের আগে 'the' বসে।" },
+    { "type": "fill_in_open", "q": "___ Padma is a big river.", "a": ["The"], "rule_bn": "নদীর নামের আগে 'the' বসে: The Padma।" },
+    { "type": "mcq", "q": "Which is correct?", "opts": ["He plays the cricket.", "He plays cricket.", "He plays a cricket.", "He plays an cricket."], "correct": 1, "rule_bn": "খেলার নামের আগে article বসে না: plays cricket।" },
+    { "type": "mcq", "q": "Choose the correct one:", "opts": ["I go to the mosque by a foot.", "I go to mosque by foot.", "I go to the mosque on foot.", "I go to a mosque on the foot."], "correct": 2, "rule_bn": "'on foot' একটি নির্দিষ্ট প্রকাশ; পূজা/প্রার্থনার স্থান হিসেবে 'the mosque'।" }
+  ]
+}

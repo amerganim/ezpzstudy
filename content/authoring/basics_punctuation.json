@@ -1,0 +1,17 @@
+{
+  "topic": "basics_punctuation",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যটি সঠিক বড় হাতের অক্ষর ও যতিচিহ্ন দিয়ে আবার লেখো।",
+  "items": [
+    { "type": "grammar_transformation", "original": "rahim is a good boy", "a": ["Rahim is a good boy."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "বাক্য capital দিয়ে শুরু, নামের প্রথম অক্ষর capital, শেষে full stop।" },
+    { "type": "grammar_transformation", "original": "what is your name", "a": ["What is your name?"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "প্রশ্নবাক্যের শেষে প্রশ্নবোধক চিহ্ন (?) বসে।" },
+    { "type": "grammar_transformation", "original": "i live in dhaka", "a": ["I live in Dhaka."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "'I' সবসময় capital; স্থানের নাম (Dhaka) capital দিয়ে শুরু।" },
+    { "type": "grammar_transformation", "original": "wow what a nice bird", "a": ["Wow! What a nice bird!", "Wow, what a nice bird!"], "transform": "punctuation", "fuzzy": 2, "rule_bn": "বিস্ময় প্রকাশে বিস্ময়সূচক চিহ্ন (!) বসে।" },
+    { "type": "grammar_transformation", "original": "she bought apples mangoes and bananas", "a": ["She bought apples, mangoes and bananas."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "পরপর কয়েকটি শব্দের মাঝে কমা (,) বসে।" },
+    { "type": "mcq", "q": "Which sentence is correctly punctuated?", "opts": ["he said, \"I am ill.\"", "He said \"I am ill\"", "He said, \"I am ill.\"", "He said, i am ill."], "correct": 2, "rule_bn": "সরাসরি উক্তি inverted comma-র ভেতরে, capital দিয়ে শুরু ও full stop সহ।" },
+    { "type": "grammar_transformation", "original": "dr karim is a famous doctor", "a": ["Dr. Karim is a famous doctor.", "Dr Karim is a famous doctor."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "সংক্ষিপ্ত রূপ ও নামের প্রথম অক্ষর capital।" },
+    { "type": "mcq", "q": "An apostrophe (') is used to show ___.", "opts": ["a question", "possession or omission", "a pause", "the end of a sentence"], "correct": 1, "rule_bn": "Apostrophe মালিকানা (Rahim's) বা অক্ষর লোপ (don't) বোঝায়।" }
+  ]
+}

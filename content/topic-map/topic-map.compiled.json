@@ -1,275 +1,328 @@
 {
-  "schema_version": "1.0.0-draft",
-  "generated_at": "2026-07-10T17:56:57.625Z",
+  "schema_version": "2.0.0",
+  "generated_at": "2026-07-11T06:10:59.039Z",
   "topics": [
     {
-      "id": "seen_comprehension",
-      "label_en": "Seen comprehension (MCQ / short question / summary / title)",
-      "paper": "1st",
-      "weight": 20,
+      "id": "basics_sentence_structure",
+      "label_en": "Making Sentences",
+      "label_bn": "বাক্য গঠন",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
       "remedial": []
     },
     {
-      "id": "cloze_with_clues",
-      "label_en": "Cloze test with clues",
-      "paper": "1st",
-      "weight": 5,
-      "remedial": [
-        "ssc_vocabulary_basics"
-      ]
-    },
-    {
-      "id": "cloze_without_clues",
-      "label_en": "Cloze test without clues",
-      "paper": "1st",
-      "weight": 5,
-      "remedial": [
-        "ssc_vocabulary_basics"
-      ]
-    },
-    {
-      "id": "rearranging_sentences",
-      "label_en": "Rearranging sentences into a paragraph",
-      "paper": "1st",
-      "weight": 5,
-      "remedial": [
-        "ssc_paragraph_order_basics"
-      ]
-    },
-    {
-      "id": "matching",
-      "label_en": "Matching (halves of sentences)",
-      "paper": "1st",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "gap_filling_clues",
-      "label_en": "Gap filling with clues",
-      "paper": "1st",
-      "weight": 5,
-      "remedial": [
-        "ssc_vocabulary_basics"
-      ]
-    },
-    {
-      "id": "summarizing",
-      "label_en": "Summarizing a passage",
-      "paper": "1st",
-      "weight": 10,
-      "remedial": []
-    },
-    {
-      "id": "graph_chart_description",
-      "label_en": "Graph / chart description",
-      "paper": "1st",
-      "weight": 10,
-      "remedial": []
-    },
-    {
-      "id": "flow_chart_completion",
-      "label_en": "Flow chart / form completion",
-      "paper": "1st",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "paragraph_writing_1p",
-      "label_en": "Paragraph writing (1st Paper style, source-based)",
-      "paper": "1st",
-      "weight": 10,
-      "remedial": []
-    },
-    {
-      "id": "composition_completion",
-      "label_en": "Composition / passage completion",
-      "paper": "1st",
-      "weight": 10,
+      "id": "basics_parts_of_speech",
+      "label_en": "Parts of Speech",
+      "label_bn": "Parts of Speech (পদ পরিচিতি)",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
       "remedial": []
     },
     {
       "id": "tense",
-      "label_en": "Tense",
-      "paper": "2nd",
-      "weight": 4,
+      "label_en": "Tenses (Basics)",
+      "label_bn": "Tense (কাল)",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_verb_forms",
+      "label_en": "Verb Forms (V1–V5)",
+      "label_bn": "Verb-এর রূপ (V1–V5)",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_subject_verb",
+      "label_en": "Subject–Verb Agreement (Basics)",
+      "label_bn": "Subject–Verb মিল",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_articles",
+      "label_en": "Articles (a / an / the)",
+      "label_bn": "Article (a/an/the)",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_prepositions",
+      "label_en": "Common Prepositions",
+      "label_bn": "Preposition (সাধারণ)",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_wh_questions",
+      "label_en": "Making Wh-Questions",
+      "label_bn": "Wh-প্রশ্ন গঠন",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_punctuation",
+      "label_en": "Capital Letters & Full Stops",
+      "label_bn": "বড় হাতের অক্ষর ও যতিচিহ্ন",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "basics_everyday_vocab",
+      "label_en": "Everyday Words",
+      "label_bn": "দৈনন্দিন শব্দ",
+      "track": "basics",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    },
+    {
+      "id": "p1_mcq",
+      "label_en": "Reading — Multiple Choice",
+      "label_bn": "Reading — MCQ",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 5,
       "remedial": [
-        "ssc_tense_basics"
+        "basics_everyday_vocab"
       ]
     },
     {
-      "id": "right_form_of_verb",
-      "label_en": "Right form of verbs",
+      "id": "p1_short_answer",
+      "label_en": "Short Answer Questions",
+      "label_bn": "সংক্ষিপ্ত প্রশ্নের উত্তর",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 15,
+      "remedial": []
+    },
+    {
+      "id": "p1_info_transfer",
+      "label_en": "Information Transfer / Flow Chart",
+      "label_bn": "তথ্য স্থানান্তর / Flow Chart",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "p1_summary",
+      "label_en": "Summary Writing",
+      "label_bn": "Summary লেখা",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "p1_cloze_clues",
+      "label_en": "Cloze Test (with clues)",
+      "label_bn": "Cloze Test (clue সহ)",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": [
+        "basics_everyday_vocab"
+      ]
+    },
+    {
+      "id": "p1_cloze_no_clues",
+      "label_en": "Cloze Test (no clues)",
+      "label_bn": "Cloze Test (clue ছাড়া)",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": [
+        "basics_prepositions",
+        "basics_articles"
+      ]
+    },
+    {
+      "id": "p1_rearranging",
+      "label_en": "Rearranging",
+      "label_bn": "বাক্য সাজানো (Rearranging)",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": [
+        "basics_sentence_structure"
+      ]
+    },
+    {
+      "id": "p1_graph_chart",
+      "label_en": "Describing a Graph / Chart",
+      "label_bn": "Graph / Chart বর্ণনা",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 15,
+      "remedial": []
+    },
+    {
+      "id": "p1_story_writing",
+      "label_en": "Story Writing",
+      "label_bn": "Story লেখা",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 15,
+      "remedial": []
+    },
+    {
+      "id": "p1_informal_letter",
+      "label_en": "Informal Letter",
+      "label_bn": "Informal Letter",
+      "track": "hsc",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "p2_preposition",
+      "label_en": "Prepositions (gap filling)",
+      "label_bn": "Preposition (শূন্যস্থান)",
+      "track": "hsc",
       "paper": "2nd",
       "weight": 5,
       "remedial": [
-        "ssc_verb_forms"
+        "basics_prepositions"
       ]
     },
     {
-      "id": "subject_verb_agreement",
-      "label_en": "Subject-verb agreement",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_sva_basics"
-      ]
-    },
-    {
-      "id": "voice",
-      "label_en": "Voice (active/passive)",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_voice_basics"
-      ]
-    },
-    {
-      "id": "narration",
-      "label_en": "Narration (direct/indirect speech)",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_narration_basics"
-      ]
-    },
-    {
-      "id": "preposition",
-      "label_en": "Preposition",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_preposition_basics"
-      ]
-    },
-    {
-      "id": "connectors",
-      "label_en": "Connectors / linking words",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_connector_basics"
-      ]
-    },
-    {
-      "id": "tag_questions",
-      "label_en": "Tag questions",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_tag_question_basics"
-      ]
-    },
-    {
-      "id": "sentence_transformation",
-      "label_en": "Transformation of sentences",
+      "id": "p2_special_use",
+      "label_en": "Special Uses (gap filling with clues)",
+      "label_bn": "Special Use (clue সহ শূন্যস্থান)",
+      "track": "hsc",
       "paper": "2nd",
       "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "p2_completing_sentences",
+      "label_en": "Completing Sentences (clauses / phrases)",
+      "label_bn": "Completing Sentences (clause/phrase)",
+      "track": "hsc",
+      "paper": "2nd",
+      "weight": 10,
       "remedial": [
-        "ssc_sentence_basics"
+        "basics_sentence_structure"
       ]
     },
     {
-      "id": "punctuation",
+      "id": "p2_right_form_verb",
+      "label_en": "Right Form of Verbs & Subject–Verb Agreement",
+      "label_bn": "Right Form of Verbs ও Subject–Verb মিল",
+      "track": "hsc",
+      "paper": "2nd",
+      "weight": 7,
+      "remedial": [
+        "basics_verb_forms",
+        "basics_subject_verb",
+        "tense"
+      ]
+    },
+    {
+      "id": "p2_narration",
+      "label_en": "Narration (direct / indirect)",
+      "label_bn": "Narration (Direct/Indirect)",
+      "track": "hsc",
+      "paper": "2nd",
+      "weight": 7,
+      "remedial": []
+    },
+    {
+      "id": "p2_modifier",
+      "label_en": "Use of Modifiers",
+      "label_bn": "Modifier",
+      "track": "hsc",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "p2_connectors",
+      "label_en": "Sentence Connectors",
+      "label_bn": "Sentence Connectors (linking words)",
+      "track": "hsc",
+      "paper": "2nd",
+      "weight": 7,
+      "remedial": []
+    },
+    {
+      "id": "p2_synonym_antonym",
+      "label_en": "Synonyms & Antonyms",
+      "label_bn": "Synonym ও Antonym",
+      "track": "hsc",
+      "paper": "2nd",
+      "weight": 7,
+      "remedial": [
+        "basics_everyday_vocab"
+      ]
+    },
+    {
+      "id": "p2_punctuation",
       "label_en": "Punctuation",
+      "label_bn": "Punctuation (যতিচিহ্ন)",
+      "track": "hsc",
       "paper": "2nd",
-      "weight": 4,
+      "weight": 7,
       "remedial": [
-        "ssc_punctuation_basics"
+        "basics_punctuation"
       ]
     },
     {
-      "id": "articles",
-      "label_en": "Articles",
-      "paper": "2nd",
-      "weight": 4,
-      "remedial": [
-        "ssc_article_basics"
-      ]
-    },
-    {
-      "id": "paragraph_writing_2p",
-      "label_en": "Paragraph writing (2nd Paper style)",
+      "id": "p2_formal_letter",
+      "label_en": "Formal Letter / Email",
+      "label_bn": "Formal Letter / Email",
+      "track": "hsc",
       "paper": "2nd",
       "weight": 10,
       "remedial": []
     },
     {
-      "id": "essay_writing",
-      "label_en": "Essay writing",
+      "id": "p2_paragraph_listing",
+      "label_en": "Paragraph (listing / description)",
+      "label_bn": "Paragraph (listing/বর্ণনা)",
+      "track": "hsc",
       "paper": "2nd",
-      "weight": 10,
+      "weight": 15,
       "remedial": []
     },
     {
-      "id": "application_letter",
-      "label_en": "Application / letter",
+      "id": "p2_paragraph_compare",
+      "label_en": "Paragraph (comparison / cause–effect)",
+      "label_bn": "Paragraph (তুলনা/কারণ-ফল)",
+      "track": "hsc",
       "paper": "2nd",
-      "weight": 10,
-      "remedial": []
-    },
-    {
-      "id": "formal_letter",
-      "label_en": "Formal letter",
-      "paper": "2nd",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "informal_letter",
-      "label_en": "Informal letter",
-      "paper": "2nd",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "email_writing",
-      "label_en": "Email writing",
-      "paper": "2nd",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "cv_writing",
-      "label_en": "CV writing",
-      "paper": "2nd",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "dialogue_writing",
-      "label_en": "Dialogue writing",
-      "paper": "2nd",
-      "weight": 5,
-      "remedial": []
-    },
-    {
-      "id": "report_writing",
-      "label_en": "Report writing",
-      "paper": "2nd",
-      "weight": 5,
+      "weight": 15,
       "remedial": []
     },
     {
       "id": "vocabulary_hsc_words",
-      "label_en": "High-frequency HSC vocabulary",
+      "label_en": "High-frequency HSC Vocabulary",
+      "label_bn": "HSC শব্দভাণ্ডার",
+      "track": "hsc",
       "paper": "both",
       "weight": 0,
       "remedial": []
     }
   ],
   "remedial_labels": {
-    "ssc_tense_basics": "Basics of tense forms",
-    "ssc_verb_forms": "Basic verb forms (V1-V5)",
-    "ssc_sva_basics": "Basic subject-verb agreement rules",
-    "ssc_voice_basics": "Basic active/passive voice rules",
-    "ssc_narration_basics": "Basic direct/indirect speech rules",
-    "ssc_preposition_basics": "Common preposition usage",
-    "ssc_connector_basics": "Basic linking words",
-    "ssc_tag_question_basics": "Basic tag question rules",
-    "ssc_sentence_basics": "Basic sentence types and structure",
-    "ssc_punctuation_basics": "Basic punctuation rules",
-    "ssc_article_basics": "Basic article usage (a/an/the)",
     "ssc_vocabulary_basics": "Core vocabulary and word meanings",
-    "ssc_paragraph_order_basics": "Basic paragraph/sentence ordering logic"
+    "ssc_paragraph_order_basics": "Basic paragraph / sentence ordering logic"
   }
 }

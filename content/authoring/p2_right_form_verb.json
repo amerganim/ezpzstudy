@@ -1,0 +1,19 @@
+{
+  "topic": "p2_right_form_verb",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs ও subject-verb agreement, 0.5×14)।",
+  "items": [
+    { "type": "fill_in_open", "q": "It is high time we ___ our attitude. (change)", "a": ["changed"], "rule_bn": "'It is high time'-এর পরে past form বসে: changed।" },
+    { "type": "fill_in_open", "q": "He talks as if he ___ everything. (know)", "a": ["knew"], "rule_bn": "'as if'-এর পরে অবাস্তব বোঝাতে past form বসে: knew।" },
+    { "type": "fill_in_open", "q": "The teacher along with his students ___ present. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'along with' মূল subject (The teacher=singular) পরিবর্তন করে না: is।" },
+    { "type": "fill_in_open", "q": "If I were a bird, I ___ fly. (would)", "a": ["would fly"], "fuzzy": 1, "rule_bn": "অবাস্তব শর্তে: If + were, ... would + base verb।" },
+    { "type": "fill_in_open", "q": "The sun ___ in the east. (rise)", "a": ["rises"], "rule_bn": "চিরন্তন সত্য Present Indefinite-এ; The sun=It, তাই rises।" },
+    { "type": "fill_in_open", "q": "He has been ill ___ Monday last. (since/for)", "a": ["since"], "rule_bn": "নির্দিষ্ট সময় বিন্দুতে 'since' বসে (Present Perfect Continuous-এর সাথে)।" },
+    { "type": "fill_in_open", "q": "I saw him ___ in the field. (play)", "a": ["playing"], "rule_bn": "'saw + object'-এর পরে চলমান কাজ বোঝাতে verb+ing বসে: playing।" },
+    { "type": "fill_in_open", "q": "The number of students ___ increasing. (be)", "a": ["is"], "rule_bn": "'The number of' singular হিসেবে ধরা হয়, তাই 'is'।" },
+    { "type": "fill_in_open", "q": "He as well as his brothers ___ guilty. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'as well as' মূল subject (He=singular) অনুযায়ী verb: is।" },
+    { "type": "fill_in_open", "q": "Would that I ___ a king! (be)", "a": ["were"], "rule_bn": "'Would that' (আক্ষেপ)-এর পরে were বসে।" }
+  ]
+}

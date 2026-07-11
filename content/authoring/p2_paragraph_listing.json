@@ -1,0 +1,37 @@
+{
+  "topic": "p2_paragraph_listing",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে একটি paragraph লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph on 'Tree Plantation' by listing its importance.",
+      "words": [150, 200],
+      "model": "Tree plantation means planting trees in a planned way. Trees are very important for our life and environment. First, trees give us oxygen which we need to breathe. Second, they take in carbon dioxide and keep the air fresh and free from pollution. Third, trees give us fruits, wood, medicine and shade. They are also the home of many birds and animals. Moreover, trees prevent soil erosion and cause rainfall. They protect us from floods, storms and the greenhouse effect. Without trees, the earth would turn into a desert and life would be impossible. Sadly, people are cutting down trees carelessly. This is very harmful for us. So, we should plant more trees, especially during the rainy season, and take care of them. The best time for tree plantation is the month of Ashar and Sraban. Everyone should plant at least one tree. Thus, we can make our country greener, healthier and more beautiful.",
+      "rubric": [
+        "একটি topic sentence দিয়ে শুরু করেছি",
+        "listing শব্দ (First, Second, Moreover) দিয়ে গুরুত্বগুলো সাজিয়েছি",
+        "কমপক্ষে ৩টি আলাদা পয়েন্ট দিয়েছি",
+        "একটি concluding sentence দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph describing 'A Rainy Day'.",
+      "words": [150, 200],
+      "model": "A rainy day is a day of continuous rain. The sky remains cloudy and the sun is hardly seen. It may rain all day long, sometimes heavily and sometimes gently. On such a day, the roads become muddy and slippery. Poor people and day labourers suffer a lot because they cannot go out to work. Schools and offices wear an empty look as many people stay at home. However, a rainy day is not without joy. Children enjoy making paper boats and playing in the rain water. Village boys catch fish in the flooded fields. Many people like to eat khichuri and hilsha fish on a rainy day. Farmers become happy because rain is good for their crops. But too much rain causes flood and damages houses and crops. On the whole, a rainy day brings both happiness and suffering to our life.",
+      "rubric": [
+        "একটি topic sentence দিয়ে শুরু করেছি",
+        "আকাশ/রাস্তা/মানুষের অবস্থা বর্ণনা করেছি",
+        "ভালো ও খারাপ দুই দিক দিয়েছি",
+        "একটি concluding sentence দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

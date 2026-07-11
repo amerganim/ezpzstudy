@@ -1,0 +1,19 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: clue ছাড়া gap filling, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "The students are proud ___ their school.", "a": ["of"], "rule_bn": "'proud'-এর পরে 'of' বসে।" },
+    { "type": "fill_in_open", "q": "He succeeded ___ his mission.", "a": ["in"], "rule_bn": "'succeed'-এর পরে 'in' বসে।" },
+    { "type": "fill_in_open", "q": "She is fond ___ music.", "a": ["of"], "rule_bn": "'fond'-এর পরে 'of' বসে (পছন্দ বোঝায়)।" },
+    { "type": "fill_in_open", "q": "We should abstain ___ smoking.", "a": ["from"], "rule_bn": "'abstain'-এর পরে 'from' বসে (বিরত থাকা)।" },
+    { "type": "fill_in_open", "q": "He is confident ___ his success.", "a": ["of"], "rule_bn": "'confident'-এর পরে 'of' বসে।" },
+    { "type": "fill_in_open", "q": "The book is divided ___ five chapters.", "a": ["into"], "fuzzy": 1, "rule_bn": "ভাগ করা বোঝাতে 'divide into' বসে।" },
+    { "type": "fill_in_open", "q": "I congratulated him ___ his success.", "a": ["on"], "rule_bn": "'congratulate somebody on something' — উপলক্ষে 'on' বসে।" },
+    { "type": "fill_in_open", "q": "Dhaka is famous ___ its historic places.", "a": ["for"], "rule_bn": "কোনো কারণে বিখ্যাত বোঝাতে 'famous for' বসে।" },
+    { "type": "fill_in_open", "q": "He was accused ___ theft.", "a": ["of"], "rule_bn": "'accused of' — অভিযুক্ত বোঝাতে 'of' বসে।" },
+    { "type": "fill_in_open", "q": "This medicine is a cure ___ fever.", "a": ["for"], "rule_bn": "প্রতিকার বোঝাতে 'cure for' বসে।" }
+  ]
+}

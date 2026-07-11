@@ -1,0 +1,18 @@
+{
+  "topic": "p2_narration",
+  "paper": "2nd",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Board: narrative style, 7 marks)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "He said, \"I am busy now.\"", "a": ["He said that he was busy then."], "transform": "narration", "fuzzy": 2, "rule_bn": "am→was, I→he, now→then; say + that।" },
+    { "type": "grammar_transformation", "original": "She said to me, \"I will help you.\"", "a": ["She told me that she would help me."], "transform": "narration", "fuzzy": 2, "rule_bn": "said to→told, will→would, you→me।" },
+    { "type": "grammar_transformation", "original": "He said, \"I went to school yesterday.\"", "a": ["He said that he had gone to school the previous day.", "He said that he had gone to school the day before."], "transform": "narration", "fuzzy": 3, "rule_bn": "past→past perfect (went→had gone), yesterday→the previous day।" },
+    { "type": "grammar_transformation", "original": "The teacher said, \"The earth is round.\"", "a": ["The teacher said that the earth is round."], "transform": "narration", "fuzzy": 2, "rule_bn": "চিরন্তন সত্য হলে tense পরিবর্তন হয় না: is অপরিবর্তিত।" },
+    { "type": "grammar_transformation", "original": "He asked me, \"Where do you live?\"", "a": ["He asked me where I lived."], "transform": "narration", "fuzzy": 2, "rule_bn": "Wh-প্রশ্নে: asked + Wh-word, tag বাদ, do you live→I lived।" },
+    { "type": "grammar_transformation", "original": "She said to him, \"Are you happy?\"", "a": ["She asked him if he was happy.", "She asked him whether he was happy."], "transform": "narration", "fuzzy": 3, "rule_bn": "Yes/No প্রশ্নে 'if/whether' বসে; are you→he was।" },
+    { "type": "grammar_transformation", "original": "He said to me, \"Please help me.\"", "a": ["He requested me to help him."], "transform": "narration", "fuzzy": 2, "rule_bn": "অনুরোধে: requested + to + base verb; please বাদ।" },
+    { "type": "grammar_transformation", "original": "The teacher said, \"Do not make a noise.\"", "a": ["The teacher forbade the students to make a noise.", "The teacher ordered the students not to make a noise."], "transform": "narration", "fuzzy": 3, "rule_bn": "নিষেধে: forbade + to / ordered ... not to।" },
+    { "type": "grammar_transformation", "original": "He said, \"What a nice bird it is!\"", "a": ["He exclaimed with joy that it was a very nice bird."], "transform": "narration", "fuzzy": 3, "rule_bn": "Exclamatory: exclaimed with joy that; what a nice→a very nice।" }
+  ]
+}

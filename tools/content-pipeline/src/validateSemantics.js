@@ -13,8 +13,8 @@ function warn(source, column, message) {
 function collectValidTopicIds(topicMap) {
   const ids = new Set();
   const sections = [
-    "paper_1st", "paper_1st_writing", "paper_2nd_grammar",
-    "paper_2nd_writing", "cross_cutting",
+    "basics", "paper_1st_reading", "paper_1st_writing",
+    "paper_2nd_grammar", "paper_2nd_writing", "cross_cutting",
   ];
   for (const section of sections) {
     const topics = topicMap[section] && topicMap[section].topics;

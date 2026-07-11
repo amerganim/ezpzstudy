@@ -1,0 +1,19 @@
+{
+  "topic": "p2_completing_sentences",
+  "paper": "2nd",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Board: completing sentences, 10×1)।",
+  "items": [
+    { "type": "fill_in_open", "q": "If you work hard, you ___.", "a": ["will succeed", "will prosper", "will pass"], "fuzzy": 2, "rule_bn": "If + present, ... will + base verb (real condition)।" },
+    { "type": "fill_in_open", "q": "If I were rich, I ___.", "a": ["would help the poor", "would build a school", "would travel the world"], "fuzzy": 3, "rule_bn": "If + were, ... would + base verb (unreal condition)।" },
+    { "type": "fill_in_open", "q": "He talks as if he ___.", "a": ["were a leader", "knew everything", "were mad"], "fuzzy": 3, "rule_bn": "'as if'-এর পরে অবাস্তব বোঝাতে past form বসে।" },
+    { "type": "fill_in_open", "q": "It is high time we ___.", "a": ["changed our habits", "left the place", "started studying"], "fuzzy": 3, "rule_bn": "'It is high time'-এর পরে subject + past form।" },
+    { "type": "fill_in_open", "q": "He is so weak that he ___.", "a": ["cannot walk", "cannot move", "can hardly walk"], "fuzzy": 3, "rule_bn": "'so ... that' গঠনে 'that'-এর পরে ফল বোঝানো clause বসে।" },
+    { "type": "fill_in_open", "q": "Walk fast lest you ___.", "a": ["should miss the train", "miss the train"], "fuzzy": 3, "rule_bn": "'lest'-এর পরে 'should + base verb' বসে (নাহলে অর্থে)।" },
+    { "type": "fill_in_open", "q": "No sooner had he arrived than ___.", "a": ["the train left", "it started raining"], "fuzzy": 3, "rule_bn": "'No sooner had ... than' — than-এর পরে past simple clause।" },
+    { "type": "fill_in_open", "q": "Since he was ill, he ___.", "a": ["could not attend the class", "did not go to school", "stayed at home"], "fuzzy": 3, "rule_bn": "'Since' (কারণ)-এর পরে ফল বোঝানো main clause বসে।" },
+    { "type": "fill_in_open", "q": "Though he is poor, ___.", "a": ["he is honest", "he is happy", "he helps others"], "fuzzy": 2, "rule_bn": "'Though' (স্বত্ত্বেও)-এর পরে বিপরীত ভাবের main clause বসে।" },
+    { "type": "fill_in_open", "q": "He worked hard so that ___.", "a": ["he could succeed", "he might pass", "he could win"], "fuzzy": 3, "rule_bn": "'so that' (উদ্দেশ্য)-এর পরে can/could/may/might সহ clause বসে।" }
+  ]
+}

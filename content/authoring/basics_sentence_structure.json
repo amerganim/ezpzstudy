@@ -1,0 +1,19 @@
+{
+  "topic": "basics_sentence_structure",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক উত্তরটি বেছে নাও।",
+  "items": [
+    { "type": "mcq", "q": "Which one is a complete sentence?", "opts": ["Going to school.", "The boy goes to school.", "In the morning.", "A big house."], "correct": 1, "rule_bn": "একটি পূর্ণ বাক্যে subject (কে) ও verb (কাজ) দুটোই থাকে: The boy (subject) goes (verb)।" },
+    { "type": "mcq", "q": "Every sentence must begin with a ___ letter.", "opts": ["small", "capital", "silent", "double"], "correct": 1, "rule_bn": "প্রতিটি বাক্য বড় হাতের (capital) অক্ষর দিয়ে শুরু হয় ও full stop (.) দিয়ে শেষ হয়।" },
+    { "type": "mcq", "q": "In 'Rina reads a book', what is the subject?", "opts": ["reads", "a book", "Rina", "book"], "correct": 2, "rule_bn": "Subject হলো যে কাজটি করে — এখানে 'Rina'।" },
+    { "type": "mcq", "q": "In 'Rina reads a book', what is the verb?", "opts": ["Rina", "reads", "a", "book"], "correct": 1, "rule_bn": "Verb হলো কাজ বোঝানো শব্দ — এখানে 'reads'।" },
+    { "type": "rearranging", "answer": "She goes to school every day", "rule_bn": "গঠন: Subject + Verb + Object/বাকি অংশ।" },
+    { "type": "rearranging", "answer": "The children are playing in the field", "rule_bn": "Subject (The children) + Verb (are playing) + স্থান (in the field)।" },
+    { "type": "rearranging", "answer": "My father reads the newspaper in the morning", "rule_bn": "Subject + Verb + Object + সময়।" },
+    { "type": "mcq", "q": "Which sentence is correct?", "opts": ["He go to market.", "He goes to market.", "He going market.", "He to go market."], "correct": 1, "rule_bn": "He/She/It-এর সাথে verb-এ 's' যোগ হয়: goes।" },
+    { "type": "mcq", "q": "An interrogative sentence is one that ___.", "opts": ["gives an order", "asks a question", "shows strong feeling", "tells a fact"], "correct": 1, "rule_bn": "Interrogative sentence প্রশ্ন করে এবং শেষে প্রশ্নবোধক চিহ্ন (?) বসে।" },
+    { "type": "mcq", "q": "'What a beautiful garden!' — this sentence is ___.", "opts": ["assertive", "interrogative", "imperative", "exclamatory"], "correct": 3, "rule_bn": "প্রবল অনুভূতি প্রকাশ করলে তা Exclamatory sentence; শেষে (!) বসে।" }
+  ]
+}

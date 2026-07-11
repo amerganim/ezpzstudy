@@ -1,0 +1,19 @@
+{
+  "topic": "p2_modifier",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক modifier বসাও (Board: use of modifiers, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "The {{1}} boy won the prize.", "bank": ["intelligent", "quickly", "very", "slowly"], "ans": ["intelligent"], "rule_bn": "Noun (boy)-এর আগে adjective modifier বসে: intelligent।" },
+    { "type": "fill_in_word_bank", "q": "He runs {{1}}.", "bank": ["fast", "faster boy", "a fast", "fastness"], "ans": ["fast"], "rule_bn": "Verb (runs)-কে বর্ণনা করতে adverb modifier বসে: fast।" },
+    { "type": "fill_in_open", "q": "___ walking on the road, I met a friend. (While)", "a": ["While"], "rule_bn": "Participle phrase-এর আগে সময়-modifier 'While' বসে।" },
+    { "type": "fill_in_word_bank", "q": "It is a {{1}} hot day.", "bank": ["very", "much", "many", "too much"], "ans": ["very"], "rule_bn": "Adjective (hot)-এর আগে intensifier 'very' বসে।" },
+    { "type": "fill_in_open", "q": "The girl, ___ in silk, looked gorgeous. (dress)", "a": ["dressed"], "rule_bn": "Noun-এর পরে past participle modifier বসে: dressed in silk।" },
+    { "type": "fill_in_word_bank", "q": "He spoke {{1}} to convince us.", "bank": ["loudly enough", "enough loudly", "loud enough", "very loud"], "ans": ["loud enough"], "rule_bn": "'enough' adjective/adverb-এর পরে বসে: loud enough।" },
+    { "type": "fill_in_open", "q": "___ by a snake, he fell down. (Bite)", "a": ["Bitten"], "rule_bn": "শুরুতে past participle modifier: Bitten by a snake, ...।" },
+    { "type": "fill_in_word_bank", "q": "{{1}} student must obey the rules.", "bank": ["Every", "All", "Much", "Few"], "ans": ["Every"], "rule_bn": "Singular noun (student)-এর আগে determiner modifier 'Every' বসে।" },
+    { "type": "mcq", "q": "Choose the sentence with the modifier in the right place:", "opts": ["Barking the dog chased the cat.", "The dog chased the cat barking.", "Barking loudly, the dog chased the cat.", "The barking dog cat chased."], "correct": 2, "rule_bn": "Participle modifier যাকে বর্ণনা করে তার কাছে বসে: Barking loudly, the dog...।" },
+    { "type": "fill_in_word_bank", "q": "She is {{1}} beautiful girl.", "bank": ["a very", "very a", "much a", "an very"], "ans": ["a very"], "rule_bn": "Article + intensifier + adjective ক্রম: a very beautiful।" }
+  ]
+}

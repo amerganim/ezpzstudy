@@ -1,0 +1,17 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter দিয়ে বাক্যটি আবার লেখো (Board: punctuation, 0.5×14)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "the boy said i shall go to dhaka", "a": ["The boy said, \"I shall go to Dhaka.\""], "transform": "punctuation", "fuzzy": 3, "rule_bn": "উক্তির আগে কমা, inverted comma-র ভেতরে capital দিয়ে শুরু ও full stop; নাম capital।" },
+    { "type": "grammar_transformation", "original": "alas we have lost the match", "a": ["Alas! We have lost the match."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "'Alas' একটি interjection, এর পরে বিস্ময়সূচক চিহ্ন (!) বসে।" },
+    { "type": "grammar_transformation", "original": "dhaka the capital of bangladesh is a big city", "a": ["Dhaka, the capital of Bangladesh, is a big city."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "অতিরিক্ত তথ্য (apposition) কমা দিয়ে আলাদা হয়।" },
+    { "type": "grammar_transformation", "original": "he bought pens pencils and books", "a": ["He bought pens, pencils and books."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "পরপর কয়েকটি শব্দের মাঝে কমা বসে।" },
+    { "type": "grammar_transformation", "original": "do you know where he lives", "a": ["Do you know where he lives?"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "প্রশ্নবাক্যের শেষে প্রশ্নবোধক চিহ্ন (?) বসে।" },
+    { "type": "grammar_transformation", "original": "its a fine morning isnt it", "a": ["It's a fine morning, isn't it?"], "transform": "punctuation", "fuzzy": 3, "rule_bn": "সংকোচনে apostrophe (It's, isn't); tag question-এর আগে কমা, শেষে (?)।" },
+    { "type": "grammar_transformation", "original": "rahims father is a teacher", "a": ["Rahim's father is a teacher."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "মালিকানা বোঝাতে apostrophe + s (Rahim's)।" },
+    { "type": "grammar_transformation", "original": "hurry up the train is coming", "a": ["Hurry up! The train is coming.", "Hurry up, the train is coming."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "তাড়া বোঝাতে (!) বা কমা; নতুন বাক্য capital দিয়ে শুরু।" }
+  ]
+}

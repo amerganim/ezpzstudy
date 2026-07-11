@@ -3,7 +3,7 @@
 
 const path = require("path");
 const { parseArgs } = require("node:util");
-const { buildCommand, validateCommand } = require("./buildPack");
+const { buildCommand, buildJsonCommand, validateCommand } = require("./buildPack");
 const { generateTemplate } = require("./generateTemplate");
 const { exportTopicMap } = require("./exportTopicMap");
 
@@ -15,6 +15,7 @@ function printUsage() {
       "Usage:",
       "  node src/index.js validate --input <workbook.xlsx> [--topic-map <topic-map.yaml>]",
       "  node src/index.js build --input <workbook.xlsx> [--topic-map <topic-map.yaml>] --out <content_pack_vN.json> --pack-version <N>",
+      "  node src/index.js build-json --dir <authoring-dir> [--topic-map <topic-map.yaml>] --out <content_pack_vN.json> --pack-version <N>",
       "  node src/index.js template --out <template.xlsx> [--topic-map <topic-map.yaml>]",
       "  node src/index.js topic-map --out <topic_map.json> [--topic-map <topic-map.yaml>]",
     ].join("\n")
@@ -24,7 +25,7 @@ function printUsage() {
 async function main() {
   const [command, ...rest] = process.argv.slice(2);
 
-  const known = ["validate", "build", "template", "topic-map"];
+  const known = ["validate", "build", "build-json", "template", "topic-map"];
   if (!known.includes(command)) {
     printUsage();
     process.exit(1);
@@ -34,11 +35,34 @@ async function main() {
     args: rest,
     options: {
       input: { type: "string" },
+      dir: { type: "string" },
       "topic-map": { type: "string", default: DEFAULT_TOPIC_MAP },
       out: { type: "string" },
       "pack-version": { type: "string" },
     },
   });
+
+  if (command === "build-json") {
+    if (!values.dir || !values.out || !values["pack-version"]) {
+      console.error("Error: --dir, --out and --pack-version are required for build-json");
+      printUsage();
+      process.exit(1);
+    }
+    const result = buildJsonCommand({
+      authoringDir: values.dir,
+      topicMapPath: values["topic-map"],
+      outPath: values.out,
+      packVersion: Number(values["pack-version"]),
+    });
+    if (result.report) console.log(result.report);
+    if (!result.ok) {
+      console.log(`\nBuild failed: ${result.errors.length} error(s). No pack written.`);
+      process.exit(1);
+    }
+    console.log(`\nBuild succeeded: ${result.manifest.counts.total} question(s) written to ${result.outPath}`);
+    console.log(`Manifest: ${result.manifestPath}`);
+    process.exit(0);
+  }
 
   if (command === "template") {
     if (!values.out) {

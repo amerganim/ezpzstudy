@@ -1,0 +1,37 @@
+{
+  "topic": "p2_formal_letter",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে একটি formal letter/application লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা উত্তর দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "application",
+      "prompt": "Write an application to the Headmaster of your school for a full free studentship.",
+      "words": [120, 180],
+      "model": "The Headmaster\n[Name of School]\n[Place]\n\nSubject: Prayer for a full free studentship.\n\nSir,\nWith due respect, I beg to state that I am a regular student of class XII in your school. I always stand first in my class. But my father is a poor farmer. He cannot bear the expenses of my education along with the family.\n\nIn these circumstances, I therefore pray and hope that you would be kind enough to grant me a full free studentship and oblige thereby.\n\nI remain,\nSir,\nYour most obedient student,\nAbdul Karim\nRoll No. 01, Class XII",
+      "rubric": [
+        "উপরে receiver (Headmaster) ও subject line সঠিকভাবে লিখেছি",
+        "'Sir,' দিয়ে শুরু এবং বিনয়ী ভাষা ব্যবহার করেছি",
+        "কারণ (দরিদ্রতা/ভালো ফল) স্পষ্টভাবে উল্লেখ করেছি",
+        "নিচে 'Your most obedient student' সহ নাম, roll ও class দিয়েছি",
+        "বানান ও grammar ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "email",
+      "prompt": "Write an email to your friend inviting him to visit your village. (Formal email format)",
+      "words": [100, 150],
+      "model": "To: rahat@example.com\nSubject: Invitation to visit my village\n\nDear Rahat,\n\nHow are you? I hope you are doing well. I am writing to invite you to visit my village during the coming vacation.\n\nMy village is a beautiful place with green fields, a calm river and friendly people. We can enjoy fishing, walk along the riverbank and taste fresh village food. I am sure you will love it.\n\nPlease let me know if you can come. I am eagerly waiting for your reply.\n\nBest wishes,\nAbdul Karim",
+      "rubric": [
+        "To ও Subject line দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "গ্রামের আকর্ষণ ও আমন্ত্রণ স্পষ্টভাবে লিখেছি",
+        "'Best wishes/Yours' সহ নাম দিয়ে শেষ করেছি",
+        "বানান ও grammar ঠিক আছে"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "topic": "basics_verb_forms",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "Verb-এর সঠিক রূপটি বসাও বা বেছে নাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "Past form of 'go' is ___.", "a": ["went"], "rule_bn": "Go একটি irregular verb: go – went – gone।" },
+    { "type": "fill_in_open", "q": "Past participle of 'eat' is ___.", "a": ["eaten"], "rule_bn": "Eat – ate – eaten। Past participle হলো তৃতীয় রূপ (eaten)।" },
+    { "type": "fill_in_open", "q": "Past form of 'buy' is ___.", "a": ["bought"], "rule_bn": "Buy – bought – bought।" },
+    { "type": "fill_in_open", "q": "Past form of 'write' is ___.", "a": ["wrote"], "rule_bn": "Write – wrote – written।" },
+    { "type": "matching", "left": ["do", "see", "take", "come"], "right": ["did", "saw", "took", "came"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "প্রতিটি verb-এর সঠিক past form মেলাও: do-did, see-saw, take-took, come-came।" },
+    { "type": "mcq", "q": "The regular past tense is usually formed by adding ___.", "opts": ["-ing", "-ed", "-s", "-en"], "correct": 1, "rule_bn": "Regular verb-এর শেষে '-ed' যোগ করে past form হয়: play–played।" },
+    { "type": "fill_in_open", "q": "Past form of 'run' is ___.", "a": ["ran"], "rule_bn": "Run – ran – run।" },
+    { "type": "fill_in_open", "q": "Past participle of 'break' is ___.", "a": ["broken"], "rule_bn": "Break – broke – broken।" },
+    { "type": "mcq", "q": "Which is an irregular verb?", "opts": ["walk", "jump", "swim", "talk"], "correct": 2, "rule_bn": "Swim-এর past 'swam' — নিয়ম মানে না, তাই irregular। বাকিগুলো -ed নেয়।" },
+    { "type": "fill_in_open", "q": "Past form of 'give' is ___.", "a": ["gave"], "rule_bn": "Give – gave – given।" }
+  ]
+}

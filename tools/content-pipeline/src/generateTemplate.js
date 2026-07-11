@@ -10,16 +10,20 @@ const HEADER_FILL = { type: "pattern", pattern: "solid", fgColor: { argb: "FFD9E
 function collectTopicRows(topicMap) {
   const rows = [];
   const sections = [
-    ["paper_1st", "1st", "reading"],
+    ["basics", "both", "foundations"],
+    ["paper_1st_reading", "1st", "reading"],
     ["paper_1st_writing", "1st", "guided_writing"],
     ["paper_2nd_grammar", "2nd", "grammar"],
-    ["paper_2nd_writing", "2nd", "writing"],
+    ["paper_2nd_writing", "2nd", "composition"],
     ["cross_cutting", "both", "vocabulary"],
   ];
   for (const [key, paper, section] of sections) {
-    const topics = topicMap[key] && topicMap[key].topics;
+    const sec = topicMap[key];
+    const topics = sec && sec.topics;
     if (Array.isArray(topics)) {
-      for (const t of topics) rows.push([t.id, t.label_en, paper, section]);
+      for (const t of topics) {
+        rows.push([t.id, t.label_en, t.paper || sec.paper || paper, section]);
+      }
     }
   }
   return rows;

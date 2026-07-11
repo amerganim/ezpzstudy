@@ -1,0 +1,19 @@
+{
+  "topic": "p2_synonym_antonym",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+  "items": [
+    { "type": "mcq", "q": "Synonym of 'famous' is ___.", "opts": ["unknown", "well-known", "hidden", "small"], "correct": 1, "rule_bn": "Synonym = সমার্থক শব্দ। 'famous' = 'well-known' (বিখ্যাত)।" },
+    { "type": "mcq", "q": "Synonym of 'brave' is ___.", "opts": ["coward", "weak", "courageous", "afraid"], "correct": 2, "rule_bn": "'brave' = 'courageous' (সাহসী)।" },
+    { "type": "mcq", "q": "Antonym of 'ancient' is ___.", "opts": ["old", "modern", "past", "former"], "correct": 1, "rule_bn": "Antonym = বিপরীত শব্দ। 'ancient' (প্রাচীন) × 'modern' (আধুনিক)।" },
+    { "type": "mcq", "q": "Antonym of 'victory' is ___.", "opts": ["success", "win", "defeat", "prize"], "correct": 2, "rule_bn": "'victory' (জয়) × 'defeat' (পরাজয়)।" },
+    { "type": "mcq", "q": "Synonym of 'huge' is ___.", "opts": ["tiny", "enormous", "narrow", "short"], "correct": 1, "rule_bn": "'huge' = 'enormous' (বিশাল)।" },
+    { "type": "mcq", "q": "Antonym of 'artificial' is ___.", "opts": ["fake", "man-made", "natural", "false"], "correct": 2, "rule_bn": "'artificial' (কৃত্রিম) × 'natural' (প্রাকৃতিক)।" },
+    { "type": "matching", "left": ["begin", "big", "happy", "quick"], "right": ["start", "large", "glad", "fast"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "প্রতিটি শব্দের synonym মেলাও: begin-start, big-large, happy-glad, quick-fast।" },
+    { "type": "matching", "left": ["accept", "increase", "friend", "light"], "right": ["reject", "decrease", "enemy", "dark"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "প্রতিটি শব্দের antonym মেলাও: accept×reject, increase×decrease, friend×enemy, light×dark।" },
+    { "type": "mcq", "q": "Synonym of 'wise' is ___.", "opts": ["foolish", "clever", "silly", "dull"], "correct": 1, "rule_bn": "'wise' = 'clever/intelligent' (বুদ্ধিমান)।" },
+    { "type": "mcq", "q": "Antonym of 'permanent' is ___.", "opts": ["lasting", "fixed", "temporary", "stable"], "correct": 2, "rule_bn": "'permanent' (স্থায়ী) × 'temporary' (অস্থায়ী)।" }
+  ]
+}

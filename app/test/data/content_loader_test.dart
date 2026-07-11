@@ -13,7 +13,7 @@ import 'package:ezpzstudy/data/models/question_data.dart';
 /// rootBundle, which isn't available in a plain unit test) to prove the row
 /// round-trip and model rehydration work against actual shipped content.
 Future<void> loadPackFromFile(AppDatabase db) async {
-  final packFile = File('assets/content/content_pack_v1.json');
+  final packFile = File('assets/content/content_pack_v2.json');
   final pack = json.decode(await packFile.readAsString()) as List<dynamic>;
   await db.batch((batch) {
     for (final entry in pack) {
@@ -55,7 +55,9 @@ void main() {
 
   test('loads the whole content pack into the store', () async {
     await loadPackFromFile(db);
-    expect(await db.questionCount(), 24);
+    // The shipped HSC pack; assert a healthy floor rather than an exact count
+    // so authoring more content doesn't break the test.
+    expect(await db.questionCount(), greaterThanOrEqualTo(150));
   });
 
   test('every stored question rehydrates into a typed model', () async {
@@ -70,16 +72,16 @@ void main() {
         expect(q.data, isA<QuestionData>());
       }
     }
-    expect(total, 24);
+    expect(total, await db.questionCount());
   });
 
-  test('comprehension set rehydrates with its nested sub-questions', () async {
+  test('flashcards rehydrate with their Bangla meaning', () async {
     await loadPackFromFile(db);
-    final sets = await repo.ofType(QuestionType.comprehensionSet);
-    expect(sets, isNotEmpty);
-    final data = sets.first.data as ComprehensionSetData;
-    expect(data.subQuestions.length, 2);
-    expect(data.subQuestions.first.data, isA<QuestionData>());
+    final cards = await repo.ofType(QuestionType.flashcard);
+    expect(cards, isNotEmpty);
+    final data = cards.first.data as FlashcardData;
+    expect(data.frontEn, isNotEmpty);
+    expect(data.backBn, isNotEmpty);
   });
 
   test('mcq options and correct key survive the round-trip', () async {

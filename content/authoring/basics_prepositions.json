@@ -1,0 +1,19 @@
+{
+  "topic": "basics_prepositions",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "The book is ___ the table.", "a": ["on"], "rule_bn": "কোনো কিছুর উপরিভাগে স্পর্শ করে থাকলে 'on' বসে।" },
+    { "type": "fill_in_open", "q": "The cat is ___ the box.", "a": ["in"], "rule_bn": "ভেতরে থাকা বোঝাতে 'in' বসে।" },
+    { "type": "fill_in_open", "q": "We go to school ___ the morning.", "a": ["in"], "rule_bn": "morning/evening/afternoon-এর আগে 'in' বসে।" },
+    { "type": "fill_in_open", "q": "I get up ___ 6 o'clock.", "a": ["at"], "rule_bn": "নির্দিষ্ট সময় (ঘণ্টা) বোঝাতে 'at' বসে।" },
+    { "type": "fill_in_open", "q": "He was born ___ 1995.", "a": ["in"], "rule_bn": "সাল/মাসের আগে 'in' বসে: in 1995।" },
+    { "type": "fill_in_open", "q": "The school is closed ___ Friday.", "a": ["on"], "rule_bn": "দিনের নামের আগে 'on' বসে: on Friday।" },
+    { "type": "fill_in_open", "q": "She is afraid ___ ghosts.", "a": ["of"], "rule_bn": "'afraid'-এর পরে 'of' বসে।" },
+    { "type": "fill_in_open", "q": "He is good ___ English.", "a": ["at"], "rule_bn": "দক্ষতা বোঝাতে 'good at' বসে।" },
+    { "type": "fill_in_open", "q": "Listen ___ me carefully.", "a": ["to"], "rule_bn": "'listen'-এর পরে 'to' বসে।" },
+    { "type": "fill_in_open", "q": "The students went ___ the classroom.", "a": ["into"], "fuzzy": 1, "rule_bn": "বাইরে থেকে ভেতরে প্রবেশ বোঝাতে 'into' বসে।" }
+  ]
+}

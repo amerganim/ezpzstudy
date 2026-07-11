@@ -1,0 +1,19 @@
+{
+  "topic": "tense",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক verb-এর রূপটি বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "I ___ to school every day. (go)", "a": ["go"], "rule_bn": "Present Indefinite: প্রতিদিনের অভ্যাস বোঝাতে verb-এর base form (go) বসে।" },
+    { "type": "fill_in_open", "q": "She ___ to school every day. (go)", "a": ["goes"], "rule_bn": "He/She/It-এর সাথে Present Indefinite-এ verb-এ 's/es' যোগ হয়: goes।" },
+    { "type": "fill_in_open", "q": "Look! The baby ___ now. (sleep)", "a": ["is sleeping"], "fuzzy": 1, "rule_bn": "এই মুহূর্তে চলমান কাজ বোঝাতে Present Continuous: am/is/are + verb+ing।" },
+    { "type": "fill_in_open", "q": "They ___ football yesterday. (play)", "a": ["played"], "rule_bn": "Past Indefinite: অতীতে সম্পন্ন কাজ বোঝাতে verb-এর past form (played) বসে।" },
+    { "type": "fill_in_open", "q": "He ___ his lunch an hour ago. (eat)", "a": ["ate"], "rule_bn": "Eat একটি irregular verb; এর past form 'ate'।" },
+    { "type": "fill_in_open", "q": "I ___ already ___ the work. (finish)", "a": ["have finished", "have already finished"], "fuzzy": 2, "rule_bn": "Present Perfect: সদ্য সম্পন্ন কাজ বোঝাতে have/has + past participle (finished)।" },
+    { "type": "fill_in_open", "q": "We ___ to Cox's Bazar next week. (go)", "a": ["will go", "shall go"], "fuzzy": 1, "rule_bn": "Future Indefinite: ভবিষ্যতের কাজ বোঝাতে will/shall + base verb।" },
+    { "type": "mcq", "q": "The sun ___ in the east.", "opts": ["rise", "rises", "rose", "rising"], "correct": 1, "rule_bn": "চিরন্তন সত্য সবসময় Present Indefinite-এ; 'The sun'=It, তাই rises।" },
+    { "type": "mcq", "q": "Water ___ at 100 degrees Celsius.", "opts": ["boil", "boiled", "boils", "is boiling"], "correct": 2, "rule_bn": "বৈজ্ঞানিক সত্য Present Indefinite-এ থাকে: boils।" },
+    { "type": "fill_in_open", "q": "When I reached the station, the train ___ already ___. (leave)", "a": ["had left", "had already left"], "fuzzy": 2, "rule_bn": "অতীতে দুটি কাজের আগেরটি Past Perfect: had + past participle (left)।" }
+  ]
+}

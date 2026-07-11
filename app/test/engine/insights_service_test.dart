@@ -52,20 +52,20 @@ void main() {
   });
 
   test('a weak topic surfaces as a focus area and lowers the score', () async {
-    // "tense" is a real, weighted topic in the topic map.
-    await _seedProgress(db, {'tense': (2, 10)}); // 20% accuracy
+    // "p2_preposition" is a real, weighted (5-mark) HSC exam item.
+    await _seedProgress(db, {'p2_preposition': (2, 10)}); // 20% accuracy
     final result = await insights.load();
     expect(result.predictedScore.available, isTrue);
     expect(result.predictedScore.percent, 20);
-    expect(result.focusAreas.map((f) => f.topicId), contains('tense'));
+    expect(result.focusAreas.map((f) => f.topicId), contains('p2_preposition'));
     expect(result.allClear, isFalse);
   });
 
   test('strong performance clears focus areas and unlocks the challenge gate',
       () async {
     await _seedProgress(db, {
-      'tense': (9, 10), // 90%
-      'preposition': (8, 10), // 80%
+      'p2_preposition': (9, 10), // 90%
+      'p2_right_form_verb': (8, 10), // 80%
     });
     final result = await insights.load();
     expect(result.focusAreas, isEmpty);

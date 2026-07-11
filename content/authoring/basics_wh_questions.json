@@ -1,0 +1,17 @@
+{
+  "topic": "basics_wh_questions",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক Wh-শব্দ বা প্রশ্নটি বেছে নাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "___ is your name? (asking about a name)", "a": ["What"], "rule_bn": "নাম/বস্তু জানতে চাইলে 'What' দিয়ে প্রশ্ন হয়।" },
+    { "type": "fill_in_open", "q": "___ do you live? (asking about a place)", "a": ["Where"], "rule_bn": "স্থান জানতে চাইলে 'Where'।" },
+    { "type": "fill_in_open", "q": "___ are you late? (asking about a reason)", "a": ["Why"], "rule_bn": "কারণ জানতে চাইলে 'Why'।" },
+    { "type": "fill_in_open", "q": "___ do you go to school? (asking about time)", "a": ["When"], "rule_bn": "সময় জানতে চাইলে 'When'।" },
+    { "type": "fill_in_open", "q": "___ is that boy? (asking about a person)", "a": ["Who"], "rule_bn": "ব্যক্তি জানতে চাইলে 'Who'।" },
+    { "type": "fill_in_open", "q": "___ do you go to school? (asking about manner)", "a": ["How"], "rule_bn": "কীভাবে/উপায় জানতে চাইলে 'How'।" },
+    { "type": "mcq", "q": "Make a question: 'He is a teacher.'", "opts": ["Who he is?", "Is he a teacher?", "He is teacher?", "What he is teacher?"], "correct": 1, "rule_bn": "Yes/No প্রশ্নে auxiliary verb (Is) সামনে আসে: Is he a teacher?" },
+    { "type": "mcq", "q": "Which is the correct Wh-question for the answer 'In Dhaka'?", "opts": ["When do you live?", "Why do you live?", "Where do you live?", "Who do you live?"], "correct": 2, "rule_bn": "'In Dhaka' স্থান বোঝায়, তাই প্রশ্ন 'Where'।" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "topic": "basics_parts_of_speech",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক উত্তরটি বেছে নাও।",
+  "items": [
+    { "type": "mcq", "q": "Which word is a noun?", "opts": ["quickly", "beautiful", "teacher", "run"], "correct": 2, "rule_bn": "Noun হলো নাম (ব্যক্তি/বস্তু/স্থান): 'teacher'।" },
+    { "type": "mcq", "q": "Which word is a verb?", "opts": ["happy", "swim", "slowly", "chair"], "correct": 1, "rule_bn": "Verb হলো কাজ বোঝানো শব্দ: 'swim'।" },
+    { "type": "mcq", "q": "Which word is an adjective?", "opts": ["honest", "honesty", "honestly", "honour"], "correct": 0, "rule_bn": "Adjective noun-এর গুণ বোঝায়: 'honest' (সৎ)।" },
+    { "type": "mcq", "q": "Which word is an adverb?", "opts": ["care", "careful", "carefully", "caring"], "correct": 2, "rule_bn": "Adverb verb-এর ধরন বোঝায়, প্রায়ই '-ly' দিয়ে শেষ হয়: 'carefully'।" },
+    { "type": "mcq", "q": "In 'She sings sweetly', 'sweetly' is a/an ___.", "opts": ["noun", "verb", "adjective", "adverb"], "correct": 3, "rule_bn": "কীভাবে গায় তা বোঝাচ্ছে — verb-কে বর্ণনা করছে, তাই adverb।" },
+    { "type": "mcq", "q": "'He is a good boy.' Here 'good' is a/an ___.", "opts": ["noun", "adjective", "adverb", "pronoun"], "correct": 1, "rule_bn": "'good' noun 'boy'-এর গুণ বোঝাচ্ছে, তাই adjective।" },
+    { "type": "mcq", "q": "Which word is a pronoun?", "opts": ["Rahim", "he", "run", "big"], "correct": 1, "rule_bn": "Noun-এর পরিবর্তে বসে এমন শব্দ pronoun: 'he'।" },
+    { "type": "mcq", "q": "'The bird flew over the tree.' Here 'over' is a/an ___.", "opts": ["preposition", "conjunction", "adjective", "verb"], "correct": 0, "rule_bn": "স্থান/সম্পর্ক বোঝাতে noun-এর আগে বসে preposition: 'over'।" }
+  ]
+}

@@ -3,13 +3,15 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
 
-// Sections of the topic map that hold board-scorable topics, with the paper
-// they belong to. Vocabulary is cross-cutting and not a direct board-marks input.
-const WEIGHTED_SECTIONS = [
-  ["paper_1st", "1st"],
-  ["paper_1st_writing", "1st"],
-  ["paper_2nd_grammar", "2nd"],
-  ["paper_2nd_writing", "2nd"],
+// Every section that holds topics the app needs to know about. Paper/track are
+// read from the section itself (with a per-section fallback here).
+const SECTIONS = [
+  "basics",
+  "paper_1st_reading",
+  "paper_1st_writing",
+  "paper_2nd_grammar",
+  "paper_2nd_writing",
+  "cross_cutting",
 ];
 
 /// Compiles topic-map.yaml into a compact JSON the app bundles and reads for
@@ -20,31 +22,21 @@ function compileTopicMap(topicMapPath) {
   const topicMap = yaml.load(fs.readFileSync(topicMapPath, "utf8"));
 
   const topics = [];
-  for (const [section, paper] of WEIGHTED_SECTIONS) {
-    const list = topicMap[section] && topicMap[section].topics;
+  for (const section of SECTIONS) {
+    const sec = topicMap[section];
+    const list = sec && sec.topics;
     if (!Array.isArray(list)) continue;
+    const sectionPaper = sec.paper || "both";
+    const sectionTrack = sec.track || "hsc";
     for (const t of list) {
       topics.push({
         id: t.id,
         label_en: t.label_en,
-        paper,
+        label_bn: t.label_bn || t.label_en,
+        track: t.track || sectionTrack,
+        paper: t.paper || sectionPaper,
         weight: typeof t.weight === "number" ? t.weight : 0,
         remedial: Array.isArray(t.remedial) ? t.remedial : [],
-      });
-    }
-  }
-
-  // Cross-cutting (vocabulary) topics: included so the app knows about them,
-  // but weight 0 so they don't distort the board-score projection.
-  const cross = topicMap.cross_cutting && topicMap.cross_cutting.topics;
-  if (Array.isArray(cross)) {
-    for (const t of cross) {
-      topics.push({
-        id: t.id,
-        label_en: t.label_en,
-        paper: t.paper === "both" ? "both" : (t.paper || "both"),
-        weight: 0,
-        remedial: [],
       });
     }
   }

@@ -1,0 +1,13 @@
+{
+  "topic": "p1_cloze_clues",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "Time is very {{1}}. Once it is {{2}}, it never comes back.", "bank": ["valuable", "gone", "wasted", "money"], "ans": ["valuable", "gone"], "rule_bn": "প্রসঙ্গ অনুযায়ী: time is valuable; once gone, never returns।" },
+    { "type": "fill_in_word_bank", "q": "A good student is always {{1}}. He never {{2}} his time.", "bank": ["attentive", "wastes", "lazy", "sleeps"], "ans": ["attentive", "wastes"], "rule_bn": "ভালো ছাত্র মনোযোগী (attentive) এবং সময় নষ্ট করে না (wastes)।" },
+    { "type": "fill_in_word_bank", "q": "Trees give us {{1}}. They also keep the environment {{2}}.", "bank": ["oxygen", "clean", "smoke", "dirty"], "ans": ["oxygen", "clean"], "rule_bn": "গাছ অক্সিজেন দেয় এবং পরিবেশ পরিষ্কার রাখে।" },
+    { "type": "fill_in_word_bank", "q": "We should respect our {{1}} and love the {{2}}.", "bank": ["elders", "young", "enemies", "money"], "ans": ["elders", "young"], "rule_bn": "বড়দের সম্মান (elders) ও ছোটদের স্নেহ (young) করা উচিত।" }
+  ]
+}
