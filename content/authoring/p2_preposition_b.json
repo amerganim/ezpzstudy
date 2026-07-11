@@ -1,0 +1,22 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He is senior ___ me by two years.", "a": ["to"], "rule_bn": "'senior/junior'-এর পরে 'to' বসে (than নয়)।" },
+    { "type": "fill_in_open", "q": "She is married ___ a doctor.", "a": ["to"], "rule_bn": "'married to' — বিবাহিত বোঝাতে 'to' বসে।" },
+    { "type": "fill_in_open", "q": "I prefer tea ___ coffee.", "a": ["to"], "rule_bn": "'prefer ... to' — পছন্দ বোঝাতে 'to' বসে।" },
+    { "type": "fill_in_open", "q": "He died ___ cholera.", "a": ["of"], "rule_bn": "রোগে মৃত্যু বোঝাতে 'die of' বসে।" },
+    { "type": "fill_in_open", "q": "The room is full ___ furniture.", "a": ["of"], "rule_bn": "'full of' — পরিপূর্ণ বোঝাতে 'of' বসে।" },
+    { "type": "fill_in_open", "q": "He is angry ___ me.", "a": ["with"], "rule_bn": "কারো উপর রাগ বোঝাতে 'angry with (person)' বসে।" },
+    { "type": "fill_in_open", "q": "He is angry ___ my conduct.", "a": ["at"], "rule_bn": "কোনো কিছুতে রাগ বোঝাতে 'angry at (thing)' বসে।" },
+    { "type": "fill_in_open", "q": "The teacher was pleased ___ my result.", "a": ["with", "at"], "fuzzy": 0, "rule_bn": "'pleased with/at' — সন্তুষ্ট বোঝায়।" },
+    { "type": "fill_in_open", "q": "Do not depend ___ others.", "a": ["on", "upon"], "fuzzy": 0, "rule_bn": "'depend on/upon' — নির্ভর করা বোঝায়।" },
+    { "type": "fill_in_open", "q": "He deals ___ rice.", "a": ["in"], "rule_bn": "ব্যবসা বোঝাতে 'deal in' বসে।" },
+    { "type": "fill_in_open", "q": "Please comply ___ my request.", "a": ["with"], "rule_bn": "'comply with' — মেনে চলা বোঝায়।" },
+    { "type": "fill_in_open", "q": "He is indifferent ___ his studies.", "a": ["to"], "rule_bn": "'indifferent to' — উদাসীন বোঝায়।" }
+  ]
+}

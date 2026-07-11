@@ -1,0 +1,21 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "The internet has changed our life greatly. It is a global network that connects millions of computers all over the world. Through the internet, we can send emails, read news, watch videos and talk to people in distant places. Students can find information for their studies within seconds. Businesses can reach customers everywhere. However, the internet also has some bad sides. Some people waste their time on it or become addicted to games and social media. Therefore, we should use the internet wisely for good purposes.",
+      "subs": [
+        { "type": "mcq", "q": "What is the internet?", "opts": ["a single computer", "a global network of computers", "a mobile phone", "a television"], "correct": 1, "rule_bn": "'a global network that connects millions of computers'।" },
+        { "type": "mcq", "q": "How quickly can students find information?", "opts": ["within seconds", "within days", "within hours", "within weeks"], "correct": 0, "rule_bn": "'find information ... within seconds'।" },
+        { "type": "fill_in_open", "q": "The internet connects computers all over the ___.", "a": ["world"], "rule_bn": "'connects millions of computers all over the world'।" },
+        { "type": "mcq", "q": "According to the passage, how should we use the internet?", "opts": ["for games only", "wisely for good purposes", "all day long", "never"], "correct": 1, "rule_bn": "'we should use the internet wisely for good purposes'।" }
+      ]
+    }
+  ]
+}

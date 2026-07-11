@@ -1,0 +1,22 @@
+{
+  "topic": "p2_right_form_verb",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Look, the boys ___ football now. (play)", "a": ["are playing"], "fuzzy": 1, "rule_bn": "'Look'/'now' থাকলে Present Continuous: are playing।" },
+    { "type": "fill_in_open", "q": "He ___ his breakfast every day at 8 am. (take)", "a": ["takes"], "rule_bn": "অভ্যাস + He, তাই Present Indefinite-এ 'takes'।" },
+    { "type": "fill_in_open", "q": "Water ___ of hydrogen and oxygen. (consist)", "a": ["consists"], "rule_bn": "চিরন্তন সত্য; Water=It, তাই consists।" },
+    { "type": "fill_in_open", "q": "I have been reading the book ___ two hours. (for/since)", "a": ["for"], "rule_bn": "সময়ের ব্যাপ্তি বোঝাতে 'for' বসে।" },
+    { "type": "fill_in_open", "q": "Had I been a bird, I ___ have flown. (would)", "a": ["would"], "rule_bn": "Third conditional (past unreal): would have + past participle।" },
+    { "type": "fill_in_open", "q": "The teacher made the boy ___ the poem. (recite)", "a": ["recite"], "rule_bn": "'make + object'-এর পরে base verb বসে: recite।" },
+    { "type": "fill_in_open", "q": "It is time you ___ the truth. (know)", "a": ["knew"], "rule_bn": "'It is time'-এর পরে past form: knew।" },
+    { "type": "fill_in_open", "q": "He wishes he ___ rich. (be)", "a": ["were"], "rule_bn": "'wish'-এর পরে অবাস্তব ইচ্ছায় 'were' বসে।" },
+    { "type": "fill_in_open", "q": "The sun having ___, we started for home. (set)", "a": ["set"], "rule_bn": "Perfect participle: having + past participle (set)।" },
+    { "type": "fill_in_open", "q": "Neither of the boys ___ done the work. (have)", "a": ["has"], "rule_bn": "'Neither of'-এর সাথে singular verb: has।" },
+    { "type": "fill_in_open", "q": "Many a student ___ failed. (have)", "a": ["has"], "rule_bn": "'Many a + singular noun'-এর সাথে singular verb: has।" },
+    { "type": "fill_in_open", "q": "The quality of the mangoes ___ not good. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "মূল subject 'The quality' (singular), তাই is/was।" }
+  ]
+}

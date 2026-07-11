@@ -1,0 +1,15 @@
+{
+  "topic": "p1_rearranging",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+  "items": [
+    { "type": "rearranging", "sentences": ["A hare was very proud of his speed.", "He challenged a tortoise to a race.", "The race began and the hare ran very fast.", "Being confident, the hare fell asleep on the way.", "The slow tortoise walked on and won the race."], "rule_bn": "গল্পের ক্রম: গর্ব → চ্যালেঞ্জ → দৌড় → ঘুম → জয়।" },
+    { "type": "rearranging", "sentences": ["Honesty is a great virtue.", "An honest man is respected everywhere.", "People trust and love him.", "He is never afraid of anybody.", "So we should always be honest."], "rule_bn": "সাধারণ বক্তব্য → ফল → করণীয় ক্রমে।" },
+    { "type": "rearranging", "sentences": ["It was a rainy day.", "A poor boy was going to school.", "Suddenly he saw a purse on the road.", "He picked it up and found some money in it.", "He returned the purse to its owner honestly."], "rule_bn": "ঘটনার সময়ানুক্রম অনুসরণ করো।" },
+    { "type": "rearranging", "sentences": ["Sher-e-Bangla A. K. Fazlul Huq was a great leader.", "He was born in Barisal in 1873.", "He worked for the welfare of the common people.", "He is called the 'Tiger of Bengal'.", "He died in 1962."], "rule_bn": "জীবনী: পরিচয় → জন্ম → কাজ → উপাধি → মৃত্যু।" },
+    { "type": "rearranging", "sentences": ["Once a fox fell into a well.", "He could not come out of it.", "A goat came there and asked about the water.", "The clever fox praised the water.", "The goat jumped in and the fox escaped on its back."], "rule_bn": "গল্পের কার্যকারণ ক্রম অনুসরণ করো।" }
+  ]
+}

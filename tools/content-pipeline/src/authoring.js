@@ -183,7 +183,9 @@ function expandItem(item, ctx) {
   if (!instruction) throw new Error(`missing instruction_bn (set one on the file)`);
 
   return {
-    id: `${ctx.deck}.${type}.${ctx.topic}-${pad(ctx.seq)}`,
+    // `batch` (optional, from the file) lets a topic span multiple files
+    // without id collisions, e.g. topic-b001 vs the base topic-001.
+    id: `${ctx.deck}.${type}.${ctx.topic}-${ctx.batch}${pad(ctx.seq)}`,
     type,
     paper: ctx.paper,
     topic: ctx.topic,
@@ -207,6 +209,7 @@ function expandFile(filePath) {
     topic: doc.topic,
     paper,
     deck: PAPER_DECK[paper] || "b",
+    batch: doc.batch ? `${doc.batch}` : "",
     defaults: {
       difficulty: doc.difficulty || "easy",
       review_status: doc.review_status || "reviewed",

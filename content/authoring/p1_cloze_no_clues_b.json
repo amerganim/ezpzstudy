@@ -1,0 +1,18 @@
+{
+  "topic": "p1_cloze_no_clues",
+  "paper": "1st",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Patriotism is a noble virtue. Every citizen should love ___ country.", "a": ["his", "their", "her"], "fuzzy": 0, "rule_bn": "প্রসঙ্গ অনুযায়ী possessive 'his' বসে।" },
+    { "type": "fill_in_open", "q": "Discipline is essential ___ every walk of life.", "a": ["in", "for"], "fuzzy": 0, "rule_bn": "'in every walk of life' একটি নির্দিষ্ট প্রকাশ।" },
+    { "type": "fill_in_open", "q": "A good citizen obeys the law and pays taxes ___ time.", "a": ["in", "on"], "fuzzy": 0, "rule_bn": "'in time' (সময়মতো)।" },
+    { "type": "fill_in_open", "q": "Newspapers keep us ___ of what is happening around us.", "a": ["informed", "aware"], "fuzzy": 1, "rule_bn": "'keep us informed of' — অবহিত রাখে।" },
+    { "type": "fill_in_open", "q": "The main purpose ___ education is to build good character.", "a": ["of"], "rule_bn": "'purpose of' — উদ্দেশ্য বোঝাতে 'of' বসে।" },
+    { "type": "fill_in_open", "q": "We should not look ___ upon the poor.", "a": ["down"], "rule_bn": "'look down upon' — ঘৃণা/হেয় করা বোঝায়।" },
+    { "type": "fill_in_open", "q": "Industry is the key ___ success.", "a": ["to"], "rule_bn": "'key to' — চাবিকাঠি বোঝাতে 'to' বসে।" },
+    { "type": "fill_in_open", "q": "He is not only wise ___ also kind.", "a": ["but"], "rule_bn": "'not only ... but also' জোড়া।" }
+  ]
+}

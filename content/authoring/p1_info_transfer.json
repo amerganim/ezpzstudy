@@ -1,0 +1,31 @@
+{
+  "topic": "p1_info_transfer",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "The process of making a cup of tea is simple. First, we boil some water in a kettle. Then we take a cup and put some tea leaves and sugar in it. After that, we pour the boiling water into the cup. We wait for a few minutes so that the tea gets ready. Finally, we add a little milk and stir it well. Now the tea is ready to drink.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Flow chart step 1: ___ water in a kettle.", "a": ["Boil", "boil"], "fuzzy": 1, "rule_bn": "প্রথম ধাপ: First, we boil some water।" },
+        { "type": "fill_in_open", "q": "Step 2: Put tea leaves and ___ in the cup.", "a": ["sugar"], "rule_bn": "'put some tea leaves and sugar in it'।" },
+        { "type": "fill_in_open", "q": "Step 3: ___ the boiling water into the cup.", "a": ["Pour", "pour"], "fuzzy": 1, "rule_bn": "'we pour the boiling water into the cup'।" },
+        { "type": "fill_in_open", "q": "Step 4: Add a little ___ and stir it.", "a": ["milk"], "rule_bn": "'we add a little milk and stir it well'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "A seed grows into a tree in several stages. At first, a seed is sown in the soil. With water and sunlight, the seed sprouts and a tiny root goes down into the soil. Then a small plant called a sapling comes out of the ground. The sapling slowly grows taller and stronger. In time, it becomes a big tree with branches, leaves and fruits.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Life cycle step 1: A ___ is sown in the soil.", "a": ["seed"], "rule_bn": "'a seed is sown in the soil'।" },
+        { "type": "fill_in_open", "q": "Step 2: The seed ___ with water and sunlight.", "a": ["sprouts"], "fuzzy": 1, "rule_bn": "'the seed sprouts'।" },
+        { "type": "fill_in_open", "q": "Step 3: A small plant called a ___ comes out.", "a": ["sapling"], "rule_bn": "'a small plant called a sapling comes out'।" },
+        { "type": "fill_in_open", "q": "Step 4: It becomes a big ___ with branches and fruits.", "a": ["tree"], "rule_bn": "'it becomes a big tree'।" }
+      ]
+    }
+  ]
+}

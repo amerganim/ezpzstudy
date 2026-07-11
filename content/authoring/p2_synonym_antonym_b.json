@@ -1,0 +1,22 @@
+{
+  "topic": "p2_synonym_antonym",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+  "items": [
+    { "type": "mcq", "q": "Synonym of 'brief' is ___.", "opts": ["long", "short", "wide", "deep"], "correct": 1, "rule_bn": "'brief' = 'short' (সংক্ষিপ্ত)।" },
+    { "type": "mcq", "q": "Synonym of 'brilliant' is ___.", "opts": ["dull", "bright", "dark", "weak"], "correct": 1, "rule_bn": "'brilliant' = 'bright' (উজ্জ্বল/মেধাবী)।" },
+    { "type": "mcq", "q": "Synonym of 'brave' is ___.", "opts": ["timid", "bold", "afraid", "shy"], "correct": 1, "rule_bn": "'brave' = 'bold' (সাহসী)।" },
+    { "type": "mcq", "q": "Synonym of 'gather' is ___.", "opts": ["scatter", "collect", "throw", "lose"], "correct": 1, "rule_bn": "'gather' = 'collect' (সংগ্রহ করা)।" },
+    { "type": "mcq", "q": "Antonym of 'expand' is ___.", "opts": ["grow", "spread", "contract", "widen"], "correct": 2, "rule_bn": "'expand' (প্রসারিত) × 'contract' (সংকুচিত)।" },
+    { "type": "mcq", "q": "Antonym of 'wealth' is ___.", "opts": ["money", "riches", "poverty", "gold"], "correct": 2, "rule_bn": "'wealth' (সম্পদ) × 'poverty' (দারিদ্র্য)।" },
+    { "type": "mcq", "q": "Antonym of 'praise' is ___.", "opts": ["admire", "blame", "honour", "thank"], "correct": 1, "rule_bn": "'praise' (প্রশংসা) × 'blame' (দোষারোপ)।" },
+    { "type": "mcq", "q": "Antonym of 'wise' is ___.", "opts": ["clever", "smart", "foolish", "sharp"], "correct": 2, "rule_bn": "'wise' (জ্ঞানী) × 'foolish' (মূর্খ)।" },
+    { "type": "matching", "left": ["reveal", "reduce", "reject", "remember"], "right": ["disclose", "decrease", "refuse", "recall"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "synonym মেলাও: reveal-disclose, reduce-decrease, reject-refuse, remember-recall।" },
+    { "type": "matching", "left": ["arrival", "success", "presence", "ancient"], "right": ["departure", "failure", "absence", "modern"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "antonym মেলাও: arrival×departure, success×failure, presence×absence, ancient×modern।" },
+    { "type": "mcq", "q": "Synonym of 'obtain' is ___.", "opts": ["lose", "get", "give", "keep"], "correct": 1, "rule_bn": "'obtain' = 'get/acquire' (লাভ করা)।" },
+    { "type": "mcq", "q": "Antonym of 'humble' is ___.", "opts": ["modest", "proud", "simple", "polite"], "correct": 1, "rule_bn": "'humble' (বিনয়ী) × 'proud' (অহংকারী)।" }
+  ]
+}

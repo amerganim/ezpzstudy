@@ -1,0 +1,26 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "accurate", "back_bn": "নির্ভুল", "example": "Give me the accurate figures.", "pos": "adjective", "syn": "correct", "ant": "inaccurate" },
+    { "type": "flashcard", "front": "brief", "back_bn": "সংক্ষিপ্ত", "example": "He gave a brief speech.", "pos": "adjective", "syn": "short", "ant": "lengthy" },
+    { "type": "flashcard", "front": "cordial", "back_bn": "আন্তরিক", "example": "She gave us a cordial welcome.", "pos": "adjective", "syn": "warm", "ant": "cold" },
+    { "type": "flashcard", "front": "courage", "back_bn": "সাহস", "example": "He faced the danger with courage.", "pos": "noun", "syn": "bravery", "ant": "fear" },
+    { "type": "flashcard", "front": "decline", "back_bn": "হ্রাস পাওয়া / প্রত্যাখ্যান করা", "example": "The sales began to decline.", "pos": "verb", "syn": "decrease", "ant": "increase" },
+    { "type": "flashcard", "front": "essential", "back_bn": "অপরিহার্য", "example": "Water is essential for life.", "pos": "adjective", "syn": "necessary", "ant": "optional" },
+    { "type": "flashcard", "front": "fertile", "back_bn": "উর্বর", "example": "The soil of Bangladesh is fertile.", "pos": "adjective", "syn": "productive", "ant": "barren" },
+    { "type": "flashcard", "front": "gratitude", "back_bn": "কৃতজ্ঞতা", "example": "We should show gratitude to our parents.", "pos": "noun", "syn": "thankfulness", "ant": "ingratitude" },
+    { "type": "flashcard", "front": "harmony", "back_bn": "মিল, সাদৃশ্য", "example": "They live in peace and harmony.", "pos": "noun", "syn": "agreement", "ant": "conflict" },
+    { "type": "flashcard", "front": "immense", "back_bn": "বিশাল, প্রচুর", "example": "He has immense wealth.", "pos": "adjective", "syn": "huge", "ant": "tiny" },
+    { "type": "flashcard", "front": "modest", "back_bn": "বিনয়ী", "example": "In spite of his fame, he is modest.", "pos": "adjective", "syn": "humble", "ant": "arrogant" },
+    { "type": "flashcard", "front": "obstacle", "back_bn": "বাধা", "example": "Poverty was the main obstacle to his study.", "pos": "noun", "syn": "barrier", "ant": "help" },
+    { "type": "flashcard", "front": "priceless", "back_bn": "অমূল্য", "example": "Health is a priceless gift.", "pos": "adjective", "syn": "invaluable", "ant": "worthless" },
+    { "type": "flashcard", "front": "remote", "back_bn": "দূরবর্তী", "example": "He lives in a remote village.", "pos": "adjective", "syn": "distant", "ant": "nearby" },
+    { "type": "flashcard", "front": "sincere", "back_bn": "আন্তরিক, নিষ্ঠাবান", "example": "She is sincere in her work.", "pos": "adjective", "syn": "genuine", "ant": "insincere" },
+    { "type": "flashcard", "front": "tremendous", "back_bn": "প্রচণ্ড, বিশাল", "example": "He made a tremendous effort.", "pos": "adjective", "syn": "enormous", "ant": "slight" }
+  ]
+}

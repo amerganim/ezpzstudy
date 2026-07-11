@@ -1,0 +1,18 @@
+{
+  "topic": "p2_special_use",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Board: special uses, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "It is time we ___ (start) our journey. (past form)", "a": ["started"], "rule_bn": "'It is time'-এর পরে past form: started।" },
+    { "type": "fill_in_open", "q": "He is used ___ (get) up early. (habit)", "a": ["to getting"], "fuzzy": 2, "rule_bn": "'used to' (অভ্যাস)-এর পরে verb+ing: to getting।" },
+    { "type": "fill_in_open", "q": "No sooner had he come ___ it started raining. (than/then)", "a": ["than"], "rule_bn": "'No sooner ... than' একটি জোড়া।" },
+    { "type": "fill_in_open", "q": "___ he is honest is known to all. (that/what)", "a": ["That"], "rule_bn": "Noun clause subject হিসেবে 'That' বসে।" },
+    { "type": "fill_in_open", "q": "He talks as ___ he were a king. (if/though)", "a": ["if", "though"], "fuzzy": 0, "rule_bn": "'as if/as though'-এর পরে were বসে।" },
+    { "type": "fill_in_open", "q": "Would you mind ___ (open) the door? (request)", "a": ["opening"], "rule_bn": "'Would you mind'-এর পরে verb+ing: opening।" },
+    { "type": "fill_in_open", "q": "Scarcely had I reached ___ the bell rang. (when/than)", "a": ["when"], "rule_bn": "'Scarcely had ... when' একটি জোড়া।" },
+    { "type": "fill_in_open", "q": "He has been living here ___ five years. (since/for)", "a": ["for"], "rule_bn": "সময়ের ব্যাপ্তি বোঝাতে 'for' বসে।" }
+  ]
+}

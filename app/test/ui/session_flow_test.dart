@@ -15,7 +15,7 @@ import 'package:ezpzstudy/ui/session/session_screen.dart';
 
 Future<void> _loadPack(AppDatabase db) async {
   final pack = json.decode(
-          await File('assets/content/content_pack_v3.json').readAsString())
+          await File('assets/content/content_pack_v4.json').readAsString())
       as List<dynamic>;
   await db.batch((batch) {
     for (final entry in pack) {

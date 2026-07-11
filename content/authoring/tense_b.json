@@ -1,0 +1,20 @@
+{
+  "topic": "tense",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক verb-এর রূপটি বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "My father ___ to office every day. (go)", "a": ["goes"], "rule_bn": "অভ্যাস + singular subject: goes।" },
+    { "type": "fill_in_open", "q": "The girls ___ in the garden now. (walk)", "a": ["are walking"], "fuzzy": 1, "rule_bn": "'now' = এই মুহূর্তে, Present Continuous: are walking।" },
+    { "type": "fill_in_open", "q": "We ___ the film last night. (watch)", "a": ["watched"], "rule_bn": "'last night' = অতীত, Past Indefinite: watched।" },
+    { "type": "fill_in_open", "q": "She ___ just ___ the letter. (write)", "a": ["has written", "has just written"], "fuzzy": 2, "rule_bn": "'just' = সদ্য, Present Perfect: has written।" },
+    { "type": "fill_in_open", "q": "They ___ here since morning. (be)", "a": ["have been"], "fuzzy": 1, "rule_bn": "'since' + এখনো চলছে, Present Perfect: have been।" },
+    { "type": "fill_in_open", "q": "I ___ my homework before he came. (finish)", "a": ["had finished"], "fuzzy": 1, "rule_bn": "অতীতে আগের কাজ Past Perfect: had finished।" },
+    { "type": "fill_in_open", "q": "It ___ since morning. (rain)", "a": ["has been raining"], "fuzzy": 2, "rule_bn": "'since morning' চলমান: Present Perfect Continuous: has been raining।" },
+    { "type": "mcq", "q": "Ice ___ into water when it is heated.", "opts": ["turn", "turns", "turned", "turning"], "correct": 1, "rule_bn": "সাধারণ সত্য Present Indefinite; ice=It, তাই turns।" },
+    { "type": "fill_in_open", "q": "He ___ TV when I entered the room. (watch)", "a": ["was watching"], "fuzzy": 1, "rule_bn": "অতীতে চলমান কাজ Past Continuous: was watching।" },
+    { "type": "fill_in_open", "q": "By next year, I ___ my graduation. (complete)", "a": ["will have completed", "shall have completed"], "fuzzy": 2, "rule_bn": "ভবিষ্যতে নির্দিষ্ট সময়ে শেষ: Future Perfect: will have completed।" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "basics_subject_verb",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "My friends ___ coming today. (be)", "a": ["are"], "rule_bn": "Plural subject (friends)-এর সাথে 'are'।" },
+    { "type": "fill_in_open", "q": "One of the boys ___ absent. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'One of the boys' singular, তাই is/was।" },
+    { "type": "fill_in_open", "q": "Mathematics ___ an easy subject. (be)", "a": ["is"], "rule_bn": "Mathematics দেখতে plural, অর্থে singular, তাই 'is'।" },
+    { "type": "fill_in_open", "q": "The poor ___ many problems. (have)", "a": ["have"], "rule_bn": "'The poor' plural অর্থে, তাই 'have'।" },
+    { "type": "fill_in_open", "q": "Either Rahim or his brothers ___ guilty. (be)", "a": ["are", "were"], "fuzzy": 0, "rule_bn": "'Either...or'-এ কাছের subject (brothers=plural): are।" },
+    { "type": "fill_in_open", "q": "Slow and steady ___ the race. (win)", "a": ["wins"], "rule_bn": "একক ধারণা বোঝালে singular verb: wins।" },
+    { "type": "fill_in_open", "q": "Bread and butter ___ my favourite food. (be)", "a": ["is"], "rule_bn": "একটি একক খাবার (Bread and butter), তাই singular 'is'।" },
+    { "type": "mcq", "q": "Choose the correct sentence:", "opts": ["The teacher and the student is here.", "The teacher and the student are here.", "The teacher and student is here.", "Teacher and the student was here."], "correct": 1, "rule_bn": "দুটি ভিন্ন ব্যক্তি (and), তাই plural 'are'।" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter দিয়ে বাক্যটি আবার লেখো (Board: punctuation, 0.5×14)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "my mother said i love you my child", "a": ["My mother said, \"I love you, my child.\""], "transform": "punctuation", "fuzzy": 3, "rule_bn": "উক্তির আগে কমা, inverted comma, address-এর আগে কমা।" },
+    { "type": "grammar_transformation", "original": "what a beautiful scene it is", "a": ["What a beautiful scene it is!"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "বিস্ময়সূচক বাক্যে (!) বসে।" },
+    { "type": "grammar_transformation", "original": "he asked me where i was going", "a": ["He asked me where I was going."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "পরোক্ষ প্রশ্ন, তাই শেষে full stop; 'I' capital।" },
+    { "type": "grammar_transformation", "original": "bangladesh india nepal and bhutan are neighbours", "a": ["Bangladesh, India, Nepal and Bhutan are neighbours."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "দেশের নাম capital; তালিকায় কমা।" },
+    { "type": "grammar_transformation", "original": "oh i have won the prize", "a": ["Oh! I have won the prize.", "Oh, I have won the prize!"], "transform": "punctuation", "fuzzy": 2, "rule_bn": "Interjection 'Oh'-এর পরে (!) বা কমা; 'I' capital।" },
+    { "type": "grammar_transformation", "original": "the girls book is on the table", "a": ["The girl's book is on the table."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "মালিকানায় apostrophe + s: girl's।" },
+    { "type": "grammar_transformation", "original": "can you help me please", "a": ["Can you help me, please?"], "transform": "punctuation", "fuzzy": 2, "rule_bn": "প্রশ্নে (?); 'please'-এর আগে কমা।" },
+    { "type": "grammar_transformation", "original": "he reads in class ten he is a good boy", "a": ["He reads in class ten. He is a good boy."], "transform": "punctuation", "fuzzy": 2, "rule_bn": "দুটি আলাদা বাক্য full stop দিয়ে আলাদা করো; পরের বাক্য capital।" }
+  ]
+}

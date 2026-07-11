@@ -1,0 +1,33 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Physical exercise is very important for good health. It keeps our body fit and active. A man who takes regular exercise can work hard and stay free from many diseases. There are different kinds of exercise such as walking, running, swimming and playing games. Walking is the easiest and safest form of exercise. It suits people of all ages. On the other hand, running and swimming are good for the young. However, exercise should be taken in the open air and in the morning. A sound body helps us keep a sound mind.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What keeps our body fit and active?", "a": ["physical exercise", "exercise"], "fuzzy": 2, "rule_bn": "প্রথম বাক্য: physical exercise keeps our body fit and active।" },
+        { "type": "fill_in_open", "q": "Which is the easiest and safest form of exercise?", "a": ["walking"], "rule_bn": "'Walking is the easiest and safest form of exercise'।" },
+        { "type": "mcq", "q": "Running and swimming are good for ___.", "opts": ["the old", "the young", "children", "everyone"], "correct": 1, "rule_bn": "'running and swimming are good for the young'।" },
+        { "type": "fill_in_open", "q": "When should exercise be taken? In the ___.", "a": ["morning"], "rule_bn": "'exercise should be taken in the open air and in the morning'।" },
+        { "type": "mcq", "q": "A sound body helps us keep a sound ___.", "opts": ["house", "mind", "friend", "habit"], "correct": 1, "rule_bn": "শেষ বাক্য: A sound body helps us keep a sound mind।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Kazi Nazrul Islam is our national poet. He was born in 1899 in the village of Churulia in West Bengal. He is called the rebel poet because he raised his voice against all kinds of injustice and oppression. Through his poems and songs, he inspired the people of this land to fight for freedom. He wrote poems, songs, novels and short stories. His famous poem is 'Bidrohi'. He also wrote many patriotic and religious songs. He died in 1976 and was buried beside the Dhaka University mosque.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Who is our national poet?", "a": ["Kazi Nazrul Islam", "Nazrul Islam"], "fuzzy": 2, "rule_bn": "প্রথম বাক্য: Kazi Nazrul Islam is our national poet।" },
+        { "type": "fill_in_open", "q": "In which year was he born?", "a": ["1899"], "rule_bn": "'He was born in 1899'।" },
+        { "type": "mcq", "q": "Why is he called the rebel poet?", "opts": ["for his novels", "for raising voice against injustice", "for his songs", "for his birth"], "correct": 1, "rule_bn": "অন্যায় ও অত্যাচারের বিরুদ্ধে কণ্ঠ তোলার জন্য তাঁকে rebel poet বলা হয়।" },
+        { "type": "fill_in_open", "q": "What is the name of his famous poem?", "a": ["Bidrohi"], "rule_bn": "\"His famous poem is 'Bidrohi'\"।" },
+        { "type": "fill_in_open", "q": "In which year did he die?", "a": ["1976"], "rule_bn": "'He died in 1976'।" }
+      ]
+    }
+  ]
+}

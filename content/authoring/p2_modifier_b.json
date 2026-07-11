@@ -1,0 +1,18 @@
+{
+  "topic": "p2_modifier",
+  "paper": "2nd",
+  "batch": "b",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক modifier বসাও (Board: use of modifiers, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "A {{1}} man cannot prosper in life.", "bank": ["lazy", "quickly", "very", "slowly"], "ans": ["lazy"], "rule_bn": "Noun (man)-এর আগে adjective modifier: lazy।" },
+    { "type": "fill_in_open", "q": "___ reading the book, he fell asleep. (While)", "a": ["While"], "rule_bn": "Participle phrase-এর আগে সময়-modifier 'While'।" },
+    { "type": "fill_in_word_bank", "q": "He is {{1}} intelligent to fail.", "bank": ["too", "very", "so", "much"], "ans": ["too"], "rule_bn": "'too ... to' গঠনে 'too' বসে।" },
+    { "type": "fill_in_open", "q": "___ in the sky, the kite looked beautiful. (Fly)", "a": ["Flying"], "rule_bn": "শুরুতে present participle modifier: Flying in the sky, ...।" },
+    { "type": "fill_in_word_bank", "q": "The {{1}} rising sun is a fine sight.", "bank": ["slowly", "slow", "quick", "quickly"], "ans": ["slowly"], "rule_bn": "Participle (rising)-এর আগে adverb modifier: slowly।" },
+    { "type": "fill_in_open", "q": "The boy, ___ hard, passed the exam. (work)", "a": ["working"], "rule_bn": "Noun-এর পরে present participle modifier: working hard।" },
+    { "type": "fill_in_word_bank", "q": "{{1}} of the two boys is present.", "bank": ["Neither", "None", "No", "Nor"], "ans": ["Neither"], "rule_bn": "দুইয়ের ক্ষেত্রে 'Neither of' বসে।" },
+    { "type": "fill_in_open", "q": "___ by hunger, the boy cried. (Overcome)", "a": ["Overcome"], "rule_bn": "শুরুতে past participle modifier: Overcome by hunger, ...।" }
+  ]
+}

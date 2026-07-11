@@ -1,0 +1,18 @@
+{
+  "topic": "basics_articles",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক article (a / an / the) বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "I have ___ umbrella.", "a": ["an"], "rule_bn": "স্বরধ্বনি (u=আ) দিয়ে শুরু, তাই 'an'।" },
+    { "type": "fill_in_open", "q": "He is ___ M.A. in English.", "a": ["an"], "rule_bn": "M-এর উচ্চারণ 'এম' (স্বরধ্বনি), তাই 'an'।" },
+    { "type": "fill_in_open", "q": "___ moon is bright tonight.", "a": ["The"], "rule_bn": "একক জিনিসের আগে 'the': the moon।" },
+    { "type": "fill_in_open", "q": "Cow gives us milk. ___ cow is a useful animal.", "a": ["The"], "rule_bn": "সমগ্র জাতি বোঝাতে singular common noun-এর আগে 'The'।" },
+    { "type": "fill_in_open", "q": "He is ___ honourable man.", "a": ["an"], "rule_bn": "Honourable-এ 'h' নীরব, তাই 'an'।" },
+    { "type": "fill_in_open", "q": "She plays ___ piano well.", "a": ["the"], "rule_bn": "বাদ্যযন্ত্রের নামের আগে 'the': the piano।" },
+    { "type": "fill_in_open", "q": "___ rich should help the poor.", "a": ["The"], "rule_bn": "Adjective-কে noun বানাতে আগে 'the': the rich।" },
+    { "type": "fill_in_open", "q": "He goes to school by ___ bus. (write x if none)", "a": ["x", "X"], "fuzzy": 0, "rule_bn": "'by bus/car/train'-এ article বসে না।" }
+  ]
+}
