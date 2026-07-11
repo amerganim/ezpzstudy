@@ -1,0 +1,18 @@
+{
+  "topic": "p2_synonym_antonym",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+  "items": [
+    { "type": "mcq", "q": "Synonym of 'big' is ___.", "opts": ["small", "large", "thin", "short"], "correct": 1, "rule_bn": "'big' = 'large' (বড়)।" },
+    { "type": "mcq", "q": "Synonym of 'happy' is ___.", "opts": ["sad", "glad", "angry", "tired"], "correct": 1, "rule_bn": "'happy' = 'glad' (খুশি)।" },
+    { "type": "mcq", "q": "Synonym of 'begin' is ___.", "opts": ["end", "start", "stop", "close"], "correct": 1, "rule_bn": "'begin' = 'start' (শুরু)।" },
+    { "type": "mcq", "q": "Antonym of 'day' is ___.", "opts": ["morning", "night", "noon", "week"], "correct": 1, "rule_bn": "'day' (দিন) × 'night' (রাত)।" },
+    { "type": "mcq", "q": "Antonym of 'good' is ___.", "opts": ["nice", "fine", "bad", "great"], "correct": 2, "rule_bn": "'good' (ভালো) × 'bad' (খারাপ)।" },
+    { "type": "mcq", "q": "Antonym of 'open' is ___.", "opts": ["shut", "wide", "big", "clear"], "correct": 0, "rule_bn": "'open' (খোলা) × 'shut/close' (বন্ধ)।" },
+    { "type": "mcq", "q": "Synonym of 'fast' is ___.", "opts": ["slow", "quick", "late", "easy"], "correct": 1, "rule_bn": "'fast' = 'quick' (দ্রুত)।" },
+    { "type": "mcq", "q": "Antonym of 'rich' is ___.", "opts": ["wealthy", "poor", "kind", "strong"], "correct": 1, "rule_bn": "'rich' (ধনী) × 'poor' (গরিব)।" }
+  ]
+}

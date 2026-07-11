@@ -1,0 +1,18 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+  "items": [
+    { "type": "fill_in_open", "q": "The pen is ___ the bag.", "a": ["in"], "rule_bn": "ভেতরে বোঝাতে 'in' বসে।" },
+    { "type": "fill_in_open", "q": "The cat is ___ the roof.", "a": ["on"], "rule_bn": "উপরিভাগে বোঝাতে 'on' বসে।" },
+    { "type": "fill_in_open", "q": "He goes to school ___ 8 am.", "a": ["at"], "rule_bn": "নির্দিষ্ট সময়ে 'at' বসে।" },
+    { "type": "fill_in_open", "q": "I was born ___ January.", "a": ["in"], "rule_bn": "মাসের আগে 'in' বসে।" },
+    { "type": "fill_in_open", "q": "We play ___ Friday.", "a": ["on"], "rule_bn": "দিনের নামের আগে 'on' বসে।" },
+    { "type": "fill_in_open", "q": "She is afraid ___ dogs.", "a": ["of"], "rule_bn": "'afraid of' বসে।" },
+    { "type": "fill_in_open", "q": "He is good ___ football.", "a": ["at"], "rule_bn": "দক্ষতা বোঝাতে 'good at' বসে।" },
+    { "type": "fill_in_open", "q": "Listen ___ the teacher.", "a": ["to"], "rule_bn": "'listen'-এর পরে 'to' বসে।" }
+  ]
+}

@@ -27,6 +27,14 @@ class Bn {
       'ইংরেজির ভিত্তি — দুর্বল হলে এখান থেকে শুরু করো';
   static const hscSectionTitle = 'HSC অনুশীলন';
   static const hscSectionSub = '1st ও 2nd Paper সিলেবাস অনুযায়ী';
+  // Difficulty level chooser
+  static const chooseLevel = 'কোন লেভেলে অনুশীলন করবে?';
+  static const levelEasy = 'সহজ';
+  static const levelMedium = 'মাঝারি';
+  static const levelHard = 'কঠিন';
+  static const levelAll = 'সব লেভেল একসাথে';
+  static const levelEasyHint = 'শুরু করার জন্য ভালো';
+  static const noQuestionsAtLevel = 'এই লেভেলে এখনো প্রশ্ন নেই';
 
   // Session
   static const questionOf = 'প্রশ্ন'; // "প্রশ্ন ৩ / ১০"

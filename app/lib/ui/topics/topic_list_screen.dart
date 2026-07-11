@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 import '../../app_services.dart';
+import '../../data/models/question.dart';
 import '../../data/models/topic_map.dart';
 import '../../data/question_repository.dart';
 import '../../l10n/strings_bn.dart';
 import '../../l10n/topic_labels.dart';
 import '../../theme/app_theme.dart';
 import '../session/session_screen.dart';
+import 'level_sheet.dart';
 
 /// Lists practiceable topics, split into two sections: Basics (Pass-first
 /// foundations) and HSC Practice (full syllabus). The split is driven by each
@@ -41,9 +43,23 @@ class _TopicListScreenState extends State<TopicListScreen> {
     return _GroupedTopics(basics: basics, hsc: hsc, map: map);
   }
 
-  Future<void> _startSession(String topic) async {
+  /// Opens the level chooser; the picked level (or "all") starts the session.
+  Future<void> _chooseLevel(String topic, String label) async {
+    final counts = await AppServices.of(context).questions.difficultyCounts(topic);
+    if (!mounted) return;
+    final choice = await showModalBottomSheet<LevelChoice>(
+      context: context,
+      showDragHandle: true,
+      builder: (_) => LevelSheet(topicLabel: label, counts: counts),
+    );
+    if (choice == null || !mounted) return; // dismissed
+    await _startSession(topic, choice.difficulty);
+  }
+
+  Future<void> _startSession(String topic, Difficulty? difficulty) async {
     final services = AppServices.of(context);
-    final set = await services.questions.practiceSet(topic);
+    final set = await services.questions
+        .practiceSet(topic, difficulty: difficulty);
     if (set.isEmpty || !mounted) return;
     await services.progress.startSession();
     if (!mounted) return;
@@ -81,7 +97,7 @@ class _TopicListScreenState extends State<TopicListScreen> {
                   _TopicCard(
                     summary: t,
                     label: _label(data.map, t.topic),
-                    onTap: () => _startSession(t.topic),
+                    onTap: () => _chooseLevel(t.topic, _label(data.map, t.topic)),
                   ),
               ],
               if (data.hsc.isNotEmpty) ...[
@@ -96,7 +112,7 @@ class _TopicListScreenState extends State<TopicListScreen> {
                     summary: t,
                     label: _label(data.map, t.topic),
                     marks: data.map.byId(t.topic)?.weight,
-                    onTap: () => _startSession(t.topic),
+                    onTap: () => _chooseLevel(t.topic, _label(data.map, t.topic)),
                   ),
               ],
             ],

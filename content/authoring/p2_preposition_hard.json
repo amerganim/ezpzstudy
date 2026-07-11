@@ -1,0 +1,18 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He was taken ___ task for his negligence.", "a": ["to"], "rule_bn": "'take to task' — তিরস্কার করা (idiom)।" },
+    { "type": "fill_in_open", "q": "The plan fell ___ for lack of money.", "a": ["through"], "rule_bn": "'fall through' — ব্যর্থ হওয়া।" },
+    { "type": "fill_in_open", "q": "He is well versed ___ mathematics.", "a": ["in"], "rule_bn": "'versed in' — পারদর্শী বোঝায়।" },
+    { "type": "fill_in_open", "q": "She takes ___ her mother in looks.", "a": ["after"], "rule_bn": "'take after' — সদৃশ হওয়া।" },
+    { "type": "fill_in_open", "q": "The meeting was put ___ till Monday.", "a": ["off"], "rule_bn": "'put off' — স্থগিত করা।" },
+    { "type": "fill_in_open", "q": "He is conversant ___ the facts.", "a": ["with"], "rule_bn": "'conversant with' — অবগত বোঝায়।" },
+    { "type": "fill_in_open", "q": "I cannot put up ___ his rudeness.", "a": ["with"], "rule_bn": "'put up with' — সহ্য করা।" },
+    { "type": "fill_in_open", "q": "The teacher explained the matter ___ detail.", "a": ["in"], "rule_bn": "'in detail' — বিশদভাবে (idiomatic)।" }
+  ]
+}

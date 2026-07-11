@@ -337,6 +337,175 @@
     }
   },
   {
+    "id": "b.fill_in_open.basics_articles-m001",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "European-এর উচ্চারণ 'ইউ' (ব্যঞ্জন), তাই 'a'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is ___ European by birth.",
+      "accepted_answers": [
+        "a"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m002",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "unique-এর উচ্চারণ 'ইউ' (ব্যঞ্জন), তাই 'a'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It was ___ unique experience.",
+      "accepted_answers": [
+        "a"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m003",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "পর্বতমালার নামের আগে 'the' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ Himalayas are in the north.",
+      "accepted_answers": [
+        "The"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m004",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "Superlative-এর আগে 'the'; honest নয় most-এর আগে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is ___ most honest man in the village.",
+      "accepted_answers": [
+        "the"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m005",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "নির্দিষ্ট ধর্মগ্রন্থের আগে 'the' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She reads ___ Quran every morning.",
+      "accepted_answers": [
+        "the"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m006",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "প্রথমবার উল্লেখ, valuable ব্যঞ্জন দিয়ে শুরু, তাই 'a'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Gold is ___ valuable metal.",
+      "accepted_answers": [
+        "a"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m007",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "'The more ... the more' গঠনে 'the' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The more you read, ___ more you learn.",
+      "accepted_answers": [
+        "the"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_articles-m008",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_articles",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+    "explanation_bn": "খেলায় article নেই; বাদ্যযন্ত্রের আগে 'the'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He plays ___ football but plays ___ violin. (write both, space-separated: x the)",
+      "accepted_answers": [
+        "x the",
+        "the"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "b.fill_in_open.basics_prepositions-001",
     "type": "fill_in_open",
     "paper": "both",
@@ -1028,6 +1197,180 @@
       "sentence_en": "Bread and butter ___ my favourite food. (be)",
       "accepted_answers": [
         "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m001",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "'Neither of' singular, তাই is/was।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Neither of the answers ___ correct. (be)",
+      "accepted_answers": [
+        "is",
+        "was"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m002",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "Collective noun ভিন্ন মত বোঝালে plural: are/were।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The jury ___ divided in their opinion. (be)",
+      "accepted_answers": [
+        "are",
+        "were"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m003",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "Physics দেখতে plural, অর্থে singular: is।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Physics ___ my favourite subject. (be)",
+      "accepted_answers": [
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m004",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "সময়/পরিমাণ একক ধরা হয়: is/was।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Ten years ___ a long time. (be)",
+      "accepted_answers": [
+        "is",
+        "was"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m005",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "'Each ... and each'-এর সাথে singular verb: gets।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Each boy and each girl ___ a prize. (get)",
+      "accepted_answers": [
+        "gets"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m006",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "'The number of' singular: is/was।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The number of cars ___ increasing. (be)",
+      "accepted_answers": [
+        "is",
+        "was"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m007",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "'A number of' plural: are/were।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A number of students ___ absent. (be)",
+      "accepted_answers": [
+        "are",
+        "were"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.basics_subject_verb-m008",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "basics_subject_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+    "explanation_bn": "'not only...but also'-এ কাছের subject (the teacher=singular): is/was।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Not only the students but also the teacher ___ present. (be)",
+      "accepted_answers": [
+        "is",
+        "was"
       ],
       "fuzzy_tolerance": 0,
       "case_sensitive": false
@@ -1791,6 +2134,176 @@
         "shall have completed"
       ],
       "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h001",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "অতীতে আগের কাজ Past Perfect: had left।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "By the time we arrived, the train ___ already ___. (leave)",
+      "accepted_answers": [
+        "had left",
+        "had already left"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h002",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "reported speech-এ past-এর আগের অবস্থা Past Perfect: had been।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He said that he ___ ill for three days. (be)",
+      "accepted_answers": [
+        "had been"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h003",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "ভবিষ্যতে নির্দিষ্ট সময় পর্যন্ত চলমান: Future Perfect Continuous।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I ___ here for five years by next June. (live)",
+      "accepted_answers": [
+        "will have been living",
+        "shall have been living"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h004",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "অতীতে চলমান কাজ + হঠাৎ ঘটনা: Past Continuous।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She ___ TV when the phone rang. (watch)",
+      "accepted_answers": [
+        "was watching"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h005",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "'since morning' এখনো চলছে: Present Perfect Continuous।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It ___ since this morning. (rain)",
+      "accepted_answers": [
+        "has been raining"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h006",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "'After' + আগের কাজ Past Perfect: had finished।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "After he ___ his work, he went out. (finish)",
+      "accepted_answers": [
+        "had finished"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h007",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "অতীতে একটি সময় পর্যন্ত চলমান: Past Perfect Continuous।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "They ___ for two hours before we reached. (wait)",
+      "accepted_answers": [
+        "had been waiting"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "b.fill_in_open.tense-h008",
+    "type": "fill_in_open",
+    "paper": "both",
+    "topic": "tense",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+    "explanation_bn": "'Look' = এই মুহূর্ত: Present Continuous।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Look! It ___. Take an umbrella. (rain)",
+      "accepted_answers": [
+        "is raining"
+      ],
+      "fuzzy_tolerance": 1,
       "case_sensitive": false
     }
   },
@@ -8009,6 +8522,342 @@
     }
   },
   {
+    "id": "p2.fill_in_open.p2_preposition-e001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "ভেতরে বোঝাতে 'in' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The pen is ___ the bag.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "উপরিভাগে বোঝাতে 'on' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The cat is ___ the roof.",
+      "accepted_answers": [
+        "on"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "নির্দিষ্ট সময়ে 'at' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He goes to school ___ 8 am.",
+      "accepted_answers": [
+        "at"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "মাসের আগে 'in' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I was born ___ January.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "দিনের নামের আগে 'on' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We play ___ Friday.",
+      "accepted_answers": [
+        "on"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "'afraid of' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She is afraid ___ dogs.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "দক্ষতা বোঝাতে 'good at' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is good ___ football.",
+      "accepted_answers": [
+        "at"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-e008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (সহজ)।",
+    "explanation_bn": "'listen'-এর পরে 'to' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Listen ___ the teacher.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'take to task' — তিরস্কার করা (idiom)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He was taken ___ task for his negligence.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'fall through' — ব্যর্থ হওয়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The plan fell ___ for lack of money.",
+      "accepted_answers": [
+        "through"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'versed in' — পারদর্শী বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is well versed ___ mathematics.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'take after' — সদৃশ হওয়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She takes ___ her mother in looks.",
+      "accepted_answers": [
+        "after"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'put off' — স্থগিত করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The meeting was put ___ till Monday.",
+      "accepted_answers": [
+        "off"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'conversant with' — অবগত বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is conversant ___ the facts.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'put up with' — সহ্য করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I cannot put up ___ his rudeness.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-h008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (কঠিন)।",
+    "explanation_bn": "'in detail' — বিশদভাবে (idiomatic)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The teacher explained the matter ___ detail.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_open.p2_right_form_verb-001",
     "type": "fill_in_open",
     "paper": "2nd",
@@ -8468,6 +9317,174 @@
       "accepted_answers": [
         "is",
         "was"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "He/She/It + Present Indefinite-এ 's': goes।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She ___ to school every day. (go)",
+      "accepted_answers": [
+        "goes"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "Plural subject-এর সাথে 'are'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "They ___ playing now. (be)",
+      "accepted_answers": [
+        "are"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "অতীত কাজ, eat-এর past 'ate'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I ___ my lunch an hour ago. (eat)",
+      "accepted_answers": [
+        "ate"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "'yesterday' = past, write→wrote।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He ___ a letter yesterday. (write)",
+      "accepted_answers": [
+        "wrote"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "সাধারণ সত্য Present Indefinite: boils।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Water ___ at 100°C. (boil)",
+      "accepted_answers": [
+        "boils"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "'now' = Present Continuous: is sleeping।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The baby ___ now. (sleep)",
+      "accepted_answers": [
+        "is sleeping"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "'already' = Present Perfect: have finished।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We ___ our homework already. (finish)",
+      "accepted_answers": [
+        "have finished"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-e008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+    "explanation_bn": "Singular subject-এর সাথে 'is'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She ___ a good student. (be)",
+      "accepted_answers": [
+        "is"
       ],
       "fuzzy_tolerance": 0,
       "case_sensitive": false
@@ -9302,6 +10319,230 @@
     }
   },
   {
+    "id": "p2.fill_in_word_bank.p2_connectors-e001",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "ফলাফল বোঝাতে 'so' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I was tired, {{1}} I went to bed.",
+      "word_bank": [
+        "so",
+        "but",
+        "because",
+        "or"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "so"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e002",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "বিপরীত ভাব যোগ করতে 'but' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She is poor {{1}} honest.",
+      "word_bank": [
+        "so",
+        "but",
+        "because",
+        "or"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "but"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e003",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "কারণ বোঝাতে 'because' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He was absent {{1}} he was ill.",
+      "word_bank": [
+        "so",
+        "but",
+        "because",
+        "and"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "because"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e004",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "দুটি যোগ করতে 'and' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Rina {{1}} Mina are friends.",
+      "word_bank": [
+        "and",
+        "but",
+        "so",
+        "or"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "and"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e005",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "বিকল্প বোঝাতে 'or' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Do you want tea {{1}} coffee?",
+      "word_bank": [
+        "and",
+        "but",
+        "or",
+        "so"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "or"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e006",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "ফলাফল বোঝাতে 'so' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It was raining, {{1}} we stayed home.",
+      "word_bank": [
+        "so",
+        "but",
+        "or",
+        "because"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "so"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e007",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "বিপরীত বোঝাতে 'but' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is small {{1}} strong.",
+      "word_bank": [
+        "so",
+        "but",
+        "because",
+        "and"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "but"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-e008",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (সহজ)।",
+    "explanation_bn": "শর্তসাপেক্ষ ভালো ফল: 'and'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Study hard {{1}} you will pass.",
+      "word_bank": [
+        "but",
+        "and",
+        "or",
+        "because"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "and"
+        }
+      ]
+    }
+  },
+  {
     "id": "p2.fill_in_word_bank.p2_modifier-001",
     "type": "fill_in_word_bank",
     "paper": "2nd",
@@ -9956,6 +11197,138 @@
       "original_sentence_en": "He said, \"Man is mortal.\"",
       "accepted_answers": [
         "He said that man is mortal."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-e001",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+    "explanation_bn": "am→was, I→he; say + that।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said, \"I am happy.\"",
+      "accepted_answers": [
+        "He said that he was happy."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-e002",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+    "explanation_bn": "like→liked, I→she।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "She said, \"I like tea.\"",
+      "accepted_answers": [
+        "She said that she liked tea."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-e003",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+    "explanation_bn": "can→could, I→he।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said, \"I can swim.\"",
+      "accepted_answers": [
+        "He said that he could swim."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-e004",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+    "explanation_bn": "are→were, we→they।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "They said, \"We are tired.\"",
+      "accepted_answers": [
+        "They said that they were tired."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-e005",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+    "explanation_bn": "will→would, I→she।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "She said, \"I will come.\"",
+      "accepted_answers": [
+        "She said that she would come."
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-e006",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+    "explanation_bn": "have→had, I→he।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said, \"I have a pen.\"",
+      "accepted_answers": [
+        "He said that he had a pen."
       ],
       "fuzzy_tolerance": 2,
       "case_sensitive": false
@@ -11391,6 +12764,286 @@
         {
           "key": "D",
           "text_en": "polite"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e001",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'big' = 'large' (বড়)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'big' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "small"
+        },
+        {
+          "key": "B",
+          "text_en": "large"
+        },
+        {
+          "key": "C",
+          "text_en": "thin"
+        },
+        {
+          "key": "D",
+          "text_en": "short"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e002",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'happy' = 'glad' (খুশি)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'happy' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "sad"
+        },
+        {
+          "key": "B",
+          "text_en": "glad"
+        },
+        {
+          "key": "C",
+          "text_en": "angry"
+        },
+        {
+          "key": "D",
+          "text_en": "tired"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e003",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'begin' = 'start' (শুরু)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'begin' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "end"
+        },
+        {
+          "key": "B",
+          "text_en": "start"
+        },
+        {
+          "key": "C",
+          "text_en": "stop"
+        },
+        {
+          "key": "D",
+          "text_en": "close"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e004",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'day' (দিন) × 'night' (রাত)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'day' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "morning"
+        },
+        {
+          "key": "B",
+          "text_en": "night"
+        },
+        {
+          "key": "C",
+          "text_en": "noon"
+        },
+        {
+          "key": "D",
+          "text_en": "week"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e005",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'good' (ভালো) × 'bad' (খারাপ)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'good' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "nice"
+        },
+        {
+          "key": "B",
+          "text_en": "fine"
+        },
+        {
+          "key": "C",
+          "text_en": "bad"
+        },
+        {
+          "key": "D",
+          "text_en": "great"
+        }
+      ],
+      "correct_option": "C"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e006",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'open' (খোলা) × 'shut/close' (বন্ধ)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'open' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "shut"
+        },
+        {
+          "key": "B",
+          "text_en": "wide"
+        },
+        {
+          "key": "C",
+          "text_en": "big"
+        },
+        {
+          "key": "D",
+          "text_en": "clear"
+        }
+      ],
+      "correct_option": "A"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e007",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'fast' = 'quick' (দ্রুত)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'fast' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "slow"
+        },
+        {
+          "key": "B",
+          "text_en": "quick"
+        },
+        {
+          "key": "C",
+          "text_en": "late"
+        },
+        {
+          "key": "D",
+          "text_en": "easy"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-e008",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (সহজ)।",
+    "explanation_bn": "'rich' (ধনী) × 'poor' (গরিব)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'rich' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "wealthy"
+        },
+        {
+          "key": "B",
+          "text_en": "poor"
+        },
+        {
+          "key": "C",
+          "text_en": "kind"
+        },
+        {
+          "key": "D",
+          "text_en": "strong"
         }
       ],
       "correct_option": "B"

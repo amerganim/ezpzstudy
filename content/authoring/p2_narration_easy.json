@@ -1,0 +1,16 @@
+{
+  "topic": "p2_narration",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (সহজ)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "He said, \"I am happy.\"", "a": ["He said that he was happy."], "transform": "narration", "fuzzy": 2, "rule_bn": "am→was, I→he; say + that।" },
+    { "type": "grammar_transformation", "original": "She said, \"I like tea.\"", "a": ["She said that she liked tea."], "transform": "narration", "fuzzy": 2, "rule_bn": "like→liked, I→she।" },
+    { "type": "grammar_transformation", "original": "He said, \"I can swim.\"", "a": ["He said that he could swim."], "transform": "narration", "fuzzy": 2, "rule_bn": "can→could, I→he।" },
+    { "type": "grammar_transformation", "original": "They said, \"We are tired.\"", "a": ["They said that they were tired."], "transform": "narration", "fuzzy": 2, "rule_bn": "are→were, we→they।" },
+    { "type": "grammar_transformation", "original": "She said, \"I will come.\"", "a": ["She said that she would come."], "transform": "narration", "fuzzy": 2, "rule_bn": "will→would, I→she।" },
+    { "type": "grammar_transformation", "original": "He said, \"I have a pen.\"", "a": ["He said that he had a pen."], "transform": "narration", "fuzzy": 2, "rule_bn": "have→had, I→he।" }
+  ]
+}

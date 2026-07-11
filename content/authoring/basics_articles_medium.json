@@ -1,0 +1,18 @@
+{
+  "topic": "basics_articles",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক article বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "He is ___ European by birth.", "a": ["a"], "rule_bn": "European-এর উচ্চারণ 'ইউ' (ব্যঞ্জন), তাই 'a'।" },
+    { "type": "fill_in_open", "q": "It was ___ unique experience.", "a": ["a"], "rule_bn": "unique-এর উচ্চারণ 'ইউ' (ব্যঞ্জন), তাই 'a'।" },
+    { "type": "fill_in_open", "q": "___ Himalayas are in the north.", "a": ["The"], "rule_bn": "পর্বতমালার নামের আগে 'the' বসে।" },
+    { "type": "fill_in_open", "q": "He is ___ most honest man in the village.", "a": ["the"], "rule_bn": "Superlative-এর আগে 'the'; honest নয় most-এর আগে।" },
+    { "type": "fill_in_open", "q": "She reads ___ Quran every morning.", "a": ["the"], "rule_bn": "নির্দিষ্ট ধর্মগ্রন্থের আগে 'the' বসে।" },
+    { "type": "fill_in_open", "q": "Gold is ___ valuable metal.", "a": ["a"], "rule_bn": "প্রথমবার উল্লেখ, valuable ব্যঞ্জন দিয়ে শুরু, তাই 'a'।" },
+    { "type": "fill_in_open", "q": "The more you read, ___ more you learn.", "a": ["the"], "rule_bn": "'The more ... the more' গঠনে 'the' বসে।" },
+    { "type": "fill_in_open", "q": "He plays ___ football but plays ___ violin. (write both, space-separated: x the)", "a": ["x the", "the"], "fuzzy": 1, "rule_bn": "খেলায় article নেই; বাদ্যযন্ত্রের আগে 'the'।" }
+  ]
+}

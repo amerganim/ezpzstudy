@@ -64,12 +64,36 @@ class QuestionRepository {
   }
 
   /// Builds a practice set for a topic: up to [limit] non-flashcard questions,
-  /// shuffled so repeated sessions vary.
-  Future<List<Question>> practiceSet(String topic, {int limit = 10}) async {
+  /// shuffled so repeated sessions vary. If [difficulty] is given, only
+  /// questions at that level are used — letting a weak student start easy and
+  /// build up within the same topic.
+  Future<List<Question>> practiceSet(
+    String topic, {
+    int limit = 10,
+    Difficulty? difficulty,
+  }) async {
     final all = await forTopic(topic);
-    final practiceable =
-        all.where((q) => q.type != QuestionType.flashcard).toList()..shuffle();
+    final practiceable = all
+        .where((q) => q.type != QuestionType.flashcard)
+        .where((q) => difficulty == null || q.difficulty == difficulty)
+        .toList()
+      ..shuffle();
     return practiceable.take(limit).toList();
+  }
+
+  /// How many practiceable questions a topic has at each difficulty level.
+  Future<Map<Difficulty, int>> difficultyCounts(String topic) async {
+    final all = await forTopic(topic);
+    final counts = <Difficulty, int>{
+      Difficulty.easy: 0,
+      Difficulty.medium: 0,
+      Difficulty.hard: 0,
+    };
+    for (final q in all) {
+      if (q.type == QuestionType.flashcard) continue;
+      counts[q.difficulty] = (counts[q.difficulty] ?? 0) + 1;
+    }
+    return counts;
   }
 
   /// Auto-gradable types the diagnostic can measure accuracy from (excludes

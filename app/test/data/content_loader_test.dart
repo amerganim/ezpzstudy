@@ -13,7 +13,7 @@ import 'package:ezpzstudy/data/models/question_data.dart';
 /// rootBundle, which isn't available in a plain unit test) to prove the row
 /// round-trip and model rehydration work against actual shipped content.
 Future<void> loadPackFromFile(AppDatabase db) async {
-  final packFile = File('assets/content/content_pack_v5.json');
+  final packFile = File('assets/content/content_pack_v6.json');
   final pack = json.decode(await packFile.readAsString()) as List<dynamic>;
   await db.batch((batch) {
     for (final entry in pack) {
@@ -91,5 +91,22 @@ void main() {
     final data = mcqs.first.data as McqData;
     expect(data.options, isNotEmpty);
     expect(data.correctOption, isNotEmpty);
+  });
+
+  test('difficulty counts and filtering work within a topic', () async {
+    await loadPackFromFile(db);
+    // A topic authored across levels: tense has easy + medium items.
+    final counts = await repo.difficultyCounts('tense');
+    final total =
+        counts.values.fold<int>(0, (a, b) => a + b);
+    expect(total, greaterThan(0));
+
+    // Every filtered question is actually at the requested level.
+    for (final level in Difficulty.values) {
+      if ((counts[level] ?? 0) == 0) continue;
+      final set = await repo.practiceSet('tense', difficulty: level, limit: 100);
+      expect(set, isNotEmpty);
+      expect(set.every((q) => q.difficulty == level), isTrue);
+    }
   });
 }

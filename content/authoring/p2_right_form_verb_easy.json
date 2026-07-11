@@ -1,0 +1,18 @@
+{
+  "topic": "p2_right_form_verb",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (সহজ)।",
+  "items": [
+    { "type": "fill_in_open", "q": "She ___ to school every day. (go)", "a": ["goes"], "rule_bn": "He/She/It + Present Indefinite-এ 's': goes।" },
+    { "type": "fill_in_open", "q": "They ___ playing now. (be)", "a": ["are"], "rule_bn": "Plural subject-এর সাথে 'are'।" },
+    { "type": "fill_in_open", "q": "I ___ my lunch an hour ago. (eat)", "a": ["ate"], "rule_bn": "অতীত কাজ, eat-এর past 'ate'।" },
+    { "type": "fill_in_open", "q": "He ___ a letter yesterday. (write)", "a": ["wrote"], "rule_bn": "'yesterday' = past, write→wrote।" },
+    { "type": "fill_in_open", "q": "Water ___ at 100°C. (boil)", "a": ["boils"], "rule_bn": "সাধারণ সত্য Present Indefinite: boils।" },
+    { "type": "fill_in_open", "q": "The baby ___ now. (sleep)", "a": ["is sleeping"], "fuzzy": 1, "rule_bn": "'now' = Present Continuous: is sleeping।" },
+    { "type": "fill_in_open", "q": "We ___ our homework already. (finish)", "a": ["have finished"], "fuzzy": 1, "rule_bn": "'already' = Present Perfect: have finished।" },
+    { "type": "fill_in_open", "q": "She ___ a good student. (be)", "a": ["is"], "rule_bn": "Singular subject-এর সাথে 'is'।" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "tense",
+  "paper": "both",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক verb-এর রূপটি বসাও (কঠিন)।",
+  "items": [
+    { "type": "fill_in_open", "q": "By the time we arrived, the train ___ already ___. (leave)", "a": ["had left", "had already left"], "fuzzy": 2, "rule_bn": "অতীতে আগের কাজ Past Perfect: had left।" },
+    { "type": "fill_in_open", "q": "He said that he ___ ill for three days. (be)", "a": ["had been"], "fuzzy": 1, "rule_bn": "reported speech-এ past-এর আগের অবস্থা Past Perfect: had been।" },
+    { "type": "fill_in_open", "q": "I ___ here for five years by next June. (live)", "a": ["will have been living", "shall have been living"], "fuzzy": 2, "rule_bn": "ভবিষ্যতে নির্দিষ্ট সময় পর্যন্ত চলমান: Future Perfect Continuous।" },
+    { "type": "fill_in_open", "q": "She ___ TV when the phone rang. (watch)", "a": ["was watching"], "fuzzy": 1, "rule_bn": "অতীতে চলমান কাজ + হঠাৎ ঘটনা: Past Continuous।" },
+    { "type": "fill_in_open", "q": "It ___ since this morning. (rain)", "a": ["has been raining"], "fuzzy": 2, "rule_bn": "'since morning' এখনো চলছে: Present Perfect Continuous।" },
+    { "type": "fill_in_open", "q": "After he ___ his work, he went out. (finish)", "a": ["had finished"], "fuzzy": 1, "rule_bn": "'After' + আগের কাজ Past Perfect: had finished।" },
+    { "type": "fill_in_open", "q": "They ___ for two hours before we reached. (wait)", "a": ["had been waiting"], "fuzzy": 2, "rule_bn": "অতীতে একটি সময় পর্যন্ত চলমান: Past Perfect Continuous।" },
+    { "type": "fill_in_open", "q": "Look! It ___. Take an umbrella. (rain)", "a": ["is raining"], "fuzzy": 1, "rule_bn": "'Look' = এই মুহূর্ত: Present Continuous।" }
+  ]
+}

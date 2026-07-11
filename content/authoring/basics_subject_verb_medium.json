@@ -1,0 +1,18 @@
+{
+  "topic": "basics_subject_verb",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "Subject অনুযায়ী সঠিক verb বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "Neither of the answers ___ correct. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'Neither of' singular, তাই is/was।" },
+    { "type": "fill_in_open", "q": "The jury ___ divided in their opinion. (be)", "a": ["are", "were"], "fuzzy": 0, "rule_bn": "Collective noun ভিন্ন মত বোঝালে plural: are/were।" },
+    { "type": "fill_in_open", "q": "Physics ___ my favourite subject. (be)", "a": ["is"], "rule_bn": "Physics দেখতে plural, অর্থে singular: is।" },
+    { "type": "fill_in_open", "q": "Ten years ___ a long time. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "সময়/পরিমাণ একক ধরা হয়: is/was।" },
+    { "type": "fill_in_open", "q": "Each boy and each girl ___ a prize. (get)", "a": ["gets"], "rule_bn": "'Each ... and each'-এর সাথে singular verb: gets।" },
+    { "type": "fill_in_open", "q": "The number of cars ___ increasing. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'The number of' singular: is/was।" },
+    { "type": "fill_in_open", "q": "A number of students ___ absent. (be)", "a": ["are", "were"], "fuzzy": 0, "rule_bn": "'A number of' plural: are/were।" },
+    { "type": "fill_in_open", "q": "Not only the students but also the teacher ___ present. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'not only...but also'-এ কাছের subject (the teacher=singular): is/was।" }
+  ]
+}
