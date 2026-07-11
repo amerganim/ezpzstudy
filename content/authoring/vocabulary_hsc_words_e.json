@@ -1,0 +1,26 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "e",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "adverse", "back_bn": "প্রতিকূল", "example": "He faced adverse conditions bravely.", "pos": "adjective", "syn": "unfavourable", "ant": "favourable" },
+    { "type": "flashcard", "front": "boost", "back_bn": "বৃদ্ধি করা", "example": "Good results boost confidence.", "pos": "verb", "syn": "increase", "ant": "reduce" },
+    { "type": "flashcard", "front": "conceal", "back_bn": "লুকানো", "example": "He tried to conceal the truth.", "pos": "verb", "syn": "hide", "ant": "reveal" },
+    { "type": "flashcard", "front": "durable", "back_bn": "টেকসই", "example": "This bag is strong and durable.", "pos": "adjective", "syn": "long-lasting", "ant": "fragile" },
+    { "type": "flashcard", "front": "encourage", "back_bn": "উৎসাহিত করা", "example": "Teachers encourage weak students.", "pos": "verb", "syn": "inspire", "ant": "discourage" },
+    { "type": "flashcard", "front": "fatal", "back_bn": "মারাত্মক", "example": "The accident was fatal.", "pos": "adjective", "syn": "deadly", "ant": "harmless" },
+    { "type": "flashcard", "front": "gradual", "back_bn": "ক্রমশ", "example": "There was a gradual improvement.", "pos": "adjective", "syn": "slow", "ant": "sudden" },
+    { "type": "flashcard", "front": "humble", "back_bn": "বিনয়ী", "example": "He is humble despite his success.", "pos": "adjective", "syn": "modest", "ant": "proud" },
+    { "type": "flashcard", "front": "innocent", "back_bn": "নিরপরাধ", "example": "The court found him innocent.", "pos": "adjective", "syn": "guiltless", "ant": "guilty" },
+    { "type": "flashcard", "front": "jubilant", "back_bn": "উল্লসিত", "example": "The team was jubilant after the win.", "pos": "adjective", "syn": "joyful", "ant": "sad" },
+    { "type": "flashcard", "front": "lofty", "back_bn": "উঁচু, মহৎ", "example": "He has lofty ideals.", "pos": "adjective", "syn": "noble", "ant": "low" },
+    { "type": "flashcard", "front": "monotonous", "back_bn": "একঘেয়ে", "example": "The work became monotonous.", "pos": "adjective", "syn": "boring", "ant": "interesting" },
+    { "type": "flashcard", "front": "novice", "back_bn": "নবীন, শিক্ষানবিশ", "example": "He is a novice in painting.", "pos": "noun", "syn": "beginner", "ant": "expert" },
+    { "type": "flashcard", "front": "optimistic", "back_bn": "আশাবাদী", "example": "Be optimistic about the future.", "pos": "adjective", "syn": "hopeful", "ant": "pessimistic" },
+    { "type": "flashcard", "front": "prudent", "back_bn": "বিচক্ষণ", "example": "A prudent man saves money.", "pos": "adjective", "syn": "wise", "ant": "foolish" },
+    { "type": "flashcard", "front": "rapid", "back_bn": "দ্রুত", "example": "There has been rapid progress.", "pos": "adjective", "syn": "fast", "ant": "slow" }
+  ]
+}

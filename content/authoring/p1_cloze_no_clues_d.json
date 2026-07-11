@@ -1,0 +1,18 @@
+{
+  "topic": "p1_cloze_no_clues",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Time and tide wait ___ none.", "a": ["for"], "rule_bn": "প্রবাদ: Time and tide wait for none।" },
+    { "type": "fill_in_open", "q": "A friend in need is a friend ___.", "a": ["indeed"], "rule_bn": "প্রবাদ: A friend in need is a friend indeed।" },
+    { "type": "fill_in_open", "q": "We should always speak the ___.", "a": ["truth"], "rule_bn": "প্রসঙ্গ: সত্য বলা উচিত।" },
+    { "type": "fill_in_open", "q": "United we stand, ___ we fall.", "a": ["divided"], "rule_bn": "প্রবাদ: United we stand, divided we fall।" },
+    { "type": "fill_in_open", "q": "He who reads much knows ___.", "a": ["much", "more"], "fuzzy": 0, "rule_bn": "প্রসঙ্গ: বেশি পড়লে বেশি জানে।" },
+    { "type": "fill_in_open", "q": "Cleanliness is next ___ godliness.", "a": ["to"], "rule_bn": "প্রবাদ: Cleanliness is next to godliness।" },
+    { "type": "fill_in_open", "q": "Where there is a will, there is a ___.", "a": ["way"], "rule_bn": "প্রবাদ: Where there is a will, there is a way।" },
+    { "type": "fill_in_open", "q": "We should not depend ___ others for everything.", "a": ["on", "upon"], "fuzzy": 0, "rule_bn": "'depend on/upon'।" }
+  ]
+}

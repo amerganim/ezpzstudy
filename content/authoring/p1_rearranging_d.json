@@ -1,0 +1,14 @@
+{
+  "topic": "p1_rearranging",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+  "items": [
+    { "type": "rearranging", "sentences": ["An ant was drinking water at a river.", "Suddenly it fell into the water.", "A dove saw the ant and dropped a leaf.", "The ant climbed onto the leaf and saved its life.", "Later, the ant saved the dove from a hunter."], "rule_bn": "উপকারের বিনিময়ে উপকার — কার্যকারণ ক্রম।" },
+    { "type": "rearranging", "sentences": ["Labour is essential for success in life.", "No one can prosper without hard work.", "The idle waste their time and suffer.", "But the industrious always shine in life.", "So, we should be industrious."], "rule_bn": "সাধারণ বক্তব্য → ব্যাখ্যা → তুলনা → করণীয়।" },
+    { "type": "rearranging", "sentences": ["A wise crow was very thirsty.", "It searched for water everywhere.", "At last it found a jug with a little water.", "It dropped pebbles to raise the water.", "Then it drank the water and flew away."], "rule_bn": "থার্স্টি ক্রো গল্পের ক্রম।" },
+    { "type": "rearranging", "sentences": ["Mother Teresa was a great humanitarian.", "She was born in 1910.", "She devoted her life to serving the poor and the sick.", "She founded the Missionaries of Charity.", "She won the Nobel Peace Prize in 1979."], "rule_bn": "জীবনী: পরিচয় → জন্ম → কাজ → প্রতিষ্ঠা → স্বীকৃতি।" }
+  ]
+}

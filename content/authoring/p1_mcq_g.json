@@ -1,0 +1,32 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "g",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Patriotism is a noble virtue. It means love for one's own country. A patriot loves his country and its people. He is always ready to sacrifice his life and comfort for the welfare of his motherland. History tells us about many great patriots who laid down their lives for their country. A true patriot never does anything harmful to his country. He obeys the law, pays taxes and works honestly. But patriotism does not mean hating other countries. A real patriot respects other nations too. Every citizen should be a patriot at heart.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What does patriotism mean?", "a": ["love for one's own country", "love for country", "love for one's country"], "fuzzy": 3, "rule_bn": "'It means love for one's own country'।" },
+        { "type": "mcq", "q": "What is a patriot ready to sacrifice?", "opts": ["his money only", "his life and comfort", "nothing", "his friends"], "correct": 1, "rule_bn": "'ready to sacrifice his life and comfort'।" },
+        { "type": "mcq", "q": "Does patriotism mean hating other countries?", "opts": ["yes", "no", "sometimes", "always"], "correct": 1, "rule_bn": "'patriotism does not mean hating other countries'।" },
+        { "type": "fill_in_open", "q": "A patriot obeys the law and pays ___.", "a": ["taxes"], "rule_bn": "'obeys the law, pays taxes'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Good manners are very important in our social life. A man with good manners is respected everywhere. Good manners mean showing respect to elders and love to juniors. We should say 'please' when we want something and 'thank you' when we receive something. We should not talk loudly or use bad words. We must not disturb others. A well-mannered person always behaves politely with everybody. Good manners cost nothing but win many hearts. So, we should learn good manners from our childhood.",
+      "subs": [
+        { "type": "mcq", "q": "Who is respected everywhere?", "opts": ["a rich man", "a man with good manners", "a strong man", "a clever man"], "correct": 1, "rule_bn": "'A man with good manners is respected everywhere'।" },
+        { "type": "fill_in_open", "q": "What should we say when we want something?", "a": ["please"], "rule_bn": "\"say 'please' when we want something\"।" },
+        { "type": "mcq", "q": "Good manners cost ___.", "opts": ["a lot", "nothing", "much money", "much time"], "correct": 1, "rule_bn": "'Good manners cost nothing'।" },
+        { "type": "fill_in_open", "q": "From when should we learn good manners?", "a": ["from our childhood", "childhood", "from childhood"], "fuzzy": 2, "rule_bn": "'learn good manners from our childhood'।" }
+      ]
+    }
+  ]
+}

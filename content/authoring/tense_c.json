@@ -1,0 +1,18 @@
+{
+  "topic": "tense",
+  "paper": "both",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক verb-এর রূপটি বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "The train ___ before we reached. (arrive)", "a": ["had arrived"], "fuzzy": 1, "rule_bn": "অতীতে আগের কাজ: Past Perfect: had arrived।" },
+    { "type": "fill_in_open", "q": "She ___ English for three years. (learn)", "a": ["has been learning", "has learnt"], "fuzzy": 2, "rule_bn": "চলমান বোঝাতে Present Perfect Continuous।" },
+    { "type": "fill_in_open", "q": "We ___ dinner when the guests came. (have)", "a": ["were having"], "fuzzy": 1, "rule_bn": "অতীতে চলমান: Past Continuous।" },
+    { "type": "fill_in_open", "q": "He ___ the office by 9 am tomorrow. (reach)", "a": ["will reach", "will have reached"], "fuzzy": 2, "rule_bn": "ভবিষ্যৎ: will reach।" },
+    { "type": "fill_in_open", "q": "The birds ___ in the sky now. (fly)", "a": ["are flying"], "fuzzy": 1, "rule_bn": "'now': Present Continuous: are flying।" },
+    { "type": "fill_in_open", "q": "I ___ my grandmother last week. (visit)", "a": ["visited"], "rule_bn": "'last week' = past: visited।" },
+    { "type": "fill_in_open", "q": "He always ___ the truth. (speak)", "a": ["speaks"], "rule_bn": "'always' অভ্যাস + He: speaks।" },
+    { "type": "fill_in_open", "q": "By the time you arrive, I ___ the work. (finish)", "a": ["will have finished"], "fuzzy": 2, "rule_bn": "ভবিষ্যতে নির্দিষ্ট সময়ে শেষ: Future Perfect।" }
+  ]
+}

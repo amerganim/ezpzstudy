@@ -1,0 +1,33 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "e",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Books are our best friends. They are the storehouse of knowledge. A good book is like a good friend that never leaves us. From books we learn about science, history, literature and many other things. Books give us pleasure and teach us how to live a good life. A person who reads books regularly can gain much knowledge and wisdom. Great writers live in their books even after their death. But we should choose good books, because bad books can spoil our mind. So, we should form the habit of reading good books.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What are our best friends?", "a": ["books"], "rule_bn": "'Books are our best friends'।" },
+        { "type": "mcq", "q": "Books are the storehouse of ___.", "opts": ["money", "knowledge", "food", "power"], "correct": 1, "rule_bn": "'They are the storehouse of knowledge'।" },
+        { "type": "fill_in_open", "q": "What can bad books do?", "a": ["spoil our mind", "spoil the mind", "spoil our minds"], "fuzzy": 3, "rule_bn": "'bad books can spoil our mind'।" },
+        { "type": "mcq", "q": "What habit should we form?", "opts": ["reading good books", "wasting time", "playing games", "sleeping late"], "correct": 0, "rule_bn": "'form the habit of reading good books'।" },
+        { "type": "fill_in_open", "q": "Where do great writers live even after death?", "a": ["in their books", "in books", "their books"], "fuzzy": 2, "rule_bn": "'Great writers live in their books even after their death'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Courtesy is a great quality of a good man. It means polite behaviour and gentle manners. A courteous person is kind and helpful to all. He speaks softly and sweetly. He never hurts others by his words or actions. Courtesy wins the hearts of people and makes many friends. A courteous man is loved and respected by everybody. On the other hand, a rude and arrogant man is disliked by all. So, we should be courteous in our behaviour.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What does courtesy mean?", "a": ["polite behaviour", "polite behaviour and gentle manners", "gentle manners"], "fuzzy": 3, "rule_bn": "'It means polite behaviour and gentle manners'।" },
+        { "type": "mcq", "q": "How does a courteous person speak?", "opts": ["loudly", "softly and sweetly", "rudely", "angrily"], "correct": 1, "rule_bn": "'He speaks softly and sweetly'।" },
+        { "type": "mcq", "q": "Who is disliked by all?", "opts": ["a courteous man", "a rude and arrogant man", "a kind man", "a helpful man"], "correct": 1, "rule_bn": "'a rude and arrogant man is disliked by all'।" },
+        { "type": "fill_in_open", "q": "Courtesy wins the ___ of people.", "a": ["hearts", "heart"], "fuzzy": 1, "rule_bn": "'Courtesy wins the hearts of people'।" }
+      ]
+    }
+  ]
+}

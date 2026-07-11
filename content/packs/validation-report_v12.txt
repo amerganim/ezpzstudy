@@ -22,6 +22,7 @@
 ⚠ warning [basics_wh_questions_medium.json row 8] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p1_cloze_no_clues_c.json row 2] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p1_cloze_no_clues_c.json row 6] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p1_cloze_no_clues_d.json row 8] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_completing_sentences.json row 1] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_completing_sentences.json row 2] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_completing_sentences_b.json row 5] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
@@ -33,6 +34,11 @@
 ⚠ warning [p2_narration.json row 9] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_b.json row 1] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_b.json row 2] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_c.json row 1] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_c.json row 2] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_c.json row 3] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_c.json row 6] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_c.json row 7] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_easy.json row 1] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_easy.json row 2] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_easy.json row 3] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
@@ -51,5 +57,7 @@
 ⚠ warning [p2_right_form_verb_easy.json row 7] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_right_form_verb_hard.json row 3] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_special_use_easy.json row 7] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [tense_c.json row 5] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [tense_c.json row 6] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [tense_medium.json row 5] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [tense_medium.json row 7] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste

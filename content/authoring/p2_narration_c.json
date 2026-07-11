@@ -1,0 +1,18 @@
+{
+  "topic": "p2_narration",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যটিকে Indirect Speech-এ রূপান্তর করো (মাঝারি)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "He said, \"I am writing a letter.\"", "a": ["He said that he was writing a letter."], "transform": "narration", "fuzzy": 2, "rule_bn": "am writing→was writing, I→he।" },
+    { "type": "grammar_transformation", "original": "She said to me, \"You have done well.\"", "a": ["She told me that I had done well."], "transform": "narration", "fuzzy": 3, "rule_bn": "said to→told, have done→had done, you→I।" },
+    { "type": "grammar_transformation", "original": "The man said, \"I saw a tiger.\"", "a": ["The man said that he had seen a tiger."], "transform": "narration", "fuzzy": 3, "rule_bn": "saw→had seen, I→he।" },
+    { "type": "grammar_transformation", "original": "He asked me, \"Do you like tea?\"", "a": ["He asked me if I liked tea.", "He asked me whether I liked tea."], "transform": "narration", "fuzzy": 3, "rule_bn": "Yes/No প্রশ্ন: if/whether; do you like→I liked।" },
+    { "type": "grammar_transformation", "original": "The teacher said to us, \"Work hard.\"", "a": ["The teacher advised us to work hard.", "The teacher told us to work hard."], "transform": "narration", "fuzzy": 3, "rule_bn": "উপদেশ/আদেশ: advised/told + to + base verb।" },
+    { "type": "grammar_transformation", "original": "She said, \"How beautiful the flower is!\"", "a": ["She exclaimed with wonder that the flower was very beautiful."], "transform": "narration", "fuzzy": 3, "rule_bn": "Exclamatory: exclaimed with wonder that; how beautiful→very beautiful।" },
+    { "type": "grammar_transformation", "original": "He said, \"I shall come tomorrow.\"", "a": ["He said that he would come the next day.", "He said that he would come the following day."], "transform": "narration", "fuzzy": 3, "rule_bn": "shall→would, tomorrow→the next day।" },
+    { "type": "grammar_transformation", "original": "Father said to me, \"Where are you going?\"", "a": ["Father asked me where I was going."], "transform": "narration", "fuzzy": 3, "rule_bn": "Wh-প্রশ্ন: asked + where; are you going→I was going।" }
+  ]
+}
