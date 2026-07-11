@@ -1,0 +1,18 @@
+{
+  "topic": "p2_special_use",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (কঠিন)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Hardly had he entered the room ___ the light went off. (when/than)", "a": ["when"], "rule_bn": "'Hardly had ... when' একটি জোড়া।" },
+    { "type": "fill_in_open", "q": "He would sooner die ___ surrender. (than)", "a": ["than"], "rule_bn": "'would sooner ... than' — একটির বদলে অন্যটি পছন্দ।" },
+    { "type": "fill_in_open", "q": "It is over a year ___ we last met. (since)", "a": ["since"], "rule_bn": "'It is (time) since' গঠনে 'since' বসে।" },
+    { "type": "fill_in_open", "q": "So sooner had the bell rung ___ the students left. (than)", "a": ["than"], "rule_bn": "'No sooner ... than' — এখানে 'than'।" },
+    { "type": "fill_in_open", "q": "He is too weak ___ walk. (to)", "a": ["to"], "rule_bn": "'too ... to' গঠনে 'to' বসে।" },
+    { "type": "fill_in_open", "q": "I would rather you ___ (go) now. (past form)", "a": ["went"], "rule_bn": "'would rather + subject'-এর পরে past form: went।" },
+    { "type": "fill_in_open", "q": "Provided that he ___ (come), we will start. (present)", "a": ["comes"], "rule_bn": "'Provided that' (শর্তে) present-এ: comes।" },
+    { "type": "fill_in_open", "q": "He talks big as if he ___ (be) a millionaire. (past)", "a": ["were"], "rule_bn": "'as if'-এর পরে অবাস্তব: were।" }
+  ]
+}

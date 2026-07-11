@@ -1,0 +1,18 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter দিয়ে বাক্যটি আবার লেখো (সহজ)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "i am a student", "a": ["I am a student."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "'I' ও প্রথম অক্ষর capital; শেষে full stop।" },
+    { "type": "grammar_transformation", "original": "he lives in dhaka", "a": ["He lives in Dhaka."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "বাক্য ও স্থানের নাম capital; full stop।" },
+    { "type": "grammar_transformation", "original": "do you like tea", "a": ["Do you like tea?"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "প্রশ্নের শেষে (?)।" },
+    { "type": "grammar_transformation", "original": "what a nice day", "a": ["What a nice day!"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "বিস্ময়ে (!)।" },
+    { "type": "grammar_transformation", "original": "rina is my friend", "a": ["Rina is my friend."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "নাম ও বাক্য capital; full stop।" },
+    { "type": "grammar_transformation", "original": "we live in bangladesh", "a": ["We live in Bangladesh."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "দেশের নাম capital।" },
+    { "type": "grammar_transformation", "original": "where are you going", "a": ["Where are you going?"], "transform": "punctuation", "fuzzy": 1, "rule_bn": "প্রশ্নের শেষে (?)।" },
+    { "type": "grammar_transformation", "original": "the cat is black", "a": ["The cat is black."], "transform": "punctuation", "fuzzy": 1, "rule_bn": "বাক্য capital; full stop।" }
+  ]
+}

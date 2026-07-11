@@ -1,0 +1,18 @@
+{
+  "topic": "tense",
+  "paper": "both",
+  "batch": "m",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক verb-এর রূপটি বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "She ___ here since 2015. (live)", "a": ["has lived", "has been living"], "fuzzy": 2, "rule_bn": "'since' এখনো চলছে: Present Perfect (Continuous)।" },
+    { "type": "fill_in_open", "q": "When I saw him, he ___ a book. (read)", "a": ["was reading"], "fuzzy": 1, "rule_bn": "অতীতে চলমান কাজ: Past Continuous।" },
+    { "type": "fill_in_open", "q": "He ___ the work before I came. (do)", "a": ["had done"], "fuzzy": 1, "rule_bn": "অতীতে আগের কাজ: Past Perfect: had done।" },
+    { "type": "fill_in_open", "q": "They ___ cricket every Friday. (play)", "a": ["play"], "rule_bn": "অভ্যাস + plural subject: play।" },
+    { "type": "fill_in_open", "q": "I ___ this film already. (see)", "a": ["have seen"], "fuzzy": 1, "rule_bn": "'already': Present Perfect: have seen।" },
+    { "type": "fill_in_open", "q": "The train ___ before we reached the station. (leave)", "a": ["had left"], "fuzzy": 1, "rule_bn": "অতীতে আগের কাজ: Past Perfect।" },
+    { "type": "fill_in_open", "q": "She ___ tomorrow. (come)", "a": ["will come", "will be coming"], "fuzzy": 2, "rule_bn": "'tomorrow': Future: will come।" },
+    { "type": "fill_in_open", "q": "He usually ___ up at six. (get)", "a": ["gets"], "rule_bn": "'usually' অভ্যাস + He: gets।" }
+  ]
+}

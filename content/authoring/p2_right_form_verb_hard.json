@@ -1,0 +1,18 @@
+{
+  "topic": "p2_right_form_verb",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (কঠিন)।",
+  "items": [
+    { "type": "fill_in_open", "q": "It is high time the government ___ steps against corruption. (take)", "a": ["took"], "rule_bn": "'It is high time'-এর পরে past form: took।" },
+    { "type": "fill_in_open", "q": "He behaves as though he ___ everything. (own)", "a": ["owned"], "rule_bn": "'as though'-এর পরে অবাস্তব past: owned।" },
+    { "type": "fill_in_open", "q": "Had he worked hard, he ___ (pass). (would/could)", "a": ["would have passed", "could have passed"], "fuzzy": 2, "rule_bn": "Past unreal: Had + V3, ... would/could have + V3।" },
+    { "type": "fill_in_open", "q": "The teacher, with his students, ___ visiting the fair. (be)", "a": ["is", "was"], "fuzzy": 0, "rule_bn": "'with' মূল subject (The teacher) পরিবর্তন করে না: is/was।" },
+    { "type": "fill_in_open", "q": "Lest he ___ fail, he studied hard. (should)", "a": ["should"], "rule_bn": "'lest'-এর পরে 'should + base verb'।" },
+    { "type": "fill_in_open", "q": "I would rather starve than ___ (beg). (base form)", "a": ["beg"], "rule_bn": "'would rather ... than'-এর পরে base verb: beg।" },
+    { "type": "fill_in_open", "q": "He is looking forward to ___ (meet) you. (verb+ing)", "a": ["meeting"], "rule_bn": "'look forward to'-এর পরে verb+ing: meeting।" },
+    { "type": "fill_in_open", "q": "Not only the boys but also the teacher ___ present. (be, past)", "a": ["was"], "rule_bn": "'not only...but also'-এ কাছের subject (the teacher=singular): was।" }
+  ]
+}

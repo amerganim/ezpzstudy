@@ -1,0 +1,18 @@
+{
+  "topic": "p2_synonym_antonym",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (কঠিন)।",
+  "items": [
+    { "type": "mcq", "q": "Synonym of 'meticulous' is ___.", "opts": ["careless", "careful", "lazy", "quick"], "correct": 1, "rule_bn": "'meticulous' = 'careful/thorough' (অতি যত্নশীল)।" },
+    { "type": "mcq", "q": "Synonym of 'candid' is ___.", "opts": ["dishonest", "frank", "shy", "rude"], "correct": 1, "rule_bn": "'candid' = 'frank/honest' (অকপট)।" },
+    { "type": "mcq", "q": "Synonym of 'obsolete' is ___.", "opts": ["modern", "outdated", "new", "useful"], "correct": 1, "rule_bn": "'obsolete' = 'outdated' (অপ্রচলিত)।" },
+    { "type": "mcq", "q": "Antonym of 'benevolent' is ___.", "opts": ["kind", "generous", "malevolent", "gentle"], "correct": 2, "rule_bn": "'benevolent' (দয়ালু) × 'malevolent' (বিদ্বেষপূর্ণ)।" },
+    { "type": "mcq", "q": "Antonym of 'transparent' is ___.", "opts": ["clear", "opaque", "bright", "thin"], "correct": 1, "rule_bn": "'transparent' (স্বচ্ছ) × 'opaque' (অস্বচ্ছ)।" },
+    { "type": "mcq", "q": "Antonym of 'frugal' is ___.", "opts": ["thrifty", "economical", "extravagant", "careful"], "correct": 2, "rule_bn": "'frugal' (মিতব্যয়ী) × 'extravagant' (অপব্যয়ী)।" },
+    { "type": "mcq", "q": "Synonym of 'diligent' is ___.", "opts": ["lazy", "industrious", "slow", "weak"], "correct": 1, "rule_bn": "'diligent' = 'industrious/hardworking' (পরিশ্রমী)।" },
+    { "type": "mcq", "q": "Antonym of 'scarcity' is ___.", "opts": ["shortage", "lack", "abundance", "want"], "correct": 2, "rule_bn": "'scarcity' (অভাব) × 'abundance' (প্রাচুর্য)।" }
+  ]
+}

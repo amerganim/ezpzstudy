@@ -1,0 +1,18 @@
+{
+  "topic": "p2_connectors",
+  "paper": "2nd",
+  "batch": "h",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (কঠিন)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "He is intelligent; {{1}}, he is idle.", "bank": ["therefore", "nevertheless", "so", "thus"], "ans": ["nevertheless"], "rule_bn": "'nevertheless' — তা সত্ত্বেও।" },
+    { "type": "fill_in_word_bank", "q": "{{1}} his poverty, he is happy.", "bank": ["Because of", "Notwithstanding", "So", "Owing to"], "ans": ["Notwithstanding"], "rule_bn": "'Notwithstanding' — সত্ত্বেও।" },
+    { "type": "fill_in_word_bank", "q": "He failed; {{1}}, he did not lose heart.", "bank": ["hence", "however", "therefore", "thus"], "ans": ["however"], "rule_bn": "বিপরীত ভাব: 'however'।" },
+    { "type": "fill_in_word_bank", "q": "The road was blocked; {{1}}, we took another route.", "bank": ["however", "consequently", "although", "but"], "ans": ["consequently"], "rule_bn": "'consequently' — ফলস্বরূপ।" },
+    { "type": "fill_in_word_bank", "q": "{{1}} being rich, he is humble.", "bank": ["Because of", "In spite of", "So that", "Owing to"], "ans": ["In spite of"], "rule_bn": "'In spite of' — সত্ত্বেও।" },
+    { "type": "fill_in_word_bank", "q": "He worked hard; {{1}}, he succeeded.", "bank": ["however", "accordingly", "although", "but"], "ans": ["accordingly"], "rule_bn": "'accordingly' — সেই অনুযায়ী/ফলে।" },
+    { "type": "fill_in_word_bank", "q": "{{1}} he is old, he can still work.", "bank": ["Because", "Even though", "So", "Therefore"], "ans": ["Even though"], "rule_bn": "'Even though' — যদিও।" },
+    { "type": "fill_in_word_bank", "q": "The witness lied; {{1}}, the case was dismissed.", "bank": ["moreover", "hence", "although", "however"], "ans": ["hence"], "rule_bn": "'hence' — সুতরাং/এজন্য।" }
+  ]
+}

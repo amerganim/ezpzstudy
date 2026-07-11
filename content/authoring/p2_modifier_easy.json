@@ -1,0 +1,18 @@
+{
+  "topic": "p2_modifier",
+  "paper": "2nd",
+  "batch": "e",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক modifier বসাও (সহজ)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "It is a {{1}} day.", "bank": ["sunny", "quickly", "very", "run"], "ans": ["sunny"], "rule_bn": "Noun (day)-এর আগে adjective: sunny।" },
+    { "type": "fill_in_word_bank", "q": "She sings {{1}}.", "bank": ["sweet", "sweetly", "sweetness", "a sweet"], "ans": ["sweetly"], "rule_bn": "Verb (sings)-কে বর্ণনা করতে adverb: sweetly।" },
+    { "type": "fill_in_word_bank", "q": "He is a {{1}} boy.", "bank": ["good", "well", "goodness", "nicely"], "ans": ["good"], "rule_bn": "Noun (boy)-এর আগে adjective: good।" },
+    { "type": "fill_in_word_bank", "q": "The {{1}} girl won the prize.", "bank": ["clever", "cleverly", "very", "run"], "ans": ["clever"], "rule_bn": "Noun-এর আগে adjective modifier: clever।" },
+    { "type": "fill_in_word_bank", "q": "He runs {{1}}.", "bank": ["fast", "faster boy", "a fast", "fastness"], "ans": ["fast"], "rule_bn": "Verb-কে বর্ণনা করতে adverb: fast।" },
+    { "type": "fill_in_word_bank", "q": "This is a {{1}} question.", "bank": ["difficult", "difficulty", "hardly", "run"], "ans": ["difficult"], "rule_bn": "Noun (question)-এর আগে adjective: difficult।" },
+    { "type": "fill_in_word_bank", "q": "She speaks English {{1}}.", "bank": ["fluent", "fluently", "fluency", "a fluent"], "ans": ["fluently"], "rule_bn": "Verb-কে বর্ণনা করতে adverb: fluently।" },
+    { "type": "fill_in_word_bank", "q": "It is a {{1}} garden.", "bank": ["beautiful", "beautifully", "beauty", "very"], "ans": ["beautiful"], "rule_bn": "Noun (garden)-এর আগে adjective: beautiful।" }
+  ]
+}
