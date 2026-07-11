@@ -991,6 +991,319 @@
     }
   },
   {
+    "id": "b.flashcard.basics_everyday_vocab-001",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সকাল",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "morning",
+      "back_bn": "সকাল",
+      "example_sentence_en": "I get up early in the morning.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-002",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "গ্রাম",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "village",
+      "back_bn": "গ্রাম",
+      "example_sentence_en": "My grandfather lives in a village.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-003",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সৎ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "honest",
+      "back_bn": "সৎ",
+      "example_sentence_en": "He is an honest man.",
+      "part_of_speech": "adjective",
+      "antonym": "dishonest"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-004",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পরিশ্রমী",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "hardworking",
+      "back_bn": "পরিশ্রমী",
+      "example_sentence_en": "She is a hardworking student.",
+      "part_of_speech": "adjective",
+      "antonym": "lazy"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-005",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সুন্দর",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "beautiful",
+      "back_bn": "সুন্দর",
+      "example_sentence_en": "Bangladesh is a beautiful country.",
+      "part_of_speech": "adjective",
+      "antonym": "ugly"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-006",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বন্ধু",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "friend",
+      "back_bn": "বন্ধু",
+      "example_sentence_en": "A true friend helps in danger.",
+      "part_of_speech": "noun",
+      "antonym": "enemy"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-007",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কেনা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "buy",
+      "back_bn": "কেনা",
+      "example_sentence_en": "I want to buy a new book.",
+      "part_of_speech": "verb",
+      "antonym": "sell"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-008",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "শুরু করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "begin",
+      "back_bn": "শুরু করা",
+      "example_sentence_en": "The class begins at ten.",
+      "part_of_speech": "verb",
+      "antonym": "end"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-009",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সাহায্য করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "help",
+      "back_bn": "সাহায্য করা",
+      "example_sentence_en": "We should help the poor.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-010",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "গুরুত্বপূর্ণ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "important",
+      "back_bn": "গুরুত্বপূর্ণ",
+      "example_sentence_en": "Health is very important.",
+      "part_of_speech": "adjective"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-011",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কঠিন",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "difficult",
+      "back_bn": "কঠিন",
+      "example_sentence_en": "The question was difficult.",
+      "part_of_speech": "adjective",
+      "antonym": "easy"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-012",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ভবিষ্যৎ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "future",
+      "back_bn": "ভবিষ্যৎ",
+      "example_sentence_en": "We must prepare for the future.",
+      "part_of_speech": "noun",
+      "antonym": "past"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-013",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "জ্ঞান",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "knowledge",
+      "back_bn": "জ্ঞান",
+      "example_sentence_en": "Reading gives us knowledge.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-014",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কর্তব্য",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "duty",
+      "back_bn": "কর্তব্য",
+      "example_sentence_en": "It is our duty to obey our parents.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-015",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সম্মান করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "respect",
+      "back_bn": "সম্মান করা",
+      "example_sentence_en": "We should respect our teachers.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-016",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বিপদ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "danger",
+      "back_bn": "বিপদ",
+      "example_sentence_en": "A friend in need is a friend indeed in danger.",
+      "part_of_speech": "noun",
+      "antonym": "safety"
+    }
+  },
+  {
     "id": "b.flashcard.vocabulary_hsc_words-001",
     "type": "flashcard",
     "paper": "both",
@@ -2640,6 +2953,402 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_mcq-001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Trees are our best friends. They give us oxygen which we need to breathe. They also take in carbon dioxide and keep the air fresh. Trees give us fruits, wood and shade. They are the home of many birds and animals. Besides, trees prevent soil erosion and cause rainfall. But people are cutting down trees carelessly for houses, furniture and firewood. As a result, the balance of nature is being destroyed. If we do not plant more trees, our country will turn into a desert one day.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "অনুচ্ছেদে বলা হয়েছে trees give us oxygen যা শ্বাস নিতে প্রয়োজন।",
+          "data": {
+            "question_en": "What do trees give us that we need to breathe?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "carbon dioxide"
+              },
+              {
+                "key": "B",
+                "text_en": "oxygen"
+              },
+              {
+                "key": "C",
+                "text_en": "smoke"
+              },
+              {
+                "key": "D",
+                "text_en": "water"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'trees prevent soil erosion' — মাটির ক্ষয় রোধ করে।",
+          "data": {
+            "question_en": "According to the passage, trees prevent ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "rainfall"
+              },
+              {
+                "key": "B",
+                "text_en": "soil erosion"
+              },
+              {
+                "key": "C",
+                "text_en": "oxygen"
+              },
+              {
+                "key": "D",
+                "text_en": "shade"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "অনুচ্ছেদ অনুযায়ী houses, furniture and firewood-এর জন্য।",
+          "data": {
+            "sentence_en": "Why are people cutting down trees? For houses, furniture and ___.",
+            "accepted_answers": [
+              "firewood"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "শেষ বাক্য: our country will turn into a desert one day।",
+          "data": {
+            "question_en": "What will happen if we do not plant more trees?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "It will rain more."
+              },
+              {
+                "key": "B",
+                "text_en": "The country will turn into a desert."
+              },
+              {
+                "key": "C",
+                "text_en": "Trees will grow fast."
+              },
+              {
+                "key": "D",
+                "text_en": "Air will be fresh."
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Nelson Mandela was a great leader of South Africa. He fought against apartheid, a system that separated people by the colour of their skin. For his struggle, he was put in prison for twenty-seven years. But he never lost hope. After his release, he became the first black President of South Africa in 1994. He worked for peace and equality among all people. The whole world respects him for his courage and forgiveness.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "অনুচ্ছেদ অনুযায়ী তিনি apartheid-এর বিরুদ্ধে লড়েছেন।",
+          "data": {
+            "question_en": "What did Nelson Mandela fight against?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "poverty"
+              },
+              {
+                "key": "B",
+                "text_en": "apartheid"
+              },
+              {
+                "key": "C",
+                "text_en": "education"
+              },
+              {
+                "key": "D",
+                "text_en": "pollution"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'put in prison for twenty-seven years' (27 বছর)।",
+          "data": {
+            "sentence_en": "How many years was Mandela in prison? ___ years.",
+            "accepted_answers": [
+              "twenty-seven",
+              "27"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'first black President ... in 1994'।",
+          "data": {
+            "question_en": "In which year did he become President?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "1990"
+              },
+              {
+                "key": "B",
+                "text_en": "1994"
+              },
+              {
+                "key": "C",
+                "text_en": "1999"
+              },
+              {
+                "key": "D",
+                "text_en": "2004"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "শেষ বাক্য: respects him for his courage and forgiveness।",
+          "data": {
+            "question_en": "Why does the world respect Mandela?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "for his wealth"
+              },
+              {
+                "key": "B",
+                "text_en": "for his courage and forgiveness"
+              },
+              {
+                "key": "C",
+                "text_en": "for his prison term"
+              },
+              {
+                "key": "D",
+                "text_en": "for his colour"
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-001",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "Passive অর্থে কর্তা বোঝাতে 'by' বসে: respected by all।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Honesty is a great virtue. An honest man is respected ___ all.",
+      "accepted_answers": [
+        "by"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-002",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "উদ্দেশ্য বোঝাতে infinitive 'to' বসে: time to prepare।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Student life is the best time ___ prepare for the future.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-003",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রসঙ্গ অনুযায়ী possessive 'our' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should not waste ___ time. Time once gone never returns.",
+      "accepted_answers": [
+        "our"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-004",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'away from' — দূরে থাকা বোঝায়; পরিশ্রমী ছাত্র পড়া থেকে দূরে থাকে না।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A good student is never ___ from his studies. He works hard.",
+      "accepted_answers": [
+        "away"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-005",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "অভাব/ছাড়া বোঝাতে 'without' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Water is essential for life. We cannot live ___ water.",
+      "accepted_answers": [
+        "without"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-006",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রসঙ্গ (early bird) অনুযায়ী 'early' বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The early bird catches the worm. So we should get up ___ in the morning.",
+      "accepted_answers": [
+        "early"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-007",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "বই পড়া জ্ঞান ও আনন্দ (pleasure) দেয়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Reading books widens our knowledge. It also gives us ___.",
+      "accepted_answers": [
+        "pleasure",
+        "joy"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-008",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "প্রবাদ অনুযায়ী স্বাস্থ্য হারালে সব (everything) হারায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Health is wealth. If we lose our health, we lose ___.",
+      "accepted_answers": [
+        "everything"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p1.fill_in_word_bank.p1_cloze_clues-001",
     "type": "fill_in_word_bank",
     "paper": "1st",
@@ -2763,6 +3472,102 @@
         {
           "blank_id": "2",
           "correct_answer": "young"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-005",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "প্রবাদ: Health is wealth; সুস্বাস্থ্য ছাড়া কেউ সুখী (happy) হতে পারে না।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Health is {{1}}. Without good health, no one can be {{2}}.",
+      "word_bank": [
+        "wealth",
+        "happy",
+        "money",
+        "sad"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "wealth"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "happy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-006",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "দুর্বল রোগীকে বিশ্রাম (rest) ও পুষ্টিকর খাবার (nutritious food) নিতে বলা হয়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The patient was very weak. The doctor advised him to take {{1}} and {{2}}.",
+      "word_bank": [
+        "rest",
+        "nutritious food",
+        "exercise",
+        "medicine"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "rest"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "nutritious food"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-007",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "কঠোর পরিশ্রম সাফল্যের চাবিকাঠি (key); অলস মানুষ উন্নতি (prosper) করতে পারে না।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Hard work is the {{1}} to success. An idle man can never {{2}} in life.",
+      "word_bank": [
+        "key",
+        "prosper",
+        "door",
+        "fail"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "key"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "prosper"
         }
       ]
     }
@@ -2989,6 +3794,270 @@
         "U3",
         "U4",
         "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_graph_chart-001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_graph_chart",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "গ্রাফ/চার্টটি বর্ণনা করে লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "graph_description",
+      "prompt_en": "The graph shows the pass rate of a college in the HSC exam over five years: 2019 – 70%, 2020 – 75%, 2021 – 80%, 2022 – 78%, 2023 – 90%. Describe the graph in a paragraph.",
+      "word_limit": {
+        "min": 120,
+        "max": 180
+      },
+      "model_answer_en": "The graph shows the pass rate of a college in the HSC examination from 2019 to 2023. It is clear from the graph that the overall pass rate increased during this period.\n\nIn 2019, the pass rate was 70 percent. It rose to 75 percent in 2020 and further to 80 percent in 2021. However, in 2022 the rate fell slightly to 78 percent. After that, it climbed sharply and reached the highest point of 90 percent in 2023.\n\nTo sum up, though there was a small drop in 2022, the pass rate of the college improved steadily over the five years. This indicates the growing quality of teaching and the hard work of the students.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "শুরুতে graph কী দেখায় তা বলেছি (introduction)"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "প্রতিটি বছরের তথ্য (number/percentage) উল্লেখ করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "বৃদ্ধি/হ্রাস বোঝাতে rose, fell, increased ইত্যাদি শব্দ ব্যবহার করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি সারাংশ (To sum up) দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_informal_letter-001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_informal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "letter_informal",
+      "prompt_en": "Write a letter to your younger brother advising him to study regularly.",
+      "word_limit": {
+        "min": 100,
+        "max": 150
+      },
+      "model_answer_en": "Dhaka\n10 March 2025\n\nDear Rakib,\n\nI hope you are well. I have come to know that you are not studying regularly these days. This has made me worried. So I am writing to give you some advice.\n\nStudy is the main duty of a student. You should make a routine and follow it every day. Do not waste time on mobile games. Pay attention in class and do your homework in time. If you study regularly, you will surely do well in the exam.\n\nGive my love to our parents.\n\nYour loving brother,\nSakib",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "উপরে স্থান ও তারিখ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear ...' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "নিয়মিত পড়ার পরামর্শ স্পষ্টভাবে দিয়েছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your loving brother,' সহ নাম দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_informal_letter-002",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_informal_letter",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "letter_informal",
+      "prompt_en": "Write a letter to your friend describing your visit to a place of historical interest.",
+      "word_limit": {
+        "min": 120,
+        "max": 160
+      },
+      "model_answer_en": "Rajshahi\n5 April 2025\n\nDear Tamim,\n\nHow are you? I am fine. In my last vacation I visited Paharpur, a place of historical interest. I want to share my experience with you.\n\nPaharpur is in Naogaon district. There stands the ruins of a great Buddhist monastery called Somapura Mahavihara. It is more than a thousand years old. I saw the high central temple, the old walls and many terracotta plaques on them. A guide told us many interesting stories. I was amazed to see the skill of our ancestors.\n\nThe visit was truly enjoyable and educative. I hope you will visit the place someday.\n\nYour loving friend,\nNahid",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "স্থান ও তারিখ দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "'Dear ...' দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "স্থানটি ও অভিজ্ঞতা বর্ণনা করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_story_writing-001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_story_writing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের সূত্র/শিরোনাম থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "story",
+      "prompt_en": "Write a story using the following outline. Title: 'The Thirsty Crow'. Outline: a thirsty crow — search for water — a pitcher with little water — cannot reach — drops pebbles — water rises — drinks and flies away. Add a moral.",
+      "word_limit": {
+        "min": 120,
+        "max": 180
+      },
+      "model_answer_en": "The Thirsty Crow\n\nOnce there was a crow. One hot summer day it became very thirsty. It flew here and there in search of water but found none. At last it saw a pitcher in a garden. It flew down and found a little water at the bottom of the pitcher. But the water was so low that the crow could not reach it.\n\nThe crow did not lose heart. It looked around and saw some pebbles nearby. An idea came to its mind. It began to drop the pebbles into the pitcher one by one. Slowly the water rose up. At last the water came within its reach. The crow drank the water happily and flew away.\n\nMoral: Where there is a will, there is a way.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি উপযুক্ত title দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "outline-এর সব ধাপ ক্রমানুসারে এসেছে"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "past tense-এ ধারাবাহিকভাবে লিখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "শেষে একটি moral দিয়েছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_story_writing-002",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_story_writing",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের সূত্র/শিরোনাম থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "story",
+      "prompt_en": "Write a story about the moral 'Unity is strength' using the outline of an old man and his quarrelling sons and a bundle of sticks.",
+      "word_limit": {
+        "min": 130,
+        "max": 180
+      },
+      "model_answer_en": "Unity is Strength\n\nOnce there lived an old farmer. He had four sons. But the sons always quarrelled with one another. The old man was very worried about them. He wanted to teach them a lesson.\n\nOne day he called his sons and gave them a bundle of sticks. He asked each of them to break the bundle. One by one they tried with all their strength, but none could break it. Then the old man untied the bundle and gave each son a single stick. This time they broke the sticks very easily.\n\nThe old man said, 'My sons, if you remain united like the bundle, no one can harm you. But if you quarrel, your enemies will break you easily.' The sons understood their mistake and promised to live in unity.\n\nMoral: Unity is strength.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি উপযুক্ত title দিয়েছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "গল্পের ধাপগুলো যুক্তিসঙ্গত ক্রমে এসেছে"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "একটি সংলাপ/উপদেশ যোগ করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "শেষে moral দিয়েছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.writing_prompt.p1_summary-001",
+    "type": "writing_prompt",
+    "paper": "1st",
+    "topic": "p1_summary",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে নিজের ভাষায় সংক্ষেপে (summary) লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "summary",
+      "prompt_en": "Read the passage and write a summary in about one-third of its length.\n\nPassage: Water is another name of life. We need water for drinking, cooking, washing and many other purposes. We get water from rivers, ponds, rain and wells. But safe water is now becoming scarce. Many of our water sources are being polluted by waste and chemicals. Drinking unsafe water causes many diseases. Therefore, we should keep our water sources clean and use water carefully.",
+      "word_limit": {
+        "min": 40,
+        "max": 70
+      },
+      "model_answer_en": "Water is essential for our daily life such as drinking, cooking and washing. We get it from rivers, rain and wells. But safe water is becoming scarce because our sources are being polluted, which causes diseases. So we should keep water sources clean and use water carefully.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "মূল ভাব নিজের ভাষায় লিখেছি, নকল করিনি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "শুধু গুরুত্বপূর্ণ পয়েন্ট রেখেছি, উদাহরণ বাদ দিয়েছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "মূল অনুচ্ছেদের প্রায় এক-তৃতীয়াংশ দৈর্ঘ্যে রেখেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি অনুচ্ছেদে (paragraph) লিখেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "grammar ও বানান ঠিক আছে"
+        }
       ]
     }
   },
@@ -5293,6 +6362,94 @@
         {
           "id": "R5",
           "criterion_bn": "বানান ও grammar ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.writing_prompt.p2_paragraph_compare-001",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_paragraph_compare",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে comparison/cause-effect paragraph লেখো। নিজে লেখার পর নমুনা দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "paragraph",
+      "prompt_en": "Write a paragraph comparing 'Village Life and Town Life' (comparison and contrast).",
+      "word_limit": {
+        "min": 150,
+        "max": 200
+      },
+      "model_answer_en": "Village life and town life are different in many ways. The main difference lies in the environment. A village is calm, quiet and full of natural beauty, whereas a town is noisy, crowded and full of smoke. In a village, the air is fresh and pure, but in a town it is often polluted. As regards facilities, town life offers more advantages. Towns have good schools, colleges, hospitals and markets, while villages often lack these facilities. On the other hand, the cost of living is low in a village but very high in a town. People in villages are simple and friendly and help one another, whereas town people are busy and have little time for their neighbours. However, both have their own charms. A village gives peace and a healthy life, while a town gives comfort and opportunities. To sum up, though town life is more comfortable, village life is more peaceful and healthy. A wise person enjoys the good sides of both.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "topic sentence দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "তুলনা বোঝাতে whereas, while, on the other hand ব্যবহার করেছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "কমপক্ষে ৩টি দিক (environment, facilities, people) তুলনা করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি concluding sentence দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.writing_prompt.p2_paragraph_compare-002",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_paragraph_compare",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে comparison/cause-effect paragraph লেখো। নিজে লেখার পর নমুনা দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "paragraph",
+      "prompt_en": "Write a paragraph on 'Causes and Effects of Air Pollution' (cause and effect).",
+      "word_limit": {
+        "min": 150,
+        "max": 200
+      },
+      "model_answer_en": "Air pollution has become a serious problem in our country. There are several causes behind it. The main cause is the smoke emitted from mills, factories and vehicles. This smoke contains harmful gases that pollute the air. Moreover, the burning of fossil fuels, brick kilns and the reckless cutting of trees also pollute the air. These causes lead to many harmful effects. As a result of air pollution, people suffer from various diseases such as asthma, breathing problems and lung cancer. In addition, polluted air destroys the balance of nature and causes global warming. Because of global warming, the sea level is rising and the climate is changing. If we do not control air pollution now, our future will be in great danger. So, we should plant more trees, use eco-friendly vehicles and control the smoke of factories. Only then can we ensure fresh air and a healthy life.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "topic sentence দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "কারণগুলো (causes) স্পষ্টভাবে দিয়েছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "ফলাফল বোঝাতে as a result, because of, leads to ব্যবহার করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি concluding/করণীয় বাক্য দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
         }
       ]
     }

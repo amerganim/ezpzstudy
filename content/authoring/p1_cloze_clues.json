@@ -8,6 +8,9 @@
     { "type": "fill_in_word_bank", "q": "Time is very {{1}}. Once it is {{2}}, it never comes back.", "bank": ["valuable", "gone", "wasted", "money"], "ans": ["valuable", "gone"], "rule_bn": "প্রসঙ্গ অনুযায়ী: time is valuable; once gone, never returns।" },
     { "type": "fill_in_word_bank", "q": "A good student is always {{1}}. He never {{2}} his time.", "bank": ["attentive", "wastes", "lazy", "sleeps"], "ans": ["attentive", "wastes"], "rule_bn": "ভালো ছাত্র মনোযোগী (attentive) এবং সময় নষ্ট করে না (wastes)।" },
     { "type": "fill_in_word_bank", "q": "Trees give us {{1}}. They also keep the environment {{2}}.", "bank": ["oxygen", "clean", "smoke", "dirty"], "ans": ["oxygen", "clean"], "rule_bn": "গাছ অক্সিজেন দেয় এবং পরিবেশ পরিষ্কার রাখে।" },
-    { "type": "fill_in_word_bank", "q": "We should respect our {{1}} and love the {{2}}.", "bank": ["elders", "young", "enemies", "money"], "ans": ["elders", "young"], "rule_bn": "বড়দের সম্মান (elders) ও ছোটদের স্নেহ (young) করা উচিত।" }
+    { "type": "fill_in_word_bank", "q": "We should respect our {{1}} and love the {{2}}.", "bank": ["elders", "young", "enemies", "money"], "ans": ["elders", "young"], "rule_bn": "বড়দের সম্মান (elders) ও ছোটদের স্নেহ (young) করা উচিত।" },
+    { "type": "fill_in_word_bank", "q": "Health is {{1}}. Without good health, no one can be {{2}}.", "bank": ["wealth", "happy", "money", "sad"], "ans": ["wealth", "happy"], "rule_bn": "প্রবাদ: Health is wealth; সুস্বাস্থ্য ছাড়া কেউ সুখী (happy) হতে পারে না।" },
+    { "type": "fill_in_word_bank", "q": "The patient was very weak. The doctor advised him to take {{1}} and {{2}}.", "bank": ["rest", "nutritious food", "exercise", "medicine"], "ans": ["rest", "nutritious food"], "rule_bn": "দুর্বল রোগীকে বিশ্রাম (rest) ও পুষ্টিকর খাবার (nutritious food) নিতে বলা হয়।" },
+    { "type": "fill_in_word_bank", "q": "Hard work is the {{1}} to success. An idle man can never {{2}} in life.", "bank": ["key", "prosper", "door", "fail"], "ans": ["key", "prosper"], "rule_bn": "কঠোর পরিশ্রম সাফল্যের চাবিকাঠি (key); অলস মানুষ উন্নতি (prosper) করতে পারে না।" }
   ]
 }

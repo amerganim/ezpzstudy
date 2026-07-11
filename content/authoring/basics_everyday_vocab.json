@@ -1,0 +1,25 @@
+{
+  "topic": "basics_everyday_vocab",
+  "paper": "both",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "morning", "back_bn": "সকাল", "example": "I get up early in the morning.", "pos": "noun" },
+    { "type": "flashcard", "front": "village", "back_bn": "গ্রাম", "example": "My grandfather lives in a village.", "pos": "noun" },
+    { "type": "flashcard", "front": "honest", "back_bn": "সৎ", "example": "He is an honest man.", "pos": "adjective", "ant": "dishonest" },
+    { "type": "flashcard", "front": "hardworking", "back_bn": "পরিশ্রমী", "example": "She is a hardworking student.", "pos": "adjective", "ant": "lazy" },
+    { "type": "flashcard", "front": "beautiful", "back_bn": "সুন্দর", "example": "Bangladesh is a beautiful country.", "pos": "adjective", "ant": "ugly" },
+    { "type": "flashcard", "front": "friend", "back_bn": "বন্ধু", "example": "A true friend helps in danger.", "pos": "noun", "ant": "enemy" },
+    { "type": "flashcard", "front": "buy", "back_bn": "কেনা", "example": "I want to buy a new book.", "pos": "verb", "ant": "sell" },
+    { "type": "flashcard", "front": "begin", "back_bn": "শুরু করা", "example": "The class begins at ten.", "pos": "verb", "ant": "end" },
+    { "type": "flashcard", "front": "help", "back_bn": "সাহায্য করা", "example": "We should help the poor.", "pos": "verb" },
+    { "type": "flashcard", "front": "important", "back_bn": "গুরুত্বপূর্ণ", "example": "Health is very important.", "pos": "adjective" },
+    { "type": "flashcard", "front": "difficult", "back_bn": "কঠিন", "example": "The question was difficult.", "pos": "adjective", "ant": "easy" },
+    { "type": "flashcard", "front": "future", "back_bn": "ভবিষ্যৎ", "example": "We must prepare for the future.", "pos": "noun", "ant": "past" },
+    { "type": "flashcard", "front": "knowledge", "back_bn": "জ্ঞান", "example": "Reading gives us knowledge.", "pos": "noun" },
+    { "type": "flashcard", "front": "duty", "back_bn": "কর্তব্য", "example": "It is our duty to obey our parents.", "pos": "noun" },
+    { "type": "flashcard", "front": "respect", "back_bn": "সম্মান করা", "example": "We should respect our teachers.", "pos": "verb" },
+    { "type": "flashcard", "front": "danger", "back_bn": "বিপদ", "example": "A friend in need is a friend indeed in danger.", "pos": "noun", "ant": "safety" }
+  ]
+}

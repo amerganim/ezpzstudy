@@ -1,0 +1,23 @@
+{
+  "topic": "p1_summary",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে নিজের ভাষায় সংক্ষেপে (summary) লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "summary",
+      "prompt": "Read the passage and write a summary in about one-third of its length.\n\nPassage: Water is another name of life. We need water for drinking, cooking, washing and many other purposes. We get water from rivers, ponds, rain and wells. But safe water is now becoming scarce. Many of our water sources are being polluted by waste and chemicals. Drinking unsafe water causes many diseases. Therefore, we should keep our water sources clean and use water carefully.",
+      "words": [40, 70],
+      "model": "Water is essential for our daily life such as drinking, cooking and washing. We get it from rivers, rain and wells. But safe water is becoming scarce because our sources are being polluted, which causes diseases. So we should keep water sources clean and use water carefully.",
+      "rubric": [
+        "মূল ভাব নিজের ভাষায় লিখেছি, নকল করিনি",
+        "শুধু গুরুত্বপূর্ণ পয়েন্ট রেখেছি, উদাহরণ বাদ দিয়েছি",
+        "মূল অনুচ্ছেদের প্রায় এক-তৃতীয়াংশ দৈর্ঘ্যে রেখেছি",
+        "একটি অনুচ্ছেদে (paragraph) লিখেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

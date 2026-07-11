@@ -1,0 +1,17 @@
+{
+  "topic": "p1_cloze_no_clues",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Honesty is a great virtue. An honest man is respected ___ all.", "a": ["by"], "rule_bn": "Passive অর্থে কর্তা বোঝাতে 'by' বসে: respected by all।" },
+    { "type": "fill_in_open", "q": "Student life is the best time ___ prepare for the future.", "a": ["to"], "rule_bn": "উদ্দেশ্য বোঝাতে infinitive 'to' বসে: time to prepare।" },
+    { "type": "fill_in_open", "q": "We should not waste ___ time. Time once gone never returns.", "a": ["our"], "rule_bn": "প্রসঙ্গ অনুযায়ী possessive 'our' বসে।" },
+    { "type": "fill_in_open", "q": "A good student is never ___ from his studies. He works hard.", "a": ["away"], "fuzzy": 1, "rule_bn": "'away from' — দূরে থাকা বোঝায়; পরিশ্রমী ছাত্র পড়া থেকে দূরে থাকে না।" },
+    { "type": "fill_in_open", "q": "Water is essential for life. We cannot live ___ water.", "a": ["without"], "rule_bn": "অভাব/ছাড়া বোঝাতে 'without' বসে।" },
+    { "type": "fill_in_open", "q": "The early bird catches the worm. So we should get up ___ in the morning.", "a": ["early"], "rule_bn": "প্রসঙ্গ (early bird) অনুযায়ী 'early' বসে।" },
+    { "type": "fill_in_open", "q": "Reading books widens our knowledge. It also gives us ___.", "a": ["pleasure", "joy"], "fuzzy": 1, "rule_bn": "বই পড়া জ্ঞান ও আনন্দ (pleasure) দেয়।" },
+    { "type": "fill_in_open", "q": "Health is wealth. If we lose our health, we lose ___.", "a": ["everything"], "rule_bn": "প্রবাদ অনুযায়ী স্বাস্থ্য হারালে সব (everything) হারায়।" }
+  ]
+}

@@ -134,6 +134,28 @@ const DATA_BUILDERS = {
       rubric_checklist: rubric,
     };
   },
+
+  comprehension_set(item) {
+    const allowed = ["mcq", "fill_in_word_bank", "fill_in_open", "matching"];
+    const subs = need(item, "subs").map((s, i) => {
+      const subType = need(s, "type");
+      const subBuilder = DATA_BUILDERS[subType];
+      if (!subBuilder || !allowed.includes(subType)) {
+        throw new Error(`sub-question type "${subType}" not allowed in comprehension_set`);
+      }
+      return {
+        id: `s${i + 1}`,
+        type: subType,
+        ...(s.rule_bn ? { explanation_bn: s.rule_bn } : {}),
+        data: subBuilder(s),
+      };
+    });
+    return {
+      passage_en: need(item, "passage"),
+      passage_source: item.source || "original",
+      sub_questions: subs,
+    };
+  },
 };
 
 function expandItem(item, ctx) {
@@ -151,6 +173,9 @@ function expandItem(item, ctx) {
     (type === "flashcard" ? data.back_bn : null) ||
     (type === "writing_prompt"
       ? "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।"
+      : null) ||
+    (type === "comprehension_set"
+      ? "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।"
       : null);
   if (!explanation) throw new Error(`missing "rule_bn" (Bangla explanation)`);
 

@@ -254,7 +254,7 @@
         "writing_type": {
           "enum": [
             "paragraph", "essay", "application", "letter_formal", "letter_informal",
-            "email", "cv", "dialogue", "report"
+            "email", "cv", "dialogue", "report", "story", "graph_description", "summary"
           ]
         },
         "prompt_en": { "type": "string", "minLength": 1 },

@@ -1,0 +1,31 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Trees are our best friends. They give us oxygen which we need to breathe. They also take in carbon dioxide and keep the air fresh. Trees give us fruits, wood and shade. They are the home of many birds and animals. Besides, trees prevent soil erosion and cause rainfall. But people are cutting down trees carelessly for houses, furniture and firewood. As a result, the balance of nature is being destroyed. If we do not plant more trees, our country will turn into a desert one day.",
+      "subs": [
+        { "type": "mcq", "q": "What do trees give us that we need to breathe?", "opts": ["carbon dioxide", "oxygen", "smoke", "water"], "correct": 1, "rule_bn": "অনুচ্ছেদে বলা হয়েছে trees give us oxygen যা শ্বাস নিতে প্রয়োজন।" },
+        { "type": "mcq", "q": "According to the passage, trees prevent ___.", "opts": ["rainfall", "soil erosion", "oxygen", "shade"], "correct": 1, "rule_bn": "'trees prevent soil erosion' — মাটির ক্ষয় রোধ করে।" },
+        { "type": "fill_in_open", "q": "Why are people cutting down trees? For houses, furniture and ___.", "a": ["firewood"], "rule_bn": "অনুচ্ছেদ অনুযায়ী houses, furniture and firewood-এর জন্য।" },
+        { "type": "mcq", "q": "What will happen if we do not plant more trees?", "opts": ["It will rain more.", "The country will turn into a desert.", "Trees will grow fast.", "Air will be fresh."], "correct": 1, "rule_bn": "শেষ বাক্য: our country will turn into a desert one day।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Nelson Mandela was a great leader of South Africa. He fought against apartheid, a system that separated people by the colour of their skin. For his struggle, he was put in prison for twenty-seven years. But he never lost hope. After his release, he became the first black President of South Africa in 1994. He worked for peace and equality among all people. The whole world respects him for his courage and forgiveness.",
+      "subs": [
+        { "type": "mcq", "q": "What did Nelson Mandela fight against?", "opts": ["poverty", "apartheid", "education", "pollution"], "correct": 1, "rule_bn": "অনুচ্ছেদ অনুযায়ী তিনি apartheid-এর বিরুদ্ধে লড়েছেন।" },
+        { "type": "fill_in_open", "q": "How many years was Mandela in prison? ___ years.", "a": ["twenty-seven", "27"], "fuzzy": 1, "rule_bn": "'put in prison for twenty-seven years' (27 বছর)।" },
+        { "type": "mcq", "q": "In which year did he become President?", "opts": ["1990", "1994", "1999", "2004"], "correct": 1, "rule_bn": "'first black President ... in 1994'।" },
+        { "type": "mcq", "q": "Why does the world respect Mandela?", "opts": ["for his wealth", "for his courage and forgiveness", "for his prison term", "for his colour"], "correct": 1, "rule_bn": "শেষ বাক্য: respects him for his courage and forgiveness।" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "topic": "p2_paragraph_compare",
+  "paper": "2nd",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে comparison/cause-effect paragraph লেখো। নিজে লেখার পর নমুনা দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph comparing 'Village Life and Town Life' (comparison and contrast).",
+      "words": [150, 200],
+      "model": "Village life and town life are different in many ways. The main difference lies in the environment. A village is calm, quiet and full of natural beauty, whereas a town is noisy, crowded and full of smoke. In a village, the air is fresh and pure, but in a town it is often polluted. As regards facilities, town life offers more advantages. Towns have good schools, colleges, hospitals and markets, while villages often lack these facilities. On the other hand, the cost of living is low in a village but very high in a town. People in villages are simple and friendly and help one another, whereas town people are busy and have little time for their neighbours. However, both have their own charms. A village gives peace and a healthy life, while a town gives comfort and opportunities. To sum up, though town life is more comfortable, village life is more peaceful and healthy. A wise person enjoys the good sides of both.",
+      "rubric": [
+        "topic sentence দিয়ে শুরু করেছি",
+        "তুলনা বোঝাতে whereas, while, on the other hand ব্যবহার করেছি",
+        "কমপক্ষে ৩টি দিক (environment, facilities, people) তুলনা করেছি",
+        "একটি concluding sentence দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph on 'Causes and Effects of Air Pollution' (cause and effect).",
+      "words": [150, 200],
+      "model": "Air pollution has become a serious problem in our country. There are several causes behind it. The main cause is the smoke emitted from mills, factories and vehicles. This smoke contains harmful gases that pollute the air. Moreover, the burning of fossil fuels, brick kilns and the reckless cutting of trees also pollute the air. These causes lead to many harmful effects. As a result of air pollution, people suffer from various diseases such as asthma, breathing problems and lung cancer. In addition, polluted air destroys the balance of nature and causes global warming. Because of global warming, the sea level is rising and the climate is changing. If we do not control air pollution now, our future will be in great danger. So, we should plant more trees, use eco-friendly vehicles and control the smoke of factories. Only then can we ensure fresh air and a healthy life.",
+      "rubric": [
+        "topic sentence দিয়ে শুরু করেছি",
+        "কারণগুলো (causes) স্পষ্টভাবে দিয়েছি",
+        "ফলাফল বোঝাতে as a result, because of, leads to ব্যবহার করেছি",
+        "একটি concluding/করণীয় বাক্য দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

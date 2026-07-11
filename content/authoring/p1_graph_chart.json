@@ -1,0 +1,23 @@
+{
+  "topic": "p1_graph_chart",
+  "paper": "1st",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "গ্রাফ/চার্টটি বর্ণনা করে লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "graph_description",
+      "prompt": "The graph shows the pass rate of a college in the HSC exam over five years: 2019 – 70%, 2020 – 75%, 2021 – 80%, 2022 – 78%, 2023 – 90%. Describe the graph in a paragraph.",
+      "words": [120, 180],
+      "model": "The graph shows the pass rate of a college in the HSC examination from 2019 to 2023. It is clear from the graph that the overall pass rate increased during this period.\n\nIn 2019, the pass rate was 70 percent. It rose to 75 percent in 2020 and further to 80 percent in 2021. However, in 2022 the rate fell slightly to 78 percent. After that, it climbed sharply and reached the highest point of 90 percent in 2023.\n\nTo sum up, though there was a small drop in 2022, the pass rate of the college improved steadily over the five years. This indicates the growing quality of teaching and the hard work of the students.",
+      "rubric": [
+        "শুরুতে graph কী দেখায় তা বলেছি (introduction)",
+        "প্রতিটি বছরের তথ্য (number/percentage) উল্লেখ করেছি",
+        "বৃদ্ধি/হ্রাস বোঝাতে rose, fell, increased ইত্যাদি শব্দ ব্যবহার করেছি",
+        "একটি সারাংশ (To sum up) দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

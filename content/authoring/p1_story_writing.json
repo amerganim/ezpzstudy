@@ -1,0 +1,37 @@
+{
+  "topic": "p1_story_writing",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের সূত্র/শিরোনাম থেকে একটি গল্প লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "story",
+      "prompt": "Write a story using the following outline. Title: 'The Thirsty Crow'. Outline: a thirsty crow — search for water — a pitcher with little water — cannot reach — drops pebbles — water rises — drinks and flies away. Add a moral.",
+      "words": [120, 180],
+      "model": "The Thirsty Crow\n\nOnce there was a crow. One hot summer day it became very thirsty. It flew here and there in search of water but found none. At last it saw a pitcher in a garden. It flew down and found a little water at the bottom of the pitcher. But the water was so low that the crow could not reach it.\n\nThe crow did not lose heart. It looked around and saw some pebbles nearby. An idea came to its mind. It began to drop the pebbles into the pitcher one by one. Slowly the water rose up. At last the water came within its reach. The crow drank the water happily and flew away.\n\nMoral: Where there is a will, there is a way.",
+      "rubric": [
+        "একটি উপযুক্ত title দিয়েছি",
+        "outline-এর সব ধাপ ক্রমানুসারে এসেছে",
+        "past tense-এ ধারাবাহিকভাবে লিখেছি",
+        "শেষে একটি moral দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "story",
+      "prompt": "Write a story about the moral 'Unity is strength' using the outline of an old man and his quarrelling sons and a bundle of sticks.",
+      "words": [130, 180],
+      "model": "Unity is Strength\n\nOnce there lived an old farmer. He had four sons. But the sons always quarrelled with one another. The old man was very worried about them. He wanted to teach them a lesson.\n\nOne day he called his sons and gave them a bundle of sticks. He asked each of them to break the bundle. One by one they tried with all their strength, but none could break it. Then the old man untied the bundle and gave each son a single stick. This time they broke the sticks very easily.\n\nThe old man said, 'My sons, if you remain united like the bundle, no one can harm you. But if you quarrel, your enemies will break you easily.' The sons understood their mistake and promised to live in unity.\n\nMoral: Unity is strength.",
+      "rubric": [
+        "একটি উপযুক্ত title দিয়েছি",
+        "গল্পের ধাপগুলো যুক্তিসঙ্গত ক্রমে এসেছে",
+        "একটি সংলাপ/উপদেশ যোগ করেছি",
+        "শেষে moral দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

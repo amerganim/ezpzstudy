@@ -1,0 +1,37 @@
+{
+  "topic": "p1_informal_letter",
+  "paper": "1st",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে একটি informal letter লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your younger brother advising him to study regularly.",
+      "words": [100, 150],
+      "model": "Dhaka\n10 March 2025\n\nDear Rakib,\n\nI hope you are well. I have come to know that you are not studying regularly these days. This has made me worried. So I am writing to give you some advice.\n\nStudy is the main duty of a student. You should make a routine and follow it every day. Do not waste time on mobile games. Pay attention in class and do your homework in time. If you study regularly, you will surely do well in the exam.\n\nGive my love to our parents.\n\nYour loving brother,\nSakib",
+      "rubric": [
+        "উপরে স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "নিয়মিত পড়ার পরামর্শ স্পষ্টভাবে দিয়েছি",
+        "'Your loving brother,' সহ নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your friend describing your visit to a place of historical interest.",
+      "words": [120, 160],
+      "model": "Rajshahi\n5 April 2025\n\nDear Tamim,\n\nHow are you? I am fine. In my last vacation I visited Paharpur, a place of historical interest. I want to share my experience with you.\n\nPaharpur is in Naogaon district. There stands the ruins of a great Buddhist monastery called Somapura Mahavihara. It is more than a thousand years old. I saw the high central temple, the old walls and many terracotta plaques on them. A guide told us many interesting stories. I was amazed to see the skill of our ancestors.\n\nThe visit was truly enjoyable and educative. I hope you will visit the place someday.\n\nYour loving friend,\nNahid",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "স্থানটি ও অভিজ্ঞতা বর্ণনা করেছি",
+        "'Your loving friend,' সহ নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}
