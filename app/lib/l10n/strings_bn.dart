@@ -108,6 +108,22 @@ class Bn {
   static const notSyncedYet = 'অগ্রগতি সংরক্ষণ';
   static const enterPhone = 'ফোন নম্বর লেখো';
 
+  // Leaderboard
+  static const leaderboardTitle = 'তোমার ক্লাসের লিডারবোর্ড';
+  static const leaderboardWeekly = 'প্রতি সপ্তাহে নতুন করে শুরু হয়';
+  static const points = 'পয়েন্ট';
+  static const you = 'তুমি';
+  static const rank = 'অবস্থান';
+  static const anonymousStudent = 'একজন শিক্ষার্থী';
+  static const leaderboardNeedsLogin =
+      'ক্লাসের লিডারবোর্ড দেখতে ফোন নম্বর দিয়ে যুক্ত হও';
+  static const leaderboardNeedsSchool =
+      'লিডারবোর্ডে যোগ দিতে স্কুল কোড যোগ করো';
+  static const leaderboardEmpty =
+      'এই সপ্তাহে এখনো কেউ অনুশীলন করেনি — প্রথম হও!';
+  static const leaderboardOffline = 'লিডারবোর্ড আনা যায়নি — ইন্টারনেট দেখো';
+  static const classLeaderboard = 'ক্লাস লিডারবোর্ড';
+
   // Misc
   static const loading = 'লোড হচ্ছে...';
   static const nothingHere = 'এখানে এখনো কিছু নেই';

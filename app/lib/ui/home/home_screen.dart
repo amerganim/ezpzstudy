@@ -9,6 +9,7 @@ import '../diagnostic/diagnostic_intro_screen.dart';
 import '../flashcards/flashcard_screen.dart';
 import '../insights/focus_area_list.dart';
 import '../insights/predicted_score_card.dart';
+import '../leaderboard/leaderboard_screen.dart';
 import '../session/session_screen.dart';
 import '../sync/sync_screen.dart';
 import '../topics/topic_list_screen.dart';
@@ -152,6 +153,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   label: Bn.vocabularyFlashcards,
                   filled: false,
                   onTap: () => _open(const FlashcardScreen()),
+                ),
+                const SizedBox(height: 14),
+                _BigActionButton(
+                  icon: Icons.emoji_events_rounded,
+                  label: Bn.classLeaderboard,
+                  filled: false,
+                  onTap: () => _open(const LeaderboardScreen()),
                 ),
               ],
             );

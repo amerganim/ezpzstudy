@@ -32,3 +32,13 @@ CREATE TABLE IF NOT EXISTS content_versions (
   released_at   timestamptz NOT NULL DEFAULT now(),
   notes         text
 );
+
+-- Weekly, school-scoped leaderboard points. One row per student per ISO week;
+-- accrued from the correct-answer delta on each sync. Weekly-resetting (a new
+-- week starts a new row) so no one is permanently last. Old weeks can be pruned.
+CREATE TABLE IF NOT EXISTS weekly_scores (
+  student_id text NOT NULL REFERENCES students(id) ON DELETE CASCADE,
+  week       text NOT NULL,  -- ISO week, e.g. "2026-W28"
+  points     integer NOT NULL DEFAULT 0,
+  PRIMARY KEY (student_id, week)
+);

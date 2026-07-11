@@ -55,6 +55,18 @@ class SyncService {
 
   Future<void> logout() => store.clear();
 
+  /// Fetches this week's class leaderboard. Returns null if not logged in or the
+  /// server is unreachable — the UI shows a friendly state rather than an error.
+  Future<Leaderboard?> fetchLeaderboard() async {
+    final token = await store.token();
+    if (token == null || token.isEmpty) return null;
+    try {
+      return await api.leaderboard(token: token);
+    } on ApiException {
+      return null;
+    }
+  }
+
   /// Pushes the current aggregates to the server. Safe to call anytime; returns
   /// an outcome rather than throwing.
   Future<SyncOutcome> syncNow() async {

@@ -5,6 +5,7 @@ const { makeAuthenticate } = require("./lib/authenticate");
 const { authRoutes } = require("./routes/auth");
 const { syncRoutes } = require("./routes/sync");
 const { contentRoutes } = require("./routes/content");
+const { leaderboardRoutes } = require("./routes/leaderboard");
 
 /**
  * Builds the Fastify app over injected dependencies. Does NOT listen — callers
@@ -25,6 +26,7 @@ function buildApp({ pool, config, logger = false }) {
   fastify.register(authRoutes);
   fastify.register(syncRoutes);
   fastify.register(contentRoutes);
+  fastify.register(leaderboardRoutes);
 
   return fastify;
 }

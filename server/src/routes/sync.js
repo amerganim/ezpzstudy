@@ -1,5 +1,7 @@
 "use strict";
 
+const { isoWeek } = require("../lib/week");
+
 // POST /sync — accept a compact batch of AGGREGATED progress, once or twice a
 // day per student. Never per-question. This tiny, low-frequency contract is
 // what keeps hosting cheap (a few hundred bytes/day/student).
@@ -53,6 +55,14 @@ async function syncRoutes(fastify) {
           return reply.code(404).send({ error: "unknown student" });
         }
 
+        // Correct-answer total before this sync, to derive weekly points from
+        // the delta (new correct answers since the last sync).
+        const before = await client.query(
+          "SELECT COALESCE(SUM(correct), 0)::int AS total FROM topic_progress WHERE student_id = $1",
+          [studentId]
+        );
+        const correctBefore = before.rows[0].total;
+
         for (const t of topics) {
           await client.query(
             `INSERT INTO topic_progress (student_id, topic, attempts, correct, last_practiced)
@@ -79,6 +89,22 @@ async function syncRoutes(fastify) {
            WHERE id = $1`,
           [studentId, streakDays, sessions]
         );
+
+        // Accrue this week's leaderboard points from the correct-answer delta.
+        const after = await client.query(
+          "SELECT COALESCE(SUM(correct), 0)::int AS total FROM topic_progress WHERE student_id = $1",
+          [studentId]
+        );
+        const gained = after.rows[0].total - correctBefore;
+        if (gained > 0) {
+          await client.query(
+            `INSERT INTO weekly_scores (student_id, week, points)
+             VALUES ($1, $2, $3)
+             ON CONFLICT (student_id, week) DO UPDATE
+               SET points = weekly_scores.points + EXCLUDED.points`,
+            [studentId, isoWeek(), gained]
+          );
+        }
 
         await client.query("COMMIT");
       } catch (err) {
