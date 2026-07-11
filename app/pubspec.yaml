@@ -16,6 +16,9 @@ dependencies:
   drift_flutter: ^0.2.0
   path_provider: ^2.1.4
 
+  # Progress sync to the minimal backend (Phase 3). Practice never depends on it.
+  http: ^1.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

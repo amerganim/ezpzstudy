@@ -90,6 +90,24 @@ class Bn {
   static const challengeSub = 'তোমার Focus Area শেষ! কঠিন প্রশ্নে নিজেকে যাচাই করো';
   static const startChallenge = 'চ্যালেঞ্জ শুরু করো';
 
+  // Sync / account
+  static const syncTitle = 'অগ্রগতি সংরক্ষণ';
+  static const syncSubtitle = 'তোমার অগ্রগতি নিরাপদে রাখতে ফোন নম্বর দিয়ে যুক্ত হও';
+  static const phoneLabel = 'ফোন নম্বর';
+  static const nameLabel = 'তোমার নাম (ঐচ্ছিক)';
+  static const schoolCodeLabel = 'স্কুল কোড (ঐচ্ছিক)';
+  static const loginAndSync = 'যুক্ত হও ও সংরক্ষণ করো';
+  static const syncNow = 'এখনই সংরক্ষণ করো';
+  static const logout = 'বের হও';
+  static const lastSynced = 'সর্বশেষ সংরক্ষণ';
+  static const neverSynced = 'এখনো সংরক্ষণ হয়নি';
+  static const syncSuccess = 'অগ্রগতি সংরক্ষিত হয়েছে!';
+  static const syncOffline = 'এখন ইন্টারনেট নেই — পরে চেষ্টা করা হবে';
+  static const syncError = 'সংরক্ষণে সমস্যা হয়েছে';
+  static const loginError = 'যুক্ত হওয়া যায়নি — ইন্টারনেট দেখে আবার চেষ্টা করো';
+  static const notSyncedYet = 'অগ্রগতি সংরক্ষণ';
+  static const enterPhone = 'ফোন নম্বর লেখো';
+
   // Misc
   static const loading = 'লোড হচ্ছে...';
   static const nothingHere = 'এখানে এখনো কিছু নেই';

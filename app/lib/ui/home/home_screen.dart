@@ -10,6 +10,7 @@ import '../flashcards/flashcard_screen.dart';
 import '../insights/focus_area_list.dart';
 import '../insights/predicted_score_card.dart';
 import '../session/session_screen.dart';
+import '../sync/sync_screen.dart';
 import '../topics/topic_list_screen.dart';
 
 /// Home: streak, the diagnostic CTA (or its results — predicted score + Focus
@@ -29,6 +30,11 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
     _data = _load();
+    // Fire-and-forget: push progress to the server if logged in and due. Never
+    // blocks the UI; offline is a no-op.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      AppServices.of(context).sync.maybeSync();
+    });
   }
 
   Future<_HomeData> _load() async {
@@ -87,13 +93,25 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.all(20),
               children: [
                 const SizedBox(height: 8),
-                Text(
-                  Bn.appName,
-                  style: TextStyle(
-                    fontSize: 26,
-                    fontWeight: FontWeight.w800,
-                    color: AppTheme.accentDark,
-                  ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        Bn.appName,
+                        style: TextStyle(
+                          fontSize: 26,
+                          fontWeight: FontWeight.w800,
+                          color: AppTheme.accentDark,
+                        ),
+                      ),
+                    ),
+                    IconButton(
+                      tooltip: Bn.syncTitle,
+                      icon: const Icon(Icons.cloud_sync_outlined,
+                          color: AppTheme.accentDark),
+                      onPressed: () => _open(const SyncScreen()),
+                    ),
+                  ],
                 ),
                 const SizedBox(height: 4),
                 const Text(Bn.homeGreeting,
