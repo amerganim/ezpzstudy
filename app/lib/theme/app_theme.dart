@@ -19,10 +19,11 @@ class AppTheme {
       scaffoldBackgroundColor: Colors.white,
     );
     return base.copyWith(
-      textTheme: base.textTheme.apply(
-        // Slightly larger base sizes; readable Bangla + English.
-        fontSizeFactor: 1.05,
-      ),
+      // Bump text slightly for readability. We can't use
+      // TextTheme.apply(fontSizeFactor:) because some Material 3 styles carry a
+      // null fontSize, which trips a debug assertion; scale only the styles that
+      // define a size, leaving the rest untouched.
+      textTheme: _scaleDefinedSizes(base.textTheme, 1.05),
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
           minimumSize: const Size.fromHeight(56), // large tap target
@@ -39,6 +40,31 @@ class AppTheme {
           borderRadius: BorderRadius.circular(16),
         ),
       ),
+    );
+  }
+
+  /// Multiplies the font size of every text style that defines one, leaving
+  /// styles with a null fontSize alone (scaling those asserts in debug).
+  static TextTheme _scaleDefinedSizes(TextTheme theme, double factor) {
+    TextStyle? scale(TextStyle? s) => s?.fontSize == null
+        ? s
+        : s!.copyWith(fontSize: s.fontSize! * factor);
+    return theme.copyWith(
+      displayLarge: scale(theme.displayLarge),
+      displayMedium: scale(theme.displayMedium),
+      displaySmall: scale(theme.displaySmall),
+      headlineLarge: scale(theme.headlineLarge),
+      headlineMedium: scale(theme.headlineMedium),
+      headlineSmall: scale(theme.headlineSmall),
+      titleLarge: scale(theme.titleLarge),
+      titleMedium: scale(theme.titleMedium),
+      titleSmall: scale(theme.titleSmall),
+      bodyLarge: scale(theme.bodyLarge),
+      bodyMedium: scale(theme.bodyMedium),
+      bodySmall: scale(theme.bodySmall),
+      labelLarge: scale(theme.labelLarge),
+      labelMedium: scale(theme.labelMedium),
+      labelSmall: scale(theme.labelSmall),
     );
   }
 }

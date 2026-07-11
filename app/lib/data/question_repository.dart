@@ -72,6 +72,59 @@ class QuestionRepository {
     return practiceable.take(limit).toList();
   }
 
+  /// Auto-gradable types the diagnostic can measure accuracy from (excludes
+  /// flashcards and self-checked writing, which give no accuracy signal).
+  static const Set<QuestionType> diagnosticTypes = {
+    QuestionType.mcq,
+    QuestionType.fillInWordBank,
+    QuestionType.fillInOpen,
+    QuestionType.matching,
+    QuestionType.rearranging,
+    QuestionType.grammarTransformation,
+    QuestionType.comprehensionSet,
+  };
+
+  /// Builds the HSC Readiness Check: a spread of auto-gradable questions across
+  /// as many topics as possible (at most [maxPerTopic] each) so the diagnostic
+  /// seeds a broad, honest picture of where the student stands.
+  Future<List<Question>> diagnosticSet(
+      {int maxPerTopic = 2, int limit = 30}) async {
+    final rows = await db.select(db.questions).get();
+    final all = rows
+        .map(_fromRow)
+        .where((q) => diagnosticTypes.contains(q.type))
+        .toList()
+      ..shuffle();
+    final perTopic = <String, int>{};
+    final selected = <Question>[];
+    for (final q in all) {
+      final count = perTopic[q.topic] ?? 0;
+      if (count >= maxPerTopic) continue;
+      perTopic[q.topic] = count + 1;
+      selected.add(q);
+      if (selected.length >= limit) break;
+    }
+    return selected;
+  }
+
+  /// Builds a strong-student Challenge set: hardest available auto-gradable
+  /// questions first, across all topics. Unlocked once Focus Areas are cleared.
+  Future<List<Question>> challengeSet({int limit = 15}) async {
+    final rows = await db.select(db.questions).get();
+    final pool = rows
+        .map(_fromRow)
+        .where((q) => diagnosticTypes.contains(q.type))
+        .toList()
+      ..shuffle();
+    int rank(Difficulty d) => switch (d) {
+          Difficulty.hard => 0,
+          Difficulty.medium => 1,
+          Difficulty.easy => 2,
+        };
+    pool.sort((a, b) => rank(a.difficulty).compareTo(rank(b.difficulty)));
+    return pool.take(limit).toList();
+  }
+
   Future<List<Question>> ofType(QuestionType type) async {
     final rows = await db.questionsOfType(_typeToJson(type));
     return rows.map(_fromRow).toList();

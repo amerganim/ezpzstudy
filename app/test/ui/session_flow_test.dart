@@ -9,6 +9,7 @@ import 'package:ezpzstudy/app_services.dart';
 import 'package:ezpzstudy/data/db/database.dart';
 import 'package:ezpzstudy/data/models/question.dart';
 import 'package:ezpzstudy/l10n/strings_bn.dart';
+import 'package:ezpzstudy/theme/app_theme.dart';
 import 'package:ezpzstudy/ui/session/feedback_panel.dart';
 import 'package:ezpzstudy/ui/session/session_screen.dart';
 
@@ -64,6 +65,7 @@ void main() {
       AppServicesScope(
         services: services,
         child: MaterialApp(
+          theme: AppTheme.light(),
           home: SessionScreen(topic: 'tense', questions: questions),
         ),
       ),

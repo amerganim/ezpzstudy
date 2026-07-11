@@ -7,6 +7,7 @@ const fs = require("fs");
 const os = require("os");
 
 const { validateCommand, buildCommand } = require("../src/buildPack");
+const { exportTopicMap, compileTopicMap } = require("../src/exportTopicMap");
 
 const TOPIC_MAP = path.join(__dirname, "..", "..", "..", "content", "topic-map", "topic-map.yaml");
 const VALID_SAMPLE = path.join(__dirname, "fixtures", "valid-sample.xlsx");
@@ -79,4 +80,31 @@ test("broken-sample.xlsx build refuses to write a pack", async () => {
   });
   assert.equal(result.ok, false);
   assert.equal(fs.existsSync(outPath), false);
+});
+
+test("topic-map compile carries weights and remedial links for the app", () => {
+  const compiled = compileTopicMap(TOPIC_MAP);
+  assert.ok(compiled.topics.length > 0);
+
+  const tense = compiled.topics.find((t) => t.id === "tense");
+  assert.ok(tense, "expected the tense topic");
+  assert.equal(tense.paper, "2nd");
+  assert.equal(typeof tense.weight, "number");
+
+  // Vocabulary is cross-cutting: present, but weight 0 so it never distorts the
+  // board-score projection.
+  const vocab = compiled.topics.find((t) => t.id === "vocabulary_hsc_words");
+  assert.ok(vocab, "expected the vocabulary topic");
+  assert.equal(vocab.weight, 0);
+});
+
+test("topic-map export writes a JSON file the app can load", () => {
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "ezpz-topicmap-test-"));
+  const outPath = path.join(tmpDir, "topic_map.json");
+  const { topicCount } = exportTopicMap(TOPIC_MAP, outPath);
+  assert.ok(topicCount > 0);
+  const parsed = JSON.parse(fs.readFileSync(outPath, "utf8"));
+  assert.equal(parsed.topics.length, topicCount);
+  assert.ok(Array.isArray(parsed.topics));
+  assert.ok(parsed.remedial_labels && typeof parsed.remedial_labels === "object");
 });

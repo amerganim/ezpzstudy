@@ -2,13 +2,19 @@ import 'package:flutter/material.dart';
 
 import '../../app_services.dart';
 import '../../data/progress_repository.dart';
+import '../../engine/insights_service.dart';
 import '../../l10n/strings_bn.dart';
 import '../../theme/app_theme.dart';
+import '../diagnostic/diagnostic_intro_screen.dart';
 import '../flashcards/flashcard_screen.dart';
+import '../insights/focus_area_list.dart';
+import '../insights/predicted_score_card.dart';
+import '../session/session_screen.dart';
 import '../topics/topic_list_screen.dart';
 
-/// Home: streak front and center, then the two ways in — practice by topic and
-/// vocabulary flashcards. Maximum 3 taps from here to answering a question.
+/// Home: streak, the diagnostic CTA (or its results — predicted score + Focus
+/// Areas), then the ways in — practice by topic, flashcards, and (once cleared)
+/// the Challenge track. Maximum 3 taps from here to answering a question.
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -17,17 +23,24 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  late Future<ProgressSnapshot> _snapshot;
+  late Future<_HomeData> _data;
 
   @override
   void initState() {
     super.initState();
-    _snapshot = AppServices.of(context).progress.snapshot();
+    _data = _load();
+  }
+
+  Future<_HomeData> _load() async {
+    final services = AppServices.of(context);
+    final snapshot = await services.progress.snapshot();
+    final insights = await services.insights.load();
+    return _HomeData(snapshot: snapshot, insights: insights);
   }
 
   void _refresh() {
     setState(() {
-      _snapshot = AppServices.of(context).progress.snapshot();
+      _data = _load();
     });
   }
 
@@ -36,14 +49,40 @@ class _HomeScreenState extends State<HomeScreen> {
     if (mounted) _refresh();
   }
 
+  Future<void> _practiceTopic(String topic) async {
+    final services = AppServices.of(context);
+    final set = await services.questions.practiceSet(topic);
+    if (set.isEmpty || !mounted) return;
+    await services.progress.startSession();
+    if (!mounted) return;
+    await _open(SessionScreen(topic: topic, questions: set));
+  }
+
+  Future<void> _startChallenge() async {
+    final services = AppServices.of(context);
+    final set = await services.questions.challengeSet();
+    if (set.isEmpty || !mounted) return;
+    await services.progress.startSession();
+    if (!mounted) return;
+    await _open(SessionScreen(
+      topic: '__challenge__',
+      titleOverride: Bn.challengeTitle,
+      questions: set,
+    ));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: FutureBuilder<ProgressSnapshot>(
-          future: _snapshot,
+        child: FutureBuilder<_HomeData>(
+          future: _data,
           builder: (context, snap) {
-            final data = snap.data;
+            if (!snap.hasData) {
+              return const Center(child: CircularProgressIndicator());
+            }
+            final data = snap.data!;
+            final insights = data.insights;
             return ListView(
               padding: const EdgeInsets.all(20),
               children: [
@@ -57,14 +96,32 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 const SizedBox(height: 4),
-                Text(
-                  Bn.homeGreeting,
-                  style: const TextStyle(fontSize: 16, color: Colors.black54),
-                ),
+                const Text(Bn.homeGreeting,
+                    style: TextStyle(fontSize: 16, color: Colors.black54)),
                 const SizedBox(height: 20),
-                _StreakCard(streakDays: data?.streakDays ?? 0),
+                _StreakCard(streakDays: data.snapshot.streakDays),
                 const SizedBox(height: 16),
-                _PredictedScoreCard(snapshot: data),
+
+                // Before the diagnostic: a prominent CTA. After: the results.
+                if (!insights.diagnosticDone)
+                  _DiagnosticCta(
+                      onTap: () => _open(const DiagnosticIntroScreen()))
+                else ...[
+                  PredictedScoreCard(score: insights.predictedScore),
+                  const SizedBox(height: 16),
+                  FocusAreaList(
+                    areas: insights.focusAreas,
+                    onPractice: (a) => _practiceTopic(a.topicId),
+                  ),
+                  if (insights.focusAreas.isNotEmpty)
+                    const SizedBox(height: 16),
+                  if (insights.allClear) ...[
+                    _ChallengeCard(onTap: _startChallenge),
+                    const SizedBox(height: 16),
+                  ],
+                ],
+
+                _WeeklyCard(snapshot: data.snapshot),
                 const SizedBox(height: 24),
                 _BigActionButton(
                   icon: Icons.menu_book_rounded,
@@ -85,6 +142,12 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+}
+
+class _HomeData {
+  final ProgressSnapshot snapshot;
+  final Insights insights;
+  const _HomeData({required this.snapshot, required this.insights});
 }
 
 class _StreakCard extends StatelessWidget {
@@ -110,9 +173,7 @@ class _StreakCard extends StatelessWidget {
                           TextSpan(
                             text: Bn.digits(streakDays),
                             style: const TextStyle(
-                              fontSize: 30,
-                              fontWeight: FontWeight.w800,
-                            ),
+                                fontSize: 30, fontWeight: FontWeight.w800),
                           ),
                           TextSpan(
                             text: ' ${Bn.streakDays}',
@@ -121,11 +182,9 @@ class _StreakCard extends StatelessWidget {
                         ],
                       ),
                     )
-                  : const Text(
-                      Bn.noStreakYet,
+                  : const Text(Bn.noStreakYet,
                       style: TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.w700),
-                    ),
+                          fontSize: 20, fontWeight: FontWeight.w700)),
             ),
           ],
         ),
@@ -134,46 +193,144 @@ class _StreakCard extends StatelessWidget {
   }
 }
 
-class _PredictedScoreCard extends StatelessWidget {
-  final ProgressSnapshot? snapshot;
-  const _PredictedScoreCard({required this.snapshot});
+class _DiagnosticCta extends StatelessWidget {
+  final VoidCallback onTap;
+  const _DiagnosticCta({required this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    final s = snapshot;
-    if (s == null || s.totalAttempts == 0) {
-      return const SizedBox.shrink();
-    }
-    final pct = (s.totalCorrect / s.totalAttempts * 100).round();
-    return Card(
-      color: AppTheme.accent.withValues(alpha: 0.10),
-      child: Padding(
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
         padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          color: AppTheme.accent,
+          borderRadius: BorderRadius.circular(16),
+        ),
         child: Row(
           children: [
-            Expanded(
+            const Text('🎯', style: TextStyle(fontSize: 36)),
+            const SizedBox(width: 16),
+            const Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(Bn.scoreLabel,
-                      style: TextStyle(fontSize: 15, color: Colors.black54)),
-                  const SizedBox(height: 4),
-                  Text(
-                    '${Bn.digits(pct)}%',
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.w800,
-                      color: AppTheme.accentDark,
-                    ),
-                  ),
+                  Text(Bn.takeReadinessCheck,
+                      style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w800,
+                          color: Colors.white)),
+                  SizedBox(height: 4),
+                  Text(Bn.takeReadinessCheckSub,
+                      style: TextStyle(fontSize: 13, color: Colors.white70)),
                 ],
               ),
             ),
-            Text('${Bn.digits(s.totalCorrect)}/${Bn.digits(s.totalAttempts)}',
-                style: const TextStyle(fontSize: 18, color: Colors.black54)),
+            const Icon(Icons.chevron_right, color: Colors.white, size: 28),
           ],
         ),
       ),
+    );
+  }
+}
+
+class _ChallengeCard extends StatelessWidget {
+  final VoidCallback onTap;
+  const _ChallengeCard({required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
+        padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(
+            colors: [AppTheme.accentDark, AppTheme.accent],
+          ),
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Row(
+          children: [
+            const Text('🏆', style: TextStyle(fontSize: 36)),
+            const SizedBox(width: 16),
+            const Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(Bn.challengeUnlocked,
+                      style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w800,
+                          color: Colors.white)),
+                  SizedBox(height: 4),
+                  Text(Bn.challengeSub,
+                      style: TextStyle(fontSize: 13, color: Colors.white70)),
+                ],
+              ),
+            ),
+            const Icon(Icons.chevron_right, color: Colors.white, size: 28),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _WeeklyCard extends StatelessWidget {
+  final ProgressSnapshot snapshot;
+  const _WeeklyCard({required this.snapshot});
+
+  @override
+  Widget build(BuildContext context) {
+    if (snapshot.totalAttempts == 0) return const SizedBox.shrink();
+    final acc = snapshot.totalAttempts == 0
+        ? 0
+        : (snapshot.totalCorrect / snapshot.totalAttempts * 100).round();
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            _Stat(
+                value: Bn.digits(snapshot.totalAttempts),
+                label: Bn.questionsAnswered),
+            _Stat(value: '${Bn.digits(acc)}%', label: Bn.scoreLabel),
+            _Stat(
+                value: Bn.digits(snapshot.totalSessions),
+                label: Bn.thisWeek),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _Stat extends StatelessWidget {
+  final String value;
+  final String label;
+  const _Stat({required this.value, required this.label});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text(value,
+            style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.w800,
+                color: AppTheme.accentDark)),
+        const SizedBox(height: 2),
+        SizedBox(
+          width: 90,
+          child: Text(label,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 12, color: Colors.black54)),
+        ),
+      ],
     );
   }
 }
@@ -198,7 +355,9 @@ class _BigActionButton extends StatelessWidget {
       children: [
         Icon(icon, size: 26),
         const SizedBox(width: 12),
-        Text(label, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600)),
+        Text(label,
+            style:
+                const TextStyle(fontSize: 18, fontWeight: FontWeight.w600)),
       ],
     );
     if (filled) {

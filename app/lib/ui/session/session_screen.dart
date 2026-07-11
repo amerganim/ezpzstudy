@@ -23,8 +23,22 @@ import 'session_summary_screen.dart';
 class SessionScreen extends StatefulWidget {
   final String topic;
   final List<Question> questions;
-  const SessionScreen(
-      {super.key, required this.topic, required this.questions});
+
+  /// Title shown in the app bar; defaults to the standard "question N / M" line.
+  final String? titleOverride;
+
+  /// When set, invoked instead of pushing the default summary once the last
+  /// question is finished — used by the diagnostic to route to its own result
+  /// screen. Given the build context, correct count, and total.
+  final void Function(BuildContext context, int correct, int total)? onFinish;
+
+  const SessionScreen({
+    super.key,
+    required this.topic,
+    required this.questions,
+    this.titleOverride,
+    this.onFinish,
+  });
 
   @override
   State<SessionScreen> createState() => _SessionScreenState();
@@ -80,6 +94,11 @@ class _SessionScreenState extends State<SessionScreen> {
 
   void _next() {
     if (_controller.isLastQuestion) {
+      final onFinish = widget.onFinish;
+      if (onFinish != null) {
+        onFinish(context, _controller.correctCount, _controller.total);
+        return;
+      }
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (_) => SessionSummaryScreen(
@@ -114,7 +133,8 @@ class _SessionScreenState extends State<SessionScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          '${Bn.questionOf} ${Bn.digits(_controller.currentIndex + 1)} / ${Bn.digits(_controller.total)}',
+          widget.titleOverride ??
+              '${Bn.questionOf} ${Bn.digits(_controller.currentIndex + 1)} / ${Bn.digits(_controller.total)}',
         ),
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(4),

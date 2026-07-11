@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0.0-draft",
+  "generated_at": "2026-07-10T17:56:57.625Z",
+  "topics": [
+    {
+      "id": "seen_comprehension",
+      "label_en": "Seen comprehension (MCQ / short question / summary / title)",
+      "paper": "1st",
+      "weight": 20,
+      "remedial": []
+    },
+    {
+      "id": "cloze_with_clues",
+      "label_en": "Cloze test with clues",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": [
+        "ssc_vocabulary_basics"
+      ]
+    },
+    {
+      "id": "cloze_without_clues",
+      "label_en": "Cloze test without clues",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": [
+        "ssc_vocabulary_basics"
+      ]
+    },
+    {
+      "id": "rearranging_sentences",
+      "label_en": "Rearranging sentences into a paragraph",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": [
+        "ssc_paragraph_order_basics"
+      ]
+    },
+    {
+      "id": "matching",
+      "label_en": "Matching (halves of sentences)",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "gap_filling_clues",
+      "label_en": "Gap filling with clues",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": [
+        "ssc_vocabulary_basics"
+      ]
+    },
+    {
+      "id": "summarizing",
+      "label_en": "Summarizing a passage",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "graph_chart_description",
+      "label_en": "Graph / chart description",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "flow_chart_completion",
+      "label_en": "Flow chart / form completion",
+      "paper": "1st",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "paragraph_writing_1p",
+      "label_en": "Paragraph writing (1st Paper style, source-based)",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "composition_completion",
+      "label_en": "Composition / passage completion",
+      "paper": "1st",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "tense",
+      "label_en": "Tense",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_tense_basics"
+      ]
+    },
+    {
+      "id": "right_form_of_verb",
+      "label_en": "Right form of verbs",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": [
+        "ssc_verb_forms"
+      ]
+    },
+    {
+      "id": "subject_verb_agreement",
+      "label_en": "Subject-verb agreement",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_sva_basics"
+      ]
+    },
+    {
+      "id": "voice",
+      "label_en": "Voice (active/passive)",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_voice_basics"
+      ]
+    },
+    {
+      "id": "narration",
+      "label_en": "Narration (direct/indirect speech)",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_narration_basics"
+      ]
+    },
+    {
+      "id": "preposition",
+      "label_en": "Preposition",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_preposition_basics"
+      ]
+    },
+    {
+      "id": "connectors",
+      "label_en": "Connectors / linking words",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_connector_basics"
+      ]
+    },
+    {
+      "id": "tag_questions",
+      "label_en": "Tag questions",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_tag_question_basics"
+      ]
+    },
+    {
+      "id": "sentence_transformation",
+      "label_en": "Transformation of sentences",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": [
+        "ssc_sentence_basics"
+      ]
+    },
+    {
+      "id": "punctuation",
+      "label_en": "Punctuation",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_punctuation_basics"
+      ]
+    },
+    {
+      "id": "articles",
+      "label_en": "Articles",
+      "paper": "2nd",
+      "weight": 4,
+      "remedial": [
+        "ssc_article_basics"
+      ]
+    },
+    {
+      "id": "paragraph_writing_2p",
+      "label_en": "Paragraph writing (2nd Paper style)",
+      "paper": "2nd",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "essay_writing",
+      "label_en": "Essay writing",
+      "paper": "2nd",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "application_letter",
+      "label_en": "Application / letter",
+      "paper": "2nd",
+      "weight": 10,
+      "remedial": []
+    },
+    {
+      "id": "formal_letter",
+      "label_en": "Formal letter",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "informal_letter",
+      "label_en": "Informal letter",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "email_writing",
+      "label_en": "Email writing",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "cv_writing",
+      "label_en": "CV writing",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "dialogue_writing",
+      "label_en": "Dialogue writing",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "report_writing",
+      "label_en": "Report writing",
+      "paper": "2nd",
+      "weight": 5,
+      "remedial": []
+    },
+    {
+      "id": "vocabulary_hsc_words",
+      "label_en": "High-frequency HSC vocabulary",
+      "paper": "both",
+      "weight": 0,
+      "remedial": []
+    }
+  ],
+  "remedial_labels": {
+    "ssc_tense_basics": "Basics of tense forms",
+    "ssc_verb_forms": "Basic verb forms (V1-V5)",
+    "ssc_sva_basics": "Basic subject-verb agreement rules",
+    "ssc_voice_basics": "Basic active/passive voice rules",
+    "ssc_narration_basics": "Basic direct/indirect speech rules",
+    "ssc_preposition_basics": "Common preposition usage",
+    "ssc_connector_basics": "Basic linking words",
+    "ssc_tag_question_basics": "Basic tag question rules",
+    "ssc_sentence_basics": "Basic sentence types and structure",
+    "ssc_punctuation_basics": "Basic punctuation rules",
+    "ssc_article_basics": "Basic article usage (a/an/the)",
+    "ssc_vocabulary_basics": "Core vocabulary and word meanings",
+    "ssc_paragraph_order_basics": "Basic paragraph/sentence ordering logic"
+  }
+}

@@ -57,6 +57,39 @@ class Bn {
   static const practiceAgain = 'আবার অনুশীলন করো';
   static const keepGoing = 'চালিয়ে যাও, তুমি পারবে!';
 
+  // Diagnostic (HSC Readiness Check)
+  static const readinessCheckTitle = 'HSC প্রস্তুতি যাচাই';
+  static const readinessCheckIntro =
+      'কয়েকটি প্রশ্নের উত্তর দাও। আমরা দেখব তুমি বোর্ড পরীক্ষায় এখন কেমন করবে '
+      'এবং কোন বিষয়গুলোতে বেশি অনুশীলন দরকার।';
+  static const startReadinessCheck = 'যাচাই শুরু করো';
+  static const readinessCheckDone = 'যাচাই সম্পন্ন!';
+  static const yourPredictedScore = 'তোমার সম্ভাব্য বোর্ড স্কোর';
+  static const focusOnThese = 'এই বিষয়গুলোতে মন দাও';
+  static const seeYourPlan = 'তোমার পরিকল্পনা দেখো';
+
+  // Focus areas & predicted score (home)
+  static const predictedBoardScore = 'সম্ভাব্য বোর্ড স্কোর';
+  static const basedOnSoFar = 'এ পর্যন্ত অনুশীলনের ভিত্তিতে';
+  static const focusAreasTitle = 'Focus Area — এখন এগুলো অনুশীলন করো';
+  static const worthMarks = 'নম্বর';
+  static const youdScore = 'আজ তুমি পাবে';
+  static const takeReadinessCheck = 'HSC প্রস্তুতি যাচাই করো';
+  static const takeReadinessCheckSub =
+      'কোথা থেকে শুরু করবে জানতে ছোট একটি যাচাই দাও';
+  static const practiceThisTopic = 'এই বিষয়টি অনুশীলন করো';
+
+  // Weekly progress
+  static const thisWeek = 'এই সপ্তাহ';
+  static const questionsAnswered = 'টি প্রশ্নের উত্তর দিয়েছ';
+  static const daysActive = 'দিন সক্রিয় ছিলে';
+
+  // Challenge track (strong student)
+  static const challengeUnlocked = 'চ্যালেঞ্জ আনলক হয়েছে!';
+  static const challengeTitle = 'চ্যালেঞ্জ মোড';
+  static const challengeSub = 'তোমার Focus Area শেষ! কঠিন প্রশ্নে নিজেকে যাচাই করো';
+  static const startChallenge = 'চ্যালেঞ্জ শুরু করো';
+
   // Misc
   static const loading = 'লোড হচ্ছে...';
   static const nothingHere = 'এখানে এখনো কিছু নেই';

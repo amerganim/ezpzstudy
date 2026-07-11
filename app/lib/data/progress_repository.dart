@@ -27,6 +27,13 @@ class ProgressRepository {
   static const _streakDaysKey = 'streak_days';
   static const _lastPracticeDayKey = 'last_practice_day';
   static const _totalSessionsKey = 'total_sessions';
+  static const _diagnosticDoneKey = 'diagnostic_completed';
+
+  Future<bool> isDiagnosticDone() async =>
+      (await db.getMeta(_diagnosticDoneKey)) == 'true';
+
+  Future<void> markDiagnosticDone() =>
+      db.setMeta(_diagnosticDoneKey, 'true');
 
   Future<void> recordAttempt(String topic, bool correct, {DateTime? when}) {
     return db.recordAttempt(

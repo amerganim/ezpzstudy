@@ -5,6 +5,8 @@ import 'data/db/database.dart';
 import 'data/flashcard_repository.dart';
 import 'data/progress_repository.dart';
 import 'data/question_repository.dart';
+import 'data/topic_map_repository.dart';
+import 'engine/insights_service.dart';
 import 'engine/scoring/scoring_engine.dart';
 
 /// Composition root: the single place the app's services are constructed and
@@ -15,6 +17,8 @@ class AppServices {
   final QuestionRepository questions;
   final ProgressRepository progress;
   final FlashcardRepository flashcards;
+  final TopicMapRepository topicMap;
+  final InsightsService insights;
   final ContentLoader contentLoader;
   final ScoringEngine scoring;
 
@@ -23,6 +27,8 @@ class AppServices {
     required this.questions,
     required this.progress,
     required this.flashcards,
+    required this.topicMap,
+    required this.insights,
     required this.contentLoader,
     required this.scoring,
   });
@@ -33,11 +39,15 @@ class AppServices {
   /// real on-device DB, and by tests with an in-memory one.
   factory AppServices.withDatabase(AppDatabase db) {
     final questions = QuestionRepository(db);
+    final progress = ProgressRepository(db);
+    final topicMap = TopicMapRepository();
     return AppServices._(
       db: db,
       questions: questions,
-      progress: ProgressRepository(db),
+      progress: progress,
       flashcards: FlashcardRepository(db, questions),
+      topicMap: topicMap,
+      insights: InsightsService(progress: progress, topicMap: topicMap),
       contentLoader: ContentLoader(db),
       scoring: const ScoringEngine(),
     );

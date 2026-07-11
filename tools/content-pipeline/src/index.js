@@ -5,6 +5,7 @@ const path = require("path");
 const { parseArgs } = require("node:util");
 const { buildCommand, validateCommand } = require("./buildPack");
 const { generateTemplate } = require("./generateTemplate");
+const { exportTopicMap } = require("./exportTopicMap");
 
 const DEFAULT_TOPIC_MAP = path.join(__dirname, "..", "..", "..", "content", "topic-map", "topic-map.yaml");
 
@@ -15,6 +16,7 @@ function printUsage() {
       "  node src/index.js validate --input <workbook.xlsx> [--topic-map <topic-map.yaml>]",
       "  node src/index.js build --input <workbook.xlsx> [--topic-map <topic-map.yaml>] --out <content_pack_vN.json> --pack-version <N>",
       "  node src/index.js template --out <template.xlsx> [--topic-map <topic-map.yaml>]",
+      "  node src/index.js topic-map --out <topic_map.json> [--topic-map <topic-map.yaml>]",
     ].join("\n")
   );
 }
@@ -22,7 +24,8 @@ function printUsage() {
 async function main() {
   const [command, ...rest] = process.argv.slice(2);
 
-  if (command !== "validate" && command !== "build" && command !== "template") {
+  const known = ["validate", "build", "template", "topic-map"];
+  if (!known.includes(command)) {
     printUsage();
     process.exit(1);
   }
@@ -45,6 +48,18 @@ async function main() {
     }
     const outPath = await generateTemplate(values.out, values["topic-map"]);
     console.log(`Template written to ${outPath}`);
+    process.exit(0);
+  }
+
+  if (command === "topic-map") {
+    if (!values.out) {
+      console.error("Error: --out is required for topic-map");
+      printUsage();
+      process.exit(1);
+    }
+    const { outPath, topicCount } =
+        exportTopicMap(values["topic-map"], values.out);
+    console.log(`Topic map (${topicCount} topics) written to ${outPath}`);
     process.exit(0);
   }
 
