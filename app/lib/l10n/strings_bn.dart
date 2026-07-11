@@ -50,6 +50,14 @@ class Bn {
   static const selfCheckTitle = 'নিজে যাচাই করো';
   static const iGotItRight = 'আমি ঠিক লিখেছি';
   static const iNeedPractice = 'আরও অনুশীলন দরকার';
+  // Stricter self-check flow
+  static const wordsWritten = 'লিখেছ';
+  static const wordsUnit = 'শব্দ';
+  static const minWordsHint = 'নমুনা দেখতে অন্তত ১৫ শব্দ নিজে লেখো';
+  static const compareAndTick = 'নমুনার সাথে মিলিয়ে সৎভাবে টিক দাও — যেগুলো তুমি সত্যিই পেরেছ';
+  static const youMet = 'তুমি পেরেছ';
+  static const doneSelfCheck = 'হয়ে গেছে';
+  static const writeFirst = 'আগে নিজে উত্তরটি লেখো, তারপর নমুনা দেখো';
   static const selectAnswer = 'উত্তর বেছে নাও';
   static const arrangeInOrder = 'সঠিক ক্রমে সাজাও';
   static const matchPairs = 'সঠিকভাবে মেলাও';

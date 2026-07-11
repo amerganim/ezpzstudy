@@ -1,0 +1,33 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "f",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Health is the most valuable wealth of a man. A healthy person can enjoy life and work hard, but a sick person cannot. To keep good health, we must follow some rules. We should eat balanced food that contains vitamins, protein and minerals. We should take physical exercise regularly and sleep at least eight hours a day. We must keep our body, clothes and surroundings clean. We should also avoid junk food and bad habits like smoking. A sound mind lives in a sound body, so keeping fit helps us study and work better.",
+      "subs": [
+        { "type": "mcq", "q": "What is the most valuable wealth of a man?", "opts": ["money", "health", "gold", "land"], "correct": 1, "rule_bn": "'Health is the most valuable wealth of a man'।" },
+        { "type": "fill_in_open", "q": "How many hours should we sleep a day?", "a": ["eight", "8", "eight hours"], "fuzzy": 2, "rule_bn": "'sleep at least eight hours a day'।" },
+        { "type": "mcq", "q": "What kind of food should we eat?", "opts": ["junk food", "balanced food", "only rice", "no food"], "correct": 1, "rule_bn": "'We should eat balanced food'।" },
+        { "type": "mcq", "q": "A sound mind lives in a sound ___.", "opts": ["house", "body", "school", "mind"], "correct": 1, "rule_bn": "'A sound mind lives in a sound body'।" },
+        { "type": "fill_in_open", "q": "We should keep our body, clothes and surroundings ___.", "a": ["clean"], "rule_bn": "'keep our body, clothes and surroundings clean'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Science has given us many wonderful things. It has made our life easy and comfortable. Electricity is one of the greatest gifts of science. It gives us light, runs our fans and machines, and works in many other ways. The mobile phone and the computer have made communication fast and easy. In the field of medicine, science has invented many life-saving drugs and machines. Fast vehicles like cars, trains and aeroplanes have made travel quick. But science can also be misused. Terrible weapons are products of science too. So, we should use science for the welfare of mankind.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What is one of the greatest gifts of science?", "a": ["electricity"], "rule_bn": "'Electricity is one of the greatest gifts of science'।" },
+        { "type": "mcq", "q": "What has made communication fast and easy?", "opts": ["electricity", "the mobile phone and the computer", "medicine", "weapons"], "correct": 1, "rule_bn": "'The mobile phone and the computer have made communication fast and easy'।" },
+        { "type": "mcq", "q": "How has science helped travel?", "opts": ["made it slow", "made it quick", "stopped it", "made it costly"], "correct": 1, "rule_bn": "'Fast vehicles ... have made travel quick'।" },
+        { "type": "fill_in_open", "q": "We should use science for the ___ of mankind.", "a": ["welfare"], "rule_bn": "'use science for the welfare of mankind'।" }
+      ]
+    }
+  ]
+}

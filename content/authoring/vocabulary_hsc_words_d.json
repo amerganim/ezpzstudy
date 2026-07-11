@@ -1,0 +1,26 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "rural", "back_bn": "গ্রামীণ", "example": "Many people live in rural areas.", "pos": "adjective", "syn": "village-like", "ant": "urban" },
+    { "type": "flashcard", "front": "sacrifice", "back_bn": "ত্যাগ", "example": "A mother makes many sacrifices for her children.", "pos": "noun", "syn": "surrender", "ant": "gain" },
+    { "type": "flashcard", "front": "tremble", "back_bn": "কাঁপা", "example": "He began to tremble with fear.", "pos": "verb", "syn": "shake", "ant": "steady" },
+    { "type": "flashcard", "front": "unity", "back_bn": "ঐক্য", "example": "Unity is strength.", "pos": "noun", "syn": "oneness", "ant": "division" },
+    { "type": "flashcard", "front": "vast", "back_bn": "বিশাল", "example": "The sea is vast.", "pos": "adjective", "syn": "huge", "ant": "small" },
+    { "type": "flashcard", "front": "wander", "back_bn": "ঘুরে বেড়ানো", "example": "The boy loves to wander in the fields.", "pos": "verb", "syn": "roam", "ant": "settle" },
+    { "type": "flashcard", "front": "yield", "back_bn": "ফলন / নতি স্বীকার করা", "example": "The land yields good crops.", "pos": "verb", "syn": "produce", "ant": "resist" },
+    { "type": "flashcard", "front": "zeal", "back_bn": "উৎসাহ", "example": "He works with great zeal.", "pos": "noun", "syn": "enthusiasm", "ant": "apathy" },
+    { "type": "flashcard", "front": "anxiety", "back_bn": "উদ্বেগ", "example": "She waited in anxiety for the result.", "pos": "noun", "syn": "worry", "ant": "calm" },
+    { "type": "flashcard", "front": "bond", "back_bn": "বন্ধন", "example": "There is a strong bond between them.", "pos": "noun", "syn": "tie", "ant": "separation" },
+    { "type": "flashcard", "front": "crucial", "back_bn": "অত্যন্ত গুরুত্বপূর্ণ", "example": "This is a crucial moment.", "pos": "adjective", "syn": "vital", "ant": "trivial" },
+    { "type": "flashcard", "front": "deprive", "back_bn": "বঞ্চিত করা", "example": "Do not deprive them of their rights.", "pos": "verb", "syn": "deny", "ant": "provide" },
+    { "type": "flashcard", "front": "efficient", "back_bn": "দক্ষ", "example": "She is an efficient worker.", "pos": "adjective", "syn": "capable", "ant": "inefficient" },
+    { "type": "flashcard", "front": "flourish", "back_bn": "সমৃদ্ধ হওয়া", "example": "Business flourishes in peace.", "pos": "verb", "syn": "thrive", "ant": "decline" },
+    { "type": "flashcard", "front": "grief", "back_bn": "দুঃখ", "example": "She was filled with grief.", "pos": "noun", "syn": "sorrow", "ant": "joy" },
+    { "type": "flashcard", "front": "hospitable", "back_bn": "অতিথিপরায়ণ", "example": "Village people are very hospitable.", "pos": "adjective", "syn": "welcoming", "ant": "unfriendly" }
+  ]
+}

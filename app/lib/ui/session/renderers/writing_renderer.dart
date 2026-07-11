@@ -5,10 +5,15 @@ import '../../../engine/scoring/scoring_engine.dart';
 import '../../../l10n/strings_bn.dart';
 import '../../../theme/app_theme.dart';
 
-/// Writing prompt: not auto-scored. The student writes (on paper or in the
-/// field), then must tick the rubric checklist before the model answer is
-/// revealed — nudging honest self-assessment, per the pilot's expected failure
-/// mode where students mark themselves correct without checking.
+/// Writing prompt: not auto-scored, but self-checked *honestly*.
+///
+/// Flow (designed against the pilot's expected failure mode — students marking
+/// themselves correct without checking):
+///   1. The student must actually write an attempt (a minimum number of words)
+///      before the model answer can be revealed.
+///   2. Only then is the model answer shown.
+///   3. The rubric is ticked AFTER seeing the model — a genuine comparison, not
+///      a promise made up front — with a live "you met X / N points" score.
 ///
 /// Self-managed: it calls [onSubmit] itself rather than exposing a score() to
 /// the session screen's check button.
@@ -29,12 +34,19 @@ class WritingRenderer extends StatefulWidget {
 }
 
 class _WritingRendererState extends State<WritingRenderer> {
+  static const _minWords = 15;
+
   final _controller = TextEditingController();
-  final Set<String> _ticked = {};
+  final Set<String> _ticked = {}; // ticked AFTER reveal (honest comparison)
   bool _revealed = false;
 
-  bool get _allTicked =>
-      widget.data.rubricChecklist.every((r) => _ticked.contains(r.id));
+  int get _wordCount {
+    final t = _controller.text.trim();
+    if (t.isEmpty) return 0;
+    return t.split(RegExp(r'\s+')).length;
+  }
+
+  bool get _canReveal => _wordCount >= _minWords;
 
   @override
   void dispose() {
@@ -60,66 +72,110 @@ class _WritingRendererState extends State<WritingRenderer> {
         const SizedBox(height: 16),
         TextField(
           controller: _controller,
-          enabled: !widget.submitted,
-          minLines: 4,
-          maxLines: 10,
+          enabled: !widget.submitted && !_revealed,
+          minLines: 5,
+          maxLines: 12,
           textCapitalization: TextCapitalization.sentences,
+          onChanged: (_) => setState(() {}),
           decoration: InputDecoration(
             hintText: Bn.yourAnswer,
             border:
                 OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
           ),
         ),
-        const SizedBox(height: 20),
-        Text(Bn.selfCheckTitle,
-            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
-        const SizedBox(height: 8),
-        for (final item in d.rubricChecklist)
-          CheckboxListTile(
-            value: _ticked.contains(item.id),
-            onChanged: widget.submitted
-                ? null
-                : (v) => setState(() {
-                      if (v == true) {
-                        _ticked.add(item.id);
-                      } else {
-                        _ticked.remove(item.id);
-                      }
-                    }),
-            contentPadding: EdgeInsets.zero,
-            controlAffinity: ListTileControlAffinity.leading,
-            title: Text(item.criterionBn, style: const TextStyle(fontSize: 15)),
-          ),
-        const SizedBox(height: 12),
-        if (!_revealed)
+        const SizedBox(height: 6),
+        Text('${Bn.wordsWritten}: ${Bn.digits(_wordCount)} ${Bn.wordsUnit}',
+            style: const TextStyle(fontSize: 13, color: Colors.black54)),
+        const SizedBox(height: 16),
+
+        if (!_revealed) ...[
           FilledButton.tonal(
-            onPressed: _allTicked ? () => setState(() => _revealed = true) : null,
+            onPressed: _canReveal
+                ? () => setState(() => _revealed = true)
+                : null,
             child: const Text(Bn.showModelAnswer),
-          )
-        else ...[
+          ),
+          if (!_canReveal) ...[
+            const SizedBox(height: 8),
+            Text(Bn.minWordsHint,
+                textAlign: TextAlign.center,
+                style: const TextStyle(fontSize: 13, color: Colors.black45)),
+          ],
+        ] else ...[
           _ModelAnswer(text: d.modelAnswerEn),
+          const SizedBox(height: 20),
+          Text(Bn.compareAndTick,
+              style:
+                  const TextStyle(fontSize: 15, fontWeight: FontWeight.w700)),
+          const SizedBox(height: 8),
+          for (final item in d.rubricChecklist)
+            CheckboxListTile(
+              value: _ticked.contains(item.id),
+              onChanged: widget.submitted
+                  ? null
+                  : (v) => setState(() {
+                        if (v == true) {
+                          _ticked.add(item.id);
+                        } else {
+                          _ticked.remove(item.id);
+                        }
+                      }),
+              contentPadding: EdgeInsets.zero,
+              controlAffinity: ListTileControlAffinity.leading,
+              title:
+                  Text(item.criterionBn, style: const TextStyle(fontSize: 15)),
+            ),
+          const SizedBox(height: 8),
+          _ScoreBar(
+            met: _ticked.length,
+            total: d.rubricChecklist.length,
+          ),
           const SizedBox(height: 16),
           if (!widget.submitted)
-            Row(
-              children: [
-                Expanded(
-                  child: OutlinedButton(
-                    onPressed: () =>
-                        widget.onSubmit(ScoreResult.selfCheck),
-                    child: const Text(Bn.iNeedPractice),
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: FilledButton(
-                    onPressed: () =>
-                        widget.onSubmit(ScoreResult.selfCheck),
-                    child: const Text(Bn.iGotItRight),
-                  ),
-                ),
-              ],
+            FilledButton(
+              onPressed: () => widget.onSubmit(ScoreResult.selfCheck),
+              child: const Text(Bn.doneSelfCheck),
             ),
         ],
+      ],
+    );
+  }
+}
+
+class _ScoreBar extends StatelessWidget {
+  final int met;
+  final int total;
+  const _ScoreBar({required this.met, required this.total});
+
+  @override
+  Widget build(BuildContext context) {
+    final frac = total == 0 ? 0.0 : met / total;
+    final color = frac >= 0.8
+        ? AppTheme.correct
+        : (frac >= 0.5 ? AppTheme.accent : AppTheme.incorrect);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Text(Bn.youMet,
+                style: const TextStyle(fontSize: 14, color: Colors.black54)),
+            Text('${Bn.digits(met)} / ${Bn.digits(total)}',
+                style: TextStyle(
+                    fontSize: 16, fontWeight: FontWeight.w800, color: color)),
+          ],
+        ),
+        const SizedBox(height: 6),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(8),
+          child: LinearProgressIndicator(
+            value: frac,
+            minHeight: 8,
+            backgroundColor: Colors.black12,
+            color: color,
+          ),
+        ),
       ],
     );
   }

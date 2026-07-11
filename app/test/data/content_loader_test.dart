@@ -13,7 +13,7 @@ import 'package:ezpzstudy/data/models/question_data.dart';
 /// rootBundle, which isn't available in a plain unit test) to prove the row
 /// round-trip and model rehydration work against actual shipped content.
 Future<void> loadPackFromFile(AppDatabase db) async {
-  final packFile = File('assets/content/content_pack_v10.json');
+  final packFile = File('assets/content/content_pack_v11.json');
   final pack = json.decode(await packFile.readAsString()) as List<dynamic>;
   await db.batch((batch) {
     for (final entry in pack) {

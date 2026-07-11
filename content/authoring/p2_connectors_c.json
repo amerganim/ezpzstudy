@@ -1,0 +1,18 @@
+{
+  "topic": "p2_connectors",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "He studied hard. {{1}}, he passed with a good grade.", "bank": ["However", "As a result", "But", "Although"], "ans": ["As a result"], "rule_bn": "ফলাফল বোঝাতে 'As a result'।" },
+    { "type": "fill_in_word_bank", "q": "The weather was bad. {{1}}, the flight was cancelled.", "bank": ["However", "Therefore", "But", "Though"], "ans": ["Therefore"], "rule_bn": "সুতরাং বোঝাতে 'Therefore'।" },
+    { "type": "fill_in_word_bank", "q": "He is rich. {{1}}, he lives simply.", "bank": ["So", "Yet", "Because", "Therefore"], "ans": ["Yet"], "rule_bn": "বিপরীত ভাব বোঝাতে 'Yet'।" },
+    { "type": "fill_in_word_bank", "q": "{{1}}, we should save trees. {{2}}, we should plant more.", "bank": ["Firstly", "Secondly", "However", "Because"], "ans": ["Firstly", "Secondly"], "rule_bn": "ক্রম বোঝাতে 'Firstly ... Secondly'।" },
+    { "type": "fill_in_word_bank", "q": "She likes tea. {{1}}, her sister likes coffee.", "bank": ["On the other hand", "Therefore", "So", "Hence"], "ans": ["On the other hand"], "rule_bn": "তুলনা/বিপরীত বোঝাতে 'On the other hand'।" },
+    { "type": "fill_in_word_bank", "q": "He is honest. {{1}}, he is hardworking.", "bank": ["But", "Moreover", "However", "Though"], "ans": ["Moreover"], "rule_bn": "অতিরিক্ত তথ্য যোগ করতে 'Moreover'।" },
+    { "type": "fill_in_word_bank", "q": "Work hard. {{1}}, you will not succeed.", "bank": ["And", "Otherwise", "So", "Because"], "ans": ["Otherwise"], "rule_bn": "নাহলে বোঝাতে 'Otherwise'।" },
+    { "type": "fill_in_word_bank", "q": "{{1}}, honesty is a great virtue.", "bank": ["In fact", "But", "So", "Otherwise"], "ans": ["In fact"], "rule_bn": "জোর দিতে 'In fact'।" }
+  ]
+}

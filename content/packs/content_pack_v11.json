@@ -4385,6 +4385,342 @@
     }
   },
   {
+    "id": "b.flashcard.vocabulary_hsc_words-d001",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "গ্রামীণ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "rural",
+      "back_bn": "গ্রামীণ",
+      "example_sentence_en": "Many people live in rural areas.",
+      "part_of_speech": "adjective",
+      "synonym": "village-like",
+      "antonym": "urban"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d002",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ত্যাগ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "sacrifice",
+      "back_bn": "ত্যাগ",
+      "example_sentence_en": "A mother makes many sacrifices for her children.",
+      "part_of_speech": "noun",
+      "synonym": "surrender",
+      "antonym": "gain"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d003",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কাঁপা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "tremble",
+      "back_bn": "কাঁপা",
+      "example_sentence_en": "He began to tremble with fear.",
+      "part_of_speech": "verb",
+      "synonym": "shake",
+      "antonym": "steady"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d004",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ঐক্য",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "unity",
+      "back_bn": "ঐক্য",
+      "example_sentence_en": "Unity is strength.",
+      "part_of_speech": "noun",
+      "synonym": "oneness",
+      "antonym": "division"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d005",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বিশাল",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "vast",
+      "back_bn": "বিশাল",
+      "example_sentence_en": "The sea is vast.",
+      "part_of_speech": "adjective",
+      "synonym": "huge",
+      "antonym": "small"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d006",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ঘুরে বেড়ানো",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "wander",
+      "back_bn": "ঘুরে বেড়ানো",
+      "example_sentence_en": "The boy loves to wander in the fields.",
+      "part_of_speech": "verb",
+      "synonym": "roam",
+      "antonym": "settle"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d007",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ফলন / নতি স্বীকার করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "yield",
+      "back_bn": "ফলন / নতি স্বীকার করা",
+      "example_sentence_en": "The land yields good crops.",
+      "part_of_speech": "verb",
+      "synonym": "produce",
+      "antonym": "resist"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d008",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "উৎসাহ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "zeal",
+      "back_bn": "উৎসাহ",
+      "example_sentence_en": "He works with great zeal.",
+      "part_of_speech": "noun",
+      "synonym": "enthusiasm",
+      "antonym": "apathy"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d009",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "উদ্বেগ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "anxiety",
+      "back_bn": "উদ্বেগ",
+      "example_sentence_en": "She waited in anxiety for the result.",
+      "part_of_speech": "noun",
+      "synonym": "worry",
+      "antonym": "calm"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d010",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বন্ধন",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "bond",
+      "back_bn": "বন্ধন",
+      "example_sentence_en": "There is a strong bond between them.",
+      "part_of_speech": "noun",
+      "synonym": "tie",
+      "antonym": "separation"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d011",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "অত্যন্ত গুরুত্বপূর্ণ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "crucial",
+      "back_bn": "অত্যন্ত গুরুত্বপূর্ণ",
+      "example_sentence_en": "This is a crucial moment.",
+      "part_of_speech": "adjective",
+      "synonym": "vital",
+      "antonym": "trivial"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d012",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বঞ্চিত করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "deprive",
+      "back_bn": "বঞ্চিত করা",
+      "example_sentence_en": "Do not deprive them of their rights.",
+      "part_of_speech": "verb",
+      "synonym": "deny",
+      "antonym": "provide"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d013",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দক্ষ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "efficient",
+      "back_bn": "দক্ষ",
+      "example_sentence_en": "She is an efficient worker.",
+      "part_of_speech": "adjective",
+      "synonym": "capable",
+      "antonym": "inefficient"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d014",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সমৃদ্ধ হওয়া",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "flourish",
+      "back_bn": "সমৃদ্ধ হওয়া",
+      "example_sentence_en": "Business flourishes in peace.",
+      "part_of_speech": "verb",
+      "synonym": "thrive",
+      "antonym": "decline"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d015",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দুঃখ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "grief",
+      "back_bn": "দুঃখ",
+      "example_sentence_en": "She was filled with grief.",
+      "part_of_speech": "noun",
+      "synonym": "sorrow",
+      "antonym": "joy"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-d016",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "অতিথিপরায়ণ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "hospitable",
+      "back_bn": "অতিথিপরায়ণ",
+      "example_sentence_en": "Village people are very hospitable.",
+      "part_of_speech": "adjective",
+      "synonym": "welcoming",
+      "antonym": "unfriendly"
+    }
+  },
+  {
     "id": "b.grammar_transformation.basics_punctuation-001",
     "type": "grammar_transformation",
     "paper": "both",
@@ -8261,6 +8597,233 @@
             "sentence_en": "A good student is an asset to his family and the ___.",
             "accepted_answers": [
               "nation"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-f001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Health is the most valuable wealth of a man. A healthy person can enjoy life and work hard, but a sick person cannot. To keep good health, we must follow some rules. We should eat balanced food that contains vitamins, protein and minerals. We should take physical exercise regularly and sleep at least eight hours a day. We must keep our body, clothes and surroundings clean. We should also avoid junk food and bad habits like smoking. A sound mind lives in a sound body, so keeping fit helps us study and work better.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'Health is the most valuable wealth of a man'।",
+          "data": {
+            "question_en": "What is the most valuable wealth of a man?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "money"
+              },
+              {
+                "key": "B",
+                "text_en": "health"
+              },
+              {
+                "key": "C",
+                "text_en": "gold"
+              },
+              {
+                "key": "D",
+                "text_en": "land"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'sleep at least eight hours a day'।",
+          "data": {
+            "sentence_en": "How many hours should we sleep a day?",
+            "accepted_answers": [
+              "eight",
+              "8",
+              "eight hours"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'We should eat balanced food'।",
+          "data": {
+            "question_en": "What kind of food should we eat?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "junk food"
+              },
+              {
+                "key": "B",
+                "text_en": "balanced food"
+              },
+              {
+                "key": "C",
+                "text_en": "only rice"
+              },
+              {
+                "key": "D",
+                "text_en": "no food"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'A sound mind lives in a sound body'।",
+          "data": {
+            "question_en": "A sound mind lives in a sound ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "house"
+              },
+              {
+                "key": "B",
+                "text_en": "body"
+              },
+              {
+                "key": "C",
+                "text_en": "school"
+              },
+              {
+                "key": "D",
+                "text_en": "mind"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'keep our body, clothes and surroundings clean'।",
+          "data": {
+            "sentence_en": "We should keep our body, clothes and surroundings ___.",
+            "accepted_answers": [
+              "clean"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-f002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Science has given us many wonderful things. It has made our life easy and comfortable. Electricity is one of the greatest gifts of science. It gives us light, runs our fans and machines, and works in many other ways. The mobile phone and the computer have made communication fast and easy. In the field of medicine, science has invented many life-saving drugs and machines. Fast vehicles like cars, trains and aeroplanes have made travel quick. But science can also be misused. Terrible weapons are products of science too. So, we should use science for the welfare of mankind.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'Electricity is one of the greatest gifts of science'।",
+          "data": {
+            "sentence_en": "What is one of the greatest gifts of science?",
+            "accepted_answers": [
+              "electricity"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'The mobile phone and the computer have made communication fast and easy'।",
+          "data": {
+            "question_en": "What has made communication fast and easy?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "electricity"
+              },
+              {
+                "key": "B",
+                "text_en": "the mobile phone and the computer"
+              },
+              {
+                "key": "C",
+                "text_en": "medicine"
+              },
+              {
+                "key": "D",
+                "text_en": "weapons"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'Fast vehicles ... have made travel quick'।",
+          "data": {
+            "question_en": "How has science helped travel?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "made it slow"
+              },
+              {
+                "key": "B",
+                "text_en": "made it quick"
+              },
+              {
+                "key": "C",
+                "text_en": "stopped it"
+              },
+              {
+                "key": "D",
+                "text_en": "made it costly"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'use science for the welfare of mankind'।",
+          "data": {
+            "sentence_en": "We should use science for the ___ of mankind.",
+            "accepted_answers": [
+              "welfare"
             ],
             "fuzzy_tolerance": 0,
             "case_sensitive": false
@@ -12907,6 +13470,216 @@
     }
   },
   {
+    "id": "p2.fill_in_open.p2_preposition-d001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'aware of' — সচেতন বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is aware ___ the danger.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'junior to' বসে (than নয়)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She is junior ___ me.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'popular with' — জনপ্রিয় বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The teacher is popular ___ the students.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'absent from' — অনুপস্থিত বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is absent ___ class today.",
+      "accepted_answers": [
+        "from"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "কারো মতের সাথে একমত: 'agree with'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I agree ___ your opinion.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'belong to' — অধিকারে থাকা বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "This pen belongs ___ me.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'addicted to' — আসক্ত বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is addicted ___ gambling.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'anxious about' — উদ্বিগ্ন বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She is anxious ___ her son's health.",
+      "accepted_answers": [
+        "about"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'abide by' — মেনে চলা বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should abide ___ the law.",
+      "accepted_answers": [
+        "by"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-d010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+    "explanation_bn": "'capable of' — সক্ষম বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is capable ___ doing it.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_open.p2_preposition-e001",
     "type": "fill_in_open",
     "paper": "2nd",
@@ -13702,6 +14475,219 @@
       "accepted_answers": [
         "is",
         "was"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'want + object'-এর পরে to + base verb: to be।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The teacher wants the students ___ attentive. (be)",
+      "accepted_answers": [
+        "to be"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'hear + object'-এর পরে base verb/verb+ing।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I heard him ___ a song. (sing)",
+      "accepted_answers": [
+        "sing",
+        "singing"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "preposition (of)-এর পরে verb+ing: reading।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is fond of ___ novels. (read)",
+      "accepted_answers": [
+        "reading"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'It is no use'-এর পরে verb+ing: crying।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It is no use ___ over spilt milk. (cry)",
+      "accepted_answers": [
+        "crying"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "modal (should)-এর পরে base verb: hate।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The rich should not ___ the poor. (hate)",
+      "accepted_answers": [
+        "hate"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'get + object'-এর পরে past participle: mended।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He got his shoes ___. (mend)",
+      "accepted_answers": [
+        "mended"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "passive 'was seen'-এর পরে verb+ing/to+verb।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The girl was seen ___ in the park. (walk)",
+      "accepted_answers": [
+        "walking",
+        "to walk"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'Let + object'-এর পরে base verb: do।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Let the boy ___ his lesson. (do)",
+      "accepted_answers": [
+        "do"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'Data' plural (datum-এর বহুবচন), তাই are; আধুনিক ব্যবহারে is-ও গ্রহণযোগ্য।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Data ___ collected from many sources. (be, present)",
+      "accepted_answers": [
+        "are",
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-c010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+    "explanation_bn": "'like'-এর পরে passive: being + past participle।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He does not like ___ disturbed. (be)",
+      "accepted_answers": [
+        "being"
       ],
       "fuzzy_tolerance": 0,
       "case_sensitive": false
@@ -15206,6 +16192,234 @@
         {
           "blank_id": "1",
           "correct_answer": "As soon as"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c001",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "ফলাফল বোঝাতে 'As a result'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He studied hard. {{1}}, he passed with a good grade.",
+      "word_bank": [
+        "However",
+        "As a result",
+        "But",
+        "Although"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "As a result"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c002",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "সুতরাং বোঝাতে 'Therefore'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The weather was bad. {{1}}, the flight was cancelled.",
+      "word_bank": [
+        "However",
+        "Therefore",
+        "But",
+        "Though"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "Therefore"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c003",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "বিপরীত ভাব বোঝাতে 'Yet'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is rich. {{1}}, he lives simply.",
+      "word_bank": [
+        "So",
+        "Yet",
+        "Because",
+        "Therefore"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "Yet"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c004",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "ক্রম বোঝাতে 'Firstly ... Secondly'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "{{1}}, we should save trees. {{2}}, we should plant more.",
+      "word_bank": [
+        "Firstly",
+        "Secondly",
+        "However",
+        "Because"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "Firstly"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "Secondly"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c005",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "তুলনা/বিপরীত বোঝাতে 'On the other hand'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She likes tea. {{1}}, her sister likes coffee.",
+      "word_bank": [
+        "On the other hand",
+        "Therefore",
+        "So",
+        "Hence"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "On the other hand"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c006",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "অতিরিক্ত তথ্য যোগ করতে 'Moreover'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is honest. {{1}}, he is hardworking.",
+      "word_bank": [
+        "But",
+        "Moreover",
+        "However",
+        "Though"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "Moreover"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c007",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "নাহলে বোঝাতে 'Otherwise'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Work hard. {{1}}, you will not succeed.",
+      "word_bank": [
+        "And",
+        "Otherwise",
+        "So",
+        "Because"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "Otherwise"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.fill_in_word_bank.p2_connectors-c008",
+    "type": "fill_in_word_bank",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক connector বসাও (Board: sentence connectors, 0.5×14)।",
+    "explanation_bn": "জোর দিতে 'In fact'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "{{1}}, honesty is a great virtue.",
+      "word_bank": [
+        "In fact",
+        "But",
+        "So",
+        "Otherwise"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "In fact"
         }
       ]
     }

@@ -1,0 +1,20 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Board: gap filling, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He is aware ___ the danger.", "a": ["of"], "rule_bn": "'aware of' — সচেতন বোঝায়।" },
+    { "type": "fill_in_open", "q": "She is junior ___ me.", "a": ["to"], "rule_bn": "'junior to' বসে (than নয়)।" },
+    { "type": "fill_in_open", "q": "The teacher is popular ___ the students.", "a": ["with"], "rule_bn": "'popular with' — জনপ্রিয় বোঝায়।" },
+    { "type": "fill_in_open", "q": "He is absent ___ class today.", "a": ["from"], "rule_bn": "'absent from' — অনুপস্থিত বোঝায়।" },
+    { "type": "fill_in_open", "q": "I agree ___ your opinion.", "a": ["with"], "rule_bn": "কারো মতের সাথে একমত: 'agree with'।" },
+    { "type": "fill_in_open", "q": "This pen belongs ___ me.", "a": ["to"], "rule_bn": "'belong to' — অধিকারে থাকা বোঝায়।" },
+    { "type": "fill_in_open", "q": "He is addicted ___ gambling.", "a": ["to"], "rule_bn": "'addicted to' — আসক্ত বোঝায়।" },
+    { "type": "fill_in_open", "q": "She is anxious ___ her son's health.", "a": ["about"], "rule_bn": "'anxious about' — উদ্বিগ্ন বোঝায়।" },
+    { "type": "fill_in_open", "q": "We should abide ___ the law.", "a": ["by"], "rule_bn": "'abide by' — মেনে চলা বোঝায়।" },
+    { "type": "fill_in_open", "q": "He is capable ___ doing it.", "a": ["of"], "rule_bn": "'capable of' — সক্ষম বোঝায়।" }
+  ]
+}

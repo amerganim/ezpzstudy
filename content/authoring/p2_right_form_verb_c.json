@@ -1,0 +1,20 @@
+{
+  "topic": "p2_right_form_verb",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Board: right form of verbs, 0.5×14)।",
+  "items": [
+    { "type": "fill_in_open", "q": "The teacher wants the students ___ attentive. (be)", "a": ["to be"], "fuzzy": 1, "rule_bn": "'want + object'-এর পরে to + base verb: to be।" },
+    { "type": "fill_in_open", "q": "I heard him ___ a song. (sing)", "a": ["sing", "singing"], "fuzzy": 0, "rule_bn": "'hear + object'-এর পরে base verb/verb+ing।" },
+    { "type": "fill_in_open", "q": "He is fond of ___ novels. (read)", "a": ["reading"], "rule_bn": "preposition (of)-এর পরে verb+ing: reading।" },
+    { "type": "fill_in_open", "q": "It is no use ___ over spilt milk. (cry)", "a": ["crying"], "rule_bn": "'It is no use'-এর পরে verb+ing: crying।" },
+    { "type": "fill_in_open", "q": "The rich should not ___ the poor. (hate)", "a": ["hate"], "rule_bn": "modal (should)-এর পরে base verb: hate।" },
+    { "type": "fill_in_open", "q": "He got his shoes ___. (mend)", "a": ["mended"], "rule_bn": "'get + object'-এর পরে past participle: mended।" },
+    { "type": "fill_in_open", "q": "The girl was seen ___ in the park. (walk)", "a": ["walking", "to walk"], "fuzzy": 0, "rule_bn": "passive 'was seen'-এর পরে verb+ing/to+verb।" },
+    { "type": "fill_in_open", "q": "Let the boy ___ his lesson. (do)", "a": ["do"], "rule_bn": "'Let + object'-এর পরে base verb: do।" },
+    { "type": "fill_in_open", "q": "Data ___ collected from many sources. (be, present)", "a": ["are", "is"], "fuzzy": 0, "rule_bn": "'Data' plural (datum-এর বহুবচন), তাই are; আধুনিক ব্যবহারে is-ও গ্রহণযোগ্য।" },
+    { "type": "fill_in_open", "q": "He does not like ___ disturbed. (be)", "a": ["being"], "rule_bn": "'like'-এর পরে passive: being + past participle।" }
+  ]
+}
