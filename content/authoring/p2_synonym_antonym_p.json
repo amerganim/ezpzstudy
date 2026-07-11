@@ -1,0 +1,20 @@
+{
+  "topic": "p2_synonym_antonym",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Write the antonym of 'friend'.", "a": ["enemy", "foe"], "fuzzy": 0, "rule_bn": "'friend' (বন্ধু) × 'enemy/foe' (শত্রু)।" },
+    { "type": "fill_in_open", "q": "Write the antonym of 'need' (as in shortage).", "a": ["plenty", "abundance"], "fuzzy": 0, "rule_bn": "অভাব × প্রাচুর্য: plenty/abundance।" },
+    { "type": "fill_in_open", "q": "Write a synonym of 'sympathy'.", "a": ["compassion", "pity", "kindness"], "fuzzy": 0, "rule_bn": "'sympathy' = compassion/pity (সহানুভূতি)।" },
+    { "type": "fill_in_open", "q": "Write a synonym of 'prove'.", "a": ["establish", "show", "demonstrate"], "fuzzy": 0, "rule_bn": "'prove' = establish/show (প্রমাণ করা)।" },
+    { "type": "fill_in_open", "q": "Write the antonym of 'false'.", "a": ["true", "real", "genuine"], "fuzzy": 0, "rule_bn": "'false' (মিথ্যা) × 'true' (সত্য)।" },
+    { "type": "fill_in_open", "q": "Write the antonym of 'harm'.", "a": ["benefit", "good", "help"], "fuzzy": 0, "rule_bn": "'harm' (ক্ষতি) × 'benefit/good' (উপকার)।" },
+    { "type": "fill_in_open", "q": "Write the antonym of 'laugh'.", "a": ["weep", "cry"], "fuzzy": 0, "rule_bn": "'laugh' (হাসা) × 'weep/cry' (কাঁদা)।" },
+    { "type": "fill_in_open", "q": "Write a synonym of 'pleasure'.", "a": ["joy", "delight", "happiness"], "fuzzy": 0, "rule_bn": "'pleasure' = joy/delight (আনন্দ)।" },
+    { "type": "fill_in_open", "q": "Write a synonym of 'bring'.", "a": ["carry", "fetch"], "fuzzy": 0, "rule_bn": "'bring' = carry/fetch (আনা)।" },
+    { "type": "fill_in_open", "q": "Write a synonym of 'idea'.", "a": ["thought", "concept", "notion"], "fuzzy": 0, "rule_bn": "'idea' = thought/concept (ধারণা)।" }
+  ]
+}

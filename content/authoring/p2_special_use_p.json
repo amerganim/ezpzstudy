@@ -1,0 +1,24 @@
+{
+  "topic": "p2_special_use",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Shamsur Rahman ___ in Dhaka in 1929.", "a": ["was born"], "fuzzy": 1, "rule_bn": "জন্ম বোঝাতে 'was born'।" },
+    { "type": "fill_in_open", "q": "No sooner had Diamond jumped upon the table ___ the candle fell on the papers.", "a": ["than"], "rule_bn": "'No sooner ... than' একটি জোড়া।" },
+    { "type": "fill_in_open", "q": "You ___ apply to the Principal for granting you a stipend.", "a": ["had better", "have to", "should"], "fuzzy": 0, "rule_bn": "উপদেশ/বাধ্যবাধকতা: had better/have to/should।" },
+    { "type": "fill_in_open", "q": "Edison ___ do many harmful activities in his childhood.", "a": ["used to"], "fuzzy": 1, "rule_bn": "অতীত অভ্যাস: 'used to' + base verb।" },
+    { "type": "fill_in_open", "q": "___ I see my father coming, my heart fills up with joy.", "a": ["As soon as"], "fuzzy": 1, "rule_bn": "পরপরই: 'As soon as'।" },
+    { "type": "fill_in_open", "q": "To tell a lie is a great sin. We ___ die than tell a lie.", "a": ["would rather"], "fuzzy": 1, "rule_bn": "পছন্দ: 'would rather' + base verb।" },
+    { "type": "fill_in_open", "q": "He tells the matter ___ he knew it. Actually he is ignorant of it.", "a": ["as if", "as though"], "fuzzy": 0, "rule_bn": "অবাস্তব তুলনায় 'as if/as though'।" },
+    { "type": "fill_in_open", "q": "___ is a good idea to walk in the morning.", "a": ["It"], "rule_bn": "introductory 'It'।" },
+    { "type": "fill_in_open", "q": "A good citizen ___ perform a lot of duties for the country.", "a": ["has to"], "fuzzy": 1, "rule_bn": "বাধ্যবাধকতা: 'has to'।" },
+    { "type": "fill_in_open", "q": "Students ___ practice good manners in everyday life.", "a": ["have to"], "fuzzy": 1, "rule_bn": "বাধ্যবাধকতা (plural subject): 'have to'।" },
+    { "type": "fill_in_open", "q": "Mansib has not yet got the first dose, ___ the booster dose.", "a": ["let alone"], "fuzzy": 1, "rule_bn": "'let alone' — দূরের কথা।" },
+    { "type": "fill_in_open", "q": "The sky is cloudy. We should start our journey ___ possible.", "a": ["as soon as"], "fuzzy": 1, "rule_bn": "'as soon as possible' — যত দ্রুত সম্ভব।" },
+    { "type": "fill_in_open", "q": "I ___ remain silent than quarrel with them.", "a": ["would rather"], "fuzzy": 1, "rule_bn": "পছন্দ: 'would rather'।" },
+    { "type": "fill_in_open", "q": "___ was a time when people used to travel on foot.", "a": ["There"], "rule_bn": "অস্তিত্ব বোঝাতে introductory 'There'।" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "topic": "p2_right_form_verb",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+  "items": [
+    { "type": "fill_in_open", "q": "It is very alarming to ___ that our youth want to leave. (note)", "a": ["note"], "rule_bn": "'to'-এর পরে base verb: note।" },
+    { "type": "fill_in_open", "q": "Our talented young generation ___ reluctant to stay home. (be)", "a": ["is"], "rule_bn": "'generation' singular, তাই 'is'।" },
+    { "type": "fill_in_open", "q": "They try to leave as soon as they ___ their education. (finish)", "a": ["finish"], "rule_bn": "'as soon as'-এর পরে present: finish।" },
+    { "type": "fill_in_open", "q": "Developed countries ___ them by offering opportunities. (allure)", "a": ["allure"], "rule_bn": "plural subject (countries): base verb allure।" },
+    { "type": "fill_in_open", "q": "The country fails to ___ suitable jobs for them. (provide)", "a": ["provide"], "rule_bn": "'to'-এর পরে base verb: provide।" },
+    { "type": "fill_in_open", "q": "We can't help ___ on English nowadays. (rely)", "a": ["relying"], "rule_bn": "\"can't help\"-এর পরে verb+ing: relying।" },
+    { "type": "fill_in_open", "q": "English ___ as a common language for global communication. (use)", "a": ["is used"], "fuzzy": 1, "rule_bn": "passive present: is + past participle: is used।" },
+    { "type": "fill_in_open", "q": "It ___ as an international language. (recognize)", "a": ["is recognized", "is recognised"], "fuzzy": 1, "rule_bn": "passive present: is recognized।" },
+    { "type": "fill_in_open", "q": "80% of computer information ___ in English. (be)", "a": ["is"], "rule_bn": "পরিমাণ/তথ্য একক ধরা হয়: is।" },
+    { "type": "fill_in_open", "q": "With a view to ___ views, we learn English. (exchange)", "a": ["exchanging"], "rule_bn": "'with a view to'-এর পরে verb+ing: exchanging।" },
+    { "type": "fill_in_open", "q": "We have to ___ English for higher study. (learn)", "a": ["learn"], "rule_bn": "'have to'-এর পরে base verb: learn।" },
+    { "type": "fill_in_open", "q": "Leaving the country is equal to ___ the motherland. (betray)", "a": ["betraying"], "rule_bn": "'equal to'-এর পরে verb+ing: betraying।" }
+  ]
+}

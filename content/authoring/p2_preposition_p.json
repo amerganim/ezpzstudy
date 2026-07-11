@@ -1,0 +1,25 @@
+{
+  "topic": "p2_preposition",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+  "items": [
+    { "type": "fill_in_open", "q": "At last God took pity ___ the old sailor.", "a": ["on"], "rule_bn": "'take pity on' — করুণা করা।" },
+    { "type": "fill_in_open", "q": "He was filled ___ a strange wonder.", "a": ["with"], "rule_bn": "'filled with' — পরিপূর্ণ বোঝায়।" },
+    { "type": "fill_in_open", "q": "He felt a great love ___ the water-snakes.", "a": ["for"], "rule_bn": "'love for' — ভালোবাসা।" },
+    { "type": "fill_in_open", "q": "The dead albatross fell ___ his neck into the sea.", "a": ["from", "off"], "fuzzy": 0, "rule_bn": "স্থানচ্যুতি বোঝাতে 'from/off'।" },
+    { "type": "fill_in_open", "q": "A gentle breeze began to blow ___ the south.", "a": ["from"], "rule_bn": "উৎস বোঝাতে 'from'; বাতাস কোথা থেকে আসে।" },
+    { "type": "fill_in_open", "q": "The old man fell ___ a deep sleep.", "a": ["into"], "fuzzy": 1, "rule_bn": "'fall into sleep' — গভীর ঘুমে তলিয়ে যাওয়া।" },
+    { "type": "fill_in_open", "q": "The old man was relieved ___ his sufferings.", "a": ["of", "from"], "fuzzy": 0, "rule_bn": "'relieved of/from' — মুক্তি পাওয়া।" },
+    { "type": "fill_in_open", "q": "Cyberbullying refers ___ the misuse of information technology.", "a": ["to"], "rule_bn": "'refer to' — নির্দেশ করা।" },
+    { "type": "fill_in_open", "q": "Cyberbullying comes ___ various forms.", "a": ["in"], "rule_bn": "'in various forms' — নানা রূপে।" },
+    { "type": "fill_in_open", "q": "Some people post negative comments ___ somebody.", "a": ["on", "about"], "fuzzy": 0, "rule_bn": "'comment on/about' — মন্তব্য করা।" },
+    { "type": "fill_in_open", "q": "Everyone is caught up ___ the social network.", "a": ["in"], "rule_bn": "'caught up in' — জড়িয়ে পড়া।" },
+    { "type": "fill_in_open", "q": "It is very easy ___ anyone to misuse this access.", "a": ["for"], "rule_bn": "'easy for somebody' — কারো জন্য সহজ।" },
+    { "type": "fill_in_open", "q": "Cyberbullying is an offence punishable ___ the ICT Act.", "a": ["under"], "rule_bn": "আইনের অধীনে বোঝাতে 'under'।" },
+    { "type": "fill_in_open", "q": "The wet road glitters ___ reflections of light.", "a": ["with"], "rule_bn": "'glitter with' — কিছু দিয়ে ঝলমল করা।" },
+    { "type": "fill_in_open", "q": "We are taking shelter ___ the balcony.", "a": ["under", "in", "on"], "fuzzy": 0, "rule_bn": "আশ্রয়ের স্থান বোঝাতে under/in/on বসতে পারে।" }
+  ]
+}

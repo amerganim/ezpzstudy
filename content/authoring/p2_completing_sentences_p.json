@@ -1,0 +1,20 @@
+{
+  "topic": "p2_completing_sentences",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Had he studied seriously, he ___.", "a": ["would have got a good result", "would have got GPA 5", "would have passed"], "fuzzy": 3, "rule_bn": "Past unreal: Had + V3, ... would have + V3।" },
+    { "type": "fill_in_open", "q": "Where there is a will, ___.", "a": ["there is a way"], "fuzzy": 2, "rule_bn": "প্রবাদ: Where there is a will, there is a way।" },
+    { "type": "fill_in_open", "q": "Without ___, you can never expect a good result.", "a": ["studying hard", "hard work", "diligence", "labour"], "fuzzy": 2, "rule_bn": "'Without' (preposition)-এর পরে verb+ing/noun।" },
+    { "type": "fill_in_open", "q": "You can't succeed in life unless ___.", "a": ["you work hard", "you labour hard"], "fuzzy": 3, "rule_bn": "'Unless' (যদি না)-এর পরে present clause।" },
+    { "type": "fill_in_open", "q": "If we lose the morning hours of life, ___.", "a": ["we will suffer", "we cannot prosper", "we will repent"], "fuzzy": 3, "rule_bn": "If + present, ... will/cannot।" },
+    { "type": "fill_in_open", "q": "There goes a proverb, 'Grasp all, ___.'", "a": ["lose all"], "fuzzy": 1, "rule_bn": "প্রবাদ: Grasp all, lose all।" },
+    { "type": "fill_in_open", "q": "No sooner had they passed the HSC examination ___.", "a": ["than they got admitted to university", "than they celebrated", "than they were admitted to university"], "fuzzy": 3, "rule_bn": "'No sooner had ... than' — than-এর পরে past simple।" },
+    { "type": "fill_in_open", "q": "Allah helps those ___.", "a": ["who help themselves"], "fuzzy": 2, "rule_bn": "প্রবাদ: Allah helps those who help themselves।" },
+    { "type": "fill_in_open", "q": "You should rise early so that ___.", "a": ["you can enjoy the fresh air", "you can stay healthy", "you can do your work in time"], "fuzzy": 3, "rule_bn": "'so that' (উদ্দেশ্য): can/could সহ clause।" },
+    { "type": "fill_in_open", "q": "A student has to study regularly lest ___.", "a": ["he should fail", "he fail", "he should fall behind"], "fuzzy": 3, "rule_bn": "'lest'-এর পরে 'should + base verb'।" }
+  ]
+}

@@ -14872,6 +14872,230 @@
     }
   },
   {
+    "id": "p2.fill_in_open.p2_completing_sentences-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "Past unreal: Had + V3, ... would have + V3।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Had he studied seriously, he ___.",
+      "accepted_answers": [
+        "would have got a good result",
+        "would have got GPA 5",
+        "would have passed"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "প্রবাদ: Where there is a will, there is a way।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Where there is a will, ___.",
+      "accepted_answers": [
+        "there is a way"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'Without' (preposition)-এর পরে verb+ing/noun।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Without ___, you can never expect a good result.",
+      "accepted_answers": [
+        "studying hard",
+        "hard work",
+        "diligence",
+        "labour"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'Unless' (যদি না)-এর পরে present clause।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "You can't succeed in life unless ___.",
+      "accepted_answers": [
+        "you work hard",
+        "you labour hard"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "If + present, ... will/cannot।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "If we lose the morning hours of life, ___.",
+      "accepted_answers": [
+        "we will suffer",
+        "we cannot prosper",
+        "we will repent"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "প্রবাদ: Grasp all, lose all।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "There goes a proverb, 'Grasp all, ___.'",
+      "accepted_answers": [
+        "lose all"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'No sooner had ... than' — than-এর পরে past simple।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "No sooner had they passed the HSC examination ___.",
+      "accepted_answers": [
+        "than they got admitted to university",
+        "than they celebrated",
+        "than they were admitted to university"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "প্রবাদ: Allah helps those who help themselves।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Allah helps those ___.",
+      "accepted_answers": [
+        "who help themselves"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'so that' (উদ্দেশ্য): can/could সহ clause।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "You should rise early so that ___.",
+      "accepted_answers": [
+        "you can enjoy the fresh air",
+        "you can stay healthy",
+        "you can do your work in time"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_completing_sentences-p010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_completing_sentences",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'lest'-এর পরে 'should + base verb'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A student has to study regularly lest ___.",
+      "accepted_answers": [
+        "he should fail",
+        "he fail",
+        "he should fall behind"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_open.p2_modifier-003",
     "type": "fill_in_open",
     "paper": "2nd",
@@ -16369,6 +16593,326 @@
     }
   },
   {
+    "id": "p2.fill_in_open.p2_preposition-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'take pity on' — করুণা করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "At last God took pity ___ the old sailor.",
+      "accepted_answers": [
+        "on"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'filled with' — পরিপূর্ণ বোঝায়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He was filled ___ a strange wonder.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'love for' — ভালোবাসা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He felt a great love ___ the water-snakes.",
+      "accepted_answers": [
+        "for"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "স্থানচ্যুতি বোঝাতে 'from/off'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The dead albatross fell ___ his neck into the sea.",
+      "accepted_answers": [
+        "from",
+        "off"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "উৎস বোঝাতে 'from'; বাতাস কোথা থেকে আসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A gentle breeze began to blow ___ the south.",
+      "accepted_answers": [
+        "from"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'fall into sleep' — গভীর ঘুমে তলিয়ে যাওয়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The old man fell ___ a deep sleep.",
+      "accepted_answers": [
+        "into"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'relieved of/from' — মুক্তি পাওয়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The old man was relieved ___ his sufferings.",
+      "accepted_answers": [
+        "of",
+        "from"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'refer to' — নির্দেশ করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Cyberbullying refers ___ the misuse of information technology.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'in various forms' — নানা রূপে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Cyberbullying comes ___ various forms.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'comment on/about' — মন্তব্য করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Some people post negative comments ___ somebody.",
+      "accepted_answers": [
+        "on",
+        "about"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p011",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'caught up in' — জড়িয়ে পড়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Everyone is caught up ___ the social network.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p012",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'easy for somebody' — কারো জন্য সহজ।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It is very easy ___ anyone to misuse this access.",
+      "accepted_answers": [
+        "for"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p013",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "আইনের অধীনে বোঝাতে 'under'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Cyberbullying is an offence punishable ___ the ICT Act.",
+      "accepted_answers": [
+        "under"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p014",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'glitter with' — কিছু দিয়ে ঝলমল করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The wet road glitters ___ reflections of light.",
+      "accepted_answers": [
+        "with"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_preposition-p015",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_preposition",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে সঠিক preposition বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "আশ্রয়ের স্থান বোঝাতে under/in/on বসতে পারে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We are taking shelter ___ the balcony.",
+      "accepted_answers": [
+        "under",
+        "in",
+        "on"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_open.p2_right_form_verb-001",
     "type": "fill_in_open",
     "paper": "2nd",
@@ -17595,6 +18139,259 @@
     }
   },
   {
+    "id": "p2.fill_in_open.p2_right_form_verb-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'to'-এর পরে base verb: note।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It is very alarming to ___ that our youth want to leave. (note)",
+      "accepted_answers": [
+        "note"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'generation' singular, তাই 'is'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Our talented young generation ___ reluctant to stay home. (be)",
+      "accepted_answers": [
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'as soon as'-এর পরে present: finish।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "They try to leave as soon as they ___ their education. (finish)",
+      "accepted_answers": [
+        "finish"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "plural subject (countries): base verb allure।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Developed countries ___ them by offering opportunities. (allure)",
+      "accepted_answers": [
+        "allure"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'to'-এর পরে base verb: provide।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The country fails to ___ suitable jobs for them. (provide)",
+      "accepted_answers": [
+        "provide"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "\"can't help\"-এর পরে verb+ing: relying।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We can't help ___ on English nowadays. (rely)",
+      "accepted_answers": [
+        "relying"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "passive present: is + past participle: is used।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "English ___ as a common language for global communication. (use)",
+      "accepted_answers": [
+        "is used"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "passive present: is recognized।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It ___ as an international language. (recognize)",
+      "accepted_answers": [
+        "is recognized",
+        "is recognised"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "পরিমাণ/তথ্য একক ধরা হয়: is।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "80% of computer information ___ in English. (be)",
+      "accepted_answers": [
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'with a view to'-এর পরে verb+ing: exchanging।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "With a view to ___ views, we learn English. (exchange)",
+      "accepted_answers": [
+        "exchanging"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p011",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'have to'-এর পরে base verb: learn।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We have to ___ English for higher study. (learn)",
+      "accepted_answers": [
+        "learn"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_right_form_verb-p012",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_right_form_verb",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক রূপ বসাও (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'equal to'-এর পরে verb+ing: betraying।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Leaving the country is equal to ___ the motherland. (betray)",
+      "accepted_answers": [
+        "betraying"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_open.p2_special_use-001",
     "type": "fill_in_open",
     "paper": "2nd",
@@ -18474,6 +19271,529 @@
       "sentence_en": "He talks big as if he ___ (be) a millionaire. (past)",
       "accepted_answers": [
         "were"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "জন্ম বোঝাতে 'was born'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Shamsur Rahman ___ in Dhaka in 1929.",
+      "accepted_answers": [
+        "was born"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'No sooner ... than' একটি জোড়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "No sooner had Diamond jumped upon the table ___ the candle fell on the papers.",
+      "accepted_answers": [
+        "than"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "উপদেশ/বাধ্যবাধকতা: had better/have to/should।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "You ___ apply to the Principal for granting you a stipend.",
+      "accepted_answers": [
+        "had better",
+        "have to",
+        "should"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "অতীত অভ্যাস: 'used to' + base verb।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Edison ___ do many harmful activities in his childhood.",
+      "accepted_answers": [
+        "used to"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "পরপরই: 'As soon as'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ I see my father coming, my heart fills up with joy.",
+      "accepted_answers": [
+        "As soon as"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "পছন্দ: 'would rather' + base verb।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "To tell a lie is a great sin. We ___ die than tell a lie.",
+      "accepted_answers": [
+        "would rather"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "অবাস্তব তুলনায় 'as if/as though'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He tells the matter ___ he knew it. Actually he is ignorant of it.",
+      "accepted_answers": [
+        "as if",
+        "as though"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "introductory 'It'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ is a good idea to walk in the morning.",
+      "accepted_answers": [
+        "It"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "বাধ্যবাধকতা: 'has to'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A good citizen ___ perform a lot of duties for the country.",
+      "accepted_answers": [
+        "has to"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "বাধ্যবাধকতা (plural subject): 'have to'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Students ___ practice good manners in everyday life.",
+      "accepted_answers": [
+        "have to"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p011",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'let alone' — দূরের কথা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Mansib has not yet got the first dose, ___ the booster dose.",
+      "accepted_answers": [
+        "let alone"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p012",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'as soon as possible' — যত দ্রুত সম্ভব।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The sky is cloudy. We should start our journey ___ possible.",
+      "accepted_answers": [
+        "as soon as"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p013",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "পছন্দ: 'would rather'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I ___ remain silent than quarrel with them.",
+      "accepted_answers": [
+        "would rather"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_special_use-p014",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_special_use",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ব্যবহার করে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "অস্তিত্ব বোঝাতে introductory 'There'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ was a time when people used to travel on foot.",
+      "accepted_answers": [
+        "There"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'friend' (বন্ধু) × 'enemy/foe' (শত্রু)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write the antonym of 'friend'.",
+      "accepted_answers": [
+        "enemy",
+        "foe"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "অভাব × প্রাচুর্য: plenty/abundance।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write the antonym of 'need' (as in shortage).",
+      "accepted_answers": [
+        "plenty",
+        "abundance"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'sympathy' = compassion/pity (সহানুভূতি)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write a synonym of 'sympathy'.",
+      "accepted_answers": [
+        "compassion",
+        "pity",
+        "kindness"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'prove' = establish/show (প্রমাণ করা)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write a synonym of 'prove'.",
+      "accepted_answers": [
+        "establish",
+        "show",
+        "demonstrate"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'false' (মিথ্যা) × 'true' (সত্য)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write the antonym of 'false'.",
+      "accepted_answers": [
+        "true",
+        "real",
+        "genuine"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'harm' (ক্ষতি) × 'benefit/good' (উপকার)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write the antonym of 'harm'.",
+      "accepted_answers": [
+        "benefit",
+        "good",
+        "help"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'laugh' (হাসা) × 'weep/cry' (কাঁদা)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write the antonym of 'laugh'.",
+      "accepted_answers": [
+        "weep",
+        "cry"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'pleasure' = joy/delight (আনন্দ)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write a synonym of 'pleasure'.",
+      "accepted_answers": [
+        "joy",
+        "delight",
+        "happiness"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'bring' = carry/fetch (আনা)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write a synonym of 'bring'.",
+      "accepted_answers": [
+        "carry",
+        "fetch"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_synonym_antonym-p010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী synonym বা antonym লেখো (Test Paper থেকে সংগৃহীত)।",
+    "explanation_bn": "'idea' = thought/concept (ধারণা)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Write a synonym of 'idea'.",
+      "accepted_answers": [
+        "thought",
+        "concept",
+        "notion"
       ],
       "fuzzy_tolerance": 0,
       "case_sensitive": false
