@@ -1,0 +1,33 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "e",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Bangladesh is a land of rivers. Hundreds of rivers, big and small, flow across the country. The Padma, the Meghna and the Jamuna are the largest rivers. Rivers play a great role in our life and economy. They make our land fertile by carrying silt. We get fish from them, and they are used as cheap ways of transport and communication. Many farmers depend on rivers for irrigation. But rivers sometimes cause floods that destroy houses and crops. Nowadays many rivers are drying up and getting polluted. We should take proper care of our rivers.",
+      "subs": [
+        { "type": "mcq", "q": "Bangladesh is a land of ___.", "opts": ["hills", "rivers", "deserts", "forests"], "correct": 1, "rule_bn": "'Bangladesh is a land of rivers'।" },
+        { "type": "fill_in_open", "q": "Which is one of the largest rivers?", "a": ["the Padma", "Padma", "the Meghna", "Meghna", "the Jamuna", "Jamuna"], "fuzzy": 2, "rule_bn": "'The Padma, the Meghna and the Jamuna are the largest rivers'।" },
+        { "type": "mcq", "q": "How do rivers make our land fertile?", "opts": ["by carrying silt", "by causing floods", "by drying up", "by pollution"], "correct": 0, "rule_bn": "'make our land fertile by carrying silt'।" },
+        { "type": "mcq", "q": "What do rivers sometimes cause?", "opts": ["rain", "floods", "fish", "silt"], "correct": 1, "rule_bn": "'rivers sometimes cause floods'।" },
+        { "type": "fill_in_open", "q": "We should take proper ___ of our rivers.", "a": ["care"], "rule_bn": "'We should take proper care of our rivers'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "A good student has some special qualities. First of all, he is attentive to his studies. He makes a routine and follows it regularly. He does not waste his time in idle talk or useless activities. He respects his teachers and obeys his parents. A good student is also honest and truthful. He takes part in games and sports to keep his body fit. He is helpful to his friends and kind to the poor. In fact, a good student is an asset to his family and the nation.",
+      "subs": [
+        { "type": "fill_in_open", "q": "A good student is attentive to his ___.", "a": ["studies"], "rule_bn": "'he is attentive to his studies'।" },
+        { "type": "mcq", "q": "What does a good student make and follow?", "opts": ["a routine", "a game", "a noise", "a mistake"], "correct": 0, "rule_bn": "'He makes a routine and follows it regularly'।" },
+        { "type": "mcq", "q": "Why does a good student take part in games?", "opts": ["to waste time", "to keep his body fit", "to earn money", "to be lazy"], "correct": 1, "rule_bn": "'takes part in games and sports to keep his body fit'।" },
+        { "type": "fill_in_open", "q": "A good student is an asset to his family and the ___.", "a": ["nation"], "rule_bn": "'an asset to his family and the nation'।" }
+      ]
+    }
+  ]
+}

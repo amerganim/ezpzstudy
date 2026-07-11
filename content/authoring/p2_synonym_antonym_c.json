@@ -1,0 +1,20 @@
+{
+  "topic": "p2_synonym_antonym",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+  "items": [
+    { "type": "mcq", "q": "Synonym of 'assist' is ___.", "opts": ["oppose", "help", "leave", "ignore"], "correct": 1, "rule_bn": "'assist' = 'help' (সাহায্য করা)।" },
+    { "type": "mcq", "q": "Synonym of 'reply' is ___.", "opts": ["ask", "answer", "call", "read"], "correct": 1, "rule_bn": "'reply' = 'answer' (উত্তর দেওয়া)।" },
+    { "type": "mcq", "q": "Synonym of 'cruel' is ___.", "opts": ["kind", "gentle", "merciless", "soft"], "correct": 2, "rule_bn": "'cruel' = 'merciless' (নিষ্ঠুর)।" },
+    { "type": "mcq", "q": "Antonym of 'ancient' is ___.", "opts": ["old", "modern", "past", "former"], "correct": 1, "rule_bn": "'ancient' (প্রাচীন) × 'modern' (আধুনিক)।" },
+    { "type": "mcq", "q": "Antonym of 'polite' is ___.", "opts": ["gentle", "rude", "kind", "soft"], "correct": 1, "rule_bn": "'polite' (ভদ্র) × 'rude' (অভদ্র)।" },
+    { "type": "mcq", "q": "Antonym of 'weak' is ___.", "opts": ["feeble", "strong", "thin", "small"], "correct": 1, "rule_bn": "'weak' (দুর্বল) × 'strong' (শক্তিশালী)।" },
+    { "type": "matching", "left": ["clever", "brave", "quiet", "joy"], "right": ["intelligent", "bold", "silent", "happiness"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "synonym মেলাও: clever-intelligent, brave-bold, quiet-silent, joy-happiness।" },
+    { "type": "matching", "left": ["win", "buy", "true", "high"], "right": ["lose", "sell", "false", "low"], "pairs": [[0,0],[1,1],[2,2],[3,3]], "rule_bn": "antonym মেলাও: win×lose, buy×sell, true×false, high×low।" },
+    { "type": "mcq", "q": "Synonym of 'shut' is ___.", "opts": ["open", "close", "break", "push"], "correct": 1, "rule_bn": "'shut' = 'close' (বন্ধ করা)।" },
+    { "type": "mcq", "q": "Antonym of 'accept' is ___.", "opts": ["take", "receive", "reject", "get"], "correct": 2, "rule_bn": "'accept' (গ্রহণ) × 'reject' (প্রত্যাখ্যান)।" }
+  ]
+}

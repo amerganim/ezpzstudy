@@ -1,0 +1,33 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Discipline is the training that teaches us to obey rules and to behave in a proper way. It is essential in every walk of life. Nature is a great teacher of discipline. The sun rises and sets at the right time. The moon and the stars follow their fixed paths. If there were no discipline in nature, the whole world would fall into chaos. In the same way, a family, a school or a country cannot run smoothly without discipline. A disciplined student always prospers in life. Therefore, we should learn to be disciplined from our childhood.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What does discipline teach us?", "a": ["to obey rules", "to obey rules and behave properly"], "fuzzy": 3, "rule_bn": "'teaches us to obey rules and to behave in a proper way'।" },
+        { "type": "mcq", "q": "Who is a great teacher of discipline?", "opts": ["a book", "nature", "a friend", "a game"], "correct": 1, "rule_bn": "'Nature is a great teacher of discipline'।" },
+        { "type": "fill_in_open", "q": "What follows their fixed paths?", "a": ["the moon and the stars", "moon and stars", "the moon and stars"], "fuzzy": 3, "rule_bn": "'The moon and the stars follow their fixed paths'।" },
+        { "type": "mcq", "q": "A disciplined student always ___ in life.", "opts": ["fails", "prospers", "sleeps", "suffers"], "correct": 1, "rule_bn": "'A disciplined student always prospers in life'।" },
+        { "type": "fill_in_open", "q": "From when should we learn to be disciplined?", "a": ["from our childhood", "childhood", "from childhood"], "fuzzy": 2, "rule_bn": "'we should learn to be disciplined from our childhood'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Our country is an agricultural country. Most of the people live in villages and depend on farming. They grow rice, jute, wheat, tea and many kinds of vegetables. Rice is the main crop and the staple food of our country. Jute is called the golden fibre because it earns a lot of foreign money. The farmers work hard from morning till evening in the field. But most of them are poor because they do not get a fair price for their crops. If we help the farmers with modern tools and fair prices, our country will make great progress.",
+      "subs": [
+        { "type": "mcq", "q": "What kind of country is ours?", "opts": ["an industrial country", "an agricultural country", "a desert country", "a hilly country"], "correct": 1, "rule_bn": "'Our country is an agricultural country'।" },
+        { "type": "fill_in_open", "q": "What is the main crop of our country?", "a": ["rice"], "rule_bn": "'Rice is the main crop'।" },
+        { "type": "fill_in_open", "q": "Why is jute called the golden fibre?", "a": ["because it earns foreign money", "it earns foreign money", "it earns a lot of foreign money"], "fuzzy": 3, "rule_bn": "'because it earns a lot of foreign money'।" },
+        { "type": "mcq", "q": "Why are most farmers poor?", "opts": ["they are lazy", "they do not get a fair price", "they do not work", "they have no land"], "correct": 1, "rule_bn": "'they do not get a fair price for their crops'।" }
+      ]
+    }
+  ]
+}

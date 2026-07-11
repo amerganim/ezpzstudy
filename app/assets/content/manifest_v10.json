@@ -1,0 +1,29 @@
+{
+  "pack_version": 10,
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-11T17:33:10.653Z",
+  "source_file": "authoring",
+  "source_sha256": "authoring-json",
+  "pack_sha256": "b92c6737d3d90e7eaba51452df760bf7d2a668b4022665fa868f1ae340ece272",
+  "counts": {
+    "total": 713,
+    "by_type": {
+      "fill_in_open": 327,
+      "flashcard": 76,
+      "grammar_transformation": 77,
+      "matching": 10,
+      "mcq": 95,
+      "rearranging": 20,
+      "comprehension_set": 20,
+      "fill_in_word_bank": 59,
+      "writing_prompt": 29
+    },
+    "by_paper": {
+      "both": 282,
+      "1st": 82,
+      "2nd": 349
+    }
+  },
+  "errors": 0,
+  "warnings": 55
+}

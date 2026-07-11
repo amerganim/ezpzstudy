@@ -12,8 +12,8 @@ class ContentLoader {
   final AppDatabase db;
   const ContentLoader(this.db);
 
-  static const _packAsset = 'assets/content/content_pack_v9.json';
-  static const _manifestAsset = 'assets/content/manifest_v9.json';
+  static const _packAsset = 'assets/content/content_pack_v10.json';
+  static const _manifestAsset = 'assets/content/manifest_v10.json';
   static const _loadedVersionKey = 'content_pack_version';
 
   /// Ensures the DB question bank matches the bundled pack. Idempotent: if the

@@ -1,0 +1,22 @@
+{
+  "topic": "basics_everyday_vocab",
+  "paper": "both",
+  "batch": "b",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "morning", "back_bn": "সকাল", "example": "I get up early in the morning.", "pos": "noun" },
+    { "type": "flashcard", "front": "village", "back_bn": "গ্রাম", "example": "I live in a village.", "pos": "noun" },
+    { "type": "flashcard", "front": "field", "back_bn": "মাঠ", "example": "The boys play in the field.", "pos": "noun" },
+    { "type": "flashcard", "front": "river", "back_bn": "নদী", "example": "There is a river near our house.", "pos": "noun" },
+    { "type": "flashcard", "front": "hungry", "back_bn": "ক্ষুধার্ত", "example": "The child is hungry.", "pos": "adjective" },
+    { "type": "flashcard", "front": "buy", "back_bn": "কেনা", "example": "I want to buy a book.", "pos": "verb" },
+    { "type": "flashcard", "front": "help", "back_bn": "সাহায্য করা", "example": "We should help the poor.", "pos": "verb" },
+    { "type": "flashcard", "front": "friend", "back_bn": "বন্ধু", "example": "He is my best friend.", "pos": "noun" },
+    { "type": "flashcard", "front": "clean", "back_bn": "পরিষ্কার", "example": "Keep your room clean.", "pos": "adjective" },
+    { "type": "flashcard", "front": "learn", "back_bn": "শেখা", "example": "We learn English at school.", "pos": "verb" },
+    { "type": "flashcard", "front": "market", "back_bn": "বাজার", "example": "My father went to the market.", "pos": "noun" },
+    { "type": "flashcard", "front": "beautiful", "back_bn": "সুন্দর", "example": "The garden is beautiful.", "pos": "adjective" }
+  ]
+}

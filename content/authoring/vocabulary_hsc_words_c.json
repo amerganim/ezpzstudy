@@ -1,0 +1,26 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "acquire", "back_bn": "অর্জন করা", "example": "We should acquire knowledge.", "pos": "verb", "syn": "gain", "ant": "lose" },
+    { "type": "flashcard", "front": "barren", "back_bn": "অনুর্বর", "example": "Nothing grows on barren land.", "pos": "adjective", "syn": "infertile", "ant": "fertile" },
+    { "type": "flashcard", "front": "cautious", "back_bn": "সতর্ক", "example": "Be cautious while crossing the road.", "pos": "adjective", "syn": "careful", "ant": "careless" },
+    { "type": "flashcard", "front": "dense", "back_bn": "ঘন", "example": "The forest is very dense.", "pos": "adjective", "syn": "thick", "ant": "sparse" },
+    { "type": "flashcard", "front": "endure", "back_bn": "সহ্য করা", "example": "He had to endure much pain.", "pos": "verb", "syn": "bear", "ant": "give up" },
+    { "type": "flashcard", "front": "famine", "back_bn": "দুর্ভিক্ষ", "example": "Many people died in the famine.", "pos": "noun", "syn": "starvation", "ant": "plenty" },
+    { "type": "flashcard", "front": "glory", "back_bn": "গৌরব", "example": "He brought glory to the nation.", "pos": "noun", "syn": "fame", "ant": "shame" },
+    { "type": "flashcard", "front": "hostile", "back_bn": "বৈরী, শত্রুভাবাপন্ন", "example": "They were hostile to strangers.", "pos": "adjective", "syn": "unfriendly", "ant": "friendly" },
+    { "type": "flashcard", "front": "ignorant", "back_bn": "অজ্ঞ", "example": "He is ignorant of the rules.", "pos": "adjective", "syn": "unaware", "ant": "aware" },
+    { "type": "flashcard", "front": "justify", "back_bn": "যৌক্তিকতা প্রমাণ করা", "example": "He tried to justify his action.", "pos": "verb", "syn": "defend", "ant": "condemn" },
+    { "type": "flashcard", "front": "keen", "back_bn": "আগ্রহী, তীক্ষ্ণ", "example": "She is keen to learn English.", "pos": "adjective", "syn": "eager", "ant": "indifferent" },
+    { "type": "flashcard", "front": "liberty", "back_bn": "স্বাধীনতা", "example": "We value our liberty.", "pos": "noun", "syn": "freedom", "ant": "slavery" },
+    { "type": "flashcard", "front": "mercy", "back_bn": "দয়া", "example": "He showed mercy to the beggar.", "pos": "noun", "syn": "kindness", "ant": "cruelty" },
+    { "type": "flashcard", "front": "obstinate", "back_bn": "একগুঁয়ে", "example": "The obstinate boy did not listen.", "pos": "adjective", "syn": "stubborn", "ant": "flexible" },
+    { "type": "flashcard", "front": "peril", "back_bn": "বিপদ", "example": "The sailors faced great peril.", "pos": "noun", "syn": "danger", "ant": "safety" },
+    { "type": "flashcard", "front": "quench", "back_bn": "নিবারণ করা", "example": "He drank water to quench his thirst.", "pos": "verb", "syn": "satisfy", "ant": "increase" }
+  ]
+}

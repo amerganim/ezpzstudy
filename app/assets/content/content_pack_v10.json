@@ -3149,6 +3149,234 @@
     }
   },
   {
+    "id": "b.flashcard.basics_everyday_vocab-b001",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সকাল",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "morning",
+      "back_bn": "সকাল",
+      "example_sentence_en": "I get up early in the morning.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b002",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "গ্রাম",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "village",
+      "back_bn": "গ্রাম",
+      "example_sentence_en": "I live in a village.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b003",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "মাঠ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "field",
+      "back_bn": "মাঠ",
+      "example_sentence_en": "The boys play in the field.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b004",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "নদী",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "river",
+      "back_bn": "নদী",
+      "example_sentence_en": "There is a river near our house.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b005",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ক্ষুধার্ত",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "hungry",
+      "back_bn": "ক্ষুধার্ত",
+      "example_sentence_en": "The child is hungry.",
+      "part_of_speech": "adjective"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b006",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কেনা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "buy",
+      "back_bn": "কেনা",
+      "example_sentence_en": "I want to buy a book.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b007",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সাহায্য করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "help",
+      "back_bn": "সাহায্য করা",
+      "example_sentence_en": "We should help the poor.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b008",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বন্ধু",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "friend",
+      "back_bn": "বন্ধু",
+      "example_sentence_en": "He is my best friend.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b009",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পরিষ্কার",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "clean",
+      "back_bn": "পরিষ্কার",
+      "example_sentence_en": "Keep your room clean.",
+      "part_of_speech": "adjective"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b010",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "শেখা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "learn",
+      "back_bn": "শেখা",
+      "example_sentence_en": "We learn English at school.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b011",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বাজার",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "market",
+      "back_bn": "বাজার",
+      "example_sentence_en": "My father went to the market.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-b012",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সুন্দর",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "beautiful",
+      "back_bn": "সুন্দর",
+      "example_sentence_en": "The garden is beautiful.",
+      "part_of_speech": "adjective"
+    }
+  },
+  {
     "id": "b.flashcard.vocabulary_hsc_words-001",
     "type": "flashcard",
     "paper": "both",
@@ -3818,6 +4046,342 @@
       "part_of_speech": "adjective",
       "synonym": "enormous",
       "antonym": "slight"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c001",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "অর্জন করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "acquire",
+      "back_bn": "অর্জন করা",
+      "example_sentence_en": "We should acquire knowledge.",
+      "part_of_speech": "verb",
+      "synonym": "gain",
+      "antonym": "lose"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c002",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "অনুর্বর",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "barren",
+      "back_bn": "অনুর্বর",
+      "example_sentence_en": "Nothing grows on barren land.",
+      "part_of_speech": "adjective",
+      "synonym": "infertile",
+      "antonym": "fertile"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c003",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সতর্ক",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "cautious",
+      "back_bn": "সতর্ক",
+      "example_sentence_en": "Be cautious while crossing the road.",
+      "part_of_speech": "adjective",
+      "synonym": "careful",
+      "antonym": "careless"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c004",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "ঘন",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "dense",
+      "back_bn": "ঘন",
+      "example_sentence_en": "The forest is very dense.",
+      "part_of_speech": "adjective",
+      "synonym": "thick",
+      "antonym": "sparse"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c005",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সহ্য করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "endure",
+      "back_bn": "সহ্য করা",
+      "example_sentence_en": "He had to endure much pain.",
+      "part_of_speech": "verb",
+      "synonym": "bear",
+      "antonym": "give up"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c006",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দুর্ভিক্ষ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "famine",
+      "back_bn": "দুর্ভিক্ষ",
+      "example_sentence_en": "Many people died in the famine.",
+      "part_of_speech": "noun",
+      "synonym": "starvation",
+      "antonym": "plenty"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c007",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "গৌরব",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "glory",
+      "back_bn": "গৌরব",
+      "example_sentence_en": "He brought glory to the nation.",
+      "part_of_speech": "noun",
+      "synonym": "fame",
+      "antonym": "shame"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c008",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বৈরী, শত্রুভাবাপন্ন",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "hostile",
+      "back_bn": "বৈরী, শত্রুভাবাপন্ন",
+      "example_sentence_en": "They were hostile to strangers.",
+      "part_of_speech": "adjective",
+      "synonym": "unfriendly",
+      "antonym": "friendly"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c009",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "অজ্ঞ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "ignorant",
+      "back_bn": "অজ্ঞ",
+      "example_sentence_en": "He is ignorant of the rules.",
+      "part_of_speech": "adjective",
+      "synonym": "unaware",
+      "antonym": "aware"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c010",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "যৌক্তিকতা প্রমাণ করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "justify",
+      "back_bn": "যৌক্তিকতা প্রমাণ করা",
+      "example_sentence_en": "He tried to justify his action.",
+      "part_of_speech": "verb",
+      "synonym": "defend",
+      "antonym": "condemn"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c011",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "আগ্রহী, তীক্ষ্ণ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "keen",
+      "back_bn": "আগ্রহী, তীক্ষ্ণ",
+      "example_sentence_en": "She is keen to learn English.",
+      "part_of_speech": "adjective",
+      "synonym": "eager",
+      "antonym": "indifferent"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c012",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "স্বাধীনতা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "liberty",
+      "back_bn": "স্বাধীনতা",
+      "example_sentence_en": "We value our liberty.",
+      "part_of_speech": "noun",
+      "synonym": "freedom",
+      "antonym": "slavery"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c013",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দয়া",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "mercy",
+      "back_bn": "দয়া",
+      "example_sentence_en": "He showed mercy to the beggar.",
+      "part_of_speech": "noun",
+      "synonym": "kindness",
+      "antonym": "cruelty"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c014",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "একগুঁয়ে",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "obstinate",
+      "back_bn": "একগুঁয়ে",
+      "example_sentence_en": "The obstinate boy did not listen.",
+      "part_of_speech": "adjective",
+      "synonym": "stubborn",
+      "antonym": "flexible"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c015",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বিপদ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "peril",
+      "back_bn": "বিপদ",
+      "example_sentence_en": "The sailors faced great peril.",
+      "part_of_speech": "noun",
+      "synonym": "danger",
+      "antonym": "safety"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-c016",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "নিবারণ করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "quench",
+      "back_bn": "নিবারণ করা",
+      "example_sentence_en": "He drank water to quench his thirst.",
+      "part_of_speech": "verb",
+      "synonym": "satisfy",
+      "antonym": "increase"
     }
   },
   {
@@ -7476,6 +8040,236 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_mcq-e001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Bangladesh is a land of rivers. Hundreds of rivers, big and small, flow across the country. The Padma, the Meghna and the Jamuna are the largest rivers. Rivers play a great role in our life and economy. They make our land fertile by carrying silt. We get fish from them, and they are used as cheap ways of transport and communication. Many farmers depend on rivers for irrigation. But rivers sometimes cause floods that destroy houses and crops. Nowadays many rivers are drying up and getting polluted. We should take proper care of our rivers.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'Bangladesh is a land of rivers'।",
+          "data": {
+            "question_en": "Bangladesh is a land of ___.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "hills"
+              },
+              {
+                "key": "B",
+                "text_en": "rivers"
+              },
+              {
+                "key": "C",
+                "text_en": "deserts"
+              },
+              {
+                "key": "D",
+                "text_en": "forests"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'The Padma, the Meghna and the Jamuna are the largest rivers'।",
+          "data": {
+            "sentence_en": "Which is one of the largest rivers?",
+            "accepted_answers": [
+              "the Padma",
+              "Padma",
+              "the Meghna",
+              "Meghna",
+              "the Jamuna",
+              "Jamuna"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'make our land fertile by carrying silt'।",
+          "data": {
+            "question_en": "How do rivers make our land fertile?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "by carrying silt"
+              },
+              {
+                "key": "B",
+                "text_en": "by causing floods"
+              },
+              {
+                "key": "C",
+                "text_en": "by drying up"
+              },
+              {
+                "key": "D",
+                "text_en": "by pollution"
+              }
+            ],
+            "correct_option": "A"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'rivers sometimes cause floods'।",
+          "data": {
+            "question_en": "What do rivers sometimes cause?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "rain"
+              },
+              {
+                "key": "B",
+                "text_en": "floods"
+              },
+              {
+                "key": "C",
+                "text_en": "fish"
+              },
+              {
+                "key": "D",
+                "text_en": "silt"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'We should take proper care of our rivers'।",
+          "data": {
+            "sentence_en": "We should take proper ___ of our rivers.",
+            "accepted_answers": [
+              "care"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-e002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading comprehension)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "A good student has some special qualities. First of all, he is attentive to his studies. He makes a routine and follows it regularly. He does not waste his time in idle talk or useless activities. He respects his teachers and obeys his parents. A good student is also honest and truthful. He takes part in games and sports to keep his body fit. He is helpful to his friends and kind to the poor. In fact, a good student is an asset to his family and the nation.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'he is attentive to his studies'।",
+          "data": {
+            "sentence_en": "A good student is attentive to his ___.",
+            "accepted_answers": [
+              "studies"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'He makes a routine and follows it regularly'।",
+          "data": {
+            "question_en": "What does a good student make and follow?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "a routine"
+              },
+              {
+                "key": "B",
+                "text_en": "a game"
+              },
+              {
+                "key": "C",
+                "text_en": "a noise"
+              },
+              {
+                "key": "D",
+                "text_en": "a mistake"
+              }
+            ],
+            "correct_option": "A"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'takes part in games and sports to keep his body fit'।",
+          "data": {
+            "question_en": "Why does a good student take part in games?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "to waste time"
+              },
+              {
+                "key": "B",
+                "text_en": "to keep his body fit"
+              },
+              {
+                "key": "C",
+                "text_en": "to earn money"
+              },
+              {
+                "key": "D",
+                "text_en": "to be lazy"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'an asset to his family and the nation'।",
+          "data": {
+            "sentence_en": "A good student is an asset to his family and the ___.",
+            "accepted_answers": [
+              "nation"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.comprehension_set.p1_short_answer-001",
     "type": "comprehension_set",
     "paper": "1st",
@@ -8009,6 +8803,224 @@
               {
                 "key": "D",
                 "text_en": "unhealthy"
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-d001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Discipline is the training that teaches us to obey rules and to behave in a proper way. It is essential in every walk of life. Nature is a great teacher of discipline. The sun rises and sets at the right time. The moon and the stars follow their fixed paths. If there were no discipline in nature, the whole world would fall into chaos. In the same way, a family, a school or a country cannot run smoothly without discipline. A disciplined student always prospers in life. Therefore, we should learn to be disciplined from our childhood.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'teaches us to obey rules and to behave in a proper way'।",
+          "data": {
+            "sentence_en": "What does discipline teach us?",
+            "accepted_answers": [
+              "to obey rules",
+              "to obey rules and behave properly"
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'Nature is a great teacher of discipline'।",
+          "data": {
+            "question_en": "Who is a great teacher of discipline?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "a book"
+              },
+              {
+                "key": "B",
+                "text_en": "nature"
+              },
+              {
+                "key": "C",
+                "text_en": "a friend"
+              },
+              {
+                "key": "D",
+                "text_en": "a game"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'The moon and the stars follow their fixed paths'।",
+          "data": {
+            "sentence_en": "What follows their fixed paths?",
+            "accepted_answers": [
+              "the moon and the stars",
+              "moon and stars",
+              "the moon and stars"
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'A disciplined student always prospers in life'।",
+          "data": {
+            "question_en": "A disciplined student always ___ in life.",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "fails"
+              },
+              {
+                "key": "B",
+                "text_en": "prospers"
+              },
+              {
+                "key": "C",
+                "text_en": "sleeps"
+              },
+              {
+                "key": "D",
+                "text_en": "suffers"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'we should learn to be disciplined from our childhood'।",
+          "data": {
+            "sentence_en": "From when should we learn to be disciplined?",
+            "accepted_answers": [
+              "from our childhood",
+              "childhood",
+              "from childhood"
+            ],
+            "fuzzy_tolerance": 2,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-d002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Our country is an agricultural country. Most of the people live in villages and depend on farming. They grow rice, jute, wheat, tea and many kinds of vegetables. Rice is the main crop and the staple food of our country. Jute is called the golden fibre because it earns a lot of foreign money. The farmers work hard from morning till evening in the field. But most of them are poor because they do not get a fair price for their crops. If we help the farmers with modern tools and fair prices, our country will make great progress.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'Our country is an agricultural country'।",
+          "data": {
+            "question_en": "What kind of country is ours?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "an industrial country"
+              },
+              {
+                "key": "B",
+                "text_en": "an agricultural country"
+              },
+              {
+                "key": "C",
+                "text_en": "a desert country"
+              },
+              {
+                "key": "D",
+                "text_en": "a hilly country"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'Rice is the main crop'।",
+          "data": {
+            "sentence_en": "What is the main crop of our country?",
+            "accepted_answers": [
+              "rice"
+            ],
+            "fuzzy_tolerance": 0,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'because it earns a lot of foreign money'।",
+          "data": {
+            "sentence_en": "Why is jute called the golden fibre?",
+            "accepted_answers": [
+              "because it earns foreign money",
+              "it earns foreign money",
+              "it earns a lot of foreign money"
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'they do not get a fair price for their crops'।",
+          "data": {
+            "question_en": "Why are most farmers poor?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "they are lazy"
+              },
+              {
+                "key": "B",
+                "text_en": "they do not get a fair price"
+              },
+              {
+                "key": "C",
+                "text_en": "they do not work"
+              },
+              {
+                "key": "D",
+                "text_en": "they have no land"
               }
             ],
             "correct_option": "B"
@@ -16880,6 +17892,144 @@
     }
   },
   {
+    "id": "p2.matching.p2_synonym_antonym-c007",
+    "type": "matching",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "synonym মেলাও: clever-intelligent, brave-bold, quiet-silent, joy-happiness।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "left_items": [
+        {
+          "id": "L1",
+          "text_en": "clever"
+        },
+        {
+          "id": "L2",
+          "text_en": "brave"
+        },
+        {
+          "id": "L3",
+          "text_en": "quiet"
+        },
+        {
+          "id": "L4",
+          "text_en": "joy"
+        }
+      ],
+      "right_items": [
+        {
+          "id": "R1",
+          "text_en": "intelligent"
+        },
+        {
+          "id": "R2",
+          "text_en": "bold"
+        },
+        {
+          "id": "R3",
+          "text_en": "silent"
+        },
+        {
+          "id": "R4",
+          "text_en": "happiness"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L4",
+          "right_id": "R4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.matching.p2_synonym_antonym-c008",
+    "type": "matching",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "antonym মেলাও: win×lose, buy×sell, true×false, high×low।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "left_items": [
+        {
+          "id": "L1",
+          "text_en": "win"
+        },
+        {
+          "id": "L2",
+          "text_en": "buy"
+        },
+        {
+          "id": "L3",
+          "text_en": "true"
+        },
+        {
+          "id": "L4",
+          "text_en": "high"
+        }
+      ],
+      "right_items": [
+        {
+          "id": "R1",
+          "text_en": "lose"
+        },
+        {
+          "id": "R2",
+          "text_en": "sell"
+        },
+        {
+          "id": "R3",
+          "text_en": "false"
+        },
+        {
+          "id": "R4",
+          "text_en": "low"
+        }
+      ],
+      "correct_pairs": [
+        {
+          "left_id": "L1",
+          "right_id": "R1"
+        },
+        {
+          "left_id": "L2",
+          "right_id": "R2"
+        },
+        {
+          "left_id": "L3",
+          "right_id": "R3"
+        },
+        {
+          "left_id": "L4",
+          "right_id": "R4"
+        }
+      ]
+    }
+  },
+  {
     "id": "p2.mcq.p2_connectors-009",
     "type": "mcq",
     "paper": "2nd",
@@ -17682,6 +18832,286 @@
         }
       ],
       "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c001",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'assist' = 'help' (সাহায্য করা)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'assist' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "oppose"
+        },
+        {
+          "key": "B",
+          "text_en": "help"
+        },
+        {
+          "key": "C",
+          "text_en": "leave"
+        },
+        {
+          "key": "D",
+          "text_en": "ignore"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c002",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'reply' = 'answer' (উত্তর দেওয়া)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'reply' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "ask"
+        },
+        {
+          "key": "B",
+          "text_en": "answer"
+        },
+        {
+          "key": "C",
+          "text_en": "call"
+        },
+        {
+          "key": "D",
+          "text_en": "read"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c003",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'cruel' = 'merciless' (নিষ্ঠুর)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'cruel' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "kind"
+        },
+        {
+          "key": "B",
+          "text_en": "gentle"
+        },
+        {
+          "key": "C",
+          "text_en": "merciless"
+        },
+        {
+          "key": "D",
+          "text_en": "soft"
+        }
+      ],
+      "correct_option": "C"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c004",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'ancient' (প্রাচীন) × 'modern' (আধুনিক)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'ancient' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "old"
+        },
+        {
+          "key": "B",
+          "text_en": "modern"
+        },
+        {
+          "key": "C",
+          "text_en": "past"
+        },
+        {
+          "key": "D",
+          "text_en": "former"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c005",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'polite' (ভদ্র) × 'rude' (অভদ্র)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'polite' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "gentle"
+        },
+        {
+          "key": "B",
+          "text_en": "rude"
+        },
+        {
+          "key": "C",
+          "text_en": "kind"
+        },
+        {
+          "key": "D",
+          "text_en": "soft"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c006",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'weak' (দুর্বল) × 'strong' (শক্তিশালী)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'weak' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "feeble"
+        },
+        {
+          "key": "B",
+          "text_en": "strong"
+        },
+        {
+          "key": "C",
+          "text_en": "thin"
+        },
+        {
+          "key": "D",
+          "text_en": "small"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c009",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'shut' = 'close' (বন্ধ করা)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Synonym of 'shut' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "open"
+        },
+        {
+          "key": "B",
+          "text_en": "close"
+        },
+        {
+          "key": "C",
+          "text_en": "break"
+        },
+        {
+          "key": "D",
+          "text_en": "push"
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.p2_synonym_antonym-c010",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "p2_synonym_antonym",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক synonym বা antonym বেছে নাও (Board: synonym ও antonym, 0.5×14)।",
+    "explanation_bn": "'accept' (গ্রহণ) × 'reject' (প্রত্যাখ্যান)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Antonym of 'accept' is ___.",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "take"
+        },
+        {
+          "key": "B",
+          "text_en": "receive"
+        },
+        {
+          "key": "C",
+          "text_en": "reject"
+        },
+        {
+          "key": "D",
+          "text_en": "get"
+        }
+      ],
+      "correct_option": "C"
     }
   },
   {
@@ -18544,6 +19974,50 @@
         {
           "id": "R4",
           "criterion_bn": "একটি করণীয়/concluding বাক্য দিয়ে শেষ করেছি"
+        },
+        {
+          "id": "R5",
+          "criterion_bn": "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p2.writing_prompt.p2_paragraph_compare-c001",
+    "type": "writing_prompt",
+    "paper": "2nd",
+    "topic": "p2_paragraph_compare",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে একটি paragraph লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 15 marks)।",
+    "explanation_bn": "নিজে লেখার পর নমুনা উত্তর ও checklist মিলিয়ে নাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "writing_type": "paragraph",
+      "prompt_en": "Write a paragraph comparing and contrasting 'Village Life and Town Life'.",
+      "word_limit": {
+        "min": 150,
+        "max": 200
+      },
+      "model_answer_en": "Village life and town life are different in many ways. A village is a place of natural beauty. The air is fresh and free from pollution. Village people are simple, honest and friendly. They mostly live on farming. However, a village lacks modern facilities like good schools, hospitals and transport. On the other hand, a town is a centre of modern facilities. There are good schools, colleges, hospitals, markets and offices. People get better chances for education, treatment and jobs. But town life has some drawbacks too. The air is often polluted, the streets are crowded and life is busy and costly. Town people hardly get time to visit their neighbours. So, while village life is calm but backward, town life is comfortable but stressful. Both have their own advantages and disadvantages. A wise person can enjoy the good sides of both if he lives in a balanced way.",
+      "rubric_checklist": [
+        {
+          "id": "R1",
+          "criterion_bn": "একটি topic sentence দিয়ে শুরু করেছি"
+        },
+        {
+          "id": "R2",
+          "criterion_bn": "গ্রাম ও শহরের ভালো-মন্দ দুই দিক দিয়েছি"
+        },
+        {
+          "id": "R3",
+          "criterion_bn": "তুলনা/বৈসাদৃশ্যের শব্দ (however, on the other hand, but) ব্যবহার করেছি"
+        },
+        {
+          "id": "R4",
+          "criterion_bn": "একটি concluding sentence দিয়ে শেষ করেছি"
         },
         {
           "id": "R5",

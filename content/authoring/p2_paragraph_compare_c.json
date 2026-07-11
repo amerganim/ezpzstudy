@@ -1,0 +1,24 @@
+{
+  "topic": "p2_paragraph_compare",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিচের বিষয়ে ২০০ শব্দের মধ্যে একটি paragraph লেখো। নিজে লেখার পর checklist মিলিয়ে নমুনা দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph comparing and contrasting 'Village Life and Town Life'.",
+      "words": [150, 200],
+      "model": "Village life and town life are different in many ways. A village is a place of natural beauty. The air is fresh and free from pollution. Village people are simple, honest and friendly. They mostly live on farming. However, a village lacks modern facilities like good schools, hospitals and transport. On the other hand, a town is a centre of modern facilities. There are good schools, colleges, hospitals, markets and offices. People get better chances for education, treatment and jobs. But town life has some drawbacks too. The air is often polluted, the streets are crowded and life is busy and costly. Town people hardly get time to visit their neighbours. So, while village life is calm but backward, town life is comfortable but stressful. Both have their own advantages and disadvantages. A wise person can enjoy the good sides of both if he lives in a balanced way.",
+      "rubric": [
+        "একটি topic sentence দিয়ে শুরু করেছি",
+        "গ্রাম ও শহরের ভালো-মন্দ দুই দিক দিয়েছি",
+        "তুলনা/বৈসাদৃশ্যের শব্দ (however, on the other hand, but) ব্যবহার করেছি",
+        "একটি concluding sentence দিয়ে শেষ করেছি",
+        "২০০ শব্দের মধ্যে রেখেছি ও grammar/বানান ঠিক আছে"
+      ]
+    }
+  ]
+}
