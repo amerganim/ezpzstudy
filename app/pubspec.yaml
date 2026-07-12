@@ -35,8 +35,8 @@ flutter:
     # Core content pack shipped inside the APK -- the student never pays data to
     # download questions. Regenerate from content/packs via the pipeline, then
     # copy into assets/content/ (see tools/content-pipeline).
-    - assets/content/content_pack_v14.json
-    - assets/content/manifest_v14.json
+    - assets/content/content_pack_v15.json
+    - assets/content/manifest_v15.json
     # Compiled topic map (weights + remedial links) — generated from
     # content/topic-map/topic-map.yaml via `content-pipeline topic-map`.
     - assets/content/topic_map.json

@@ -1,0 +1,18 @@
+{
+  "topic": "p2_modifier",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+  "items": [
+    { "type": "fill_in_open", "q": "___ students should be attentive to their studies. (pre-modify the noun 'students')", "a": ["All", "The", "Sincere", "Good"], "fuzzy": 0, "rule_bn": "noun 'students'-এর আগে pre-modifier: All/Sincere/Good।" },
+    { "type": "fill_in_open", "q": "He walked ___ to catch the train. (post-modify the verb 'walked')", "a": ["fast", "quickly", "hurriedly"], "fuzzy": 0, "rule_bn": "verb-এর পরে adverb post-modifier: fast/quickly।" },
+    { "type": "fill_in_open", "q": "The ___ boy stood first. (pre-modify the noun 'boy')", "a": ["intelligent", "brilliant", "meritorious"], "fuzzy": 0, "rule_bn": "noun-এর আগে adjective pre-modifier।" },
+    { "type": "fill_in_open", "q": "___ rising, the sun spreads light. (use a participle to pre-modify)", "a": ["Slowly"], "fuzzy": 1, "rule_bn": "participle 'rising'-এর আগে adverb pre-modifier: Slowly।" },
+    { "type": "fill_in_open", "q": "The boy narrated the tragic incident ___. (post-modify with an adverbial phrase)", "a": ["in detail", "with sorrow", "to the police"], "fuzzy": 0, "rule_bn": "verb-এর পরে adverbial phrase post-modifier।" },
+    { "type": "fill_in_open", "q": "Nazrul, ___, wrote poems of protest. (post-modify with an appositive)", "a": ["the rebel poet", "our national poet"], "fuzzy": 0, "rule_bn": "noun-এর পরে appositive post-modifier।" },
+    { "type": "fill_in_open", "q": "We saw a ___ tiger in the zoo. (pre-modify the noun 'tiger')", "a": ["Royal Bengal", "huge", "ferocious"], "fuzzy": 0, "rule_bn": "noun-এর আগে adjective pre-modifier।" },
+    { "type": "fill_in_open", "q": "He spoke ___ that everybody was moved. (post-modify the verb 'spoke')", "a": ["so emotionally", "so nicely", "very well"], "fuzzy": 0, "rule_bn": "verb-এর পরে adverbial post-modifier।" }
+  ]
+}

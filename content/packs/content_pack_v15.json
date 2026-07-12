@@ -15096,6 +15096,232 @@
     }
   },
   {
+    "id": "p2.fill_in_open.p2_connectors-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "বিপরীত ভাব: But/However/Still।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He worked very hard. ___, he could not succeed.",
+      "accepted_answers": [
+        "But",
+        "However",
+        "Still",
+        "Yet"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "প্রতিকূলতা সত্ত্বেও: Nevertheless/Still।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She was ill. ___, she attended the class.",
+      "accepted_answers": [
+        "Nevertheless",
+        "Even then",
+        "Still",
+        "However"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "উদ্দেশ্য বোঝাতে 'so that'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Read attentively ___ you can learn.",
+      "accepted_answers": [
+        "so that"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "দুটি বিপরীত গুণ যোগে 'but'।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is poor ___ honest.",
+      "accepted_answers": [
+        "but",
+        "yet"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "সত্ত্বেও: Although/Though।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ he was tired, he continued walking.",
+      "accepted_answers": [
+        "Although",
+        "Though",
+        "Even though"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "উদ্দেশ্য: 'so that' + may।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We eat ___ we may live.",
+      "accepted_answers": [
+        "so that"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "কারণ→ফল: So/Therefore/Hence।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Time is valuable. ___, we should make proper use of it.",
+      "accepted_answers": [
+        "So",
+        "Therefore",
+        "Hence",
+        "Thus"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "ধারাবাহিকতা: Then/Next/After that।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "First, mix the flour. ___, add water and sugar.",
+      "accepted_answers": [
+        "Then",
+        "After that",
+        "Next",
+        "Secondly"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "'not only ... but also' জোড়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He not only sings ___ dances well.",
+      "accepted_answers": [
+        "but also"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_connectors-p010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_connectors",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "শর্তহীন পরিণতি: otherwise/or।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Study regularly, ___ you will fail.",
+      "accepted_answers": [
+        "otherwise",
+        "or"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_open.p2_modifier-003",
     "type": "fill_in_open",
     "paper": "2nd",
@@ -15366,6 +15592,188 @@
         "having risen"
       ],
       "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "noun 'students'-এর আগে pre-modifier: All/Sincere/Good।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ students should be attentive to their studies. (pre-modify the noun 'students')",
+      "accepted_answers": [
+        "All",
+        "The",
+        "Sincere",
+        "Good"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "verb-এর পরে adverb post-modifier: fast/quickly।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He walked ___ to catch the train. (post-modify the verb 'walked')",
+      "accepted_answers": [
+        "fast",
+        "quickly",
+        "hurriedly"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "noun-এর আগে adjective pre-modifier।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The ___ boy stood first. (pre-modify the noun 'boy')",
+      "accepted_answers": [
+        "intelligent",
+        "brilliant",
+        "meritorious"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "participle 'rising'-এর আগে adverb pre-modifier: Slowly।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "___ rising, the sun spreads light. (use a participle to pre-modify)",
+      "accepted_answers": [
+        "Slowly"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "verb-এর পরে adverbial phrase post-modifier।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The boy narrated the tragic incident ___. (post-modify with an adverbial phrase)",
+      "accepted_answers": [
+        "in detail",
+        "with sorrow",
+        "to the police"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "noun-এর পরে appositive post-modifier।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Nazrul, ___, wrote poems of protest. (post-modify with an appositive)",
+      "accepted_answers": [
+        "the rebel poet",
+        "our national poet"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "noun-এর আগে adjective pre-modifier।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We saw a ___ tiger in the zoo. (pre-modify the noun 'tiger')",
+      "accepted_answers": [
+        "Royal Bengal",
+        "huge",
+        "ferocious"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_modifier-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_modifier",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Test Paper থেকে সংগৃহীত, 5 marks)।",
+    "explanation_bn": "verb-এর পরে adverbial post-modifier।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He spoke ___ that everybody was moved. (post-modify the verb 'spoke')",
+      "accepted_answers": [
+        "so emotionally",
+        "so nicely",
+        "very well"
+      ],
+      "fuzzy_tolerance": 0,
       "case_sensitive": false
     }
   },
@@ -16909,6 +17317,174 @@
         "on"
       ],
       "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Exclamatory বাক্যে শেষে (!) এবং প্রথমে বড় হাতের অক্ষর।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: what a beautiful bird it is",
+      "accepted_answers": [
+        "What a beautiful bird it is!"
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "said-এর পরে comma, উক্তিতে inverted comma, Dhaka বড় হাতের।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: he said i shall go to dhaka tomorrow",
+      "accepted_answers": [
+        "He said, \"I shall go to Dhaka tomorrow.\""
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "প্রশ্নবোধক বাক্যে শেষে (?) এবং প্রথম অক্ষর বড়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: do you know him",
+      "accepted_answers": [
+        "Do you know him?"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "নামগুলোর মাঝে comma, নাম বড় হাতের, শেষে full stop।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: rahim karim and jashim are friends",
+      "accepted_answers": [
+        "Rahim, Karim and Jashim are friends."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Alas-এর পরে (!) তারপর নতুন বাক্য বড় হাতের অক্ষরে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: alas he is dead",
+      "accepted_answers": [
+        "Alas! He is dead."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "mother's-এ apostrophe (possessive), নাম বড় হাতের।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: my mothers name is amena begum",
+      "accepted_answers": [
+        "My mother's name is Amena Begum."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "indirect প্রশ্নে (?) হয় না; 'I' সর্বদা বড় হাতের।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: he asked me where i lived",
+      "accepted_answers": [
+        "He asked me where I lived."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.p2_punctuation-p008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "p2_punctuation",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "appositive অংশ দুই দিকে comma দিয়ে ঘেরা; নাম বড় হাতের।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Punctuate: dhaka the capital of bangladesh is a big city",
+      "accepted_answers": [
+        "Dhaka, the capital of Bangladesh, is a big city."
+      ],
+      "fuzzy_tolerance": 3,
       "case_sensitive": false
     }
   },
@@ -22571,6 +23147,187 @@
       "original_sentence_en": "He said, \"I must leave now.\"",
       "accepted_answers": [
         "He said that he had to leave then."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p001",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Wh-প্রশ্ন + আদেশ: asked why ... were, and told/ordered to keep quiet।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "The teacher said to the students, \"Why are you making a noise? Keep quiet.\"",
+      "accepted_answers": [
+        "The teacher asked the students why they were making a noise and told them to keep quiet.",
+        "The teacher asked the students why they were making a noise and ordered them to keep quiet."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p002",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Optative: prayed/wished that ... might; may→might।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "The old man said, \"May you live long, my son.\"",
+      "accepted_answers": [
+        "The old man prayed that his son might live long.",
+        "The old man wished that his son might live long."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p003",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "'Let us' (প্রস্তাব): proposed/suggested that ... should।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said to me, \"Let us go for a walk.\"",
+      "accepted_answers": [
+        "He proposed to me that we should go for a walk.",
+        "He suggested that we should go for a walk."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p004",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Optative: prayed that ... might; you→me।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "Mother said to me, \"May Allah bless you.\"",
+      "accepted_answers": [
+        "Mother prayed that Allah might bless me."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p005",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Exclamatory (Alas): exclaimed with sorrow that; I→he, am→was।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "The stranger said, \"Alas! I am undone.\"",
+      "accepted_answers": [
+        "The stranger exclaimed with sorrow that he was undone."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p006",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Yes/No প্রশ্ন: asked if/whether; do you know→they knew।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said to them, \"Do you know the way to the station?\"",
+      "accepted_answers": [
+        "He asked them if they knew the way to the station.",
+        "He asked them whether they knew the way to the station."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p007",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "উপদেশ/নিষেধ: advised + never to + base verb।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "The father said to his son, \"Never tell a lie.\"",
+      "accepted_answers": [
+        "The father advised his son never to tell a lie.",
+        "The father warned his son never to tell a lie."
+      ],
+      "fuzzy_tolerance": 3,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.grammar_transformation.p2_narration-p008",
+    "type": "grammar_transformation",
+    "paper": "2nd",
+    "topic": "p2_narration",
+    "difficulty": "hard",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+    "explanation_bn": "Exclamatory (How): exclaimed with wonder that; how clever→very clever।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "transformation_type": "narration",
+      "original_sentence_en": "He said, \"How clever the boy is!\"",
+      "accepted_answers": [
+        "He exclaimed with wonder that the boy was very clever."
       ],
       "fuzzy_tolerance": 3,
       "case_sensitive": false

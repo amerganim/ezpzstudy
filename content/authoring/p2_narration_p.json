@@ -1,0 +1,18 @@
+{
+  "topic": "p2_narration",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "passage/বাক্যটিকে Indirect Speech-এ রূপান্তর করো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+  "items": [
+    { "type": "grammar_transformation", "original": "The teacher said to the students, \"Why are you making a noise? Keep quiet.\"", "a": ["The teacher asked the students why they were making a noise and told them to keep quiet.", "The teacher asked the students why they were making a noise and ordered them to keep quiet."], "transform": "narration", "fuzzy": 3, "rule_bn": "Wh-প্রশ্ন + আদেশ: asked why ... were, and told/ordered to keep quiet।" },
+    { "type": "grammar_transformation", "original": "The old man said, \"May you live long, my son.\"", "a": ["The old man prayed that his son might live long.", "The old man wished that his son might live long."], "transform": "narration", "fuzzy": 3, "rule_bn": "Optative: prayed/wished that ... might; may→might।" },
+    { "type": "grammar_transformation", "original": "He said to me, \"Let us go for a walk.\"", "a": ["He proposed to me that we should go for a walk.", "He suggested that we should go for a walk."], "transform": "narration", "fuzzy": 3, "rule_bn": "'Let us' (প্রস্তাব): proposed/suggested that ... should।" },
+    { "type": "grammar_transformation", "original": "Mother said to me, \"May Allah bless you.\"", "a": ["Mother prayed that Allah might bless me."], "transform": "narration", "fuzzy": 3, "rule_bn": "Optative: prayed that ... might; you→me।" },
+    { "type": "grammar_transformation", "original": "The stranger said, \"Alas! I am undone.\"", "a": ["The stranger exclaimed with sorrow that he was undone."], "transform": "narration", "fuzzy": 3, "rule_bn": "Exclamatory (Alas): exclaimed with sorrow that; I→he, am→was।" },
+    { "type": "grammar_transformation", "original": "He said to them, \"Do you know the way to the station?\"", "a": ["He asked them if they knew the way to the station.", "He asked them whether they knew the way to the station."], "transform": "narration", "fuzzy": 3, "rule_bn": "Yes/No প্রশ্ন: asked if/whether; do you know→they knew।" },
+    { "type": "grammar_transformation", "original": "The father said to his son, \"Never tell a lie.\"", "a": ["The father advised his son never to tell a lie.", "The father warned his son never to tell a lie."], "transform": "narration", "fuzzy": 3, "rule_bn": "উপদেশ/নিষেধ: advised + never to + base verb।" },
+    { "type": "grammar_transformation", "original": "He said, \"How clever the boy is!\"", "a": ["He exclaimed with wonder that the boy was very clever."], "transform": "narration", "fuzzy": 3, "rule_bn": "Exclamatory (How): exclaimed with wonder that; how clever→very clever।" }
+  ]
+}

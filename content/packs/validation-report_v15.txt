@@ -55,6 +55,10 @@
 ⚠ warning [p2_narration_medium.json row 3] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_medium.json row 6] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_narration_medium.json row 8] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_p.json row 2] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_p.json row 4] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_p.json row 5] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
+⚠ warning [p2_narration_p.json row 8] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_right_form_verb_b.json row 5] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_right_form_verb_b.json row 9] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste
 ⚠ warning [p2_right_form_verb_d.json row 7] (explanation_bn): "explanation_bn" does not appear to contain Bangla characters -- check for wrong-column paste

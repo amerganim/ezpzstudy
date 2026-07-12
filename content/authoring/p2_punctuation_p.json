@@ -1,0 +1,18 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Test Paper থেকে সংগৃহীত, 7 marks)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Punctuate: what a beautiful bird it is", "a": ["What a beautiful bird it is!"], "fuzzy": 3, "rule_bn": "Exclamatory বাক্যে শেষে (!) এবং প্রথমে বড় হাতের অক্ষর।" },
+    { "type": "fill_in_open", "q": "Punctuate: he said i shall go to dhaka tomorrow", "a": ["He said, \"I shall go to Dhaka tomorrow.\""], "fuzzy": 3, "rule_bn": "said-এর পরে comma, উক্তিতে inverted comma, Dhaka বড় হাতের।" },
+    { "type": "fill_in_open", "q": "Punctuate: do you know him", "a": ["Do you know him?"], "fuzzy": 2, "rule_bn": "প্রশ্নবোধক বাক্যে শেষে (?) এবং প্রথম অক্ষর বড়।" },
+    { "type": "fill_in_open", "q": "Punctuate: rahim karim and jashim are friends", "a": ["Rahim, Karim and Jashim are friends."], "fuzzy": 3, "rule_bn": "নামগুলোর মাঝে comma, নাম বড় হাতের, শেষে full stop।" },
+    { "type": "fill_in_open", "q": "Punctuate: alas he is dead", "a": ["Alas! He is dead."], "fuzzy": 3, "rule_bn": "Alas-এর পরে (!) তারপর নতুন বাক্য বড় হাতের অক্ষরে।" },
+    { "type": "fill_in_open", "q": "Punctuate: my mothers name is amena begum", "a": ["My mother's name is Amena Begum."], "fuzzy": 3, "rule_bn": "mother's-এ apostrophe (possessive), নাম বড় হাতের।" },
+    { "type": "fill_in_open", "q": "Punctuate: he asked me where i lived", "a": ["He asked me where I lived."], "fuzzy": 3, "rule_bn": "indirect প্রশ্নে (?) হয় না; 'I' সর্বদা বড় হাতের।" },
+    { "type": "fill_in_open", "q": "Punctuate: dhaka the capital of bangladesh is a big city", "a": ["Dhaka, the capital of Bangladesh, is a big city."], "fuzzy": 3, "rule_bn": "appositive অংশ দুই দিকে comma দিয়ে ঘেরা; নাম বড় হাতের।" }
+  ]
+}

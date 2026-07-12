@@ -1,0 +1,20 @@
+{
+  "topic": "p2_connectors",
+  "paper": "2nd",
+  "batch": "p",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "শূন্যস্থানে উপযুক্ত connector বসাও (Test Paper থেকে সংগৃহীত, 7 marks)।",
+  "items": [
+    { "type": "fill_in_open", "q": "He worked very hard. ___, he could not succeed.", "a": ["But", "However", "Still", "Yet"], "fuzzy": 0, "rule_bn": "বিপরীত ভাব: But/However/Still।" },
+    { "type": "fill_in_open", "q": "She was ill. ___, she attended the class.", "a": ["Nevertheless", "Even then", "Still", "However"], "fuzzy": 0, "rule_bn": "প্রতিকূলতা সত্ত্বেও: Nevertheless/Still।" },
+    { "type": "fill_in_open", "q": "Read attentively ___ you can learn.", "a": ["so that"], "fuzzy": 1, "rule_bn": "উদ্দেশ্য বোঝাতে 'so that'।" },
+    { "type": "fill_in_open", "q": "He is poor ___ honest.", "a": ["but", "yet"], "fuzzy": 0, "rule_bn": "দুটি বিপরীত গুণ যোগে 'but'।" },
+    { "type": "fill_in_open", "q": "___ he was tired, he continued walking.", "a": ["Although", "Though", "Even though"], "fuzzy": 0, "rule_bn": "সত্ত্বেও: Although/Though।" },
+    { "type": "fill_in_open", "q": "We eat ___ we may live.", "a": ["so that"], "fuzzy": 1, "rule_bn": "উদ্দেশ্য: 'so that' + may।" },
+    { "type": "fill_in_open", "q": "Time is valuable. ___, we should make proper use of it.", "a": ["So", "Therefore", "Hence", "Thus"], "fuzzy": 0, "rule_bn": "কারণ→ফল: So/Therefore/Hence।" },
+    { "type": "fill_in_open", "q": "First, mix the flour. ___, add water and sugar.", "a": ["Then", "After that", "Next", "Secondly"], "fuzzy": 0, "rule_bn": "ধারাবাহিকতা: Then/Next/After that।" },
+    { "type": "fill_in_open", "q": "He not only sings ___ dances well.", "a": ["but also"], "fuzzy": 1, "rule_bn": "'not only ... but also' জোড়া।" },
+    { "type": "fill_in_open", "q": "Study regularly, ___ you will fail.", "a": ["otherwise", "or"], "fuzzy": 0, "rule_bn": "শর্তহীন পরিণতি: otherwise/or।" }
+  ]
+}
