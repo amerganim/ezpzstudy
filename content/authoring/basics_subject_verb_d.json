@@ -1,0 +1,20 @@
+{
+  "topic": "basics_subject_verb",
+  "paper": "2nd",
+  "batch": "d",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "Each of the boys ___ a pen. (have)", "a": ["has"], "rule_bn": "'Each of' — singular ধরা হয়, তাই has।" },
+    { "type": "fill_in_open", "q": "The teacher and the students ___ present. (be)", "a": ["are"], "rule_bn": "দুটি ভিন্ন subject 'and' দিয়ে যুক্ত — plural, তাই are।" },
+    { "type": "fill_in_open", "q": "Neither he nor I ___ guilty. (be)", "a": ["am"], "rule_bn": "'Neither ... nor' — কাছের subject (I) অনুযায়ী verb: am।" },
+    { "type": "fill_in_open", "q": "The number of students ___ increasing. (be)", "a": ["is"], "rule_bn": "'The number of' — singular, তাই is।" },
+    { "type": "fill_in_open", "q": "Mathematics ___ my favourite subject. (be)", "a": ["is"], "rule_bn": "Mathematics দেখতে plural হলেও singular, তাই is।" },
+    { "type": "fill_in_open", "q": "Ten miles ___ a long distance. (be)", "a": ["is"], "rule_bn": "দূরত্ব/পরিমাণকে একক ধরা হয়, তাই is।" },
+    { "type": "fill_in_open", "q": "Everybody ___ the news. (know)", "a": ["knows"], "rule_bn": "'Everybody' singular, তাই knows।" },
+    { "type": "fill_in_open", "q": "The cattle ___ grazing in the field. (be)", "a": ["are"], "rule_bn": "'Cattle' plural noun, তাই are।" },
+    { "type": "mcq", "q": "Choose the correct sentence:", "opts": ["One of my friends are a doctor.", "One of my friends is a doctor.", "One of my friend is a doctor.", "One of my friends were a doctor."], "correct": 1, "rule_bn": "'One of ...' singular, তাই is।" },
+    { "type": "mcq", "q": "Choose the correct sentence:", "opts": ["The poor is helpless.", "The poor are helpless.", "The poor was helpless.", "The poor has helpless."], "correct": 1, "rule_bn": "'The + adjective' (The poor) plural অর্থে, তাই are।" }
+  ]
+}

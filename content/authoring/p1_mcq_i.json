@@ -1,0 +1,43 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "i",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "The internet has changed our life in many ways. It is a global network that connects millions of computers around the world. Through the internet, we can send emails, read news and learn new things within seconds. Students can find study materials and attend online classes. Businessmen can buy and sell goods online. However, the internet also has some misuses. Some people spread false news and cheat others. Children may become addicted to games. So, we should use the internet wisely for our benefit.",
+      "subs": [
+        { "type": "mcq", "q": "What is the internet?", "opts": ["a single computer", "a global network of computers", "a mobile phone", "a television", "a book"], "correct": 1, "rule_bn": "অনুচ্ছেদ: 'a global network that connects millions of computers'।" },
+        { "type": "mcq", "q": "What can students do through the internet?", "opts": ["only play games", "find study materials and attend online classes", "sell goods", "spread false news"], "correct": 1, "rule_bn": "'students can find study materials and attend online classes'।" },
+        { "type": "fill_in_open", "q": "Some people misuse the internet by spreading ___ news.", "a": ["false", "fake"], "fuzzy": 1, "rule_bn": "'spread false news and cheat others'।" },
+        { "type": "mcq", "q": "What is the main advice of the passage?", "opts": ["avoid the internet", "use the internet wisely", "play more games", "stop online classes"], "correct": 1, "rule_bn": "শেষ বাক্য: 'we should use the internet wisely'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Begum Rokeya was a great woman of Bengal. She was born in 1880 in the district of Rangpur. In those days, girls were not allowed to get education. But Rokeya learned to read and write secretly with the help of her elder brother. She understood that education was the only way to free women from ignorance. So she opened a school for girls in Kolkata. She also wrote many books and essays about women's rights. For her great work, she is called the pioneer of women's education in this region.",
+      "subs": [
+        { "type": "mcq", "q": "When was Begum Rokeya born?", "opts": ["1870", "1880", "1890", "1900"], "correct": 1, "rule_bn": "'She was born in 1880'।" },
+        { "type": "mcq", "q": "Who helped Rokeya learn to read and write?", "opts": ["her father", "her teacher", "her elder brother", "her friend"], "correct": 2, "rule_bn": "'with the help of her elder brother'।" },
+        { "type": "fill_in_open", "q": "Rokeya opened a school for ___ in Kolkata.", "a": ["girls"], "fuzzy": 1, "rule_bn": "'she opened a school for girls in Kolkata'।" },
+        { "type": "mcq", "q": "Why is she called a pioneer?", "opts": ["for her wealth", "for women's education", "for her books only", "for her family"], "correct": 1, "rule_bn": "'pioneer of women's education'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "The liberation war of Bangladesh took place in 1971. On the night of 25 March, the Pakistani army attacked the innocent people of this country. In protest, the people of Bangladesh started a war for freedom under the leadership of Bangabandhu Sheikh Mujibur Rahman. Millions of people joined the war. After nine months of fighting and great sacrifice, Bangladesh won victory on 16 December 1971. This day is celebrated as Victory Day every year. We remember the brave freedom fighters with respect and gratitude.",
+      "subs": [
+        { "type": "mcq", "q": "When did the liberation war take place?", "opts": ["1947", "1952", "1971", "1975"], "correct": 2, "rule_bn": "'The liberation war of Bangladesh took place in 1971'।" },
+        { "type": "fill_in_open", "q": "The war for freedom was led by Bangabandhu Sheikh Mujibur ___.", "a": ["Rahman"], "fuzzy": 1, "rule_bn": "'under the leadership of Bangabandhu Sheikh Mujibur Rahman'।" },
+        { "type": "mcq", "q": "How long did the war last?", "opts": ["three months", "six months", "nine months", "one year"], "correct": 2, "rule_bn": "'After nine months of fighting'।" },
+        { "type": "mcq", "q": "What is 16 December celebrated as?", "opts": ["Independence Day", "Victory Day", "Language Day", "Republic Day"], "correct": 1, "rule_bn": "'celebrated as Victory Day'।" }
+      ]
+    }
+  ]
+}

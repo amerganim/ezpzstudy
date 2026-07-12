@@ -1,0 +1,34 @@
+{
+  "topic": "p1_info_transfer",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Rice is our main food. To grow rice, a farmer has to work hard. First, he prepares the land by ploughing it well. Then he sows the seeds in a small plot to make seedlings. After a few weeks, he plants the seedlings in the main field. He gives water and fertiliser to the plants and removes the weeds. When the crop becomes ripe and golden, he cuts it. Finally, he separates the grains from the plants and dries them in the sun.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Step 1: The farmer prepares the land by ___ it.", "a": ["ploughing", "plowing"], "fuzzy": 1, "rule_bn": "'prepares the land by ploughing it'।" },
+        { "type": "fill_in_open", "q": "Step 2: He ___ the seeds to make seedlings.", "a": ["sows"], "fuzzy": 1, "rule_bn": "'he sows the seeds'।" },
+        { "type": "fill_in_open", "q": "Step 3: He ___ the seedlings in the main field.", "a": ["plants"], "fuzzy": 1, "rule_bn": "'he plants the seedlings'।" },
+        { "type": "fill_in_open", "q": "Step 4: He gives water and fertiliser and removes the ___.", "a": ["weeds"], "fuzzy": 1, "rule_bn": "'removes the weeds'।" },
+        { "type": "fill_in_open", "q": "Step 5: When ripe, he ___ the crop and dries the grains.", "a": ["cuts"], "fuzzy": 1, "rule_bn": "'he cuts it'।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Ways of purifying water are simple and useful. The most common way is to boil water. When water is boiled for about twenty minutes, the germs in it die. Another way is to use a filter that removes dirt and germs. We can also use purifying tablets or drops in water. In some places, people use fitkiri (alum) to make muddy water clean. After purifying, the water should be kept in a clean and covered pot so that it does not get dirty again.",
+      "subs": [
+        { "type": "fill_in_open", "q": "Way 1: ___ water for about twenty minutes.", "a": ["Boil", "boil"], "fuzzy": 1, "rule_bn": "'to boil water ... germs die'।" },
+        { "type": "fill_in_open", "q": "Way 2: Use a ___ to remove dirt and germs.", "a": ["filter"], "fuzzy": 1, "rule_bn": "'use a filter that removes dirt'।" },
+        { "type": "fill_in_open", "q": "Way 3: Use purifying ___ or drops in water.", "a": ["tablets"], "fuzzy": 1, "rule_bn": "'use purifying tablets or drops'।" },
+        { "type": "fill_in_open", "q": "Way 4: Use ___ (alum) to make muddy water clean.", "a": ["fitkiri", "alum"], "fuzzy": 1, "rule_bn": "'use fitkiri (alum)'।" },
+        { "type": "fill_in_open", "q": "Finally: Keep the water in a clean and ___ pot.", "a": ["covered"], "fuzzy": 1, "rule_bn": "'kept in a clean and covered pot'।" }
+      ]
+    }
+  ]
+}

@@ -9245,6 +9245,177 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_info_transfer-c001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_info_transfer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Rice is our main food. To grow rice, a farmer has to work hard. First, he prepares the land by ploughing it well. Then he sows the seeds in a small plot to make seedlings. After a few weeks, he plants the seedlings in the main field. He gives water and fertiliser to the plants and removes the weeds. When the crop becomes ripe and golden, he cuts it. Finally, he separates the grains from the plants and dries them in the sun.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'prepares the land by ploughing it'।",
+          "data": {
+            "sentence_en": "Step 1: The farmer prepares the land by ___ it.",
+            "accepted_answers": [
+              "ploughing",
+              "plowing"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'he sows the seeds'।",
+          "data": {
+            "sentence_en": "Step 2: He ___ the seeds to make seedlings.",
+            "accepted_answers": [
+              "sows"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'he plants the seedlings'।",
+          "data": {
+            "sentence_en": "Step 3: He ___ the seedlings in the main field.",
+            "accepted_answers": [
+              "plants"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'removes the weeds'।",
+          "data": {
+            "sentence_en": "Step 4: He gives water and fertiliser and removes the ___.",
+            "accepted_answers": [
+              "weeds"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'he cuts it'।",
+          "data": {
+            "sentence_en": "Step 5: When ripe, he ___ the crop and dries the grains.",
+            "accepted_answers": [
+              "cuts"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_info_transfer-c002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_info_transfer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Ways of purifying water are simple and useful. The most common way is to boil water. When water is boiled for about twenty minutes, the germs in it die. Another way is to use a filter that removes dirt and germs. We can also use purifying tablets or drops in water. In some places, people use fitkiri (alum) to make muddy water clean. After purifying, the water should be kept in a clean and covered pot so that it does not get dirty again.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "'to boil water ... germs die'।",
+          "data": {
+            "sentence_en": "Way 1: ___ water for about twenty minutes.",
+            "accepted_answers": [
+              "Boil",
+              "boil"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'use a filter that removes dirt'।",
+          "data": {
+            "sentence_en": "Way 2: Use a ___ to remove dirt and germs.",
+            "accepted_answers": [
+              "filter"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'use purifying tablets or drops'।",
+          "data": {
+            "sentence_en": "Way 3: Use purifying ___ or drops in water.",
+            "accepted_answers": [
+              "tablets"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "'use fitkiri (alum)'।",
+          "data": {
+            "sentence_en": "Way 4: Use ___ (alum) to make muddy water clean.",
+            "accepted_answers": [
+              "fitkiri",
+              "alum"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "'kept in a clean and covered pot'।",
+          "data": {
+            "sentence_en": "Finally: Keep the water in a clean and ___ pot.",
+            "accepted_answers": [
+              "covered"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.comprehension_set.p1_mcq-001",
     "type": "comprehension_set",
     "paper": "1st",
@@ -10874,6 +11045,350 @@
               {
                 "key": "D",
                 "text_en": "1 January 1972"
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-i001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "The internet has changed our life in many ways. It is a global network that connects millions of computers around the world. Through the internet, we can send emails, read news and learn new things within seconds. Students can find study materials and attend online classes. Businessmen can buy and sell goods online. However, the internet also has some misuses. Some people spread false news and cheat others. Children may become addicted to games. So, we should use the internet wisely for our benefit.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "অনুচ্ছেদ: 'a global network that connects millions of computers'।",
+          "data": {
+            "question_en": "What is the internet?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "a single computer"
+              },
+              {
+                "key": "B",
+                "text_en": "a global network of computers"
+              },
+              {
+                "key": "C",
+                "text_en": "a mobile phone"
+              },
+              {
+                "key": "D",
+                "text_en": "a television"
+              },
+              {
+                "key": "E",
+                "text_en": "a book"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'students can find study materials and attend online classes'।",
+          "data": {
+            "question_en": "What can students do through the internet?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "only play games"
+              },
+              {
+                "key": "B",
+                "text_en": "find study materials and attend online classes"
+              },
+              {
+                "key": "C",
+                "text_en": "sell goods"
+              },
+              {
+                "key": "D",
+                "text_en": "spread false news"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'spread false news and cheat others'।",
+          "data": {
+            "sentence_en": "Some people misuse the internet by spreading ___ news.",
+            "accepted_answers": [
+              "false",
+              "fake"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "শেষ বাক্য: 'we should use the internet wisely'।",
+          "data": {
+            "question_en": "What is the main advice of the passage?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "avoid the internet"
+              },
+              {
+                "key": "B",
+                "text_en": "use the internet wisely"
+              },
+              {
+                "key": "C",
+                "text_en": "play more games"
+              },
+              {
+                "key": "D",
+                "text_en": "stop online classes"
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-i002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Begum Rokeya was a great woman of Bengal. She was born in 1880 in the district of Rangpur. In those days, girls were not allowed to get education. But Rokeya learned to read and write secretly with the help of her elder brother. She understood that education was the only way to free women from ignorance. So she opened a school for girls in Kolkata. She also wrote many books and essays about women's rights. For her great work, she is called the pioneer of women's education in this region.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'She was born in 1880'।",
+          "data": {
+            "question_en": "When was Begum Rokeya born?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "1870"
+              },
+              {
+                "key": "B",
+                "text_en": "1880"
+              },
+              {
+                "key": "C",
+                "text_en": "1890"
+              },
+              {
+                "key": "D",
+                "text_en": "1900"
+              }
+            ],
+            "correct_option": "B"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "mcq",
+          "explanation_bn": "'with the help of her elder brother'।",
+          "data": {
+            "question_en": "Who helped Rokeya learn to read and write?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "her father"
+              },
+              {
+                "key": "B",
+                "text_en": "her teacher"
+              },
+              {
+                "key": "C",
+                "text_en": "her elder brother"
+              },
+              {
+                "key": "D",
+                "text_en": "her friend"
+              }
+            ],
+            "correct_option": "C"
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "'she opened a school for girls in Kolkata'।",
+          "data": {
+            "sentence_en": "Rokeya opened a school for ___ in Kolkata.",
+            "accepted_answers": [
+              "girls"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'pioneer of women's education'।",
+          "data": {
+            "question_en": "Why is she called a pioneer?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "for her wealth"
+              },
+              {
+                "key": "B",
+                "text_en": "for women's education"
+              },
+              {
+                "key": "C",
+                "text_en": "for her books only"
+              },
+              {
+                "key": "D",
+                "text_en": "for her family"
+              }
+            ],
+            "correct_option": "B"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_mcq-i003",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_mcq",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে প্রশ্নগুলোর উত্তর দাও (Board: reading MCQ ও সংক্ষিপ্ত প্রশ্ন)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "The liberation war of Bangladesh took place in 1971. On the night of 25 March, the Pakistani army attacked the innocent people of this country. In protest, the people of Bangladesh started a war for freedom under the leadership of Bangabandhu Sheikh Mujibur Rahman. Millions of people joined the war. After nine months of fighting and great sacrifice, Bangladesh won victory on 16 December 1971. This day is celebrated as Victory Day every year. We remember the brave freedom fighters with respect and gratitude.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "mcq",
+          "explanation_bn": "'The liberation war of Bangladesh took place in 1971'।",
+          "data": {
+            "question_en": "When did the liberation war take place?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "1947"
+              },
+              {
+                "key": "B",
+                "text_en": "1952"
+              },
+              {
+                "key": "C",
+                "text_en": "1971"
+              },
+              {
+                "key": "D",
+                "text_en": "1975"
+              }
+            ],
+            "correct_option": "C"
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "'under the leadership of Bangabandhu Sheikh Mujibur Rahman'।",
+          "data": {
+            "sentence_en": "The war for freedom was led by Bangabandhu Sheikh Mujibur ___.",
+            "accepted_answers": [
+              "Rahman"
+            ],
+            "fuzzy_tolerance": 1,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "mcq",
+          "explanation_bn": "'After nine months of fighting'।",
+          "data": {
+            "question_en": "How long did the war last?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "three months"
+              },
+              {
+                "key": "B",
+                "text_en": "six months"
+              },
+              {
+                "key": "C",
+                "text_en": "nine months"
+              },
+              {
+                "key": "D",
+                "text_en": "one year"
+              }
+            ],
+            "correct_option": "C"
+          }
+        },
+        {
+          "id": "s4",
+          "type": "mcq",
+          "explanation_bn": "'celebrated as Victory Day'।",
+          "data": {
+            "question_en": "What is 16 December celebrated as?",
+            "options": [
+              {
+                "key": "A",
+                "text_en": "Independence Day"
+              },
+              {
+                "key": "B",
+                "text_en": "Victory Day"
+              },
+              {
+                "key": "C",
+                "text_en": "Language Day"
+              },
+              {
+                "key": "D",
+                "text_en": "Republic Day"
               }
             ],
             "correct_option": "B"
@@ -16150,6 +16665,174 @@
           "criterion_bn": "grammar ও বানান ঠিক আছে"
         }
       ]
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'Each of' — singular ধরা হয়, তাই has।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Each of the boys ___ a pen. (have)",
+      "accepted_answers": [
+        "has"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "দুটি ভিন্ন subject 'and' দিয়ে যুক্ত — plural, তাই are।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The teacher and the students ___ present. (be)",
+      "accepted_answers": [
+        "are"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'Neither ... nor' — কাছের subject (I) অনুযায়ী verb: am।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Neither he nor I ___ guilty. (be)",
+      "accepted_answers": [
+        "am"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'The number of' — singular, তাই is।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The number of students ___ increasing. (be)",
+      "accepted_answers": [
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "Mathematics দেখতে plural হলেও singular, তাই is।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Mathematics ___ my favourite subject. (be)",
+      "accepted_answers": [
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "দূরত্ব/পরিমাণকে একক ধরা হয়, তাই is।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Ten miles ___ a long distance. (be)",
+      "accepted_answers": [
+        "is"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'Everybody' singular, তাই knows।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Everybody ___ the news. (know)",
+      "accepted_answers": [
+        "knows"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.basics_subject_verb-d008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'Cattle' plural noun, তাই are।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The cattle ___ grazing in the field. (be)",
+      "accepted_answers": [
+        "are"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
     }
   },
   {
@@ -22469,6 +23152,220 @@
     }
   },
   {
+    "id": "p2.fill_in_open.tense-d001",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "চিরন্তন সত্য Present Indefinite-এ; singular তাই rises।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The sun ___ in the east. (rise)",
+      "accepted_answers": [
+        "rises"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d002",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "অতীতে আগের কাজ Past Perfect: had + V3 (had finished)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I ___ my breakfast before I went to school. (finish)",
+      "accepted_answers": [
+        "had finished"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d003",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "'for five years' চলমান — Present Perfect / Perfect Continuous।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "She ___ here for five years. (live)",
+      "accepted_answers": [
+        "has lived",
+        "has been living"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d004",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "ভবিষ্যতের কাজ: will finish / by tomorrow → will have finished।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We ___ the work by tomorrow. (finish)",
+      "accepted_answers": [
+        "will finish",
+        "will have finished"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d005",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "'since morning' চলমান কাজ Present Perfect Continuous: has been + verb+ing।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "It ___ since morning. (rain)",
+      "accepted_answers": [
+        "has been raining"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d006",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "অতীতে দুটি কাজের আগেরটি Past Perfect: had left।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "When I reached the station, the train ___. (leave)",
+      "accepted_answers": [
+        "had left"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d007",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "অতীতে চলমান কাজ Past Continuous: was + verb+ing।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He ___ television when I saw him. (watch)",
+      "accepted_answers": [
+        "was watching"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d008",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "বৈজ্ঞানিক সত্য Present Indefinite: boils।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Water ___ at 100 degrees Celsius. (boil)",
+      "accepted_answers": [
+        "boils"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d009",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "'already' — Present Perfect: have + V3 (have seen)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "They ___ already ___ the film. (see)",
+      "accepted_answers": [
+        "have already seen"
+      ],
+      "fuzzy_tolerance": 2,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p2.fill_in_open.tense-d010",
+    "type": "fill_in_open",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "'tomorrow' — Future Indefinite: will/shall meet।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "I ___ him tomorrow. (meet)",
+      "accepted_answers": [
+        "will meet",
+        "shall meet",
+        "am going to meet"
+      ],
+      "fuzzy_tolerance": 1,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p2.fill_in_word_bank.p2_connectors-001",
     "type": "fill_in_word_bank",
     "paper": "2nd",
@@ -26726,6 +27623,76 @@
     }
   },
   {
+    "id": "p2.mcq.basics_subject_verb-d009",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'One of ...' singular, তাই is।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Choose the correct sentence:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "One of my friends are a doctor."
+        },
+        {
+          "key": "B",
+          "text_en": "One of my friends is a doctor."
+        },
+        {
+          "key": "C",
+          "text_en": "One of my friend is a doctor."
+        },
+        {
+          "key": "D",
+          "text_en": "One of my friends were a doctor."
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
+    "id": "p2.mcq.basics_subject_verb-d010",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "basics_subject_verb",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+    "explanation_bn": "'The + adjective' (The poor) plural অর্থে, তাই are।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Choose the correct sentence:",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "The poor is helpless."
+        },
+        {
+          "key": "B",
+          "text_en": "The poor are helpless."
+        },
+        {
+          "key": "C",
+          "text_en": "The poor was helpless."
+        },
+        {
+          "key": "D",
+          "text_en": "The poor has helpless."
+        }
+      ],
+      "correct_option": "B"
+    }
+  },
+  {
     "id": "p2.mcq.p2_connectors-009",
     "type": "mcq",
     "paper": "2nd",
@@ -28368,6 +29335,76 @@
         }
       ],
       "correct_option": "C"
+    }
+  },
+  {
+    "id": "p2.mcq.tense-d011",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "'last week' — Past Indefinite: went।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Choose the correct form: 'He ___ to Dhaka last week.'",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "goes"
+        },
+        {
+          "key": "B",
+          "text_en": "has gone"
+        },
+        {
+          "key": "C",
+          "text_en": "went"
+        },
+        {
+          "key": "D",
+          "text_en": "was going"
+        }
+      ],
+      "correct_option": "C"
+    }
+  },
+  {
+    "id": "p2.mcq.tense-d012",
+    "type": "mcq",
+    "paper": "2nd",
+    "topic": "tense",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+    "explanation_bn": "'yet' — Present Perfect: have not finished।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "question_en": "Choose the correct form: 'I ___ my homework yet.'",
+      "options": [
+        {
+          "key": "A",
+          "text_en": "did not finish"
+        },
+        {
+          "key": "B",
+          "text_en": "have not finished"
+        },
+        {
+          "key": "C",
+          "text_en": "will not finish"
+        },
+        {
+          "key": "D",
+          "text_en": "do not finish"
+        }
+      ],
+      "correct_option": "B"
     }
   },
   {

@@ -1,0 +1,22 @@
+{
+  "topic": "tense",
+  "paper": "2nd",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধনীর verb-এর সঠিক tense বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "The sun ___ in the east. (rise)", "a": ["rises"], "rule_bn": "চিরন্তন সত্য Present Indefinite-এ; singular তাই rises।" },
+    { "type": "fill_in_open", "q": "I ___ my breakfast before I went to school. (finish)", "a": ["had finished"], "fuzzy": 1, "rule_bn": "অতীতে আগের কাজ Past Perfect: had + V3 (had finished)।" },
+    { "type": "fill_in_open", "q": "She ___ here for five years. (live)", "a": ["has lived", "has been living"], "fuzzy": 1, "rule_bn": "'for five years' চলমান — Present Perfect / Perfect Continuous।" },
+    { "type": "fill_in_open", "q": "We ___ the work by tomorrow. (finish)", "a": ["will finish", "will have finished"], "fuzzy": 1, "rule_bn": "ভবিষ্যতের কাজ: will finish / by tomorrow → will have finished।" },
+    { "type": "fill_in_open", "q": "It ___ since morning. (rain)", "a": ["has been raining"], "fuzzy": 1, "rule_bn": "'since morning' চলমান কাজ Present Perfect Continuous: has been + verb+ing।" },
+    { "type": "fill_in_open", "q": "When I reached the station, the train ___. (leave)", "a": ["had left"], "fuzzy": 1, "rule_bn": "অতীতে দুটি কাজের আগেরটি Past Perfect: had left।" },
+    { "type": "fill_in_open", "q": "He ___ television when I saw him. (watch)", "a": ["was watching"], "fuzzy": 1, "rule_bn": "অতীতে চলমান কাজ Past Continuous: was + verb+ing।" },
+    { "type": "fill_in_open", "q": "Water ___ at 100 degrees Celsius. (boil)", "a": ["boils"], "rule_bn": "বৈজ্ঞানিক সত্য Present Indefinite: boils।" },
+    { "type": "fill_in_open", "q": "They ___ already ___ the film. (see)", "a": ["have already seen"], "fuzzy": 2, "rule_bn": "'already' — Present Perfect: have + V3 (have seen)।" },
+    { "type": "fill_in_open", "q": "I ___ him tomorrow. (meet)", "a": ["will meet", "shall meet", "am going to meet"], "fuzzy": 1, "rule_bn": "'tomorrow' — Future Indefinite: will/shall meet।" },
+    { "type": "mcq", "q": "Choose the correct form: 'He ___ to Dhaka last week.'", "opts": ["goes", "has gone", "went", "was going"], "correct": 2, "rule_bn": "'last week' — Past Indefinite: went।" },
+    { "type": "mcq", "q": "Choose the correct form: 'I ___ my homework yet.'", "opts": ["did not finish", "have not finished", "will not finish", "do not finish"], "correct": 1, "rule_bn": "'yet' — Present Perfect: have not finished।" }
+  ]
+}
