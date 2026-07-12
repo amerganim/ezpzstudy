@@ -123,8 +123,10 @@ class _CardView extends StatelessWidget {
           ),
         ),
         SafeArea(
-          minimum: const EdgeInsets.fromLTRB(16, 10, 16, 20),
-          child: revealed
+          top: false,
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 10, 16, 24),
+            child: revealed
               ? Row(
                   children: [
                     Expanded(
@@ -156,6 +158,7 @@ class _CardView extends StatelessWidget {
                   onPressed: onReveal,
                   child: const Text(Bn.showMeaning),
                 ),
+          ),
         ),
       ],
     );

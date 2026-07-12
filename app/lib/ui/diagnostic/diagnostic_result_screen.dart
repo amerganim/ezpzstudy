@@ -59,7 +59,8 @@ class _DiagnosticResultScreenState extends State<DiagnosticResultScreen> {
           }
           final insights = snap.data!;
           return ListView(
-            padding: const EdgeInsets.all(20),
+            padding: EdgeInsets.fromLTRB(
+                20, 20, 20, MediaQuery.of(context).padding.bottom + 24),
             children: [
               const Text('✅',
                   style: TextStyle(fontSize: 48), textAlign: TextAlign.center),

@@ -113,7 +113,8 @@ class _SyncScreenState extends State<SyncScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text(Bn.syncTitle)),
       body: ListView(
-        padding: const EdgeInsets.all(20),
+        padding: EdgeInsets.fromLTRB(
+            20, 20, 20, MediaQuery.of(context).padding.bottom + 24),
         children: [
           Text(Bn.syncSubtitle,
               style: const TextStyle(fontSize: 15, color: Colors.black54)),

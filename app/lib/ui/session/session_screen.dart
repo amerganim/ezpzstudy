@@ -165,18 +165,24 @@ class _SessionScreenState extends State<SessionScreen> {
     // Writing is self-managed: no "check" button; show Next only after submit.
     if (isWriting && result == null) return const SizedBox.shrink();
 
+    // SafeArea adds the nav-bar inset; the inner Padding adds a real gap ON TOP
+    // of it (SafeArea `minimum` would be max(inset, x) — non-additive — so the
+    // button would sit flush against the nav bar). Together: inset + 24 gap.
     return SafeArea(
-      minimum: const EdgeInsets.fromLTRB(16, 10, 16, 20),
-      child: result == null
-          ? FilledButton(
-              onPressed: _canSubmit ? _check : null,
-              child: const Text(Bn.checkAnswer),
-            )
-          : FilledButton(
-              onPressed: _next,
-              child: Text(
-                  _controller.isLastQuestion ? Bn.finish : Bn.nextQuestion),
-            ),
+      top: false,
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16, 10, 16, 24),
+        child: result == null
+            ? FilledButton(
+                onPressed: _canSubmit ? _check : null,
+                child: const Text(Bn.checkAnswer),
+              )
+            : FilledButton(
+                onPressed: _next,
+                child: Text(
+                    _controller.isLastQuestion ? Bn.finish : Bn.nextQuestion),
+              ),
+      ),
     );
   }
 
