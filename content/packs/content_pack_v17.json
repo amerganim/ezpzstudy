@@ -3715,6 +3715,318 @@
     }
   },
   {
+    "id": "b.flashcard.basics_everyday_vocab-c001",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পানি",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "water",
+      "back_bn": "পানি",
+      "example_sentence_en": "I drink a glass of water.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c002",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বিদ্যালয়",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "school",
+      "back_bn": "বিদ্যালয়",
+      "example_sentence_en": "I go to school every day.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c003",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বন্ধু",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "friend",
+      "back_bn": "বন্ধু",
+      "example_sentence_en": "He is my best friend.",
+      "part_of_speech": "noun",
+      "antonym": "enemy"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c004",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সুখী",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "happy",
+      "back_bn": "সুখী",
+      "example_sentence_en": "She is very happy today.",
+      "part_of_speech": "adjective",
+      "antonym": "sad"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c005",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বড়",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "big",
+      "back_bn": "বড়",
+      "example_sentence_en": "It is a big house.",
+      "part_of_speech": "adjective",
+      "antonym": "small"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c006",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "খাওয়া",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "eat",
+      "back_bn": "খাওয়া",
+      "example_sentence_en": "We eat rice every day.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c007",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পড়া",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "read",
+      "back_bn": "পড়া",
+      "example_sentence_en": "I read a book at night.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c008",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "মা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "mother",
+      "back_bn": "মা",
+      "example_sentence_en": "My mother cooks food for us.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c009",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পরিষ্কার",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "clean",
+      "back_bn": "পরিষ্কার",
+      "example_sentence_en": "Keep your room clean.",
+      "part_of_speech": "adjective",
+      "antonym": "dirty"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c010",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দিন",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "day",
+      "back_bn": "দিন",
+      "example_sentence_en": "It is a sunny day.",
+      "part_of_speech": "noun",
+      "antonym": "night"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c011",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সাহায্য করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "help",
+      "back_bn": "সাহায্য করা",
+      "example_sentence_en": "We should help the poor.",
+      "part_of_speech": "verb"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c012",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সুন্দর",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "beautiful",
+      "back_bn": "সুন্দর",
+      "example_sentence_en": "The garden is very beautiful.",
+      "part_of_speech": "adjective",
+      "antonym": "ugly"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c013",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কাজ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "work",
+      "back_bn": "কাজ",
+      "example_sentence_en": "He does his work with care.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c014",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "খাদ্য",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "food",
+      "back_bn": "খাদ্য",
+      "example_sentence_en": "We need food to live.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c015",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পুরনো/বৃদ্ধ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "old",
+      "back_bn": "পুরনো/বৃদ্ধ",
+      "example_sentence_en": "This is an old book.",
+      "part_of_speech": "adjective",
+      "antonym": "new"
+    }
+  },
+  {
+    "id": "b.flashcard.basics_everyday_vocab-c016",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "basics_everyday_vocab",
+    "difficulty": "easy",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কেনা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "buy",
+      "back_bn": "কেনা",
+      "example_sentence_en": "I want to buy a pen.",
+      "part_of_speech": "verb",
+      "antonym": "sell"
+    }
+  },
+  {
     "id": "b.flashcard.vocabulary_hsc_words-001",
     "type": "flashcard",
     "paper": "both",
@@ -5728,6 +6040,331 @@
       "part_of_speech": "verb",
       "synonym": "refuse",
       "antonym": "accept"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g001",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "পরিশ্রমী",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "diligent",
+      "back_bn": "পরিশ্রমী",
+      "example_sentence_en": "A diligent student always does well in the exam.",
+      "part_of_speech": "adjective",
+      "synonym": "hardworking",
+      "antonym": "lazy"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g002",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "বাধা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "obstacle",
+      "back_bn": "বাধা",
+      "example_sentence_en": "He overcame every obstacle in his way.",
+      "part_of_speech": "noun",
+      "synonym": "barrier"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g003",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "উদার",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "generous",
+      "back_bn": "উদার",
+      "example_sentence_en": "She is generous to the poor.",
+      "part_of_speech": "adjective",
+      "synonym": "kind",
+      "antonym": "selfish"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g004",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সাহস",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "courage",
+      "back_bn": "সাহস",
+      "example_sentence_en": "The soldier fought with great courage.",
+      "part_of_speech": "noun",
+      "synonym": "bravery",
+      "antonym": "fear"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g005",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "উন্নতি করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "prosper",
+      "back_bn": "উন্নতি করা",
+      "example_sentence_en": "A hardworking nation is sure to prosper.",
+      "part_of_speech": "verb",
+      "synonym": "thrive",
+      "antonym": "fail"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g006",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "আন্তরিক",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "sincere",
+      "back_bn": "আন্তরিক",
+      "example_sentence_en": "He is sincere in his duties.",
+      "part_of_speech": "adjective",
+      "synonym": "honest",
+      "antonym": "insincere"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g007",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দূষণ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "pollution",
+      "back_bn": "দূষণ",
+      "example_sentence_en": "Air pollution is a serious problem in cities.",
+      "part_of_speech": "noun"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g008",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দায়িত্বশীল",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "responsible",
+      "back_bn": "দায়িত্বশীল",
+      "example_sentence_en": "A good leader is responsible for his people.",
+      "part_of_speech": "adjective",
+      "antonym": "careless"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g009",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "অর্জন করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "achieve",
+      "back_bn": "অর্জন করা",
+      "example_sentence_en": "You can achieve your goal through hard work.",
+      "part_of_speech": "verb",
+      "synonym": "gain"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g010",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "দারিদ্র্য",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "poverty",
+      "back_bn": "দারিদ্র্য",
+      "example_sentence_en": "Education can remove poverty from society.",
+      "part_of_speech": "noun",
+      "antonym": "wealth"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g011",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "উৎসাহিত করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "encourage",
+      "back_bn": "উৎসাহিত করা",
+      "example_sentence_en": "Teachers should encourage weak students.",
+      "part_of_speech": "verb",
+      "antonym": "discourage"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g012",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "কৃতজ্ঞ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "grateful",
+      "back_bn": "কৃতজ্ঞ",
+      "example_sentence_en": "We are grateful to our parents.",
+      "part_of_speech": "adjective",
+      "synonym": "thankful",
+      "antonym": "ungrateful"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g013",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "সুযোগ",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "opportunity",
+      "back_bn": "সুযোগ",
+      "example_sentence_en": "Do not miss a good opportunity.",
+      "part_of_speech": "noun",
+      "synonym": "chance"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g014",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "আত্মবিশ্বাসী",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "confident",
+      "back_bn": "আত্মবিশ্বাসী",
+      "example_sentence_en": "She is confident about her success.",
+      "part_of_speech": "adjective",
+      "antonym": "doubtful"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g015",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "উন্নত করা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "improve",
+      "back_bn": "উন্নত করা",
+      "example_sentence_en": "Reading books improves our knowledge.",
+      "part_of_speech": "verb",
+      "synonym": "develop"
+    }
+  },
+  {
+    "id": "b.flashcard.vocabulary_hsc_words-g016",
+    "type": "flashcard",
+    "paper": "both",
+    "topic": "vocabulary_hsc_words",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+    "explanation_bn": "প্রজ্ঞা",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "front_en": "wisdom",
+      "back_bn": "প্রজ্ঞা",
+      "example_sentence_en": "With age comes wisdom.",
+      "part_of_speech": "noun",
+      "antonym": "foolishness"
     }
   },
   {
@@ -11224,6 +11861,273 @@
     }
   },
   {
+    "id": "p1.comprehension_set.p1_short_answer-f001",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Rabindranath Tagore was a great poet of Bengali literature. He was born in 1861 in Kolkata in a rich family. From his childhood he had a great love for nature and poetry. He wrote his first verses at an early age. He composed poems, songs, novels, dramas and short stories. His famous book of poems is 'Gitanjali'. In 1913 he won the Nobel Prize for this book. He was the first person in Asia to win this prize. Besides writing, he founded a school at Santiniketan. He died in 1941, but he still lives in the hearts of the Bengali people through his immortal works.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "অনুচ্ছেদ অনুযায়ী: born in 1861 in Kolkata।",
+          "data": {
+            "sentence_en": "When and where was Rabindranath Tagore born?",
+            "accepted_answers": [
+              "He was born in 1861 in Kolkata.",
+              "In 1861 in Kolkata."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "Gitanjali বইয়ের জন্য তিনি নোবেল পান।",
+          "data": {
+            "sentence_en": "For which book did he win the Nobel Prize?",
+            "accepted_answers": [
+              "He won the Nobel Prize for 'Gitanjali'.",
+              "For Gitanjali."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "তিনি শান্তিনিকেতনে একটি স্কুল প্রতিষ্ঠা করেন।",
+          "data": {
+            "sentence_en": "What did he found at Santiniketan?",
+            "accepted_answers": [
+              "He founded a school at Santiniketan.",
+              "A school."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "তিনিই এশিয়ার প্রথম নোবেলজয়ী।",
+          "data": {
+            "sentence_en": "Why is he the first person in Asia to be remembered for the Nobel Prize?",
+            "accepted_answers": [
+              "Because he was the first Asian to win the Nobel Prize.",
+              "He was the first Asian Nobel winner."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "তাঁর অমর সৃষ্টিকর্মের মাধ্যমে।",
+          "data": {
+            "sentence_en": "How does he still live in the hearts of the Bengali people?",
+            "accepted_answers": [
+              "He lives through his immortal works.",
+              "Through his works and writings."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-f002",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Discipline means obedience to certain rules and regulations. It is essential in every walk of life. Without discipline, no nation can prosper. We see discipline everywhere in nature. The sun rises in the east and sets in the west every day. The seasons come and go in a fixed order. If we want to be successful in life, we must be disciplined. A student should follow the rules of his school and study at the right time. A disciplined student can make the best use of his time. Thus, discipline helps us build a happy and peaceful society.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "নিয়মকানুন মেনে চলা।",
+          "data": {
+            "sentence_en": "What does discipline mean?",
+            "accepted_answers": [
+              "Discipline means obedience to certain rules and regulations.",
+              "Obedience to rules and regulations."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "সূর্যোদয়-সূর্যাস্ত ও ঋতুর ক্রমে।",
+          "data": {
+            "sentence_en": "Where do we see discipline in nature?",
+            "accepted_answers": [
+              "We see discipline in the rising and setting of the sun and the order of seasons.",
+              "In the sun and the seasons."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "নিয়ম মেনে ও সময়মতো পড়ে।",
+          "data": {
+            "sentence_en": "How should a student show discipline?",
+            "accepted_answers": [
+              "A student should follow school rules and study at the right time.",
+              "By following rules and studying on time."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "শৃঙ্খলা ছাড়া জাতি উন্নতি করতে পারে না।",
+          "data": {
+            "sentence_en": "Why is discipline essential for a nation?",
+            "accepted_answers": [
+              "Because without discipline no nation can prosper.",
+              "No nation can prosper without it."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "সুখী ও শান্তিপূর্ণ সমাজ।",
+          "data": {
+            "sentence_en": "What does discipline help us build?",
+            "accepted_answers": [
+              "It helps us build a happy and peaceful society.",
+              "A happy and peaceful society."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.comprehension_set.p1_short_answer-f003",
+    "type": "comprehension_set",
+    "paper": "1st",
+    "topic": "p1_short_answer",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+    "explanation_bn": "অনুচ্ছেদটি মন দিয়ে পড়ে প্রশ্নগুলোর উত্তর দাও।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "passage_en": "Mobile phones have become a part of our daily life. They help us communicate with people at home and abroad within a second. We can send messages, browse the internet and take pictures with them. Students can learn many things online using mobile phones. But mobile phones also have some bad sides. Many students waste their valuable time playing games and using social media. Too much use of mobile phones is harmful to the eyes and the brain. So, we should use mobile phones carefully and only for good purposes.",
+      "passage_source": "original",
+      "sub_questions": [
+        {
+          "id": "s1",
+          "type": "fill_in_open",
+          "explanation_bn": "মুহূর্তেই দেশ-বিদেশে যোগাযোগ করা যায়।",
+          "data": {
+            "sentence_en": "How do mobile phones help us communicate?",
+            "accepted_answers": [
+              "They help us communicate with people at home and abroad within a second.",
+              "We can talk to people quickly."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s2",
+          "type": "fill_in_open",
+          "explanation_bn": "অনলাইনে অনেক কিছু শেখা যায়।",
+          "data": {
+            "sentence_en": "What can students do with mobile phones?",
+            "accepted_answers": [
+              "Students can learn many things online.",
+              "They can learn online."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s3",
+          "type": "fill_in_open",
+          "explanation_bn": "সময় নষ্ট এবং চোখ-মস্তিষ্কের ক্ষতি।",
+          "data": {
+            "sentence_en": "What are the bad sides of mobile phones?",
+            "accepted_answers": [
+              "Students waste time on games and social media, and it harms the eyes and brain.",
+              "Wasting time and harming health."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s4",
+          "type": "fill_in_open",
+          "explanation_bn": "সতর্কভাবে ও ভালো কাজে ব্যবহার করা উচিত।",
+          "data": {
+            "sentence_en": "How should we use mobile phones?",
+            "accepted_answers": [
+              "We should use them carefully and only for good purposes.",
+              "Carefully and for good purposes."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        },
+        {
+          "id": "s5",
+          "type": "fill_in_open",
+          "explanation_bn": "অতিরিক্ত ব্যবহার চোখ ও মস্তিষ্কের ক্ষতি করে।",
+          "data": {
+            "sentence_en": "Why is too much use of mobile phones harmful?",
+            "accepted_answers": [
+              "Because it is harmful to the eyes and the brain.",
+              "It harms the eyes and brain."
+            ],
+            "fuzzy_tolerance": 3,
+            "case_sensitive": false
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "p1.fill_in_open.p1_cloze_no_clues-001",
     "type": "fill_in_open",
     "paper": "1st",
@@ -11906,6 +12810,262 @@
     }
   },
   {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e001",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'asset to/of' — সম্পদ; প্রসঙ্গে to বসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A good citizen is an asset ___ the country.",
+      "accepted_answers": [
+        "to",
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e002",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'proud of' — গর্বিত।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He is proud ___ his father's wealth.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e003",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'look forward to' — অপেক্ষায় থাকা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The students are looking forward ___ the result.",
+      "accepted_answers": [
+        "to"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e004",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'abstain from' — বিরত থাকা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should abstain ___ smoking.",
+      "accepted_answers": [
+        "from"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e005",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'famous for' — কোনো কিছুর জন্য বিখ্যাত।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Dhaka is famous ___ its historical places.",
+      "accepted_answers": [
+        "for"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e006",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'born in/into a family' — পরিবারে জন্ম।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He was born ___ a poor family.",
+      "accepted_answers": [
+        "in",
+        "into"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e007",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'pleased with/at' — সন্তুষ্ট।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The teacher was pleased ___ the student's result.",
+      "accepted_answers": [
+        "with",
+        "at"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e008",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'take care of' — যত্ন নেওয়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We must take care ___ our health.",
+      "accepted_answers": [
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e009",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'succeed in' — সফল হওয়া।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "He succeeded ___ passing the examination.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e010",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'cry for' — কিছুর জন্য কান্না করা।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The hungry man was crying ___ food.",
+      "accepted_answers": [
+        "for"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e011",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'careless about/of' — উদাসীন।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Health is wealth. So we should not be careless ___ it.",
+      "accepted_answers": [
+        "about",
+        "of"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
+    "id": "p1.fill_in_open.p1_cloze_no_clues-e012",
+    "type": "fill_in_open",
+    "paper": "1st",
+    "topic": "p1_cloze_no_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+    "explanation_bn": "'rich in' — সমৃদ্ধ।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The country is rich ___ natural resources.",
+      "accepted_answers": [
+        "in"
+      ],
+      "fuzzy_tolerance": 0,
+      "case_sensitive": false
+    }
+  },
+  {
     "id": "p1.fill_in_word_bank.p1_cloze_clues-001",
     "type": "fill_in_word_bank",
     "paper": "1st",
@@ -12317,6 +13477,230 @@
         {
           "blank_id": "2",
           "correct_answer": "healthy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c001",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "প্রবাদ: Honesty is the best policy; সৎ মানুষকে সবাই (all) ভালোবাসে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Honesty is the best {{1}}. An honest man is loved by {{2}}.",
+      "word_bank": [
+        "policy",
+        "all",
+        "money",
+        "none"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "policy"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "all"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c002",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "সময় নষ্ট করা উচিত নয়; Time and tide wait for none।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "We should not {{1}} time. Time and tide {{2}} for none.",
+      "word_bank": [
+        "waste",
+        "wait",
+        "save",
+        "run"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "waste"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "wait"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c003",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "বই আমাদের প্রকৃত বন্ধু (friends) ও জ্ঞান (knowledge) দেয়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Books are our best {{1}}. They give us {{2}} and pleasure.",
+      "word_bank": [
+        "friends",
+        "knowledge",
+        "enemies",
+        "money"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "friends"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "knowledge"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c004",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "প্রবাদ: early bird catches the worm; অলস (lazy) হওয়া উচিত নয়।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "The early bird {{1}} the worm. So we should not be {{2}}.",
+      "word_bank": [
+        "catches",
+        "lazy",
+        "loses",
+        "active"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "catches"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "lazy"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c005",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "প্রবাদ: A friend in need is a friend indeed; প্রকৃত বন্ধু ছেড়ে যায় না (leave)।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "A friend in {{1}} is a friend indeed. True friends never {{2}} us.",
+      "word_bank": [
+        "need",
+        "leave",
+        "greed",
+        "help"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "need"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "leave"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c006",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "প্রবাদ: United we stand, divided we fall।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "United we {{1}}, divided we {{2}}.",
+      "word_bank": [
+        "stand",
+        "fall",
+        "win",
+        "run"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "stand"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "fall"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p1.fill_in_word_bank.p1_cloze_clues-c007",
+    "type": "fill_in_word_bank",
+    "paper": "1st",
+    "topic": "p1_cloze_clues",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+    "explanation_bn": "পরিচ্ছন্নতা সুস্থ (healthy) মনের লক্ষণ; চারপাশ পরিষ্কার (clean) রাখা উচিত।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "sentence_en": "Cleanliness is a sign of a {{1}} mind. We should keep our surroundings {{2}}.",
+      "word_bank": [
+        "healthy",
+        "clean",
+        "dirty",
+        "weak"
+      ],
+      "blanks": [
+        {
+          "blank_id": "1",
+          "correct_answer": "healthy"
+        },
+        {
+          "blank_id": "2",
+          "correct_answer": "clean"
         }
       ]
     }
@@ -13300,6 +14684,231 @@
         {
           "id": "U5",
           "text_en": "He is remembered for his kindness and learning."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-f001",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "সমস্যা → চেষ্টা → ব্যর্থতা → অজুহাত ক্রমে সাজে।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "A fox was very hungry."
+        },
+        {
+          "id": "U2",
+          "text_en": "It came to a garden and saw some ripe grapes."
+        },
+        {
+          "id": "U3",
+          "text_en": "The grapes were hanging high on a vine."
+        },
+        {
+          "id": "U4",
+          "text_en": "The fox jumped again and again but could not reach them."
+        },
+        {
+          "id": "U5",
+          "text_en": "At last it went away saying the grapes were sour."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-f002",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "গল্পের ঘটনাক্রম: পরিচয় → চ্যালেঞ্জ → ঘটনা → ফল।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "Once there lived a hare and a tortoise."
+        },
+        {
+          "id": "U2",
+          "text_en": "The hare was proud of its speed."
+        },
+        {
+          "id": "U3",
+          "text_en": "It challenged the tortoise to a race."
+        },
+        {
+          "id": "U4",
+          "text_en": "The hare slept on the way, but the tortoise walked on slowly."
+        },
+        {
+          "id": "U5",
+          "text_en": "In the end, the tortoise won the race."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-f003",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "জীবনী: পরিচয় → জন্ম → কাজ → স্বীকৃতি।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "Dr. Muhammad Yunus is a famous economist."
+        },
+        {
+          "id": "U2",
+          "text_en": "He was born in Chattogram in 1940."
+        },
+        {
+          "id": "U3",
+          "text_en": "He started the Grameen Bank for the poor."
+        },
+        {
+          "id": "U4",
+          "text_en": "This bank gives small loans to poor people."
+        },
+        {
+          "id": "U5",
+          "text_en": "In 2006 he won the Nobel Prize for Peace."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-f004",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "লোভ ও চাতুরীর গল্প: কারণ → কৌশল → ফল।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "A crow was sitting on a tree with a piece of cheese."
+        },
+        {
+          "id": "U2",
+          "text_en": "A hungry fox saw the cheese and wanted it."
+        },
+        {
+          "id": "U3",
+          "text_en": "The fox praised the crow's sweet voice."
+        },
+        {
+          "id": "U4",
+          "text_en": "The proud crow began to sing and dropped the cheese."
+        },
+        {
+          "id": "U5",
+          "text_en": "The clever fox took the cheese and ran away."
+        }
+      ],
+      "correct_order": [
+        "U1",
+        "U2",
+        "U3",
+        "U4",
+        "U5"
+      ]
+    }
+  },
+  {
+    "id": "p1.rearranging.p1_rearranging-f005",
+    "type": "rearranging",
+    "paper": "1st",
+    "topic": "p1_rearranging",
+    "difficulty": "medium",
+    "marks_weight": 1,
+    "tags": [],
+    "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+    "explanation_bn": "উপকারের প্রতিদান: ঘটনা → দয়া → বিপদ → প্রতিদান।",
+    "review_status": "reviewed",
+    "author": "ezpz-content",
+    "data": {
+      "unit_type": "sentence",
+      "units": [
+        {
+          "id": "U1",
+          "text_en": "Once a lion was sleeping in a forest."
+        },
+        {
+          "id": "U2",
+          "text_en": "A little mouse ran over its body."
+        },
+        {
+          "id": "U3",
+          "text_en": "The lion caught the mouse but let it go."
+        },
+        {
+          "id": "U4",
+          "text_en": "Later the lion was trapped in a net."
+        },
+        {
+          "id": "U5",
+          "text_en": "The grateful mouse cut the net and saved the lion."
         }
       ],
       "correct_order": [

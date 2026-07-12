@@ -1,0 +1,26 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "g",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "diligent", "back_bn": "পরিশ্রমী", "example": "A diligent student always does well in the exam.", "pos": "adjective", "syn": "hardworking", "ant": "lazy" },
+    { "type": "flashcard", "front": "obstacle", "back_bn": "বাধা", "example": "He overcame every obstacle in his way.", "pos": "noun", "syn": "barrier" },
+    { "type": "flashcard", "front": "generous", "back_bn": "উদার", "example": "She is generous to the poor.", "pos": "adjective", "syn": "kind", "ant": "selfish" },
+    { "type": "flashcard", "front": "courage", "back_bn": "সাহস", "example": "The soldier fought with great courage.", "pos": "noun", "syn": "bravery", "ant": "fear" },
+    { "type": "flashcard", "front": "prosper", "back_bn": "উন্নতি করা", "example": "A hardworking nation is sure to prosper.", "pos": "verb", "syn": "thrive", "ant": "fail" },
+    { "type": "flashcard", "front": "sincere", "back_bn": "আন্তরিক", "example": "He is sincere in his duties.", "pos": "adjective", "syn": "honest", "ant": "insincere" },
+    { "type": "flashcard", "front": "pollution", "back_bn": "দূষণ", "example": "Air pollution is a serious problem in cities.", "pos": "noun" },
+    { "type": "flashcard", "front": "responsible", "back_bn": "দায়িত্বশীল", "example": "A good leader is responsible for his people.", "pos": "adjective", "ant": "careless" },
+    { "type": "flashcard", "front": "achieve", "back_bn": "অর্জন করা", "example": "You can achieve your goal through hard work.", "pos": "verb", "syn": "gain" },
+    { "type": "flashcard", "front": "poverty", "back_bn": "দারিদ্র্য", "example": "Education can remove poverty from society.", "pos": "noun", "ant": "wealth" },
+    { "type": "flashcard", "front": "encourage", "back_bn": "উৎসাহিত করা", "example": "Teachers should encourage weak students.", "pos": "verb", "ant": "discourage" },
+    { "type": "flashcard", "front": "grateful", "back_bn": "কৃতজ্ঞ", "example": "We are grateful to our parents.", "pos": "adjective", "syn": "thankful", "ant": "ungrateful" },
+    { "type": "flashcard", "front": "opportunity", "back_bn": "সুযোগ", "example": "Do not miss a good opportunity.", "pos": "noun", "syn": "chance" },
+    { "type": "flashcard", "front": "confident", "back_bn": "আত্মবিশ্বাসী", "example": "She is confident about her success.", "pos": "adjective", "ant": "doubtful" },
+    { "type": "flashcard", "front": "improve", "back_bn": "উন্নত করা", "example": "Reading books improves our knowledge.", "pos": "verb", "syn": "develop" },
+    { "type": "flashcard", "front": "wisdom", "back_bn": "প্রজ্ঞা", "example": "With age comes wisdom.", "pos": "noun", "ant": "foolishness" }
+  ]
+}

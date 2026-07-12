@@ -1,0 +1,17 @@
+{
+  "topic": "p1_cloze_clues",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দভাণ্ডার থেকে সঠিক শব্দ দিয়ে অনুচ্ছেদের শূন্যস্থান পূরণ করো (Board: cloze test with clues, 0.5×10)।",
+  "items": [
+    { "type": "fill_in_word_bank", "q": "Honesty is the best {{1}}. An honest man is loved by {{2}}.", "bank": ["policy", "all", "money", "none"], "ans": ["policy", "all"], "rule_bn": "প্রবাদ: Honesty is the best policy; সৎ মানুষকে সবাই (all) ভালোবাসে।" },
+    { "type": "fill_in_word_bank", "q": "We should not {{1}} time. Time and tide {{2}} for none.", "bank": ["waste", "wait", "save", "run"], "ans": ["waste", "wait"], "rule_bn": "সময় নষ্ট করা উচিত নয়; Time and tide wait for none।" },
+    { "type": "fill_in_word_bank", "q": "Books are our best {{1}}. They give us {{2}} and pleasure.", "bank": ["friends", "knowledge", "enemies", "money"], "ans": ["friends", "knowledge"], "rule_bn": "বই আমাদের প্রকৃত বন্ধু (friends) ও জ্ঞান (knowledge) দেয়।" },
+    { "type": "fill_in_word_bank", "q": "The early bird {{1}} the worm. So we should not be {{2}}.", "bank": ["catches", "lazy", "loses", "active"], "ans": ["catches", "lazy"], "rule_bn": "প্রবাদ: early bird catches the worm; অলস (lazy) হওয়া উচিত নয়।" },
+    { "type": "fill_in_word_bank", "q": "A friend in {{1}} is a friend indeed. True friends never {{2}} us.", "bank": ["need", "leave", "greed", "help"], "ans": ["need", "leave"], "rule_bn": "প্রবাদ: A friend in need is a friend indeed; প্রকৃত বন্ধু ছেড়ে যায় না (leave)।" },
+    { "type": "fill_in_word_bank", "q": "United we {{1}}, divided we {{2}}.", "bank": ["stand", "fall", "win", "run"], "ans": ["stand", "fall"], "rule_bn": "প্রবাদ: United we stand, divided we fall।" },
+    { "type": "fill_in_word_bank", "q": "Cleanliness is a sign of a {{1}} mind. We should keep our surroundings {{2}}.", "bank": ["healthy", "clean", "dirty", "weak"], "ans": ["healthy", "clean"], "rule_bn": "পরিচ্ছন্নতা সুস্থ (healthy) মনের লক্ষণ; চারপাশ পরিষ্কার (clean) রাখা উচিত।" }
+  ]
+}

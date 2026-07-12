@@ -1,0 +1,46 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "f",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Rabindranath Tagore was a great poet of Bengali literature. He was born in 1861 in Kolkata in a rich family. From his childhood he had a great love for nature and poetry. He wrote his first verses at an early age. He composed poems, songs, novels, dramas and short stories. His famous book of poems is 'Gitanjali'. In 1913 he won the Nobel Prize for this book. He was the first person in Asia to win this prize. Besides writing, he founded a school at Santiniketan. He died in 1941, but he still lives in the hearts of the Bengali people through his immortal works.",
+      "subs": [
+        { "type": "fill_in_open", "q": "When and where was Rabindranath Tagore born?", "a": ["He was born in 1861 in Kolkata.", "In 1861 in Kolkata."], "fuzzy": 3, "rule_bn": "অনুচ্ছেদ অনুযায়ী: born in 1861 in Kolkata।" },
+        { "type": "fill_in_open", "q": "For which book did he win the Nobel Prize?", "a": ["He won the Nobel Prize for 'Gitanjali'.", "For Gitanjali."], "fuzzy": 3, "rule_bn": "Gitanjali বইয়ের জন্য তিনি নোবেল পান।" },
+        { "type": "fill_in_open", "q": "What did he found at Santiniketan?", "a": ["He founded a school at Santiniketan.", "A school."], "fuzzy": 3, "rule_bn": "তিনি শান্তিনিকেতনে একটি স্কুল প্রতিষ্ঠা করেন।" },
+        { "type": "fill_in_open", "q": "Why is he the first person in Asia to be remembered for the Nobel Prize?", "a": ["Because he was the first Asian to win the Nobel Prize.", "He was the first Asian Nobel winner."], "fuzzy": 3, "rule_bn": "তিনিই এশিয়ার প্রথম নোবেলজয়ী।" },
+        { "type": "fill_in_open", "q": "How does he still live in the hearts of the Bengali people?", "a": ["He lives through his immortal works.", "Through his works and writings."], "fuzzy": 3, "rule_bn": "তাঁর অমর সৃষ্টিকর্মের মাধ্যমে।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Discipline means obedience to certain rules and regulations. It is essential in every walk of life. Without discipline, no nation can prosper. We see discipline everywhere in nature. The sun rises in the east and sets in the west every day. The seasons come and go in a fixed order. If we want to be successful in life, we must be disciplined. A student should follow the rules of his school and study at the right time. A disciplined student can make the best use of his time. Thus, discipline helps us build a happy and peaceful society.",
+      "subs": [
+        { "type": "fill_in_open", "q": "What does discipline mean?", "a": ["Discipline means obedience to certain rules and regulations.", "Obedience to rules and regulations."], "fuzzy": 3, "rule_bn": "নিয়মকানুন মেনে চলা।" },
+        { "type": "fill_in_open", "q": "Where do we see discipline in nature?", "a": ["We see discipline in the rising and setting of the sun and the order of seasons.", "In the sun and the seasons."], "fuzzy": 3, "rule_bn": "সূর্যোদয়-সূর্যাস্ত ও ঋতুর ক্রমে।" },
+        { "type": "fill_in_open", "q": "How should a student show discipline?", "a": ["A student should follow school rules and study at the right time.", "By following rules and studying on time."], "fuzzy": 3, "rule_bn": "নিয়ম মেনে ও সময়মতো পড়ে।" },
+        { "type": "fill_in_open", "q": "Why is discipline essential for a nation?", "a": ["Because without discipline no nation can prosper.", "No nation can prosper without it."], "fuzzy": 3, "rule_bn": "শৃঙ্খলা ছাড়া জাতি উন্নতি করতে পারে না।" },
+        { "type": "fill_in_open", "q": "What does discipline help us build?", "a": ["It helps us build a happy and peaceful society.", "A happy and peaceful society."], "fuzzy": 3, "rule_bn": "সুখী ও শান্তিপূর্ণ সমাজ।" }
+      ]
+    },
+    {
+      "type": "comprehension_set",
+      "source": "original",
+      "passage": "Mobile phones have become a part of our daily life. They help us communicate with people at home and abroad within a second. We can send messages, browse the internet and take pictures with them. Students can learn many things online using mobile phones. But mobile phones also have some bad sides. Many students waste their valuable time playing games and using social media. Too much use of mobile phones is harmful to the eyes and the brain. So, we should use mobile phones carefully and only for good purposes.",
+      "subs": [
+        { "type": "fill_in_open", "q": "How do mobile phones help us communicate?", "a": ["They help us communicate with people at home and abroad within a second.", "We can talk to people quickly."], "fuzzy": 3, "rule_bn": "মুহূর্তেই দেশ-বিদেশে যোগাযোগ করা যায়।" },
+        { "type": "fill_in_open", "q": "What can students do with mobile phones?", "a": ["Students can learn many things online.", "They can learn online."], "fuzzy": 3, "rule_bn": "অনলাইনে অনেক কিছু শেখা যায়।" },
+        { "type": "fill_in_open", "q": "What are the bad sides of mobile phones?", "a": ["Students waste time on games and social media, and it harms the eyes and brain.", "Wasting time and harming health."], "fuzzy": 3, "rule_bn": "সময় নষ্ট এবং চোখ-মস্তিষ্কের ক্ষতি।" },
+        { "type": "fill_in_open", "q": "How should we use mobile phones?", "a": ["We should use them carefully and only for good purposes.", "Carefully and for good purposes."], "fuzzy": 3, "rule_bn": "সতর্কভাবে ও ভালো কাজে ব্যবহার করা উচিত।" },
+        { "type": "fill_in_open", "q": "Why is too much use of mobile phones harmful?", "a": ["Because it is harmful to the eyes and the brain.", "It harms the eyes and brain."], "fuzzy": 3, "rule_bn": "অতিরিক্ত ব্যবহার চোখ ও মস্তিষ্কের ক্ষতি করে।" }
+      ]
+    }
+  ]
+}

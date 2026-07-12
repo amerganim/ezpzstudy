@@ -1,0 +1,15 @@
+{
+  "topic": "p1_rearranging",
+  "paper": "1st",
+  "batch": "f",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বাক্যগুলো সঠিক ক্রমে সাজিয়ে একটি অর্থপূর্ণ গল্প/অনুচ্ছেদ তৈরি করো (Board: rearranging, 10 marks)।",
+  "items": [
+    { "type": "rearranging", "sentences": ["A fox was very hungry.", "It came to a garden and saw some ripe grapes.", "The grapes were hanging high on a vine.", "The fox jumped again and again but could not reach them.", "At last it went away saying the grapes were sour."], "rule_bn": "সমস্যা → চেষ্টা → ব্যর্থতা → অজুহাত ক্রমে সাজে।" },
+    { "type": "rearranging", "sentences": ["Once there lived a hare and a tortoise.", "The hare was proud of its speed.", "It challenged the tortoise to a race.", "The hare slept on the way, but the tortoise walked on slowly.", "In the end, the tortoise won the race."], "rule_bn": "গল্পের ঘটনাক্রম: পরিচয় → চ্যালেঞ্জ → ঘটনা → ফল।" },
+    { "type": "rearranging", "sentences": ["Dr. Muhammad Yunus is a famous economist.", "He was born in Chattogram in 1940.", "He started the Grameen Bank for the poor.", "This bank gives small loans to poor people.", "In 2006 he won the Nobel Prize for Peace."], "rule_bn": "জীবনী: পরিচয় → জন্ম → কাজ → স্বীকৃতি।" },
+    { "type": "rearranging", "sentences": ["A crow was sitting on a tree with a piece of cheese.", "A hungry fox saw the cheese and wanted it.", "The fox praised the crow's sweet voice.", "The proud crow began to sing and dropped the cheese.", "The clever fox took the cheese and ran away."], "rule_bn": "লোভ ও চাতুরীর গল্প: কারণ → কৌশল → ফল।" },
+    { "type": "rearranging", "sentences": ["Once a lion was sleeping in a forest.", "A little mouse ran over its body.", "The lion caught the mouse but let it go.", "Later the lion was trapped in a net.", "The grateful mouse cut the net and saved the lion."], "rule_bn": "উপকারের প্রতিদান: ঘটনা → দয়া → বিপদ → প্রতিদান।" }
+  ]
+}

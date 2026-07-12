@@ -1,0 +1,26 @@
+{
+  "topic": "basics_everyday_vocab",
+  "paper": "both",
+  "batch": "c",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "water", "back_bn": "পানি", "example": "I drink a glass of water.", "pos": "noun" },
+    { "type": "flashcard", "front": "school", "back_bn": "বিদ্যালয়", "example": "I go to school every day.", "pos": "noun" },
+    { "type": "flashcard", "front": "friend", "back_bn": "বন্ধু", "example": "He is my best friend.", "pos": "noun", "ant": "enemy" },
+    { "type": "flashcard", "front": "happy", "back_bn": "সুখী", "example": "She is very happy today.", "pos": "adjective", "ant": "sad" },
+    { "type": "flashcard", "front": "big", "back_bn": "বড়", "example": "It is a big house.", "pos": "adjective", "ant": "small" },
+    { "type": "flashcard", "front": "eat", "back_bn": "খাওয়া", "example": "We eat rice every day.", "pos": "verb" },
+    { "type": "flashcard", "front": "read", "back_bn": "পড়া", "example": "I read a book at night.", "pos": "verb" },
+    { "type": "flashcard", "front": "mother", "back_bn": "মা", "example": "My mother cooks food for us.", "pos": "noun" },
+    { "type": "flashcard", "front": "clean", "back_bn": "পরিষ্কার", "example": "Keep your room clean.", "pos": "adjective", "ant": "dirty" },
+    { "type": "flashcard", "front": "day", "back_bn": "দিন", "example": "It is a sunny day.", "pos": "noun", "ant": "night" },
+    { "type": "flashcard", "front": "help", "back_bn": "সাহায্য করা", "example": "We should help the poor.", "pos": "verb" },
+    { "type": "flashcard", "front": "beautiful", "back_bn": "সুন্দর", "example": "The garden is very beautiful.", "pos": "adjective", "ant": "ugly" },
+    { "type": "flashcard", "front": "work", "back_bn": "কাজ", "example": "He does his work with care.", "pos": "noun" },
+    { "type": "flashcard", "front": "food", "back_bn": "খাদ্য", "example": "We need food to live.", "pos": "noun" },
+    { "type": "flashcard", "front": "old", "back_bn": "পুরনো/বৃদ্ধ", "example": "This is an old book.", "pos": "adjective", "ant": "new" },
+    { "type": "flashcard", "front": "buy", "back_bn": "কেনা", "example": "I want to buy a pen.", "pos": "verb", "ant": "sell" }
+  ]
+}

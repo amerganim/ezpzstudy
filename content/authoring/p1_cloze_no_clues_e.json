@@ -1,0 +1,22 @@
+{
+  "topic": "p1_cloze_no_clues",
+  "paper": "1st",
+  "batch": "e",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues, 1×10)।",
+  "items": [
+    { "type": "fill_in_open", "q": "A good citizen is an asset ___ the country.", "a": ["to", "of"], "fuzzy": 0, "rule_bn": "'asset to/of' — সম্পদ; প্রসঙ্গে to বসে।" },
+    { "type": "fill_in_open", "q": "He is proud ___ his father's wealth.", "a": ["of"], "rule_bn": "'proud of' — গর্বিত।" },
+    { "type": "fill_in_open", "q": "The students are looking forward ___ the result.", "a": ["to"], "rule_bn": "'look forward to' — অপেক্ষায় থাকা।" },
+    { "type": "fill_in_open", "q": "We should abstain ___ smoking.", "a": ["from"], "rule_bn": "'abstain from' — বিরত থাকা।" },
+    { "type": "fill_in_open", "q": "Dhaka is famous ___ its historical places.", "a": ["for"], "rule_bn": "'famous for' — কোনো কিছুর জন্য বিখ্যাত।" },
+    { "type": "fill_in_open", "q": "He was born ___ a poor family.", "a": ["in", "into"], "fuzzy": 0, "rule_bn": "'born in/into a family' — পরিবারে জন্ম।" },
+    { "type": "fill_in_open", "q": "The teacher was pleased ___ the student's result.", "a": ["with", "at"], "fuzzy": 0, "rule_bn": "'pleased with/at' — সন্তুষ্ট।" },
+    { "type": "fill_in_open", "q": "We must take care ___ our health.", "a": ["of"], "rule_bn": "'take care of' — যত্ন নেওয়া।" },
+    { "type": "fill_in_open", "q": "He succeeded ___ passing the examination.", "a": ["in"], "rule_bn": "'succeed in' — সফল হওয়া।" },
+    { "type": "fill_in_open", "q": "The hungry man was crying ___ food.", "a": ["for"], "rule_bn": "'cry for' — কিছুর জন্য কান্না করা।" },
+    { "type": "fill_in_open", "q": "Health is wealth. So we should not be careless ___ it.", "a": ["about", "of"], "fuzzy": 0, "rule_bn": "'careless about/of' — উদাসীন।" },
+    { "type": "fill_in_open", "q": "The country is rich ___ natural resources.", "a": ["in"], "rule_bn": "'rich in' — সমৃদ্ধ।" }
+  ]
+}
