@@ -122,18 +122,18 @@ class _HomeScreenState extends State<HomeScreen> {
                 const SizedBox(height: 16),
 
                 // Before the diagnostic: a prominent CTA. After: the results.
-                if (!insights.diagnosticDone)
+                if (!insights.diagnosticDone) ...[
                   _DiagnosticCta(
-                      onTap: () => _open(const DiagnosticIntroScreen()))
-                else ...[
+                      onTap: () => _open(const DiagnosticIntroScreen())),
+                  const SizedBox(height: 16),
+                ] else ...[
                   PredictedScoreCard(score: insights.predictedScore),
                   const SizedBox(height: 16),
                   FocusAreaList(
                     areas: insights.focusAreas,
                     onPractice: (a) => _practiceTopic(a.topicId),
                   ),
-                  if (insights.focusAreas.isNotEmpty)
-                    const SizedBox(height: 16),
+                  const SizedBox(height: 16),
                   if (insights.allClear) ...[
                     _ChallengeCard(onTap: _startChallenge),
                     const SizedBox(height: 16),
