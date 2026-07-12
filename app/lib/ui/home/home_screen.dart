@@ -208,9 +208,18 @@ class _StreakCard extends StatelessWidget {
                         ],
                       ),
                     )
-                  : const Text(Bn.noStreakYet,
-                      style: TextStyle(
-                          fontSize: 20, fontWeight: FontWeight.w700)),
+                  : Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: const [
+                        Text(Bn.noStreakYet,
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.w700)),
+                        SizedBox(height: 4),
+                        Text(Bn.noStreakYetSub,
+                            style: TextStyle(
+                                fontSize: 14, color: Colors.black54)),
+                      ],
+                    ),
             ),
           ],
         ),
@@ -389,15 +398,6 @@ class _BigActionButton extends StatelessWidget {
     if (filled) {
       return FilledButton(onPressed: onTap, child: child);
     }
-    return OutlinedButton(
-      onPressed: onTap,
-      style: OutlinedButton.styleFrom(
-        minimumSize: const Size.fromHeight(56),
-        foregroundColor: AppTheme.accentDark,
-        side: const BorderSide(color: AppTheme.accent, width: 1.5),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-      ),
-      child: child,
-    );
+    return OutlinedButton(onPressed: onTap, child: child);
   }
 }

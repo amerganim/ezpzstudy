@@ -123,7 +123,7 @@ class _CardView extends StatelessWidget {
           ),
         ),
         SafeArea(
-          minimum: const EdgeInsets.all(16),
+          minimum: const EdgeInsets.fromLTRB(16, 10, 16, 20),
           child: revealed
               ? Row(
                   children: [

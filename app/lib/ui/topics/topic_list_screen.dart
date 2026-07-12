@@ -50,6 +50,10 @@ class _TopicListScreenState extends State<TopicListScreen> {
     final choice = await showModalBottomSheet<LevelChoice>(
       context: context,
       showDragHandle: true,
+      // Size to content and respect the nav-bar inset, so the "all levels"
+      // action button is never pushed below the fold / behind the nav bar.
+      isScrollControlled: true,
+      useSafeArea: true,
       builder: (_) => LevelSheet(topicLabel: label, counts: counts),
     );
     if (choice == null || !mounted) return; // dismissed

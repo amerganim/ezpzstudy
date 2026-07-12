@@ -166,7 +166,7 @@ class _SessionScreenState extends State<SessionScreen> {
     if (isWriting && result == null) return const SizedBox.shrink();
 
     return SafeArea(
-      minimum: const EdgeInsets.all(16),
+      minimum: const EdgeInsets.fromLTRB(16, 10, 16, 20),
       child: result == null
           ? FilledButton(
               onPressed: _canSubmit ? _check : null,

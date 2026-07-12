@@ -17,6 +17,7 @@ class Bn {
   static const practiceByTopic = 'বিষয় অনুযায়ী অনুশীলন';
   static const vocabularyFlashcards = 'শব্দভাণ্ডার (Flashcard)';
   static const noStreakYet = 'আজই শুরু করো';
+  static const noStreakYetSub = 'প্রতিদিন একটু অনুশীলন করলেই streak গড়ে উঠবে।';
 
   // Topic list
   static const chooseTopic = 'একটি বিষয় বেছে নাও';
