@@ -1,0 +1,255 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "s",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (HSC descriptive vocabulary)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "diverse",
+      "back_bn": "বৈচিত্র্যময়",
+      "example": "Bangladesh has a diverse culture.",
+      "pos": "adjective",
+      "syn": "varied"
+    },
+    {
+      "type": "flashcard",
+      "front": "gigantic",
+      "back_bn": "বিরাট",
+      "example": "A gigantic wave hit the shore.",
+      "pos": "adjective",
+      "syn": "huge",
+      "ant": "tiny"
+    },
+    {
+      "type": "flashcard",
+      "front": "fragile",
+      "back_bn": "ভঙ্গুর",
+      "example": "Glass is a fragile material.",
+      "pos": "adjective",
+      "ant": "strong"
+    },
+    {
+      "type": "flashcard",
+      "front": "gloomy",
+      "back_bn": "বিষণ্ণ",
+      "example": "The weather was gloomy.",
+      "pos": "adjective",
+      "syn": "sad",
+      "ant": "cheerful"
+    },
+    {
+      "type": "flashcard",
+      "front": "hazardous",
+      "back_bn": "বিপজ্জনক",
+      "example": "Smoking is hazardous to health.",
+      "pos": "adjective",
+      "syn": "dangerous",
+      "ant": "safe"
+    },
+    {
+      "type": "flashcard",
+      "front": "graceful",
+      "back_bn": "কমনীয়",
+      "example": "She is a graceful dancer.",
+      "pos": "adjective",
+      "syn": "elegant"
+    },
+    {
+      "type": "flashcard",
+      "front": "invaluable",
+      "back_bn": "অমূল্য",
+      "example": "Time is invaluable.",
+      "pos": "adjective",
+      "syn": "priceless"
+    },
+    {
+      "type": "flashcard",
+      "front": "isolated",
+      "back_bn": "বিচ্ছিন্ন",
+      "example": "The village is isolated.",
+      "pos": "adjective",
+      "syn": "remote"
+    },
+    {
+      "type": "flashcard",
+      "front": "prosperous",
+      "back_bn": "সমৃদ্ধ",
+      "example": "We want a prosperous nation.",
+      "pos": "adjective",
+      "ant": "poor"
+    },
+    {
+      "type": "flashcard",
+      "front": "sensible",
+      "back_bn": "বিবেচক",
+      "example": "She made a sensible decision.",
+      "pos": "adjective",
+      "syn": "wise",
+      "ant": "foolish"
+    },
+    {
+      "type": "flashcard",
+      "front": "severe",
+      "back_bn": "প্রচণ্ড/কঠোর",
+      "example": "There was a severe storm.",
+      "pos": "adjective",
+      "syn": "harsh",
+      "ant": "mild"
+    },
+    {
+      "type": "flashcard",
+      "front": "spacious",
+      "back_bn": "প্রশস্ত",
+      "example": "The house is spacious.",
+      "pos": "adjective",
+      "syn": "roomy",
+      "ant": "cramped"
+    },
+    {
+      "type": "flashcard",
+      "front": "steady",
+      "back_bn": "স্থির/অবিচল",
+      "example": "He made steady progress.",
+      "pos": "adjective",
+      "ant": "unsteady"
+    },
+    {
+      "type": "flashcard",
+      "front": "superior",
+      "back_bn": "উৎকৃষ্ট/উচ্চতর",
+      "example": "This cloth is of superior quality.",
+      "pos": "adjective",
+      "ant": "inferior"
+    },
+    {
+      "type": "flashcard",
+      "front": "inferior",
+      "back_bn": "নিম্নমানের",
+      "example": "They sold inferior goods.",
+      "pos": "adjective",
+      "ant": "superior"
+    },
+    {
+      "type": "flashcard",
+      "front": "urgent",
+      "back_bn": "জরুরি",
+      "example": "It is an urgent matter.",
+      "pos": "adjective",
+      "syn": "pressing"
+    },
+    {
+      "type": "flashcard",
+      "front": "valid",
+      "back_bn": "বৈধ/যুক্তিসঙ্গত",
+      "example": "He gave a valid reason.",
+      "pos": "adjective",
+      "ant": "invalid"
+    },
+    {
+      "type": "flashcard",
+      "front": "prejudice",
+      "back_bn": "কুসংস্কার/পক্ষপাত",
+      "example": "We must give up prejudice.",
+      "pos": "noun",
+      "syn": "bias"
+    },
+    {
+      "type": "flashcard",
+      "front": "superstition",
+      "back_bn": "কুসংস্কার",
+      "example": "Superstition holds us back.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "reputation",
+      "back_bn": "সুনাম",
+      "example": "He has a good reputation.",
+      "pos": "noun",
+      "syn": "fame"
+    },
+    {
+      "type": "flashcard",
+      "front": "obligation",
+      "back_bn": "দায়বদ্ধতা",
+      "example": "We have an obligation to help.",
+      "pos": "noun",
+      "syn": "duty"
+    },
+    {
+      "type": "flashcard",
+      "front": "adversity",
+      "back_bn": "দুর্দশা",
+      "example": "He stayed calm in adversity.",
+      "pos": "noun",
+      "ant": "prosperity"
+    },
+    {
+      "type": "flashcard",
+      "front": "remedy",
+      "back_bn": "প্রতিকার",
+      "example": "There is no easy remedy.",
+      "pos": "noun",
+      "syn": "cure"
+    },
+    {
+      "type": "flashcard",
+      "front": "curse",
+      "back_bn": "অভিশাপ",
+      "example": "Illiteracy is a curse.",
+      "pos": "noun",
+      "ant": "blessing"
+    },
+    {
+      "type": "flashcard",
+      "front": "blessing",
+      "back_bn": "আশীর্বাদ",
+      "example": "Good health is a blessing.",
+      "pos": "noun",
+      "ant": "curse"
+    },
+    {
+      "type": "flashcard",
+      "front": "burden",
+      "back_bn": "বোঝা",
+      "example": "He carried a heavy burden.",
+      "pos": "noun",
+      "syn": "load"
+    },
+    {
+      "type": "flashcard",
+      "front": "comfort",
+      "back_bn": "আরাম/সান্ত্বনা",
+      "example": "The bed gives great comfort.",
+      "pos": "noun",
+      "ant": "discomfort"
+    },
+    {
+      "type": "flashcard",
+      "front": "effort",
+      "back_bn": "প্রচেষ্টা",
+      "example": "Success needs effort.",
+      "pos": "noun",
+      "syn": "attempt"
+    },
+    {
+      "type": "flashcard",
+      "front": "fortune",
+      "back_bn": "ভাগ্য/সম্পদ",
+      "example": "Fortune favours the brave.",
+      "pos": "noun",
+      "syn": "luck"
+    },
+    {
+      "type": "flashcard",
+      "front": "worthy",
+      "back_bn": "যোগ্য",
+      "example": "He is worthy of praise.",
+      "pos": "adjective",
+      "ant": "unworthy"
+    }
+  ]
+}

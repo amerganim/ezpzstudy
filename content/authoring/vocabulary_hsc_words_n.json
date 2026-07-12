@@ -1,0 +1,296 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "n",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Tours & Travels, Environment & Nature)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "tourism",
+      "back_bn": "পর্যটন",
+      "example": "Tourism earns foreign currency.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "journey",
+      "back_bn": "যাত্রা",
+      "example": "We had a pleasant journey.",
+      "pos": "noun",
+      "syn": "voyage"
+    },
+    {
+      "type": "flashcard",
+      "front": "destination",
+      "back_bn": "গন্তব্য",
+      "example": "Cox's Bazar is a popular destination.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "scenery",
+      "back_bn": "দৃশ্য",
+      "example": "The hill scenery is beautiful.",
+      "pos": "noun",
+      "syn": "landscape"
+    },
+    {
+      "type": "flashcard",
+      "front": "adventure",
+      "back_bn": "রোমাঞ্চ/অভিযান",
+      "example": "The trek was a real adventure.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "explore",
+      "back_bn": "অনুসন্ধান করা",
+      "example": "We explored the old town.",
+      "pos": "verb",
+      "syn": "discover"
+    },
+    {
+      "type": "flashcard",
+      "front": "attraction",
+      "back_bn": "আকর্ষণ",
+      "example": "The Sundarbans is a great attraction.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "voyage",
+      "back_bn": "সমুদ্রযাত্রা",
+      "example": "The sea voyage lasted a week.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "hospitality",
+      "back_bn": "আতিথেয়তা",
+      "example": "Villagers are known for their hospitality.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "magnificent",
+      "back_bn": "চমৎকার/জমকালো",
+      "example": "The waterfall was magnificent.",
+      "pos": "adjective",
+      "syn": "splendid"
+    },
+    {
+      "type": "flashcard",
+      "front": "picturesque",
+      "back_bn": "ছবির মতো সুন্দর",
+      "example": "It is a picturesque village.",
+      "pos": "adjective",
+      "syn": "scenic"
+    },
+    {
+      "type": "flashcard",
+      "front": "souvenir",
+      "back_bn": "স্মারক",
+      "example": "She bought a souvenir from the fair.",
+      "pos": "noun",
+      "syn": "keepsake"
+    },
+    {
+      "type": "flashcard",
+      "front": "wilderness",
+      "back_bn": "জনহীন প্রান্তর/অরণ্য",
+      "example": "They camped in the wilderness.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "environment",
+      "back_bn": "পরিবেশ",
+      "example": "We must protect the environment.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "climate",
+      "back_bn": "জলবায়ু",
+      "example": "Climate change is a global problem.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "ecosystem",
+      "back_bn": "বাস্তুতন্ত্র",
+      "example": "Rivers are part of the ecosystem.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "biodiversity",
+      "back_bn": "জীববৈচিত্র্য",
+      "example": "Forests protect biodiversity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "deforestation",
+      "back_bn": "বনভূমি ধ্বংস",
+      "example": "Deforestation causes floods.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "conserve",
+      "back_bn": "সংরক্ষণ করা",
+      "example": "We must conserve water.",
+      "pos": "verb",
+      "syn": "preserve",
+      "ant": "waste"
+    },
+    {
+      "type": "flashcard",
+      "front": "renewable",
+      "back_bn": "নবায়নযোগ্য",
+      "example": "Solar power is renewable energy.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "greenhouse",
+      "back_bn": "গ্রিনহাউস",
+      "example": "Greenhouse gases warm the earth.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "global warming",
+      "back_bn": "বৈশ্বিক উষ্ণায়ন",
+      "example": "Global warming melts the ice caps.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "disaster",
+      "back_bn": "দুর্যোগ",
+      "example": "Floods are a natural disaster.",
+      "pos": "noun",
+      "syn": "calamity"
+    },
+    {
+      "type": "flashcard",
+      "front": "flood",
+      "back_bn": "বন্যা",
+      "example": "The flood destroyed the crops.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "drought",
+      "back_bn": "খরা",
+      "example": "Drought dries up the fields.",
+      "pos": "noun",
+      "ant": "flood"
+    },
+    {
+      "type": "flashcard",
+      "front": "erosion",
+      "back_bn": "ক্ষয়",
+      "example": "River erosion takes away homes.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "habitat",
+      "back_bn": "বাসস্থান",
+      "example": "The forest is the tiger's habitat.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "extinct",
+      "back_bn": "বিলুপ্ত",
+      "example": "Many animals are now extinct.",
+      "pos": "adjective",
+      "syn": "vanished"
+    },
+    {
+      "type": "flashcard",
+      "front": "endangered",
+      "back_bn": "বিপন্ন",
+      "example": "The Royal Bengal Tiger is endangered.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "sustainable",
+      "back_bn": "টেকসই",
+      "example": "We need sustainable development.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "contaminate",
+      "back_bn": "দূষিত করা",
+      "example": "Waste contaminates the water.",
+      "pos": "verb",
+      "syn": "pollute"
+    },
+    {
+      "type": "flashcard",
+      "front": "atmosphere",
+      "back_bn": "বায়ুমণ্ডল",
+      "example": "Smoke pollutes the atmosphere.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "temperature",
+      "back_bn": "তাপমাত্রা",
+      "example": "The temperature is rising.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "shortage",
+      "back_bn": "ঘাটতি",
+      "example": "There is a shortage of pure water.",
+      "pos": "noun",
+      "ant": "plenty"
+    },
+    {
+      "type": "flashcard",
+      "front": "balance",
+      "back_bn": "ভারসাম্য",
+      "example": "Trees keep the balance of nature.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "natural resources",
+      "back_bn": "প্রাকৃতিক সম্পদ",
+      "example": "Gas is a natural resource.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "recycle",
+      "back_bn": "পুনর্ব্যবহার করা",
+      "example": "We should recycle plastic.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "threaten",
+      "back_bn": "হুমকি দেওয়া/বিপন্ন করা",
+      "example": "Pollution threatens our future.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "refreshing",
+      "back_bn": "সতেজকর",
+      "example": "The morning air is refreshing.",
+      "pos": "adjective"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "o",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Pastimes, Lifestyle, Media)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "pastime",
+      "back_bn": "অবসর বিনোদন",
+      "example": "Reading is my favourite pastime.",
+      "pos": "noun",
+      "syn": "hobby"
+    },
+    {
+      "type": "flashcard",
+      "front": "hobby",
+      "back_bn": "শখ",
+      "example": "Gardening is a good hobby.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "leisure",
+      "back_bn": "অবসর",
+      "example": "He reads in his leisure time.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "recreation",
+      "back_bn": "চিত্তবিনোদন",
+      "example": "Games are a form of recreation.",
+      "pos": "noun",
+      "syn": "amusement"
+    },
+    {
+      "type": "flashcard",
+      "front": "entertainment",
+      "back_bn": "বিনোদন",
+      "example": "Television is a means of entertainment.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "relax",
+      "back_bn": "বিশ্রাম নেওয়া",
+      "example": "Music helps me relax.",
+      "pos": "verb",
+      "syn": "unwind"
+    },
+    {
+      "type": "flashcard",
+      "front": "enthusiasm",
+      "back_bn": "উৎসাহ",
+      "example": "He plays football with enthusiasm.",
+      "pos": "noun",
+      "syn": "eagerness"
+    },
+    {
+      "type": "flashcard",
+      "front": "amusement",
+      "back_bn": "আমোদ",
+      "example": "The fair is full of amusement.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "collection",
+      "back_bn": "সংগ্রহ",
+      "example": "He has a stamp collection.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "spectator",
+      "back_bn": "দর্শক",
+      "example": "The spectators cheered loudly.",
+      "pos": "noun",
+      "syn": "viewer"
+    },
+    {
+      "type": "flashcard",
+      "front": "lifestyle",
+      "back_bn": "জীবনযাত্রা",
+      "example": "A healthy lifestyle prevents disease.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "habit",
+      "back_bn": "অভ্যাস",
+      "example": "Early rising is a good habit.",
+      "pos": "noun",
+      "syn": "custom"
+    },
+    {
+      "type": "flashcard",
+      "front": "routine",
+      "back_bn": "দৈনন্দিন রুটিন",
+      "example": "Follow a fixed daily routine.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "balanced diet",
+      "back_bn": "সুষম খাদ্য",
+      "example": "A balanced diet keeps us fit.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "hygiene",
+      "back_bn": "স্বাস্থ্যবিধি",
+      "example": "Personal hygiene prevents illness.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "fitness",
+      "back_bn": "সুস্থতা",
+      "example": "Exercise improves fitness.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "wellbeing",
+      "back_bn": "কল্যাণ/সুস্থতা",
+      "example": "Sleep is vital for wellbeing.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "moderate",
+      "back_bn": "পরিমিত",
+      "example": "Eat a moderate amount of sugar.",
+      "pos": "adjective",
+      "ant": "excessive"
+    },
+    {
+      "type": "flashcard",
+      "front": "excessive",
+      "back_bn": "অতিরিক্ত",
+      "example": "Excessive screen time harms the eyes.",
+      "pos": "adjective",
+      "ant": "moderate"
+    },
+    {
+      "type": "flashcard",
+      "front": "nutritious",
+      "back_bn": "পুষ্টিকর",
+      "example": "Vegetables are nutritious.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "sedentary",
+      "back_bn": "বসে থাকা/নিষ্ক্রিয়",
+      "example": "A sedentary life causes obesity.",
+      "pos": "adjective",
+      "ant": "active"
+    },
+    {
+      "type": "flashcard",
+      "front": "obesity",
+      "back_bn": "স্থূলতা",
+      "example": "Junk food leads to obesity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "media",
+      "back_bn": "গণমাধ্যম",
+      "example": "The media shapes public opinion.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "broadcast",
+      "back_bn": "সম্প্রচার করা",
+      "example": "The news was broadcast at night.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "journalist",
+      "back_bn": "সাংবাদিক",
+      "example": "A journalist reports the news.",
+      "pos": "noun",
+      "syn": "reporter"
+    },
+    {
+      "type": "flashcard",
+      "front": "advertisement",
+      "back_bn": "বিজ্ঞাপন",
+      "example": "The advertisement drew many buyers.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "audience",
+      "back_bn": "শ্রোতা/দর্শক",
+      "example": "The audience clapped for the singer.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "rumour",
+      "back_bn": "গুজব",
+      "example": "Do not spread rumours.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "current",
+      "back_bn": "সাম্প্রতিক/চলতি",
+      "example": "We should know current affairs.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "digital",
+      "back_bn": "ডিজিটাল",
+      "example": "We live in a digital age.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "network",
+      "back_bn": "নেটওয়ার্ক/সংযোগ",
+      "example": "Social network connects people.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "communicate",
+      "back_bn": "যোগাযোগ করা",
+      "example": "We communicate through the internet.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "access",
+      "back_bn": "প্রবেশাধিকার/সুযোগ",
+      "example": "Everyone should have access to education.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "misuse",
+      "back_bn": "অপব্যবহার",
+      "example": "The misuse of the internet is harmful.",
+      "pos": "noun",
+      "ant": "use"
+    },
+    {
+      "type": "flashcard",
+      "front": "convenient",
+      "back_bn": "সুবিধাজনক",
+      "example": "Online shopping is convenient.",
+      "pos": "adjective",
+      "ant": "inconvenient"
+    },
+    {
+      "type": "flashcard",
+      "front": "productive",
+      "back_bn": "ফলপ্রসূ",
+      "example": "Use your time in a productive way.",
+      "pos": "adjective",
+      "ant": "idle"
+    },
+    {
+      "type": "flashcard",
+      "front": "cheerful",
+      "back_bn": "প্রফুল্ল",
+      "example": "She has a cheerful nature.",
+      "pos": "adjective",
+      "syn": "jolly",
+      "ant": "gloomy"
+    },
+    {
+      "type": "flashcard",
+      "front": "refresh",
+      "back_bn": "সতেজ করা",
+      "example": "A short walk refreshes the mind.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "enjoyable",
+      "back_bn": "উপভোগ্য",
+      "example": "The picnic was enjoyable.",
+      "pos": "adjective",
+      "syn": "pleasant"
+    },
+    {
+      "type": "flashcard",
+      "front": "engage",
+      "back_bn": "নিযুক্ত হওয়া",
+      "example": "He engages in social work.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "moderation",
+      "back_bn": "পরিমিতি",
+      "example": "Everything is good in moderation.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "beneficial",
+      "back_bn": "উপকারী",
+      "example": "Exercise is beneficial for health.",
+      "pos": "adjective",
+      "syn": "helpful",
+      "ant": "harmful"
+    }
+  ]
+}

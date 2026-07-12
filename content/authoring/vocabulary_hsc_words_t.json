@@ -1,0 +1,286 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "t",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (HSC: Health, Science & Technology)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "sanitation",
+      "back_bn": "পয়ঃপ্রণালী/স্বাস্থ্যব্যবস্থা",
+      "example": "Poor sanitation spreads disease.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "epidemic",
+      "back_bn": "মহামারি",
+      "example": "Cholera spread as an epidemic.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "symptom",
+      "back_bn": "লক্ষণ",
+      "example": "Fever is a symptom of many diseases.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "cure",
+      "back_bn": "নিরাময়",
+      "example": "Prevention is better than cure.",
+      "pos": "noun",
+      "syn": "remedy"
+    },
+    {
+      "type": "flashcard",
+      "front": "vaccine",
+      "back_bn": "টিকা",
+      "example": "The vaccine protects us from the virus.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "immunity",
+      "back_bn": "রোগ প্রতিরোধ ক্ষমতা",
+      "example": "Good food builds immunity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "fatigue",
+      "back_bn": "ক্লান্তি",
+      "example": "Overwork causes fatigue.",
+      "pos": "noun",
+      "syn": "tiredness"
+    },
+    {
+      "type": "flashcard",
+      "front": "malnutrition",
+      "back_bn": "অপুষ্টি",
+      "example": "Many children suffer from malnutrition.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "hygienic",
+      "back_bn": "স্বাস্থ্যসম্মত",
+      "example": "We should eat hygienic food.",
+      "pos": "adjective",
+      "ant": "unhygienic"
+    },
+    {
+      "type": "flashcard",
+      "front": "infection",
+      "back_bn": "সংক্রমণ",
+      "example": "Wash hands to avoid infection.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "physician",
+      "back_bn": "চিকিৎসক",
+      "example": "The physician prescribed medicine.",
+      "pos": "noun",
+      "syn": "doctor"
+    },
+    {
+      "type": "flashcard",
+      "front": "recovery",
+      "back_bn": "আরোগ্য",
+      "example": "He made a quick recovery.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "technology",
+      "back_bn": "প্রযুক্তি",
+      "example": "Modern technology changed our life.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "device",
+      "back_bn": "যন্ত্র",
+      "example": "A mobile phone is a useful device.",
+      "pos": "noun",
+      "syn": "gadget"
+    },
+    {
+      "type": "flashcard",
+      "front": "machine",
+      "back_bn": "যন্ত্র",
+      "example": "The machine does the work fast.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "research",
+      "back_bn": "গবেষণা",
+      "example": "Research brings new knowledge.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "laboratory",
+      "back_bn": "গবেষণাগার",
+      "example": "Students work in the laboratory.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "experiment",
+      "back_bn": "পরীক্ষা-নিরীক্ষা",
+      "example": "The scientist did an experiment.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "discovery",
+      "back_bn": "আবিষ্কার",
+      "example": "The discovery amazed the world.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "theory",
+      "back_bn": "তত্ত্ব",
+      "example": "Einstein gave a famous theory.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "analysis",
+      "back_bn": "বিশ্লেষণ",
+      "example": "The data needs careful analysis.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "evidence",
+      "back_bn": "প্রমাণ",
+      "example": "There is no evidence against him.",
+      "pos": "noun",
+      "syn": "proof"
+    },
+    {
+      "type": "flashcard",
+      "front": "conclusion",
+      "back_bn": "উপসংহার/সিদ্ধান্ত",
+      "example": "We reached a clear conclusion.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "innovation",
+      "back_bn": "নতুন উদ্ভাবন",
+      "example": "Innovation drives progress.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "automation",
+      "back_bn": "স্বয়ংক্রিয়করণ",
+      "example": "Automation reduces manual labour.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "efficiency",
+      "back_bn": "দক্ষতা",
+      "example": "Machines increase efficiency.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "artificial intelligence",
+      "back_bn": "কৃত্রিম বুদ্ধিমত্তা",
+      "example": "Artificial intelligence is growing fast.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "robust",
+      "back_bn": "শক্তিশালী/মজবুত",
+      "example": "He has a robust body.",
+      "pos": "adjective",
+      "syn": "strong",
+      "ant": "weak"
+    },
+    {
+      "type": "flashcard",
+      "front": "energetic",
+      "back_bn": "কর্মশক্তিসম্পন্ন",
+      "example": "Children are usually energetic.",
+      "pos": "adjective",
+      "ant": "lethargic"
+    },
+    {
+      "type": "flashcard",
+      "front": "dynamic",
+      "back_bn": "গতিশীল",
+      "example": "She is a dynamic leader.",
+      "pos": "adjective",
+      "ant": "static"
+    },
+    {
+      "type": "flashcard",
+      "front": "alert",
+      "back_bn": "সতর্ক",
+      "example": "Stay alert while crossing the road.",
+      "pos": "adjective",
+      "syn": "watchful"
+    },
+    {
+      "type": "flashcard",
+      "front": "reckless",
+      "back_bn": "বেপরোয়া",
+      "example": "Reckless driving causes accidents.",
+      "pos": "adjective",
+      "ant": "cautious"
+    },
+    {
+      "type": "flashcard",
+      "front": "precise",
+      "back_bn": "সুনির্দিষ্ট",
+      "example": "He gave precise information.",
+      "pos": "adjective",
+      "syn": "exact"
+    },
+    {
+      "type": "flashcard",
+      "front": "complex",
+      "back_bn": "জটিল",
+      "example": "It is a complex problem.",
+      "pos": "adjective",
+      "syn": "complicated",
+      "ant": "simple"
+    },
+    {
+      "type": "flashcard",
+      "front": "advanced",
+      "back_bn": "উন্নত",
+      "example": "They use advanced machines.",
+      "pos": "adjective",
+      "ant": "backward"
+    },
+    {
+      "type": "flashcard",
+      "front": "invent",
+      "back_bn": "উদ্ভাবন করা",
+      "example": "Edison invented the electric bulb.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "operate",
+      "back_bn": "পরিচালনা করা",
+      "example": "She can operate the machine.",
+      "pos": "verb",
+      "syn": "run"
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "u",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (HSC: Economy, Society & Character)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "economy",
+      "back_bn": "অর্থনীতি",
+      "example": "The country's economy is growing.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "industry",
+      "back_bn": "শিল্প",
+      "example": "The garment industry earns money.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "agriculture",
+      "back_bn": "কৃষি",
+      "example": "Agriculture is the backbone of our economy.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "commerce",
+      "back_bn": "বাণিজ্য",
+      "example": "Commerce connects nations.",
+      "pos": "noun",
+      "syn": "trade"
+    },
+    {
+      "type": "flashcard",
+      "front": "export",
+      "back_bn": "রপ্তানি",
+      "example": "We export jute and garments.",
+      "pos": "noun",
+      "ant": "import"
+    },
+    {
+      "type": "flashcard",
+      "front": "import",
+      "back_bn": "আমদানি",
+      "example": "We import fuel from abroad.",
+      "pos": "noun",
+      "ant": "export"
+    },
+    {
+      "type": "flashcard",
+      "front": "investment",
+      "back_bn": "বিনিয়োগ",
+      "example": "Foreign investment helps industry.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "income",
+      "back_bn": "আয়",
+      "example": "His monthly income is small.",
+      "pos": "noun",
+      "ant": "expenditure"
+    },
+    {
+      "type": "flashcard",
+      "front": "expenditure",
+      "back_bn": "ব্যয়",
+      "example": "Cut down your expenditure.",
+      "pos": "noun",
+      "ant": "income"
+    },
+    {
+      "type": "flashcard",
+      "front": "profit",
+      "back_bn": "লাভ",
+      "example": "The business made a profit.",
+      "pos": "noun",
+      "ant": "loss"
+    },
+    {
+      "type": "flashcard",
+      "front": "unemployment",
+      "back_bn": "বেকারত্ব",
+      "example": "Unemployment is a big problem.",
+      "pos": "noun",
+      "ant": "employment"
+    },
+    {
+      "type": "flashcard",
+      "front": "labour",
+      "back_bn": "শ্রম",
+      "example": "Success is the fruit of labour.",
+      "pos": "noun",
+      "syn": "work"
+    },
+    {
+      "type": "flashcard",
+      "front": "wage",
+      "back_bn": "মজুরি",
+      "example": "The workers demand fair wages.",
+      "pos": "noun",
+      "syn": "pay"
+    },
+    {
+      "type": "flashcard",
+      "front": "currency",
+      "back_bn": "মুদ্রা",
+      "example": "The taka is our currency.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "development",
+      "back_bn": "উন্নয়ন",
+      "example": "Roads help the development of a country.",
+      "pos": "noun",
+      "ant": "backwardness"
+    },
+    {
+      "type": "flashcard",
+      "front": "progress",
+      "back_bn": "অগ্রগতি",
+      "example": "Science has made great progress.",
+      "pos": "noun",
+      "ant": "decline"
+    },
+    {
+      "type": "flashcard",
+      "front": "resource",
+      "back_bn": "সম্পদ",
+      "example": "Gas is a valuable resource.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "cultivate",
+      "back_bn": "চাষ করা",
+      "example": "Farmers cultivate the land.",
+      "pos": "verb",
+      "syn": "farm"
+    },
+    {
+      "type": "flashcard",
+      "front": "harvest",
+      "back_bn": "ফসল কাটা",
+      "example": "They harvest rice in December.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "irrigate",
+      "back_bn": "সেচ দেওয়া",
+      "example": "Farmers irrigate the fields.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "migrate",
+      "back_bn": "স্থানান্তরিত হওয়া",
+      "example": "Birds migrate in winter.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "construct",
+      "back_bn": "নির্মাণ করা",
+      "example": "They construct a new bridge.",
+      "pos": "verb",
+      "syn": "build",
+      "ant": "demolish"
+    },
+    {
+      "type": "flashcard",
+      "front": "manufacture",
+      "back_bn": "উৎপাদন করা",
+      "example": "The mill manufactures cloth.",
+      "pos": "verb",
+      "syn": "produce"
+    },
+    {
+      "type": "flashcard",
+      "front": "distribute",
+      "back_bn": "বিতরণ করা",
+      "example": "They distribute relief among the poor.",
+      "pos": "verb",
+      "ant": "collect"
+    },
+    {
+      "type": "flashcard",
+      "front": "donate",
+      "back_bn": "দান করা",
+      "example": "He donated blood.",
+      "pos": "verb",
+      "syn": "give"
+    },
+    {
+      "type": "flashcard",
+      "front": "invest",
+      "back_bn": "বিনিয়োগ করা",
+      "example": "He invested in a small farm.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "democracy",
+      "back_bn": "গণতন্ত্র",
+      "example": "Democracy gives power to the people.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "government",
+      "back_bn": "সরকার",
+      "example": "The government builds schools.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "election",
+      "back_bn": "নির্বাচন",
+      "example": "The election was held peacefully.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "constitution",
+      "back_bn": "সংবিধান",
+      "example": "The constitution protects our rights.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "policy",
+      "back_bn": "নীতি",
+      "example": "The new policy helps farmers.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "corruption",
+      "back_bn": "দুর্নীতি",
+      "example": "Corruption harms a nation.",
+      "pos": "noun",
+      "ant": "honesty"
+    },
+    {
+      "type": "flashcard",
+      "front": "leadership",
+      "back_bn": "নেতৃত্ব",
+      "example": "Good leadership inspires people.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "authority",
+      "back_bn": "কর্তৃপক্ষ/কর্তৃত্ব",
+      "example": "The school authority made the rule.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "society",
+      "back_bn": "সমাজ",
+      "example": "We all live in a society.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "population",
+      "back_bn": "জনসংখ্যা",
+      "example": "Our population is very large.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "urban",
+      "back_bn": "শহুরে",
+      "example": "Urban life is busy.",
+      "pos": "adjective",
+      "ant": "rural"
+    },
+    {
+      "type": "flashcard",
+      "front": "crowded",
+      "back_bn": "জনাকীর্ণ",
+      "example": "The city streets are crowded.",
+      "pos": "adjective",
+      "ant": "empty"
+    },
+    {
+      "type": "flashcard",
+      "front": "festival",
+      "back_bn": "উৎসব",
+      "example": "Eid is a great festival.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "ceremony",
+      "back_bn": "অনুষ্ঠান",
+      "example": "The wedding ceremony was grand.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "custom",
+      "back_bn": "প্রথা",
+      "example": "It is an old custom.",
+      "pos": "noun",
+      "syn": "tradition"
+    },
+    {
+      "type": "flashcard",
+      "front": "thrifty",
+      "back_bn": "মিতব্যয়ী",
+      "example": "A thrifty man saves money.",
+      "pos": "adjective",
+      "ant": "extravagant"
+    },
+    {
+      "type": "flashcard",
+      "front": "extravagant",
+      "back_bn": "অমিতব্যয়ী",
+      "example": "An extravagant man wastes money.",
+      "pos": "adjective",
+      "ant": "thrifty"
+    },
+    {
+      "type": "flashcard",
+      "front": "industrious",
+      "back_bn": "পরিশ্রমী",
+      "example": "The Japanese are industrious.",
+      "pos": "adjective",
+      "syn": "hardworking",
+      "ant": "lazy"
+    },
+    {
+      "type": "flashcard",
+      "front": "arrogant",
+      "back_bn": "উদ্ধত/অহংকারী",
+      "example": "Nobody likes an arrogant person.",
+      "pos": "adjective",
+      "ant": "humble"
+    },
+    {
+      "type": "flashcard",
+      "front": "obedient",
+      "back_bn": "বাধ্য",
+      "example": "He is an obedient boy.",
+      "pos": "adjective",
+      "ant": "disobedient"
+    },
+    {
+      "type": "flashcard",
+      "front": "punctual",
+      "back_bn": "সময়নিষ্ঠ",
+      "example": "A punctual student is never late.",
+      "pos": "adjective",
+      "ant": "late"
+    },
+    {
+      "type": "flashcard",
+      "front": "gentle",
+      "back_bn": "ভদ্র/কোমল",
+      "example": "She has a gentle nature.",
+      "pos": "adjective",
+      "ant": "harsh"
+    },
+    {
+      "type": "flashcard",
+      "front": "greedy",
+      "back_bn": "লোভী",
+      "example": "The greedy man lost everything.",
+      "pos": "adjective",
+      "ant": "content"
+    },
+    {
+      "type": "flashcard",
+      "front": "content",
+      "back_bn": "সন্তুষ্ট",
+      "example": "He is content with little.",
+      "pos": "adjective",
+      "syn": "satisfied",
+      "ant": "greedy"
+    },
+    {
+      "type": "flashcard",
+      "front": "sympathetic",
+      "back_bn": "সহানুভূতিশীল",
+      "example": "She is sympathetic to the poor.",
+      "pos": "adjective",
+      "ant": "cruel"
+    },
+    {
+      "type": "flashcard",
+      "front": "generosity",
+      "back_bn": "উদারতা",
+      "example": "His generosity helped many.",
+      "pos": "noun",
+      "ant": "meanness"
+    },
+    {
+      "type": "flashcard",
+      "front": "patience",
+      "back_bn": "ধৈর্য",
+      "example": "Patience brings success.",
+      "pos": "noun",
+      "ant": "impatience"
+    },
+    {
+      "type": "flashcard",
+      "front": "honesty",
+      "back_bn": "সততা",
+      "example": "Honesty is the best policy.",
+      "pos": "noun",
+      "ant": "dishonesty"
+    },
+    {
+      "type": "flashcard",
+      "front": "punctuality",
+      "back_bn": "সময়নিষ্ঠা",
+      "example": "Punctuality is a good virtue.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "virtue",
+      "back_bn": "সদ্গুণ",
+      "example": "Kindness is a great virtue.",
+      "pos": "noun",
+      "ant": "vice"
+    },
+    {
+      "type": "flashcard",
+      "front": "vice",
+      "back_bn": "কুস্বভাব/পাপ",
+      "example": "Gambling is a vice.",
+      "pos": "noun",
+      "ant": "virtue"
+    },
+    {
+      "type": "flashcard",
+      "front": "wealthy",
+      "back_bn": "ধনী",
+      "example": "He is a wealthy merchant.",
+      "pos": "adjective",
+      "syn": "rich",
+      "ant": "poor"
+    },
+    {
+      "type": "flashcard",
+      "front": "duty",
+      "back_bn": "কর্তব্য",
+      "example": "It is our duty to help others.",
+      "pos": "noun",
+      "syn": "responsibility"
+    },
+    {
+      "type": "flashcard",
+      "front": "labourious",
+      "back_bn": "পরিশ্রমসাধ্য",
+      "example": "Farming is a laborious job.",
+      "pos": "adjective",
+      "syn": "hardworking"
+    }
+  ]
+}

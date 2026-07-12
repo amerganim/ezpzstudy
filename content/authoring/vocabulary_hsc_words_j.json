@@ -1,0 +1,277 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "j",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Human Rights, Dreams)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "dignity",
+      "back_bn": "মর্যাদা",
+      "example": "Every human being deserves dignity.",
+      "pos": "noun",
+      "syn": "honour"
+    },
+    {
+      "type": "flashcard",
+      "front": "equality",
+      "back_bn": "সমতা",
+      "example": "We believe in equality of all people.",
+      "pos": "noun",
+      "ant": "inequality"
+    },
+    {
+      "type": "flashcard",
+      "front": "justice",
+      "back_bn": "ন্যায়বিচার",
+      "example": "The court ensures justice.",
+      "pos": "noun",
+      "ant": "injustice"
+    },
+    {
+      "type": "flashcard",
+      "front": "discrimination",
+      "back_bn": "বৈষম্য",
+      "example": "Discrimination against women must stop.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "privilege",
+      "back_bn": "বিশেষ সুবিধা",
+      "example": "Education should not be a privilege of the rich.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "exploit",
+      "back_bn": "শোষণ করা",
+      "example": "Child labourers are often exploited.",
+      "pos": "verb",
+      "syn": "misuse"
+    },
+    {
+      "type": "flashcard",
+      "front": "violate",
+      "back_bn": "লঙ্ঘন করা",
+      "example": "No one should violate human rights.",
+      "pos": "verb",
+      "syn": "breach",
+      "ant": "obey"
+    },
+    {
+      "type": "flashcard",
+      "front": "oppression",
+      "back_bn": "নির্যাতন",
+      "example": "People rose against oppression.",
+      "pos": "noun",
+      "syn": "cruelty"
+    },
+    {
+      "type": "flashcard",
+      "front": "responsibility",
+      "back_bn": "দায়িত্ব",
+      "example": "A citizen has many responsibilities.",
+      "pos": "noun",
+      "syn": "duty"
+    },
+    {
+      "type": "flashcard",
+      "front": "humanity",
+      "back_bn": "মানবতা",
+      "example": "Service to man is service to humanity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "empower",
+      "back_bn": "ক্ষমতায়ন করা",
+      "example": "Education empowers women.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "shelter",
+      "back_bn": "আশ্রয়",
+      "example": "Food, clothing and shelter are basic needs.",
+      "pos": "noun",
+      "syn": "refuge"
+    },
+    {
+      "type": "flashcard",
+      "front": "welfare",
+      "back_bn": "কল্যাণ",
+      "example": "The state works for public welfare.",
+      "pos": "noun",
+      "syn": "wellbeing"
+    },
+    {
+      "type": "flashcard",
+      "front": "citizen",
+      "back_bn": "নাগরিক",
+      "example": "A good citizen obeys the law.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "ensure",
+      "back_bn": "নিশ্চিত করা",
+      "example": "We must ensure justice for all.",
+      "pos": "verb",
+      "syn": "guarantee"
+    },
+    {
+      "type": "flashcard",
+      "front": "vulnerable",
+      "back_bn": "অরক্ষিত/দুর্বল",
+      "example": "Children are the most vulnerable group.",
+      "pos": "adjective",
+      "syn": "weak",
+      "ant": "secure"
+    },
+    {
+      "type": "flashcard",
+      "front": "dream",
+      "back_bn": "স্বপ্ন",
+      "example": "She dreams of becoming a scientist.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "aspire",
+      "back_bn": "আকাঙ্ক্ষা করা",
+      "example": "He aspires to build a hospital.",
+      "pos": "verb",
+      "syn": "desire"
+    },
+    {
+      "type": "flashcard",
+      "front": "determination",
+      "back_bn": "দৃঢ়সংকল্প",
+      "example": "With determination, nothing is impossible.",
+      "pos": "noun",
+      "syn": "resolve"
+    },
+    {
+      "type": "flashcard",
+      "front": "vision",
+      "back_bn": "দূরদৃষ্টি/স্বপ্ন",
+      "example": "A leader must have a clear vision.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "goal",
+      "back_bn": "লক্ষ্য",
+      "example": "Set a goal and work for it.",
+      "pos": "noun",
+      "syn": "aim"
+    },
+    {
+      "type": "flashcard",
+      "front": "hope",
+      "back_bn": "আশা",
+      "example": "Never lose hope in hard times.",
+      "pos": "noun",
+      "ant": "despair"
+    },
+    {
+      "type": "flashcard",
+      "front": "despair",
+      "back_bn": "হতাশা",
+      "example": "He fell into despair after failing.",
+      "pos": "noun",
+      "ant": "hope"
+    },
+    {
+      "type": "flashcard",
+      "front": "overcome",
+      "back_bn": "অতিক্রম করা",
+      "example": "She overcame her fear.",
+      "pos": "verb",
+      "syn": "defeat"
+    },
+    {
+      "type": "flashcard",
+      "front": "confidence",
+      "back_bn": "আত্মবিশ্বাস",
+      "example": "Speak with confidence.",
+      "pos": "noun",
+      "ant": "doubt"
+    },
+    {
+      "type": "flashcard",
+      "front": "persist",
+      "back_bn": "লেগে থাকা",
+      "example": "If you persist, you will succeed.",
+      "pos": "verb",
+      "syn": "continue"
+    },
+    {
+      "type": "flashcard",
+      "front": "passion",
+      "back_bn": "গভীর আগ্রহ",
+      "example": "She has a passion for science.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "endeavour",
+      "back_bn": "প্রচেষ্টা",
+      "example": "His endeavour finally paid off.",
+      "pos": "noun",
+      "syn": "effort"
+    },
+    {
+      "type": "flashcard",
+      "front": "triumph",
+      "back_bn": "বিজয়/সাফল্য",
+      "example": "It was a moment of triumph.",
+      "pos": "noun",
+      "syn": "victory",
+      "ant": "defeat"
+    },
+    {
+      "type": "flashcard",
+      "front": "ambitious",
+      "back_bn": "উচ্চাকাঙ্ক্ষী",
+      "example": "She is an ambitious young girl.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "fulfil",
+      "back_bn": "পূরণ করা",
+      "example": "He fulfilled his father's dream.",
+      "pos": "verb",
+      "syn": "accomplish"
+    },
+    {
+      "type": "flashcard",
+      "front": "hardship",
+      "back_bn": "কষ্ট/দুর্দশা",
+      "example": "He faced many hardships in life.",
+      "pos": "noun",
+      "syn": "difficulty"
+    },
+    {
+      "type": "flashcard",
+      "front": "reward",
+      "back_bn": "পুরস্কার",
+      "example": "Success is the reward of labour.",
+      "pos": "noun",
+      "ant": "punishment"
+    },
+    {
+      "type": "flashcard",
+      "front": "brilliant",
+      "back_bn": "মেধাবী/উজ্জ্বল",
+      "example": "He is a brilliant student.",
+      "pos": "adjective",
+      "syn": "bright",
+      "ant": "dull"
+    }
+  ]
+}

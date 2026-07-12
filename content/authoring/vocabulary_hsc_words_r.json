@@ -1,0 +1,313 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "r",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (HSC common verbs & actions)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "accomplish",
+      "back_bn": "সম্পন্ন করা",
+      "example": "She accomplished the task on time.",
+      "pos": "verb",
+      "syn": "achieve"
+    },
+    {
+      "type": "flashcard",
+      "front": "observe",
+      "back_bn": "লক্ষ্য করা/পালন করা",
+      "example": "We observe Victory Day on 16 December.",
+      "pos": "verb",
+      "syn": "notice"
+    },
+    {
+      "type": "flashcard",
+      "front": "obtain",
+      "back_bn": "লাভ করা",
+      "example": "He obtained good marks.",
+      "pos": "verb",
+      "syn": "gain"
+    },
+    {
+      "type": "flashcard",
+      "front": "reveal",
+      "back_bn": "প্রকাশ করা",
+      "example": "The report revealed the truth.",
+      "pos": "verb",
+      "syn": "disclose",
+      "ant": "hide"
+    },
+    {
+      "type": "flashcard",
+      "front": "declare",
+      "back_bn": "ঘোষণা করা",
+      "example": "They declared independence.",
+      "pos": "verb",
+      "syn": "announce"
+    },
+    {
+      "type": "flashcard",
+      "front": "determine",
+      "back_bn": "নির্ধারণ করা",
+      "example": "Hard work determines success.",
+      "pos": "verb",
+      "syn": "decide"
+    },
+    {
+      "type": "flashcard",
+      "front": "examine",
+      "back_bn": "পরীক্ষা করা",
+      "example": "The doctor examined the patient.",
+      "pos": "verb",
+      "syn": "inspect"
+    },
+    {
+      "type": "flashcard",
+      "front": "expand",
+      "back_bn": "সম্প্রসারিত করা",
+      "example": "The company expanded its business.",
+      "pos": "verb",
+      "ant": "shrink"
+    },
+    {
+      "type": "flashcard",
+      "front": "expose",
+      "back_bn": "উন্মোচন করা",
+      "example": "The article exposed corruption.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "generate",
+      "back_bn": "উৎপন্ন করা",
+      "example": "The dam generates electricity.",
+      "pos": "verb",
+      "syn": "produce"
+    },
+    {
+      "type": "flashcard",
+      "front": "indicate",
+      "back_bn": "নির্দেশ করা",
+      "example": "The sign indicates danger.",
+      "pos": "verb",
+      "syn": "show"
+    },
+    {
+      "type": "flashcard",
+      "front": "interpret",
+      "back_bn": "ব্যাখ্যা করা",
+      "example": "He interpreted the poem well.",
+      "pos": "verb",
+      "syn": "explain"
+    },
+    {
+      "type": "flashcard",
+      "front": "investigate",
+      "back_bn": "তদন্ত করা",
+      "example": "The police investigated the case.",
+      "pos": "verb",
+      "syn": "examine"
+    },
+    {
+      "type": "flashcard",
+      "front": "modify",
+      "back_bn": "পরিবর্তন করা",
+      "example": "He modified his plan.",
+      "pos": "verb",
+      "syn": "change"
+    },
+    {
+      "type": "flashcard",
+      "front": "participate",
+      "back_bn": "অংশগ্রহণ করা",
+      "example": "Students participate in games.",
+      "pos": "verb",
+      "syn": "join"
+    },
+    {
+      "type": "flashcard",
+      "front": "perform",
+      "back_bn": "সম্পাদন করা",
+      "example": "She performed her duty well.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "persuade",
+      "back_bn": "রাজি করানো",
+      "example": "He persuaded me to stay.",
+      "pos": "verb",
+      "syn": "convince"
+    },
+    {
+      "type": "flashcard",
+      "front": "promote",
+      "back_bn": "উন্নীত করা/প্রসার করা",
+      "example": "Sports promote good health.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "recognise",
+      "back_bn": "চিনতে পারা/স্বীকৃতি দেওয়া",
+      "example": "I recognised him at once.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "recover",
+      "back_bn": "সেরে ওঠা",
+      "example": "He recovered from illness.",
+      "pos": "verb",
+      "syn": "heal"
+    },
+    {
+      "type": "flashcard",
+      "front": "reflect",
+      "back_bn": "প্রতিফলিত করা/ভাবা",
+      "example": "Her face reflected joy.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "regard",
+      "back_bn": "গণ্য করা",
+      "example": "We regard him as a leader.",
+      "pos": "verb",
+      "syn": "consider"
+    },
+    {
+      "type": "flashcard",
+      "front": "remove",
+      "back_bn": "অপসারণ করা",
+      "example": "Remove the weeds from the field.",
+      "pos": "verb",
+      "ant": "keep"
+    },
+    {
+      "type": "flashcard",
+      "front": "represent",
+      "back_bn": "প্রতিনিধিত্ব করা",
+      "example": "He represents our class.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "require",
+      "back_bn": "প্রয়োজন হওয়া",
+      "example": "The plant requires water.",
+      "pos": "verb",
+      "syn": "need"
+    },
+    {
+      "type": "flashcard",
+      "front": "resist",
+      "back_bn": "প্রতিরোধ করা",
+      "example": "The body resists disease.",
+      "pos": "verb",
+      "syn": "oppose"
+    },
+    {
+      "type": "flashcard",
+      "front": "respond",
+      "back_bn": "সাড়া দেওয়া",
+      "example": "She responded to my letter.",
+      "pos": "verb",
+      "syn": "reply"
+    },
+    {
+      "type": "flashcard",
+      "front": "restore",
+      "back_bn": "পুনরুদ্ধার করা",
+      "example": "Peace was restored soon.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "seek",
+      "back_bn": "খোঁজা",
+      "example": "They seek help from others.",
+      "pos": "verb",
+      "syn": "search"
+    },
+    {
+      "type": "flashcard",
+      "front": "select",
+      "back_bn": "নির্বাচন করা",
+      "example": "Select the correct answer.",
+      "pos": "verb",
+      "syn": "choose"
+    },
+    {
+      "type": "flashcard",
+      "front": "spread",
+      "back_bn": "ছড়িয়ে পড়া",
+      "example": "The news spread fast.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "suffer",
+      "back_bn": "কষ্ট পাওয়া",
+      "example": "They suffered during the flood.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "supply",
+      "back_bn": "সরবরাহ করা",
+      "example": "They supply water to the city.",
+      "pos": "verb",
+      "ant": "demand"
+    },
+    {
+      "type": "flashcard",
+      "front": "survive",
+      "back_bn": "বেঁচে থাকা",
+      "example": "Few plants survive in the desert.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "transform",
+      "back_bn": "রূপান্তরিত করা",
+      "example": "Education transforms lives.",
+      "pos": "verb",
+      "syn": "change"
+    },
+    {
+      "type": "flashcard",
+      "front": "utilise",
+      "back_bn": "কাজে লাগানো",
+      "example": "Utilise your time well.",
+      "pos": "verb",
+      "syn": "use"
+    },
+    {
+      "type": "flashcard",
+      "front": "vary",
+      "back_bn": "ভিন্ন হওয়া",
+      "example": "Prices vary from shop to shop.",
+      "pos": "verb",
+      "syn": "differ"
+    },
+    {
+      "type": "flashcard",
+      "front": "warn",
+      "back_bn": "সতর্ক করা",
+      "example": "He warned us of the danger.",
+      "pos": "verb",
+      "syn": "caution"
+    },
+    {
+      "type": "flashcard",
+      "front": "withdraw",
+      "back_bn": "প্রত্যাহার করা",
+      "example": "He withdrew his complaint.",
+      "pos": "verb",
+      "ant": "deposit"
+    }
+  ]
+}

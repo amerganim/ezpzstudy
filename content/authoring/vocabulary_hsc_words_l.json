@@ -1,0 +1,284 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "l",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Adolescence, Youthful Achievers)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "adolescence",
+      "back_bn": "কৈশোর",
+      "example": "Adolescence is a time of change.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "puberty",
+      "back_bn": "বয়ঃসন্ধি",
+      "example": "Many changes happen during puberty.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "maturity",
+      "back_bn": "পরিণতি/পরিপক্বতা",
+      "example": "He handled it with maturity.",
+      "pos": "noun",
+      "ant": "immaturity"
+    },
+    {
+      "type": "flashcard",
+      "front": "guardian",
+      "back_bn": "অভিভাবক",
+      "example": "A guardian looks after a child.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "nutrition",
+      "back_bn": "পুষ্টি",
+      "example": "Teenagers need good nutrition.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "counselling",
+      "back_bn": "পরামর্শ দান",
+      "example": "Students may need counselling.",
+      "pos": "noun",
+      "syn": "guidance"
+    },
+    {
+      "type": "flashcard",
+      "front": "emotional",
+      "back_bn": "আবেগপ্রবণ",
+      "example": "Teenagers are often emotional.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "behaviour",
+      "back_bn": "আচরণ",
+      "example": "Good behaviour is important.",
+      "pos": "noun",
+      "syn": "conduct"
+    },
+    {
+      "type": "flashcard",
+      "front": "influence",
+      "back_bn": "প্রভাব",
+      "example": "Friends have a strong influence.",
+      "pos": "noun",
+      "syn": "effect"
+    },
+    {
+      "type": "flashcard",
+      "front": "rebellious",
+      "back_bn": "বিদ্রোহী স্বভাবের",
+      "example": "Some teenagers become rebellious.",
+      "pos": "adjective",
+      "ant": "obedient"
+    },
+    {
+      "type": "flashcard",
+      "front": "curious",
+      "back_bn": "কৌতূহলী",
+      "example": "Young minds are naturally curious.",
+      "pos": "adjective",
+      "syn": "inquisitive"
+    },
+    {
+      "type": "flashcard",
+      "front": "identity",
+      "back_bn": "পরিচয়/সত্তা",
+      "example": "Adolescents look for their identity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "peer",
+      "back_bn": "সমবয়সী",
+      "example": "Peer pressure can be harmful.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "self-esteem",
+      "back_bn": "আত্মমর্যাদা",
+      "example": "Praise builds self-esteem.",
+      "pos": "noun",
+      "syn": "self-respect"
+    },
+    {
+      "type": "flashcard",
+      "front": "addiction",
+      "back_bn": "আসক্তি",
+      "example": "Mobile addiction wastes time.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "prodigy",
+      "back_bn": "অসাধারণ প্রতিভাবান",
+      "example": "The boy is a maths prodigy.",
+      "pos": "noun",
+      "syn": "genius"
+    },
+    {
+      "type": "flashcard",
+      "front": "achiever",
+      "back_bn": "সফল ব্যক্তি",
+      "example": "She is a young achiever.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "innovate",
+      "back_bn": "নতুন কিছু উদ্ভাবন করা",
+      "example": "Young people love to innovate.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "invention",
+      "back_bn": "আবিষ্কার",
+      "example": "The telephone was a great invention.",
+      "pos": "noun",
+      "syn": "discovery"
+    },
+    {
+      "type": "flashcard",
+      "front": "pioneer",
+      "back_bn": "অগ্রদূত",
+      "example": "She was a pioneer of women's education.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "talented",
+      "back_bn": "প্রতিভাবান",
+      "example": "He is a talented singer.",
+      "pos": "adjective",
+      "syn": "gifted"
+    },
+    {
+      "type": "flashcard",
+      "front": "dedicate",
+      "back_bn": "উৎসর্গ করা",
+      "example": "He dedicated his life to the poor.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "recognition",
+      "back_bn": "স্বীকৃতি",
+      "example": "Her work earned recognition.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "excel",
+      "back_bn": "শ্রেষ্ঠত্ব অর্জন করা",
+      "example": "She excels in mathematics.",
+      "pos": "verb",
+      "syn": "shine"
+    },
+    {
+      "type": "flashcard",
+      "front": "remarkable",
+      "back_bn": "উল্লেখযোগ্য",
+      "example": "He made remarkable progress.",
+      "pos": "adjective",
+      "syn": "notable"
+    },
+    {
+      "type": "flashcard",
+      "front": "outstanding",
+      "back_bn": "অসাধারণ",
+      "example": "Her result was outstanding.",
+      "pos": "adjective",
+      "syn": "excellent",
+      "ant": "ordinary"
+    },
+    {
+      "type": "flashcard",
+      "front": "contribution",
+      "back_bn": "অবদান",
+      "example": "His contribution to science is great.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "determined",
+      "back_bn": "দৃঢ়প্রতিজ্ঞ",
+      "example": "She is determined to win.",
+      "pos": "adjective",
+      "syn": "resolute"
+    },
+    {
+      "type": "flashcard",
+      "front": "courageous",
+      "back_bn": "সাহসী",
+      "example": "She was a courageous woman.",
+      "pos": "adjective",
+      "syn": "brave",
+      "ant": "timid"
+    },
+    {
+      "type": "flashcard",
+      "front": "role model",
+      "back_bn": "আদর্শ ব্যক্তি",
+      "example": "Teachers can be role models.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "willpower",
+      "back_bn": "মনের জোর",
+      "example": "Willpower helps to overcome habits.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "guide",
+      "back_bn": "পথ দেখানো",
+      "example": "A teacher guides the students.",
+      "pos": "verb",
+      "syn": "direct"
+    },
+    {
+      "type": "flashcard",
+      "front": "praise",
+      "back_bn": "প্রশংসা করা",
+      "example": "The teacher praised his work.",
+      "pos": "verb",
+      "ant": "blame"
+    },
+    {
+      "type": "flashcard",
+      "front": "fame",
+      "back_bn": "খ্যাতি",
+      "example": "He earned fame at a young age.",
+      "pos": "noun",
+      "syn": "renown",
+      "ant": "disgrace"
+    },
+    {
+      "type": "flashcard",
+      "front": "sincerity",
+      "back_bn": "আন্তরিকতা",
+      "example": "He does his duty with sincerity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "commitment",
+      "back_bn": "অঙ্গীকার/নিষ্ঠা",
+      "example": "She showed full commitment to the task.",
+      "pos": "noun",
+      "syn": "dedication"
+    }
+  ]
+}

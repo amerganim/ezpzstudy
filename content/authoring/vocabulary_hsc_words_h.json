@@ -1,0 +1,307 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "h",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Education & Life, Art & Craft)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "aspiration",
+      "back_bn": "আকাঙ্ক্ষা",
+      "example": "Her aspiration is to become a doctor.",
+      "pos": "noun",
+      "syn": "ambition"
+    },
+    {
+      "type": "flashcard",
+      "front": "enlighten",
+      "back_bn": "আলোকিত/জ্ঞান দান করা",
+      "example": "Education enlightens our mind.",
+      "pos": "verb",
+      "ant": "confuse"
+    },
+    {
+      "type": "flashcard",
+      "front": "literacy",
+      "back_bn": "সাক্ষরতা",
+      "example": "The literacy rate is rising in our country.",
+      "pos": "noun",
+      "ant": "illiteracy"
+    },
+    {
+      "type": "flashcard",
+      "front": "curriculum",
+      "back_bn": "পাঠ্যক্রম",
+      "example": "English is part of the school curriculum.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "diligence",
+      "back_bn": "অধ্যবসায়",
+      "example": "He passed the exam through diligence.",
+      "pos": "noun",
+      "syn": "perseverance",
+      "ant": "laziness"
+    },
+    {
+      "type": "flashcard",
+      "front": "ignorance",
+      "back_bn": "অজ্ঞতা",
+      "example": "Ignorance of the law is no excuse.",
+      "pos": "noun",
+      "ant": "knowledge"
+    },
+    {
+      "type": "flashcard",
+      "front": "guidance",
+      "back_bn": "নির্দেশনা",
+      "example": "Students need proper guidance from teachers.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "potential",
+      "back_bn": "সম্ভাবনা",
+      "example": "Every child has hidden potential.",
+      "pos": "noun",
+      "syn": "capability"
+    },
+    {
+      "type": "flashcard",
+      "front": "perseverance",
+      "back_bn": "অধ্যবসায়/লেগে থাকা",
+      "example": "Perseverance leads to success.",
+      "pos": "noun",
+      "syn": "persistence"
+    },
+    {
+      "type": "flashcard",
+      "front": "dedication",
+      "back_bn": "নিষ্ঠা",
+      "example": "She works with great dedication.",
+      "pos": "noun",
+      "syn": "commitment"
+    },
+    {
+      "type": "flashcard",
+      "front": "competent",
+      "back_bn": "দক্ষ/যোগ্য",
+      "example": "He is a competent teacher.",
+      "pos": "adjective",
+      "syn": "capable",
+      "ant": "incompetent"
+    },
+    {
+      "type": "flashcard",
+      "front": "foundation",
+      "back_bn": "ভিত্তি",
+      "example": "A strong foundation helps in higher study.",
+      "pos": "noun",
+      "syn": "base"
+    },
+    {
+      "type": "flashcard",
+      "front": "awareness",
+      "back_bn": "সচেতনতা",
+      "example": "We must build awareness about health.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "motivation",
+      "back_bn": "অনুপ্রেরণা",
+      "example": "A good teacher gives students motivation.",
+      "pos": "noun",
+      "syn": "inspiration"
+    },
+    {
+      "type": "flashcard",
+      "front": "achievement",
+      "back_bn": "অর্জন",
+      "example": "Winning the prize was a great achievement.",
+      "pos": "noun",
+      "syn": "accomplishment"
+    },
+    {
+      "type": "flashcard",
+      "front": "scholarship",
+      "back_bn": "বৃত্তি",
+      "example": "He got a scholarship for his good results.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "talent",
+      "back_bn": "প্রতিভা",
+      "example": "She has a talent for painting.",
+      "pos": "noun",
+      "syn": "gift"
+    },
+    {
+      "type": "flashcard",
+      "front": "creativity",
+      "back_bn": "সৃজনশীলতা",
+      "example": "Art develops creativity in children.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "craft",
+      "back_bn": "কারুশিল্প",
+      "example": "Pottery is an ancient craft.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "artisan",
+      "back_bn": "কারিগর",
+      "example": "The artisan made beautiful clay toys.",
+      "pos": "noun",
+      "syn": "craftsman"
+    },
+    {
+      "type": "flashcard",
+      "front": "heritage",
+      "back_bn": "ঐতিহ্য",
+      "example": "The Sixty Dome Mosque is part of our heritage.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "tradition",
+      "back_bn": "ঐতিহ্য/রীতি",
+      "example": "Nakshi Kantha is a rural tradition.",
+      "pos": "noun",
+      "syn": "custom"
+    },
+    {
+      "type": "flashcard",
+      "front": "sculpture",
+      "back_bn": "ভাস্কর্য",
+      "example": "The museum has an old sculpture.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "masterpiece",
+      "back_bn": "শ্রেষ্ঠ সৃষ্টি",
+      "example": "The painting is a real masterpiece.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "intricate",
+      "back_bn": "জটিল ও সূক্ষ্ম",
+      "example": "The design has intricate patterns.",
+      "pos": "adjective",
+      "syn": "complex"
+    },
+    {
+      "type": "flashcard",
+      "front": "vibrant",
+      "back_bn": "প্রাণবন্ত/উজ্জ্বল",
+      "example": "The festival was full of vibrant colours.",
+      "pos": "adjective",
+      "syn": "lively"
+    },
+    {
+      "type": "flashcard",
+      "front": "inspire",
+      "back_bn": "অনুপ্রাণিত করা",
+      "example": "His speech inspired the students.",
+      "pos": "verb",
+      "syn": "encourage"
+    },
+    {
+      "type": "flashcard",
+      "front": "imagination",
+      "back_bn": "কল্পনাশক্তি",
+      "example": "A poet needs a rich imagination.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "skill",
+      "back_bn": "দক্ষতা",
+      "example": "Writing is an important skill.",
+      "pos": "noun",
+      "syn": "ability"
+    },
+    {
+      "type": "flashcard",
+      "front": "knowledge",
+      "back_bn": "জ্ঞান",
+      "example": "Books are a source of knowledge.",
+      "pos": "noun",
+      "ant": "ignorance"
+    },
+    {
+      "type": "flashcard",
+      "front": "discipline",
+      "back_bn": "শৃঙ্খলা",
+      "example": "Discipline is the key to success.",
+      "pos": "noun",
+      "ant": "disorder"
+    },
+    {
+      "type": "flashcard",
+      "front": "ambition",
+      "back_bn": "উচ্চাকাঙ্ক্ষা",
+      "example": "His ambition is to serve the nation.",
+      "pos": "noun",
+      "syn": "aspiration"
+    },
+    {
+      "type": "flashcard",
+      "front": "curiosity",
+      "back_bn": "কৌতূহল",
+      "example": "Curiosity helps a child learn.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "enrich",
+      "back_bn": "সমৃদ্ধ করা",
+      "example": "Reading enriches our mind.",
+      "pos": "verb",
+      "ant": "impoverish"
+    },
+    {
+      "type": "flashcard",
+      "front": "capable",
+      "back_bn": "সক্ষম",
+      "example": "She is capable of doing the job.",
+      "pos": "adjective",
+      "syn": "able",
+      "ant": "incapable"
+    },
+    {
+      "type": "flashcard",
+      "front": "eager",
+      "back_bn": "আগ্রহী",
+      "example": "The boys are eager to learn.",
+      "pos": "adjective",
+      "syn": "keen",
+      "ant": "indifferent"
+    },
+    {
+      "type": "flashcard",
+      "front": "profound",
+      "back_bn": "গভীর",
+      "example": "He has a profound love for music.",
+      "pos": "adjective",
+      "syn": "deep",
+      "ant": "shallow"
+    },
+    {
+      "type": "flashcard",
+      "front": "excellence",
+      "back_bn": "শ্রেষ্ঠত্ব",
+      "example": "The award is a symbol of excellence.",
+      "pos": "noun"
+    }
+  ]
+}

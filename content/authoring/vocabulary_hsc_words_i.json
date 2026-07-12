@@ -1,0 +1,314 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "i",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Myths & Literature, History)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "myth",
+      "back_bn": "পুরাণ/উপকথা",
+      "example": "The Greek myth of Icarus is famous.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "legend",
+      "back_bn": "কিংবদন্তি",
+      "example": "Robin Hood is a popular legend.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "epic",
+      "back_bn": "মহাকাব্য",
+      "example": "The Iliad is a great epic.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "moral",
+      "back_bn": "নীতিকথা",
+      "example": "Every fable teaches a moral.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "hero",
+      "back_bn": "বীর/নায়ক",
+      "example": "The soldier is a national hero.",
+      "pos": "noun",
+      "ant": "coward"
+    },
+    {
+      "type": "flashcard",
+      "front": "villain",
+      "back_bn": "খলনায়ক",
+      "example": "The villain was punished at last.",
+      "pos": "noun",
+      "ant": "hero"
+    },
+    {
+      "type": "flashcard",
+      "front": "tragedy",
+      "back_bn": "বিয়োগান্ত নাটক/দুঃখজনক ঘটনা",
+      "example": "Hamlet is a famous tragedy.",
+      "pos": "noun",
+      "ant": "comedy"
+    },
+    {
+      "type": "flashcard",
+      "front": "fate",
+      "back_bn": "ভাগ্য/নিয়তি",
+      "example": "He believed in his own fate.",
+      "pos": "noun",
+      "syn": "destiny"
+    },
+    {
+      "type": "flashcard",
+      "front": "immortal",
+      "back_bn": "অমর",
+      "example": "Tagore's songs are immortal.",
+      "pos": "adjective",
+      "ant": "mortal"
+    },
+    {
+      "type": "flashcard",
+      "front": "narrate",
+      "back_bn": "বর্ণনা করা",
+      "example": "Grandmother narrated an old story.",
+      "pos": "verb",
+      "syn": "describe"
+    },
+    {
+      "type": "flashcard",
+      "front": "poet",
+      "back_bn": "কবি",
+      "example": "Nazrul is our rebel poet.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "verse",
+      "back_bn": "পদ্য/কবিতা",
+      "example": "He wrote a verse about nature.",
+      "pos": "noun",
+      "ant": "prose"
+    },
+    {
+      "type": "flashcard",
+      "front": "civilization",
+      "back_bn": "সভ্যতা",
+      "example": "The Indus Valley had an ancient civilization.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "ancient",
+      "back_bn": "প্রাচীন",
+      "example": "We visited an ancient city.",
+      "pos": "adjective",
+      "syn": "old",
+      "ant": "modern"
+    },
+    {
+      "type": "flashcard",
+      "front": "empire",
+      "back_bn": "সাম্রাজ্য",
+      "example": "The Mughal empire ruled for centuries.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "conquer",
+      "back_bn": "জয় করা",
+      "example": "The king conquered many lands.",
+      "pos": "verb",
+      "syn": "defeat"
+    },
+    {
+      "type": "flashcard",
+      "front": "independence",
+      "back_bn": "স্বাধীনতা",
+      "example": "We won independence in 1971.",
+      "pos": "noun",
+      "ant": "slavery"
+    },
+    {
+      "type": "flashcard",
+      "front": "freedom",
+      "back_bn": "স্বাধীনতা/মুক্তি",
+      "example": "Everyone loves freedom.",
+      "pos": "noun",
+      "syn": "liberty",
+      "ant": "bondage"
+    },
+    {
+      "type": "flashcard",
+      "front": "revolution",
+      "back_bn": "বিপ্লব",
+      "example": "The revolution changed the country.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "monument",
+      "back_bn": "স্মৃতিস্তম্ভ",
+      "example": "The Shaheed Minar is a monument.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "martyr",
+      "back_bn": "শহীদ",
+      "example": "We honour the language martyrs.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "liberate",
+      "back_bn": "মুক্ত করা",
+      "example": "The soldiers liberated the country.",
+      "pos": "verb",
+      "syn": "free",
+      "ant": "enslave"
+    },
+    {
+      "type": "flashcard",
+      "front": "struggle",
+      "back_bn": "সংগ্রাম",
+      "example": "Life is a struggle for the poor.",
+      "pos": "noun",
+      "syn": "fight"
+    },
+    {
+      "type": "flashcard",
+      "front": "invade",
+      "back_bn": "আক্রমণ করা",
+      "example": "The enemy invaded the border.",
+      "pos": "verb",
+      "syn": "attack"
+    },
+    {
+      "type": "flashcard",
+      "front": "historic",
+      "back_bn": "ঐতিহাসিক",
+      "example": "The 7th March speech was a historic event.",
+      "pos": "adjective"
+    },
+    {
+      "type": "flashcard",
+      "front": "glorious",
+      "back_bn": "গৌরবময়",
+      "example": "1971 is a glorious year for us.",
+      "pos": "adjective",
+      "syn": "splendid"
+    },
+    {
+      "type": "flashcard",
+      "front": "patriot",
+      "back_bn": "দেশপ্রেমিক",
+      "example": "A true patriot loves his country.",
+      "pos": "noun",
+      "ant": "traitor"
+    },
+    {
+      "type": "flashcard",
+      "front": "rebel",
+      "back_bn": "বিদ্রোহী",
+      "example": "Nazrul was known as the rebel poet.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "oppress",
+      "back_bn": "নির্যাতন করা",
+      "example": "The rulers oppressed the common people.",
+      "pos": "verb",
+      "syn": "suppress"
+    },
+    {
+      "type": "flashcard",
+      "front": "tyranny",
+      "back_bn": "অত্যাচার/স্বৈরাচার",
+      "example": "People fought against tyranny.",
+      "pos": "noun",
+      "syn": "cruelty"
+    },
+    {
+      "type": "flashcard",
+      "front": "victory",
+      "back_bn": "বিজয়",
+      "example": "16 December is our Victory Day.",
+      "pos": "noun",
+      "ant": "defeat"
+    },
+    {
+      "type": "flashcard",
+      "front": "ancestor",
+      "back_bn": "পূর্বপুরুষ",
+      "example": "Our ancestors fought for this land.",
+      "pos": "noun",
+      "ant": "descendant"
+    },
+    {
+      "type": "flashcard",
+      "front": "generation",
+      "back_bn": "প্রজন্ম",
+      "example": "The new generation must know history.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "commemorate",
+      "back_bn": "স্মরণ করা",
+      "example": "We commemorate the martyrs on 21 February.",
+      "pos": "verb",
+      "syn": "remember"
+    },
+    {
+      "type": "flashcard",
+      "front": "significant",
+      "back_bn": "গুরুত্বপূর্ণ",
+      "example": "It was a significant moment in history.",
+      "pos": "adjective",
+      "syn": "important",
+      "ant": "trivial"
+    },
+    {
+      "type": "flashcard",
+      "front": "civilize",
+      "back_bn": "সভ্য করা",
+      "example": "Education helps to civilize people.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "prosperity",
+      "back_bn": "সমৃদ্ধি",
+      "example": "We all want peace and prosperity.",
+      "pos": "noun",
+      "ant": "poverty"
+    },
+    {
+      "type": "flashcard",
+      "front": "preserve",
+      "back_bn": "সংরক্ষণ করা",
+      "example": "We must preserve historical places.",
+      "pos": "verb",
+      "syn": "protect",
+      "ant": "destroy"
+    },
+    {
+      "type": "flashcard",
+      "front": "renowned",
+      "back_bn": "বিখ্যাত",
+      "example": "He is a renowned historian.",
+      "pos": "adjective",
+      "syn": "famous",
+      "ant": "unknown"
+    }
+  ]
+}

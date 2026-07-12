@@ -1,0 +1,263 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "q",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (HSC academic & abstract vocabulary)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "consequence",
+      "back_bn": "পরিণাম",
+      "example": "He faced the consequence of his act.",
+      "pos": "noun",
+      "syn": "result"
+    },
+    {
+      "type": "flashcard",
+      "front": "sufficient",
+      "back_bn": "পর্যাপ্ত",
+      "example": "We have sufficient food.",
+      "pos": "adjective",
+      "syn": "enough",
+      "ant": "insufficient"
+    },
+    {
+      "type": "flashcard",
+      "front": "consider",
+      "back_bn": "বিবেচনা করা",
+      "example": "Consider all sides before deciding.",
+      "pos": "verb",
+      "syn": "regard"
+    },
+    {
+      "type": "flashcard",
+      "front": "contribute",
+      "back_bn": "অবদান রাখা",
+      "example": "Everyone should contribute to society.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "sufficiency",
+      "back_bn": "পর্যাপ্ততা",
+      "example": "Food sufficiency is our goal.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "maintain",
+      "back_bn": "বজায় রাখা",
+      "example": "We must maintain discipline.",
+      "pos": "verb",
+      "syn": "keep"
+    },
+    {
+      "type": "flashcard",
+      "front": "reduce",
+      "back_bn": "কমানো",
+      "example": "We should reduce the use of plastic.",
+      "pos": "verb",
+      "ant": "increase"
+    },
+    {
+      "type": "flashcard",
+      "front": "prevent",
+      "back_bn": "প্রতিরোধ করা",
+      "example": "Cleanliness prevents disease.",
+      "pos": "verb",
+      "syn": "stop"
+    },
+    {
+      "type": "flashcard",
+      "front": "solution",
+      "back_bn": "সমাধান",
+      "example": "We must find a solution soon.",
+      "pos": "noun",
+      "ant": "problem"
+    },
+    {
+      "type": "flashcard",
+      "front": "vital",
+      "back_bn": "অত্যাবশ্যক",
+      "example": "Sleep is vital for health.",
+      "pos": "adjective",
+      "syn": "essential"
+    },
+    {
+      "type": "flashcard",
+      "front": "obvious",
+      "back_bn": "সুস্পষ্ট",
+      "example": "The answer is obvious.",
+      "pos": "adjective",
+      "syn": "clear",
+      "ant": "unclear"
+    },
+    {
+      "type": "flashcard",
+      "front": "apparent",
+      "back_bn": "আপাত/স্পষ্ট",
+      "example": "His anger was apparent.",
+      "pos": "adjective",
+      "syn": "evident"
+    },
+    {
+      "type": "flashcard",
+      "front": "numerous",
+      "back_bn": "অসংখ্য",
+      "example": "There are numerous stars.",
+      "pos": "adjective",
+      "syn": "many",
+      "ant": "few"
+    },
+    {
+      "type": "flashcard",
+      "front": "various",
+      "back_bn": "বিভিন্ন",
+      "example": "The shop sells various goods.",
+      "pos": "adjective",
+      "syn": "different"
+    },
+    {
+      "type": "flashcard",
+      "front": "individual",
+      "back_bn": "ব্যক্তি/একক",
+      "example": "Each individual is different.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "eventually",
+      "back_bn": "শেষ পর্যন্ত",
+      "example": "He eventually reached home.",
+      "pos": "adverb",
+      "syn": "finally"
+    },
+    {
+      "type": "flashcard",
+      "front": "frequently",
+      "back_bn": "প্রায়ই",
+      "example": "He frequently visits us.",
+      "pos": "adverb",
+      "syn": "often",
+      "ant": "rarely"
+    },
+    {
+      "type": "flashcard",
+      "front": "rarely",
+      "back_bn": "কদাচিৎ",
+      "example": "He rarely tells a lie.",
+      "pos": "adverb",
+      "syn": "seldom",
+      "ant": "often"
+    },
+    {
+      "type": "flashcard",
+      "front": "gradually",
+      "back_bn": "ধীরে ধীরে",
+      "example": "The water rose gradually.",
+      "pos": "adverb"
+    },
+    {
+      "type": "flashcard",
+      "front": "necessity",
+      "back_bn": "প্রয়োজন",
+      "example": "Food is a basic necessity.",
+      "pos": "noun",
+      "syn": "need"
+    },
+    {
+      "type": "flashcard",
+      "front": "purpose",
+      "back_bn": "উদ্দেশ্য",
+      "example": "What is the purpose of your visit?",
+      "pos": "noun",
+      "syn": "aim"
+    },
+    {
+      "type": "flashcard",
+      "front": "method",
+      "back_bn": "পদ্ধতি",
+      "example": "Follow the right method.",
+      "pos": "noun",
+      "syn": "way"
+    },
+    {
+      "type": "flashcard",
+      "front": "process",
+      "back_bn": "প্রক্রিয়া",
+      "example": "Learning is a slow process.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "attempt",
+      "back_bn": "প্রচেষ্টা",
+      "example": "He made an attempt to swim.",
+      "pos": "noun",
+      "syn": "try"
+    },
+    {
+      "type": "flashcard",
+      "front": "capacity",
+      "back_bn": "ধারণক্ষমতা/সামর্থ্য",
+      "example": "The hall has a large capacity.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "quality",
+      "back_bn": "গুণ/মান",
+      "example": "This cloth is of good quality.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "quantity",
+      "back_bn": "পরিমাণ",
+      "example": "A large quantity of rice was stored.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "advantage",
+      "back_bn": "সুবিধা",
+      "example": "Take advantage of the chance.",
+      "pos": "noun",
+      "ant": "disadvantage"
+    },
+    {
+      "type": "flashcard",
+      "front": "circumstance",
+      "back_bn": "পরিস্থিতি",
+      "example": "He acted well under the circumstance.",
+      "pos": "noun",
+      "syn": "situation"
+    },
+    {
+      "type": "flashcard",
+      "front": "evident",
+      "back_bn": "সুস্পষ্ট",
+      "example": "It is evident that he is guilty.",
+      "pos": "adjective",
+      "syn": "clear"
+    },
+    {
+      "type": "flashcard",
+      "front": "notable",
+      "back_bn": "উল্লেখযোগ্য",
+      "example": "He is a notable scientist.",
+      "pos": "adjective",
+      "syn": "remarkable"
+    },
+    {
+      "type": "flashcard",
+      "front": "prominent",
+      "back_bn": "বিশিষ্ট",
+      "example": "She is a prominent leader.",
+      "pos": "adjective",
+      "syn": "eminent"
+    }
+  ]
+}

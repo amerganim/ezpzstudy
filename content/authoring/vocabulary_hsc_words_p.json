@@ -1,0 +1,301 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "p",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (Test Paper synonym/antonym common words)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "scarce",
+      "back_bn": "দুর্লভ",
+      "example": "Pure water is becoming scarce.",
+      "pos": "adjective",
+      "syn": "rare",
+      "ant": "abundant"
+    },
+    {
+      "type": "flashcard",
+      "front": "benefit",
+      "back_bn": "উপকার",
+      "example": "Trees are of great benefit to us.",
+      "pos": "noun",
+      "ant": "harm"
+    },
+    {
+      "type": "flashcard",
+      "front": "establish",
+      "back_bn": "প্রতিষ্ঠা করা",
+      "example": "He established a school.",
+      "pos": "verb",
+      "syn": "found",
+      "ant": "abolish"
+    },
+    {
+      "type": "flashcard",
+      "front": "prove",
+      "back_bn": "প্রমাণ করা",
+      "example": "He proved his innocence.",
+      "pos": "verb",
+      "syn": "establish"
+    },
+    {
+      "type": "flashcard",
+      "front": "concept",
+      "back_bn": "ধারণা",
+      "example": "He explained the concept clearly.",
+      "pos": "noun",
+      "syn": "idea"
+    },
+    {
+      "type": "flashcard",
+      "front": "delight",
+      "back_bn": "আনন্দ",
+      "example": "The children danced with delight.",
+      "pos": "noun",
+      "syn": "joy",
+      "ant": "sorrow"
+    },
+    {
+      "type": "flashcard",
+      "front": "weep",
+      "back_bn": "কাঁদা",
+      "example": "She began to weep with joy.",
+      "pos": "verb",
+      "syn": "cry",
+      "ant": "laugh"
+    },
+    {
+      "type": "flashcard",
+      "front": "fetch",
+      "back_bn": "নিয়ে আসা",
+      "example": "Please fetch me a glass of water.",
+      "pos": "verb",
+      "syn": "bring"
+    },
+    {
+      "type": "flashcard",
+      "front": "foe",
+      "back_bn": "শত্রু",
+      "example": "Treat your foe with fairness.",
+      "pos": "noun",
+      "syn": "enemy",
+      "ant": "friend"
+    },
+    {
+      "type": "flashcard",
+      "front": "brave",
+      "back_bn": "সাহসী",
+      "example": "The brave soldier fought on.",
+      "pos": "adjective",
+      "syn": "courageous",
+      "ant": "coward"
+    },
+    {
+      "type": "flashcard",
+      "front": "honest",
+      "back_bn": "সৎ",
+      "example": "An honest man is trusted.",
+      "pos": "adjective",
+      "ant": "dishonest"
+    },
+    {
+      "type": "flashcard",
+      "front": "rude",
+      "back_bn": "অভদ্র",
+      "example": "Rude behaviour is disliked.",
+      "pos": "adjective",
+      "ant": "polite"
+    },
+    {
+      "type": "flashcard",
+      "front": "wise",
+      "back_bn": "জ্ঞানী",
+      "example": "A wise man learns from mistakes.",
+      "pos": "adjective",
+      "ant": "foolish"
+    },
+    {
+      "type": "flashcard",
+      "front": "foolish",
+      "back_bn": "নির্বোধ",
+      "example": "It was a foolish decision.",
+      "pos": "adjective",
+      "syn": "silly",
+      "ant": "wise"
+    },
+    {
+      "type": "flashcard",
+      "front": "defeat",
+      "back_bn": "পরাজয়",
+      "example": "He accepted his defeat calmly.",
+      "pos": "noun",
+      "ant": "victory"
+    },
+    {
+      "type": "flashcard",
+      "front": "accept",
+      "back_bn": "গ্রহণ করা",
+      "example": "She accepted the gift gladly.",
+      "pos": "verb",
+      "ant": "reject"
+    },
+    {
+      "type": "flashcard",
+      "front": "increase",
+      "back_bn": "বৃদ্ধি পাওয়া",
+      "example": "Prices increase every year.",
+      "pos": "verb",
+      "ant": "decrease"
+    },
+    {
+      "type": "flashcard",
+      "front": "decrease",
+      "back_bn": "হ্রাস পাওয়া",
+      "example": "The number of birds is decreasing.",
+      "pos": "verb",
+      "ant": "increase"
+    },
+    {
+      "type": "flashcard",
+      "front": "modern",
+      "back_bn": "আধুনিক",
+      "example": "We live in a modern city.",
+      "pos": "adjective",
+      "ant": "ancient"
+    },
+    {
+      "type": "flashcard",
+      "front": "artificial",
+      "back_bn": "কৃত্রিম",
+      "example": "These are artificial flowers.",
+      "pos": "adjective",
+      "ant": "natural"
+    },
+    {
+      "type": "flashcard",
+      "front": "permanent",
+      "back_bn": "স্থায়ী",
+      "example": "He got a permanent job.",
+      "pos": "adjective",
+      "ant": "temporary"
+    },
+    {
+      "type": "flashcard",
+      "front": "temporary",
+      "back_bn": "অস্থায়ী",
+      "example": "It is a temporary shelter.",
+      "pos": "adjective",
+      "ant": "permanent"
+    },
+    {
+      "type": "flashcard",
+      "front": "victorious",
+      "back_bn": "বিজয়ী",
+      "example": "The team was victorious.",
+      "pos": "adjective",
+      "ant": "defeated"
+    },
+    {
+      "type": "flashcard",
+      "front": "proud",
+      "back_bn": "গর্বিত/অহংকারী",
+      "example": "He is proud of his country.",
+      "pos": "adjective",
+      "ant": "humble"
+    },
+    {
+      "type": "flashcard",
+      "front": "blame",
+      "back_bn": "দোষারোপ",
+      "example": "Do not blame others for your fault.",
+      "pos": "noun",
+      "ant": "praise"
+    },
+    {
+      "type": "flashcard",
+      "front": "wealth",
+      "back_bn": "সম্পদ",
+      "example": "Health is better than wealth.",
+      "pos": "noun",
+      "ant": "poverty"
+    },
+    {
+      "type": "flashcard",
+      "front": "clever",
+      "back_bn": "চতুর/বুদ্ধিমান",
+      "example": "The clever fox tricked the crow.",
+      "pos": "adjective",
+      "syn": "smart",
+      "ant": "dull"
+    },
+    {
+      "type": "flashcard",
+      "front": "difficult",
+      "back_bn": "কঠিন",
+      "example": "The sum was difficult.",
+      "pos": "adjective",
+      "syn": "hard",
+      "ant": "easy"
+    },
+    {
+      "type": "flashcard",
+      "front": "danger",
+      "back_bn": "বিপদ",
+      "example": "The sailor was in great danger.",
+      "pos": "noun",
+      "ant": "safety"
+    },
+    {
+      "type": "flashcard",
+      "front": "safety",
+      "back_bn": "নিরাপত্তা",
+      "example": "Wear a helmet for safety.",
+      "pos": "noun",
+      "ant": "danger"
+    },
+    {
+      "type": "flashcard",
+      "front": "quiet",
+      "back_bn": "শান্ত/নীরব",
+      "example": "The village is quiet at night.",
+      "pos": "adjective",
+      "syn": "calm",
+      "ant": "noisy"
+    },
+    {
+      "type": "flashcard",
+      "front": "noisy",
+      "back_bn": "কোলাহলপূর্ণ",
+      "example": "The market is very noisy.",
+      "pos": "adjective",
+      "ant": "quiet"
+    },
+    {
+      "type": "flashcard",
+      "front": "success",
+      "back_bn": "সাফল্য",
+      "example": "Success depends on effort.",
+      "pos": "noun",
+      "ant": "failure"
+    },
+    {
+      "type": "flashcard",
+      "front": "failure",
+      "back_bn": "ব্যর্থতা",
+      "example": "Failure teaches us lessons.",
+      "pos": "noun",
+      "ant": "success"
+    },
+    {
+      "type": "flashcard",
+      "front": "vacant",
+      "back_bn": "খালি/শূন্য",
+      "example": "The post is now vacant.",
+      "pos": "adjective",
+      "syn": "empty",
+      "ant": "occupied"
+    }
+  ]
+}

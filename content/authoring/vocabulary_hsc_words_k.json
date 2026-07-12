@@ -1,0 +1,297 @@
+{
+  "topic": "vocabulary_hsc_words",
+  "paper": "both",
+  "batch": "k",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো। (English For Today: Human Relationships, Peace & Conflict)",
+  "items": [
+    {
+      "type": "flashcard",
+      "front": "affection",
+      "back_bn": "স্নেহ",
+      "example": "A mother shows deep affection.",
+      "pos": "noun",
+      "syn": "love",
+      "ant": "hatred"
+    },
+    {
+      "type": "flashcard",
+      "front": "companion",
+      "back_bn": "সঙ্গী",
+      "example": "A book is a good companion.",
+      "pos": "noun",
+      "syn": "friend"
+    },
+    {
+      "type": "flashcard",
+      "front": "loyalty",
+      "back_bn": "আনুগত্য",
+      "example": "Loyalty keeps friendship strong.",
+      "pos": "noun",
+      "syn": "faithfulness",
+      "ant": "betrayal"
+    },
+    {
+      "type": "flashcard",
+      "front": "trust",
+      "back_bn": "বিশ্বাস",
+      "example": "Trust is the base of any relationship.",
+      "pos": "noun",
+      "ant": "distrust"
+    },
+    {
+      "type": "flashcard",
+      "front": "respect",
+      "back_bn": "শ্রদ্ধা",
+      "example": "We should respect our elders.",
+      "pos": "noun",
+      "ant": "disrespect"
+    },
+    {
+      "type": "flashcard",
+      "front": "sympathy",
+      "back_bn": "সহানুভূতি",
+      "example": "She felt sympathy for the poor boy.",
+      "pos": "noun",
+      "syn": "compassion"
+    },
+    {
+      "type": "flashcard",
+      "front": "kindness",
+      "back_bn": "দয়া",
+      "example": "His kindness touched everyone.",
+      "pos": "noun",
+      "ant": "cruelty"
+    },
+    {
+      "type": "flashcard",
+      "front": "forgive",
+      "back_bn": "ক্ষমা করা",
+      "example": "We should forgive small mistakes.",
+      "pos": "verb",
+      "syn": "pardon"
+    },
+    {
+      "type": "flashcard",
+      "front": "quarrel",
+      "back_bn": "ঝগড়া",
+      "example": "The two friends had a quarrel.",
+      "pos": "noun",
+      "syn": "dispute"
+    },
+    {
+      "type": "flashcard",
+      "front": "conflict",
+      "back_bn": "সংঘাত/দ্বন্দ্ব",
+      "example": "War is caused by conflict.",
+      "pos": "noun",
+      "ant": "harmony"
+    },
+    {
+      "type": "flashcard",
+      "front": "tolerance",
+      "back_bn": "সহনশীলতা",
+      "example": "Tolerance keeps a society peaceful.",
+      "pos": "noun",
+      "ant": "intolerance"
+    },
+    {
+      "type": "flashcard",
+      "front": "reconcile",
+      "back_bn": "মিটমাট করা",
+      "example": "They reconciled after the quarrel.",
+      "pos": "verb",
+      "syn": "settle"
+    },
+    {
+      "type": "flashcard",
+      "front": "compassion",
+      "back_bn": "করুণা",
+      "example": "He treated the sick with compassion.",
+      "pos": "noun",
+      "syn": "mercy"
+    },
+    {
+      "type": "flashcard",
+      "front": "cooperation",
+      "back_bn": "সহযোগিতা",
+      "example": "Cooperation makes work easier.",
+      "pos": "noun",
+      "syn": "collaboration"
+    },
+    {
+      "type": "flashcard",
+      "front": "peaceful",
+      "back_bn": "শান্তিপূর্ণ",
+      "example": "We want a peaceful world.",
+      "pos": "adjective",
+      "ant": "violent"
+    },
+    {
+      "type": "flashcard",
+      "front": "violence",
+      "back_bn": "সহিংসতা",
+      "example": "Violence never solves a problem.",
+      "pos": "noun",
+      "ant": "peace"
+    },
+    {
+      "type": "flashcard",
+      "front": "hostility",
+      "back_bn": "শত্রুতা",
+      "example": "Hostility between them grew.",
+      "pos": "noun",
+      "syn": "enmity",
+      "ant": "friendship"
+    },
+    {
+      "type": "flashcard",
+      "front": "negotiate",
+      "back_bn": "আলোচনা করে মীমাংসা করা",
+      "example": "The two sides agreed to negotiate.",
+      "pos": "verb"
+    },
+    {
+      "type": "flashcard",
+      "front": "mutual",
+      "back_bn": "পারস্পরিক",
+      "example": "They have mutual respect.",
+      "pos": "adjective",
+      "syn": "shared"
+    },
+    {
+      "type": "flashcard",
+      "front": "understanding",
+      "back_bn": "বোঝাপড়া",
+      "example": "A family needs understanding.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "devotion",
+      "back_bn": "ভক্তি/নিষ্ঠা",
+      "example": "She serves her parents with devotion.",
+      "pos": "noun",
+      "syn": "dedication"
+    },
+    {
+      "type": "flashcard",
+      "front": "selfish",
+      "back_bn": "স্বার্থপর",
+      "example": "A selfish man thinks only of himself.",
+      "pos": "adjective",
+      "ant": "generous"
+    },
+    {
+      "type": "flashcard",
+      "front": "betray",
+      "back_bn": "বিশ্বাসঘাতকতা করা",
+      "example": "A true friend never betrays.",
+      "pos": "verb",
+      "ant": "support"
+    },
+    {
+      "type": "flashcard",
+      "front": "intimate",
+      "back_bn": "ঘনিষ্ঠ",
+      "example": "They are intimate friends.",
+      "pos": "adjective",
+      "syn": "close"
+    },
+    {
+      "type": "flashcard",
+      "front": "console",
+      "back_bn": "সান্ত্বনা দেওয়া",
+      "example": "She consoled the crying child.",
+      "pos": "verb",
+      "syn": "comfort"
+    },
+    {
+      "type": "flashcard",
+      "front": "reunion",
+      "back_bn": "পুনর্মিলন",
+      "example": "The family reunion was joyful.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "attachment",
+      "back_bn": "মায়া/সংযুক্তি",
+      "example": "He has a deep attachment to his village.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "aggression",
+      "back_bn": "আগ্রাসন",
+      "example": "The country faced aggression.",
+      "pos": "noun",
+      "syn": "attack"
+    },
+    {
+      "type": "flashcard",
+      "front": "resolve",
+      "back_bn": "সমাধান করা",
+      "example": "They resolved the dispute peacefully.",
+      "pos": "verb",
+      "syn": "settle"
+    },
+    {
+      "type": "flashcard",
+      "front": "empathy",
+      "back_bn": "সমানুভূতি",
+      "example": "A good doctor shows empathy.",
+      "pos": "noun"
+    },
+    {
+      "type": "flashcard",
+      "front": "care",
+      "back_bn": "যত্ন",
+      "example": "The sick need proper care.",
+      "pos": "noun",
+      "ant": "neglect"
+    },
+    {
+      "type": "flashcard",
+      "front": "cruel",
+      "back_bn": "নিষ্ঠুর",
+      "example": "It is cruel to beat animals.",
+      "pos": "adjective",
+      "syn": "brutal",
+      "ant": "kind"
+    },
+    {
+      "type": "flashcard",
+      "front": "honour",
+      "back_bn": "সম্মান",
+      "example": "We must honour our promises.",
+      "pos": "noun",
+      "ant": "dishonour"
+    },
+    {
+      "type": "flashcard",
+      "front": "faithful",
+      "back_bn": "বিশ্বস্ত",
+      "example": "A dog is a faithful animal.",
+      "pos": "adjective",
+      "syn": "loyal",
+      "ant": "unfaithful"
+    },
+    {
+      "type": "flashcard",
+      "front": "reliable",
+      "back_bn": "নির্ভরযোগ্য",
+      "example": "He is a reliable friend.",
+      "pos": "adjective",
+      "syn": "dependable"
+    },
+    {
+      "type": "flashcard",
+      "front": "warmth",
+      "back_bn": "উষ্ণতা/আন্তরিকতা",
+      "example": "She welcomed us with warmth.",
+      "pos": "noun"
+    }
+  ]
+}
