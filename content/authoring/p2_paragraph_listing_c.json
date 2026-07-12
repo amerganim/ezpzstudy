@@ -1,0 +1,80 @@
+{
+  "topic": "p2_paragraph_listing",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "দেওয়া প্রশ্নগুলোর উত্তর দিয়ে একটি paragraph লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph about 'Tree Plantation' by answering: (a) What is tree plantation? (b) Why are trees important? (c) When should we plant trees? (d) What happens if we cut down trees? (e) What should we do?",
+      "words": [150, 200],
+      "model": "Tree plantation means planting trees in a planned way in open and empty places. Trees are one of the best friends of human beings. They give us oxygen, food, timber, fruits and shade. They also keep the soil firm and prevent floods and drought. In our country, the best time for planting trees is the rainy season, because young plants get enough water to grow at that time. If we cut down trees carelessly, the balance of nature is destroyed. The rainfall becomes irregular, the temperature rises and many animals lose their homes. As a result, our environment becomes unfit for living. So, we should all be aware of the importance of trees. We should plant more trees than we cut and take proper care of them. The government and students can work together to make tree plantation programmes successful.",
+      "rubric": [
+        "প্রতিটি প্রশ্নের (a–e) উত্তর অনুচ্ছেদে আছে",
+        "একটানা paragraph আকারে লিখেছি (আলাদা প্রশ্ন-উত্তর নয়)",
+        "topic sentence দিয়ে শুরু করেছি",
+        "linking words (also, as a result, so) ব্যবহার করেছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph about 'A Winter Morning' by answering: (a) What is a winter morning? (b) How does it look? (c) How do people feel? (d) What do people do? (e) How do you enjoy it?",
+      "words": [150, 200],
+      "model": "A winter morning is a cold and foggy morning of the winter season. It is very different from the mornings of other seasons. In the early hours, everything remains covered with thick fog, and things at a distance cannot be seen clearly. Dewdrops shine on grass and leaves like pearls. People feel very cold, so many of them wrap themselves in warm clothes. The poor people who have no warm clothes suffer a lot. Some of them make fires with straw and dry leaves to warm themselves. In the villages, people enjoy date juice and different kinds of cakes made of new rice. Farmers and workers wait for the sun to rise. When the sun comes up, the fog slowly disappears and nature becomes bright again. I enjoy a winter morning very much because of its calm beauty and delicious cakes.",
+      "rubric": [
+        "প্রতিটি প্রশ্নের (a–e) উত্তর অনুচ্ছেদে আছে",
+        "একটানা paragraph আকারে লিখেছি",
+        "বর্ণনায় বিশেষণ (cold, foggy, bright) ব্যবহার করেছি",
+        "শেষে নিজের অনুভূতি লিখেছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph about 'Load Shedding' by answering: (a) What is load shedding? (b) Why does it happen? (c) How does it affect students and people? (d) What problems does it create? (e) How can it be reduced?",
+      "words": [150, 200],
+      "model": "Load shedding means the sudden stoppage of the supply of electricity for some time. It happens when the demand for electricity is greater than its production. In our country, load shedding is a common problem, especially in summer. There are many reasons behind it, such as system loss, misuse of power and lack of enough power plants. Load shedding causes great sufferings to people of all classes. Students cannot study at night and become worried about their examinations. Factories and mills stop working, so the production of goods falls. Patients in hospitals suffer badly when machines stop. In the darkness, thieves and robbers also get a chance to do their crimes. To reduce load shedding, we should not waste electricity and must use energy-saving bulbs. The government should build more power plants and stop the illegal use of electricity. Only through everyone's awareness can this problem be solved.",
+      "rubric": [
+        "প্রতিটি প্রশ্নের (a–e) উত্তর অনুচ্ছেদে আছে",
+        "একটানা paragraph আকারে লিখেছি",
+        "কারণ ও সমাধান দুটিই উল্লেখ করেছি",
+        "linking words ব্যবহার করেছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph about 'Your Village' by answering: (a) Where is your village? (b) How big is it? (c) What do people do there? (d) What natural beauty does it have? (e) Why do you love it?",
+      "words": [150, 200],
+      "model": "My village is a small but beautiful village named Shantipur. It is situated on the bank of a river in the northern part of the country. The village is not very big; about two thousand people live there. Most of the villagers are farmers who grow rice, jute and vegetables in their fields. Some people are fishermen, weavers and small traders. There is a primary school, a mosque and a small market in the village. The natural beauty of my village is charming. Green fields, tall trees, ponds full of fish and singing birds make it look like a picture. In the evening, a gentle breeze blows over the fields and cools the heart. The people of my village are simple, honest and friendly. They help one another in times of danger. I love my village very much because I was born there and it has given me peace and happy memories.",
+      "rubric": [
+        "প্রতিটি প্রশ্নের (a–e) উত্তর অনুচ্ছেদে আছে",
+        "একটানা paragraph আকারে লিখেছি",
+        "প্রাকৃতিক সৌন্দর্যের বর্ণনা দিয়েছি",
+        "শেষে ভালোবাসার কারণ লিখেছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph about 'The Life of a Farmer' by answering: (a) Who is a farmer? (b) How does he live? (c) What does he do all day? (d) What problems does he face? (e) How important is he to the country?",
+      "words": [150, 200],
+      "model": "A farmer is a person who grows crops by working in the field. He is one of the most important members of our society. Most farmers in our country are poor and live in small huts in the villages. A farmer leads a very hard and busy life. He gets up early in the morning and goes to his field with a plough and cattle. He works hard in the sun and rain from morning till evening to grow rice, wheat and vegetables. He faces many problems in his life. He often does not get fair prices for his crops, and natural disasters like floods and droughts destroy his harvest. Many farmers cannot educate their children because of poverty. In spite of all these problems, a farmer is very important for the country. He feeds the whole nation with the food he produces. So, we should respect farmers and help them in every possible way.",
+      "rubric": [
+        "প্রতিটি প্রশ্নের (a–e) উত্তর অনুচ্ছেদে আছে",
+        "একটানা paragraph আকারে লিখেছি",
+        "সমস্যা ও গুরুত্ব দুটিই লিখেছি",
+        "linking words ব্যবহার করেছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    }
+  ]
+}

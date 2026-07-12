@@ -1,0 +1,52 @@
+{
+  "topic": "p1_informal_letter",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "বন্ধু/আত্মীয়কে একটি informal letter/email লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your younger brother advising him to study regularly.",
+      "words": [100, 160],
+      "model": "Dhaka\n10 May 2026\n\nDear Sohel,\nTake my love. I received your letter yesterday and was glad to know that you are well. But I was a little worried to hear that you are not studying regularly these days. So I am writing to give you some advice.\n\nYou know, our parents have great hopes about you. If you waste your time now, you will suffer in future. So, make a routine and follow it every day. Study attentively, do not neglect English and mathematics, and keep away from bad company. Take part in games too, because a sound mind lives in a sound body.\n\nI believe you will follow my advice. Give my salam to our parents.\n\nYour loving brother,\nRahim",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করে স্নেহপূর্ণ ভাষায় লিখেছি",
+        "নিয়মিত পড়ার উপদেশ স্পষ্টভাবে দিয়েছি",
+        "'Your loving brother' + নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your friend describing how you spent your last summer vacation.",
+      "words": [100, 160],
+      "model": "Dhaka\n10 May 2026\n\nDear Karim,\nMany many thanks for your kind letter. In your letter you wanted to know how I spent my last summer vacation. I am now writing about it.\n\nI spent my summer vacation in my village home. Every morning I walked in the green fields and enjoyed the fresh air. During the day I helped my father in the garden and read storybooks. In the afternoon I played football with my village friends. In the evening I sat with my grandmother and listened to her interesting tales. I also visited a nearby river and enjoyed boating. The days passed so happily that I did not feel bored for a single moment.\n\nNo more today. Convey my regards to your parents.\n\nYour loving friend,\nJamil",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করেছি",
+        "ছুটি কীভাবে কাটিয়েছি তা ধারাবাহিকভাবে লিখেছি",
+        "'Your loving friend' + নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "letter_informal",
+      "prompt": "Write a letter to your friend congratulating him on his brilliant success in the HSC examination.",
+      "words": [100, 160],
+      "model": "Dhaka\n10 May 2026\n\nDear Sabbir,\nCongratulations! I have just heard the happy news that you have passed the HSC examination with GPA 5. I cannot tell you how delighted I am at your brilliant result.\n\nYour success is the reward of your hard labour and sincerity. I always knew that you would shine in the examination. Your parents and teachers must be very proud of you today, and so am I. Now you should choose a good subject and get admitted into a reputed university.\n\nPlease convey my heartfelt congratulations to your parents. I am eagerly waiting to meet you and celebrate your success.\n\nYour loving friend,\nTanvir",
+      "rubric": [
+        "স্থান ও তারিখ দিয়েছি",
+        "'Dear ...' দিয়ে শুরু করে অভিনন্দন জানিয়েছি",
+        "সাফল্যের প্রশংসা ও পরবর্তী পরামর্শ দিয়েছি",
+        "'Your loving friend' + নাম দিয়ে শেষ করেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

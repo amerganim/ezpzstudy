@@ -1,0 +1,38 @@
+{
+  "topic": "p1_graph_chart",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "গ্রাফ/চার্ট/টেবিলটি বর্ণনা করে লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "graph_description",
+      "prompt": "The pie chart shows how a student spends his 24-hour day: Sleep 8 hours, Study 6 hours, School 5 hours, Meals & rest 3 hours, Games & TV 2 hours. Describe the chart in a paragraph.",
+      "words": [120, 180],
+      "model": "The pie chart shows how a student spends the twenty-four hours of a day. It is divided into five activities: sleep, study, school, meals and rest, and games and television.\n\nAccording to the chart, the student spends the largest part of his day sleeping, which is eight hours. The second highest amount of time, six hours, is spent on private study at home. He passes five hours at school. The remaining hours are spent on other activities. He gives three hours to meals and rest, while only two hours are kept for games and watching television.\n\nTo sum up, the chart makes it clear that the student spends most of his time on sleep and study. This shows that he is serious about his studies but also keeps some time for rest and recreation, which is necessary for good health.",
+      "rubric": [
+        "শুরুতে chart কী দেখায় তা বলেছি",
+        "প্রতিটি অংশের তথ্য (ঘণ্টা) উল্লেখ করেছি",
+        "largest, second highest, only ইত্যাদি তুলনামূলক শব্দ ব্যবহার করেছি",
+        "'To sum up' দিয়ে একটি সারাংশ দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "graph_description",
+      "prompt": "The table shows the number of students in a college in four groups: Science 300, Business Studies 250, Humanities 200, and total girls 350. Describe the table in a paragraph.",
+      "words": [120, 180],
+      "model": "The table presents information about the number of students in a college according to their groups. The three groups shown are Science, Business Studies and Humanities.\n\nIt is seen from the table that the Science group has the highest number of students, that is, three hundred. Business Studies comes next with two hundred and fifty students. The Humanities group has the lowest number, only two hundred students. So the total number of students in the college is seven hundred and fifty. Among them, three hundred and fifty are girls, which is a little less than half of the total.\n\nIn short, the table shows that most students of the college prefer the Science group, and the number of girls is quite close to that of boys. This indicates the growing interest of students in science education and the rise of female education in our country.",
+      "rubric": [
+        "শুরুতে table কী দেখায় তা বলেছি",
+        "প্রতিটি group-এর সংখ্যা উল্লেখ করেছি",
+        "highest, next, lowest দিয়ে তুলনা করেছি",
+        "'In short' দিয়ে একটি সারাংশ দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

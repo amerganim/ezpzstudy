@@ -1,0 +1,66 @@
+{
+  "topic": "p2_formal_letter",
+  "paper": "2nd",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "নিয়ম মেনে আবেদনপত্র/formal letter লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "application",
+      "prompt": "Write an application to the Principal of your college for a full-free studentship.",
+      "words": [120, 180],
+      "model": "Date: 10 May 2026\n\nTo\nThe Principal\n[Name] College, Dhaka\n\nSubject: Prayer for a full-free studentship.\n\nSir,\nWith due respect, I beg to state that I am a regular student of class XII (Science) in your college. I passed the last examination with good marks and stood second in my class.\n\nMy father is a poor farmer. He can hardly bear the cost of my education along with our family expenses. It is now very difficult for him to pay my monthly tuition fees. If you kindly grant me a full-free studentship, I shall be able to continue my studies.\n\nI, therefore, pray and hope that you would be kind enough to grant me a full-free studentship and oblige thereby.\n\nI remain,\nSir,\nYour most obedient pupil,\nRahim Uddin\nClass: XII, Roll: 05",
+      "rubric": [
+        "তারিখ, প্রাপক (To), Subject লিখেছি",
+        "Sir দিয়ে শুরু করে বিনীত ভাষায় কারণ লিখেছি",
+        "'I, therefore, pray...' দিয়ে অনুরোধ জানিয়েছি",
+        "শেষে 'Your most obedient pupil' + নাম/শ্রেণি/রোল দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "application",
+      "prompt": "Write an application to the Principal of your college for a testimonial.",
+      "words": [120, 180],
+      "model": "Date: 10 May 2026\n\nTo\nThe Principal\n[Name] College, Dhaka\n\nSubject: Prayer for a testimonial.\n\nSir,\nMost respectfully, I beg to state that I have passed the HSC examination from your college this year. Now I want to get myself admitted into a university for higher study. For this purpose, I need a testimonial from you.\n\nDuring my college life, I always obeyed the rules of the college and took part in games and cultural activities. I never did anything against the discipline of the institution.\n\nI, therefore, pray and hope that you would be kind enough to grant me a testimonial mentioning my character and conduct, and oblige thereby.\n\nI remain,\nSir,\nYour most obedient pupil,\nKamal Hossain\nHSC Batch 2026, Roll: 11",
+      "rubric": [
+        "তারিখ, প্রাপক (To), Subject লিখেছি",
+        "কেন testimonial দরকার তা বিনীতভাবে বলেছি",
+        "নিজের ভালো আচরণ/অংশগ্রহণ উল্লেখ করেছি",
+        "শেষে 'Your most obedient pupil' + নাম দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "application",
+      "prompt": "Write an application to the Chairman of your Union Parishad for repairing a damaged road in your village.",
+      "words": [120, 180],
+      "model": "Date: 10 May 2026\n\nTo\nThe Chairman\n[Name] Union Parishad, [District]\n\nSubject: Prayer for repairing a damaged road.\n\nSir,\nWe, the inhabitants of Shantipur village, beg to draw your kind attention to the miserable condition of the road that connects our village with the main highway.\n\nThe road has not been repaired for a long time. During the rainy season, it goes under water and becomes muddy. As a result, students, farmers and patients suffer greatly, and vehicles cannot move on it. Sometimes serious accidents also happen.\n\nWe, therefore, pray and hope that you would kindly take necessary steps to repair the road as soon as possible and oblige thereby.\n\nYours faithfully,\nThe inhabitants of Shantipur village",
+      "rubric": [
+        "তারিখ, প্রাপক (Chairman), Subject লিখেছি",
+        "রাস্তার সমস্যা ও ভোগান্তি স্পষ্টভাবে লিখেছি",
+        "'We, therefore, pray...' দিয়ে অনুরোধ জানিয়েছি",
+        "'Yours faithfully' + প্রেরক দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "application",
+      "prompt": "Write an application to the Principal of your college for setting up a debating club.",
+      "words": [120, 180],
+      "model": "Date: 10 May 2026\n\nTo\nThe Principal\n[Name] College, Dhaka\n\nSubject: Prayer for setting up a debating club.\n\nSir,\nWe, the students of your college, beg to state that our college has no debating club. A debating club is very useful for students because it removes the fear of speaking and builds confidence and the power of reasoning.\n\nIf a debating club is set up, students will be able to practise public speaking and take part in inter-college debate competitions. This will bring name and fame to our college.\n\nWe, therefore, pray and hope that you would be kind enough to take necessary steps to set up a debating club in our college and oblige thereby.\n\nWe remain,\nSir,\nYour obedient pupils,\nThe students of [Name] College",
+      "rubric": [
+        "তারিখ, প্রাপক (To), Subject লিখেছি",
+        "debating club-এর উপকারিতা যুক্তি দিয়ে লিখেছি",
+        "'We, therefore, pray...' দিয়ে অনুরোধ জানিয়েছি",
+        "শেষে 'Your obedient pupils' দিয়েছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

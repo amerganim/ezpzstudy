@@ -1,0 +1,52 @@
+{
+  "topic": "p1_summary",
+  "paper": "1st",
+  "batch": "c",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে নিজের ভাষায় সংক্ষিপ্তসার (summary) লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 10 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "summary",
+      "prompt": "Summarise the following passage in about one-third of its length:\n\n'Water is another name for life. We cannot live even a single day without water. We use it for drinking, cooking, washing and many other purposes. But pure water is now becoming rare. People pollute water by throwing waste, and mills release poison into rivers. This polluted water causes many diseases. So, we must keep our water free from pollution to stay healthy.'",
+      "words": [40, 60],
+      "model": "Water is essential for life, and we use it for drinking, cooking and washing. However, pure water is becoming scarce because people and mills pollute rivers with waste and poison. This polluted water spreads many diseases. Therefore, we must keep our water free from pollution to remain healthy.",
+      "rubric": [
+        "মূল ভাব ঠিক রেখেছি, উদাহরণ/বিস্তারিত বাদ দিয়েছি",
+        "নিজের ভাষায় লিখেছি (হুবহু বাক্য তুলিনি)",
+        "প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি",
+        "একটি অনুচ্ছেদে ধারাবাহিকভাবে লিখেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "summary",
+      "prompt": "Summarise the following passage in about one-third of its length:\n\n'Early rising is a good habit. He who rises early gets enough time to do his daily work. He can breathe in the fresh morning air, which is good for health. He can also take some exercise and start his study when the mind is fresh. On the other hand, those who rise late have to hurry and can never finish their work in time. So, we should all form the habit of early rising.'",
+      "words": [40, 60],
+      "model": "Early rising is a good habit that gives a person enough time for daily work. An early riser enjoys fresh morning air, takes exercise and studies with a fresh mind. In contrast, late risers always remain in a hurry and cannot finish their work in time. Therefore, everyone should rise early.",
+      "rubric": [
+        "মূল ভাব ঠিক রেখেছি, বিস্তারিত বাদ দিয়েছি",
+        "নিজের ভাষায় লিখেছি",
+        "প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি",
+        "একটি অনুচ্ছেদে লিখেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "summary",
+      "prompt": "Summarise the following passage in about one-third of its length:\n\n'Trees are very useful to us. They give us oxygen without which we cannot live. They also give us fruits, wood and shade. Trees save us from floods and keep the soil firm. They cause rainfall and keep the environment cool and clean. But some greedy people cut down trees for money. If we destroy trees like this, the whole world will turn into a desert. So, we should plant more and more trees.'",
+      "words": [40, 60],
+      "model": "Trees are very useful because they give us oxygen, fruits, wood and shade. They also prevent floods, cause rainfall and keep the environment cool and clean. Yet, some greedy people cut down trees for money, which may turn the world into a desert. Therefore, we should plant more trees.",
+      "rubric": [
+        "মূল ভাব ঠিক রেখেছি, উদাহরণ কমিয়েছি",
+        "নিজের ভাষায় লিখেছি",
+        "প্রায় এক-তৃতীয়াংশ দৈর্ঘ্য রেখেছি",
+        "একটি অনুচ্ছেদে লিখেছি",
+        "grammar ও বানান ঠিক আছে"
+      ]
+    }
+  ]
+}

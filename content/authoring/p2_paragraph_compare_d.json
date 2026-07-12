@@ -1,0 +1,66 @@
+{
+  "topic": "p2_paragraph_compare",
+  "paper": "2nd",
+  "batch": "d",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "তুলনা/বৈসাদৃশ্য দেখিয়ে একটি paragraph লেখো। নিজে লেখার পর নমুনা ও checklist দেখো (Board: 15 marks)।",
+  "items": [
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph comparing and contrasting 'Village Life and Town Life'. Show at least three similarities/differences.",
+      "words": [150, 200],
+      "model": "Village life and town life are two different ways of living, yet both have their own charm. The most obvious difference lies in the environment. A village is calm, quiet and full of natural beauty, while a town is noisy, busy and crowded. Secondly, in terms of facilities, town life is far ahead. Towns have good schools, colleges, hospitals and markets, whereas villages often lack these modern facilities. On the other hand, the air of a village is fresh and pure, but the air of a town is often polluted by smoke and dust. There is a difference in human relations as well. Village people are simple, friendly and helpful, while town people are mostly busy with their own work and hardly know their neighbours. However, both village and town have some similarities too. In both places, people work hard to earn their living and dream of a better future. In short, though village life gives peace and town life gives comfort, an ideal life needs a balance of the two.",
+      "rubric": [
+        "অন্তত তিনটি তুলনা/পার্থক্য দেখিয়েছি",
+        "তুলনার শব্দ (while, whereas, on the other hand, both) ব্যবহার করেছি",
+        "একটানা paragraph আকারে লিখেছি",
+        "শেষে একটি ভারসাম্যপূর্ণ মন্তব্য দিয়েছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph comparing and contrasting 'Books and the Internet as sources of knowledge'.",
+      "words": [150, 200],
+      "model": "Books and the internet are both important sources of knowledge, but they are different in many ways. Books have been the traditional storehouse of knowledge for hundreds of years. They are reliable, well-organised and can be read anywhere without electricity. The internet, on the other hand, is a modern source that gives us a huge amount of information within seconds. While a book usually covers one subject at a time, the internet offers thousands of topics at the same time. In terms of cost, borrowing books from a library is cheap, whereas using the internet needs a device and data. However, the information on the internet is not always correct, while the information in a good book is usually checked and edited. Both books and the internet, though, help students learn and widen their minds. Therefore, a wise student should use books and the internet together, taking the good sides of each and avoiding the bad ones.",
+      "rubric": [
+        "অন্তত তিনটি তুলনা/পার্থক্য দেখিয়েছি",
+        "তুলনার শব্দ (while, whereas, on the other hand) ব্যবহার করেছি",
+        "একটানা paragraph আকারে লিখেছি",
+        "শেষে একটি ভারসাম্যপূর্ণ মন্তব্য দিয়েছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph comparing and contrasting 'Online Class and Offline Class'.",
+      "words": [150, 200],
+      "model": "Online class and offline class are two methods of learning, and each has its own advantages and disadvantages. In an offline class, students and teachers sit together in the same room, so students can ask questions directly and get instant answers. An online class, on the other hand, is held over the internet, so students can attend it from home. The biggest difference is about place and cost. Offline classes require students to travel to school, while online classes save both time and travel cost. However, in an offline class students can mix with friends and take part in games and other activities, whereas in an online class they often feel lonely. Moreover, an online class fully depends on electricity and a good internet connection, but an offline class does not. In spite of these differences, both types of class aim at the same goal, that is, spreading education. So, a mixture of online and offline classes can bring the best result for students.",
+      "rubric": [
+        "অন্তত তিনটি তুলনা/পার্থক্য দেখিয়েছি",
+        "তুলনার শব্দ (while, whereas, on the other hand) ব্যবহার করেছি",
+        "একটানা paragraph আকারে লিখেছি",
+        "শেষে একটি ভারসাম্যপূর্ণ মন্তব্য দিয়েছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    },
+    {
+      "type": "writing_prompt",
+      "writing_type": "paragraph",
+      "prompt": "Write a paragraph comparing and contrasting 'A Rich Man and a Poor Man'.",
+      "words": [150, 200],
+      "model": "A rich man and a poor man live very different lives, yet both are human beings with hopes and feelings. The most obvious difference is money. A rich man has plenty of money, a big house, cars and servants, while a poor man struggles hard to earn even his daily food. Because of this, a rich man can give his children good education and medical care, whereas a poor man often cannot. However, wealth does not always bring peace of mind. A rich man is frequently worried about his business and safety, while a poor man, though he has little, often sleeps without such tension. In terms of health, a poor man who does physical work is sometimes stronger than a rich man who leads an easy life. Both of them, however, want happiness and a secure future for their families. Therefore, we should remember that true greatness lies not in riches but in honesty, kindness and hard work.",
+      "rubric": [
+        "অন্তত তিনটি তুলনা/পার্থক্য দেখিয়েছি",
+        "তুলনার শব্দ (while, whereas, however) ব্যবহার করেছি",
+        "একটানা paragraph আকারে লিখেছি",
+        "শেষে একটি নৈতিক মন্তব্য দিয়েছি",
+        "grammar ও বানান ঠিক আছে, ১৫০+ শব্দ হয়েছে"
+      ]
+    }
+  ]
+}
