@@ -1,0 +1,18 @@
+{
+  "topic": "p1_cloze_no_clues",
+  "paper": "1st",
+  "batch": "f",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "clue ছাড়া প্রসঙ্গ বুঝে শূন্যস্থানে উপযুক্ত শব্দ বসাও (Board: cloze test without clues)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Patriotism is a great virtue. Every citizen should love ___ country.", "a": ["his", "their", "the"], "fuzzy": 0, "rule_bn": "প্রসঙ্গ অনুযায়ী possessive: his/their।" },
+    { "type": "fill_in_open", "q": "A good student never wastes ___ time.", "a": ["his", "her", "their"], "fuzzy": 0, "rule_bn": "possessive adjective: his/her/their।" },
+    { "type": "fill_in_open", "q": "The sun gives us light ___ heat.", "a": ["and"], "rule_bn": "দুটি শব্দ যোগ করতে 'and'।" },
+    { "type": "fill_in_open", "q": "We eat ___ live, not live to eat.", "a": ["to"], "rule_bn": "উদ্দেশ্য বোঝাতে infinitive 'to'।" },
+    { "type": "fill_in_open", "q": "He is poor ___ honest.", "a": ["but", "yet"], "fuzzy": 0, "rule_bn": "বিপরীত ভাব যোগে 'but/yet'।" },
+    { "type": "fill_in_open", "q": "Health is wealth. So we should take care ___ our health.", "a": ["of"], "rule_bn": "'take care of' — যত্ন নেওয়া।" },
+    { "type": "fill_in_open", "q": "The boy was so weak ___ he could not walk.", "a": ["that"], "rule_bn": "'so ... that' গঠন।" },
+    { "type": "fill_in_open", "q": "Dhaka is the capital ___ Bangladesh.", "a": ["of"], "rule_bn": "'capital of' — সম্বন্ধ বোঝায়।" }
+  ]
+}

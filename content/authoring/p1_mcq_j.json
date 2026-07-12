@@ -1,0 +1,106 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "j",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নাও (Board: reading MCQ)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "The Sundarbans is the largest mangrove forest in the world. It is situated in the south-western part of Bangladesh. It is the home of the Royal Bengal Tiger. Many other animals such as deer, monkeys and crocodiles also live there. The forest protects the coastal areas from cyclones and tidal waves.", "subs": [
+      { "type": "mcq", "q": "What is the Sundarbans?", "opts": ["a hill", "the largest mangrove forest", "a river", "a sea"], "correct": 1, "rule_bn": "'the largest mangrove forest in the world'।" },
+      { "type": "mcq", "q": "Where is the Sundarbans situated?", "opts": ["in the north", "in the south-western part", "in the east", "in the centre"], "correct": 1, "rule_bn": "'in the south-western part of Bangladesh'।" },
+      { "type": "mcq", "q": "The Sundarbans is the home of the ___.", "opts": ["lion", "elephant", "Royal Bengal Tiger", "zebra"], "correct": 2, "rule_bn": "'the home of the Royal Bengal Tiger'।" },
+      { "type": "mcq", "q": "What does the forest protect the coastal areas from?", "opts": ["heat", "cyclones and tidal waves", "drought", "pollution"], "correct": 1, "rule_bn": "'protects the coastal areas from cyclones and tidal waves'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Honey is a sweet and healthy food. It is made by bees. Bees collect nectar from flowers and store it in their hives. Honey is used as both food and medicine. It gives us energy and helps to cure many diseases. That is why honey is very valuable to us.", "subs": [
+      { "type": "mcq", "q": "Who makes honey?", "opts": ["ants", "bees", "birds", "spiders"], "correct": 1, "rule_bn": "'It is made by bees'।" },
+      { "type": "mcq", "q": "From where do bees collect nectar?", "opts": ["from leaves", "from flowers", "from water", "from soil"], "correct": 1, "rule_bn": "'collect nectar from flowers'।" },
+      { "type": "mcq", "q": "Honey is used as food and ___.", "opts": ["poison", "medicine", "colour", "fuel"], "correct": 1, "rule_bn": "'used as both food and medicine'।" },
+      { "type": "mcq", "q": "What does honey give us?", "opts": ["energy", "sleep", "disease", "fear"], "correct": 0, "rule_bn": "'It gives us energy'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Rabindranath Tagore was a great poet. He was born in Kolkata in 1861. He wrote poems, songs, novels and dramas. His famous book of poems is Gitanjali. In 1913 he won the Nobel Prize for this book. He was the first Asian to win this prize.", "subs": [
+      { "type": "mcq", "q": "When was Tagore born?", "opts": ["1851", "1861", "1871", "1881"], "correct": 1, "rule_bn": "'born in Kolkata in 1861'।" },
+      { "type": "mcq", "q": "What is Tagore's famous book of poems?", "opts": ["Sonar Tori", "Gitanjali", "Gora", "Sanchayita"], "correct": 1, "rule_bn": "'His famous book of poems is Gitanjali'।" },
+      { "type": "mcq", "q": "In which year did he win the Nobel Prize?", "opts": ["1911", "1913", "1915", "1919"], "correct": 1, "rule_bn": "'In 1913 he won the Nobel Prize'।" },
+      { "type": "mcq", "q": "Tagore was the first ___ to win the Nobel Prize.", "opts": ["European", "African", "Asian", "American"], "correct": 2, "rule_bn": "'the first Asian to win this prize'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The frog lives both on land and in water. It is an amphibian. It has smooth, wet skin and long back legs. It eats insects and worms. The frog catches its food with its long sticky tongue. It sleeps in the mud during the cold winter months.", "subs": [
+      { "type": "mcq", "q": "Where does the frog live?", "opts": ["only on land", "only in water", "both on land and in water", "in the sky"], "correct": 2, "rule_bn": "'lives both on land and in water'।" },
+      { "type": "mcq", "q": "What is a frog called?", "opts": ["a mammal", "an amphibian", "a bird", "a fish"], "correct": 1, "rule_bn": "'It is an amphibian'।" },
+      { "type": "mcq", "q": "What does the frog eat?", "opts": ["grass", "insects and worms", "fruits", "fish only"], "correct": 1, "rule_bn": "'It eats insects and worms'।" },
+      { "type": "mcq", "q": "With what does it catch food?", "opts": ["its legs", "its long sticky tongue", "its tail", "its eyes"], "correct": 1, "rule_bn": "'with its long sticky tongue'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Air is very important for all living beings. We cannot live without air even for a few minutes. Air is a mixture of many gases. Oxygen is the most important gas in the air. We take in oxygen when we breathe. But the air is becoming polluted by smoke and dust.", "subs": [
+      { "type": "mcq", "q": "How long can we live without air?", "opts": ["a day", "an hour", "not even a few minutes", "a week"], "correct": 2, "rule_bn": "'cannot live without air even for a few minutes'।" },
+      { "type": "mcq", "q": "Air is a mixture of ___.", "opts": ["water", "many gases", "dust", "metals"], "correct": 1, "rule_bn": "'Air is a mixture of many gases'।" },
+      { "type": "mcq", "q": "Which is the most important gas in the air?", "opts": ["nitrogen", "oxygen", "carbon dioxide", "hydrogen"], "correct": 1, "rule_bn": "'Oxygen is the most important gas'।" },
+      { "type": "mcq", "q": "By what is the air being polluted?", "opts": ["water", "smoke and dust", "sound", "light"], "correct": 1, "rule_bn": "'polluted by smoke and dust'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The Shaheed Minar is a symbol of our language movement. It was built in memory of the language martyrs of 1952. On the 21st of February people place flowers at the Shaheed Minar. They come barefoot early in the morning to show respect. The day is now observed as International Mother Language Day.", "subs": [
+      { "type": "mcq", "q": "What is the Shaheed Minar a symbol of?", "opts": ["victory", "our language movement", "independence", "sports"], "correct": 1, "rule_bn": "'a symbol of our language movement'।" },
+      { "type": "mcq", "q": "In whose memory was it built?", "opts": ["freedom fighters", "the language martyrs of 1952", "poets", "kings"], "correct": 1, "rule_bn": "'in memory of the language martyrs of 1952'।" },
+      { "type": "mcq", "q": "What do people place at the Shaheed Minar?", "opts": ["flags", "flowers", "food", "books"], "correct": 1, "rule_bn": "'people place flowers'।" },
+      { "type": "mcq", "q": "The day is observed as ___.", "opts": ["Victory Day", "Independence Day", "International Mother Language Day", "New Year"], "correct": 2, "rule_bn": "'observed as International Mother Language Day'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The elephant is the largest land animal. It has a huge body, four thick legs and a long trunk. It uses its trunk to take food and water. Though it is very big, it eats only plants and leaves. Elephants are used to carry heavy loads and logs.", "subs": [
+      { "type": "mcq", "q": "The elephant is the largest ___ animal.", "opts": ["sea", "land", "flying", "water"], "correct": 1, "rule_bn": "'the largest land animal'।" },
+      { "type": "mcq", "q": "What does the elephant use to take food?", "opts": ["its legs", "its trunk", "its ears", "its tail"], "correct": 1, "rule_bn": "'uses its trunk to take food and water'।" },
+      { "type": "mcq", "q": "What does the elephant eat?", "opts": ["meat", "plants and leaves", "fish", "insects"], "correct": 1, "rule_bn": "'eats only plants and leaves'।" },
+      { "type": "mcq", "q": "For what are elephants used?", "opts": ["to carry heavy loads", "to fly", "to swim", "to sing"], "correct": 0, "rule_bn": "'used to carry heavy loads and logs'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Exercise is good for our health. It makes our muscles strong. It also helps the blood to flow well in our body. People who exercise regularly seldom fall ill. Morning is the best time for exercise, because the air is fresh then.", "subs": [
+      { "type": "mcq", "q": "What is good for our health?", "opts": ["laziness", "exercise", "junk food", "oversleeping"], "correct": 1, "rule_bn": "'Exercise is good for our health'।" },
+      { "type": "mcq", "q": "What does exercise make strong?", "opts": ["our hair", "our muscles", "our nails", "our teeth"], "correct": 1, "rule_bn": "'makes our muscles strong'।" },
+      { "type": "mcq", "q": "People who exercise regularly ___.", "opts": ["often fall ill", "seldom fall ill", "never eat", "always sleep"], "correct": 1, "rule_bn": "'seldom fall ill'।" },
+      { "type": "mcq", "q": "Which is the best time for exercise?", "opts": ["night", "noon", "morning", "evening"], "correct": 2, "rule_bn": "'Morning is the best time for exercise'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The Taj Mahal is a wonderful monument in India. It is situated at Agra on the bank of the river Jamuna. It was built by the Mughal emperor Shah Jahan in memory of his wife Mumtaz. It is made of white marble. Millions of tourists come to see it every year.", "subs": [
+      { "type": "mcq", "q": "Where is the Taj Mahal situated?", "opts": ["at Delhi", "at Agra", "at Kolkata", "at Mumbai"], "correct": 1, "rule_bn": "'situated at Agra'।" },
+      { "type": "mcq", "q": "Who built the Taj Mahal?", "opts": ["Akbar", "Babar", "Shah Jahan", "Aurangzeb"], "correct": 2, "rule_bn": "'built by the Mughal emperor Shah Jahan'।" },
+      { "type": "mcq", "q": "In whose memory was it built?", "opts": ["his mother", "his wife Mumtaz", "his son", "his father"], "correct": 1, "rule_bn": "'in memory of his wife Mumtaz'।" },
+      { "type": "mcq", "q": "What is the Taj Mahal made of?", "opts": ["red brick", "white marble", "wood", "gold"], "correct": 1, "rule_bn": "'made of white marble'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A library is a storehouse of knowledge. It is a place where many books are kept for reading. Students read different kinds of books there. A library is a calm and quiet place. We should keep silent in the library so that others can read attentively.", "subs": [
+      { "type": "mcq", "q": "A library is a storehouse of ___.", "opts": ["money", "knowledge", "food", "clothes"], "correct": 1, "rule_bn": "'a storehouse of knowledge'।" },
+      { "type": "mcq", "q": "What are kept in a library?", "opts": ["toys", "many books", "clothes", "machines"], "correct": 1, "rule_bn": "'many books are kept for reading'।" },
+      { "type": "mcq", "q": "What kind of place is a library?", "opts": ["noisy", "calm and quiet", "dirty", "dark"], "correct": 1, "rule_bn": "'a calm and quiet place'।" },
+      { "type": "mcq", "q": "What should we do in the library?", "opts": ["talk loudly", "keep silent", "run about", "sing"], "correct": 1, "rule_bn": "'We should keep silent'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The cuckoo is a bird of sweet voice. It is black in colour and looks like a crow. It is a lazy bird and builds no nest of its own. It lays its eggs in the crow's nest. The cuckoo sings sweetly in spring.", "subs": [
+      { "type": "mcq", "q": "What is the cuckoo famous for?", "opts": ["its colour", "its sweet voice", "its size", "its speed"], "correct": 1, "rule_bn": "'a bird of sweet voice'।" },
+      { "type": "mcq", "q": "What is the colour of the cuckoo?", "opts": ["white", "black", "red", "green"], "correct": 1, "rule_bn": "'It is black in colour'।" },
+      { "type": "mcq", "q": "Where does the cuckoo lay its eggs?", "opts": ["in its own nest", "in the crow's nest", "on the ground", "in water"], "correct": 1, "rule_bn": "'lays its eggs in the crow's nest'।" },
+      { "type": "mcq", "q": "When does the cuckoo sing sweetly?", "opts": ["in winter", "in spring", "in summer", "in autumn"], "correct": 1, "rule_bn": "'sings sweetly in spring'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Rice is our main food. It grows well in wet and low land. Farmers work hard in the field to grow rice. They plough the land, sow the seeds and give water. When the crop becomes ripe, they cut it. Rice gives us energy to work.", "subs": [
+      { "type": "mcq", "q": "What is our main food?", "opts": ["wheat", "rice", "bread", "meat"], "correct": 1, "rule_bn": "'Rice is our main food'।" },
+      { "type": "mcq", "q": "Where does rice grow well?", "opts": ["in dry land", "in wet and low land", "on hills", "in deserts"], "correct": 1, "rule_bn": "'grows well in wet and low land'।" },
+      { "type": "mcq", "q": "Who work hard to grow rice?", "opts": ["teachers", "farmers", "doctors", "traders"], "correct": 1, "rule_bn": "'Farmers work hard'।" },
+      { "type": "mcq", "q": "What does rice give us?", "opts": ["energy", "money", "sleep", "fear"], "correct": 0, "rule_bn": "'Rice gives us energy'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The sun is the source of all energy. It rises in the east and sets in the west. It gives us light and heat. Without the sun there would be no life on earth. Plants make their food with the help of sunlight.", "subs": [
+      { "type": "mcq", "q": "What is the sun the source of?", "opts": ["all energy", "all water", "all sound", "all soil"], "correct": 0, "rule_bn": "'the source of all energy'।" },
+      { "type": "mcq", "q": "Where does the sun rise?", "opts": ["in the west", "in the east", "in the north", "in the south"], "correct": 1, "rule_bn": "'rises in the east'।" },
+      { "type": "mcq", "q": "What does the sun give us?", "opts": ["light and heat", "rain", "wind", "sound"], "correct": 0, "rule_bn": "'gives us light and heat'।" },
+      { "type": "mcq", "q": "With whose help do plants make food?", "opts": ["moonlight", "sunlight", "wind", "rain"], "correct": 1, "rule_bn": "'make their food with the help of sunlight'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Ants are small but hardworking insects. They live together in colonies. They work all day to collect food. In summer they store food for the winter. Ants teach us the lesson of industry and unity.", "subs": [
+      { "type": "mcq", "q": "What kind of insects are ants?", "opts": ["lazy", "small but hardworking", "large", "harmful"], "correct": 1, "rule_bn": "'small but hardworking insects'।" },
+      { "type": "mcq", "q": "How do ants live?", "opts": ["alone", "together in colonies", "in water", "in the sky"], "correct": 1, "rule_bn": "'live together in colonies'।" },
+      { "type": "mcq", "q": "When do ants store food?", "opts": ["in winter", "in summer", "at night", "in spring"], "correct": 1, "rule_bn": "'In summer they store food'।" },
+      { "type": "mcq", "q": "What lesson do ants teach us?", "opts": ["laziness", "industry and unity", "greed", "fear"], "correct": 1, "rule_bn": "'teach us the lesson of industry and unity'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Dr Muhammad Yunus is a famous economist of Bangladesh. He founded the Grameen Bank for the poor. This bank gives small loans to poor people, especially women. In 2006 he won the Nobel Prize for Peace. He is honoured all over the world.", "subs": [
+      { "type": "mcq", "q": "What is Dr Yunus famous as?", "opts": ["a poet", "an economist", "a doctor", "a singer"], "correct": 1, "rule_bn": "'a famous economist'।" },
+      { "type": "mcq", "q": "What bank did he found?", "opts": ["Sonali Bank", "Grameen Bank", "Janata Bank", "Agrani Bank"], "correct": 1, "rule_bn": "'founded the Grameen Bank'।" },
+      { "type": "mcq", "q": "To whom does the bank give small loans?", "opts": ["the rich", "poor people, especially women", "big companies", "the government"], "correct": 1, "rule_bn": "'small loans to poor people, especially women'।" },
+      { "type": "mcq", "q": "In which year did he win the Nobel Prize?", "opts": ["2004", "2006", "2008", "2010"], "correct": 1, "rule_bn": "'In 2006 he won the Nobel Prize'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Trees are called the lungs of nature. They take in carbon dioxide and give out oxygen. They keep the air fresh and cool. Trees also give shelter to birds and animals. If we cut down trees, the balance of nature will be destroyed.", "subs": [
+      { "type": "mcq", "q": "Trees are called the ___ of nature.", "opts": ["heart", "lungs", "eyes", "hands"], "correct": 1, "rule_bn": "'the lungs of nature'।" },
+      { "type": "mcq", "q": "What do trees give out?", "opts": ["carbon dioxide", "oxygen", "smoke", "dust"], "correct": 1, "rule_bn": "'give out oxygen'।" },
+      { "type": "mcq", "q": "To whom do trees give shelter?", "opts": ["birds and animals", "fish", "insects only", "people only"], "correct": 0, "rule_bn": "'give shelter to birds and animals'।" },
+      { "type": "mcq", "q": "What will be destroyed if we cut trees?", "opts": ["the roads", "the balance of nature", "the houses", "the rivers"], "correct": 1, "rule_bn": "'the balance of nature will be destroyed'।" }
+    ]}
+  ]
+}

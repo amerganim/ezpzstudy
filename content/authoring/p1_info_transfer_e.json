@@ -1,0 +1,157 @@
+{
+  "topic": "p1_info_transfer",
+  "paper": "1st",
+  "batch": "e",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "Brushing our teeth properly is important. First, we wet the toothbrush with water. Then we put some toothpaste on the brush. After that, we brush our teeth up and down. Next, we clean our tongue gently. Finally, we rinse our mouth with clean water.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ the toothbrush with water.", "a": ["Wet","wet"], "fuzzy": 1, "rule_bn": "'we wet the toothbrush'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put some ___ on the brush.", "a": ["toothpaste"], "fuzzy": 1, "rule_bn": "'put some toothpaste'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ our teeth up and down.", "a": ["Brush","brush"], "fuzzy": 1, "rule_bn": "'we brush our teeth'।" },
+      { "type": "fill_in_open", "q": "Step 4: Clean our ___ gently.", "a": ["tongue"], "fuzzy": 1, "rule_bn": "'clean our tongue'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ our mouth with clean water.", "a": ["Rinse","rinse"], "fuzzy": 1, "rule_bn": "'we rinse our mouth'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making compost from waste is useful. First, we collect kitchen waste like vegetable peels. Then we put the waste in a pit or a bin. After that, we add some soil and dry leaves. Next, we keep it covered for a few weeks. Finally, the waste rots and turns into compost fertiliser.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Collect kitchen ___ like peels.", "a": ["waste"], "fuzzy": 1, "rule_bn": "'collect kitchen waste'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put the waste in a pit or a ___.", "a": ["bin"], "fuzzy": 1, "rule_bn": "'in a pit or a bin'।" },
+      { "type": "fill_in_open", "q": "Step 3: Add some soil and dry ___.", "a": ["leaves"], "fuzzy": 1, "rule_bn": "'add some soil and dry leaves'।" },
+      { "type": "fill_in_open", "q": "Step 4: Keep it ___ for a few weeks.", "a": ["covered"], "fuzzy": 1, "rule_bn": "'keep it covered'।" },
+      { "type": "fill_in_open", "q": "Step 5: The waste turns into ___ fertiliser.", "a": ["compost"], "fuzzy": 1, "rule_bn": "'turns into compost'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Baking a cake is enjoyable. First, we mix flour, sugar and eggs in a bowl. Then we add some butter and beat the mixture well. After that, we pour the batter into a baking tin. Next, we put the tin into a hot oven. Finally, we bake it for about thirty minutes until it is done.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Mix flour, sugar and ___ in a bowl.", "a": ["eggs"], "fuzzy": 1, "rule_bn": "'flour, sugar and eggs'।" },
+      { "type": "fill_in_open", "q": "Step 2: Add some ___ and beat the mixture.", "a": ["butter"], "fuzzy": 1, "rule_bn": "'add some butter'।" },
+      { "type": "fill_in_open", "q": "Step 3: Pour the batter into a baking ___.", "a": ["tin"], "fuzzy": 1, "rule_bn": "'into a baking tin'।" },
+      { "type": "fill_in_open", "q": "Step 4: Put the tin into a hot ___.", "a": ["oven"], "fuzzy": 1, "rule_bn": "'into a hot oven'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it for about thirty minutes.", "a": ["Bake","bake"], "fuzzy": 1, "rule_bn": "'we bake it'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Washing clothes by hand is easy. First, we soak the dirty clothes in water. Then we rub soap on them. After that, we scrub the clothes to remove the dirt. Next, we rinse them in clean water. Finally, we dry them in the sun.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ the dirty clothes in water.", "a": ["Soak","soak"], "fuzzy": 1, "rule_bn": "'we soak the dirty clothes'।" },
+      { "type": "fill_in_open", "q": "Step 2: Rub ___ on them.", "a": ["soap"], "fuzzy": 1, "rule_bn": "'rub soap on them'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the clothes to remove the dirt.", "a": ["Scrub","scrub"], "fuzzy": 1, "rule_bn": "'we scrub the clothes'।" },
+      { "type": "fill_in_open", "q": "Step 4: ___ them in clean water.", "a": ["Rinse","rinse"], "fuzzy": 1, "rule_bn": "'we rinse them'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ them in the sun.", "a": ["Dry","dry"], "fuzzy": 1, "rule_bn": "'we dry them'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Posting a letter follows some steps. First, we write the letter on a piece of paper. Then we put it into an envelope. After that, we write the address on the envelope. Next, we stick a postage stamp on it. Finally, we drop the letter into a letterbox.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ the letter on a piece of paper.", "a": ["Write","write"], "fuzzy": 1, "rule_bn": "'we write the letter'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put it into an ___.", "a": ["envelope"], "fuzzy": 1, "rule_bn": "'into an envelope'।" },
+      { "type": "fill_in_open", "q": "Step 3: Write the ___ on the envelope.", "a": ["address"], "fuzzy": 1, "rule_bn": "'write the address'।" },
+      { "type": "fill_in_open", "q": "Step 4: Stick a postage ___ on it.", "a": ["stamp"], "fuzzy": 1, "rule_bn": "'a postage stamp'।" },
+      { "type": "fill_in_open", "q": "Step 5: Drop the letter into a ___.", "a": ["letterbox","postbox"], "fuzzy": 1, "rule_bn": "'into a letterbox'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a garden needs some steps. First, we choose a sunny piece of land. Then we clean and dig the soil. After that, we make small beds for the plants. Next, we sow seeds or plant saplings in the beds. Finally, we water them and take care of them daily.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Choose a sunny piece of ___.", "a": ["land"], "fuzzy": 1, "rule_bn": "'a sunny piece of land'।" },
+      { "type": "fill_in_open", "q": "Step 2: Clean and ___ the soil.", "a": ["dig"], "fuzzy": 1, "rule_bn": "'clean and dig the soil'।" },
+      { "type": "fill_in_open", "q": "Step 3: Make small ___ for the plants.", "a": ["beds"], "fuzzy": 1, "rule_bn": "'make small beds'।" },
+      { "type": "fill_in_open", "q": "Step 4: Sow seeds or plant ___.", "a": ["saplings"], "fuzzy": 1, "rule_bn": "'plant saplings'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ them and take care daily.", "a": ["Water","water"], "fuzzy": 1, "rule_bn": "'we water them'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making puffed rice (muri) is a traditional process. First, paddy is boiled and dried in the sun. Then the dried paddy is husked to get rice. After that, the rice is heated in a pot with hot sand. Next, the heat makes the rice grains puff up. Finally, the sand is removed by sieving, and the muri is ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Paddy is boiled and ___ in the sun.", "a": ["dried"], "fuzzy": 1, "rule_bn": "'dried in the sun'।" },
+      { "type": "fill_in_open", "q": "Step 2: The dried paddy is ___ to get rice.", "a": ["husked"], "fuzzy": 1, "rule_bn": "'is husked to get rice'।" },
+      { "type": "fill_in_open", "q": "Step 3: The rice is heated in a pot with hot ___.", "a": ["sand"], "fuzzy": 1, "rule_bn": "'with hot sand'।" },
+      { "type": "fill_in_open", "q": "Step 4: The heat makes the rice grains ___ up.", "a": ["puff"], "fuzzy": 1, "rule_bn": "'puff up'।" },
+      { "type": "fill_in_open", "q": "Step 5: The sand is removed by ___.", "a": ["sieving"], "fuzzy": 1, "rule_bn": "'removed by sieving'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making salt from sea water is a natural process. First, sea water is collected in shallow beds. Then the water is left under the hot sun. After that, the sun's heat makes the water evaporate. Next, the salt is left behind at the bottom. Finally, the salt is collected and dried for use.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Sea water is collected in shallow ___.", "a": ["beds"], "fuzzy": 1, "rule_bn": "'in shallow beds'।" },
+      { "type": "fill_in_open", "q": "Step 2: The water is left under the hot ___.", "a": ["sun"], "fuzzy": 1, "rule_bn": "'under the hot sun'।" },
+      { "type": "fill_in_open", "q": "Step 3: The heat makes the water ___.", "a": ["evaporate"], "fuzzy": 1, "rule_bn": "'makes the water evaporate'।" },
+      { "type": "fill_in_open", "q": "Step 4: The ___ is left behind at the bottom.", "a": ["salt"], "fuzzy": 1, "rule_bn": "'the salt is left behind'।" },
+      { "type": "fill_in_open", "q": "Step 5: The salt is collected and ___.", "a": ["dried"], "fuzzy": 1, "rule_bn": "'collected and dried'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "How a book is published follows some steps. First, a writer writes the manuscript. Then he sends it to a publisher. After that, an editor checks and corrects it. Next, the corrected copy is printed and bound. Finally, the printed books are sold in the market.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: A writer writes the ___.", "a": ["manuscript"], "fuzzy": 1, "rule_bn": "'writes the manuscript'।" },
+      { "type": "fill_in_open", "q": "Step 2: He sends it to a ___.", "a": ["publisher"], "fuzzy": 1, "rule_bn": "'sends it to a publisher'।" },
+      { "type": "fill_in_open", "q": "Step 3: An ___ checks and corrects it.", "a": ["editor"], "fuzzy": 1, "rule_bn": "'an editor checks'।" },
+      { "type": "fill_in_open", "q": "Step 4: The copy is printed and ___.", "a": ["bound"], "fuzzy": 1, "rule_bn": "'printed and bound'।" },
+      { "type": "fill_in_open", "q": "Step 5: The books are ___ in the market.", "a": ["sold"], "fuzzy": 1, "rule_bn": "'sold in the market'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a clay pot is an old craft. First, the potter collects sticky clay. Then he mixes it with water to make it soft. After that, he shapes the clay on a wheel. Next, he dries the pot in the sun. Finally, he bakes it in a kiln to make it hard.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The potter collects sticky ___.", "a": ["clay"], "fuzzy": 1, "rule_bn": "'collects sticky clay'।" },
+      { "type": "fill_in_open", "q": "Step 2: He mixes it with ___ to make it soft.", "a": ["water"], "fuzzy": 1, "rule_bn": "'mixes it with water'।" },
+      { "type": "fill_in_open", "q": "Step 3: He shapes the clay on a ___.", "a": ["wheel"], "fuzzy": 1, "rule_bn": "'shapes the clay on a wheel'।" },
+      { "type": "fill_in_open", "q": "Step 4: He dries the pot in the ___.", "a": ["sun"], "fuzzy": 1, "rule_bn": "'dries the pot in the sun'।" },
+      { "type": "fill_in_open", "q": "Step 5: He bakes it in a ___.", "a": ["kiln"], "fuzzy": 1, "rule_bn": "'bakes it in a kiln'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Cultivating jute follows some steps. First, the farmer ploughs the land well. Then he sows jute seeds in the field. After that, the plants grow tall in a few months. Next, the farmer cuts the jute plants. Finally, he soaks them in water to get the fibre.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The farmer ___ the land well.", "a": ["ploughs","plows"], "fuzzy": 1, "rule_bn": "'ploughs the land'।" },
+      { "type": "fill_in_open", "q": "Step 2: He sows jute ___ in the field.", "a": ["seeds"], "fuzzy": 1, "rule_bn": "'sows jute seeds'।" },
+      { "type": "fill_in_open", "q": "Step 3: The plants grow ___ in a few months.", "a": ["tall"], "fuzzy": 1, "rule_bn": "'grow tall'।" },
+      { "type": "fill_in_open", "q": "Step 4: The farmer ___ the jute plants.", "a": ["cuts"], "fuzzy": 1, "rule_bn": "'cuts the jute plants'।" },
+      { "type": "fill_in_open", "q": "Step 5: He soaks them in water to get the ___.", "a": ["fibre","fiber"], "fuzzy": 1, "rule_bn": "'to get the fibre'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making ice cream at home is fun. First, we boil milk and mix sugar in it. Then we add some flavour to the milk. After that, we let the mixture cool down. Next, we pour it into a mould. Finally, we put the mould into the freezer until it sets.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Boil milk and mix ___ in it.", "a": ["sugar"], "fuzzy": 1, "rule_bn": "'mix sugar in it'।" },
+      { "type": "fill_in_open", "q": "Step 2: Add some ___ to the milk.", "a": ["flavour","flavor"], "fuzzy": 1, "rule_bn": "'add some flavour'।" },
+      { "type": "fill_in_open", "q": "Step 3: Let the mixture ___ down.", "a": ["cool"], "fuzzy": 1, "rule_bn": "'let the mixture cool'।" },
+      { "type": "fill_in_open", "q": "Step 4: Pour it into a ___.", "a": ["mould","mold"], "fuzzy": 1, "rule_bn": "'pour it into a mould'।" },
+      { "type": "fill_in_open", "q": "Step 5: Put the mould into the ___.", "a": ["freezer"], "fuzzy": 1, "rule_bn": "'into the freezer'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making sugar from sugarcane follows some steps. First, the sugarcane is crushed to take out the juice. Then the juice is boiled in a large pan. After that, the boiling makes it thick. Next, the thick juice is cooled and turns into crystals. Finally, the crystals are cleaned to make white sugar.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The sugarcane is ___ to take out the juice.", "a": ["crushed"], "fuzzy": 1, "rule_bn": "'is crushed'।" },
+      { "type": "fill_in_open", "q": "Step 2: The juice is ___ in a large pan.", "a": ["boiled"], "fuzzy": 1, "rule_bn": "'is boiled'।" },
+      { "type": "fill_in_open", "q": "Step 3: The boiling makes it ___.", "a": ["thick"], "fuzzy": 1, "rule_bn": "'makes it thick'।" },
+      { "type": "fill_in_open", "q": "Step 4: The thick juice cools and turns into ___.", "a": ["crystals"], "fuzzy": 1, "rule_bn": "'turns into crystals'।" },
+      { "type": "fill_in_open", "q": "Step 5: The crystals are cleaned to make white ___.", "a": ["sugar"], "fuzzy": 1, "rule_bn": "'to make white sugar'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Cooking an egg is very simple. First, we take a fresh egg. Then we break the shell of the egg. After that, we pour the egg into a hot frying pan. Next, we add a little salt to it. Finally, we fry it for a few minutes and serve it hot.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take a fresh ___.", "a": ["egg"], "fuzzy": 1, "rule_bn": "'take a fresh egg'।" },
+      { "type": "fill_in_open", "q": "Step 2: Break the ___ of the egg.", "a": ["shell"], "fuzzy": 1, "rule_bn": "'break the shell'।" },
+      { "type": "fill_in_open", "q": "Step 3: Pour the egg into a hot frying ___.", "a": ["pan"], "fuzzy": 1, "rule_bn": "'a hot frying pan'।" },
+      { "type": "fill_in_open", "q": "Step 4: Add a little ___ to it.", "a": ["salt"], "fuzzy": 1, "rule_bn": "'add a little salt'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it for a few minutes.", "a": ["Fry","fry"], "fuzzy": 1, "rule_bn": "'we fry it'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a phone call is easy. First, we pick up the mobile phone. Then we type the number we want to call. After that, we press the call button. Next, we wait until the other person answers. Finally, we talk with the person and end the call.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Pick up the mobile ___.", "a": ["phone"], "fuzzy": 1, "rule_bn": "'pick up the mobile phone'।" },
+      { "type": "fill_in_open", "q": "Step 2: Type the ___ we want to call.", "a": ["number"], "fuzzy": 1, "rule_bn": "'type the number'।" },
+      { "type": "fill_in_open", "q": "Step 3: Press the ___ button.", "a": ["call"], "fuzzy": 1, "rule_bn": "'press the call button'।" },
+      { "type": "fill_in_open", "q": "Step 4: Wait until the person ___.", "a": ["answers"], "fuzzy": 1, "rule_bn": "'until the other person answers'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ with the person and end the call.", "a": ["Talk","talk"], "fuzzy": 1, "rule_bn": "'we talk with the person'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Growing a mango tree needs patience. First, we plant a mango sapling in the soil. Then we water it and give it manure. After some years the plant grows into a big tree. Next, the tree bears flowers in spring. Finally, the flowers turn into mangoes in summer.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Plant a mango ___ in the soil.", "a": ["sapling"], "fuzzy": 1, "rule_bn": "'a mango sapling'।" },
+      { "type": "fill_in_open", "q": "Step 2: Water it and give it ___.", "a": ["manure"], "fuzzy": 1, "rule_bn": "'give it manure'।" },
+      { "type": "fill_in_open", "q": "Step 3: The plant grows into a big ___.", "a": ["tree"], "fuzzy": 1, "rule_bn": "'grows into a big tree'।" },
+      { "type": "fill_in_open", "q": "Step 4: The tree bears ___ in spring.", "a": ["flowers"], "fuzzy": 1, "rule_bn": "'bears flowers in spring'।" },
+      { "type": "fill_in_open", "q": "Step 5: The flowers turn into ___ in summer.", "a": ["mangoes"], "fuzzy": 1, "rule_bn": "'turn into mangoes'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Harvesting paddy is a busy time for farmers. First, the ripe golden paddy is cut with a sickle. Then the cut paddy is carried to the yard. After that, the grains are separated by threshing. Next, the grains are dried in the sun. Finally, the dried paddy is stored in a granary.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The ripe paddy is cut with a ___.", "a": ["sickle"], "fuzzy": 1, "rule_bn": "'cut with a sickle'।" },
+      { "type": "fill_in_open", "q": "Step 2: The cut paddy is carried to the ___.", "a": ["yard"], "fuzzy": 1, "rule_bn": "'carried to the yard'।" },
+      { "type": "fill_in_open", "q": "Step 3: The grains are separated by ___.", "a": ["threshing"], "fuzzy": 1, "rule_bn": "'separated by threshing'।" },
+      { "type": "fill_in_open", "q": "Step 4: The grains are ___ in the sun.", "a": ["dried"], "fuzzy": 1, "rule_bn": "'dried in the sun'।" },
+      { "type": "fill_in_open", "q": "Step 5: The dried paddy is stored in a ___.", "a": ["granary"], "fuzzy": 1, "rule_bn": "'stored in a granary'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a bird's nest is the work of a bird. First, the bird collects small twigs and straw. Then it carries them to a suitable branch. After that, it weaves them together into a cup shape. Next, it lines the inside with soft feathers. Finally, the nest is ready for the bird to lay eggs.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The bird collects small twigs and ___.", "a": ["straw"], "fuzzy": 1, "rule_bn": "'twigs and straw'।" },
+      { "type": "fill_in_open", "q": "Step 2: It carries them to a suitable ___.", "a": ["branch"], "fuzzy": 1, "rule_bn": "'to a suitable branch'।" },
+      { "type": "fill_in_open", "q": "Step 3: It ___ them together into a cup shape.", "a": ["weaves"], "fuzzy": 1, "rule_bn": "'weaves them together'।" },
+      { "type": "fill_in_open", "q": "Step 4: It lines the inside with soft ___.", "a": ["feathers"], "fuzzy": 1, "rule_bn": "'with soft feathers'।" },
+      { "type": "fill_in_open", "q": "Step 5: The nest is ready to lay ___.", "a": ["eggs"], "fuzzy": 1, "rule_bn": "'to lay eggs'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making bread follows some steps. First, we mix flour, water and yeast to make dough. Then we knead the dough well. After that, we leave it to rise for some time. Next, we shape the dough and put it in a baking tin. Finally, we bake it in an oven until it becomes bread.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Mix flour, water and ___ to make dough.", "a": ["yeast"], "fuzzy": 1, "rule_bn": "'flour, water and yeast'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ the dough well.", "a": ["Knead","knead"], "fuzzy": 1, "rule_bn": "'we knead the dough'।" },
+      { "type": "fill_in_open", "q": "Step 3: Leave it to ___ for some time.", "a": ["rise"], "fuzzy": 1, "rule_bn": "'to rise'।" },
+      { "type": "fill_in_open", "q": "Step 4: Shape the dough and put it in a baking ___.", "a": ["tin"], "fuzzy": 1, "rule_bn": "'in a baking tin'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it in an oven.", "a": ["Bake","bake"], "fuzzy": 1, "rule_bn": "'we bake it'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Purifying muddy water is easy. First, we collect the muddy water in a pot. Then we add a little alum (fitkiri) to it. After that, the dirt settles down at the bottom. Next, we pour the clear water into another pot. Finally, we boil it to make it safe for drinking.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Collect the muddy water in a ___.", "a": ["pot"], "fuzzy": 1, "rule_bn": "'in a pot'।" },
+      { "type": "fill_in_open", "q": "Step 2: Add a little ___ (fitkiri) to it.", "a": ["alum"], "fuzzy": 1, "rule_bn": "'add a little alum'।" },
+      { "type": "fill_in_open", "q": "Step 3: The dirt settles down at the ___.", "a": ["bottom"], "fuzzy": 1, "rule_bn": "'settles down at the bottom'।" },
+      { "type": "fill_in_open", "q": "Step 4: Pour the ___ water into another pot.", "a": ["clear"], "fuzzy": 1, "rule_bn": "'pour the clear water'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it to make it safe for drinking.", "a": ["Boil","boil"], "fuzzy": 1, "rule_bn": "'we boil it'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a fire for cooking follows some steps. First, we gather some dry wood and leaves. Then we arrange them in the stove. After that, we light the dry leaves with a match. Next, the leaves catch fire and burn the wood. Finally, the fire is ready for cooking.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Gather some dry wood and ___.", "a": ["leaves"], "fuzzy": 1, "rule_bn": "'dry wood and leaves'।" },
+      { "type": "fill_in_open", "q": "Step 2: Arrange them in the ___.", "a": ["stove"], "fuzzy": 1, "rule_bn": "'arrange them in the stove'।" },
+      { "type": "fill_in_open", "q": "Step 3: Light the dry leaves with a ___.", "a": ["match"], "fuzzy": 1, "rule_bn": "'with a match'।" },
+      { "type": "fill_in_open", "q": "Step 4: The leaves catch fire and burn the ___.", "a": ["wood"], "fuzzy": 1, "rule_bn": "'burn the wood'।" },
+      { "type": "fill_in_open", "q": "Step 5: The ___ is ready for cooking.", "a": ["fire"], "fuzzy": 1, "rule_bn": "'the fire is ready'।" }
+    ]}
+  ]
+}

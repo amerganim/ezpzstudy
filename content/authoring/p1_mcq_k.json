@@ -1,0 +1,106 @@
+{
+  "topic": "p1_mcq",
+  "paper": "1st",
+  "batch": "k",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সঠিক উত্তরটি বেছে নাও (Board: reading MCQ)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "The horse is a faithful animal. It has four legs, two ears and a long tail. It is very strong and can run fast. In the past, horses were used in war. Even today they are used to pull carts and carry riders.", "subs": [
+      { "type": "mcq", "q": "What kind of animal is the horse?", "opts": ["a wild animal", "a faithful animal", "a lazy animal", "a sea animal"], "correct": 1, "rule_bn": "'The horse is a faithful animal'।" },
+      { "type": "mcq", "q": "How does the horse run?", "opts": ["slowly", "fast", "never", "backward"], "correct": 1, "rule_bn": "'can run fast'।" },
+      { "type": "mcq", "q": "In the past, horses were used in ___.", "opts": ["farming", "war", "fishing", "cooking"], "correct": 1, "rule_bn": "'horses were used in war'।" },
+      { "type": "mcq", "q": "What are horses used for today?", "opts": ["to pull carts", "to fly", "to swim", "to sing"], "correct": 0, "rule_bn": "'used to pull carts and carry riders'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The tiger is a wild and fierce animal. It lives in deep forests. Its body is yellow with black stripes. It is very strong and hunts other animals for food. The Royal Bengal Tiger of the Sundarbans is famous all over the world.", "subs": [
+      { "type": "mcq", "q": "What kind of animal is the tiger?", "opts": ["a tame animal", "a wild and fierce animal", "a domestic animal", "a sea animal"], "correct": 1, "rule_bn": "'a wild and fierce animal'।" },
+      { "type": "mcq", "q": "Where does the tiger live?", "opts": ["in a house", "in deep forests", "in water", "on hills only"], "correct": 1, "rule_bn": "'lives in deep forests'।" },
+      { "type": "mcq", "q": "What is the colour of the tiger's body?", "opts": ["white with black spots", "yellow with black stripes", "grey", "brown"], "correct": 1, "rule_bn": "'yellow with black stripes'।" },
+      { "type": "mcq", "q": "Which tiger is famous worldwide?", "opts": ["the white tiger", "the Royal Bengal Tiger", "the lion", "the leopard"], "correct": 1, "rule_bn": "'The Royal Bengal Tiger ... is famous'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The moon is a beautiful object in the night sky. It has no light of its own. It shines by the light of the sun. The moon looks bigger than the stars because it is nearer to the earth. On a full-moon night it lights up the whole world.", "subs": [
+      { "type": "mcq", "q": "When can we see the moon?", "opts": ["in the day", "in the night sky", "at noon", "never"], "correct": 1, "rule_bn": "'a beautiful object in the night sky'।" },
+      { "type": "mcq", "q": "Does the moon have light of its own?", "opts": ["yes", "no", "sometimes", "only in winter"], "correct": 1, "rule_bn": "'It has no light of its own'।" },
+      { "type": "mcq", "q": "By whose light does the moon shine?", "opts": ["the stars", "the sun", "the earth", "the lamps"], "correct": 1, "rule_bn": "'shines by the light of the sun'।" },
+      { "type": "mcq", "q": "Why does the moon look bigger than the stars?", "opts": ["it is hotter", "it is nearer to the earth", "it is a star", "it has light"], "correct": 1, "rule_bn": "'because it is nearer to the earth'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The computer is a wonderful machine. It can do many kinds of work very fast. It can store a huge amount of information. Students use it for their studies, and offices use it for their work. The computer has made our life easy.", "subs": [
+      { "type": "mcq", "q": "What kind of machine is the computer?", "opts": ["a slow machine", "a wonderful machine", "a useless machine", "a dangerous machine"], "correct": 1, "rule_bn": "'a wonderful machine'।" },
+      { "type": "mcq", "q": "How does the computer do work?", "opts": ["very slowly", "very fast", "never", "with rest"], "correct": 1, "rule_bn": "'do many kinds of work very fast'।" },
+      { "type": "mcq", "q": "What can the computer store?", "opts": ["a huge amount of information", "food", "water", "clothes"], "correct": 0, "rule_bn": "'store a huge amount of information'।" },
+      { "type": "mcq", "q": "What has the computer made our life?", "opts": ["hard", "easy", "sad", "poor"], "correct": 1, "rule_bn": "'made our life easy'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The peacock is the most beautiful bird. It has a long neck and colourful feathers. When it dances, it spreads its feathers like a fan. It dances mostly in the rainy season. The peacock is the national bird of India.", "subs": [
+      { "type": "mcq", "q": "What is the peacock famous for?", "opts": ["its voice", "its beauty", "its speed", "its size"], "correct": 1, "rule_bn": "'the most beautiful bird'।" },
+      { "type": "mcq", "q": "What does it spread when it dances?", "opts": ["its wings", "its feathers like a fan", "its legs", "its beak"], "correct": 1, "rule_bn": "'spreads its feathers like a fan'।" },
+      { "type": "mcq", "q": "When does the peacock dance mostly?", "opts": ["in winter", "in the rainy season", "in summer", "at night"], "correct": 1, "rule_bn": "'dances mostly in the rainy season'।" },
+      { "type": "mcq", "q": "The peacock is the national bird of ___.", "opts": ["Bangladesh", "India", "Nepal", "China"], "correct": 1, "rule_bn": "'the national bird of India'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The rose is the queen of flowers. It is loved for its beauty and sweet smell. Roses are of many colours, such as red, white and yellow. The rose plant has thorns on its stem. People grow roses in their gardens.", "subs": [
+      { "type": "mcq", "q": "The rose is the queen of ___.", "opts": ["birds", "flowers", "fruits", "trees"], "correct": 1, "rule_bn": "'the queen of flowers'।" },
+      { "type": "mcq", "q": "Why is the rose loved?", "opts": ["for its thorns", "for its beauty and sweet smell", "for its size", "for its price"], "correct": 1, "rule_bn": "'loved for its beauty and sweet smell'।" },
+      { "type": "mcq", "q": "What does the rose plant have on its stem?", "opts": ["leaves only", "thorns", "fruits", "nothing"], "correct": 1, "rule_bn": "'has thorns on its stem'।" },
+      { "type": "mcq", "q": "Where do people grow roses?", "opts": ["in the sea", "in their gardens", "on hills only", "in rivers"], "correct": 1, "rule_bn": "'grow roses in their gardens'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Cox's Bazar is the longest sea beach in the world. It is situated in the south-eastern part of Bangladesh. Thousands of tourists visit it every year. They enjoy the beauty of the sea and the golden sand. The sunrise and sunset over the sea are wonderful sights.", "subs": [
+      { "type": "mcq", "q": "What is Cox's Bazar?", "opts": ["the longest river", "the longest sea beach", "the highest hill", "the biggest forest"], "correct": 1, "rule_bn": "'the longest sea beach in the world'।" },
+      { "type": "mcq", "q": "Where is it situated?", "opts": ["in the north", "in the south-eastern part", "in the west", "in the centre"], "correct": 1, "rule_bn": "'in the south-eastern part of Bangladesh'।" },
+      { "type": "mcq", "q": "Who visit it every year?", "opts": ["thousands of tourists", "only farmers", "no one", "only fishermen"], "correct": 0, "rule_bn": "'Thousands of tourists visit it'।" },
+      { "type": "mcq", "q": "What are wonderful sights there?", "opts": ["the sunrise and sunset over the sea", "the hills", "the forests", "the deserts"], "correct": 0, "rule_bn": "'The sunrise and sunset over the sea are wonderful'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The dog is a faithful animal. It is a pet animal and lives with man. It guards our house at night. It can smell and hear very well. A dog loves its master and never leaves him. That is why it is called man's best friend.", "subs": [
+      { "type": "mcq", "q": "What kind of animal is the dog?", "opts": ["a wild animal", "a faithful animal", "a lazy animal", "a sea animal"], "correct": 1, "rule_bn": "'The dog is a faithful animal'।" },
+      { "type": "mcq", "q": "What does the dog do at night?", "opts": ["sleeps only", "guards our house", "runs away", "sings"], "correct": 1, "rule_bn": "'guards our house at night'।" },
+      { "type": "mcq", "q": "What can a dog do very well?", "opts": ["fly", "smell and hear", "swim always", "read"], "correct": 1, "rule_bn": "'can smell and hear very well'।" },
+      { "type": "mcq", "q": "The dog is called man's ___.", "opts": ["enemy", "best friend", "servant", "guest"], "correct": 1, "rule_bn": "'called man's best friend'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Bangladesh is a small but beautiful country. It is a land of rivers. It has six seasons. The people of Bangladesh are simple and hospitable. Most of them live in villages and work in the fields. Bangladesh won its independence in 1971.", "subs": [
+      { "type": "mcq", "q": "Bangladesh is a land of ___.", "opts": ["hills", "rivers", "deserts", "forests"], "correct": 1, "rule_bn": "'a land of rivers'।" },
+      { "type": "mcq", "q": "How many seasons does Bangladesh have?", "opts": ["four", "five", "six", "seven"], "correct": 2, "rule_bn": "'It has six seasons'।" },
+      { "type": "mcq", "q": "How are the people of Bangladesh?", "opts": ["rude", "simple and hospitable", "lazy", "cruel"], "correct": 1, "rule_bn": "'simple and hospitable'।" },
+      { "type": "mcq", "q": "When did Bangladesh win independence?", "opts": ["1947", "1952", "1971", "1975"], "correct": 2, "rule_bn": "'won its independence in 1971'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The parrot is a beautiful bird. It is green in colour and has a red curved beak. It can imitate human voice. People keep parrots in cages as pets. It eats fruits, seeds and green chillies.", "subs": [
+      { "type": "mcq", "q": "What is the colour of the parrot?", "opts": ["black", "green", "blue", "yellow"], "correct": 1, "rule_bn": "'green in colour'।" },
+      { "type": "mcq", "q": "What can the parrot imitate?", "opts": ["human voice", "music only", "nothing", "songs of the cuckoo"], "correct": 0, "rule_bn": "'It can imitate human voice'।" },
+      { "type": "mcq", "q": "Where do people keep parrots?", "opts": ["in ponds", "in cages", "in fields", "in forests"], "correct": 1, "rule_bn": "'keep parrots in cages'।" },
+      { "type": "mcq", "q": "What does the parrot eat?", "opts": ["fish", "fruits, seeds and green chillies", "meat", "grass"], "correct": 1, "rule_bn": "'eats fruits, seeds and green chillies'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A village fair is a part of our rural culture. It is held on special occasions in an open field. Many things such as toys, sweets and household goods are sold there. People of all ages enjoy the fair. Jatra and other entertainments are also arranged.", "subs": [
+      { "type": "mcq", "q": "A village fair is a part of our ___.", "opts": ["city life", "rural culture", "school life", "office work"], "correct": 1, "rule_bn": "'a part of our rural culture'।" },
+      { "type": "mcq", "q": "Where is the fair held?", "opts": ["in a hall", "in an open field", "in a house", "in a market only"], "correct": 1, "rule_bn": "'held ... in an open field'।" },
+      { "type": "mcq", "q": "What is sold in the fair?", "opts": ["toys, sweets and household goods", "cars", "computers", "machines"], "correct": 0, "rule_bn": "'toys, sweets and household goods are sold'।" },
+      { "type": "mcq", "q": "What entertainment is arranged?", "opts": ["jatra", "cricket", "cinema", "boat race only"], "correct": 0, "rule_bn": "'Jatra and other entertainments are also arranged'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The banana is a common fruit of Bangladesh. It grows almost all the year round. It is sweet and full of food value. Banana trees grow in the villages. Both ripe and green bananas are eaten. It is a cheap and useful fruit.", "subs": [
+      { "type": "mcq", "q": "When does the banana grow?", "opts": ["only in summer", "almost all the year round", "only in winter", "once in ten years"], "correct": 1, "rule_bn": "'grows almost all the year round'।" },
+      { "type": "mcq", "q": "How is the banana?", "opts": ["bitter", "sweet and full of food value", "sour", "tasteless"], "correct": 1, "rule_bn": "'sweet and full of food value'।" },
+      { "type": "mcq", "q": "Where do banana trees grow?", "opts": ["in the sea", "in the villages", "on hills only", "in deserts"], "correct": 1, "rule_bn": "'Banana trees grow in the villages'।" },
+      { "type": "mcq", "q": "Which bananas are eaten?", "opts": ["only ripe", "both ripe and green", "only green", "none"], "correct": 1, "rule_bn": "'Both ripe and green bananas are eaten'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A doctor is a very useful person in society. He treats the sick and saves lives. He works day and night to serve the patients. A good doctor is kind and sincere to all. In villages a good doctor is greatly needed.", "subs": [
+      { "type": "mcq", "q": "What does a doctor do?", "opts": ["builds houses", "treats the sick and saves lives", "grows crops", "teaches only"], "correct": 1, "rule_bn": "'treats the sick and saves lives'।" },
+      { "type": "mcq", "q": "When does he work to serve patients?", "opts": ["only in the day", "day and night", "only at night", "once a week"], "correct": 1, "rule_bn": "'works day and night'।" },
+      { "type": "mcq", "q": "How is a good doctor?", "opts": ["rude", "kind and sincere", "lazy", "greedy"], "correct": 1, "rule_bn": "'kind and sincere to all'।" },
+      { "type": "mcq", "q": "Where is a good doctor greatly needed?", "opts": ["in cities only", "in villages", "in offices", "in factories"], "correct": 1, "rule_bn": "'In villages a good doctor is greatly needed'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The river Padma is a big river of Bangladesh. It gives us fish and water. Farmers use its water for cultivation. Boats and ships sail on it. But sometimes the Padma causes floods and takes away houses by erosion.", "subs": [
+      { "type": "mcq", "q": "What kind of river is the Padma?", "opts": ["a small river", "a big river of Bangladesh", "a canal", "a sea"], "correct": 1, "rule_bn": "'a big river of Bangladesh'।" },
+      { "type": "mcq", "q": "What does the Padma give us?", "opts": ["fish and water", "gold", "wood", "oil"], "correct": 0, "rule_bn": "'gives us fish and water'।" },
+      { "type": "mcq", "q": "What do farmers use its water for?", "opts": ["drinking only", "cultivation", "washing cars", "nothing"], "correct": 1, "rule_bn": "'use its water for cultivation'।" },
+      { "type": "mcq", "q": "What does the Padma sometimes cause?", "opts": ["floods and erosion", "drought", "earthquakes", "storms only"], "correct": 0, "rule_bn": "'causes floods and takes away houses by erosion'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Milk is a complete food. It contains all the elements that our body needs. It is good for people of all ages, especially for children and the sick. We get milk from cows and goats. We should drink milk every day.", "subs": [
+      { "type": "mcq", "q": "What kind of food is milk?", "opts": ["a harmful food", "a complete food", "a junk food", "a bitter food"], "correct": 1, "rule_bn": "'Milk is a complete food'।" },
+      { "type": "mcq", "q": "What does milk contain?", "opts": ["only water", "all the elements our body needs", "poison", "nothing useful"], "correct": 1, "rule_bn": "'contains all the elements that our body needs'।" },
+      { "type": "mcq", "q": "For whom is milk especially good?", "opts": ["children and the sick", "only adults", "only the rich", "only athletes"], "correct": 0, "rule_bn": "'especially for children and the sick'।" },
+      { "type": "mcq", "q": "From where do we get milk?", "opts": ["from cows and goats", "from trees", "from rivers", "from the sky"], "correct": 0, "rule_bn": "'get milk from cows and goats'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Football is a popular game all over the world. It is played between two teams. Each team has eleven players. The players try to put the ball into the other team's goal. The team that scores more goals wins the game.", "subs": [
+      { "type": "mcq", "q": "How popular is football?", "opts": ["not popular", "popular all over the world", "popular only in one country", "unknown"], "correct": 1, "rule_bn": "'popular all over the world'।" },
+      { "type": "mcq", "q": "Between how many teams is it played?", "opts": ["one", "two", "three", "four"], "correct": 1, "rule_bn": "'played between two teams'।" },
+      { "type": "mcq", "q": "How many players are there in each team?", "opts": ["nine", "ten", "eleven", "twelve"], "correct": 2, "rule_bn": "'Each team has eleven players'।" },
+      { "type": "mcq", "q": "Which team wins the game?", "opts": ["the team that scores more goals", "the bigger team", "the older team", "the home team"], "correct": 0, "rule_bn": "'The team that scores more goals wins'।" }
+    ]}
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "topic": "p1_info_transfer",
+  "paper": "1st",
+  "batch": "d",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "Making a cup of coffee is easy. First, we boil some water in a kettle. Then we take a cup and put some coffee powder and sugar in it. After that, we pour the hot water into the cup. Next, we add a little milk to it. Finally, we stir it well with a spoon, and the coffee is ready to drink.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ some water in a kettle.", "a": ["Boil","boil"], "fuzzy": 1, "rule_bn": "'First, we boil some water'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put coffee powder and ___ in the cup.", "a": ["sugar"], "fuzzy": 1, "rule_bn": "'put some coffee powder and sugar'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the hot water into the cup.", "a": ["Pour","pour"], "fuzzy": 1, "rule_bn": "'we pour the hot water'।" },
+      { "type": "fill_in_open", "q": "Step 4: Add a little ___ to it.", "a": ["milk"], "fuzzy": 1, "rule_bn": "'we add a little milk'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it well with a spoon.", "a": ["Stir","stir"], "fuzzy": 1, "rule_bn": "'we stir it well'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The making of a kite is simple. First, we collect some thin bamboo sticks and coloured paper. Then we make a light frame with the bamboo sticks. After that, we paste the paper on the frame with glue. Next, we tie a long thread to the kite. Finally, we attach a tail to it, and the kite is ready to fly.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Collect bamboo sticks and coloured ___.", "a": ["paper"], "fuzzy": 1, "rule_bn": "'collect ... coloured paper'।" },
+      { "type": "fill_in_open", "q": "Step 2: Make a light ___ with the bamboo sticks.", "a": ["frame"], "fuzzy": 1, "rule_bn": "'make a light frame'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the paper on the frame with glue.", "a": ["Paste","paste"], "fuzzy": 1, "rule_bn": "'we paste the paper'।" },
+      { "type": "fill_in_open", "q": "Step 4: Tie a long ___ to the kite.", "a": ["thread"], "fuzzy": 1, "rule_bn": "'tie a long thread'।" },
+      { "type": "fill_in_open", "q": "Step 5: Attach a ___ to it.", "a": ["tail"], "fuzzy": 1, "rule_bn": "'we attach a tail'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The water cycle is a natural process. First, the heat of the sun turns the water of rivers and seas into vapour. Then the vapour rises up into the sky. After that, the vapour becomes cool and forms clouds. Next, the clouds bring rain when they become heavy. Finally, the rainwater flows back into the rivers and seas, and the cycle goes on.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The heat of the sun turns water into ___.", "a": ["vapour","vapor"], "fuzzy": 1, "rule_bn": "'turns the water ... into vapour'।" },
+      { "type": "fill_in_open", "q": "Step 2: The vapour ___ up into the sky.", "a": ["rises"], "fuzzy": 1, "rule_bn": "'the vapour rises up'।" },
+      { "type": "fill_in_open", "q": "Step 3: The vapour becomes cool and forms ___.", "a": ["clouds"], "fuzzy": 1, "rule_bn": "'forms clouds'।" },
+      { "type": "fill_in_open", "q": "Step 4: The clouds bring ___ when heavy.", "a": ["rain"], "fuzzy": 1, "rule_bn": "'the clouds bring rain'।" },
+      { "type": "fill_in_open", "q": "Step 5: The rainwater flows back into the rivers and ___.", "a": ["seas"], "fuzzy": 1, "rule_bn": "'back into the rivers and seas'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making orange juice is easy. First, we take some fresh oranges and wash them well. Then we cut each orange into two halves. After that, we squeeze the halves to take out the juice. Next, we add some sugar and cold water to the juice. Finally, we mix them well, and the orange juice is ready to serve.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take fresh oranges and ___ them well.", "a": ["wash"], "fuzzy": 1, "rule_bn": "'wash them well'।" },
+      { "type": "fill_in_open", "q": "Step 2: Cut each orange into two ___.", "a": ["halves"], "fuzzy": 1, "rule_bn": "'cut each orange into two halves'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the halves to take out the juice.", "a": ["Squeeze","squeeze"], "fuzzy": 1, "rule_bn": "'we squeeze the halves'।" },
+      { "type": "fill_in_open", "q": "Step 4: Add some sugar and cold ___.", "a": ["water"], "fuzzy": 1, "rule_bn": "'add some sugar and cold water'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ them well and serve.", "a": ["Mix","mix"], "fuzzy": 1, "rule_bn": "'we mix them well'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A seed grows into a plant step by step. First, we sow the seed in the soil. Then we water it regularly. After a few days the seed sprouts and a small shoot comes out. Next, the shoot grows into a seedling with leaves. Finally, the seedling grows bigger and becomes a full plant in time.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ the seed in the soil.", "a": ["Sow","sow"], "fuzzy": 1, "rule_bn": "'we sow the seed'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ it regularly.", "a": ["Water","water"], "fuzzy": 1, "rule_bn": "'we water it regularly'।" },
+      { "type": "fill_in_open", "q": "Step 3: The seed sprouts and a small ___ comes out.", "a": ["shoot"], "fuzzy": 1, "rule_bn": "'a small shoot comes out'।" },
+      { "type": "fill_in_open", "q": "Step 4: The shoot grows into a ___ with leaves.", "a": ["seedling"], "fuzzy": 1, "rule_bn": "'grows into a seedling'।" },
+      { "type": "fill_in_open", "q": "Step 5: The seedling becomes a full ___.", "a": ["plant"], "fuzzy": 1, "rule_bn": "'becomes a full plant'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a paper boat is fun. First, we take a square piece of paper. Then we fold it in the middle. After that, we fold the two upper corners towards the centre. Next, we fold up the lower edges on both sides. Finally, we open it out into a boat shape, and the paper boat is ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take a square piece of ___.", "a": ["paper"], "fuzzy": 1, "rule_bn": "'a square piece of paper'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ it in the middle.", "a": ["Fold","fold"], "fuzzy": 1, "rule_bn": "'we fold it in the middle'।" },
+      { "type": "fill_in_open", "q": "Step 3: Fold the two upper ___ towards the centre.", "a": ["corners"], "fuzzy": 1, "rule_bn": "'the two upper corners'।" },
+      { "type": "fill_in_open", "q": "Step 4: Fold up the lower ___ on both sides.", "a": ["edges"], "fuzzy": 1, "rule_bn": "'fold up the lower edges'।" },
+      { "type": "fill_in_open", "q": "Step 5: Open it out into a ___ shape.", "a": ["boat"], "fuzzy": 1, "rule_bn": "'into a boat shape'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The life cycle of a butterfly has four stages. First, a female butterfly lays eggs on the leaves of a plant. Then the eggs hatch into small caterpillars. After that, each caterpillar eats leaves and grows bigger. Next, the caterpillar changes into a pupa inside a case. Finally, the pupa turns into a beautiful butterfly and flies away.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: A butterfly lays ___ on the leaves.", "a": ["eggs"], "fuzzy": 1, "rule_bn": "'lays eggs on the leaves'।" },
+      { "type": "fill_in_open", "q": "Step 2: The eggs hatch into small ___.", "a": ["caterpillars"], "fuzzy": 1, "rule_bn": "'hatch into small caterpillars'।" },
+      { "type": "fill_in_open", "q": "Step 3: The caterpillar eats leaves and ___ bigger.", "a": ["grows"], "fuzzy": 1, "rule_bn": "'eats leaves and grows bigger'।" },
+      { "type": "fill_in_open", "q": "Step 4: The caterpillar changes into a ___.", "a": ["pupa"], "fuzzy": 1, "rule_bn": "'changes into a pupa'।" },
+      { "type": "fill_in_open", "q": "Step 5: The pupa turns into a ___.", "a": ["butterfly"], "fuzzy": 1, "rule_bn": "'turns into a beautiful butterfly'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Preparing for an examination needs a plan. First, a student makes a routine for his study. Then he divides his time among all the subjects. After that, he reads his lessons attentively every day. Next, he revises what he has learnt. Finally, he takes model tests at home to check his preparation.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Make a ___ for study.", "a": ["routine"], "fuzzy": 1, "rule_bn": "'makes a routine for his study'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ the time among all the subjects.", "a": ["Divide","divide"], "fuzzy": 1, "rule_bn": "'divides his time'।" },
+      { "type": "fill_in_open", "q": "Step 3: Read the lessons ___ every day.", "a": ["attentively"], "fuzzy": 1, "rule_bn": "'reads his lessons attentively'।" },
+      { "type": "fill_in_open", "q": "Step 4: ___ what he has learnt.", "a": ["Revise","revise"], "fuzzy": 1, "rule_bn": "'he revises'।" },
+      { "type": "fill_in_open", "q": "Step 5: Take ___ tests at home.", "a": ["model"], "fuzzy": 1, "rule_bn": "'takes model tests'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making yogurt (doi) from milk is simple. First, we boil the milk well. Then we let the milk cool down a little. After that, we mix a spoonful of old yogurt with the warm milk. Next, we keep the mixture in a warm place for a few hours. Finally, the milk sets into yogurt and is ready to eat.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ the milk well.", "a": ["Boil","boil"], "fuzzy": 1, "rule_bn": "'we boil the milk'।" },
+      { "type": "fill_in_open", "q": "Step 2: Let the milk ___ down a little.", "a": ["cool"], "fuzzy": 1, "rule_bn": "'let the milk cool down'।" },
+      { "type": "fill_in_open", "q": "Step 3: Mix a spoonful of old ___ with the milk.", "a": ["yogurt","yoghurt","doi"], "fuzzy": 1, "rule_bn": "'mix a spoonful of old yogurt'।" },
+      { "type": "fill_in_open", "q": "Step 4: Keep the mixture in a ___ place.", "a": ["warm"], "fuzzy": 1, "rule_bn": "'in a warm place'।" },
+      { "type": "fill_in_open", "q": "Step 5: The milk ___ into yogurt.", "a": ["sets"], "fuzzy": 1, "rule_bn": "'the milk sets into yogurt'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The life cycle of a frog is interesting. First, a female frog lays eggs in water. Then the eggs hatch into tadpoles. After that, the tadpoles grow legs and lungs. Next, they lose their tails and become young frogs. Finally, the young frogs grow into adult frogs and live both on land and in water.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: A frog lays ___ in water.", "a": ["eggs"], "fuzzy": 1, "rule_bn": "'lays eggs in water'।" },
+      { "type": "fill_in_open", "q": "Step 2: The eggs hatch into ___.", "a": ["tadpoles"], "fuzzy": 1, "rule_bn": "'hatch into tadpoles'।" },
+      { "type": "fill_in_open", "q": "Step 3: The tadpoles grow legs and ___.", "a": ["lungs"], "fuzzy": 1, "rule_bn": "'grow legs and lungs'।" },
+      { "type": "fill_in_open", "q": "Step 4: They lose their ___ and become young frogs.", "a": ["tails"], "fuzzy": 1, "rule_bn": "'lose their tails'।" },
+      { "type": "fill_in_open", "q": "Step 5: The young frogs grow into ___ frogs.", "a": ["adult"], "fuzzy": 1, "rule_bn": "'grow into adult frogs'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making lemonade is very easy. First, we take a fresh lemon and cut it into two halves. Then we squeeze the juice into a glass. After that, we add some sugar and salt to it. Next, we pour cold water into the glass. Finally, we stir it well, and the refreshing lemonade is ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Cut a fresh lemon into two ___.", "a": ["halves"], "fuzzy": 1, "rule_bn": "'cut it into two halves'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ the juice into a glass.", "a": ["Squeeze","squeeze"], "fuzzy": 1, "rule_bn": "'we squeeze the juice'।" },
+      { "type": "fill_in_open", "q": "Step 3: Add some sugar and ___ to it.", "a": ["salt"], "fuzzy": 1, "rule_bn": "'add some sugar and salt'।" },
+      { "type": "fill_in_open", "q": "Step 4: Pour cold ___ into the glass.", "a": ["water"], "fuzzy": 1, "rule_bn": "'pour cold water'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it well.", "a": ["Stir","stir"], "fuzzy": 1, "rule_bn": "'we stir it well'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Cooking rice is a simple job. First, we measure the rice and wash it well. Then we put the rice in a pot with enough water. After that, we place the pot on the stove and light the fire. Next, we let the rice boil until it becomes soft. Finally, we drain the extra water, and the rice is ready to eat.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Measure the rice and ___ it well.", "a": ["wash"], "fuzzy": 1, "rule_bn": "'wash it well'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put the rice in a pot with enough ___.", "a": ["water"], "fuzzy": 1, "rule_bn": "'with enough water'।" },
+      { "type": "fill_in_open", "q": "Step 3: Place the pot on the ___ and light the fire.", "a": ["stove"], "fuzzy": 1, "rule_bn": "'place the pot on the stove'।" },
+      { "type": "fill_in_open", "q": "Step 4: Let the rice ___ until soft.", "a": ["boil"], "fuzzy": 1, "rule_bn": "'let the rice boil'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ the extra water.", "a": ["Drain","drain"], "fuzzy": 1, "rule_bn": "'we drain the extra water'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Planting a tree is a good work. First, we choose a suitable place. Then we dig a hole in the ground. After that, we place a young sapling in the hole. Next, we fill the hole with soil and press it gently. Finally, we water the plant and put a fence around it.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Choose a suitable ___.", "a": ["place"], "fuzzy": 1, "rule_bn": "'choose a suitable place'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ a hole in the ground.", "a": ["Dig","dig"], "fuzzy": 1, "rule_bn": "'we dig a hole'।" },
+      { "type": "fill_in_open", "q": "Step 3: Place a young ___ in the hole.", "a": ["sapling"], "fuzzy": 1, "rule_bn": "'place a young sapling'।" },
+      { "type": "fill_in_open", "q": "Step 4: Fill the hole with ___ and press it.", "a": ["soil"], "fuzzy": 1, "rule_bn": "'fill the hole with soil'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ the plant and put a fence.", "a": ["Water","water"], "fuzzy": 1, "rule_bn": "'we water the plant'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a sandwich is quick and easy. First, we take two slices of bread. Then we spread butter on them. After that, we put some slices of cucumber and tomato on one slice. Next, we sprinkle a little salt and pepper. Finally, we cover it with the other slice, and the sandwich is ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take two slices of ___.", "a": ["bread"], "fuzzy": 1, "rule_bn": "'two slices of bread'।" },
+      { "type": "fill_in_open", "q": "Step 2: Spread ___ on them.", "a": ["butter"], "fuzzy": 1, "rule_bn": "'spread butter on them'।" },
+      { "type": "fill_in_open", "q": "Step 3: Put slices of cucumber and ___.", "a": ["tomato"], "fuzzy": 1, "rule_bn": "'cucumber and tomato'।" },
+      { "type": "fill_in_open", "q": "Step 4: Sprinkle a little salt and ___.", "a": ["pepper"], "fuzzy": 1, "rule_bn": "'salt and pepper'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it with the other slice.", "a": ["Cover","cover"], "fuzzy": 1, "rule_bn": "'we cover it'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "How honey is collected is interesting. First, bees fly from flower to flower and collect nectar. Then they store the nectar in the honeycomb. After that, the nectar slowly turns into honey. Next, the beekeeper takes out the honeycomb from the hive. Finally, the honey is separated from the comb and stored in jars.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Bees collect ___ from flowers.", "a": ["nectar"], "fuzzy": 1, "rule_bn": "'collect nectar'।" },
+      { "type": "fill_in_open", "q": "Step 2: They store the nectar in the ___.", "a": ["honeycomb","comb"], "fuzzy": 1, "rule_bn": "'store the nectar in the honeycomb'।" },
+      { "type": "fill_in_open", "q": "Step 3: The nectar turns into ___.", "a": ["honey"], "fuzzy": 1, "rule_bn": "'turns into honey'।" },
+      { "type": "fill_in_open", "q": "Step 4: The ___ takes out the honeycomb.", "a": ["beekeeper"], "fuzzy": 1, "rule_bn": "'the beekeeper takes out'।" },
+      { "type": "fill_in_open", "q": "Step 5: The honey is stored in ___.", "a": ["jars"], "fuzzy": 1, "rule_bn": "'stored in jars'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making tea in a pot is easy. First, we boil water in a kettle. Then we put some tea leaves into a teapot. After that, we pour the boiling water into the teapot. Next, we wait for a few minutes so that the tea brews. Finally, we pour the tea into cups and add milk and sugar.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: ___ water in a kettle.", "a": ["Boil","boil"], "fuzzy": 1, "rule_bn": "'we boil water'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put some tea ___ into a teapot.", "a": ["leaves"], "fuzzy": 1, "rule_bn": "'some tea leaves'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the boiling water into the teapot.", "a": ["Pour","pour"], "fuzzy": 1, "rule_bn": "'we pour the boiling water'।" },
+      { "type": "fill_in_open", "q": "Step 4: Wait a few minutes so the tea ___.", "a": ["brews"], "fuzzy": 1, "rule_bn": "'so that the tea brews'।" },
+      { "type": "fill_in_open", "q": "Step 5: Pour the tea into cups and add milk and ___.", "a": ["sugar"], "fuzzy": 1, "rule_bn": "'add milk and sugar'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Recycling paper helps the environment. First, we collect old and used paper. Then we tear the paper into small pieces. After that, we soak the pieces in water to make a pulp. Next, we spread the pulp on a flat screen. Finally, we dry it in the sun, and new paper is ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Collect old and used ___.", "a": ["paper"], "fuzzy": 1, "rule_bn": "'collect old and used paper'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ the paper into small pieces.", "a": ["Tear","tear"], "fuzzy": 1, "rule_bn": "'we tear the paper'।" },
+      { "type": "fill_in_open", "q": "Step 3: Soak the pieces in water to make a ___.", "a": ["pulp"], "fuzzy": 1, "rule_bn": "'to make a pulp'।" },
+      { "type": "fill_in_open", "q": "Step 4: Spread the pulp on a flat ___.", "a": ["screen"], "fuzzy": 1, "rule_bn": "'on a flat screen'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it in the sun.", "a": ["Dry","dry"], "fuzzy": 1, "rule_bn": "'we dry it in the sun'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Growing vegetables in a garden is useful. First, we prepare the soil by digging it. Then we sow the seeds in rows. After that, we water the beds regularly. Next, we remove the weeds and give fertiliser. Finally, we pick the ripe vegetables when they are ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Prepare the soil by ___ it.", "a": ["digging"], "fuzzy": 1, "rule_bn": "'by digging it'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ the seeds in rows.", "a": ["Sow","sow"], "fuzzy": 1, "rule_bn": "'we sow the seeds'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the beds regularly.", "a": ["Water","water"], "fuzzy": 1, "rule_bn": "'we water the beds'।" },
+      { "type": "fill_in_open", "q": "Step 4: Remove the ___ and give fertiliser.", "a": ["weeds"], "fuzzy": 1, "rule_bn": "'remove the weeds'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ the ripe vegetables.", "a": ["Pick","pick"], "fuzzy": 1, "rule_bn": "'we pick the ripe vegetables'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Making a mango pickle is a traditional job. First, we take some raw mangoes and wash them. Then we cut the mangoes into small pieces. After that, we mix salt, spices and oil with them. Next, we keep the mixture in a clean jar. Finally, we put the jar in the sun for a few days until the pickle is ready.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take raw mangoes and ___ them.", "a": ["wash"], "fuzzy": 1, "rule_bn": "'wash them'।" },
+      { "type": "fill_in_open", "q": "Step 2: Cut the mangoes into small ___.", "a": ["pieces"], "fuzzy": 1, "rule_bn": "'into small pieces'।" },
+      { "type": "fill_in_open", "q": "Step 3: Mix salt, spices and ___ with them.", "a": ["oil"], "fuzzy": 1, "rule_bn": "'salt, spices and oil'।" },
+      { "type": "fill_in_open", "q": "Step 4: Keep the mixture in a clean ___.", "a": ["jar"], "fuzzy": 1, "rule_bn": "'in a clean jar'।" },
+      { "type": "fill_in_open", "q": "Step 5: Put the jar in the ___ for a few days.", "a": ["sun"], "fuzzy": 1, "rule_bn": "'put the jar in the sun'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "How it rains is a natural process. First, the sun heats the water of the earth. Then the water changes into water vapour. After that, the vapour rises and cools to form clouds. Next, the tiny drops in the clouds join together and become heavy. Finally, they fall down as rain.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: The ___ heats the water of the earth.", "a": ["sun"], "fuzzy": 1, "rule_bn": "'the sun heats the water'।" },
+      { "type": "fill_in_open", "q": "Step 2: The water changes into water ___.", "a": ["vapour","vapor"], "fuzzy": 1, "rule_bn": "'changes into water vapour'।" },
+      { "type": "fill_in_open", "q": "Step 3: The vapour cools to form ___.", "a": ["clouds"], "fuzzy": 1, "rule_bn": "'to form clouds'।" },
+      { "type": "fill_in_open", "q": "Step 4: The tiny drops join and become ___.", "a": ["heavy"], "fuzzy": 1, "rule_bn": "'become heavy'।" },
+      { "type": "fill_in_open", "q": "Step 5: They fall down as ___.", "a": ["rain"], "fuzzy": 1, "rule_bn": "'fall down as rain'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Getting admission into a college needs some steps. First, a student collects the admission form. Then he fills up the form correctly. After that, he attaches the necessary documents. Next, he submits the form to the office. Finally, he pays the admission fee and gets admitted.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Collect the admission ___.", "a": ["form"], "fuzzy": 1, "rule_bn": "'collects the admission form'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ up the form correctly.", "a": ["Fill","fill"], "fuzzy": 1, "rule_bn": "'fills up the form'।" },
+      { "type": "fill_in_open", "q": "Step 3: Attach the necessary ___.", "a": ["documents"], "fuzzy": 1, "rule_bn": "'the necessary documents'।" },
+      { "type": "fill_in_open", "q": "Step 4: ___ the form to the office.", "a": ["Submit","submit"], "fuzzy": 1, "rule_bn": "'he submits the form'।" },
+      { "type": "fill_in_open", "q": "Step 5: Pay the admission ___ and get admitted.", "a": ["fee"], "fuzzy": 1, "rule_bn": "'pays the admission fee'।" }
+    ]}
+  ]
+}

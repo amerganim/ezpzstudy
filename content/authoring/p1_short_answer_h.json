@@ -1,0 +1,178 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "h",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "Honesty is a great virtue. An honest man is respected by all. He never tells a lie or does any wrong. He fears none but his own conscience. Honesty brings peace of mind. A dishonest man may prosper for a while, but he cannot be happy in the long run.", "subs": [
+      { "type": "fill_in_open", "q": "What kind of virtue is honesty?", "a": ["A great virtue.", "Honesty is a great virtue."], "fuzzy": 2, "rule_bn": "'Honesty is a great virtue'।" },
+      { "type": "fill_in_open", "q": "What does an honest man never do?", "a": ["He never tells a lie or does wrong.", "Never tells a lie."], "fuzzy": 3, "rule_bn": "'never tells a lie or does any wrong'।" },
+      { "type": "fill_in_open", "q": "Whom does an honest man fear?", "a": ["His own conscience.", "Only his conscience."], "fuzzy": 2, "rule_bn": "'fears none but his own conscience'।" },
+      { "type": "fill_in_open", "q": "What does honesty bring?", "a": ["Peace of mind.", "It brings peace of mind."], "fuzzy": 2, "rule_bn": "'Honesty brings peace of mind'।" },
+      { "type": "fill_in_open", "q": "Can a dishonest man be happy?", "a": ["No, he cannot be happy in the long run.", "No."], "fuzzy": 3, "rule_bn": "'cannot be happy in the long run'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A mother's love is the purest of all loves. She loves her child without any hope of return. She spends sleepless nights for the comfort of her child. She bears all pains with a smiling face. No love in the world can be compared with a mother's love.", "subs": [
+      { "type": "fill_in_open", "q": "What is the purest of all loves?", "a": ["A mother's love.", "The love of a mother."], "fuzzy": 2, "rule_bn": "'A mother's love is the purest'।" },
+      { "type": "fill_in_open", "q": "How does she love her child?", "a": ["Without any hope of return.", "Without hope of return."], "fuzzy": 3, "rule_bn": "'without any hope of return'।" },
+      { "type": "fill_in_open", "q": "What does she spend for her child's comfort?", "a": ["Sleepless nights.", "She spends sleepless nights."], "fuzzy": 2, "rule_bn": "'spends sleepless nights'।" },
+      { "type": "fill_in_open", "q": "How does she bear all pains?", "a": ["With a smiling face.", "With a smile."], "fuzzy": 2, "rule_bn": "'bears all pains with a smiling face'।" },
+      { "type": "fill_in_open", "q": "Can any love be compared with a mother's love?", "a": ["No, none can be compared.", "No."], "fuzzy": 3, "rule_bn": "'No love ... can be compared'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Patriotism is a noble virtue. It is the love for one's own country. A patriot loves his country more than his own life. He is always ready to sacrifice everything for its honour. History shows that patriots have made their countries great.", "subs": [
+      { "type": "fill_in_open", "q": "What is patriotism?", "a": ["The love for one's own country.", "Love for one's country."], "fuzzy": 3, "rule_bn": "'love for one's own country'।" },
+      { "type": "fill_in_open", "q": "How much does a patriot love his country?", "a": ["More than his own life.", "More than his life."], "fuzzy": 2, "rule_bn": "'more than his own life'।" },
+      { "type": "fill_in_open", "q": "What is a patriot ready to do?", "a": ["To sacrifice everything for his country's honour.", "To sacrifice everything."], "fuzzy": 3, "rule_bn": "'ready to sacrifice everything for its honour'।" },
+      { "type": "fill_in_open", "q": "What does history show about patriots?", "a": ["Patriots have made their countries great.", "They made countries great."], "fuzzy": 3, "rule_bn": "'patriots have made their countries great'।" },
+      { "type": "fill_in_open", "q": "What kind of virtue is patriotism?", "a": ["A noble virtue.", "Patriotism is a noble virtue."], "fuzzy": 2, "rule_bn": "'Patriotism is a noble virtue'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Discipline is the first condition of success. It means obedience to certain rules. We see discipline everywhere in nature. The sun rises and sets in time. A student must maintain discipline in his life. A disciplined nation is always strong.", "subs": [
+      { "type": "fill_in_open", "q": "What is the first condition of success?", "a": ["Discipline.", "Discipline is the first condition."], "fuzzy": 2, "rule_bn": "'Discipline is the first condition of success'।" },
+      { "type": "fill_in_open", "q": "What does discipline mean?", "a": ["Obedience to certain rules.", "Obedience to rules."], "fuzzy": 3, "rule_bn": "'obedience to certain rules'।" },
+      { "type": "fill_in_open", "q": "Where do we see discipline?", "a": ["Everywhere in nature.", "In nature."], "fuzzy": 2, "rule_bn": "'discipline everywhere in nature'।" },
+      { "type": "fill_in_open", "q": "Give an example of discipline in nature.", "a": ["The sun rises and sets in time.", "The sun rises and sets."], "fuzzy": 3, "rule_bn": "'The sun rises and sets in time'।" },
+      { "type": "fill_in_open", "q": "What kind of nation is always strong?", "a": ["A disciplined nation.", "A disciplined one."], "fuzzy": 2, "rule_bn": "'A disciplined nation is always strong'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Nelson Mandela was a great leader of South Africa. He fought against apartheid, a system that separated people by the colour of their skin. For his struggle he was put in prison for twenty-seven years. But he never lost hope. After his release, he became the first black President of South Africa in 1994.", "subs": [
+      { "type": "fill_in_open", "q": "Where was Nelson Mandela a leader?", "a": ["In South Africa.", "South Africa."], "fuzzy": 2, "rule_bn": "'a great leader of South Africa'।" },
+      { "type": "fill_in_open", "q": "What did he fight against?", "a": ["Apartheid.", "He fought against apartheid."], "fuzzy": 2, "rule_bn": "'fought against apartheid'।" },
+      { "type": "fill_in_open", "q": "How many years was he in prison?", "a": ["Twenty-seven years.", "27 years."], "fuzzy": 2, "rule_bn": "'in prison for twenty-seven years'।" },
+      { "type": "fill_in_open", "q": "What did he never lose?", "a": ["Hope.", "He never lost hope."], "fuzzy": 2, "rule_bn": "'he never lost hope'।" },
+      { "type": "fill_in_open", "q": "When did he become President?", "a": ["In 1994.", "In the year 1994."], "fuzzy": 2, "rule_bn": "'first black President ... in 1994'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The cow is a very useful animal. It is a domestic animal. It has four legs, two horns and a long tail. It eats grass, straw and leaves. It gives us milk, which is a very nutritious food. From its milk we get butter and cheese. After its death we get leather from its skin.", "subs": [
+      { "type": "fill_in_open", "q": "What kind of animal is the cow?", "a": ["A useful domestic animal.", "A domestic animal."], "fuzzy": 3, "rule_bn": "'a very useful animal ... a domestic animal'।" },
+      { "type": "fill_in_open", "q": "What does the cow eat?", "a": ["Grass, straw and leaves.", "Grass and straw."], "fuzzy": 3, "rule_bn": "'eats grass, straw and leaves'।" },
+      { "type": "fill_in_open", "q": "What nutritious food does it give us?", "a": ["Milk.", "It gives us milk."], "fuzzy": 2, "rule_bn": "'gives us milk'।" },
+      { "type": "fill_in_open", "q": "What do we get from its milk?", "a": ["Butter and cheese.", "We get butter and cheese."], "fuzzy": 3, "rule_bn": "'we get butter and cheese'।" },
+      { "type": "fill_in_open", "q": "What do we get from its skin?", "a": ["Leather.", "We get leather."], "fuzzy": 2, "rule_bn": "'we get leather from its skin'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Cleanliness is very important for good health. A clean man is free from many diseases. We should keep our body, clothes and house clean. We should also keep our surroundings neat and tidy. Dirty places breed germs and spread diseases. It is said that cleanliness is next to godliness.", "subs": [
+      { "type": "fill_in_open", "q": "Why is cleanliness important?", "a": ["For good health.", "It is important for good health."], "fuzzy": 3, "rule_bn": "'important for good health'।" },
+      { "type": "fill_in_open", "q": "What should we keep clean?", "a": ["Our body, clothes and house.", "Body, clothes and house."], "fuzzy": 3, "rule_bn": "'keep our body, clothes and house clean'।" },
+      { "type": "fill_in_open", "q": "What do dirty places breed?", "a": ["Germs.", "Dirty places breed germs."], "fuzzy": 2, "rule_bn": "'Dirty places breed germs'।" },
+      { "type": "fill_in_open", "q": "What do dirty places spread?", "a": ["Diseases.", "They spread diseases."], "fuzzy": 2, "rule_bn": "'spread diseases'।" },
+      { "type": "fill_in_open", "q": "What is said about cleanliness?", "a": ["Cleanliness is next to godliness.", "It is next to godliness."], "fuzzy": 3, "rule_bn": "'cleanliness is next to godliness'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Mother Teresa was a symbol of love and service. She was born in 1910. She left her country and came to India. She served the poorest and the sickest people of Kolkata. She set up homes for orphans and dying people. For her great service, she was awarded the Nobel Prize for Peace in 1979.", "subs": [
+      { "type": "fill_in_open", "q": "What was Mother Teresa a symbol of?", "a": ["Love and service.", "A symbol of love and service."], "fuzzy": 3, "rule_bn": "'a symbol of love and service'।" },
+      { "type": "fill_in_open", "q": "When was she born?", "a": ["In 1910.", "She was born in 1910."], "fuzzy": 2, "rule_bn": "'She was born in 1910'।" },
+      { "type": "fill_in_open", "q": "Whom did she serve in Kolkata?", "a": ["The poorest and the sickest people.", "The poor and sick people."], "fuzzy": 3, "rule_bn": "'served the poorest and the sickest people'।" },
+      { "type": "fill_in_open", "q": "For whom did she set up homes?", "a": ["For orphans and dying people.", "Orphans and dying people."], "fuzzy": 3, "rule_bn": "'homes for orphans and dying people'।" },
+      { "type": "fill_in_open", "q": "Which prize was she awarded in 1979?", "a": ["The Nobel Prize for Peace.", "Nobel Prize for Peace."], "fuzzy": 2, "rule_bn": "'awarded the Nobel Prize for Peace in 1979'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Water is another name for life. We cannot live even a single day without water. We use it for drinking, cooking and washing. But pure water is now becoming rare. People pollute water in many ways. This polluted water causes many diseases.", "subs": [
+      { "type": "fill_in_open", "q": "What is another name for life?", "a": ["Water.", "Water is another name for life."], "fuzzy": 2, "rule_bn": "'Water is another name for life'।" },
+      { "type": "fill_in_open", "q": "Can we live without water?", "a": ["No, we cannot live even a day without water.", "No."], "fuzzy": 3, "rule_bn": "'cannot live even a single day without water'।" },
+      { "type": "fill_in_open", "q": "For what do we use water?", "a": ["For drinking, cooking and washing.", "Drinking, cooking and washing."], "fuzzy": 3, "rule_bn": "'for drinking, cooking and washing'।" },
+      { "type": "fill_in_open", "q": "What is becoming rare?", "a": ["Pure water.", "Pure water is becoming rare."], "fuzzy": 2, "rule_bn": "'pure water is now becoming rare'।" },
+      { "type": "fill_in_open", "q": "What does polluted water cause?", "a": ["Many diseases.", "It causes many diseases."], "fuzzy": 2, "rule_bn": "'polluted water causes many diseases'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Isaac Newton was a great scientist. He was born in England in 1642. One day he was sitting under an apple tree. Suddenly an apple fell down on the ground. He began to think why the apple fell down. In this way he discovered the law of gravity.", "subs": [
+      { "type": "fill_in_open", "q": "Who was Isaac Newton?", "a": ["A great scientist.", "He was a great scientist."], "fuzzy": 2, "rule_bn": "'Isaac Newton was a great scientist'।" },
+      { "type": "fill_in_open", "q": "When was he born?", "a": ["In 1642.", "He was born in 1642."], "fuzzy": 2, "rule_bn": "'born in England in 1642'।" },
+      { "type": "fill_in_open", "q": "Where was he sitting one day?", "a": ["Under an apple tree.", "Under a tree."], "fuzzy": 2, "rule_bn": "'sitting under an apple tree'।" },
+      { "type": "fill_in_open", "q": "What did he begin to think?", "a": ["Why the apple fell down.", "Why the apple fell."], "fuzzy": 3, "rule_bn": "'why the apple fell down'।" },
+      { "type": "fill_in_open", "q": "What did he discover?", "a": ["The law of gravity.", "He discovered the law of gravity."], "fuzzy": 3, "rule_bn": "'discovered the law of gravity'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The rainy season is the second season of Bangladesh. It comes after summer. In this season the sky often remains cloudy and it rains almost every day. The rivers and canals become full of water. The fields, trees and plants become green and fresh. But floods sometimes cause great suffering.", "subs": [
+      { "type": "fill_in_open", "q": "Which season is the rainy season?", "a": ["The second season of Bangladesh.", "The second season."], "fuzzy": 3, "rule_bn": "'the second season of Bangladesh'।" },
+      { "type": "fill_in_open", "q": "After which season does it come?", "a": ["After summer.", "It comes after summer."], "fuzzy": 2, "rule_bn": "'It comes after summer'।" },
+      { "type": "fill_in_open", "q": "How does the sky look in this season?", "a": ["Cloudy.", "The sky remains cloudy."], "fuzzy": 2, "rule_bn": "'the sky often remains cloudy'।" },
+      { "type": "fill_in_open", "q": "What become full of water?", "a": ["The rivers and canals.", "Rivers and canals."], "fuzzy": 3, "rule_bn": "'The rivers and canals become full of water'।" },
+      { "type": "fill_in_open", "q": "What sometimes causes great suffering?", "a": ["Floods.", "Floods cause suffering."], "fuzzy": 2, "rule_bn": "'floods sometimes cause great suffering'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A true friend is a great blessing. He stands by us in danger. He shares our joys and sorrows. He gives us good advice. A false friend flatters us in good times but leaves us in bad times. So we should choose our friends carefully.", "subs": [
+      { "type": "fill_in_open", "q": "What is a true friend?", "a": ["A great blessing.", "A true friend is a great blessing."], "fuzzy": 2, "rule_bn": "'A true friend is a great blessing'।" },
+      { "type": "fill_in_open", "q": "When does a true friend stand by us?", "a": ["In danger.", "He stands by us in danger."], "fuzzy": 2, "rule_bn": "'stands by us in danger'।" },
+      { "type": "fill_in_open", "q": "What does he share with us?", "a": ["Our joys and sorrows.", "Joys and sorrows."], "fuzzy": 3, "rule_bn": "'shares our joys and sorrows'।" },
+      { "type": "fill_in_open", "q": "What does a false friend do in bad times?", "a": ["He leaves us.", "Leaves us."], "fuzzy": 2, "rule_bn": "'leaves us in bad times'।" },
+      { "type": "fill_in_open", "q": "What should we do about friends?", "a": ["Choose them carefully.", "We should choose friends carefully."], "fuzzy": 3, "rule_bn": "'choose our friends carefully'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Early rising is a good habit. He who rises early gets enough time for work. He can breathe in the fresh morning air, which is good for health. He can start his study with a fresh mind. Those who rise late always remain in a hurry and cannot finish their work in time.", "subs": [
+      { "type": "fill_in_open", "q": "What kind of habit is early rising?", "a": ["A good habit.", "Early rising is a good habit."], "fuzzy": 2, "rule_bn": "'Early rising is a good habit'।" },
+      { "type": "fill_in_open", "q": "What does an early riser get?", "a": ["Enough time for work.", "Enough time."], "fuzzy": 3, "rule_bn": "'gets enough time for work'।" },
+      { "type": "fill_in_open", "q": "Why is the morning air good?", "a": ["It is fresh and good for health.", "It is good for health."], "fuzzy": 3, "rule_bn": "'fresh morning air, which is good for health'।" },
+      { "type": "fill_in_open", "q": "How can an early riser study?", "a": ["With a fresh mind.", "He can study with a fresh mind."], "fuzzy": 3, "rule_bn": "'start his study with a fresh mind'।" },
+      { "type": "fill_in_open", "q": "What happens to those who rise late?", "a": ["They remain in a hurry.", "They cannot finish work in time."], "fuzzy": 3, "rule_bn": "'always remain in a hurry'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The postman is a familiar public servant. He works in the post office. He carries letters, parcels and money orders from door to door. He can be known by his khaki uniform. He brings us news of our dear ones. In spite of his hard work, his pay is very small.", "subs": [
+      { "type": "fill_in_open", "q": "Where does the postman work?", "a": ["In the post office.", "He works in the post office."], "fuzzy": 2, "rule_bn": "'He works in the post office'।" },
+      { "type": "fill_in_open", "q": "What does he carry from door to door?", "a": ["Letters, parcels and money orders.", "Letters and parcels."], "fuzzy": 3, "rule_bn": "'carries letters, parcels and money orders'।" },
+      { "type": "fill_in_open", "q": "How can he be known?", "a": ["By his khaki uniform.", "By his uniform."], "fuzzy": 2, "rule_bn": "'known by his khaki uniform'।" },
+      { "type": "fill_in_open", "q": "What does he bring us?", "a": ["News of our dear ones.", "News of near ones."], "fuzzy": 3, "rule_bn": "'brings us news of our dear ones'।" },
+      { "type": "fill_in_open", "q": "How is his pay?", "a": ["Very small.", "His pay is very small."], "fuzzy": 2, "rule_bn": "'his pay is very small'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Gardening is a good hobby. It gives us pleasure and profit. A gardener grows flowers, fruits and vegetables. Gardening keeps the body and mind fresh. It is also a good form of exercise. The flowers please our eyes and the fruits feed us.", "subs": [
+      { "type": "fill_in_open", "q": "What kind of hobby is gardening?", "a": ["A good hobby.", "Gardening is a good hobby."], "fuzzy": 2, "rule_bn": "'Gardening is a good hobby'।" },
+      { "type": "fill_in_open", "q": "What does it give us?", "a": ["Pleasure and profit.", "It gives pleasure and profit."], "fuzzy": 3, "rule_bn": "'gives us pleasure and profit'।" },
+      { "type": "fill_in_open", "q": "What does a gardener grow?", "a": ["Flowers, fruits and vegetables.", "Flowers and vegetables."], "fuzzy": 3, "rule_bn": "'grows flowers, fruits and vegetables'।" },
+      { "type": "fill_in_open", "q": "What does gardening keep fresh?", "a": ["The body and mind.", "Body and mind."], "fuzzy": 3, "rule_bn": "'keeps the body and mind fresh'।" },
+      { "type": "fill_in_open", "q": "What please our eyes?", "a": ["The flowers.", "The flowers please our eyes."], "fuzzy": 2, "rule_bn": "'The flowers please our eyes'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Perseverance is a great virtue. It means steady effort to reach a goal. The man who perseveres never gives up hope. He tries again and again until he succeeds. King Robert Bruce won at last through perseverance.", "subs": [
+      { "type": "fill_in_open", "q": "What kind of virtue is perseverance?", "a": ["A great virtue.", "Perseverance is a great virtue."], "fuzzy": 2, "rule_bn": "'Perseverance is a great virtue'।" },
+      { "type": "fill_in_open", "q": "What does perseverance mean?", "a": ["Steady effort to reach a goal.", "Steady effort."], "fuzzy": 3, "rule_bn": "'steady effort to reach a goal'।" },
+      { "type": "fill_in_open", "q": "What does a persevering man never give up?", "a": ["Hope.", "He never gives up hope."], "fuzzy": 2, "rule_bn": "'never gives up hope'।" },
+      { "type": "fill_in_open", "q": "What does he do until he succeeds?", "a": ["He tries again and again.", "Tries again and again."], "fuzzy": 3, "rule_bn": "'tries again and again until he succeeds'।" },
+      { "type": "fill_in_open", "q": "Who won at last through perseverance?", "a": ["King Robert Bruce.", "Robert Bruce."], "fuzzy": 2, "rule_bn": "'King Robert Bruce won at last'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The national flag is the symbol of a free nation. Our national flag is bottle green in colour with a red disc in the middle. The green colour stands for the greenery of our country. The red disc stands for the blood of the martyrs. It is hoisted on all national days.", "subs": [
+      { "type": "fill_in_open", "q": "What is the national flag the symbol of?", "a": ["A free nation.", "The symbol of a free nation."], "fuzzy": 3, "rule_bn": "'the symbol of a free nation'।" },
+      { "type": "fill_in_open", "q": "What is the colour of our national flag?", "a": ["Bottle green with a red disc.", "Green with a red disc."], "fuzzy": 3, "rule_bn": "'bottle green in colour with a red disc'।" },
+      { "type": "fill_in_open", "q": "What does the green colour stand for?", "a": ["The greenery of our country.", "The greenery."], "fuzzy": 3, "rule_bn": "'stands for the greenery of our country'।" },
+      { "type": "fill_in_open", "q": "What does the red disc stand for?", "a": ["The blood of the martyrs.", "The blood of martyrs."], "fuzzy": 3, "rule_bn": "'the blood of the martyrs'।" },
+      { "type": "fill_in_open", "q": "When is it hoisted?", "a": ["On all national days.", "On national days."], "fuzzy": 2, "rule_bn": "'hoisted on all national days'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Time is very valuable. Time once gone never comes back. Every moment of our life is precious. Those who waste time repent in the long run. The great men of the world made proper use of their time. If we want to be successful, we must value every moment.", "subs": [
+      { "type": "fill_in_open", "q": "How is time?", "a": ["Very valuable.", "Time is very valuable."], "fuzzy": 2, "rule_bn": "'Time is very valuable'।" },
+      { "type": "fill_in_open", "q": "Does time come back once it is gone?", "a": ["No, it never comes back.", "No."], "fuzzy": 3, "rule_bn": "'Time once gone never comes back'।" },
+      { "type": "fill_in_open", "q": "What happens to those who waste time?", "a": ["They repent in the long run.", "They repent later."], "fuzzy": 3, "rule_bn": "'those who waste time repent'।" },
+      { "type": "fill_in_open", "q": "How did great men use their time?", "a": ["They made proper use of it.", "They used time properly."], "fuzzy": 3, "rule_bn": "'made proper use of their time'।" },
+      { "type": "fill_in_open", "q": "What must we do to be successful?", "a": ["Value every moment.", "We must value every moment."], "fuzzy": 3, "rule_bn": "'value every moment'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Dignity of labour means that all kinds of work are honourable. No work is small or mean. A man who works with his own hands is worthy of respect. In many countries people do not feel ashamed to do manual work. But in our country many educated people dislike manual labour.", "subs": [
+      { "type": "fill_in_open", "q": "What does dignity of labour mean?", "a": ["All kinds of work are honourable.", "All work is honourable."], "fuzzy": 3, "rule_bn": "'all kinds of work are honourable'।" },
+      { "type": "fill_in_open", "q": "Is any work small or mean?", "a": ["No, no work is small or mean.", "No."], "fuzzy": 3, "rule_bn": "'No work is small or mean'।" },
+      { "type": "fill_in_open", "q": "Who is worthy of respect?", "a": ["A man who works with his own hands.", "One who works with his hands."], "fuzzy": 3, "rule_bn": "'A man who works with his own hands is worthy of respect'।" },
+      { "type": "fill_in_open", "q": "What do people in many countries not feel about manual work?", "a": ["They do not feel ashamed.", "They are not ashamed."], "fuzzy": 3, "rule_bn": "'do not feel ashamed to do manual work'।" },
+      { "type": "fill_in_open", "q": "Who dislike manual labour in our country?", "a": ["Many educated people.", "Educated people."], "fuzzy": 2, "rule_bn": "'many educated people dislike manual labour'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Courtesy is a great quality. It means polite behaviour towards others. A courteous man speaks softly and behaves gently. He never hurts others by his words. Courtesy wins the hearts of all. A discourteous man is hated by all.", "subs": [
+      { "type": "fill_in_open", "q": "What kind of quality is courtesy?", "a": ["A great quality.", "Courtesy is a great quality."], "fuzzy": 2, "rule_bn": "'Courtesy is a great quality'।" },
+      { "type": "fill_in_open", "q": "What does courtesy mean?", "a": ["Polite behaviour towards others.", "Polite behaviour."], "fuzzy": 3, "rule_bn": "'polite behaviour towards others'।" },
+      { "type": "fill_in_open", "q": "How does a courteous man speak?", "a": ["Softly.", "He speaks softly."], "fuzzy": 2, "rule_bn": "'speaks softly'।" },
+      { "type": "fill_in_open", "q": "What does courtesy win?", "a": ["The hearts of all.", "It wins all hearts."], "fuzzy": 3, "rule_bn": "'Courtesy wins the hearts of all'।" },
+      { "type": "fill_in_open", "q": "Who is hated by all?", "a": ["A discourteous man.", "A discourteous person."], "fuzzy": 2, "rule_bn": "'A discourteous man is hated by all'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "A winter morning is cold and foggy. Everything remains covered with fog in the early hours. Dewdrops shine on grass and leaves. People feel very cold and wrap themselves in warm clothes. The poor suffer a lot for want of warm clothes. In villages people enjoy date juice and cakes.", "subs": [
+      { "type": "fill_in_open", "q": "How is a winter morning?", "a": ["Cold and foggy.", "A winter morning is cold and foggy."], "fuzzy": 2, "rule_bn": "'A winter morning is cold and foggy'।" },
+      { "type": "fill_in_open", "q": "What remains covered with fog?", "a": ["Everything.", "Everything remains covered with fog."], "fuzzy": 2, "rule_bn": "'Everything remains covered with fog'।" },
+      { "type": "fill_in_open", "q": "Where do dewdrops shine?", "a": ["On grass and leaves.", "On the grass and leaves."], "fuzzy": 3, "rule_bn": "'Dewdrops shine on grass and leaves'।" },
+      { "type": "fill_in_open", "q": "Who suffer for want of warm clothes?", "a": ["The poor.", "The poor people."], "fuzzy": 2, "rule_bn": "'The poor suffer a lot'।" },
+      { "type": "fill_in_open", "q": "What do villagers enjoy?", "a": ["Date juice and cakes.", "Date juice and pithas."], "fuzzy": 3, "rule_bn": "'enjoy date juice and cakes'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Games and sports are essential for us. They keep our body strong and healthy. They also refresh our mind after hard study. Through games we learn discipline and team spirit. They teach us to obey rules and to work together. A sound mind lives in a sound body.", "subs": [
+      { "type": "fill_in_open", "q": "Why are games essential?", "a": ["They keep our body strong and healthy.", "For health."], "fuzzy": 3, "rule_bn": "'keep our body strong and healthy'।" },
+      { "type": "fill_in_open", "q": "What do games do after hard study?", "a": ["They refresh our mind.", "Refresh the mind."], "fuzzy": 3, "rule_bn": "'refresh our mind after hard study'।" },
+      { "type": "fill_in_open", "q": "What do we learn through games?", "a": ["Discipline and team spirit.", "Discipline and team spirit."], "fuzzy": 3, "rule_bn": "'learn discipline and team spirit'।" },
+      { "type": "fill_in_open", "q": "What do games teach us to obey?", "a": ["Rules.", "To obey rules."], "fuzzy": 2, "rule_bn": "'teach us to obey rules'।" },
+      { "type": "fill_in_open", "q": "Where does a sound mind live?", "a": ["In a sound body.", "In a healthy body."], "fuzzy": 2, "rule_bn": "'A sound mind lives in a sound body'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Newspapers play an important role in modern life. A newspaper brings us the news of home and abroad. It helps us know about politics, sports and trade. By reading it we can form our own opinion. A man without a newspaper is like a frog in a well.", "subs": [
+      { "type": "fill_in_open", "q": "What role do newspapers play?", "a": ["An important role in modern life.", "An important role."], "fuzzy": 3, "rule_bn": "'important role in modern life'।" },
+      { "type": "fill_in_open", "q": "What news does a newspaper bring?", "a": ["The news of home and abroad.", "News of home and abroad."], "fuzzy": 3, "rule_bn": "'news of home and abroad'।" },
+      { "type": "fill_in_open", "q": "What does it help us know about?", "a": ["Politics, sports and trade.", "Politics and sports."], "fuzzy": 3, "rule_bn": "'about politics, sports and trade'।" },
+      { "type": "fill_in_open", "q": "What can we form by reading it?", "a": ["Our own opinion.", "Our opinion."], "fuzzy": 2, "rule_bn": "'form our own opinion'।" },
+      { "type": "fill_in_open", "q": "A man without a newspaper is like what?", "a": ["A frog in a well.", "Like a frog in a well."], "fuzzy": 3, "rule_bn": "'like a frog in a well'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Science has made our life easy and comfortable. It has given us many wonderful things. The electric fan, the television and the mobile phone are its gifts. Science has removed distance by fast vehicles. It has also conquered many diseases. But science may destroy us if it is misused.", "subs": [
+      { "type": "fill_in_open", "q": "What has science made our life?", "a": ["Easy and comfortable.", "Life easy and comfortable."], "fuzzy": 3, "rule_bn": "'made our life easy and comfortable'।" },
+      { "type": "fill_in_open", "q": "Name some gifts of science.", "a": ["The fan, television and mobile phone.", "Fan, television, mobile."], "fuzzy": 3, "rule_bn": "'the electric fan, the television and the mobile phone'।" },
+      { "type": "fill_in_open", "q": "How has science removed distance?", "a": ["By fast vehicles.", "Through fast vehicles."], "fuzzy": 2, "rule_bn": "'removed distance by fast vehicles'।" },
+      { "type": "fill_in_open", "q": "What has science conquered?", "a": ["Many diseases.", "It has conquered many diseases."], "fuzzy": 2, "rule_bn": "'conquered many diseases'।" },
+      { "type": "fill_in_open", "q": "When may science destroy us?", "a": ["If it is misused.", "When misused."], "fuzzy": 2, "rule_bn": "'if it is misused'।" }
+    ]}
+  ]
+}

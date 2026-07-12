@@ -1,0 +1,18 @@
+{
+  "topic": "basics_everyday_vocab",
+  "paper": "both",
+  "batch": "d",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "শব্দটির অর্থ মনে করার চেষ্টা করো, তারপর মিলিয়ে দেখো।",
+  "items": [
+    { "type": "flashcard", "front": "river", "back_bn": "নদী", "example": "The Padma is a big river.", "pos": "noun" },
+    { "type": "flashcard", "front": "market", "back_bn": "বাজার", "example": "Mother goes to the market.", "pos": "noun" },
+    { "type": "flashcard", "front": "teacher", "back_bn": "শিক্ষক", "example": "Our teacher is kind.", "pos": "noun" },
+    { "type": "flashcard", "front": "answer", "back_bn": "উত্তর", "example": "Write the correct answer.", "pos": "noun", "ant": "question" },
+    { "type": "flashcard", "front": "quick", "back_bn": "দ্রুত", "example": "He is quick in his work.", "pos": "adjective", "ant": "slow" },
+    { "type": "flashcard", "front": "strong", "back_bn": "শক্তিশালী", "example": "The man is very strong.", "pos": "adjective", "ant": "weak" },
+    { "type": "flashcard", "front": "open", "back_bn": "খোলা", "example": "Please open the door.", "pos": "verb", "ant": "close" },
+    { "type": "flashcard", "front": "night", "back_bn": "রাত", "example": "Stars shine at night.", "pos": "noun", "ant": "day" }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "topic": "p2_modifier",
+  "paper": "2nd",
+  "batch": "q",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "নির্দেশ অনুযায়ী উপযুক্ত modifier দিয়ে শূন্যস্থান পূরণ করো (Board: 5 marks)।",
+  "items": [
+    { "type": "fill_in_open", "q": "___ hard work, no one can succeed. (use a phrase to pre-modify)", "a": ["Without", "By dint of"], "fuzzy": 1, "rule_bn": "phrase pre-modifier: Without/By dint of।" },
+    { "type": "fill_in_open", "q": "The ___ girl won the first prize. (pre-modify the noun 'girl')", "a": ["talented", "meritorious", "little"], "fuzzy": 0, "rule_bn": "noun-এর আগে adjective pre-modifier।" },
+    { "type": "fill_in_open", "q": "He ran ___ to catch the bus. (post-modify the verb 'ran')", "a": ["fast", "very fast", "quickly"], "fuzzy": 0, "rule_bn": "verb-এর পরে adverb post-modifier।" },
+    { "type": "fill_in_open", "q": "The man, ___, helped the poor boy. (post-modify with an appositive)", "a": ["a kind teacher", "a rich merchant"], "fuzzy": 0, "rule_bn": "noun-এর পরে appositive post-modifier।" },
+    { "type": "fill_in_open", "q": "___ walking on the road, he met an old friend. (use a participle to pre-modify)", "a": ["While", "When"], "fuzzy": 1, "rule_bn": "participle 'walking'-এর আগে conjunction pre-modifier।" },
+    { "type": "fill_in_open", "q": "She sang the song ___. (post-modify with an adverbial phrase)", "a": ["very sweetly", "in a sweet voice"], "fuzzy": 0, "rule_bn": "verb-এর পরে adverbial phrase post-modifier।" },
+    { "type": "fill_in_open", "q": "We visited the ___ Shaheed Minar. (pre-modify the noun)", "a": ["historic", "famous", "central"], "fuzzy": 0, "rule_bn": "noun-এর আগে adjective pre-modifier।" },
+    { "type": "fill_in_open", "q": "The students worked ___ to clean the campus. (post-modify the verb)", "a": ["together", "sincerely", "hard"], "fuzzy": 0, "rule_bn": "verb-এর পরে adverb post-modifier।" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "topic": "p1_short_answer",
+  "paper": "1st",
+  "batch": "i",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে সংক্ষিপ্ত প্রশ্নগুলোর উত্তর দাও (Board: short answer questions, 3×5)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "The Royal Bengal Tiger is the national animal of Bangladesh. It lives in the Sundarbans. It is very strong and beautiful. Its body is yellow with black stripes. It hunts deer and other animals for food. But the number of tigers is falling day by day, so we must protect them.", "subs": [
+      { "type": "fill_in_open", "q": "What is the national animal of Bangladesh?", "a": ["The Royal Bengal Tiger.", "The Royal Bengal Tiger."], "fuzzy": 2, "rule_bn": "'the national animal of Bangladesh'।" },
+      { "type": "fill_in_open", "q": "Where does it live?", "a": ["In the Sundarbans.", "It lives in the Sundarbans."], "fuzzy": 2, "rule_bn": "'It lives in the Sundarbans'।" },
+      { "type": "fill_in_open", "q": "What is the colour of its body?", "a": ["Yellow with black stripes.", "Yellow with black stripes."], "fuzzy": 3, "rule_bn": "'yellow with black stripes'।" },
+      { "type": "fill_in_open", "q": "What does it hunt for food?", "a": ["Deer and other animals.", "Deer and other animals."], "fuzzy": 3, "rule_bn": "'hunts deer and other animals'।" },
+      { "type": "fill_in_open", "q": "Why must we protect tigers?", "a": ["Because their number is falling day by day.", "Their number is falling."], "fuzzy": 3, "rule_bn": "'the number of tigers is falling day by day'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "The Buriganga is a river beside Dhaka city. It was once famous for its clear water. Now it has become very dirty. Wastes from mills and houses are thrown into it. The polluted water gives off a bad smell. We should keep the Buriganga clean and free from pollution.", "subs": [
+      { "type": "fill_in_open", "q": "Beside which city is the Buriganga?", "a": ["Dhaka city.", "It is beside Dhaka."], "fuzzy": 2, "rule_bn": "'a river beside Dhaka city'।" },
+      { "type": "fill_in_open", "q": "What was it once famous for?", "a": ["Its clear water.", "For its clear water."], "fuzzy": 2, "rule_bn": "'famous for its clear water'।" },
+      { "type": "fill_in_open", "q": "What is thrown into it now?", "a": ["Wastes from mills and houses.", "Wastes from mills and houses."], "fuzzy": 3, "rule_bn": "'wastes from mills and houses'।" },
+      { "type": "fill_in_open", "q": "What does the polluted water give off?", "a": ["A bad smell.", "A bad smell."], "fuzzy": 2, "rule_bn": "'gives off a bad smell'।" },
+      { "type": "fill_in_open", "q": "What should we do with the Buriganga?", "a": ["Keep it clean and free from pollution.", "Keep it clean."], "fuzzy": 3, "rule_bn": "'keep the Buriganga clean'।" }
+    ]}
+  ]
+}

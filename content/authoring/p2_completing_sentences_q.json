@@ -1,0 +1,14 @@
+{
+  "topic": "p2_completing_sentences",
+  "paper": "2nd",
+  "batch": "q",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "clause/phrase দিয়ে বাক্যটি সম্পূর্ণ করো।",
+  "items": [
+    { "type": "fill_in_open", "q": "It is high time we ___.", "a": ["changed our habits", "gave up smoking", "worked hard"], "fuzzy": 3, "rule_bn": "'It is high time' + subject + past form।" },
+    { "type": "fill_in_open", "q": "He talks as if ___.", "a": ["he knew everything", "he were a king"], "fuzzy": 3, "rule_bn": "'as if' অবাস্তব তুলনায় past form।" },
+    { "type": "fill_in_open", "q": "Walk fast lest ___.", "a": ["you should miss the train", "you should be late"], "fuzzy": 3, "rule_bn": "'lest' + subject + should + base verb।" },
+    { "type": "fill_in_open", "q": "Had I been a bird, ___.", "a": ["I would have flown in the sky", "I would fly in the sky"], "fuzzy": 3, "rule_bn": "past unreal: Had + subject + V3, ... would have + V3।" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "topic": "p2_punctuation",
+  "paper": "2nd",
+  "batch": "q",
+  "difficulty": "hard",
+  "author": "ezpz-content",
+  "instruction_bn": "সঠিক punctuation ও capital letter বসিয়ে বাক্যটি আবার লেখো (Board: 7 marks)।",
+  "items": [
+    { "type": "fill_in_open", "q": "Punctuate: nazrul our national poet wrote many poems", "a": ["Nazrul, our national poet, wrote many poems."], "fuzzy": 3, "rule_bn": "appositive অংশ দুই দিকে comma; নাম Nazrul capital।" },
+    { "type": "fill_in_open", "q": "Punctuate: hurrah we have won the game", "a": ["Hurrah! We have won the game."], "fuzzy": 3, "rule_bn": "Hurrah-এর পরে (!) তারপর নতুন বাক্য capital।" }
+  ]
+}

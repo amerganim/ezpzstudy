@@ -1,0 +1,31 @@
+{
+  "topic": "p1_info_transfer",
+  "paper": "1st",
+  "batch": "f",
+  "difficulty": "medium",
+  "author": "ezpz-content",
+  "instruction_bn": "অনুচ্ছেদটি পড়ে flow chart-এর শূন্যস্থানগুলো পূরণ করো (Board: information transfer / flow chart, 1×5)।",
+  "items": [
+    { "type": "comprehension_set", "source": "original", "passage": "Making khichuri is easy. First, we wash rice and lentils together. Then we put them in a pot with water. After that, we add salt, oil and spices. Next, we cook it on the stove until it is soft. Finally, we serve the hot khichuri.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Wash rice and ___ together.", "a": ["lentils","dal"], "fuzzy": 1, "rule_bn": "'wash rice and lentils'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put them in a pot with ___.", "a": ["water"], "fuzzy": 1, "rule_bn": "'in a pot with water'।" },
+      { "type": "fill_in_open", "q": "Step 3: Add salt, oil and ___.", "a": ["spices"], "fuzzy": 1, "rule_bn": "'salt, oil and spices'।" },
+      { "type": "fill_in_open", "q": "Step 4: Cook it until it is ___.", "a": ["soft"], "fuzzy": 1, "rule_bn": "'until it is soft'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ the hot khichuri.", "a": ["Serve","serve"], "fuzzy": 1, "rule_bn": "'we serve the hot khichuri'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Preparing a cup of Horlicks is simple. First, we take a clean cup. Then we put two spoonfuls of Horlicks in it. After that, we pour hot milk into the cup. Next, we add sugar to taste. Finally, we stir it well and drink it.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take a clean ___.", "a": ["cup"], "fuzzy": 1, "rule_bn": "'take a clean cup'।" },
+      { "type": "fill_in_open", "q": "Step 2: Put two spoonfuls of ___ in it.", "a": ["Horlicks","horlicks"], "fuzzy": 1, "rule_bn": "'two spoonfuls of Horlicks'।" },
+      { "type": "fill_in_open", "q": "Step 3: Pour hot ___ into the cup.", "a": ["milk"], "fuzzy": 1, "rule_bn": "'pour hot milk'।" },
+      { "type": "fill_in_open", "q": "Step 4: Add ___ to taste.", "a": ["sugar"], "fuzzy": 1, "rule_bn": "'add sugar to taste'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ it well and drink.", "a": ["Stir","stir"], "fuzzy": 1, "rule_bn": "'we stir it well'।" }
+    ]},
+    { "type": "comprehension_set", "source": "original", "passage": "Cleaning our teeth after a meal is a good habit. First, we take a little water in the mouth. Then we rinse the mouth well. After that, we brush the teeth if needed. Next, we clean between the teeth. Finally, we wash the mouth with clean water.", "subs": [
+      { "type": "fill_in_open", "q": "Step 1: Take a little ___ in the mouth.", "a": ["water"], "fuzzy": 1, "rule_bn": "'a little water'।" },
+      { "type": "fill_in_open", "q": "Step 2: ___ the mouth well.", "a": ["Rinse","rinse"], "fuzzy": 1, "rule_bn": "'rinse the mouth'।" },
+      { "type": "fill_in_open", "q": "Step 3: ___ the teeth if needed.", "a": ["Brush","brush"], "fuzzy": 1, "rule_bn": "'brush the teeth'।" },
+      { "type": "fill_in_open", "q": "Step 4: Clean between the ___.", "a": ["teeth"], "fuzzy": 1, "rule_bn": "'clean between the teeth'।" },
+      { "type": "fill_in_open", "q": "Step 5: ___ the mouth with clean water.", "a": ["Wash","wash"], "fuzzy": 1, "rule_bn": "'wash the mouth'।" }
+    ]}
+  ]
+}

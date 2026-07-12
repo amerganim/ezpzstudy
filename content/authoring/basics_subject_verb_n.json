@@ -1,0 +1,18 @@
+{
+  "topic": "basics_subject_verb",
+  "paper": "both",
+  "batch": "n",
+  "difficulty": "easy",
+  "author": "ezpz-content",
+  "instruction_bn": "subject অনুযায়ী verb-এর সঠিক রূপ বসাও।",
+  "items": [
+    { "type": "fill_in_open", "q": "My friend ___ me every week. (call)", "a": ["calls"], "rule_bn": "singular subject-এর সাথে verb-এ 's': calls।" },
+    { "type": "fill_in_open", "q": "The children ___ in the park. (play)", "a": ["play"], "rule_bn": "plural subject-এর সাথে verb base form: play।" },
+    { "type": "fill_in_open", "q": "Rice and curry ___ my favourite food. (be)", "a": ["is"], "rule_bn": "একক ধারণা বোঝালে 'is'।" },
+    { "type": "fill_in_open", "q": "Everyone ___ to be happy. (want)", "a": ["wants"], "rule_bn": "'Everyone' singular, তাই wants।" },
+    { "type": "fill_in_open", "q": "There ___ many books on the shelf. (be)", "a": ["are"], "rule_bn": "plural (books)-এর সাথে 'are'।" },
+    { "type": "fill_in_open", "q": "One of the boys ___ absent. (be)", "a": ["is"], "rule_bn": "'One of' singular, তাই is।" },
+    { "type": "fill_in_open", "q": "My father ___ a newspaper daily. (read)", "a": ["reads"], "rule_bn": "singular subject-এ verb 's': reads।" },
+    { "type": "fill_in_open", "q": "The cows ___ grass in the field. (eat)", "a": ["eat"], "rule_bn": "plural subject-এ base form: eat।" }
+  ]
+}
