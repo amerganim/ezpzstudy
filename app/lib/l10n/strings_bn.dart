@@ -118,7 +118,29 @@ class Bn {
   static const phoneLabel = 'ফোন নম্বর';
   static const nameLabel = 'তোমার নাম (ঐচ্ছিক)';
   static const schoolCodeLabel = 'স্কুল কোড (ঐচ্ছিক)';
+  static const enrollCodeLabel = 'ক্লাস কোড (থাকলে দাও)';
   static const loginAndSync = 'যুক্ত হও ও সংরক্ষণ করো';
+
+  // Teacher mode
+  static const teacherLoginLink = 'আমি একজন শিক্ষক';
+  static const teacherLoginTitle = 'শিক্ষক লগইন';
+  static const passwordLabel = 'পাসওয়ার্ড';
+  static const teacherLoginButton = 'লগইন করো';
+  static const teacherLoginError = 'ফোন বা পাসওয়ার্ড ভুল';
+  static const teacherDashTitle = 'আমার ক্লাসসমূহ';
+  static const teacherLogout = 'শিক্ষক লগআউট';
+  static const couldNotLoad = 'লোড করা যায়নি';
+  static const retry = 'আবার চেষ্টা করো';
+  static const studentsUnit = 'জন শিক্ষার্থী';
+  static const shareCodeHint = 'শিক্ষার্থীদের এই কোডটি দাও';
+  static const noStudentsYet = 'এখনো কেউ যোগ দেয়নি। উপরের কোডটি শিক্ষার্থীদের দাও।';
+  static const attemptsShort = 'উত্তর';
+  static const accuracyShort = 'সঠিক';
+  static const pointsShort = 'পয়েন্ট';
+  static const neverPracticed = 'এখনো অনুশীলন করেনি';
+  static const lastActiveLabel = 'সর্বশেষ';
+  static const topicBreakdown = 'বিষয়ভিত্তিক ফলাফল';
+  static const noPracticeData = 'এখনো কোনো অনুশীলনের তথ্য নেই।';
   static const syncNow = 'এখনই সংরক্ষণ করো';
   static const logout = 'বের হও';
   static const lastSynced = 'সর্বশেষ সংরক্ষণ';

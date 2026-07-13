@@ -44,16 +44,55 @@ class SyncService {
     required String phone,
     String? name,
     String? schoolCode,
+    String? enrollCode,
   }) async {
     final result = await api.authenticate(
       phone: phone,
       name: name,
       schoolCode: schoolCode,
+      enrollCode: enrollCode,
     );
     await store.saveSession(result.token, result.studentId);
   }
 
   Future<void> logout() => store.clear();
+
+  // ── Teacher session ────────────────────────────────────────────────────────
+
+  Future<bool> isTeacherLoggedIn() async {
+    final t = await store.teacherToken();
+    return t != null && t.isNotEmpty;
+  }
+
+  /// Throws [ApiException] on bad credentials / network so the login UI can show
+  /// a real error.
+  Future<void> teacherLogin({
+    required String phone,
+    required String password,
+  }) async {
+    final token = await api.teacherAuthenticate(phone: phone, password: password);
+    await store.saveTeacherToken(token);
+  }
+
+  Future<void> teacherLogout() => store.clearTeacher();
+
+  Future<List<TeacherClass>> teacherClasses() async {
+    final token = await store.teacherToken();
+    if (token == null || token.isEmpty) throw const ApiException('not logged in');
+    return api.teacherClasses(token: token);
+  }
+
+  Future<ClassRoster> classRoster(String classId) async {
+    final token = await store.teacherToken();
+    if (token == null || token.isEmpty) throw const ApiException('not logged in');
+    return api.classRoster(token: token, classId: classId);
+  }
+
+  Future<StudentDetail> studentDetail(String studentId) async {
+    final token = await store.teacherToken();
+    if (token == null || token.isEmpty) throw const ApiException('not logged in');
+    return api.studentDetail(token: token, studentId: studentId);
+  }
 
   /// Fetches this week's class leaderboard. Returns null if not logged in or the
   /// server is unreachable — the UI shows a friendly state rather than an error.

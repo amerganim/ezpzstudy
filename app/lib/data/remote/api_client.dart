@@ -114,6 +114,137 @@ class Leaderboard {
   }
 }
 
+/// A class a teacher owns, with its enrolment code and live student count.
+class TeacherClass {
+  final String id;
+  final String name;
+  final String enrollCode;
+  final String? collegeName;
+  final int studentCount;
+  const TeacherClass({
+    required this.id,
+    required this.name,
+    required this.enrollCode,
+    required this.collegeName,
+    required this.studentCount,
+  });
+
+  factory TeacherClass.fromJson(Map<String, dynamic> j) => TeacherClass(
+        id: j['id'] as String,
+        name: j['name'] as String? ?? '',
+        enrollCode: j['enroll_code'] as String? ?? '',
+        collegeName: j['college_name'] as String?,
+        studentCount: (j['student_count'] as num?)?.toInt() ?? 0,
+      );
+}
+
+/// One student's rollup within a class roster.
+class RosterStudent {
+  final String id;
+  final String? name;
+  final int attempts;
+  final int correct;
+  final int? accuracy;
+  final int weeklyPoints;
+  final DateTime? lastSyncAt;
+  const RosterStudent({
+    required this.id,
+    required this.name,
+    required this.attempts,
+    required this.correct,
+    required this.accuracy,
+    required this.weeklyPoints,
+    required this.lastSyncAt,
+  });
+
+  factory RosterStudent.fromJson(Map<String, dynamic> j) => RosterStudent(
+        id: j['id'] as String,
+        name: j['name'] as String?,
+        attempts: (j['attempts'] as num?)?.toInt() ?? 0,
+        correct: (j['correct'] as num?)?.toInt() ?? 0,
+        accuracy: (j['accuracy'] as num?)?.toInt(),
+        weeklyPoints: (j['weekly_points'] as num?)?.toInt() ?? 0,
+        lastSyncAt: _parseTime(j['last_sync_at']),
+      );
+}
+
+class ClassRoster {
+  final String classId;
+  final String week;
+  final List<RosterStudent> students;
+  const ClassRoster({
+    required this.classId,
+    required this.week,
+    required this.students,
+  });
+
+  factory ClassRoster.fromJson(Map<String, dynamic> j) => ClassRoster(
+        classId: j['class_id'] as String? ?? '',
+        week: j['week'] as String? ?? '',
+        students: (j['students'] as List<dynamic>? ?? const [])
+            .map((e) => RosterStudent.fromJson(e as Map<String, dynamic>))
+            .toList(),
+      );
+}
+
+class TopicStat {
+  final String topic;
+  final int attempts;
+  final int correct;
+  final int? accuracy;
+  const TopicStat({
+    required this.topic,
+    required this.attempts,
+    required this.correct,
+    required this.accuracy,
+  });
+
+  factory TopicStat.fromJson(Map<String, dynamic> j) => TopicStat(
+        topic: j['topic'] as String? ?? '',
+        attempts: (j['attempts'] as num?)?.toInt() ?? 0,
+        correct: (j['correct'] as num?)?.toInt() ?? 0,
+        accuracy: (j['accuracy'] as num?)?.toInt(),
+      );
+}
+
+class StudentDetail {
+  final String? name;
+  final int streakDays;
+  final int sessions;
+  final int totalAttempts;
+  final int totalCorrect;
+  final int? accuracy;
+  final List<TopicStat> topics;
+  const StudentDetail({
+    required this.name,
+    required this.streakDays,
+    required this.sessions,
+    required this.totalAttempts,
+    required this.totalCorrect,
+    required this.accuracy,
+    required this.topics,
+  });
+
+  factory StudentDetail.fromJson(Map<String, dynamic> j) {
+    final s = j['student'] as Map<String, dynamic>? ?? const {};
+    final t = j['totals'] as Map<String, dynamic>? ?? const {};
+    return StudentDetail(
+      name: s['name'] as String?,
+      streakDays: (s['streak_days'] as num?)?.toInt() ?? 0,
+      sessions: (s['sessions'] as num?)?.toInt() ?? 0,
+      totalAttempts: (t['attempts'] as num?)?.toInt() ?? 0,
+      totalCorrect: (t['correct'] as num?)?.toInt() ?? 0,
+      accuracy: (t['accuracy'] as num?)?.toInt(),
+      topics: (j['topics'] as List<dynamic>? ?? const [])
+          .map((e) => TopicStat.fromJson(e as Map<String, dynamic>))
+          .toList(),
+    );
+  }
+}
+
+DateTime? _parseTime(dynamic v) =>
+    v is String ? DateTime.tryParse(v) : null;
+
 /// Thin HTTP client for the backend endpoints. Knows nothing about storage
 /// or scheduling — that's [SyncService]'s job.
 class ApiClient {
@@ -133,17 +264,66 @@ class ApiClient {
     required String phone,
     String? name,
     String? schoolCode,
+    String? enrollCode,
   }) async {
     final res = await _post('/auth', {
       'phone': phone,
       if (name != null && name.isNotEmpty) 'name': name,
       if (schoolCode != null && schoolCode.isNotEmpty) 'school_code': schoolCode,
+      if (enrollCode != null && enrollCode.isNotEmpty) 'enroll_code': enrollCode,
     });
     final body = _decode(res);
     return AuthResult(
       token: body['token'] as String,
       studentId: (body['student'] as Map<String, dynamic>)['id'] as String,
     );
+  }
+
+  // ── Teacher dashboard ──────────────────────────────────────────────────────
+
+  /// Teacher login by phone + password; returns a teacher bearer token.
+  Future<String> teacherAuthenticate({
+    required String phone,
+    required String password,
+  }) async {
+    final res = await _post('/teacher/auth', {'phone': phone, 'password': password});
+    return _decode(res)['token'] as String;
+  }
+
+  Future<List<TeacherClass>> teacherClasses({required String token}) async {
+    final body = await _get('/teacher/classes', token: token);
+    return (body['classes'] as List<dynamic>? ?? const [])
+        .map((e) => TeacherClass.fromJson(e as Map<String, dynamic>))
+        .toList();
+  }
+
+  Future<ClassRoster> classRoster({
+    required String token,
+    required String classId,
+  }) async {
+    final body = await _get('/teacher/classes/$classId', token: token);
+    return ClassRoster.fromJson(body);
+  }
+
+  Future<StudentDetail> studentDetail({
+    required String token,
+    required String studentId,
+  }) async {
+    final body = await _get('/teacher/students/$studentId', token: token);
+    return StudentDetail.fromJson(body);
+  }
+
+  Future<Map<String, dynamic>> _get(String path, {required String token}) async {
+    final http.Response res;
+    try {
+      res = await _http.get(
+        _uri(path),
+        headers: {'authorization': 'Bearer $token'},
+      ).timeout(timeout);
+    } catch (e) {
+      throw ApiException('network error: $e');
+    }
+    return _decode(res);
   }
 
   Future<void> sync({required String token, required SyncPayload payload}) async {

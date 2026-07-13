@@ -5,6 +5,7 @@ import '../../data/remote/api_client.dart';
 import '../../data/remote/sync_service.dart';
 import '../../l10n/strings_bn.dart';
 import '../../theme/app_theme.dart';
+import '../teacher/teacher_login_screen.dart';
 
 /// Optional account + progress sync. Practice never requires this — a student
 /// can use the whole app offline and forever without logging in. Logging in by
@@ -21,6 +22,7 @@ class _SyncScreenState extends State<SyncScreen> {
   final _phone = TextEditingController();
   final _name = TextEditingController();
   final _schoolCode = TextEditingController();
+  final _enrollCode = TextEditingController();
 
   bool _busy = false;
   bool _loggedIn = false;
@@ -37,6 +39,7 @@ class _SyncScreenState extends State<SyncScreen> {
     _phone.dispose();
     _name.dispose();
     _schoolCode.dispose();
+    _enrollCode.dispose();
     super.dispose();
   }
 
@@ -71,6 +74,7 @@ class _SyncScreenState extends State<SyncScreen> {
         phone: phone,
         name: _name.text.trim(),
         schoolCode: _schoolCode.text.trim(),
+        enrollCode: _enrollCode.text.trim(),
       );
       final outcome = await _sync.syncNow();
       _toast(_messageFor(outcome));
@@ -120,6 +124,15 @@ class _SyncScreenState extends State<SyncScreen> {
               style: const TextStyle(fontSize: 15, color: Colors.black54)),
           const SizedBox(height: 20),
           if (_loggedIn) _loggedInView() else _loginView(),
+          const SizedBox(height: 28),
+          const Divider(),
+          const SizedBox(height: 4),
+          TextButton.icon(
+            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                builder: (_) => const TeacherLoginScreen())),
+            icon: const Icon(Icons.school_outlined),
+            label: const Text(Bn.teacherLoginLink),
+          ),
         ],
       ),
     );
@@ -134,6 +147,8 @@ class _SyncScreenState extends State<SyncScreen> {
         _field(_name, Bn.nameLabel),
         const SizedBox(height: 12),
         _field(_schoolCode, Bn.schoolCodeLabel),
+        const SizedBox(height: 12),
+        _field(_enrollCode, Bn.enrollCodeLabel),
         const SizedBox(height: 20),
         FilledButton(
           onPressed: _busy ? null : _login,

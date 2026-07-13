@@ -10,9 +10,16 @@ class SyncStateStore {
   static const _tokenKey = 'sync_token';
   static const _studentIdKey = 'sync_student_id';
   static const _lastAtKey = 'sync_last_at';
+  static const _teacherTokenKey = 'teacher_token';
 
   Future<String?> token() => db.getMeta(_tokenKey);
   Future<String?> studentId() => db.getMeta(_studentIdKey);
+
+  // Teacher session (separate from the student session; a teacher's phone).
+  Future<String?> teacherToken() => db.getMeta(_teacherTokenKey);
+  Future<void> saveTeacherToken(String token) =>
+      db.setMeta(_teacherTokenKey, token);
+  Future<void> clearTeacher() => db.setMeta(_teacherTokenKey, '');
 
   Future<DateTime?> lastSyncAt() async {
     final v = await db.getMeta(_lastAtKey);
