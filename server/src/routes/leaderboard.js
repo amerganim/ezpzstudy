@@ -16,27 +16,38 @@ async function leaderboardRoutes(fastify) {
     async (request, reply) => {
       const studentId = request.studentId;
       const me = await fastify.pool.query(
-        "SELECT school_code FROM students WHERE id = $1",
+        "SELECT school_code, class_id FROM students WHERE id = $1",
         [studentId]
       );
       if (me.rows.length === 0) {
         return reply.code(404).send({ error: "unknown student" });
       }
+      // Prefer the college class (Phase 4); fall back to the legacy school code.
+      const classId = me.rows[0].class_id;
       const schoolCode = me.rows[0].school_code;
-      if (!schoolCode) {
-        // Not in a cohort yet — the client nudges the student to add a school code.
+      if (!classId && !schoolCode) {
+        // Not in a cohort yet — the client nudges the student to add a class code.
         return reply.send({ scoped: false, week: isoWeek(), entries: [], me: null });
       }
 
       const week = isoWeek();
-      const rows = await fastify.pool.query(
-        `SELECT s.id, s.name, w.points
-           FROM weekly_scores w
-           JOIN students s ON s.id = w.student_id
-          WHERE s.school_code = $1 AND w.week = $2
-          ORDER BY w.points DESC, s.name ASC NULLS LAST, s.id ASC`,
-        [schoolCode, week]
-      );
+      const rows = classId
+        ? await fastify.pool.query(
+            `SELECT s.id, s.name, w.points
+               FROM weekly_scores w
+               JOIN students s ON s.id = w.student_id
+              WHERE s.class_id = $1 AND w.week = $2
+              ORDER BY w.points DESC, s.name ASC NULLS LAST, s.id ASC`,
+            [classId, week]
+          )
+        : await fastify.pool.query(
+            `SELECT s.id, s.name, w.points
+               FROM weekly_scores w
+               JOIN students s ON s.id = w.student_id
+              WHERE s.school_code = $1 AND w.week = $2
+              ORDER BY w.points DESC, s.name ASC NULLS LAST, s.id ASC`,
+            [schoolCode, week]
+          );
 
       const entries = rows.rows.map((r, i) => ({
         rank: i + 1,

@@ -26,11 +26,13 @@ function sign(payloadPart, secret) {
 }
 
 /**
- * Issues a token for [studentId], valid for [ttlSeconds].
+ * Issues a token for subject [sub], valid for [ttlSeconds]. [role] defaults to
+ * "student"; teacher tokens carry role "teacher" so one preHandler can tell
+ * them apart.
  */
-function issueToken(studentId, secret, ttlSeconds, now = Date.now()) {
+function issueToken(sub, secret, ttlSeconds, now = Date.now(), role = "student") {
   const iat = Math.floor(now / 1000);
-  const payload = { sub: studentId, iat, exp: iat + ttlSeconds };
+  const payload = { sub, role, iat, exp: iat + ttlSeconds };
   const payloadPart = base64url(JSON.stringify(payload));
   return `${payloadPart}.${sign(payloadPart, secret)}`;
 }

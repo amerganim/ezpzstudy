@@ -12,6 +12,9 @@ function loadConfig(env = process.env) {
     // dev-only fallback keeps local runs frictionless.
     tokenSecret: env.TOKEN_SECRET || "dev-only-insecure-secret-change-me",
     tokenTtlSeconds: parseInt(env.TOKEN_TTL_SECONDS || "31536000", 10), // 1 year
+    // Shared key for the operator-only /admin provisioning endpoints (create
+    // colleges/classes/teachers). MUST be set for those routes to work.
+    adminKey: env.ADMIN_KEY || "dev-only-admin-key-change-me",
     // Directory holding content packs to serve (local dev; prod serves from R2).
     contentDir: env.CONTENT_DIR || null,
   };
