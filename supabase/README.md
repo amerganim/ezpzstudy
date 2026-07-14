@@ -37,14 +37,22 @@ No second server/host is needed.
    ```
    It returns an `enroll_code` (e.g. `262MRS`) — that's what students type to join.
 5. **Onboard the teacher.** The teacher installs the app, taps "I'm a teacher",
-   and **signs up** with their email + a password. Then you link them to the
-   class (SQL Editor):
-   ```sql
-   select admin_assign_teacher('teacher@example.com', '262MRS');
-   ```
+   and **signs up** with their email + a password. That's all — under the pilot
+   policy **any signed-up teacher can see every class's students** (no manual
+   assignment step). Students see the class leaderboard; full per-student
+   progress is teacher-only.
+
+   *(Optional, for later multi-college use: `admin_assign_teacher('email','CODE')`
+   still exists to scope a teacher to specific classes, but it's not needed for
+   the pilot.)*
 
 That's it — students enter the enrol code, practice, and their progress shows up
-on the teacher's dashboard.
+for the teacher.
+
+> **Re-running:** the whole file is idempotent (`create or replace` / `create
+> table if not exists`), so if you change the policy you can safely paste and
+> Run `schema.sql` again — it updates the functions in place without touching
+> your data.
 
 ## What Claude needs from you to finish the app
 

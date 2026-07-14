@@ -120,7 +120,16 @@ begin
 end;
 $$;
 
--- Is the current user a teacher who owns this class?
+-- Is the current user a registered teacher? (Pilot policy: ANY signed-up
+-- teacher may view ANY class's progress — no per-class assignment needed. This
+-- is scoped to teachers only; students cannot call the teacher functions.)
+create or replace function public.is_teacher()
+returns boolean language sql stable security definer set search_path = public as $$
+  select exists(select 1 from teachers where id = auth.uid());
+$$;
+
+-- Is the current user a teacher who owns this class? (Kept for future
+-- per-class scoping; not used by the pilot policy above.)
 create or replace function public.owns_class(p_class_id uuid)
 returns boolean language sql stable security definer set search_path = public as $$
   select exists(
@@ -247,30 +256,30 @@ begin
 end;
 $$;
 
--- The caller-teacher's classes, each with a live student count.
+-- All classes (pilot policy: any teacher sees every class), each with a live
+-- student count. A non-teacher gets an empty list.
 create or replace function public.my_teacher_classes()
 returns jsonb language plpgsql security definer set search_path = public as $$
 begin
+  if not is_teacher() then return '[]'::jsonb; end if;
   return coalesce((
     select jsonb_agg(row_to_json(r)) from (
       select c.id, c.name, c.enroll_code, col.name as college_name,
              (select count(*) from students s where s.class_id = c.id) as student_count
-        from teacher_classes tc
-        join classes c   on c.id = tc.class_id
+        from classes c
         join colleges col on col.id = c.college_id
-       where tc.teacher_id = auth.uid()
        order by c.name
     ) r
   ), '[]'::jsonb);
 end;
 $$;
 
--- A class roster (only if the caller owns the class).
+-- A class roster (any teacher may view any class).
 create or replace function public.teacher_class_roster(p_class_id uuid)
 returns jsonb language plpgsql security definer set search_path = public as $$
 declare v_week text := iso_week(); v_students jsonb;
 begin
-  if not owns_class(p_class_id) then raise exception 'not your class'; end if;
+  if not is_teacher() then raise exception 'teachers only'; end if;
   select coalesce(jsonb_agg(row_to_json(r)), '[]'::jsonb) into v_students from (
     select s.id, s.name, s.last_sync_at,
            coalesce(sum(tp.attempts), 0)::int as attempts,
@@ -292,11 +301,9 @@ create or replace function public.teacher_student_detail(p_student_id uuid)
 returns jsonb language plpgsql security definer set search_path = public as $$
 declare v_class uuid; v_topics jsonb; v_att int; v_cor int; v_s students%rowtype;
 begin
+  if not is_teacher() then raise exception 'teachers only'; end if;
   select * into v_s from students where id = p_student_id;
   if not found then raise exception 'unknown student'; end if;
-  if v_s.class_id is null or not owns_class(v_s.class_id) then
-    raise exception 'not your student';
-  end if;
   select coalesce(sum(attempts),0), coalesce(sum(correct),0) into v_att, v_cor
     from topic_progress where student_id = p_student_id;
   select coalesce(jsonb_agg(row_to_json(r)), '[]'::jsonb) into v_topics from (
