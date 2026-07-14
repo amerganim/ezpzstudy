@@ -13,6 +13,7 @@ import '../leaderboard/leaderboard_screen.dart';
 import '../progress/students_progress_screen.dart';
 import '../session/session_screen.dart';
 import '../sync/sync_screen.dart';
+import '../templates/templates_screen.dart';
 import '../topics/topic_list_screen.dart';
 
 /// Home: streak, the diagnostic CTA (or its results — predicted score + Focus
@@ -148,6 +149,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   icon: Icons.menu_book_rounded,
                   label: Bn.practiceByTopic,
                   onTap: () => _open(const TopicListScreen()),
+                ),
+                const SizedBox(height: 14),
+                _BigActionButton(
+                  icon: Icons.auto_fix_high_rounded,
+                  label: Bn.templatesHome,
+                  onTap: () => _open(const TemplatesScreen()),
                 ),
                 const SizedBox(height: 14),
                 _BigActionButton(

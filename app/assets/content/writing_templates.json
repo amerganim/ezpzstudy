@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "note": "Ready-made HSC writing templates for weak students. Each template is a fixed skeleton of exam-safe English with a few {slots}. A student fills the slots (mainly the topic name) and gets a complete, structured answer worth roughly 50-60% marks. Placeholders in `skeleton` use {key}; when a slot is empty the app shows its `example` so a full model answer is always visible.",
+  "templates": [
+    {
+      "id": "para_any",
+      "category": "paragraph",
+      "category_bn": "Paragraph (অনুচ্ছেদ)",
+      "title_bn": "Paragraph — যেকোনো বিষয়ে",
+      "marks": 15,
+      "intro_bn": "যেকোনো সাধারণ বিষয়ে (Tree Plantation, Internet, Physical Exercise, ইত্যাদি) এই ফরম্যাটে শুধু বিষয়ের নাম আর ৩টি পয়েন্ট বসিয়ে দাও। connector গুলো (Firstly, Secondly, Moreover) না বদলে রেখে দিলেই গঠন (structure) এর নম্বর পাবে।",
+      "slots": [
+        {"key": "topic", "label_bn": "বিষয়ের নাম", "example": "Tree Plantation"},
+        {"key": "topic_def", "label_bn": "বিষয়টি কী (এক লাইনে)", "example": "Tree plantation means planting more and more trees"},
+        {"key": "point1", "label_bn": "১ম উপকার/পয়েন্ট", "example": "trees give us oxygen and fresh air"},
+        {"key": "point2", "label_bn": "২য় উপকার/পয়েন্ট", "example": "they save us from floods, cyclones and other natural disasters"},
+        {"key": "point3", "label_bn": "৩য় উপকার/পয়েন্ট", "example": "trees give us fruits, wood, medicine and shade"}
+      ],
+      "skeleton": "{topic} is a very important matter in our country. {topic_def}. It is now a common topic of discussion everywhere. {topic} is important for several reasons. Firstly, {point1}. Secondly, {point2}. Moreover, {point3}. In addition, it helps our society and country to develop in many ways. However, we should also be careful about its problems and misuse. In conclusion, {topic} plays a vital role in our life, so everyone should give it proper importance.",
+      "tips_bn": [
+        "শুরুর আর শেষের বাক্য প্রায় সব বিষয়ে খাটে — মুখস্থ রাখো।",
+        "৩টি পয়েন্ট ছোট ও সহজ ইংরেজিতে লেখো, বানান ঠিক রাখো।",
+        "১২০–১৫০ শব্দ হলেই যথেষ্ট।"
+      ]
+    },
+    {
+      "id": "para_problem",
+      "category": "paragraph",
+      "category_bn": "Paragraph (অনুচ্ছেদ)",
+      "title_bn": "Paragraph — সমস্যা/কারণ-ফল ধরনের",
+      "marks": 15,
+      "intro_bn": "সমস্যাভিত্তিক বিষয়ের জন্য (Load Shedding, Price Hike, Traffic Jam, Environment Pollution)। কারণ (cause) আর ফল (effect) আলাদা করে দেখালে ভালো নম্বর ওঠে।",
+      "slots": [
+        {"key": "topic", "label_bn": "সমস্যার নাম", "example": "Load Shedding"},
+        {"key": "def", "label_bn": "সমস্যাটি কী", "example": "the sudden failure of electricity supply is called load shedding"},
+        {"key": "cause1", "label_bn": "প্রধান কারণ", "example": "we produce less electricity than we need"},
+        {"key": "cause2", "label_bn": "আরেকটি কারণ", "example": "system loss and wastage of electricity"},
+        {"key": "effect1", "label_bn": "একটি খারাপ ফল", "example": "students cannot study and mills and factories stop working"},
+        {"key": "effect2", "label_bn": "আরেকটি খারাপ ফল", "example": "people suffer a lot in the hot summer days"},
+        {"key": "solution", "label_bn": "সমাধান", "example": "the government should produce more electricity and we should not waste it"}
+      ],
+      "skeleton": "{topic} is a common problem in our country. In fact, {def}. There are many causes behind it. The main cause is that {cause1}. Besides, {cause2} is also responsible for it. This problem has many bad effects on our life. Because of {topic}, {effect1}. Moreover, {effect2}. However, the problem can be solved. To solve it, {solution}. In conclusion, we all should work together to remove {topic} from our country.",
+      "tips_bn": [
+        "cause আর effect আলাদা করে লেখা পরীক্ষকের চোখে ভালো লাগে।",
+        "শেষে একটি সমাধান দিলে নম্বর বাড়ে।"
+      ]
+    },
+    {
+      "id": "letter_informal",
+      "category": "letter",
+      "category_bn": "Letter (চিঠি)",
+      "title_bn": "Informal Letter — বন্ধুকে চিঠি",
+      "marks": 10,
+      "intro_bn": "বন্ধুকে লেখা চিঠি (কোনো বিষয়ে পরামর্শ, নিজের কলেজের বর্ণনা, অভিনন্দন ইত্যাদি)। উপরের ঠিকানা-তারিখ আর নিচের ইতি-অংশ একদম ফিক্সড — শুধু মাঝের ৩ লাইন বদলাও।",
+      "slots": [
+        {"key": "place", "label_bn": "তোমার জায়গা", "example": "Rajshahi"},
+        {"key": "date", "label_bn": "তারিখ", "example": "12 May 2026"},
+        {"key": "friend", "label_bn": "বন্ধুর নাম", "example": "Rahim"},
+        {"key": "subject", "label_bn": "চিঠির বিষয়", "example": "the importance of reading books"},
+        {"key": "body1", "label_bn": "১ম বাক্য", "example": "Reading books is a very good habit"},
+        {"key": "body2", "label_bn": "২য় বাক্য", "example": "It increases our knowledge and makes our mind bright"},
+        {"key": "body3", "label_bn": "৩য় বাক্য", "example": "So you should read good books every day in your free time"},
+        {"key": "name", "label_bn": "তোমার নাম", "example": "Karim"}
+      ],
+      "skeleton": "{place}\n{date}\n\nDear {friend},\nI hope you are well by the grace of Allah. I have not heard from you for a long time. Today I want to tell you about {subject}.\n\n{body1}. {body2}. {body3}.\n\nNo more today. Convey my regards to your parents and love to the younger ones. Write to me soon.\n\nYours ever,\n{name}",
+      "tips_bn": [
+        "উপরের ঠিকানা-তারিখ আর নিচের 'Yours ever' অংশ কখনো বদলাবে না।",
+        "খামের অংশ (envelope) লিখতে বললে নিচে বন্ধুর নাম-ঠিকানা যোগ করো।"
+      ]
+    },
+    {
+      "id": "application",
+      "category": "letter",
+      "category_bn": "Letter (চিঠি)",
+      "title_bn": "Application — অধ্যক্ষ বরাবর দরখাস্ত",
+      "marks": 10,
+      "intro_bn": "যেকোনো দরখাস্ত (ছাড়পত্র, আসন, অসুস্থতার ছুটি, কমন রুম, ফি মওকুফ)। শুধু Subject আর কারণ বদলাও — বাকি সব ফিক্সড।",
+      "slots": [
+        {"key": "date", "label_bn": "তারিখ", "example": "12 May 2026"},
+        {"key": "college", "label_bn": "কলেজের নাম", "example": "Rajshahi Govt. College"},
+        {"key": "place", "label_bn": "জায়গা", "example": "Rajshahi"},
+        {"key": "subject", "label_bn": "দরখাস্তের বিষয়", "example": "Application for a seat in the college hostel"},
+        {"key": "reason", "label_bn": "মূল কারণ", "example": "my house is far from the college and I face great trouble to attend classes in time"},
+        {"key": "request", "label_bn": "তুমি যা চাইছ", "example": "grant me a seat in the college hostel"},
+        {"key": "name", "label_bn": "তোমার নাম", "example": "Md. Karim"},
+        {"key": "class", "label_bn": "শ্রেণি", "example": "HSC 1st Year"},
+        {"key": "roll", "label_bn": "রোল", "example": "15"}
+      ],
+      "skeleton": "Date: {date}\n\nTo\nThe Principal\n{college}\n{place}\n\nSubject: {subject}.\n\nSir,\nI have the honour to state that {reason}. For this reason I am in great need of your kind help.\n\nI, therefore, pray and hope that you would be kind enough to {request} and oblige thereby.\n\nI remain,\nSir,\nYour most obedient student,\n{name}\nClass: {class}\nRoll: {roll}",
+      "tips_bn": [
+        "'I have the honour to state that' আর 'I, therefore, pray and hope' — এই দুই লাইন মুখস্থ রাখো, সব দরখাস্তে লাগে।",
+        "Subject লাইনটা স্পষ্ট করে লেখো।"
+      ]
+    },
+    {
+      "id": "email_formal",
+      "category": "letter",
+      "category_bn": "Letter (চিঠি)",
+      "title_bn": "Email — আনুষ্ঠানিক ইমেইল",
+      "marks": 10,
+      "intro_bn": "অধ্যক্ষ বা কোনো কর্তৃপক্ষকে ইমেইল। To/Subject অংশ ঠিক রেখে শুধু বিষয় ও অনুরোধ বদলাও।",
+      "slots": [
+        {"key": "to_email", "label_bn": "প্রাপকের ইমেইল", "example": "principal@rgc.edu.bd"},
+        {"key": "subject", "label_bn": "বিষয়", "example": "Prayer for a testimonial"},
+        {"key": "reason", "label_bn": "কারণ", "example": "I have passed the HSC examination and need a testimonial for admission into a university"},
+        {"key": "request", "label_bn": "অনুরোধ", "example": "issue me a testimonial"},
+        {"key": "name", "label_bn": "তোমার নাম", "example": "Md. Karim"},
+        {"key": "class", "label_bn": "শ্রেণি/রোল", "example": "HSC 2nd Year, Roll 15"}
+      ],
+      "skeleton": "To: {to_email}\nSubject: {subject}\n\nSir,\nMost respectfully, I beg to state that {reason}. So I need your kind help in this matter.\n\nI, therefore, request you to {request} and oblige thereby.\n\nSincerely yours,\n{name}\n{class}",
+      "tips_bn": [
+        "To আর Subject লাইন অবশ্যই লিখবে — না লিখলে নম্বর কাটে।",
+        "ভাষা দরখাস্তের মতোই ভদ্র ও সংক্ষিপ্ত রাখো।"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "category": "dialogue",
+      "category_bn": "Dialogue (সংলাপ)",
+      "title_bn": "Dialogue — দুইজনের কথোপকথন",
+      "marks": 10,
+      "intro_bn": "দুই বন্ধু/দুইজনের মধ্যে যেকোনো বিষয়ে সংলাপ। শুরু ও শেষের সৌজন্য অংশ ফিক্সড — মাঝে বিষয়ের ২টি পয়েন্ট বসাও।",
+      "slots": [
+        {"key": "me", "label_bn": "তুমি (নাম)", "example": "Karim"},
+        {"key": "friend", "label_bn": "বন্ধুর নাম", "example": "Rahim"},
+        {"key": "topic", "label_bn": "কথার বিষয়", "example": "the importance of physical exercise"},
+        {"key": "point1", "label_bn": "১ম কথা", "example": "Physical exercise keeps our body fit and mind fresh"},
+        {"key": "point2", "label_bn": "২য় কথা", "example": "We should walk or do some exercise every morning"}
+      ],
+      "skeleton": "{me}: Hello {friend}! How are you?\n{friend}: I am fine, thank you. And you?\n{me}: I am also fine. Today I want to talk with you about {topic}.\n{friend}: That is a good topic. Please tell me something about it.\n{me}: {point1}.\n{friend}: You are right. What should we do then?\n{me}: {point2}.\n{friend}: Thank you for your nice advice.\n{me}: You are most welcome. See you again.\n{friend}: See you. Goodbye.",
+      "tips_bn": [
+        "প্রতিটি লাইনের আগে নাম আর কোলন (:) দিতে ভুলো না।",
+        "শুরু ও শেষের সৌজন্য (Hello / Goodbye) অংশ সব সংলাপে একই থাকে।"
+      ]
+    },
+    {
+      "id": "story",
+      "category": "story",
+      "category_bn": "Story (গল্প)",
+      "title_bn": "Story — গল্প লেখা/সম্পূর্ণ করা",
+      "marks": 15,
+      "intro_bn": "নীতিকথামূলক গল্প (The Thirsty Crow, A Liar Shepherd, Unity is Strength ইত্যাদি)। শুরু-মাঝ-শেষ-নীতিকথা এই ৪ ধাপ ধরে লেখো।",
+      "slots": [
+        {"key": "title", "label_bn": "গল্পের নাম", "example": "The Thirsty Crow"},
+        {"key": "character", "label_bn": "প্রধান চরিত্র", "example": "a thirsty crow"},
+        {"key": "beginning", "label_bn": "শুরু (কী হলো)", "example": "It was a very hot day and the crow was flying here and there in search of water"},
+        {"key": "event", "label_bn": "মূল ঘটনা", "example": "at last it found a jar with a little water at the bottom, but its beak could not reach the water"},
+        {"key": "development", "label_bn": "সে কী করল", "example": "the crow thought for a while and began to drop small pieces of stone into the jar one by one"},
+        {"key": "result", "label_bn": "শেষে যা হলো", "example": "slowly the water rose up and the clever crow drank the water and flew away happily"},
+        {"key": "moral", "label_bn": "নীতিকথা", "example": "Where there is a will, there is a way"}
+      ],
+      "skeleton": "{title}\n\nOnce upon a time, there was {character}. In the beginning, {beginning}. Then {event}. But it did not give up hope. {development}. At last, {result}. So, we can learn a good lesson from this story.\n\nMoral: {moral}.",
+      "tips_bn": [
+        "গল্প past tense-এ লেখো (was, found, thought)।",
+        "শেষে অবশ্যই 'Moral:' দিয়ে একটি নীতিকথা লেখো — এতে নম্বর বাড়ে।"
+      ]
+    },
+    {
+      "id": "graph",
+      "category": "graph",
+      "category_bn": "Graph / Chart (লেখচিত্র)",
+      "title_bn": "Graph / Chart — লেখচিত্রের বর্ণনা",
+      "marks": 15,
+      "intro_bn": "যেকোনো graph/chart/table বর্ণনার জন্য। প্রথমে কী দেখাচ্ছে বলো, তারপর সবচেয়ে বেশি ও কম, তারপর একটি তুলনা।",
+      "slots": [
+        {"key": "what", "label_bn": "গ্রাফটি কী দেখাচ্ছে", "example": "the number of students who use the internet for different purposes"},
+        {"key": "highest", "label_bn": "সবচেয়ে বেশি", "example": "most of the students, about 60%, use the internet for study"},
+        {"key": "lowest", "label_bn": "সবচেয়ে কম", "example": "only 10% of them use it for online business"},
+        {"key": "compare", "label_bn": "একটি তুলনা", "example": "25% use it for entertainment, which is higher than online business but lower than study"},
+        {"key": "topic", "label_bn": "সংক্ষেপে বিষয়", "example": "the internet use of the students"}
+      ],
+      "skeleton": "The graph shows {what}. It is seen from the graph that {highest}. On the other hand, {lowest}. Besides, {compare}. From the above discussion, we get a clear idea about {topic}.",
+      "tips_bn": [
+        "'The graph shows' আর 'It is seen from the graph that' — এই শুরুর দুই লাইন মুখস্থ রাখো।",
+        "সংখ্যা/শতাংশ (%) উল্লেখ করলে নম্বর ভালো ওঠে।"
+      ]
+    }
+  ]
+}

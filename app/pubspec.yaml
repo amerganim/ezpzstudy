@@ -41,3 +41,5 @@ flutter:
     # Compiled topic map (weights + remedial links) — generated from
     # content/topic-map/topic-map.yaml via `content-pipeline topic-map`.
     - assets/content/topic_map.json
+    # Ready-made fill-in-the-topic writing templates (Magic Templates section).
+    - assets/content/writing_templates.json

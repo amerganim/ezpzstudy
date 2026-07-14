@@ -8,6 +8,7 @@ import 'data/question_repository.dart';
 import 'data/remote/sync_service.dart';
 import 'data/remote/sync_state_store.dart';
 import 'data/topic_map_repository.dart';
+import 'data/writing_templates_repository.dart';
 import 'engine/insights_service.dart';
 import 'engine/scoring/scoring_engine.dart';
 
@@ -24,6 +25,7 @@ class AppServices {
   final ContentLoader contentLoader;
   final ScoringEngine scoring;
   final SyncService sync;
+  final WritingTemplatesRepository writingTemplates;
 
   AppServices._({
     required this.db,
@@ -35,6 +37,7 @@ class AppServices {
     required this.contentLoader,
     required this.scoring,
     required this.sync,
+    required this.writingTemplates,
   });
 
   factory AppServices.create() => AppServices.withDatabase(AppDatabase());
@@ -60,6 +63,7 @@ class AppServices {
             progress: progress,
             store: SyncStateStore(db),
           ),
+      writingTemplates: WritingTemplatesRepository(),
     );
   }
 

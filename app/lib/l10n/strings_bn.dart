@@ -182,6 +182,19 @@ class Bn {
   static const leaderboardOffline = 'লিডারবোর্ড আনা যায়নি — ইন্টারনেট দেখো';
   static const classLeaderboard = 'ক্লাস লিডারবোর্ড';
 
+  // Magic writing templates
+  static const templatesHome = 'রেডিমেড রাইটিং টেমপ্লেট';
+  static const templatesTitle = 'ম্যাজিক রাইটিং টেমপ্লেট';
+  static const templatesIntro =
+      'শুধু বিষয়ের নাম বসাও — পুরো লেখা তৈরি! এই ফরম্যাটগুলো মুখস্থ করলে '
+      'দুর্বল শিক্ষার্থীও লেখায় ৫০–৬০% নম্বর তুলতে পারবে।';
+  static const templateFillTitle = 'ঘরগুলো পূরণ করো';
+  static const templateFillHint = 'খালি রাখলে নমুনা লেখা দেখাবে';
+  static const templateReadyTitle = 'তোমার তৈরি লেখা';
+  static const templateTipsTitle = 'পরীক্ষার টিপস';
+  static const copyText = 'কপি করো';
+  static const copied = 'লেখা কপি হয়েছে';
+
   // Misc
   static const loading = 'লোড হচ্ছে...';
   static const nothingHere = 'এখানে এখনো কিছু নেই';
