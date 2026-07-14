@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required in release builds for sync, leaderboard and the teacher
+         dashboard to reach Supabase. (Flutter only adds this to the debug
+         manifest by default.) Practice itself works fully offline. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:label="ezpzstudy"
         android:name="${applicationName}"

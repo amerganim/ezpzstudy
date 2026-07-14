@@ -1,5 +1,7 @@
+import 'package:supabase_flutter/supabase_flutter.dart';
+
 import '../progress_repository.dart';
-import 'api_client.dart';
+import 'api_client.dart' show ApiException, TeacherClass, ClassRoster, StudentDetail, Leaderboard;
 import 'sync_state_store.dart';
 
 /// The result of a sync attempt. Everything except [success] is non-fatal:
@@ -14,141 +16,177 @@ class SyncOutcome {
   bool get isSuccess => status == SyncStatus.success;
 }
 
-/// Syncs aggregated progress to the backend. Deliberately queue-free: because
-/// /sync sends cumulative aggregates and the server replaces them idempotently,
-/// the local DB *is* the durable queue. A failed (offline) sync loses nothing —
-/// the next attempt sends the current cumulative state. Sync never blocks
-/// practice; all errors are swallowed into a [SyncOutcome].
+/// Supabase-backed sync + teacher dashboard client (Option B, `supabase-native`
+/// branch). Replaces the HTTP calls to the Node server with Supabase Auth +
+/// RPC. Offline-first is preserved: the local Drift DB holds all progress, and
+/// every sync sends cumulative aggregates that the `sync_progress` function
+/// replaces idempotently, so a failed sync loses nothing.
+///
+/// Auth: students use anonymous sign-in (free, no OTP); teachers use email +
+/// password. One session per device; a device is a student's or a teacher's.
 class SyncService {
-  final ApiClient api;
   final ProgressRepository progress;
   final SyncStateStore store;
 
-  const SyncService({
-    required this.api,
-    required this.progress,
-    required this.store,
-  });
+  const SyncService({required this.progress, required this.store});
+
+  // Accessed lazily so tests that never sync don't require Supabase.initialize.
+  SupabaseClient get _sb => Supabase.instance.client;
 
   Future<bool> isLoggedIn() async {
-    final token = await store.token();
-    return token != null && token.isNotEmpty;
+    final u = _sb.auth.currentUser;
+    return u != null && u.isAnonymous;
   }
 
   Future<DateTime?> lastSyncAt() => store.lastSyncAt();
 
-  /// Logs in by phone (find-or-create on the server) and stores the session.
-  /// Throws [ApiException] so the login UI can show a real error; sync itself
-  /// never throws.
+  /// Student login: anonymous sign-in, set profile, optionally join a class.
+  /// Throws [ApiException] (e.g. bad enrolment code) so the UI can show it.
   Future<void> login({
     required String phone,
     String? name,
-    String? schoolCode,
+    String? schoolCode, // unused on Supabase; class code replaces it
     String? enrollCode,
   }) async {
-    final result = await api.authenticate(
-      phone: phone,
-      name: name,
-      schoolCode: schoolCode,
-      enrollCode: enrollCode,
-    );
-    await store.saveSession(result.token, result.studentId);
+    try {
+      final u = _sb.auth.currentUser;
+      if (u == null) {
+        await _sb.auth.signInAnonymously();
+      } else if (!u.isAnonymous) {
+        await _sb.auth.signOut();
+        await _sb.auth.signInAnonymously();
+      }
+      await _sb.rpc('upsert_student', params: {
+        'p_name': name ?? '',
+        'p_phone': phone,
+      });
+      if (enrollCode != null && enrollCode.trim().isNotEmpty) {
+        await _sb.rpc('join_class', params: {'p_code': enrollCode.trim()});
+      }
+    } on PostgrestException catch (e) {
+      throw ApiException(e.message);
+    } on AuthException catch (e) {
+      throw ApiException(e.message);
+    }
   }
 
-  Future<void> logout() => store.clear();
+  Future<void> logout() async {
+    await _sb.auth.signOut();
+    await store.clear();
+  }
 
   // ── Teacher session ────────────────────────────────────────────────────────
 
   Future<bool> isTeacherLoggedIn() async {
-    final t = await store.teacherToken();
-    return t != null && t.isNotEmpty;
+    final u = _sb.auth.currentUser;
+    return u != null && !u.isAnonymous;
   }
 
-  /// Throws [ApiException] on bad credentials / network so the login UI can show
-  /// a real error.
+  /// Teacher login by email + password (signs up on first use). Throws
+  /// [ApiException] on bad credentials / unconfirmed email.
   Future<void> teacherLogin({
-    required String phone,
+    required String email,
     required String password,
   }) async {
-    final token = await api.teacherAuthenticate(phone: phone, password: password);
-    await store.saveTeacherToken(token);
+    try {
+      try {
+        await _sb.auth.signInWithPassword(email: email.trim(), password: password);
+      } on AuthException {
+        // No such account yet → create one (email confirmation is disabled for
+        // the pilot, so this yields a session immediately).
+        await _sb.auth.signUp(email: email.trim(), password: password);
+      }
+      if (_sb.auth.currentUser == null) {
+        throw const ApiException('could not sign in');
+      }
+      await _sb.rpc('ensure_teacher', params: {'p_name': '', 'p_phone': ''});
+    } on AuthException catch (e) {
+      throw ApiException(e.message);
+    } on PostgrestException catch (e) {
+      throw ApiException(e.message);
+    }
   }
 
-  Future<void> teacherLogout() => store.clearTeacher();
+  Future<void> teacherLogout() => _sb.auth.signOut();
 
   Future<List<TeacherClass>> teacherClasses() async {
-    final token = await store.teacherToken();
-    if (token == null || token.isEmpty) throw const ApiException('not logged in');
-    return api.teacherClasses(token: token);
+    final res = await _sb.rpc('my_teacher_classes');
+    return (res as List<dynamic>)
+        .map((e) => TeacherClass.fromJson(Map<String, dynamic>.from(e as Map)))
+        .toList();
   }
 
   Future<ClassRoster> classRoster(String classId) async {
-    final token = await store.teacherToken();
-    if (token == null || token.isEmpty) throw const ApiException('not logged in');
-    return api.classRoster(token: token, classId: classId);
+    final res = await _sb.rpc('teacher_class_roster', params: {'p_class_id': classId});
+    return ClassRoster.fromJson(Map<String, dynamic>.from(res as Map));
   }
 
   Future<StudentDetail> studentDetail(String studentId) async {
-    final token = await store.teacherToken();
-    if (token == null || token.isEmpty) throw const ApiException('not logged in');
-    return api.studentDetail(token: token, studentId: studentId);
+    final res =
+        await _sb.rpc('teacher_student_detail', params: {'p_student_id': studentId});
+    return StudentDetail.fromJson(Map<String, dynamic>.from(res as Map));
   }
 
-  /// Fetches this week's class leaderboard. Returns null if not logged in or the
-  /// server is unreachable — the UI shows a friendly state rather than an error.
+  /// This week's class leaderboard, or null if not logged in / unreachable.
   Future<Leaderboard?> fetchLeaderboard() async {
-    final token = await store.token();
-    if (token == null || token.isEmpty) return null;
+    if (!await isLoggedIn()) return null;
     try {
-      return await api.leaderboard(token: token);
-    } on ApiException {
+      final res = await _sb.rpc('my_leaderboard');
+      final lb = Leaderboard.fromJson(Map<String, dynamic>.from(res as Map));
+      if (lb.myRank == null) {
+        for (final e in lb.entries) {
+          if (e.isMe) {
+            return Leaderboard(
+              scoped: lb.scoped,
+              week: lb.week,
+              entries: lb.entries,
+              myRank: e.rank,
+              myPoints: e.points,
+            );
+          }
+        }
+      }
+      return lb;
+    } catch (_) {
       return null;
     }
   }
 
-  /// Pushes the current aggregates to the server. Safe to call anytime; returns
-  /// an outcome rather than throwing.
+  /// Pushes the current cumulative aggregates. Safe anytime; returns an outcome
+  /// rather than throwing.
   Future<SyncOutcome> syncNow() async {
-    final token = await store.token();
-    if (token == null || token.isEmpty) {
+    if (!await isLoggedIn()) {
       return const SyncOutcome(SyncStatus.notLoggedIn);
     }
-
     final snapshot = await progress.snapshot();
-    final payload = SyncPayload(
-      since: await store.lastSyncAt(),
-      streakDays: snapshot.streakDays,
-      sessions: snapshot.totalSessions,
-      topics: [
-        for (final t in snapshot.topics)
-          SyncTopic(
-            topic: t.topic,
-            attempts: t.attempts,
-            correct: t.correct,
-            lastPracticed: t.lastPracticed,
-          ),
-      ],
-    );
-
+    final topics = [
+      for (final t in snapshot.topics)
+        {
+          'topic': t.topic,
+          'attempts': t.attempts,
+          'correct': t.correct,
+          if (t.lastPracticed != null)
+            'last_practiced': t.lastPracticed!.toUtc().toIso8601String(),
+        },
+    ];
     try {
-      await api.sync(token: token, payload: payload);
+      await _sb.rpc('sync_progress', params: {
+        'p_topics': topics,
+        'p_streak': snapshot.streakDays,
+        'p_sessions': snapshot.totalSessions,
+      });
       await store.markSynced(DateTime.now());
       return const SyncOutcome(SyncStatus.success);
-    } on ApiException catch (e) {
-      if (e.isNetwork) {
-        return SyncOutcome(SyncStatus.offline, message: e.message);
-      }
-      // An expired/invalid token: drop the session so the student can re-login.
-      if (e.statusCode == 401) {
-        await store.clear();
-      }
+    } on PostgrestException catch (e) {
       return SyncOutcome(SyncStatus.error, message: e.message);
+    } catch (e) {
+      // Transport failure (offline, DNS, timeout) — practice is unaffected.
+      return SyncOutcome(SyncStatus.offline, message: e.toString());
     }
   }
 
-  /// Fire-and-forget sync used on app resume: only attempts if logged in and it
-  /// has been at least [minInterval] since the last successful sync. Never
-  /// throws; returns the outcome for callers that care.
+  /// Fire-and-forget sync on app resume: only if logged in and it has been at
+  /// least [minInterval] since the last success. Never throws.
   Future<SyncOutcome> maybeSync(
       {Duration minInterval = const Duration(hours: 6)}) async {
     if (!await isLoggedIn()) {
@@ -156,7 +194,7 @@ class SyncService {
     }
     final last = await store.lastSyncAt();
     if (last != null && DateTime.now().difference(last) < minInterval) {
-      return const SyncOutcome(SyncStatus.success); // recently synced
+      return const SyncOutcome(SyncStatus.success);
     }
     return syncNow();
   }

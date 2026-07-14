@@ -5,20 +5,11 @@ import 'data/db/database.dart';
 import 'data/flashcard_repository.dart';
 import 'data/progress_repository.dart';
 import 'data/question_repository.dart';
-import 'data/remote/api_client.dart';
 import 'data/remote/sync_service.dart';
 import 'data/remote/sync_state_store.dart';
 import 'data/topic_map_repository.dart';
 import 'engine/insights_service.dart';
 import 'engine/scoring/scoring_engine.dart';
-
-/// Backend base URL, set at build time with
-/// `--dart-define=EZPZ_SERVER_URL=...`. Defaults to the pilot domain; practice
-/// works fully offline regardless of whether this is reachable.
-const String kServerBaseUrl = String.fromEnvironment(
-  'EZPZ_SERVER_URL',
-  defaultValue: 'https://api.ezpzstudy.com',
-);
 
 /// Composition root: the single place the app's services are constructed and
 /// wired together. Exposed to the widget tree via an [InheritedWidget] so
@@ -66,7 +57,6 @@ class AppServices {
       scoring: const ScoringEngine(),
       sync: syncService ??
           SyncService(
-            api: ApiClient(baseUrl: kServerBaseUrl),
             progress: progress,
             store: SyncStateStore(db),
           ),

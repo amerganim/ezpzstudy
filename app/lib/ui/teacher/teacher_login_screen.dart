@@ -16,7 +16,7 @@ class TeacherLoginScreen extends StatefulWidget {
 }
 
 class _TeacherLoginScreenState extends State<TeacherLoginScreen> {
-  final _phone = TextEditingController();
+  final _email = TextEditingController();
   final _password = TextEditingController();
   bool _busy = false;
 
@@ -32,7 +32,7 @@ class _TeacherLoginScreenState extends State<TeacherLoginScreen> {
 
   @override
   void dispose() {
-    _phone.dispose();
+    _email.dispose();
     _password.dispose();
     super.dispose();
   }
@@ -44,12 +44,12 @@ class _TeacherLoginScreenState extends State<TeacherLoginScreen> {
   }
 
   Future<void> _login() async {
-    final phone = _phone.text.trim();
+    final email = _email.text.trim();
     final pass = _password.text;
-    if (phone.isEmpty || pass.isEmpty) return;
+    if (email.isEmpty || pass.isEmpty) return;
     setState(() => _busy = true);
     try {
-      await _sync.teacherLogin(phone: phone, password: pass);
+      await _sync.teacherLogin(email: email, password: pass);
       if (mounted) _goDashboard();
     } on ApiException {
       if (mounted) {
@@ -72,10 +72,11 @@ class _TeacherLoginScreenState extends State<TeacherLoginScreen> {
           const Text('👩‍🏫', style: TextStyle(fontSize: 56), textAlign: TextAlign.center),
           const SizedBox(height: 24),
           TextField(
-            controller: _phone,
-            keyboardType: TextInputType.phone,
+            controller: _email,
+            keyboardType: TextInputType.emailAddress,
+            autocorrect: false,
             decoration: InputDecoration(
-              labelText: Bn.phoneLabel,
+              labelText: Bn.emailLabel,
               border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
             ),
           ),

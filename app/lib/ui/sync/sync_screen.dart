@@ -21,7 +21,6 @@ class SyncScreen extends StatefulWidget {
 class _SyncScreenState extends State<SyncScreen> {
   final _phone = TextEditingController();
   final _name = TextEditingController();
-  final _schoolCode = TextEditingController();
   final _enrollCode = TextEditingController();
 
   bool _busy = false;
@@ -38,7 +37,6 @@ class _SyncScreenState extends State<SyncScreen> {
   void dispose() {
     _phone.dispose();
     _name.dispose();
-    _schoolCode.dispose();
     _enrollCode.dispose();
     super.dispose();
   }
@@ -73,13 +71,14 @@ class _SyncScreenState extends State<SyncScreen> {
       await _sync.login(
         phone: phone,
         name: _name.text.trim(),
-        schoolCode: _schoolCode.text.trim(),
         enrollCode: _enrollCode.text.trim(),
       );
       final outcome = await _sync.syncNow();
       _toast(_messageFor(outcome));
-    } on ApiException {
-      _toast(Bn.loginError);
+    } on ApiException catch (e) {
+      // Surface the real reason during the pilot (e.g. a Supabase setting) so
+      // it's diagnosable; softened to a friendly line for production later.
+      _toast('${Bn.loginError} — ${e.message}');
     } finally {
       if (mounted) setState(() => _busy = false);
       await _refresh();
@@ -124,15 +123,6 @@ class _SyncScreenState extends State<SyncScreen> {
               style: const TextStyle(fontSize: 15, color: Colors.black54)),
           const SizedBox(height: 20),
           if (_loggedIn) _loggedInView() else _loginView(),
-          const SizedBox(height: 28),
-          const Divider(),
-          const SizedBox(height: 4),
-          TextButton.icon(
-            onPressed: () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (_) => const TeacherLoginScreen())),
-            icon: const Icon(Icons.school_outlined),
-            label: const Text(Bn.teacherLoginLink),
-          ),
         ],
       ),
     );
@@ -146,8 +136,6 @@ class _SyncScreenState extends State<SyncScreen> {
         const SizedBox(height: 12),
         _field(_name, Bn.nameLabel),
         const SizedBox(height: 12),
-        _field(_schoolCode, Bn.schoolCodeLabel),
-        const SizedBox(height: 12),
         _field(_enrollCode, Bn.enrollCodeLabel),
         const SizedBox(height: 20),
         FilledButton(
@@ -156,6 +144,17 @@ class _SyncScreenState extends State<SyncScreen> {
               ? const SizedBox(
                   height: 22, width: 22, child: CircularProgressIndicator(strokeWidth: 2))
               : const Text(Bn.loginAndSync),
+        ),
+        const SizedBox(height: 24),
+        const Divider(),
+        TextButton.icon(
+          onPressed: _busy
+              ? null
+              : () => Navigator.of(context).push(MaterialPageRoute(
+                    builder: (_) => const TeacherLoginScreen(),
+                  )),
+          icon: const Icon(Icons.school_outlined),
+          label: const Text(Bn.teacherLoginLink),
         ),
       ],
     );

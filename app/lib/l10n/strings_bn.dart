@@ -124,6 +124,7 @@ class Bn {
   // Teacher mode
   static const teacherLoginLink = 'আমি একজন শিক্ষক';
   static const teacherLoginTitle = 'শিক্ষক লগইন';
+  static const emailLabel = 'ইমেইল';
   static const passwordLabel = 'পাসওয়ার্ড';
   static const teacherLoginButton = 'লগইন করো';
   static const teacherLoginError = 'ফোন বা পাসওয়ার্ড ভুল';
