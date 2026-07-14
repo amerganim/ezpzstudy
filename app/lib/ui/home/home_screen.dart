@@ -10,6 +10,7 @@ import '../flashcards/flashcard_screen.dart';
 import '../insights/focus_area_list.dart';
 import '../insights/predicted_score_card.dart';
 import '../leaderboard/leaderboard_screen.dart';
+import '../progress/students_progress_screen.dart';
 import '../session/session_screen.dart';
 import '../sync/sync_screen.dart';
 import '../topics/topic_list_screen.dart';
@@ -42,7 +43,14 @@ class _HomeScreenState extends State<HomeScreen> {
     final services = AppServices.of(context);
     final snapshot = await services.progress.snapshot();
     final insights = await services.insights.load();
-    return _HomeData(snapshot: snapshot, insights: insights);
+    final saved = await services.sync.isLoggedIn();
+    final lastSync = await services.sync.lastSyncAt();
+    return _HomeData(
+      snapshot: snapshot,
+      insights: insights,
+      progressSaved: saved,
+      lastSync: lastSync,
+    );
   }
 
   void _refresh() {
@@ -94,31 +102,25 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.all(20),
               children: [
                 const SizedBox(height: 8),
-                Row(
-                  children: [
-                    Expanded(
-                      child: Text(
-                        Bn.appName,
-                        style: TextStyle(
-                          fontSize: 26,
-                          fontWeight: FontWeight.w800,
-                          color: AppTheme.accentDark,
-                        ),
-                      ),
-                    ),
-                    IconButton(
-                      tooltip: Bn.syncTitle,
-                      icon: const Icon(Icons.cloud_sync_outlined,
-                          color: AppTheme.accentDark),
-                      onPressed: () => _open(const SyncScreen()),
-                    ),
-                  ],
+                Text(
+                  Bn.appName,
+                  style: TextStyle(
+                    fontSize: 26,
+                    fontWeight: FontWeight.w800,
+                    color: AppTheme.accentDark,
+                  ),
                 ),
                 const SizedBox(height: 4),
                 const Text(Bn.homeGreeting,
                     style: TextStyle(fontSize: 16, color: Colors.black54)),
                 const SizedBox(height: 20),
                 _StreakCard(streakDays: data.snapshot.streakDays),
+                const SizedBox(height: 16),
+                _SaveProgressCard(
+                  saved: data.progressSaved,
+                  lastSync: data.lastSync,
+                  onTap: () => _open(const SyncScreen()),
+                ),
                 const SizedBox(height: 16),
 
                 // Before the diagnostic: a prominent CTA. After: the results.
@@ -161,6 +163,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   filled: false,
                   onTap: () => _open(const LeaderboardScreen()),
                 ),
+                const SizedBox(height: 14),
+                _BigActionButton(
+                  icon: Icons.groups_rounded,
+                  label: Bn.seeAllStudents,
+                  filled: false,
+                  onTap: () => _open(const StudentsProgressScreen()),
+                ),
               ],
             );
           },
@@ -173,7 +182,14 @@ class _HomeScreenState extends State<HomeScreen> {
 class _HomeData {
   final ProgressSnapshot snapshot;
   final Insights insights;
-  const _HomeData({required this.snapshot, required this.insights});
+  final bool progressSaved;
+  final DateTime? lastSync;
+  const _HomeData({
+    required this.snapshot,
+    required this.insights,
+    required this.progressSaved,
+    required this.lastSync,
+  });
 }
 
 class _StreakCard extends StatelessWidget {
@@ -327,20 +343,102 @@ class _WeeklyCard extends StatelessWidget {
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(20),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _Stat(
-                value: Bn.digits(snapshot.totalAttempts),
-                label: Bn.questionsAnswered),
-            _Stat(value: '${Bn.digits(acc)}%', label: Bn.scoreLabel),
-            _Stat(
-                value: Bn.digits(snapshot.totalSessions),
-                label: Bn.thisWeek),
+            const Text(Bn.yourTotals,
+                style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.black54)),
+            const SizedBox(height: 14),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                _Stat(
+                    value: Bn.digits(snapshot.totalAttempts),
+                    label: Bn.questionsAnswered),
+                _Stat(value: '${Bn.digits(acc)}%', label: Bn.scoreLabel),
+                _Stat(
+                    value: Bn.digits(snapshot.totalSessions),
+                    label: Bn.sessionsLabel),
+              ],
+            ),
           ],
         ),
       ),
     );
+  }
+}
+
+/// The prominent, always-visible "save my progress" entry. Grey-outlined until
+/// the student has saved once, then a filled "saving" confirmation with the
+/// last-saved time.
+class _SaveProgressCard extends StatelessWidget {
+  final bool saved;
+  final DateTime? lastSync;
+  final VoidCallback onTap;
+  const _SaveProgressCard({
+    required this.saved,
+    required this.lastSync,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final title = saved ? Bn.progressSavingTitle : Bn.saveProgressCta;
+    final sub = saved
+        ? (lastSync == null
+            ? Bn.neverSynced
+            : '${Bn.lastSynced}: ${_fmt(lastSync!)}')
+        : Bn.saveProgressCtaSub;
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(16),
+      child: Container(
+        padding: const EdgeInsets.all(18),
+        decoration: BoxDecoration(
+          color: saved ? AppTheme.correct.withValues(alpha: 0.10) : AppTheme.accent,
+          borderRadius: BorderRadius.circular(16),
+          border: saved
+              ? Border.all(color: AppTheme.correct.withValues(alpha: 0.5))
+              : null,
+        ),
+        child: Row(
+          children: [
+            Icon(saved ? Icons.cloud_done_rounded : Icons.cloud_upload_rounded,
+                size: 34,
+                color: saved ? AppTheme.correct : Colors.white),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(title,
+                      style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.w800,
+                          color: saved ? AppTheme.accentDark : Colors.white)),
+                  const SizedBox(height: 3),
+                  Text(sub,
+                      style: TextStyle(
+                          fontSize: 12.5,
+                          color: saved ? Colors.black54 : Colors.white70)),
+                ],
+              ),
+            ),
+            Icon(Icons.chevron_right,
+                color: saved ? AppTheme.accent : Colors.white, size: 26),
+          ],
+        ),
+      ),
+    );
+  }
+
+  String _fmt(DateTime t) {
+    final l = t.toLocal();
+    String two(int n) => n.toString().padLeft(2, '0');
+    return '${l.year}-${two(l.month)}-${two(l.day)} ${two(l.hour)}:${two(l.minute)}';
   }
 }
 

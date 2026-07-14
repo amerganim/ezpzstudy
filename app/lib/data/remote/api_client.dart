@@ -142,6 +142,7 @@ class TeacherClass {
 class RosterStudent {
   final String id;
   final String? name;
+  final String? phone;
   final int attempts;
   final int correct;
   final int? accuracy;
@@ -150,6 +151,7 @@ class RosterStudent {
   const RosterStudent({
     required this.id,
     required this.name,
+    required this.phone,
     required this.attempts,
     required this.correct,
     required this.accuracy,
@@ -160,6 +162,7 @@ class RosterStudent {
   factory RosterStudent.fromJson(Map<String, dynamic> j) => RosterStudent(
         id: j['id'] as String,
         name: j['name'] as String?,
+        phone: j['phone'] as String?,
         attempts: (j['attempts'] as num?)?.toInt() ?? 0,
         correct: (j['correct'] as num?)?.toInt() ?? 0,
         accuracy: (j['accuracy'] as num?)?.toInt(),

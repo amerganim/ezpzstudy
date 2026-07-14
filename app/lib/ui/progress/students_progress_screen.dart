@@ -7,79 +7,68 @@ import '../../l10n/strings_bn.dart';
 import '../../l10n/topic_labels.dart';
 import '../../theme/app_theme.dart';
 
-/// The class roster: every enrolled student with their practice rollup, ranked
-/// by this week's points. Shows the enrolment code to share, and opens a
-/// per-student breakdown on tap.
-class ClassRosterScreen extends StatefulWidget {
-  final String classId;
-  final String className;
-  final String enrollCode;
-  const ClassRosterScreen({
-    super.key,
-    required this.classId,
-    required this.className,
-    required this.enrollCode,
-  });
+/// Every student's progress — openable by anyone (teacher, parent) with NO
+/// login. Ranked by this week's points, and taps into a per-student breakdown.
+class StudentsProgressScreen extends StatefulWidget {
+  const StudentsProgressScreen({super.key});
 
   @override
-  State<ClassRosterScreen> createState() => _ClassRosterScreenState();
+  State<StudentsProgressScreen> createState() => _StudentsProgressScreenState();
 }
 
-class _ClassRosterScreenState extends State<ClassRosterScreen> {
-  late Future<ClassRoster> _future;
+class _StudentsProgressScreenState extends State<StudentsProgressScreen> {
+  late Future<List<RosterStudent>> _future;
   SyncService get _sync => AppServices.of(context).sync;
 
   @override
   void initState() {
     super.initState();
-    _future = _sync.classRoster(widget.classId);
+    _future = _sync.allStudents();
   }
 
   Future<void> _reload() async {
-    setState(() => _future = _sync.classRoster(widget.classId));
-    await _future.catchError((_) => throw StateError('shown as retry'));
+    setState(() => _future = _sync.allStudents());
+    await _future.catchError((_) => <RosterStudent>[]);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.className)),
+      appBar: AppBar(title: const Text(Bn.allStudentsTitle)),
       body: RefreshIndicator(
         onRefresh: _reload,
-        child: FutureBuilder<ClassRoster>(
+        child: FutureBuilder<List<RosterStudent>>(
           future: _future,
           builder: (context, snap) {
             if (snap.connectionState != ConnectionState.done) {
               return const Center(child: CircularProgressIndicator());
             }
-            final roster = snap.data;
-            final students = roster?.students ?? const [];
+            if (snap.hasError) {
+              return _CenteredRetry(onRetry: _reload);
+            }
+            final students = snap.data ?? const [];
+            if (students.isEmpty) {
+              return ListView(
+                children: const [
+                  SizedBox(height: 80),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 32),
+                    child: Text(Bn.noStudentsAnywhere,
+                        textAlign: TextAlign.center,
+                        style: TextStyle(fontSize: 15, color: Colors.black54)),
+                  ),
+                ],
+              );
+            }
             return ListView(
               padding: EdgeInsets.fromLTRB(
                   16, 16, 16, MediaQuery.of(context).padding.bottom + 24),
               children: [
-                _CodeBanner(code: widget.enrollCode),
-                const SizedBox(height: 16),
-                if (snap.hasError)
-                  Padding(
-                    padding: const EdgeInsets.only(top: 40),
-                    child: Column(children: [
-                      const Text(Bn.couldNotLoad,
-                          style: TextStyle(fontSize: 16, color: Colors.black54)),
-                      const SizedBox(height: 12),
-                      OutlinedButton(onPressed: _reload, child: const Text(Bn.retry)),
-                    ]),
-                  )
-                else if (students.isEmpty)
-                  const Padding(
-                    padding: EdgeInsets.only(top: 24),
-                    child: Text(Bn.noStudentsYet,
-                        textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 15, color: Colors.black54)),
-                  )
-                else
-                  for (var i = 0; i < students.length; i++)
-                    _RosterTile(rank: i + 1, s: students[i]),
+                Text('${Bn.digits(students.length)} ${Bn.studentsUnit}',
+                    style: const TextStyle(fontSize: 14, color: Colors.black54)),
+                const SizedBox(height: 12),
+                for (var i = 0; i < students.length; i++)
+                  _StudentTile(rank: i + 1, s: students[i]),
               ],
             );
           },
@@ -89,73 +78,45 @@ class _ClassRosterScreenState extends State<ClassRosterScreen> {
   }
 }
 
-class _CodeBanner extends StatelessWidget {
-  final String code;
-  const _CodeBanner({required this.code});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: AppTheme.accent.withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: AppTheme.accent.withValues(alpha: 0.3)),
-      ),
-      child: Row(
-        children: [
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(Bn.shareCodeHint,
-                    style: TextStyle(fontSize: 13, color: Colors.black54)),
-                const SizedBox(height: 4),
-                Text(code,
-                    style: const TextStyle(
-                        fontSize: 26,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: 3,
-                        color: AppTheme.accentDark)),
-              ],
-            ),
-          ),
-          const Icon(Icons.group_add, color: AppTheme.accent, size: 30),
-        ],
-      ),
-    );
-  }
-}
-
-class _RosterTile extends StatelessWidget {
+class _StudentTile extends StatelessWidget {
   final int rank;
   final RosterStudent s;
-  const _RosterTile({required this.rank, required this.s});
+  const _StudentTile({required this.rank, required this.s});
 
   @override
   Widget build(BuildContext context) {
     final practiced = s.attempts > 0;
+    final phone = (s.phone ?? '').trim();
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: Card(
         child: ListTile(
-          contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+          contentPadding:
+              const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
           leading: CircleAvatar(
             backgroundColor: AppTheme.accent.withValues(alpha: 0.12),
             child: Text(Bn.digits(rank),
                 style: const TextStyle(
                     fontWeight: FontWeight.w800, color: AppTheme.accentDark)),
           ),
-          title: Text(s.name ?? 'শিক্ষার্থী',
-              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+          title: Text(
+            (s.name == null || s.name!.trim().isEmpty)
+                ? 'শিক্ষার্থী'
+                : s.name!.trim(),
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+          ),
           subtitle: Padding(
             padding: const EdgeInsets.only(top: 3),
             child: Text(
-              practiced
-                  ? '${Bn.digits(s.attempts)} ${Bn.attemptsShort} • '
+              [
+                if (phone.isNotEmpty) phone,
+                if (practiced)
+                  '${Bn.digits(s.attempts)} ${Bn.attemptsShort} • '
                       '${s.accuracy == null ? '-' : '${Bn.digits(s.accuracy!)}%'} ${Bn.accuracyShort} • '
                       '${Bn.digits(s.weeklyPoints)} ${Bn.pointsShort}'
-                  : Bn.neverPracticed,
+                else
+                  Bn.neverPracticed,
+              ].join('\n'),
               style: const TextStyle(fontSize: 13, color: Colors.black54),
             ),
           ),
@@ -170,8 +131,34 @@ class _RosterTile extends StatelessWidget {
   }
 }
 
-/// One student's per-topic breakdown, so a teacher can see exactly where they
-/// are weak.
+class _CenteredRetry extends StatelessWidget {
+  final Future<void> Function() onRetry;
+  const _CenteredRetry({required this.onRetry});
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: [
+        const SizedBox(height: 100),
+        const Icon(Icons.wifi_off, size: 48, color: Colors.black38),
+        const SizedBox(height: 12),
+        const Text(Bn.couldNotLoad,
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 16, color: Colors.black54)),
+        const SizedBox(height: 16),
+        Center(
+          child: OutlinedButton(
+            onPressed: onRetry,
+            child: const Text(Bn.retry),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// One student's per-topic breakdown, so anyone can see exactly where a student
+/// is weak. Public — no login.
 class StudentDetailScreen extends StatefulWidget {
   final String studentId;
   final String studentName;
@@ -208,8 +195,8 @@ class _StudentDetailScreenState extends State<StudentDetailScreen> {
           if (snap.hasError || snap.data == null) {
             return Center(
               child: OutlinedButton(
-                onPressed: () =>
-                    setState(() => _future = _sync.studentDetail(widget.studentId)),
+                onPressed: () => setState(
+                    () => _future = _sync.studentDetail(widget.studentId)),
                 child: const Text(Bn.retry),
               ),
             );
@@ -253,7 +240,8 @@ class _TotalsCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             _stat(Bn.digits(d.totalAttempts), Bn.attemptsShort),
-            _stat(d.accuracy == null ? '-' : '${Bn.digits(d.accuracy!)}%', Bn.accuracyShort),
+            _stat(d.accuracy == null ? '-' : '${Bn.digits(d.accuracy!)}%',
+                Bn.accuracyShort),
             _stat(Bn.digits(d.streakDays), Bn.streakDays),
           ],
         ),
@@ -265,9 +253,12 @@ class _TotalsCard extends StatelessWidget {
         children: [
           Text(value,
               style: const TextStyle(
-                  fontSize: 24, fontWeight: FontWeight.w800, color: AppTheme.accentDark)),
+                  fontSize: 24,
+                  fontWeight: FontWeight.w800,
+                  color: AppTheme.accentDark)),
           const SizedBox(height: 2),
-          Text(label, style: const TextStyle(fontSize: 12, color: Colors.black54)),
+          Text(label,
+              style: const TextStyle(fontSize: 12, color: Colors.black54)),
         ],
       );
 }
@@ -293,12 +284,14 @@ class _TopicRow extends StatelessWidget {
             children: [
               Expanded(
                 child: Text(TopicLabels.of(t.topic),
-                    style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w600)),
+                    style: const TextStyle(
+                        fontSize: 14, fontWeight: FontWeight.w600)),
               ),
               Text(
                 '${Bn.digits(t.correct)}/${Bn.digits(t.attempts)}'
                 '${t.accuracy == null ? '' : '  (${Bn.digits(t.accuracy!)}%)'}',
-                style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: color),
+                style: TextStyle(
+                    fontSize: 13, fontWeight: FontWeight.w700, color: color),
               ),
             ],
           ),

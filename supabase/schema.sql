@@ -218,27 +218,76 @@ begin
 end;
 $$;
 
--- The caller's class weekly leaderboard (names only, self flagged).
+-- The weekly leaderboard across ALL pilot students (global — no class scoping).
+-- Names only, the caller flagged as "me". Works even before the caller has
+-- saved anything (they just won't be flagged).
 create or replace function public.my_leaderboard()
 returns jsonb language plpgsql security definer set search_path = public as $$
 declare
-  v_class uuid;
   v_week  text := iso_week();
   v_entries jsonb;
 begin
-  select class_id into v_class from students where id = auth.uid();
-  if v_class is null then
-    return jsonb_build_object('scoped', false, 'week', v_week, 'entries', '[]'::jsonb, 'me', null);
-  end if;
   select coalesce(jsonb_agg(row_to_json(r)), '[]'::jsonb) into v_entries from (
     select row_number() over (order by w.points desc, s.name asc nulls last, s.id) as rank,
            s.name, w.points, (s.id = auth.uid()) as is_me
       from weekly_scores w join students s on s.id = w.student_id
-     where s.class_id = v_class and w.week = v_week
+     where w.week = v_week
      order by w.points desc, s.name asc nulls last, s.id
-     limit 20
+     limit 50
   ) r;
   return jsonb_build_object('scoped', true, 'week', v_week, 'entries', v_entries);
+end;
+$$;
+
+-- ── Public progress views (NO login required — anyone with the app can view) ──
+-- The pilot wants any teacher/parent to open the app and see how every student
+-- is doing without signing up. These are readable by the anonymous public role.
+-- (Phone numbers are exposed here; acceptable for a small, trusted pilot.)
+
+-- Every student with their practice rollup, ranked by this week's points then
+-- total attempts. Shape matches the roster the UI already renders.
+create or replace function public.public_roster()
+returns jsonb language plpgsql security definer set search_path = public as $$
+declare v_week text := iso_week(); v_students jsonb;
+begin
+  select coalesce(jsonb_agg(row_to_json(r)), '[]'::jsonb) into v_students from (
+    select s.id, s.name, s.phone, s.last_sync_at,
+           coalesce(sum(tp.attempts), 0)::int as attempts,
+           coalesce(sum(tp.correct), 0)::int  as correct,
+           case when coalesce(sum(tp.attempts),0) > 0
+                then round(100.0 * sum(tp.correct) / sum(tp.attempts))::int end as accuracy,
+           coalesce((select points from weekly_scores w where w.student_id = s.id and w.week = v_week), 0) as weekly_points
+      from students s left join topic_progress tp on tp.student_id = s.id
+     group by s.id, s.name, s.phone, s.last_sync_at
+     order by weekly_points desc, attempts desc, s.name asc nulls last
+  ) r;
+  return jsonb_build_object('week', v_week, 'students', v_students);
+end;
+$$;
+
+-- One student's per-topic breakdown (public — same shape as the teacher view).
+create or replace function public.public_student_detail(p_student_id uuid)
+returns jsonb language plpgsql security definer set search_path = public as $$
+declare v_topics jsonb; v_att int; v_cor int; v_s students%rowtype;
+begin
+  select * into v_s from students where id = p_student_id;
+  if not found then raise exception 'unknown student'; end if;
+  select coalesce(sum(attempts),0), coalesce(sum(correct),0) into v_att, v_cor
+    from topic_progress where student_id = p_student_id;
+  select coalesce(jsonb_agg(row_to_json(r)), '[]'::jsonb) into v_topics from (
+    select topic, attempts, correct,
+           case when attempts > 0 then round(100.0 * correct / attempts)::int end as accuracy,
+           last_practiced
+      from topic_progress where student_id = p_student_id order by topic
+  ) r;
+  return jsonb_build_object(
+    'student', jsonb_build_object('id', v_s.id, 'name', v_s.name, 'phone', v_s.phone,
+               'streak_days', v_s.streak_days, 'sessions', v_s.sessions,
+               'last_sync_at', v_s.last_sync_at),
+    'totals', jsonb_build_object('attempts', v_att, 'correct', v_cor,
+              'accuracy', case when v_att > 0 then round(100.0 * v_cor / v_att)::int end),
+    'topics', v_topics
+  );
 end;
 $$;
 
@@ -373,7 +422,11 @@ revoke all on function public.admin_assign_teacher(text, text)  from anon, authe
 grant execute on function public.upsert_student(text, text)            to authenticated;
 grant execute on function public.join_class(text)                      to authenticated;
 grant execute on function public.sync_progress(jsonb, int, int)        to authenticated;
-grant execute on function public.my_leaderboard()                      to authenticated;
+grant execute on function public.my_leaderboard()                      to anon, authenticated;
+
+-- Public, no-login progress views (any teacher/parent can open the app and see).
+grant execute on function public.public_roster()                       to anon, authenticated;
+grant execute on function public.public_student_detail(uuid)           to anon, authenticated;
 grant execute on function public.ensure_teacher(text, text)            to authenticated;
 grant execute on function public.my_teacher_classes()                  to authenticated;
 grant execute on function public.teacher_class_roster(uuid)            to authenticated;

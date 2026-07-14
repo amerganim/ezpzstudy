@@ -5,12 +5,11 @@ import '../../data/remote/api_client.dart';
 import '../../data/remote/sync_service.dart';
 import '../../l10n/strings_bn.dart';
 import '../../theme/app_theme.dart';
-import '../teacher/teacher_login_screen.dart';
 
-/// Optional account + progress sync. Practice never requires this — a student
-/// can use the whole app offline and forever without logging in. Logging in by
-/// phone lets their progress survive a lost/reset phone and (later) power a
-/// class leaderboard.
+/// Optional "save my progress". Practice never requires this — a student can use
+/// the whole app offline and forever without saving. Entering a name + phone
+/// stores their progress under that name so a teacher can see it and it powers
+/// the weekly leaderboard.
 class SyncScreen extends StatefulWidget {
   const SyncScreen({super.key});
 
@@ -21,7 +20,6 @@ class SyncScreen extends StatefulWidget {
 class _SyncScreenState extends State<SyncScreen> {
   final _phone = TextEditingController();
   final _name = TextEditingController();
-  final _enrollCode = TextEditingController();
 
   bool _busy = false;
   bool _loggedIn = false;
@@ -37,7 +35,6 @@ class _SyncScreenState extends State<SyncScreen> {
   void dispose() {
     _phone.dispose();
     _name.dispose();
-    _enrollCode.dispose();
     super.dispose();
   }
 
@@ -62,23 +59,22 @@ class _SyncScreenState extends State<SyncScreen> {
 
   Future<void> _login() async {
     final phone = _phone.text.trim();
+    final name = _name.text.trim();
+    if (name.isEmpty) {
+      _toast(Bn.enterName);
+      return;
+    }
     if (phone.isEmpty) {
       _toast(Bn.enterPhone);
       return;
     }
     setState(() => _busy = true);
     try {
-      await _sync.login(
-        phone: phone,
-        name: _name.text.trim(),
-        enrollCode: _enrollCode.text.trim(),
-      );
+      await _sync.login(phone: phone, name: name);
       final outcome = await _sync.syncNow();
       _toast(_messageFor(outcome));
-    } on ApiException catch (e) {
-      // A wrong class code is worth naming; anything else is a friendly retry.
-      final invalidCode = e.message.toLowerCase().contains('enrol');
-      _toast(invalidCode ? Bn.invalidClassCode : Bn.loginError);
+    } on ApiException catch (_) {
+      _toast(Bn.loginError);
     } finally {
       if (mounted) setState(() => _busy = false);
       await _refresh();
@@ -132,11 +128,9 @@ class _SyncScreenState extends State<SyncScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        _field(_phone, Bn.phoneLabel, keyboard: TextInputType.phone),
-        const SizedBox(height: 12),
         _field(_name, Bn.nameLabel),
         const SizedBox(height: 12),
-        _field(_enrollCode, Bn.enrollCodeLabel),
+        _field(_phone, Bn.phoneLabel, keyboard: TextInputType.phone),
         const SizedBox(height: 20),
         FilledButton(
           onPressed: _busy ? null : _login,
@@ -144,17 +138,6 @@ class _SyncScreenState extends State<SyncScreen> {
               ? const SizedBox(
                   height: 22, width: 22, child: CircularProgressIndicator(strokeWidth: 2))
               : const Text(Bn.loginAndSync),
-        ),
-        const SizedBox(height: 24),
-        const Divider(),
-        TextButton.icon(
-          onPressed: _busy
-              ? null
-              : () => Navigator.of(context).push(MaterialPageRoute(
-                    builder: (_) => const TeacherLoginScreen(),
-                  )),
-          icon: const Icon(Icons.school_outlined),
-          label: const Text(Bn.teacherLoginLink),
         ),
       ],
     );

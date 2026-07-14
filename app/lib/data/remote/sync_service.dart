@@ -1,7 +1,7 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../progress_repository.dart';
-import 'api_client.dart' show ApiException, TeacherClass, ClassRoster, StudentDetail, Leaderboard;
+import 'api_client.dart' show ApiException, RosterStudent, StudentDetail, Leaderboard;
 import 'sync_state_store.dart';
 
 /// The result of a sync attempt. Everything except [success] is non-fatal:
@@ -16,14 +16,17 @@ class SyncOutcome {
   bool get isSuccess => status == SyncStatus.success;
 }
 
-/// Supabase-backed sync + teacher dashboard client (Option B, `supabase-native`
-/// branch). Replaces the HTTP calls to the Node server with Supabase Auth +
-/// RPC. Offline-first is preserved: the local Drift DB holds all progress, and
-/// every sync sends cumulative aggregates that the `sync_progress` function
-/// replaces idempotently, so a failed sync loses nothing.
+/// Supabase-backed sync client (Option B, `supabase-native` branch), kept
+/// deliberately simple for the pilot:
+///   • Practice needs no account at all.
+///   • "Save my progress" signs the device in anonymously (free, no OTP) and
+///     stores the student's name + phone, then pushes cumulative aggregates.
+///   • Anyone (teacher/parent) can view every student's progress with NO login,
+///     via the public_roster / public_student_detail RPCs.
 ///
-/// Auth: students use anonymous sign-in (free, no OTP); teachers use email +
-/// password. One session per device; a device is a student's or a teacher's.
+/// Offline-first is preserved: the local Drift DB holds all progress, and every
+/// sync sends cumulative aggregates that `sync_progress` replaces idempotently,
+/// so a failed sync loses nothing.
 class SyncService {
   final ProgressRepository progress;
   final SyncStateStore store;
@@ -40,29 +43,22 @@ class SyncService {
 
   Future<DateTime?> lastSyncAt() => store.lastSyncAt();
 
-  /// Student login: anonymous sign-in, set profile, optionally join a class.
-  /// Throws [ApiException] (e.g. bad enrolment code) so the UI can show it.
+  /// "Save my progress": anonymous sign-in + store the student's name & phone.
+  /// Throws [ApiException] on failure so the UI can show a friendly retry.
   Future<void> login({
     required String phone,
-    String? name,
-    String? schoolCode, // unused on Supabase; class code replaces it
-    String? enrollCode,
+    required String name,
   }) async {
     try {
       final u = _sb.auth.currentUser;
-      if (u == null) {
-        await _sb.auth.signInAnonymously();
-      } else if (!u.isAnonymous) {
-        await _sb.auth.signOut();
+      if (u == null || !u.isAnonymous) {
+        if (u != null) await _sb.auth.signOut();
         await _sb.auth.signInAnonymously();
       }
       await _sb.rpc('upsert_student', params: {
-        'p_name': name ?? '',
+        'p_name': name,
         'p_phone': phone,
       });
-      if (enrollCode != null && enrollCode.trim().isNotEmpty) {
-        await _sb.rpc('join_class', params: {'p_code': enrollCode.trim()});
-      }
     } on PostgrestException catch (e) {
       throw ApiException(e.message);
     } on AuthException catch (e) {
@@ -75,61 +71,26 @@ class SyncService {
     await store.clear();
   }
 
-  // ── Teacher session ────────────────────────────────────────────────────────
+  // ── Public progress views (no login required) ───────────────────────────────
 
-  Future<bool> isTeacherLoggedIn() async {
-    final u = _sb.auth.currentUser;
-    return u != null && !u.isAnonymous;
-  }
-
-  /// Teacher login by email + password (signs up on first use). Throws
-  /// [ApiException] on bad credentials / unconfirmed email.
-  Future<void> teacherLogin({
-    required String email,
-    required String password,
-  }) async {
+  /// Every student's rollup, ranked — for the "see all students" screen that
+  /// any teacher/parent can open without an account.
+  Future<List<RosterStudent>> allStudents() async {
     try {
-      // Never carry an existing (e.g. anonymous student) session into a teacher
-      // login — signing up while anonymous would link the student's identity to
-      // the teacher email. Start from a clean session.
-      if (_sb.auth.currentUser != null) {
-        await _sb.auth.signOut();
-      }
-      try {
-        await _sb.auth.signInWithPassword(email: email.trim(), password: password);
-      } on AuthException {
-        // No such account yet → create one (email confirmation is disabled for
-        // the pilot, so this yields a session immediately).
-        await _sb.auth.signUp(email: email.trim(), password: password);
-      }
-      if (_sb.auth.currentUser == null) {
-        throw const ApiException('could not sign in');
-      }
-      await _sb.rpc('ensure_teacher', params: {'p_name': '', 'p_phone': ''});
-    } on AuthException catch (e) {
-      throw ApiException(e.message);
+      final res = await _sb.rpc('public_roster');
+      final map = Map<String, dynamic>.from(res as Map);
+      return (map['students'] as List<dynamic>? ?? const [])
+          .map((e) => RosterStudent.fromJson(Map<String, dynamic>.from(e as Map)))
+          .toList();
     } on PostgrestException catch (e) {
       throw ApiException(e.message);
     }
   }
 
-  Future<void> teacherLogout() => _sb.auth.signOut();
-
-  Future<List<TeacherClass>> teacherClasses() async {
-    final res = await _sb.rpc('my_teacher_classes');
-    return (res as List<dynamic>)
-        .map((e) => TeacherClass.fromJson(Map<String, dynamic>.from(e as Map)))
-        .toList();
-  }
-
-  Future<ClassRoster> classRoster(String classId) async {
-    final res = await _sb.rpc('teacher_class_roster', params: {'p_class_id': classId});
-    return ClassRoster.fromJson(Map<String, dynamic>.from(res as Map));
-  }
-
+  /// One student's per-topic breakdown (public, no login).
   Future<StudentDetail> studentDetail(String studentId) async {
     final res =
-        await _sb.rpc('teacher_student_detail', params: {'p_student_id': studentId});
+        await _sb.rpc('public_student_detail', params: {'p_student_id': studentId});
     return StudentDetail.fromJson(Map<String, dynamic>.from(res as Map));
   }
 

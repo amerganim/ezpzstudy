@@ -101,9 +101,11 @@ class Bn {
       'কোথা থেকে শুরু করবে জানতে ছোট একটি যাচাই দাও';
   static const practiceThisTopic = 'এই বিষয়টি অনুশীলন করো';
 
-  // Weekly progress
+  // Your totals (all-time, on this device)
+  static const yourTotals = 'তোমার মোট অনুশীলন';
   static const thisWeek = 'এই সপ্তাহ';
-  static const questionsAnswered = 'টি প্রশ্নের উত্তর দিয়েছ';
+  static const sessionsLabel = 'সেশন';
+  static const questionsAnswered = 'প্রশ্নের উত্তর';
   static const daysActive = 'দিন সক্রিয় ছিলে';
 
   // Challenge track (strong student)
@@ -113,14 +115,24 @@ class Bn {
   static const startChallenge = 'চ্যালেঞ্জ শুরু করো';
 
   // Sync / account
-  static const syncTitle = 'অগ্রগতি সংরক্ষণ';
-  static const syncSubtitle = 'তোমার অগ্রগতি নিরাপদে রাখতে ফোন নম্বর দিয়ে যুক্ত হও';
+  static const syncTitle = 'অগ্রগতি সেভ করো';
+  static const syncSubtitle =
+      'তোমার নাম ও ফোন নম্বর দাও — তোমার অগ্রগতি এই নামে সেভ থাকবে, '
+      'শিক্ষক দেখতে পারবেন।';
   static const phoneLabel = 'ফোন নম্বর';
-  static const nameLabel = 'তোমার নাম (ঐচ্ছিক)';
-  static const schoolCodeLabel = 'স্কুল কোড (ঐচ্ছিক)';
-  static const enrollCodeLabel = 'ক্লাস কোড (থাকলে দাও)';
-  static const invalidClassCode = 'ক্লাস কোডটি সঠিক নয় — আবার দেখে দাও';
-  static const loginAndSync = 'যুক্ত হও ও সংরক্ষণ করো';
+  static const nameLabel = 'তোমার নাম';
+  static const loginAndSync = 'অগ্রগতি সেভ করো';
+  static const enterName = 'তোমার নাম লেখো';
+
+  // Save-progress CTA (home)
+  static const saveProgressCta = 'অগ্রগতি সেভ করো';
+  static const saveProgressCtaSub =
+      'নাম ও ফোন দিয়ে তোমার অগ্রগতি সুরক্ষিত রাখো';
+  static const progressSavingTitle = 'অগ্রগতি সেভ হচ্ছে';
+  static const seeAllStudents = 'সব শিক্ষার্থীর অগ্রগতি দেখো';
+  static const allStudentsTitle = 'সব শিক্ষার্থীর অগ্রগতি';
+  static const noStudentsAnywhere =
+      'এখনো কেউ অগ্রগতি সেভ করেনি। শিক্ষার্থীরা অনুশীলন করে "অগ্রগতি সেভ করো" চাপলে এখানে দেখা যাবে।';
 
   // Teacher mode
   static const teacherLoginLink = 'আমি একজন শিক্ষক';

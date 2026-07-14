@@ -1,83 +1,67 @@
-# EZPZ Study — Supabase backend (Option B)
+# EZPZ Study — Supabase backend (Option B, pilot-simple)
 
-This is the **all-in-Supabase** version of the backend, on the `supabase-native`
-branch. `main` keeps the Node/Fastify server untouched. Here, Supabase runs
-everything — the database **and** the logic (as SQL functions the app calls).
-No second server/host is needed.
+This is the **all-in-Supabase** backend, on the `supabase-native` branch. `main`
+keeps the Node/Fastify server untouched. Here, Supabase runs everything — the
+database **and** the logic (as SQL functions the app calls). No second host.
 
 ## What it is
 
-- `schema.sql` — the whole backend: tables (colleges, classes, teachers,
-  students, topic_progress, weekly_scores) + all logic as SECURITY DEFINER
-  functions (join a class, sync progress, leaderboard, teacher roster & student
-  drilldown) + provisioning helpers.
-- Row-Level Security is ON with no public policies, so the app's public key
-  **cannot touch tables directly** — every action goes through a function that
-  enforces "a student only touches their own data; a teacher only sees their own
-  classes."
+- `schema.sql` — the whole backend: tables + all logic as SECURITY DEFINER
+  functions the app calls via Supabase RPC.
+- Row-Level Security is ON with no public table policies, so the app's public
+  key **cannot touch tables directly** — every action goes through a function.
 
-## Auth model (chosen for a village pilot — no SMS costs)
+## The pilot model (deliberately simple)
 
-- **Teachers:** Supabase Auth **email + password**.
-- **Students:** Supabase **anonymous** sign-in (free, no phone/OTP). The name a
-  student types is what the teacher sees; progress is tied to the device's
-  anonymous account.
+- **Practice needs no account.** Anyone installs and practises offline forever.
+- **"Save my progress"** signs the device in *anonymously* (free, no SMS/OTP) and
+  stores the student's **name + phone**. Their progress is saved under that name
+  and powers the weekly leaderboard.
+- **No teacher login.** Anyone (teacher, parent) taps **"সব শিক্ষার্থীর অগ্রগতি
+  দেখো"** (See all students' progress) and sees every student's rollup and
+  per-topic breakdown — **without any account**. This is served by the
+  `public_roster` / `public_student_detail` functions, which are granted to the
+  anonymous public role on purpose.
 
-## One-time setup (≈5 minutes, all in the Supabase dashboard)
+  > Trade-off: the public view exposes student **phone numbers**. That's fine for
+  > a small, trusted pilot; lock it down before any wider release.
+
+## One-time setup (≈2 minutes, all in the Supabase dashboard)
 
 1. **Apply the schema.** SQL Editor → paste all of `schema.sql` → **Run**.
+   (Safe to re-run — it's idempotent, so applying an updated `schema.sql` over an
+   old one updates the functions in place without touching data.)
 2. **Enable anonymous sign-ins.** Authentication → Providers → **Anonymous** →
-   enable.
-3. **Ease teacher signup for the pilot.** Authentication → Providers → Email →
-   turn **"Confirm email" OFF** (so a teacher can log in immediately without an
-   email link). You can turn it back on later.
-4. **Create your first class.** SQL Editor → run:
-   ```sql
-   select admin_create_class('Demo College', 'HSC 2026 Science A');
-   ```
-   It returns an `enroll_code` (e.g. `262MRS`) — that's what students type to join.
-5. **Onboard the teacher.** The teacher installs the app, taps "I'm a teacher",
-   and **signs up** with their email + a password. That's all — under the pilot
-   policy **any signed-up teacher can see every class's students** (no manual
-   assignment step). Students see the class leaderboard; full per-student
-   progress is teacher-only.
+   enable. *(This is the only provider the pilot needs — no email/password.)*
 
-   *(Optional, for later multi-college use: `admin_assign_teacher('email','CODE')`
-   still exists to scope a teacher to specific classes, but it's not needed for
-   the pilot.)*
+That's it. Ship the APK; students save their name + phone, and anyone can view
+everyone's progress from inside the app.
 
-That's it — students enter the enrol code, practice, and their progress shows up
-for the teacher.
+## What Claude needs from you to build the app
 
-> **Re-running:** the whole file is idempotent (`create or replace` / `create
-> table if not exists`), so if you change the policy you can safely paste and
-> Run `schema.sql` again — it updates the functions in place without touching
-> your data.
+The **two public values** (safe to embed in a mobile app — not secrets; RLS
+protects your data), already wired into this build:
 
-## What Claude needs from you to finish the app
-
-To build the APK that talks to your project, I need the **two public values**
-(safe to embed in a mobile app — they are not secrets; RLS protects your data):
-
-- **Project URL** — Settings → API → *Project URL*
-  (looks like `https://abcdxyz.supabase.co`).
+- **Project URL** — Settings → API → *Project URL*.
 - **anon / publishable key** — Settings → API → *Project API keys* → `anon`.
 
-**Keep secret (do NOT share):** the `service_role` key and the database password.
-
-Once you paste those two values to me, I'll wire the app, build a release APK
-pointed at your Supabase project, and we test the full teacher/student loop on
-your phone.
+**Keep secret (never share):** the `service_role` key and the database password.
 
 ## Handy operator queries
 
 ```sql
--- see all classes and their codes
-select c.name, c.enroll_code, col.name as college from classes c join colleges col on col.id = c.college_id;
-
--- see a class's students and totals
-select s.name, sum(tp.attempts) attempts, sum(tp.correct) correct
+-- everyone and their totals
+select s.name, s.phone, s.last_sync_at,
+       coalesce(sum(tp.attempts),0) attempts, coalesce(sum(tp.correct),0) correct
 from students s left join topic_progress tp on tp.student_id = s.id
-where s.class_id = (select id from classes where enroll_code = '262MRS')
-group by s.name;
+group by s.id, s.name, s.phone, s.last_sync_at
+order by attempts desc;
 ```
+
+## Note on the leftover class/teacher tables
+
+`schema.sql` still contains the `colleges` / `classes` / `teachers` tables and
+their functions from the earlier design. They're unused by the pilot app but left
+in place (harmless) in case per-college scoping is wanted later. The app talks
+only to: `upsert_student`, `sync_progress`, `my_leaderboard`, `public_roster`,
+and `public_student_detail`.
