@@ -76,9 +76,9 @@ class _SyncScreenState extends State<SyncScreen> {
       final outcome = await _sync.syncNow();
       _toast(_messageFor(outcome));
     } on ApiException catch (e) {
-      // Surface the real reason during the pilot (e.g. a Supabase setting) so
-      // it's diagnosable; softened to a friendly line for production later.
-      _toast('${Bn.loginError} — ${e.message}');
+      // A wrong class code is worth naming; anything else is a friendly retry.
+      final invalidCode = e.message.toLowerCase().contains('enrol');
+      _toast(invalidCode ? Bn.invalidClassCode : Bn.loginError);
     } finally {
       if (mounted) setState(() => _busy = false);
       await _refresh();

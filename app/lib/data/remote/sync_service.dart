@@ -89,6 +89,12 @@ class SyncService {
     required String password,
   }) async {
     try {
+      // Never carry an existing (e.g. anonymous student) session into a teacher
+      // login — signing up while anonymous would link the student's identity to
+      // the teacher email. Start from a clean session.
+      if (_sb.auth.currentUser != null) {
+        await _sb.auth.signOut();
+      }
       try {
         await _sb.auth.signInWithPassword(email: email.trim(), password: password);
       } on AuthException {

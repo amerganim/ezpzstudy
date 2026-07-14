@@ -119,6 +119,7 @@ class Bn {
   static const nameLabel = 'তোমার নাম (ঐচ্ছিক)';
   static const schoolCodeLabel = 'স্কুল কোড (ঐচ্ছিক)';
   static const enrollCodeLabel = 'ক্লাস কোড (থাকলে দাও)';
+  static const invalidClassCode = 'ক্লাস কোডটি সঠিক নয় — আবার দেখে দাও';
   static const loginAndSync = 'যুক্ত হও ও সংরক্ষণ করো';
 
   // Teacher mode
