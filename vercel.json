@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd app && (test -d .flutter || git clone https://github.com/flutter/flutter.git --depth 1 -b stable .flutter) && .flutter/bin/flutter config --enable-web --no-analytics && .flutter/bin/flutter build web --release",
+  "outputDirectory": "app/build/web",
+  "framework": null,
+  "installCommand": "echo 'skip npm install; Flutter handles deps'"
+}

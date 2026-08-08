@@ -71,8 +71,17 @@ class AppDatabase extends _$AppDatabase {
   @override
   int get schemaVersion => 1;
 
-  static QueryExecutor _openConnection() =>
-      driftDatabase(name: 'ezpzstudy');
+  static QueryExecutor _openConnection() => driftDatabase(
+        name: 'ezpzstudy',
+        // Required on web: drift loads sqlite3 + its worker from these urls,
+        // which are the files shipped in web/ (sqlite3.wasm, drift_worker.js).
+        // Ignored on native (Android), which keeps its default file storage.
+        web: DriftWebOptions(
+          sqlite3Wasm: Uri.parse('sqlite3.wasm'),
+          driftWorker: Uri.parse('drift_worker.js'),
+        ),
+        native: const DriftNativeOptions(),
+      );
 
   // ---- Meta helpers --------------------------------------------------------
 
