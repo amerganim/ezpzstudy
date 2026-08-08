@@ -53,6 +53,17 @@
       var s = document.getElementById('ezpz-splash');
       if (s) { s.style.opacity = '0'; setTimeout(function () { s.remove(); }, 300); }
     });
+
+    // Register our own service worker (Flutter's built-in one is deprecated).
+    // This makes the PWA installable and caches the app shell for fast,
+    // offline-capable repeat visits.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('sw.js').catch(function (e) {
+          console.warn('Service worker registration failed:', e);
+        });
+      });
+    }
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
