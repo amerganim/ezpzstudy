@@ -1,80 +1,58 @@
 /* EZPZ Study service worker.
  *
  * Recent Flutter deprecated its built-in offline service worker, so we ship our
- * own. It does two jobs:
- *   1. Makes the app installable (Chrome requires an active SW with a fetch
- *      handler before it offers "Install app" / "Add to Home screen").
- *   2. Speeds up repeat visits and enables offline use by caching the app shell
- *      (CanvasKit, wasm, fonts, the content pack) so they aren't re-downloaded.
+ * own. It makes the app installable (Chrome needs an active SW with a fetch
+ * handler) and lets it work offline.
  *
- * Strategy:
- *   • JS + navigations  → network-first (always get the latest app logic when
- *     online; fall back to cache when offline).
- *   • everything else   → cache-first (large, build-stable files: wasm,
- *     canvaskit, fonts, images, the versioned content JSON).
- *   • cross-origin (e.g. Supabase) → not intercepted; passes straight through.
+ * Strategy: NETWORK-FIRST for every same-origin GET, falling back to the cache
+ * only when offline. This is deliberately chosen over cache-first: a cache-first
+ * SW that isn't perfectly versioned can serve a *stale mix* of files after a new
+ * deploy (e.g. an old AssetManifest/CanvasKit with new Dart code), which crashes
+ * a Flutter web app to a black screen. Network-first guarantees that when the
+ * user is online they always get one consistent build, while still working
+ * offline from the last successful load.
  *
- * Bump CACHE on each deploy to evict the previous build's cached files.
+ * Cross-origin requests (e.g. Supabase) are not intercepted.
  */
 'use strict';
 
-const CACHE = 'ezpz-cache-v1';
+const CACHE = 'ezpz-cache-v2';
 
 self.addEventListener('install', (event) => {
-  // Activate this SW immediately without waiting for old tabs to close.
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    // Drop caches from previous builds.
+    // Purge every previous cache (including the old cache-first v1) so no stale
+    // files survive a deploy.
     const keys = await caches.keys();
     await Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)));
     await self.clients.claim();
   })());
 });
 
-function isNetworkFirst(url, request) {
-  if (request.mode === 'navigate') return true;
-  return /\.(js|json)$/.test(url.pathname) &&
-         !url.pathname.includes('/assets/'); // content pack JSON stays cache-first
-}
-
 self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') return;
 
   const url = new URL(request.url);
-  // Only handle same-origin requests; let Supabase / other hosts pass through.
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin) return; // let Supabase etc. pass through
 
-  if (isNetworkFirst(url, request)) {
-    event.respondWith((async () => {
-      const cache = await caches.open(CACHE);
-      try {
-        const fresh = await fetch(request);
-        if (fresh && fresh.ok) cache.put(request, fresh.clone());
-        return fresh;
-      } catch (err) {
-        const cached = await cache.match(request);
-        if (cached) return cached;
-        if (request.mode === 'navigate') {
-          const index = await cache.match('index.html');
-          if (index) return index;
-        }
-        throw err;
-      }
-    })());
-    return;
-  }
-
-  // Cache-first for large, build-stable assets.
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
-    const cached = await cache.match(request);
-    if (cached) return cached;
-    const fresh = await fetch(request);
-    if (fresh && fresh.ok) cache.put(request, fresh.clone());
-    return fresh;
+    try {
+      const fresh = await fetch(request);
+      if (fresh && fresh.ok) cache.put(request, fresh.clone());
+      return fresh;
+    } catch (err) {
+      const cached = await cache.match(request);
+      if (cached) return cached;
+      if (request.mode === 'navigate') {
+        const index = await cache.match('index.html');
+        if (index) return index;
+      }
+      throw err;
+    }
   })());
 });
