@@ -246,7 +246,8 @@ class _DoneView extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text('✅', style: TextStyle(fontSize: 56)),
+            const Icon(Icons.check_circle_rounded,
+                size: 60, color: AppTheme.correct),
             const SizedBox(height: 16),
             const Text(Bn.noCardsDue,
                 textAlign: TextAlign.center,

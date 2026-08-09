@@ -103,7 +103,7 @@ class _TopicListScreenState extends State<TopicListScreen> {
             children: [
               if (data.basics.isNotEmpty) ...[
                 const _SectionHeader(
-                  emoji: '🧱',
+                  icon: Icons.foundation_rounded,
                   title: Bn.basicsSectionTitle,
                   subtitle: Bn.basicsSectionSub,
                 ),
@@ -117,7 +117,7 @@ class _TopicListScreenState extends State<TopicListScreen> {
               if (data.hsc.isNotEmpty) ...[
                 const SizedBox(height: 20),
                 const _SectionHeader(
-                  emoji: '🎓',
+                  icon: Icons.school_rounded,
                   title: Bn.hscSectionTitle,
                   subtitle: Bn.hscSectionSub,
                 ),
@@ -155,11 +155,11 @@ class _GroupedTopics {
 }
 
 class _SectionHeader extends StatelessWidget {
-  final String emoji;
+  final IconData icon;
   final String title;
   final String subtitle;
   const _SectionHeader({
-    required this.emoji,
+    required this.icon,
     required this.title,
     required this.subtitle,
   });
@@ -170,7 +170,7 @@ class _SectionHeader extends StatelessWidget {
       padding: const EdgeInsets.only(bottom: 12, top: 4),
       child: Row(
         children: [
-          Text(emoji, style: const TextStyle(fontSize: 26)),
+          Icon(icon, size: 26, color: AppTheme.accentDark),
           const SizedBox(width: 10),
           Expanded(
             child: Column(

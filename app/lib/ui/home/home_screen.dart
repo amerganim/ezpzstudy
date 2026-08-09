@@ -226,7 +226,11 @@ class _StreakCard extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Row(
           children: [
-            Text(has ? '🔥' : '✨', style: const TextStyle(fontSize: 40)),
+            Icon(
+              has ? Icons.local_fire_department_rounded : Icons.auto_awesome_rounded,
+              size: 42,
+              color: has ? const Color(0xFFEF6C00) : const Color(0xFFF9A825),
+            ),
             const SizedBox(width: 16),
             Expanded(
               child: has
@@ -283,7 +287,8 @@ class _DiagnosticCta extends StatelessWidget {
         ),
         child: Row(
           children: [
-            const Text('🎯', style: TextStyle(fontSize: 36)),
+            const Icon(Icons.track_changes_rounded,
+                size: 40, color: Colors.white),
             const SizedBox(width: 16),
             const Expanded(
               child: Column(
@@ -327,7 +332,8 @@ class _ChallengeCard extends StatelessWidget {
         ),
         child: Row(
           children: [
-            const Text('🏆', style: TextStyle(fontSize: 36)),
+            const Icon(Icons.emoji_events_rounded,
+                size: 40, color: Colors.white),
             const SizedBox(width: 16),
             const Expanded(
               child: Column(

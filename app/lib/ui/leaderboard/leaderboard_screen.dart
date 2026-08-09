@@ -142,10 +142,10 @@ class _Row extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final highlight = entry.isMe;
-    final medal = switch (entry.rank) {
-      1 => '🥇',
-      2 => '🥈',
-      3 => '🥉',
+    final medalColor = switch (entry.rank) {
+      1 => const Color(0xFFFFB300), // gold
+      2 => const Color(0xFF90A4AE), // silver
+      3 => const Color(0xFFBF7B4B), // bronze
       _ => null,
     };
     return Container(
@@ -163,8 +163,8 @@ class _Row extends StatelessWidget {
         children: [
           SizedBox(
             width: 36,
-            child: medal != null
-                ? Text(medal, style: const TextStyle(fontSize: 22))
+            child: medalColor != null
+                ? Icon(Icons.emoji_events_rounded, size: 26, color: medalColor)
                 : Text(Bn.digits(entry.rank),
                     style: const TextStyle(
                         fontSize: 17,

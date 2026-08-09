@@ -50,7 +50,8 @@ class _TemplatesScreenState extends State<TemplatesScreen> {
                 ),
                 child: const Row(
                   children: [
-                    Text('✨', style: TextStyle(fontSize: 26)),
+                    Icon(Icons.auto_awesome_rounded,
+                        size: 26, color: AppTheme.accent),
                     SizedBox(width: 12),
                     Expanded(
                       child: Text(Bn.templatesIntro,
@@ -81,7 +82,7 @@ class _TemplateCard extends StatelessWidget {
         child: ListTile(
           contentPadding:
               const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          leading: Text(_emoji(t.category), style: const TextStyle(fontSize: 30)),
+          leading: Icon(_icon(t.category), size: 30, color: AppTheme.accent),
           title: Text(t.titleBn,
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
           subtitle: Padding(
@@ -102,20 +103,20 @@ class _TemplateCard extends StatelessWidget {
     );
   }
 
-  static String _emoji(String category) {
+  static IconData _icon(String category) {
     switch (category) {
       case 'paragraph':
-        return '📝';
+        return Icons.notes_rounded;
       case 'letter':
-        return '✉️';
+        return Icons.mail_outline_rounded;
       case 'dialogue':
-        return '💬';
+        return Icons.chat_bubble_outline_rounded;
       case 'story':
-        return '📖';
+        return Icons.menu_book_rounded;
       case 'graph':
-        return '📊';
+        return Icons.bar_chart_rounded;
       default:
-        return '🪄';
+        return Icons.auto_fix_high_rounded;
     }
   }
 }
@@ -230,7 +231,9 @@ class _TemplateDetailScreenState extends State<TemplateDetailScreen> {
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text('💡  ', style: TextStyle(fontSize: 14)),
+                    const Icon(Icons.lightbulb_outline_rounded,
+                        size: 18, color: Color(0xFFF9A825)),
+                    const SizedBox(width: 8),
                     Expanded(
                       child: Text(tip,
                           style: const TextStyle(

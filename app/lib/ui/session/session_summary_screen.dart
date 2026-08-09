@@ -20,11 +20,13 @@ class SessionSummaryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final pct = total == 0 ? 0 : (correct / total * 100).round();
-    final emoji = pct >= 80
-        ? '🎉'
+    final resultIcon = pct >= 80
+        ? Icons.celebration_rounded
         : pct >= 50
-            ? '👍'
-            : '💪';
+            ? Icons.thumb_up_rounded
+            : Icons.trending_up_rounded;
+    final resultColor =
+        pct >= 50 ? AppTheme.accent : const Color(0xFFF9A825);
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -33,9 +35,7 @@ class SessionSummaryScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text(emoji,
-                  style: const TextStyle(fontSize: 64),
-                  textAlign: TextAlign.center),
+              Icon(resultIcon, size: 64, color: resultColor),
               const SizedBox(height: 12),
               const Text(Bn.sessionComplete,
                   textAlign: TextAlign.center,

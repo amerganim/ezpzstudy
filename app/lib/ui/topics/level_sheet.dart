@@ -48,7 +48,7 @@ class LevelSheet extends StatelessWidget {
                 style: TextStyle(fontSize: 14, color: Colors.black54)),
             const SizedBox(height: 16),
             _LevelTile(
-              emoji: '🟢',
+              color: const Color(0xFF43A047), // green
               label: Bn.levelEasy,
               hint: Bn.levelEasyHint,
               count: counts[Difficulty.easy] ?? 0,
@@ -56,14 +56,14 @@ class LevelSheet extends StatelessWidget {
                   .pop(const LevelChoice(Difficulty.easy)),
             ),
             _LevelTile(
-              emoji: '🟡',
+              color: const Color(0xFFF9A825), // amber
               label: Bn.levelMedium,
               count: counts[Difficulty.medium] ?? 0,
               onTap: () => Navigator.of(context)
                   .pop(const LevelChoice(Difficulty.medium)),
             ),
             _LevelTile(
-              emoji: '🔴',
+              color: const Color(0xFFE53935), // red
               label: Bn.levelHard,
               count: counts[Difficulty.hard] ?? 0,
               onTap: () => Navigator.of(context)
@@ -84,14 +84,14 @@ class LevelSheet extends StatelessWidget {
 }
 
 class _LevelTile extends StatelessWidget {
-  final String emoji;
+  final Color color;
   final String label;
   final String? hint;
   final int count;
   final VoidCallback onTap;
 
   const _LevelTile({
-    required this.emoji,
+    required this.color,
     required this.label,
     required this.count,
     required this.onTap,
@@ -117,7 +117,7 @@ class _LevelTile extends StatelessWidget {
             ),
             child: Row(
               children: [
-                Text(emoji, style: const TextStyle(fontSize: 22)),
+                Icon(Icons.circle, size: 18, color: color),
                 const SizedBox(width: 14),
                 Expanded(
                   child: Column(

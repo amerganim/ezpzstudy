@@ -62,8 +62,8 @@ class _DiagnosticResultScreenState extends State<DiagnosticResultScreen> {
             padding: EdgeInsets.fromLTRB(
                 20, 20, 20, MediaQuery.of(context).padding.bottom + 24),
             children: [
-              const Text('✅',
-                  style: TextStyle(fontSize: 48), textAlign: TextAlign.center),
+              const Icon(Icons.check_circle_rounded,
+                  size: 52, color: AppTheme.correct),
               const SizedBox(height: 16),
               PredictedScoreCard(score: insights.predictedScore),
               const SizedBox(height: 20),

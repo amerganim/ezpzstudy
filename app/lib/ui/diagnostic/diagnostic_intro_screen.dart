@@ -48,7 +48,8 @@ class DiagnosticIntroScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               const SizedBox(height: 12),
-              const Text('🎯', style: TextStyle(fontSize: 64), textAlign: TextAlign.center),
+              const Icon(Icons.track_changes_rounded,
+                  size: 64, color: AppTheme.accent),
               const SizedBox(height: 24),
               const Text(
                 Bn.readinessCheckTitle,
