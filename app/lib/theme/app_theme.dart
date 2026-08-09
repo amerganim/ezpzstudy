@@ -19,6 +19,10 @@ class AppTheme {
       ),
       useMaterial3: true,
       scaffoldBackgroundColor: Colors.white,
+      // Bundled Bengali+Latin font (assets, cached offline). Loading it with the
+      // app avoids the flash of ▯ boxes while a fallback Bengali font would
+      // otherwise download at runtime.
+      fontFamily: 'HindSiliguri',
     );
     return base.copyWith(
       // Bump text slightly for readability. We can't use
