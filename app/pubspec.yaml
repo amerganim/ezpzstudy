@@ -46,6 +46,11 @@ flutter:
           weight: 700
 
   assets:
+    # Font files also listed as assets so they can be preloaded via a FontLoader
+    # in main() before the first frame (prevents the ▯ tofu flash on web).
+    - fonts/HindSiliguri-Regular.ttf
+    - fonts/HindSiliguri-SemiBold.ttf
+    - fonts/HindSiliguri-Bold.ttf
     # Core content pack shipped inside the APK -- the student never pays data to
     # download questions. Regenerate from content/packs via the pipeline, then
     # copy into assets/content/ (see tools/content-pipeline).
