@@ -33,6 +33,12 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
     return _LbState.loaded(board);
   }
 
+  Future<void> _reload() async {
+    final f = _load();
+    setState(() => _future = f);
+    await f;
+  }
+
   Future<void> _openSync() async {
     await Navigator.of(context)
         .push(MaterialPageRoute(builder: (_) => const SyncScreen()));
@@ -72,11 +78,23 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
                 );
               }
               if (board.entries.isEmpty) {
-                return const _Message(
-                    icon: Icons.emoji_events_outlined,
-                    text: Bn.leaderboardEmpty);
+                return RefreshIndicator(
+                  onRefresh: _reload,
+                  child: ListView(
+                    physics: const AlwaysScrollableScrollPhysics(),
+                    children: const [
+                      SizedBox(height: 120),
+                      _Message(
+                          icon: Icons.emoji_events_outlined,
+                          text: Bn.leaderboardEmpty),
+                    ],
+                  ),
+                );
               }
-              return _Board(board: board);
+              return RefreshIndicator(
+                onRefresh: _reload,
+                child: _Board(board: board),
+              );
           }
         },
       ),
@@ -91,6 +109,7 @@ class _Board extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
+      physics: const AlwaysScrollableScrollPhysics(),
       padding: EdgeInsets.fromLTRB(
           16, 16, 16, MediaQuery.of(context).padding.bottom + 24),
       children: [

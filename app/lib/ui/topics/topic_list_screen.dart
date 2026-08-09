@@ -30,6 +30,12 @@ class _TopicListScreenState extends State<TopicListScreen> {
     _future = _load();
   }
 
+  Future<void> _handleRefresh() async {
+    final future = _load();
+    setState(() => _future = future);
+    await future;
+  }
+
   Future<_GroupedTopics> _load() async {
     final services = AppServices.of(context);
     final summaries = await services.questions.practiceTopics();
@@ -88,7 +94,10 @@ class _TopicListScreenState extends State<TopicListScreen> {
           if (data.basics.isEmpty && data.hsc.isEmpty) {
             return const Center(child: Text(Bn.nothingHere));
           }
-          return ListView(
+          return RefreshIndicator(
+            onRefresh: _handleRefresh,
+            child: ListView(
+            physics: const AlwaysScrollableScrollPhysics(),
             padding: EdgeInsets.fromLTRB(
                 16, 16, 16, MediaQuery.of(context).padding.bottom + 24),
             children: [
@@ -121,6 +130,7 @@ class _TopicListScreenState extends State<TopicListScreen> {
                   ),
               ],
             ],
+            ),
           );
         },
       ),

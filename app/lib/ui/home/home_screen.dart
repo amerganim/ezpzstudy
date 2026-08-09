@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../app_services.dart';
@@ -60,6 +62,15 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  /// Pull-to-refresh: reload local progress/insights and, if logged in, push a
+  /// sync in the background. Awaits the reload so the spinner shows until done.
+  Future<void> _handleRefresh() async {
+    final future = _load();
+    setState(() => _data = future);
+    unawaited(AppServices.of(context).sync.maybeSync(minInterval: Duration.zero));
+    await future;
+  }
+
   Future<void> _open(Widget screen) async {
     await Navigator.of(context).push(MaterialPageRoute(builder: (_) => screen));
     if (mounted) _refresh();
@@ -99,7 +110,10 @@ class _HomeScreenState extends State<HomeScreen> {
             }
             final data = snap.data!;
             final insights = data.insights;
-            return ListView(
+            return RefreshIndicator(
+              onRefresh: _handleRefresh,
+              child: ListView(
+              physics: const AlwaysScrollableScrollPhysics(),
               padding: const EdgeInsets.all(20),
               children: [
                 const SizedBox(height: 8),
@@ -178,6 +192,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   onTap: () => _open(const StudentsProgressScreen()),
                 ),
               ],
+              ),
             );
           },
         ),
