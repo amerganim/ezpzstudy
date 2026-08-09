@@ -39,36 +39,37 @@ class SyncService {
 
   // Coalesces concurrent init attempts; nulled on failure so a later call retries.
   Future<void>? _initFuture;
-
-  /// True once `Supabase.initialize` has run (survives hot restart).
-  bool get _isInitialized {
-    try {
-      Supabase.instance;
-      return true;
-    } catch (_) {
-      return false;
-    }
-  }
+  // Our own readiness flag — do NOT rely on Supabase.instance, which returns a
+  // partially-built instance if initialize() failed mid-way (then .client throws
+  // LateInitializationError).
+  static bool _ready = false;
 
   /// Ensures Supabase is initialized before any network call. Initialization is
   /// deferred (not done at app start) so a slow/unreachable network can never
   /// delay or crash the offline-first UI. Safe to call repeatedly; retries after
   /// a failed attempt.
   Future<void> ensureReady() async {
-    if (_isInitialized) return;
-    final pending = _initFuture ??= Supabase.initialize(
-      url: SupabaseConfig.url,
-      // JWT anon key (publishable); anonKey is the right param for this format.
-      // ignore: deprecated_member_use
-      anonKey: SupabaseConfig.anonKey,
-    ).then((_) {});
+    if (_ready) return;
+    _initFuture ??= _doInit();
+    await _initFuture;
+  }
+
+  Future<void> _doInit() async {
     try {
-      await pending;
+      await Supabase.initialize(
+        url: SupabaseConfig.url,
+        // JWT anon key (publishable); anonKey is the right param for this format.
+        // ignore: deprecated_member_use
+        anonKey: SupabaseConfig.anonKey,
+      );
+      _ready = true;
     } catch (e) {
       _initFuture = null; // let the next attempt try again
       throw ApiException('backend unavailable: $e');
     }
   }
+
+  bool get _isInitialized => _ready;
 
   /// Fire-and-forget warm-up used at app start: begins initialization early but
   /// never throws, so the UI is never blocked or broken by a slow network.
@@ -133,8 +134,8 @@ class SyncService {
   /// Every student's rollup, ranked — for the "see all students" screen that
   /// any teacher/parent can open without an account.
   Future<List<RosterStudent>> allStudents() async {
-    await ensureReady();
     try {
+      await ensureReady();
       final res = await _sb.rpc('public_roster');
       final map = Map<String, dynamic>.from(res as Map);
       return (map['students'] as List<dynamic>? ?? const [])
