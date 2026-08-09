@@ -1,5 +1,6 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../../config/supabase_config.dart';
 import '../progress_repository.dart';
 import 'api_client.dart' show ApiException, RosterStudent, StudentDetail, Leaderboard;
 import 'sync_state_store.dart';
@@ -31,14 +32,65 @@ class SyncService {
   final ProgressRepository progress;
   final SyncStateStore store;
 
-  const SyncService({required this.progress, required this.store});
+  SyncService({required this.progress, required this.store});
 
   // Accessed lazily so tests that never sync don't require Supabase.initialize.
   SupabaseClient get _sb => Supabase.instance.client;
 
+  // Coalesces concurrent init attempts; nulled on failure so a later call retries.
+  Future<void>? _initFuture;
+
+  /// True once `Supabase.initialize` has run (survives hot restart).
+  bool get _isInitialized {
+    try {
+      Supabase.instance;
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  /// Ensures Supabase is initialized before any network call. Initialization is
+  /// deferred (not done at app start) so a slow/unreachable network can never
+  /// delay or crash the offline-first UI. Safe to call repeatedly; retries after
+  /// a failed attempt.
+  Future<void> ensureReady() async {
+    if (_isInitialized) return;
+    final pending = _initFuture ??= Supabase.initialize(
+      url: SupabaseConfig.url,
+      // JWT anon key (publishable); anonKey is the right param for this format.
+      // ignore: deprecated_member_use
+      anonKey: SupabaseConfig.anonKey,
+    ).then((_) {});
+    try {
+      await pending;
+    } catch (e) {
+      _initFuture = null; // let the next attempt try again
+      throw ApiException('backend unavailable: $e');
+    }
+  }
+
+  /// Fire-and-forget warm-up used at app start: begins initialization early but
+  /// never throws, so the UI is never blocked or broken by a slow network.
+  Future<void> warmUp() async {
+    try {
+      await ensureReady();
+    } catch (_) {
+      // Ignored — features that need the backend will retry on demand.
+    }
+  }
+
+  /// Whether a student is signed in. Never throws and never depends on the
+  /// network having initialized yet — if the backend isn't ready, the answer is
+  /// simply "not logged in", so the home screen always renders instantly.
   Future<bool> isLoggedIn() async {
-    final u = _sb.auth.currentUser;
-    return u != null && u.isAnonymous;
+    if (!_isInitialized) return false;
+    try {
+      final u = _sb.auth.currentUser;
+      return u != null && u.isAnonymous;
+    } catch (_) {
+      return false;
+    }
   }
 
   Future<DateTime?> lastSyncAt() => store.lastSyncAt();
@@ -49,6 +101,7 @@ class SyncService {
     required String phone,
     required String name,
   }) async {
+    await ensureReady();
     try {
       final u = _sb.auth.currentUser;
       if (u == null || !u.isAnonymous) {
@@ -67,7 +120,11 @@ class SyncService {
   }
 
   Future<void> logout() async {
-    await _sb.auth.signOut();
+    if (_isInitialized) {
+      try {
+        await _sb.auth.signOut();
+      } catch (_) {/* ignore — clearing local state below is what matters */}
+    }
     await store.clear();
   }
 
@@ -76,6 +133,7 @@ class SyncService {
   /// Every student's rollup, ranked — for the "see all students" screen that
   /// any teacher/parent can open without an account.
   Future<List<RosterStudent>> allStudents() async {
+    await ensureReady();
     try {
       final res = await _sb.rpc('public_roster');
       final map = Map<String, dynamic>.from(res as Map);
@@ -89,6 +147,7 @@ class SyncService {
 
   /// One student's per-topic breakdown (public, no login).
   Future<StudentDetail> studentDetail(String studentId) async {
+    await ensureReady();
     final res =
         await _sb.rpc('public_student_detail', params: {'p_student_id': studentId});
     return StudentDetail.fromJson(Map<String, dynamic>.from(res as Map));

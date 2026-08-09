@@ -1,10 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
 
 import 'app_services.dart';
-import 'config/supabase_config.dart';
 import 'l10n/strings_bn.dart';
 import 'theme/app_theme.dart';
 import 'ui/home/home_screen.dart';
@@ -16,23 +14,12 @@ Future<void> main() async {
   final services = AppServices.create();
   await services.initialize();
 
-  // Connect to Supabase (backend: DB + auth + RPC). This must NEVER block the
-  // app from starting: practice is fully offline, and only sync/leaderboard/
-  // "see all students" need the network. Time-boxed + guarded so a slow or
-  // unreachable network (common in a village pilot) can't hang the splash.
-  unawaited(
-    Supabase.initialize(
-      url: SupabaseConfig.url,
-      // The project's JWT anon key (publishable). `anonKey` is the correct param
-      // for this key format; the deprecation points to a newer key type we don't use.
-      // ignore: deprecated_member_use
-      anonKey: SupabaseConfig.anonKey,
-    ).timeout(const Duration(seconds: 15)).catchError((_) {
-      // Offline / slow network — sync features simply stay unavailable until a
-      // later attempt succeeds. Practice is unaffected.
-      return Supabase.instance;
-    }),
-  );
+  // Render immediately. The Supabase backend (auth + sync + leaderboard + roster)
+  // initializes lazily in the background via SyncService: it is NEVER awaited on
+  // the startup path, so a slow or unreachable mobile network can't delay or
+  // break the offline-first UI. Features that need it (Save progress, See all
+  // students) await readiness on demand and retry.
+  unawaited(services.sync.warmUp());
 
   runApp(EzpzApp(services: services));
 }
