@@ -2,30 +2,61 @@
  *
  * Recent Flutter deprecated its built-in offline service worker, so we ship our
  * own. It makes the app installable (Chrome needs an active SW with a fetch
- * handler) and lets it work offline.
+ * handler) and makes it load fast and work offline.
  *
- * Strategy: NETWORK-FIRST for every same-origin GET, falling back to the cache
- * only when offline. This is deliberately chosen over cache-first: a cache-first
- * SW that isn't perfectly versioned can serve a *stale mix* of files after a new
- * deploy (e.g. an old AssetManifest/CanvasKit with new Dart code), which crashes
- * a Flutter web app to a black screen. Network-first guarantees that when the
- * user is online they always get one consistent build, while still working
- * offline from the last successful load.
+ * Strategy: STALE-WHILE-REVALIDATE for every same-origin GET.
+ *   • Serve from cache immediately when present → the app opens INSTANTLY even
+ *     on slow/flaky mobile data or fully offline (this is the key property for a
+ *     village pilot). No waiting on the network to show the UI.
+ *   • In the background, fetch a fresh copy and update the cache for next time.
+ *   • Not cached yet → fetch from network and cache it.
+ *
+ * Every file is handled the SAME way, so a load always draws one consistent set
+ * of files from the cache — this avoids the "fresh JS + stale assets" mismatch
+ * that a split cache-first/network-first strategy caused (which crashed the app
+ * to a black screen).
  *
  * Cross-origin requests (e.g. Supabase) are not intercepted.
  */
 'use strict';
 
-const CACHE = 'ezpz-cache-v2';
+const CACHE = 'ezpz-cache-v3';
+
+// The heavy, stable app-shell files. Precached on install (best-effort, each
+// failure ignored) so the app is fully cached — and thus opens instantly on
+// slow mobile data and works offline — from the FIRST visit, not just later
+// ones. (On a first visit these load before the SW controls the page, so
+// without precaching they'd only get cached on a second visit.)
+const SHELL = [
+  'index.html',
+  'flutter_bootstrap.js',
+  'flutter.js',
+  'main.dart.js',
+  'manifest.json',
+  'favicon.png',
+  'canvaskit/canvaskit.js',
+  'canvaskit/canvaskit.wasm',
+  'canvaskit/chromium/canvaskit.js',
+  'canvaskit/chromium/canvaskit.wasm',
+  'canvaskit/skwasm.js',
+  'canvaskit/skwasm.wasm',
+  'sqlite3.wasm',
+  'drift_worker.js',
+];
 
 self.addEventListener('install', (event) => {
-  self.skipWaiting();
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    // Fetch fresh copies (bypass the HTTP cache); ignore any that 404.
+    await Promise.all(
+      SHELL.map((u) => cache.add(new Request(u, { cache: 'reload' })).catch(() => {})),
+    );
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
-    // Purge every previous cache (including the old cache-first v1) so no stale
-    // files survive a deploy.
     const keys = await caches.keys();
     await Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k)));
     await self.clients.claim();
@@ -41,18 +72,30 @@ self.addEventListener('fetch', (event) => {
 
   event.respondWith((async () => {
     const cache = await caches.open(CACHE);
-    try {
-      const fresh = await fetch(request);
-      if (fresh && fresh.ok) cache.put(request, fresh.clone());
-      return fresh;
-    } catch (err) {
-      const cached = await cache.match(request);
-      if (cached) return cached;
-      if (request.mode === 'navigate') {
-        const index = await cache.match('index.html');
-        if (index) return index;
-      }
-      throw err;
+    const cached = await cache.match(request);
+
+    const network = fetch(request)
+        .then((fresh) => {
+          if (fresh && fresh.ok) cache.put(request, fresh.clone());
+          return fresh;
+        })
+        .catch(() => null);
+
+    if (cached) {
+      // Serve the cached copy now; refresh the cache in the background.
+      event.waitUntil(network);
+      return cached;
     }
+
+    // Nothing cached yet (first visit / new file): use the network.
+    const fresh = await network;
+    if (fresh) return fresh;
+
+    // Offline and uncached: fall back to the app shell for navigations.
+    if (request.mode === 'navigate') {
+      const index = await cache.match('index.html');
+      if (index) return index;
+    }
+    return Response.error();
   })());
 });
