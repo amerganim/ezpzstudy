@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:ezpzstudy/ui/session/renderers/chart_view.dart';
 
@@ -60,5 +61,18 @@ void main() {
     final visitors = parseChartFromPrompt(prompts[12])!;
     expect(visitors.points.map((p) => p.label).toList(),
         ['Day 1', 'Day 3', 'Day 5', 'Day 7']);
+  });
+
+  testWidgets('every prompt renders as a ChartCard without exceptions',
+      (tester) async {
+    for (final p in prompts) {
+      final spec = parseChartFromPrompt(p)!;
+      await tester.pumpWidget(MaterialApp(
+        home: Scaffold(
+          body: SizedBox(width: 360, child: ChartCard(spec: spec)),
+        ),
+      ));
+      expect(tester.takeException(), isNull, reason: p);
+    }
   });
 }
