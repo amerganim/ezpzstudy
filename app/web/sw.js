@@ -47,10 +47,13 @@ const SHELL = [
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    // Fetch fresh copies (bypass the HTTP cache); ignore any that 404.
-    await Promise.all(
-      SHELL.map((u) => cache.add(new Request(u, { cache: 'reload' })).catch(() => {})),
-    );
+    // Precache the shell REUSING the browser's HTTP cache (default cache mode).
+    // Registration happens on window 'load', after the page has already
+    // downloaded these files, so this just copies them into the SW cache — it
+    // does NOT re-download them. (Using {cache:'reload'} here previously forced
+    // a second full download of the whole app, doubling the first-load data and
+    // making it painfully slow on mobile data.)
+    await Promise.all(SHELL.map((u) => cache.add(u).catch(() => {})));
     await self.skipWaiting();
   })());
 });
