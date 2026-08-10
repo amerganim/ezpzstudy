@@ -20,13 +20,16 @@
  */
 'use strict';
 
-const CACHE = 'ezpz-cache-v3';
+const CACHE = 'ezpz-cache-v4';
 
-// The heavy, stable app-shell files. Precached on install (best-effort, each
-// failure ignored) so the app is fully cached — and thus opens instantly on
-// slow mobile data and works offline — from the FIRST visit, not just later
-// ones. (On a first visit these load before the SW controls the page, so
-// without precaching they'd only get cached on a second visit.)
+// The app-shell files to precache on install (best-effort). These are ONLY the
+// files a Chromium browser (Chrome / Samsung Internet — ~all Android users)
+// actually downloads. We deliberately DO NOT list the full `canvaskit.wasm`
+// (2.9MB) or `skwasm.wasm` (1.5MB): Chrome uses the smaller `canvaskit/chromium`
+// build, so precaching the others just wastes ~4.4MB of download on first load
+// (this was the main cause of the very slow first open on mobile data).
+// Precaching reuses the browser's HTTP cache (default cache mode), so it copies
+// the files the page already fetched rather than downloading them again.
 const SHELL = [
   'index.html',
   'flutter_bootstrap.js',
@@ -34,12 +37,8 @@ const SHELL = [
   'main.dart.js',
   'manifest.json',
   'favicon.png',
-  'canvaskit/canvaskit.js',
-  'canvaskit/canvaskit.wasm',
   'canvaskit/chromium/canvaskit.js',
   'canvaskit/chromium/canvaskit.wasm',
-  'canvaskit/skwasm.js',
-  'canvaskit/skwasm.wasm',
   'sqlite3.wasm',
   'drift_worker.js',
 ];
