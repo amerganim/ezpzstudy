@@ -4,6 +4,7 @@ import '../../../data/models/question_data.dart';
 import '../../../engine/scoring/scoring_engine.dart';
 import '../../../l10n/strings_bn.dart';
 import '../../../theme/app_theme.dart';
+import 'chart_view.dart';
 
 /// Writing prompt: not auto-scored, but self-checked *honestly*.
 ///
@@ -39,6 +40,15 @@ class _WritingRendererState extends State<WritingRenderer> {
   final _controller = TextEditingController();
   final Set<String> _ticked = {}; // ticked AFTER reveal (honest comparison)
   bool _revealed = false;
+  ChartSpec? _chart; // rendered graph for "describe the graph" questions
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.data.writingType == 'graph_description') {
+      _chart = parseChartFromPrompt(widget.data.promptEn);
+    }
+  }
 
   int get _wordCount {
     final t = _controller.text.trim();
@@ -60,6 +70,10 @@ class _WritingRendererState extends State<WritingRenderer> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        if (_chart != null) ...[
+          ChartCard(spec: _chart!),
+          const SizedBox(height: 14),
+        ],
         Text(d.promptEn,
             style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w600)),
         if (d.wordLimit != null) ...[
