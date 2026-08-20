@@ -64,6 +64,9 @@ jobs:
           name: ezpzstudy-apk
           path: app/ezpzstudy.apk
           if-no-files-found: error
+          # Keep storage inside the free Actions quota; tagged builds are kept
+          # permanently as GitHub Releases instead.
+          retention-days: 7
 
       - name: Publish Release (tags only)
         if: startsWith(github.ref, 'refs/tags/')
